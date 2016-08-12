@@ -1,0 +1,1437 @@
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.44
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [19b35b71] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [78a97e00] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [d2c8ef63] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [371fc095] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [7b7ec7c4] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [1b9cb6da] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [7c0c85c8] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2015-10-25 19:45:37') AND (exptime < '20151025204241') AND keyname IN ('wikipathways:pcache:idhash:1594-0!*!0!!en!*!*','wikipathways:pcache:idoptions:1594','wikipathways:pcache:idhash:34768-0!*!*!!*!*!*','wikipathways:pcache:idoptions:34768') 
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [5db031cb] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [3544020c] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [7ae3d9bc] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.66.155
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [525b6e18] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.66.155
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [4c00c738] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.69.4
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [554b8506] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.69.4
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [23a04bfa] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.69.4
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [41f4f206] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.65.80
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [56c3d50d] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.65.80
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [799b891b] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [1ceaa4b6] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [484ac41e] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [8a6bdb12] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [3b1efe38] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [3f7e3aea] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/FeaturedPathways
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 144.172.69.50
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [4f963cc4] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [58f855c0] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.64.217
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [621ac6f7] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.64.222
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [22b185c2] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.64.217
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [3033f5eb] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.64.217
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [7bd5cd90] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/FeaturedPathways
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 104.207.153.198
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [56ec4891] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [3cc64fb2] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [26fbdc26] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.64.181
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [290762df] /wiki/Pathway:Homo_sapiens:Nucleotide_Metabolism   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nucleotide Metabolism' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21533, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nucleotide Metabolism]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!

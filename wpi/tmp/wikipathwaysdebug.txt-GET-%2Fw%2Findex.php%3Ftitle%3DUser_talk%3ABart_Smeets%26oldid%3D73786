@@ -1,0 +1,104 @@
+
+
+Start request GET /w/index.php?title=User_talk:Bart_Smeets&oldid=73786
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Bart Smeets]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.52
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Bart Smeets]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:33690-0!*!*!*!*!*!* and timestamp 20150301121629
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:33690-0!*!*!*!*!*!*','uTÑnÚ0 í3_áæq ]â\0 3MÚX7  A·g7¾K, ;² VUÚ\'ì ÷%ó\rĞ èÂCĞ=Ç7÷  {Î\"Ê‚ 7 Ì¼reå  wØ“e]  +Ø¸`hYÜï³ õá²İ&­[x\\,H. éˆR ×Zø·Ñ	X«\ryV: Di $Ñ•rŒ„ï£°~©)(0ü”L_ÉÚº¿¿ÿÀ¦äJ ©’¼ò4+ ¶¤áà:êRr¿u`[+(ÊÜ÷\"Ü¤U Êı‡7–i Ö‘º©•Z  ¥ËØ	[7› |õ HY[B~V*qÈj*iµÛ [;;–ü p´ ?áI äQºŒ¬aëÿ¬eÉ]öÈ·–•5È¤È¸ÍX ÷ a;¼|÷ú#(ÓÉÂÏÇ‹’Ğ0ê†q E4êÑ ÁâfD ¿3S®ÒŠ§0•jmƒ!g!{zöXä±‘·!ÕFB  q;¥Ëá°§ÔSïpdÇó5ûÌ#Ë ÀY {ø‰“Öu‡½ËÍ:mÔ\'¢\\{`Rø!›l ¤â«Ìa	Ü$Ù¼Ds›8Š»Ù80Šç§ `$\'Êchë[Ê}6—PïW0¼gáp¿f, ¼ ¡ [ıç9˜íQu \\L  ş8÷L‹*‡ÓiwÕebdéšXüŠ¹íñ²î 4ó\'áÄ!ôsw ÇZ7% <ğƒ %UzRİ+;õùFH·‡Vz\rˆïE¢Y £K0î(&¸j5 W³)ÆÀ{  _Â³Ïå!ƒ>ÒNDi¿CëHùØ\\4ï’ ¿] 6 ËdÛh ‡gÄO	^\n Î  wÏ¸^“V‚›í îø]) Iûg 0PõaÇ Çj¿ƒ±u(ê /ºê]u^$ğ¼¢î†äÆ‰¬«ôÀóW‡Ä İb £?ÒÊq©ì< 3Êdgşó?','20150302121629')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 9465
+User: loading options for user 9465 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Bart Smeets]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33690'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User_talk:Bart_Smeets&oldid=73786
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Bart Smeets]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Bart Smeets]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 9465
+User: loading options for user 9465 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Bart Smeets]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33690'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

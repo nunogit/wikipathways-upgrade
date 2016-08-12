@@ -1,0 +1,98 @@
+
+
+Start request GET /wiki/Portal:CIRM/Featured
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Special:WhatLinksHere/Pathway:WP47
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:CIRM/Featured]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 108.62.143.41
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:CIRM/Featured]] are {edit,move}
+Article::view: doing uncached parse
+GETTING PATHWAY OF THE DAY for date: Sunday 15 May 2016
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:CIRM_Related' 
+		Pathway in cache: 'WP1425'
+	Did we have WP1425 before?  1
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:CIRM_Related' 
+		Trying: 'WP2432'
+			1 attempt
+	Did we have WP2432 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP2432','Curation:CIRM_RelatedSunday 15 May 2016')
+END GETTING PATHWAY OF THE DAY for date: Sunday 15 May 2016
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20151127080313, touched '' epoch 20150515185216, good 1
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/0/0f/WP2432_79927.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/0/0f/WP2432_79927.svg
+[ContentHandler] Created handler for pathway: PathwayHandler
+FileCacheBase::isCacheGood: cachetime 20151127080313, touched '20150427120214' epoch 20150515185216, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/0/0f/WP2432_79927.gpml" "/tmp/WP2432_79927.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/0/0f/WP2432_79927.gpml" "/tmp/WP2432_79927.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/0/0f/WP2432_79927.svg:
+<BR>Status:254
+<BR>Message:[     0.015] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+org.pathvisio.core.model.ConverterException: class org.jdom.input.JDOMParseException: Error on line -1: Premature end of file.
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:504)
+	at org.pathvisio.core.model.GpmlFormat.readFromXmlImpl(GpmlFormat.java:160)
+	at org.pathvisio.core.model.GpmlFormat.readFromXml(GpmlFormat.java:121)
+	at org.pathvisio.core.model.GpmlFormat.doImport(GpmlFormat.java:61)
+	at org.pathvisio.core.Engine.importPathway(Engine.java:130)
+	at org.pathvisio.core.util.Converter.main(Converter.java:146)
+Caused by: org.jdom.input.JDOMParseException: Error on line -1: Premature end of file.
+	... 6 more
+Caused by: org.xml.sax.SAXParseException; Premature end of file.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:489)
+	... 5 more
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/0/0f/WP2432_79927.gpml" "/tmp/WP2432_79927.svg" 2>&1<BR>MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:CIRM_Related' 
+Saved in parser cache with key wikipathways:pcache:idhash:14505-0!*!0!*!*!*!* and timestamp 20160516020628
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:14505-0!*!0!*!*!*!*','İZ{oÛ8 ßÏŸ‚õ 6Î!ÑË¯Xy,²yl²H\Z£I Àb Ğ m³‘D EÙÉ  î#Üg¼Or3”dËŠ:i÷ ¸¶©eRüÍof8Ã!™+×vÜzŸÊ„É«TÅ©ª»Í–û˜¸m· Ş°{UßMÜn·İuë{ñÁ %cÉ†ûusÊï¸Ù§j<¥ îÇ¾Ój:u¢¸\nØ~½Ò|p óˆ äHHŸœGŸSù°gÒ Ò¸L  ¦‰— i²¹7Ä<àÑ„ Ü\'q ‘!º„İ{,V\\Ddã¤xÜ S®Æ$dIBGŒl¼è `D	â‰hÂ¤ÂGsB¥9N5ß 41§& aLbzÔ 3sÖLF¦eZC3c~Ûíõœ® ­n-£w­¨J ×i·ò†ËLºû Á?–aÙíßAÇ¡p	éƒ¥˜d‘Ç 2ä@mFÆ@ }à	 ¥Gâ –D \n”å‰Ú\"iÂ£ ñÙ¦Jj ©Œ\0ôg.ú‡Ÿ\n ™$‘P„GÄ h’ \"[‹¯$h4|‡N( r ùôÁ¨	92pÀ … Ì …Ï ã¨À™ÚÍà	 ùì‹Ğà Ì ã×ã«K=uJ/H)$ ™  Ù¶]4C V“Œ°È\'b¨maÔşBU ïúğÓÏ) |& ~6J\rŸ¿Û¶Z›³K¹ÿ ‡Á© ĞŒú§R„ŸÂà<ŒƒF©KƒÙ ëU`O {} _\0 !Õ ”Îj“h Æ4¸ ˜ W#oÌ 4W«’*^r© R 5æ_³á­Îfíˆ¦	óÉàÁı¾n6 ƒtH Tª\"îÃÀHè=º} ~÷ks†Æ ·Æ=“ [™†šĞ ü€É’Æ1(ç× { ßx İEb\Z‘k‘ ÀæKa‡TÑ@w¬‰  ŒO— zÌ;†^  © ş p>diæ˜)æ)!\r  d  ãXxyßšˆ±^ˆ  µm˜¥C>J%E§e]\ZL¶B¾jôá Q’zª˜‡/CùLïãY„HLdû ¾­ ö’ìÚÚémfñÚÎâuÏ„  şé•îH„!Ä‹¯’íOá}Ûv.Éög*W.²Ó˜›  ™³Œt«3  ©¿la A²\\²2cs °T ?Y²ëÄùq¤v¤a¼kg*làBù Y(wX„Ó5)J›Ùƒ cÈôİ^\rj\0ï K™«MTÛ ÁÁ^À ¬o oØ ¤aÈ£YÓ6’ÏWùÆF  |´±	²A&Êµ¿M®İêUä&tÂŠ5Â?BW46À¤e™Î7Éì4» ‘iìC®^.«¹®¬¼çfœ†ƒL·N³\"gÄÔ)¬%ïß]db¶À“)+	k½ZXÛšËÒ­® Ò;¦ /xtw5øÜ€ È‘ü­Í-²Q)ÑµĞ\n…¶dÁ~= C  bZÏ*°ı: 8`( ƒŠ›JĞh¿~; htWÏ«ó±R±kš“Ğ6P Ä¬ ,iÄ2|% E \nŸâ©B ğ±iYeÏ´Éo<* ¥‘‡)ö÷ª   † 3W Ó j¾¸M(Ğ $/g–[~Å %zÕõä ©ÏĞ‹HÇ,’)¸±Ùn:àH Á-Ô+ò  »¥RBÑµQÑ,#tˆ}%±İW‰uÚ¶?Ø’E?0È¾æ¦Ù°Ã`%€€9•4d·P ¡Aÿ\ZOÏ1}.¡´³>%¨ ¤€¥\'  ³8²ºİEr Ì×)¬m\\¥š› ¹E¡XâÓ{•‰ZPÿ ‹ş RSa÷1,LsÛ¼…š»*Ï^›ÿ0 ,UÜ^¬ŸÓÜê6_¢ù ±Ê2W\'ëgdÚv»¹¨2 &\0¥?PÉq#™46   /»7°«¬®K« ÷3rÛ­ŠØ\"Ãè¦¥2·È 	Ë?Ê VgóR&¿  jgBÜ%š@«Û©êí¥PÅNØ\r ­&Q »\"/Î ¹.¤í<™\\\roÆì ²Ë“ yF°U\'\0w	 NşòZÖ=:wyû.oÅelÃ÷O~ úË“Ÿı?È~•¬·`Æ ¬ş„ ¸<ş_—ù¾)ş $¿—Æ?)›¿  ÎërİÎ×âÿY™kä:(«!ö•ù ú ä£ì»–îôz‹Òã•Rg®¾ÁCÊÍ¹ç³ÓT}Ölf fñ³ÛÄÓ¢9İ5R$ÒìÃ²^¬   êEi[>ÈmTØiÑ+H– ­N™3F}!‚#‘¢_2£YÚhĞúQÈ»C©¸ ° œM5/_`k£,£ıu 9ŠÆïZİ ?—Š€y @nVl |ÄGuBILäxèe  ˜ù±¼È kø	ô/`¯‘ÜĞ5 Z ­2 ‘m­Æb qÄ4ClZm@¼d>§Ø–ÍO&‡B†‡ )2×a³2EËr×ÈC3¹íÎJ¹ïØ?R–¨²JÍ5ÒÍÜHí\'ĞúŒ² ø\\ ñÙ}Æ±÷ G¦‹0 yDè/y“	Ûöš>ß8@\' XpÈ×÷] u_Ùw O£ÌÓ rdÎ©ş”]“\\ÇÌã4póÏbU‡\Z#Ñ‡ 8SŠÍó©û•eŸañá× N™>(õ‹MW¢ïVÀ5Dy A# \röÌÁÁü8çàXL£@P_«ŒpÅ}KB  $AB,qgƒj{i@Ğ„d~ TÙM.ªš ıPå QZñ yÿ˜F\\€¡% ZU<İ½yˆÙ> èè EG+ ›>bàƒ  j^xû{Q= ¡ 	9 ‹ßÌµ öG-_¨}3Ù2Ø Aö U\nDDBNØˆ{ßñ Ä9m3…X¯í½ÙŞ&µ·lÚï“€‡\\‘ìĞ»V®ù  U <àøŒx¸à¸¤Ù2mKÿY|wÄ\"&iõmÇ¶ç¯‹Dıç_ÿÎJ5’\'@’ğ2—ØvgÇ1aõìÚm BO±¤Vì+ è–†°¶çïöZ• Ïøh ™—hd}Íç³X«Ù²j\'÷1no&Œd Öl Rp´am{»0Ë50äW¼¯O`³+Ö;ö@ÊşucİérL“±k·ÚV{Ûzó÷7ø£ÿ ÔUñ ø ‰cÙ «\r?Õ  …âµ²İrëá F)T7xB–Ôw©k¹_ Ï†¾#°ÃHH˜-¥  /¦1ƒ ·Ó ´diNO ³ÈˆØ×A	 ²í>r ïdº3¿¢Şå®Ó²;Íİ/3	¹ Ê ‹qvÓ­ã®ï!És. Ç´²áNiø¹¿>\0lº\Z¡ \0ú §¬ö 4âÉå5£Ò ç…[© my’/R3 -­ç.= D™è Ô÷»­\\ë­ZZ4²Æß28ÇŠ ¥.›  ¬×LOÜúîÀµvó1gÜgKºĞsoÅ/°¬1ù°ĞzÆ¨®XXÂG‹^\n?\rXÕYëµ\'y¬Ê}ÍyŸzX Öuå¿ PîÄ ‘ åz÷<ï Ï„x±Ï£Q¥5×¬: N|®ò® qÇ°?W Õ— Ê2µ /8êæêèìæò   lQßEQ  E0BœZVÛéZ¶Ó³{:¶ F~(ï*~\0wÁlè‹€{ %À¦õäÅC “$óKsu6û •  ,\"0]  uĞÓ¡Ù~  ÊŠÈ§òá˜*ú^_ ””sv 8)ÎupÀ¢ ò»H¤ ‚l£c´f¶Ğ7 h’-J9K·:Å{\\¹ÔAÛìXÚú ²¸ ƒò2¹\nüK\nëOæš/ÿ ','20160516030628')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:CIRM/Featured]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

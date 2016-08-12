@@ -1,0 +1,88 @@
+
+
+Start request GET /w/index.php?action=ajax&rs=CurationTagsAjax%3A%3AgetTags&rsargs[]=23637&rsargs[]=73324
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+PRAGMA: cache=yes
+CACHE-CONTROL: no-transform
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36
+ACCEPT: */*
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP2406
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.2061580704.1469095292.1470315462.1470372181.9; __utmz=141536308.1470372181.9.8.utmcsr=ncbi.nlm.nih.gov|utmccn=(referral)|utmcmd=referral|utmcct=/biosystems/712094
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+AjaxDispatcher::performAction dispatching CurationTagsAjax::getTags
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+User: cache miss for user 10
+User: loading options for user 10 from database.
+User: cache miss for user 10
+User: loading options for user 10 from database.
+Parser: using preprocessor: Preprocessor_DOM
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+IP: 14.139.155.135
+[ContentHandler] Created handler for pathway: PathwayHandler
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/2f/CIRM.png/31px-CIRM.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/2/2f/CIRM.png/31px-CIRM.png does not exist.
+BitmapHandler::doTransform: creating 31x25 thumbnail at /tmp/transform_88b49f1126c4-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/2f/CIRM.png/31px-CIRM.png
+BitmapHandler::doTransform: creating 31x25 thumbnail at /tmp/transform_22c284a71416-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/2f/CIRM.png/31px-CIRM.png
+BitmapHandler::doTransform: creating 31x25 thumbnail at /tmp/transform_779bb4a07062-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+User: cache miss for user 10
+User: loading options for user 10 from database.
+User: cache miss for user 1304
+User: loading options for user 1304 from database.
+Parser: using preprocessor: Preprocessor_DOM
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/2f/Featured.png/25px-Featured.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/2/2f/Featured.png/25px-Featured.png does not exist.
+BitmapHandler::doTransform: creating 25x24 thumbnail at /tmp/transform_7542da14754f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/2f/Featured.png/25px-Featured.png
+BitmapHandler::doTransform: creating 25x24 thumbnail at /tmp/transform_4aba665a2579-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/2f/Featured.png/25px-Featured.png
+BitmapHandler::doTransform: creating 25x24 thumbnail at /tmp/transform_7125aee273c4-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+User: cache miss for user 10
+User: loading options for user 10 from database.
+User: cache miss for user 1304
+User: loading options for user 1304 from database.
+Parser: using preprocessor: Preprocessor_DOM
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7b/Curated.png/25px-Curated.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/7/7b/Curated.png/25px-Curated.png does not exist.
+BitmapHandler::doTransform: creating 25x19 thumbnail at /tmp/transform_6d89baf15440-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7b/Curated.png/25px-Curated.png
+BitmapHandler::doTransform: creating 25x19 thumbnail at /tmp/transform_6cc1636a44b8-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7b/Curated.png/25px-Curated.png
+BitmapHandler::doTransform: creating 25x19 thumbnail at /tmp/transform_d13ce7e6aa73-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+AjaxDispatcher::performAction dispatch complete for CurationTagsAjax::getTags
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

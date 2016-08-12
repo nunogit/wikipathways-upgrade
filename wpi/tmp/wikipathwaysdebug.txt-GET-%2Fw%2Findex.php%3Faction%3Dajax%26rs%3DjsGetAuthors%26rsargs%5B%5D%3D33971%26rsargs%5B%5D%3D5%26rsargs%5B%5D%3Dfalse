@@ -1,0 +1,38 @@
+
+
+Start request GET /w/index.php?action=ajax&rs=jsGetAuthors&rsargs[]=33971&rsargs[]=5&rsargs[]=false
+HTTP HEADERS:
+ACCEPT: */*
+PRAGMA: cache=yes
+CACHE-CONTROL: no-transform
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP2686
+ACCEPT-LANGUAGE: el-GR
+ACCEPT-ENCODING: gzip, deflate
+USER-AGENT: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-Alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+AjaxDispatcher::performAction dispatching jsGetAuthors
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+User: cache miss for user 2089
+User: loading options for user 2089 from database.
+User: cache miss for user 9550
+User: loading options for user 9550 from database.
+AjaxDispatcher::performAction dispatch complete for jsGetAuthors
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

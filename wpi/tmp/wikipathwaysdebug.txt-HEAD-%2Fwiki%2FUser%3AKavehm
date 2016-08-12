@@ -1,0 +1,51 @@
+
+
+Start request HEAD /wiki/User:Kavehm
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+ACCEPT-LANGUAGE: en-us,en;q=0.5
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20150101 Firefox/20.0 (Chrome)
+ACCEPT-CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+CONNECTION: close
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Kavehm]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 147.156.56.119
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Kavehm]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 9675
+User: loading options for user 9675 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Kavehm]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '34435'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

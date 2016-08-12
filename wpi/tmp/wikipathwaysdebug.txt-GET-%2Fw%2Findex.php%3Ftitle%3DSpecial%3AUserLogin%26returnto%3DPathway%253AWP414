@@ -1,0 +1,44 @@
+
+
+Start request GET /w/index.php?title=Special:UserLogin&returnto=Pathway%3AWP414
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:39.0) Gecko/20100101 Firefox/39.0 Iceweasel/39.0a2
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: en-US,en;q=0.5
+ACCEPT-ENCODING: gzip, deflate
+DNT: 1
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP414
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[cookie] session_set_cookie_params: "0", "/", "", "", ""
+Unstubbing $wgAuth on call of $wgAuth::validDomain from LoginForm::load
+IP: 24.229.66.193
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+MWCryptRand::realGenerate: Generating cryptographic random bytes for LoginForm::setLoginToken/MWCryptRand::generateHex/MWCryptRand::realGenerateHex/MWCryptRand::generate/MWCryptRand::realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 16 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

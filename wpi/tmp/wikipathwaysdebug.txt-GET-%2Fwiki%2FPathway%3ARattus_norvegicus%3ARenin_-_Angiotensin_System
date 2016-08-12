@@ -1,0 +1,1059 @@
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [27e8888d] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.73.163
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2015-09-28 05:11:51') AND (exptime < '20150928063738') AND keyname IN ('wikipathways:pcache:idhash:13747-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:13747','wikipathways:pcache:idhash:13374-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:13374','wikipathways:pcache:idhash:12582-0!*!0!*!*!*!*','wikipathways:pcache:idoptions:12582','wikipathways:pcache:idhash:5239-0!*!0!!en!*!*','wikipathways:pcache:idoptions:5239','wikipathways:pcache:idhash:5295-0!*!0!!en!*!*','wikipathways:pcache:idoptions:5295','wikipathways:pcache:idhash:5242-0!*!0!*!*!*!*','wikipathways:pcache:idoptions:5242') 
+[exception] [65f6571f] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.73.179
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [6eb49d7c] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [433ad8bc] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [33d045dc] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-ENCODING: gzip
+ACCEPT-LANGUAGE: en-US
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 180.76.15.154
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [62a393cf] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [10ed8e65] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.69.4
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [41ea34fd] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.69.4
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [40be3d4b] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.65.83
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [722fd553] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [7e587b1e] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.75.4
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [4c1a8f07] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.75.4
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [246a7fa1] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.75.4
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [8e1adde3] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/User:Thomas
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 104.244.158.209
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [24b41843] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [10f11904] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [55a32c19] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.139
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [e298dcd5] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/User:Thomas
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 173.234.150.182
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [6bd87ba0] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [46d1e1f5] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [8ebf2355] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.139
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [77b6f15a] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [666e14cd] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [38274296] /wiki/Pathway:Rattus_norvegicus:Renin_-_Angiotensin_System   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Rattus norvegicus:Renin - Angiotensin System' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21470, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Renin - Angiotensin System]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!

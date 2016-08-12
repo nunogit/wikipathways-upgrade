@@ -1,0 +1,390 @@
+
+
+Start request GET /wiki/Pathway:WP1837
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1837]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1837]] are {edit,move}
+Article::view: doing uncached parse
+[ContentHandler] Accessing pathway content as text!
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:02439e8a5cbef0aa66ad29d87fe6a2cb:0)
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160204202122, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160204202122, touched '' epoch 20150515185216, good 1
+Got thumbUrl: http://vm1.wikipathways.org/w/img_auth.php/cache/pathways/svg/3/3b/WP1837_77092.svg
+Parser output marked as uncacheable.
+updateCache called for filetype png
+	->Updating cached file for png
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160204202122, touched '' epoch 20150515185216, good 1
+wfShellExec: /bin/bash '/var/www/wikipathways/w/includes/limit.sh' 'inkscape -z -b white -w 1000 -f '\''/var/www/wikipathways/w/images/cache/pathways/svg/3/3b/WP1837_77092.svg'\'' -e '\''/var/www/wikipathways/w/images/cache/pathways/png/3/3b/WP1837_77092.png'\'' 2>&1' 'MW_CPU_LIMIT=180; MW_CGROUP='\'''\''; MW_MEM_LIMIT=524288; MW_FILE_SIZE_LIMIT=102400; MW_WALL_CLOCK_LIMIT=180'
+PNG CACHE SAVED: /var/www/wikipathways/w/images/cache/pathways/png/3/3b/WP1837_77092.png, 1;
+updateCache called for filetype png
+FileCacheBase::isCacheGood: cachetime 20160204202835, touched '' epoch 20150515185216, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160204202120, touched '' epoch 20150515185216, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160204202120, touched '' epoch 20150515185216, good 1
+[ContentHandler] Accessing pathway content as text!
+Article::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Class SkinWikiPathways not found; skipped loading
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:02439e8a5cbef0aa66ad29d87fe6a2cb:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1837]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '16183'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Pathway:WP1837
+HTTP HEADERS:
+USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; de-DE; rv:1.7.6) Gecko/20050226 Firefox/1.0.1
+HOST: vm1.wikipathways.org
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1837]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 176.122.88.17
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1837]] are {edit,move}
+Article::view: doing uncached parse
+[ContentHandler] Accessing pathway content as text!
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:02439e8a5cbef0aa66ad29d87fe6a2cb:0)
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160204202122, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160204202122, touched '' epoch 20150515185216, good 1
+Got thumbUrl: http://vm1.wikipathways.org/w/img_auth.php/cache/pathways/svg/3/3b/WP1837_77092.svg
+Parser output marked as uncacheable.
+updateCache called for filetype png
+FileCacheBase::isCacheGood: cachetime 20160204202835, touched '' epoch 20150515185216, good 1
+updateCache called for filetype png
+FileCacheBase::isCacheGood: cachetime 20160204202835, touched '' epoch 20150515185216, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160204202120, touched '' epoch 20150515185216, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160204202120, touched '' epoch 20150515185216, good 1
+[ContentHandler] Accessing pathway content as text!
+Article::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Class SkinWikiPathways not found; skipped loading
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:02439e8a5cbef0aa66ad29d87fe6a2cb:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1837]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '16183'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Pathway:WP1837
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1837]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.139
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1837]] are {edit,move}
+Article::view: doing uncached parse
+[ContentHandler] Accessing pathway content as text!
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:02439e8a5cbef0aa66ad29d87fe6a2cb:0)
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160204202122, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160204202122, touched '' epoch 20150515185216, good 1
+Got thumbUrl: http://vm1.wikipathways.org/w/img_auth.php/cache/pathways/svg/3/3b/WP1837_77092.svg
+Parser output marked as uncacheable.
+updateCache called for filetype png
+FileCacheBase::isCacheGood: cachetime 20160204202835, touched '' epoch 20150515185216, good 1
+updateCache called for filetype png
+FileCacheBase::isCacheGood: cachetime 20160204202835, touched '' epoch 20150515185216, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160204202120, touched '' epoch 20150515185216, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160204202120, touched '' epoch 20150515185216, good 1
+[ContentHandler] Accessing pathway content as text!
+Article::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Class SkinWikiPathways not found; skipped loading
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:02439e8a5cbef0aa66ad29d87fe6a2cb:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2016-06-22 13:32:10') AND (exptime < '20160622134145') AND keyname IN ('wikipathways:pcache:idhash:14501-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:14501','wikipathways:pcache:idhash:19403-0!*!0!!en!*!*','wikipathways:pcache:idoptions:19403','wikipathways:pcache:idhash:33420-0!*!0!!en!*!*','wikipathways:pcache:idoptions:33420','wikipathways:pcache:idhash:16874-0!*!0!!en!*!*','wikipathways:pcache:idoptions:16874','wikipathways:pcache:idhash:33421-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:33421','wikipathways:pcache:idhash:19404-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:19404') 
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1837]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '16183'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Pathway:WP1837
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1837]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.139
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1837]] are {edit,move}
+Article::view: doing uncached parse
+[ContentHandler] Accessing pathway content as text!
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:02439e8a5cbef0aa66ad29d87fe6a2cb:0)
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160204202122, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160204202122, touched '' epoch 20150515185216, good 1
+Got thumbUrl: http://vm1.wikipathways.org/w/img_auth.php/cache/pathways/svg/3/3b/WP1837_77092.svg
+Parser output marked as uncacheable.
+updateCache called for filetype png
+FileCacheBase::isCacheGood: cachetime 20160204202835, touched '' epoch 20150515185216, good 1
+updateCache called for filetype png
+FileCacheBase::isCacheGood: cachetime 20160204202835, touched '' epoch 20150515185216, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160204202120, touched '' epoch 20150515185216, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160204202120, touched '' epoch 20150515185216, good 1
+[ContentHandler] Accessing pathway content as text!
+Article::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Class SkinWikiPathways not found; skipped loading
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:02439e8a5cbef0aa66ad29d87fe6a2cb:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1837]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '16183'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Pathway:WP1837
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1837]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.139
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1837]] are {edit,move}
+Article::view: doing uncached parse
+[ContentHandler] Accessing pathway content as text!
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:02439e8a5cbef0aa66ad29d87fe6a2cb:0)
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160204202122, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160204202122, touched '' epoch 20150515185216, good 1
+Got thumbUrl: http://vm1.wikipathways.org/w/img_auth.php/cache/pathways/svg/3/3b/WP1837_77092.svg
+Parser output marked as uncacheable.
+updateCache called for filetype png
+FileCacheBase::isCacheGood: cachetime 20160204202835, touched '' epoch 20150515185216, good 1
+updateCache called for filetype png
+FileCacheBase::isCacheGood: cachetime 20160204202835, touched '' epoch 20150515185216, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160204202120, touched '' epoch 20150515185216, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160204202120, touched '' epoch 20150515185216, good 1
+[ContentHandler] Accessing pathway content as text!
+Article::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Class SkinWikiPathways not found; skipped loading
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:02439e8a5cbef0aa66ad29d87fe6a2cb:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1837]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '16183'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Pathway:WP1837
+HTTP HEADERS:
+ACCEPT: text/html, application/xhtml+xml, */*
+REFERER: http://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&ved=0ahUKEwjf7_mz_47OAhUkCsAKHaqzBlUQFgg0MAQ&url=http%3A%2F%2Fvm1.wikipathways.org%2Fwiki%2FPathway%3AWP1837&usg=AFQjCNEDl8oHjp5VmEBkb7Bkbzi6uv3FuQ&sig2=Hgqjq70VrnaV82qrwfoi7g
+ACCEPT-LANGUAGE: en-gb
+USER-AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+ACCEPT-ENCODING: gzip, deflate
+HOST: vm1.wikipathways.org
+COOKIE: __utma=141536308.710203718.1469462789.1469462789.1469462789.1; __utmb=141536308.1.10.1469462789; __utmc=141536308; __utmz=141536308.1469462789.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmt=1
+MAX-FORWARDS: 10
+VIA: 1.1 ws500.adaptimmune.corp.local:8080
+CONNECTION: Keep-Alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1837]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 88.98.68.56
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1837]] are {edit,move}
+Article::view: doing uncached parse
+[ContentHandler] Accessing pathway content as text!
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:02439e8a5cbef0aa66ad29d87fe6a2cb:0)
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160204202122, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160204202122, touched '' epoch 20150515185216, good 1
+Got thumbUrl: http://vm1.wikipathways.org/w/img_auth.php/cache/pathways/svg/3/3b/WP1837_77092.svg
+Parser output marked as uncacheable.
+updateCache called for filetype png
+FileCacheBase::isCacheGood: cachetime 20160204202835, touched '' epoch 20150515185216, good 1
+updateCache called for filetype png
+FileCacheBase::isCacheGood: cachetime 20160204202835, touched '' epoch 20150515185216, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160204202120, touched '' epoch 20150515185216, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160204202120, touched '' epoch 20150515185216, good 1
+[ContentHandler] Accessing pathway content as text!
+Article::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Class SkinWikiPathways not found; skipped loading
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:02439e8a5cbef0aa66ad29d87fe6a2cb:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1837]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '16183'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

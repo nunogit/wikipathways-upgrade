@@ -1,0 +1,713 @@
+
+
+Start request GET /wiki/File:Stub.png
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Stub.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.52
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_833ece81fdd7-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:13333-0!*!*!*!*!*!* and timestamp 20150415052046
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:13333-0!*!*!*!*!*!*','uTínÚ0 íoÂÍÏItù€BÍ4ibİ@‚‚ Û~»ñ]b‘Ø–í´°ªÒ aÏ¸\'™o€6„. î9÷æ{½ QLƒ%3 Ì¢rºr MzôÉÒ>\rÊ5l]0²4  iĞùpÙí’Î <.—¤ ¥pÄ€VÆu–ş×¨ ¬U†< + p\"  ’ªJ:JÂ÷QX?§Ô $ Ö&Ç¯deİßß`«™äDÈ´¨<ÍŠ_€%ãğf õcr¿s`;k(uák f²ª éşÃ›ˆ, ëH]Ô\n%	 ír$öÂÎíVƒ>\0ÑõHÈÏJ¦ YM%n÷cg? {\0líÈOYš y .\' Øù? ¡™Ë ÙÎR]ƒTğœÙœF‰ºáå»× A™N”¾?Vj ‡Q?ìùo? {× _ŠËˆz~33&³Še0 rcƒ £!}zöXä±± C¦Œ€& â:…+à¸Ó(¡Á Q\0]¹êşJË ƒ×XºU²Î<L·  ñ)o   LKß\\“í\rTâëVÀLš/4 µ‰£¨Û­ #YÑî\0­8• Ãq¾¥Ø{r õ‚Ñ=\rG‡œ‰àğ „‚îÔWV `v\'Ñ	0>uP6êcßsÅ« Úİî£«Ô íšXòŠ¹İiZÿ šû Ğš Îs \'J5%Şxà 3RÈ¬ =(kÏù– w€Öj ˆ Dâ°–Fi0îÄ ˜µ^Œ\'ëù màg Œ^LsğãÑ{Ş–I8 ãhĞ ÄCŒÆŞ6 Í;äÂ¯‹Ãv©\n‘î\Z “ğŒø)ÅË\0ø™#’ş ×kR’3³ûÌ û¦ù©!ãáY \Zª>ä˜pªö; [›¢¾é¢«ë«Ş‹ä1SÔİÜ8‰u4>òü•!ĞFw Eë•tLH»(øœe\"İ ÿù ','20150416052046')
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_1a556988122a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 40x40 thumbnail at /tmp/transform_5e4dda8e2457-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching; Sat, 14 Feb 2015 19:09:24 GMT **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '13333'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Stub.png
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Stub.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_274d6a5a66b0-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:13333-0!*!*!*!*!*!* and timestamp 20151030000514
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:13333-0!*!*!*!*!*!*','uT]oÚ0 í3¿ÂÍã$º|BÍ4ibİ@‚‚ Ûİø.±HlËvZXUi?a¿q¿d¾ Ú\0]x ºçŞ›{Î=öœF1\r ÌX0óÚéÚ 4éÑ\'KS\ZT+Ø¸`hi2 Ğ óá²Û%;x\\,H)*áˆ ­Œë,ü¿Q X« y V8àD* $Sµt”„ï£°ySs`Øirüš¬¬ûûû l4“œ ™•µO³â `Ë8¼éGiLî· lg •.}/ÂL^W İòÆ\"/À:Ò4µBIÂA»  {açv£ÁG €èF ò³–™Ã¬6“N·û±³“cÉ \0G;äg,+€<\nW5lıËZhæŠG¶µT7  ¼`¶ QâŸnxùîõG¦ •ŸUšÄa”Fa‚R¤QàGq QÏofÊd^³ ¦B®m0d4¤OÏ ‹<6ò2äÊ h !®S¸  ; \Z| %Ğ¥«ï¯´Ì1x­OZ6•{uÛñ¸ Ÿğ Ò÷À¤òÃµ³½*üÜ ˜ÉŠ¹FQÛ8’ºİ80’•§   \'Òc(ç[Œ½\'—Ğì) ŞÓp¸¯   o@HèN}ee	f{   ã  U«?Î=S¼.átÚ]t™ ¡] K^1·=.K_ ™? \'\n¡»#8VªMñÆ ?˜‘Bæ\'Ñ=³So¹p{h¥Ö€ø$Šµ0JƒqGöÀªÕ|4^Í¦h ¯E0|1ÍŞ ïy[&a?Œ£~Ú  ½m.ÚwÈ…_ ‡ÍB•\"Û¶\Z&áYâ§ / àgHÒ³\\ÏIIÎÌö3sì›æÇ†Œ g h¨æcÁ1Ûï`lcŠæ¦‹®®¯z/”GxN‘w‹rë$6Ñøç¯ 6ºÃ(Z¤¤cBÚyÉg, ÙNüç','20151031000514')
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_bd5d85e76c7d-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 40x40 thumbnail at /tmp/transform_44dbe7ec607d-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '13333'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Stub.png
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Stub.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_64c899fc7295-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:13333-0!*!*!*!*!*!* and timestamp 20160204133934
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:13333-0!*!*!*!*!*!*','uT]oÚ0 í3¿ÂÍã$º|@¡fš4±n AA‚mÏn|—X$¶e;-¬ª´Ÿ°ß¸_2ß\0m ]x ºçÜ›{î=ö‚F1\r–ÌX0‹ÊéÊ 4éÑ\'Kû4(×°uÁÈÒd8¤AçÃe·K:wğ¸\\’B”Â  Z ×Yú£R°V ò ¬pÀ‰T Hª*é(	ßGaıœR3`X› ¿’•uÿ­f’ !Ó¢ò4+~ –ŒÃ›AÔÉıÎí¬¡Ô…¯E˜Éª ¤û o\"² ¬#uQ+”$ ´Ë‘Ø ;·[\r>ú\0D×#!?+™:d5•tºİı8Vì °µ#?ei äQ¸œl`ç_6B3—?²¥º ©à9³9 ÿtÃËw¯?‚2(}¬Ô$ £ë0 {y“ô ~ — õüffLf Ë`&äÆ #FCúôì±Ècc?†L  M Äu\nWÀq§QBƒ/¢\0ºrÕı•–  ¯±t«dy˜n3 7âSŞ@  ˜–¾¹&Û ¨ÄÏ­€™4_h j GQ·[ F²¢İ Zq*=†ã|K±÷ä\nê= £{\Z 9 Áá\r  İ©¯¬(ÀìN¢ `|ê lÔÇ¾çŠW ´»İGW© Ú5±ä s»Ó´ş 4÷\' 5!œçş N”jJ¼ñÀ f¤Y+zPÖó- î\0­Õ  ?ˆÄa-Ò`Ü‰=0k½ OÖó ÚÀÏ\" ½˜æàÇ£÷¼-“p ÆÑ ?ˆ‡ ½m.šwÈ…_ ‡íR \"İ5\n&á ñSŠ— ğ3G$ı3®×¤$gf÷™9öMóSCÆÃ³ 4T}È1áTíw0¶6E}ÓEW×W½ Éc<§¨»!¹q ëh|äù+C î0ŠÖ +é˜vQğ9ËDº şó?','20160205133934')
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_13b103df36f0-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 40x40 thumbnail at /tmp/transform_f83058672aa6-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '13333'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Stub.png
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+IF-MODIFIED-SINCE: Thu, 04 Feb 2016 13:39:35 UTC
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Stub.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_681b355c45ad-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:13333-0!*!*!*!*!*!* and timestamp 20160205202749
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:13333-0!*!*!*!*!*!*','uTÑnÚ0 í3_áæq “@¡fš4±nT* 	¶=»ñ]b‘Ø–í´°ªÒ>aß¸/™o€6@  ˆî9÷æ{=cqÂ¢9· ì¬ö¦ö K{ìÉ±>‹ª%¬}4r,  YÔùpŞí’Î <Îç¤”•ôÄ‚ÑÖwæáßê œÓ–<H\'= ¢´\0’éZyFèû˜6Ï!5  – ““W²vşïï?°6\\	\"UVÖæä/À’	½\ZÄı„Üo<¸Î *S†Z„Û¼®@ùÿğ&2/ÀyÒ uR+\"Àø ‰=Ú¹^  Ñ  ¦ 	ùY«Ì#«­¤Óí~ìlÇ±à €­íù Ï\n Ò d ›ğ²’†ûâ‘o 3\rÈ¤(¸+Xœ†§KÏß½ş Êô²\nıñÊ„Æ—4¡ı„&ƒŞ Áâ2â^ØÌ-WyÍs¸•jå¢ g”== , Ø8Œ!×VB  ¸NéKØï4NYôE–À ¾¾¿0*Çà%–>*Ùdî¦Û\'­øh!ƒ\0ÜT¡¹6; ¨ÂÏ-€Û¬˜  j GQ×k Vñò¸ ´â\n ó-ÅÁ“ hö î  ír&RÀ  \nºÓ_yY‚İ D\'ÀÅ‡ªU ûjQ—pÜí6ºÈ¬4¾¥¯˜ß ¦õ_ i8 G ÂynàDë¶Ä«\0üàVI• EwÊç|-¤ßAK½ Äw\"qXs«\rX` ÌZÎÆ“åô m f ^L³óãŞ{Á–) Ğ$ ô É £I°ÍYû 9 ë °ëRf›VÁ” ?ex €8qDÚ?á MZ	n7Ÿ¹çßŒ84d2<I@C5‡   Õ~ ë\ZS47]|qyÑ{‘<ÆsŠº[’[\'±‰&{^¸2$Úè £hı±VKåf¥˜ò\\fÛá?ÿ ','20160206202749')
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_1de027165b75-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 40x40 thumbnail at /tmp/transform_4d9639963abf-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '13333'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Stub.png
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+IF-MODIFIED-SINCE: Fri, 05 Feb 2016 20:27:50 UTC
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Stub.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_ae4a65743d79-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:13333-0!*!*!*!*!*!* and timestamp 20160208195559
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:13333-0!*!*!*!*!*!*','uT]oÚ0 í3¿ÂÍã$º| fš4±n •‚ Ûİø.±HlËvZXUi?a¿q¿d¾ Ú\0]x ºçÜ›{î=öœF1\r ÌX0óÚéÚ 4éÑ\'KS\ZT+Ø¸`di2 Ğ óá²Û%;x\\,H)*áˆ ­Œë,ü¿Q X« y V8àD* $Sµt”„ï£°y©9H0ì” ¿’•uÿf’ !³²ö4+~ –ŒÃa?Jcr¿u`;+¨ték fòº éşÃ›ˆ¼\0ëHSÔ\n%	 í\n$öÂÎÍFƒ>\0ÑÍHÈÏZf Ym%n÷cg7%{\0líÀÏXV\0y ® kØú—µĞÌ lk©n@*xÁlA£Ä?İğòİë L\'*ß «4‰Ãè:ŒÃA4LÓtHğ£¸Œ¨ç7sËd^³ n…\\Û`ÄhHŸ= ylìÇ+# \r„¸NáJ8ì4JhğE”@—®¾¿Ò2Çà5–>)Ùdî§ÛÇ­ø”·¾ ¦•o®Íö ªğsK`&+æ\Z‡ÚÆQÔÍÆ‘¬<í\0­8• Ãq¾¥Ø{r	Í‚Ñ=\rGûœ‰àğ „‚îÔWV–`¶GÑ	0>uPµêcß3Åë N»İE—™ Úµ±ä sÛã´ô šù p2!œçî N”jK zà 3RÈü$ºWv:ç .Ü Z©5 ¾ ‰ÃZ ¥Á¸#{`Öj>¬f·h ?‹`ôbš½  Şó¶LÂ~ Gı´  0\Z{Û\\´ï ¿. ›…*E¶m LÂ3â§ / àgHÒ3®×¤$gfû™9öMócCÆƒ³ 4TsÈ1áXíw0¶1EsÓEW×W½ Éc<§¨»%¹u ›h|àù+C î0ŠÖ +é˜v^ò ËE¶ şó?','20160209195559')
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_397939e52a54-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 40x40 thumbnail at /tmp/transform_2ae2c6d44c84-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '13333'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Stub.png
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+IF-MODIFIED-SINCE: Mon, 08 Feb 2016 19:56:00 UTC
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Stub.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_698616c51519-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:13333-0!*!*!*!*!*!* and timestamp 20160214085933
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:13333-0!*!*!*!*!*!*','uT]oÚ0 í3¿ÂÍã$º|@¡fš4±n AA‚mÏn|—X$¶e;-¬ª´Ÿ°ß¸_2ß\0m ]x ºçÜ›{î=ö‚F1\r–ÌX0‹ÊéÊ 4éÑ\'Kû4(×°uÁÈÒd8¤AçÃe·K:wğ¸\\’B”Â  Z ×Yú£R°V ò ¬pÀ‰T Hª*é(	ßGaıœR3`X› ¿’•uÿ­f’ !Ó¢ò4+~ –ŒÃ›AÔÉıÎí¬¡Ô…¯E˜Éª ¤û o\"² ¬#uQ+”$ ´Ë‘Ø ;·[\r>ú\0D×#!?+™:d5•tºİı8Vì °µ#?ei äQ¸œl`ç_6B3—?²¥º ©à9³9 ÿtÃËw¯?‚2(}¬Ô$ £ë0zá°“$ ?ŠËˆz~33&³Še0 rcƒ £!}zöXä±± C¦Œ€& â:…+à¸Ó(¡Á Q\0]¹êşJË ƒ×XºU²Î<L·  ñ)o   LKß\\“í\rTâçVÀLš/4 µ‰£¨Û­ #YÑî\0­8• Ãq¾¥Ø{r õ‚Ñ=\rG‡œ‰àğ „‚îÔWV `v\'Ñ	0>uP6êcßsÅ« Úİî£«Ô íšXòŠ¹İiZÿ šû Ğš Îs \'J5%Şxà 3RÈ¬ =(kÏù– w€Öj ˆ Dâ°–Fi0îÄ ˜µ^Œ\'ëù màg Œ^LsğãÑ{Ş–I8ğÆ ô ñ £±·ÍEó ¹ğëâ°]ªB¤»FÁ$<#~Jñ2\0~æˆ¤Æõš”äÌì>3Ç¾i~jÈxx–€†ª 9&œªı ÆÖ¦¨oºèêúª÷\"yŒç u7$7Nb <e ´Ñ FÑúc%  Ò.\n>g™H÷Ãş ','20160215085933')
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_3555afbe19a8-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 40x40 thumbnail at /tmp/transform_7d5a0f0472d3-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '13333'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Stub.png
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+IF-MODIFIED-SINCE: Sun, 14 Feb 2016 08:59:35 UTC
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Stub.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.75.37
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_69af7ff21a01-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:13333-0!*!*!*!*!*!* and timestamp 20160216044854
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:13333-0!*!*!*!*!*!*','uTínÚ0 íoÂÍÏItù€BÍ4ibİ@‚‚ Û~»ñ]b‘Ø–í´°ªÒ aÏ¸\'™o€6„. î9÷æ{½ QLƒ%3 Ì¢rºr MzôÉÒ>\rÊ5l]0²4  iĞùpÙí’Î <.—¤ ¥pÄ€VÆu–ş×¨ ¬U†< + p\"  ’ªJ:JÂ÷QX?§Ô $ Ö&Ç¯deİßß`«™äDÈ´¨<ÍŠ_€%ãğf õcr¿s`;k(uák f²ª éşÃ›ˆ, ëH]Ô\n%	 ír$öÂÎíVƒ>\0ÑõHÈÏJ¦ YM%n÷cg? {\0líÈOYš y .\' Øù? ¡™Ë ÙÎR]ƒTğœÙœF‰ºáå»× A™N”¾?Vj ‡Ñu ûo¯7ì÷ ¾ — õüffLf Ë`&äÆ #FCúôì±Ècc?†L  M Äu\nWÀq§QBƒ/¢\0ºrÕı•–  ¯±t«dy˜n3 7âSŞ@  ˜–¾¹&Û ¨Ä×­€™4_h j GQ·[ F²¢İ Zq*=†ã|K±÷ä\nê= £{\Z 9 Áá\r  İ©¯¬(ÀìN¢ `|ê lÔÇ¾çŠW ´»İGW© Ú5±ä s»Ó´ş 4÷\' 5!œçş N”jJ¼ñÀ f¤Y+zPÖó- î\0­Õ  ?ˆÄa-Ò`Ü‰=0k½ OÖó ÚÀÏ\" ½˜æàÇ£÷¼-“pà9è â!Fco›‹æ rá×Åa»T…Hw‚IxFü”âe\0üÌ IÿŒë5)É™Ù}f}ÓüÔñğ, \rU rL8Uû Œ­MQßtÑÕõUïEò Ï)ênHnœÄ:\Z yşÊ h£;Œ¢õÇJ:&¤] |Î2‘î‡ÿü ','20160217044854')
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_4146a3d663c5-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 40x40 thumbnail at /tmp/transform_5df797fa2c77-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '13333'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Stub.png
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Googlebot-Image/1.0
+ACCEPT-ENCODING: gzip,deflate
+IF-MODIFIED-SINCE: Tue, 16 Feb 2016 04:48:56 UTC
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Stub.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.75.4
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_3117525917a7-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:13333-0!*!*!*!*!*!* and timestamp 20160219201227
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:13333-0!*!*!*!*!*!*','uT]oÚ0 í3¿ÂÍã$º|@¡fš4±n AA‚mÏn|—X$¶e;-¬ª´Ÿ°ß¸_2ß\0m ]x ºçŞ›{Î=ö‚F1\r–ÌX0‹ÊéÊ 4éÑ\'Kû4(×°uÁÈÒd8¤AçÃe·K:wğ¸\\’B”Â  Z ×Yú·Q)X« y V8àD* $U•t”„ï£°~NS3`X;9~MVÖııı ¶šIN„L‹Ê§Yñ °e Ş ¢~Lîw lg\r¥.|/ÂLV• İò&\"ËÁ:R7µBIÂA»  {açv«ÁG €èZ ò³’©Ã¬&“N·û±³—cÅ \0G;æ§,Í<\n—“\rìüŸĞÌålg©®A*xÎlN£Ä?İğòİë M\'J? +5‰Ãè:Œ£ ÿã Áâ2¢ßÌŒÉ¬b Ì„ÜØ`ÄhHŸ= ylìeÈ” Ğ B\\§p  w\Z%4ø\"\n +Wİ_i™ağ\Z[·ZÖ• u›ñ¸ Ÿò 2ğÀ´ôÃ5³½JüÜ\n˜Ió…FQ›8’ºİ:0’ í	ĞŠSé1”ó-ÆŞ“+¨÷ Œîi8:ÔL ‡7 $t§¾²¢\0³;‰N€ñ©ƒ²Ñ ç+^ Ğv ]¥Fh×Ä’WÌíNËú/ĞÜŸ€–B¨çş N”jR¼ñÀ f¤Y+z`ÖÖù– w€Öj ˆ H¢XK£4 wb ¬Z/Æ“õ|†6ğZ £ Ó üxô·c  ¼1 ıA<ÄhìmsÑ¼C.üº8l—ª é®Ñ0	Ï ?¥x \0?sDÒ?Ëõœ”äÌì>3Ç¾i~jÈxxV€†ª 9 œ²ı ÆÖ¦¨oºèêúª÷ByŒç y7(7Nb yşÊ h£;Œ¢õÇJ:&¤] |Î2‘îÅş ','20160220201227')
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_5622c4e73a26-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 40x40 thumbnail at /tmp/transform_5ffd0816af5a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '13333'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Stub.png
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Googlebot-Image/1.0
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Stub.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.146
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_622bef9889fc-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:13333-0!*!*!*!*!*!* and timestamp 20160415061235
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:13333-0!*!*!*!*!*!*','uTËnÛ0 ÌÙ_ÁèXÀ© ~….\n nZ ˆc vÛ3#n%Â ITb7 ĞOè7öKÊ•íD–Sù`agvµ³;ä‚F1\r–ÌX0‹ÊéÊ 4éÑ\'Kû4(×°uÁØÒd4¢AçÃe·K:wğ¸\\’B”Â  Z ×Yú£R°V ò ¬pÀ‰T Hª*é(	ßGaıœR3`X› ¿’•uÿ­f’ !Ó¢ò4+~ –ŒÃëaÔÉıÎí¬¡Ô…¯E˜Éª ¤û o*² ¬#uQ+”$ ´Ë‘Ø ;7[\r>ú\0D×#!?+™:d5•tºİı8Vì °µ#?ei äQ¸œl`ç_6B3—?²¥º ©à9³9 ÿtÃËw¯?‚2(}¬Ô$ £AØ‹úá Š“>Áâ2¢ßÌ-“YÅ2¸ rcƒ1£!}zöXä±‰ C¦Œ€& â:…+à¸Ó(¡Á Q\0]¹êşJË ƒ ,İ*Yg ¦ÛŒÇøŒ7¡ f¥o®Éö *ñs+`&Í \Z‡ÚÄQÔÍÖ‘¬hw€VœIá8ßRì=¹‚zOÁø†ãCÎTpx BAwê++\n0»“è  Ÿ9( õ±ï¹âU ín÷ÑUj„vM,yÅÜî4­ÿ Íı	hM ç¹?‚S¥š ¯=ğƒ )dÖŠ ”µç|Ã…;@kµ Ä \"qXK£4 wb ÌZ/&Óõü màg Œ_LsğãÑ{Ş–I8 ãhØ Æ#ŒÆŞ6 Í;äÂ¯‹Ãv©\n‘î\Z “ğŒø)ÅË\0ø™#’ş ×kR’3³ûÌ û¦ù©!ãÑY \Zª>ä˜pªö; [›¢¾é¢«ÁUïEò Ï)ênHnœÄ:\Z yşÊ h£;Œ¢õ\'J:&¤] |Î2‘î‡ÿü ','20160416061235')
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_78dd6cee4f36-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 40x40 thumbnail at /tmp/transform_74b3a80e70b8-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '13333'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Stub.png
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Template:Curation:Stub
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+VIA: 1.1 proxy.local:31128 (squid/2.6.STABLE21)
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Stub.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 173.193.226.38
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_731374745021-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:13333-0!*!*!*!*!*!* and timestamp 20160514053838
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:13333-0!*!*!*!*!*!*','uT]oÚ0 í3¿ÂÍã$º|@¡fš4±n AA‚mÏn|—X$¶e;-¬ª´Ÿ°ß¸_2ß\0m ]x ºçÜ›{î=ö‚F1\r–ÌX0‹ÊéÊ 4éÑ\'Kû4(×°uÁÈÒd8¤AçÃe·K:wğ¸\\’B”Â  Z ×Yú£R°V ò ¬pÀ‰T Hª*é(	ßGaıœR3`X› ¿’•uÿ­f’ !Ó¢ò4+~ –ŒÃ›AÔÉıÎí¬¡Ô…¯E˜Éª ¤û o\"² ¬#uQ+”$ ´Ë‘Ø ;·[\r>ú\0D×#!?+™:d5•tºİı8Vì °µ#?ei äQ¸œl`ç_6B3—?²¥º ©à9³9 ÿtÃËw¯?‚2(}¬Ô$ £ë° õÂ~2L† ?ŠËˆz~33&³Še0 rcƒ £!}zöXä±± C¦Œ€& â:…+à¸Ó(¡Á Q\0]¹êşJË ƒ×XºU²Î<L·  ñ)o   LKß\\“í\rTâçVÀLš/4 µ‰£¨Û­ #YÑî\0­8• Ãq¾¥Ø{r õ‚Ñ=\rG‡œ‰àğ „‚îÔWV `v\'Ñ	0>uP6êcßsÅ« Úİî£«Ô íšXòŠ¹İiZÿ šû Ğš Îs \'J5%Şxà 3RÈ¬ =(kÏù– w€Öj ˆ Dâ°–Fi0îÄ ˜µ^Œ\'ëù màg Œ^LsğãÑ{Ş–I8 ãhĞ ÄCŒÆŞ6 Í;äÂ¯‹Ãv©\n‘î\Z “ğŒø)ÅË\0ø™#’ş ×kR’3³ûÌ û¦ù©!ãáY \Zª>ä˜pªö; [›¢¾é¢«ë«Ş‹ä1SÔİÜ8‰u4>òü•!ĞFw Eë•tLH»(øœe\"İ ÿù ','20160515053838')
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_56b5b48c51e5-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 40x40 thumbnail at /tmp/transform_43b7a06cc228-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '13333'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Stub.png
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Template:Curation:Stub
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Stub.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 103.196.180.101
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_1c0599f0649e-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:13333-0!*!*!*!*!*!* and timestamp 20160614124105
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:13333-0!*!*!*!*!*!*','uTËnÛ0 ÌÙ_ÁèXÀ© ~….\n nZ ˆc vÛ3#n%Â ITb7 ĞOè7öKÊ•íD–Sù`agvµ³;ä‚F1\r–ÌX0‹ÊéÊ 4éÑ\'Kû4(×°uÁØÒd4¢AçÃe·K:wğ¸\\’B”Â  Z ×Yú£R°V ò ¬pÀ‰T Hª*é(	ßGaıœR3`X› ¿’•uÿ­f’ !Ó¢ò4+~ –ŒÃëaÔÉıÎí¬¡Ô…¯E˜Éª ¤û o*² ¬#uQ+”$ ´Ë‘Ø ;7[\r>ú\0D×#!?+™:d5•tºİı8Vì °µ#?ei äQ¸œl`ç_6B3—?²¥º ©à9³9 ÿtÃËw¯?‚2(}¬Ô$ £A8ˆzQÜ‹Â>Áâ2¢ßÌ-“YÅ2¸ rcƒ1£!}zöXä±‰ C¦Œ€& â:…+à¸Ó(¡Á Q\0]¹êşJË ƒ ,İ*Yg ¦ÛŒÇøŒ7¡ f¥o®Éö *ñs+`&Í \Z‡ÚÄQÔÍÖ‘¬hw€VœIá8ßRì=¹‚zOÁø†ãCÎTpx BAwê++\n0»“è  Ÿ9( õ±ï¹âU ín÷ÑUj„vM,yÅÜî4­ÿ Íı	hM ç¹?‚S¥š ¯=ğƒ )dÖŠ ”µç|Ã…;@kµ Ä \"qXK£4 wb ÌZ/&Óõü màg Œ_LsğãÑ{Ş–I8 ãhØ Æ#ŒÆŞ6 Í;äÂ¯‹Ãv©\n‘î\Z “ğŒø)ÅË\0ø™#’ş ×kR’3³ûÌ û¦ù©!ãÑY \Zª>ä˜pªö; [›¢¾é¢«ÁUïEò Ï)ênHnœÄ:\Z yşÊ h£;Œ¢õ\'J:&¤] |Î2‘î‡ÿü ','20160615124105')
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_278fe795549a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/archive/f/fe/20130702175728!Stub.png/40px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 40x40 thumbnail at /tmp/transform_182307be61f6-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Stub.png from process cache
+RepoGroup::findFile: got File:Stub.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Stub.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '13333'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

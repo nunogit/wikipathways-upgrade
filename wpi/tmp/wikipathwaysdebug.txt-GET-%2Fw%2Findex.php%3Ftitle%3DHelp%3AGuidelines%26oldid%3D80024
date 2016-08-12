@@ -1,0 +1,1423 @@
+
+
+Start request GET /w/index.php?title=Help:Guidelines&oldid=80024
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-ENCODING: gzip
+ACCEPT-LANGUAGE: en-US
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.158
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:06d434416989838d12d6f3e53854aeff:0)
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png does not exist.
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_5376496474c6-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_1564c58e29cb-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_4580b9385ada-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png does not exist.
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_793febc93afa-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_2a9d29c15a4a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_1ff5831764cd-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png does not exist.
+BitmapHandler::doTransform: creating 98x102 thumbnail at /tmp/transform_5a14cdc761c4-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png
+BitmapHandler::doTransform: creating 98x102 thumbnail at /tmp/transform_559c00f07c75-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png
+BitmapHandler::doTransform: creating 98x102 thumbnail at /tmp/transform_13cb21f94e06-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png does not exist.
+BitmapHandler::doTransform: creating 196x177 thumbnail at /tmp/transform_25b803fa6c03-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png
+BitmapHandler::doTransform: creating 196x177 thumbnail at /tmp/transform_6015b652497a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png
+BitmapHandler::doTransform: creating 196x177 thumbnail at /tmp/transform_343411058b2f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png does not exist.
+BitmapHandler::doTransform: creating 329x225 thumbnail at /tmp/transform_27e7dfc8697f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png
+BitmapHandler::doTransform: creating 329x225 thumbnail at /tmp/transform_f1d7415500a3-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png
+BitmapHandler::doTransform: creating 329x225 thumbnail at /tmp/transform_3f6056536346-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png does not exist.
+BitmapHandler::doTransform: creating 359x162 thumbnail at /tmp/transform_498c96446e70-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png
+BitmapHandler::doTransform: creating 359x162 thumbnail at /tmp/transform_42a7ff5b402c-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png
+BitmapHandler::doTransform: creating 359x162 thumbnail at /tmp/transform_4bcaa2242903-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png does not exist.
+BitmapHandler::doTransform: creating 340x166 thumbnail at /tmp/transform_373e72ad125f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png
+BitmapHandler::doTransform: creating 340x166 thumbnail at /tmp/transform_13de2f183968-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png
+BitmapHandler::doTransform: creating 340x166 thumbnail at /tmp/transform_72e376b446be-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png does not exist.
+BitmapHandler::doTransform: creating 124x67 thumbnail at /tmp/transform_18a86e894e65-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png
+BitmapHandler::doTransform: creating 124x67 thumbnail at /tmp/transform_3f0341073063-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png
+BitmapHandler::doTransform: creating 124x67 thumbnail at /tmp/transform_304bc496580c-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png does not exist.
+BitmapHandler::doTransform: creating 169x163 thumbnail at /tmp/transform_3b720e8963ef-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png
+BitmapHandler::doTransform: creating 169x163 thumbnail at /tmp/transform_788bb86456fc-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png
+BitmapHandler::doTransform: creating 169x163 thumbnail at /tmp/transform_2057af533f27-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png does not exist.
+BitmapHandler::doTransform: creating 155x169 thumbnail at /tmp/transform_451d840968e2-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png
+BitmapHandler::doTransform: creating 155x169 thumbnail at /tmp/transform_79d1372f6179-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png
+BitmapHandler::doTransform: creating 155x169 thumbnail at /tmp/transform_2414b1a9761b-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png does not exist.
+BitmapHandler::doTransform: creating 326x298 thumbnail at /tmp/transform_8e475832f664-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png
+BitmapHandler::doTransform: creating 326x298 thumbnail at /tmp/transform_4546bb7c149d-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png
+BitmapHandler::doTransform: creating 326x298 thumbnail at /tmp/transform_12aafcb02706-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png does not exist.
+BitmapHandler::doTransform: creating 250x175 thumbnail at /tmp/transform_240441937a49-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png
+BitmapHandler::doTransform: creating 250x175 thumbnail at /tmp/transform_7b8728d661c8-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png
+BitmapHandler::doTransform: creating 250x175 thumbnail at /tmp/transform_575d3ab17383-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png does not exist.
+BitmapHandler::doTransform: creating 233x143 thumbnail at /tmp/transform_3612fce64bac-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png
+BitmapHandler::doTransform: creating 233x143 thumbnail at /tmp/transform_5459ac9e2a8d-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png
+BitmapHandler::doTransform: creating 233x143 thumbnail at /tmp/transform_59b93b7162cf-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png does not exist.
+BitmapHandler::doTransform: creating 237x143 thumbnail at /tmp/transform_525583172a41-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png
+BitmapHandler::doTransform: creating 237x143 thumbnail at /tmp/transform_112a25397788-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png
+BitmapHandler::doTransform: creating 237x143 thumbnail at /tmp/transform_1ceae66a1324-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/90/CellCompartments_nucleus.png/1000px-CellCompartments_nucleus.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/90/CellCompartments_nucleus.png/1000px-CellCompartments_nucleus.png does not exist.
+BitmapHandler::doTransform: creating 1000x982 thumbnail at /tmp/transform_78b0218768ed-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:06d434416989838d12d6f3e53854aeff:0)
+Saved in parser cache with key wikipathways:pcache:idhash:4854-0!*!0!!en!2!* and timestamp 20150703055242
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:4854-0!*!0!!en!2!*','Å}Û’ÛÈ‘è>ë+j¸ GÒ.›$À;§ÕŽ 4’ç\"…Ôö„Ÿ:@¢HB\r h\\º›rL„?a?`ÏÏùKNfV P\0\n¼*æ8l«‰KUfVÞ3«ðafÙ³ÖG\'Nxü!K£,mÍúƒÙ?“ÙpÖÚÜð§´õ}2³ÇÓñ`ÖºŒ®~_ó€-bî¤^°baÌ¸ëÑŸ‘“® -ó‚e oàv 0\'e¿{wÞGq+i³ÈçNÂÙ ç K×œ-Cß  ñõUæ¹Ü÷ žÀ lã n‡±›5‡§µ[Ž·aiÈ¢8Ü„)g‹0H¼$åÁbÛfÎb‘ÅÎbËœÀeIêÌ=ßK·0ELS)øà x!í° ¶Úôie¦6Û† {ô|Ÿ­¹ á¤ Ç Rø ¶öVðFÊ¢0I¼¹ÏÙ}æÐtáÒL	€I  ‡H²Å‚\'	¾± 7›,€×/æ@ —!\"øZçÙe7ºzv	ÈÀ žûª•†‹ [øN’ˆ¿¯.Ó þç^]ºÞƒz\"õRŸÃ­µ}õZ`›\\váÇe  ‚á2 þÏ÷´q|þÀý  @\\$|S_X0€ÃÖ1_¾jýçO<à±ãß  ‚»Iä Ú A¶™ó¸ue]vñÎ «>\"3]É¡4ZËç/»Î Øl 6[‡Mr×­\\Ø €uö€ö±Ì\" ÁÕ×áê›à\n àæÕN°  L ¥ÁuÙõ½ à\Z˜àr‚ L‰ÍvÃf  [1Üñð\ruø$ËÞ‚ðÜí%\\7pr,&Ç: ²‘‰ró0 \\\'övJ \078ŒrÅpuøºÄw°–¤b¬Ãz¥ë0¾Õt ,¸{ 7y ú ˆq+õÔm fñb7.{x@LVSxÚd¹R”“ /[“=ØÁå »1Ù\'k \\à¿jèã9hªÃýIR„\'·ix   TašÅ|7Ä{¨_ Š&¦ ôxX­^3°!Ø¬ø ^Ù\'”exi\\ [œ \0VÉf½F#\nLÂSï>ãiº“Èûôˆ ‹åc Ï¿VÉhýê >ºÝ8_ Bp¡v’´¿iÅpŒ†#ì\\J\Z-™rK47àv	 Í-ÀÀã\0üƒ˜ À  ªE5›îÿálLÍÆòÙŽF¶ìé Llsˆ«³G0 ×œãêXÃ²H¢«È —»·YÂoÃe®Å¹Ï7èéí€v  i£3 ]÷eÕè é”2 £2  ¬\ZŒ„Ü ³A@ð´“Âû•_1 Ë < Ìq#˜ ìÐ3;ÁÜ«ó40ó OÐ\"“F0yðu‹ kq Àû¹A 9 Ü ü¡æ¥d ?§¡·X{á†§ñv7¤{x 4Òñ`Ù½Fšn2?õ€¥n oãùN|(iá 5 “sì¢ð1:Ü.YÃ¿%ˆïÌ¹¿ ö=Ê™†ab˜ã…Ì¶›)Í!È\rÑyÙ	Þð Â Cž\0j¿ T/@ k? ŒŽ€U ó ` Í:–û~†œ‹ºÑ‰Ó½6b|Œ¾•ƒ3}ðóŒ±]²wož Ôè xö{$N tœ _ ¬dÇÞ  ?K(îÈMp‚œ Þ& _xKPÃQž˜ð}¾]öÈ]>Ÿf”1S  ´šOËpåó€fÉ ¾Á(hÁ1ýtû Di±3æÝ#œÚ`L\rÖÈ,˜Òêbn«KÉ/¸´¶®.73òn °€ñŠ¿j½ã~4û©p×˜¼ýªe™ÓMåQ*àn /ÖÜqñÑ %ÔL¹/V –å¨\0 \0mÿhhmC ê8Pk©0V P ²/\\ `ˆ+víûê	ÊG:Š—ÚÀbÀx®p R/…%Ã 0¹Šhí-È —:Aøë/\\\'uX º\\\ZŠvþ¯ð/Óä%å \\ž,b/Â—Ú,Y‡™ï²9Çüï›`å{Éº#´†ä‰õàh’öë¹³Ó(ª’x¬<œFÏFOí! — 3&QÓ ÏŸ\\;  Ö \' üÂ‘€ŒÞ gÿþ×ÿ¾^‡>OÀb„>ûÁ “m€ùk/ù÷¿þoià CX†T®!Ç”vL#aÞ  ü˜þf2¥ i@wØ\'ðø  à R/€…zOý^Àú&Ì‰ R? óÄZüà ¥ “Ž ÖM¼¥d¸·¸ 4iàtí\0œ	Ë  °ë… xÜy =¢MÉiÊuá£—®E^ Ç Hhs¾_\nôóä|R(N œ¡ýò dÍ `dÂ5õ’$ º§kx|ƒ©:®ˆé*²‰•Á* —6ÆIp8P Þ  ,[Â_2,:Áal‘ö †VrJ.ðe ëŠH·O©¤P\\ÿFÀ,g s ø4YÓ Ó¬>lEæ¢«q ñØ/ž)Ò	 —\'ä¯\0 µ* >äP G/Ýä9 TOj-*ÌØa× ,’à@Ô$ñV,%åK‹ù­€Xi ‚¤,€¯V!fzÛ ÝK  xûk¡-‰…AîA}\"C°÷?  Žë\nh5})Ö ß”S©RÑ	‹74äÉ[¹ZÊžU ¬­™ G ù0*ŠŸëJa» ®D ¼ÈåSÏÅJY ä  ™ ê¬¤IŽâ ëjy±‘Š•¨O þ˜¿)Ö7ÚÒjÅJ×•¤ ïÀZ­< ¿Ü  `¾ ôU\0¼D¸ ¡˜ëúK}ZsÓ« F¥Si7H8  ˜\Z€s5{KjÐ‰\0‹(ö p  “1UÁ¯ƒ&ÙGˆ4’  ‡ˆÆŸ€Ð^Î p‡Ý V£ \' ’,–J¸¤µI¿£jw³  6  IW FAÑ„ñÊ	¼¯\"³QB\'/¶žÎœ#sä4Í¢ nX}Ø\Z—þZ³2¨gÃ Ð6N„ ^„1x>Q(ª»¹õIC°mm6ÏR!£Ò®ƒÅ%Ã.Ü*„Õ ú=’íK 7\nÖæ­ \')›Çá£\\zÐL1/X4©j¥ÂBæKÅ Aø:ì  Ä°8`Âdd¼Wèb <Â X ‡|@ £\Z©ò =ÞÍ ŸV/:nÅO)±ãÁªøÓ\'ð÷dÅélÌK¥1 –Út5 (7|”´h[ó(Á¯\0m &X ¸Zx[q¸ô|.ô…“¥!å  ß\'o ô Ï \' :»ÀÖ]¢Øß=ŽÝ ·ŠÉ[ŒZ $=åÝÜ}.4ÅG :†” ãÂ’r# tÌA  éî\n0ò„÷  í-¥>vÃÇÀ  Wª¿, 8æÞ   É ÆÜ¢uDŠ<‰ Z7RÒµp iÕ²!\0ïµK×±E\r0©¶	¦€+? ù Öt ŒÉ)ö—š¾6 N®:vJ¦¯D 1¨ð«(ä Žà>ùÓ\'ªñé®2åq Þ\\CeMSÔ˜úµìYâ<¾ˆù 0 êÅlž/\" áÜ3  õ^îV\'  G‰¾IÞºC¤-id \"\0ö{ZprÙÀ €7Ó8„  ø+X\0G\0Õ´ ;_ \rò¸@i ¢}OKlJ  öâ  @ )\"ßŠØzI\"îz ž›‘™)ò‹Zl–œ³¦X-ÞYË=g]+åf¶c¢Úê¾EßÇ÷«^ˆpëÔKaáÇU–T£þ =t¢à6^x -ÓGô@Á¹Ù\"M^ î¦§ú»Dd&YF_!EBåÝ£ÙÕ}ûª‡W éGíI9P‡½ n#i p,BWØq ÕbÍ!ÌÆ ßüí—köâ\rÌù7ðDØ/Þ T#g×«˜Sqï%1 l«Q§^ ¬ztÇÛ¬Ò êéGF õâ>«\rz¾uÆ¢½©¶~ °¦b?« k6½›ús/\0P®‰²J\\¼$\' Í’—”z2Ñƒ a‹6 lQ›-ÉÃL²Õ\nû ÉÅ YX¡d”óA®—,²$Qäj‹  j¯”\'õpÇ!÷¢Ã>§ —ˆ[‹  p!¥  ë R³£œÖ ™	’\'ôGqn½7RÙ­BeÀ{ý û NÌÃ Ó0ÁN\0¬ÂáÑU5h 0\r`ÁiÉ…¶+ÞË]ÿ¹è¢…@‡» ¢¢·¶É f‘J \\  £Ê“ &=i ÷½¸\07\rCÌñâLœ G ‘Ç™j  0t”¶‚M·…NQ#ð%h ´Óé°Kïê‘ÆI\0  Óç^è‡«-€†a \\Þ&)/œÉMˆ\"!3ˆÙ jŸX  ß­H­9Ä Ë.U \"=]Ë Gö³ G4€P×áëí‚­â0‹)ÁŒr!ZXó¢¬ = Â «uN•Ü“£Ø˜Ö,‘ƒ ¤yê<G ~«*e^¿Ifè ƒ/ðª „¢C9oùÍ9€** DlÅÓW­Û¹ï w-é@¯Ó4šu»@²Ü©[$ Çë$±× qêF´RÝ…Ð—	Ù‰ÜeëJ¡­ KÐ‹Ör—Ÿ°8 ‚ »  ŒB zëL¬  ¶} ’ ršFzõçc‚Stb9q\'ŒW]ðløS\'ZG] Ï­² $ è˜H8•U ë¢Ó\"Gæg  »½k³·Yà¬dí±ë6¨æ4ÉÂ;‡ý£Í>¸ ûyÆDÝ[¦–€¯ °ä›$o.o¬…À  Ö¥› O1& ¯ë7  vÊ ë ô™Ýë\rÛÌî¿˜¼œMGÖÅt4ê|#Ú=>v‚ÅÜë þ¦ xëÎ*|è‚§»án×\Zõ&v4þK »¨»aÝ^õÿ 8;ß{È!¯Þ iÌ¿~&Q³; ÅÏÎGzYþsû‰£îH>R€ ®ýýÇpñ9Û´®ÄD ª Ë ¤y T i )öðçomöWg Î öºÍ~ŒùÆ ™ü f p9Ø_ßàºð`\rö…½žáÖ\0öà%èÛJ)GZÇ| † –»Þ}_Ðþ üH ¦ AÆ5 ê÷ÚÌê½°z/gƒÞàbÐ›ü äïM§“áÔú“Éÿs¸ ØÏ¿·Ùµï¸_ø†ý\n+ñ;÷ ˜ Ü‰¿ÂB| ›‹äÿÇŒý\ZB<IU -„\0c %’·5’+ Ï´llœÍcÐm((Bg\'J—wpl±\0´ °\n#X…ñ ëåÌº°úŠ\0Ø£±=\Zý‰+ K,\'Ô² æ†ÂÓüæR1»>l¥˜ ]ý\0®Ä# uÌcä…> ,c$¢ü ÍÔ ‰  6Xî,õ|ï«ˆÈ ‰:0Ö‹É„wž½ óÉã\r½_hÕ$Ýú\\%Ç³H9Z€+ÜÎRñš¢ •ü§ 4H¤ÒH\Z³ r0ï†X  ?š‹.†rÅ° éY.êðÀFÌc£ë :GÙ  ×\\Î·Ò ÆõwÉ g€œø0\0Œ2gùPò‘ ¡e*+r| áÚ@ Ás¦ü`AÀÛ7ôÚGñV9O¨ùÄå§®ÄO& .Â9Ñí¨¹\'õØ 3·Ê2óðµu)÷Âåj¼x c\0p¥U Ña ˜Ú …Pbã„RVùºÂâ‰x.I ¦L+¾ 8 Ä q¾)®\r—< %p\"î$žÌú.  /Ys·¨Úÿû_ÿû ‡%Ã lÉE ¦œâ¼ ­1w ¾|//ËäÌ  ”(¯³\rLøé·kì2ÚnÀ a- BÝ9Æ‘¢¦•ƒŽAC¢pRëŽ{éä²,ýÐ VZ¦Z[”àÀ· *Í^ jv¢`•[\'ˆ>V¸ÙÀÛ\0±ü Ë£ÚCI¼À ºp÷ • y±‹îÂî– {ôÜtýª5ž€9ãÞj\rÃL -Ö•­R¸‘ïr «és\'~Õ‚  ïá²ÿCí[¤ð ;F€ì¨Ü@ ¶( i‰ü”\\E\"x‡} @©‰ì1wÛâªb zK ’H6bƒ×7Ÿ~¹ø©MU°u Òµçôàsµd1Â}±ð±Ï  (+íf”Ä‚ñÒtK—ZWÏžávFø¿5  P³  ÁÖâÂõ ì‚øMaêQ×¸.?! ·s\Zd÷âÐ“LÒ¸BËîÒíÖG•Ë4  Ë4™ªe ml{`t ¯C@Ô 4Bhu­~·6¦ Pã#«g—!¬6Ú õÆÍ-îgh=­Ûš™‡ohh£Ì 8£ùƒÀí<Jä†_Q” ) /Ð † ^ l·ÌNa JÄ rˆkt>ÄÎÝy’ÆèW [›ßÿá¥òPÈÃu{P-\010¼´z2fÄ¾ l¨ÛêA „Ü ÈÖà\Zµ¥å,šïD …ÔâCè?ˆ:Ô ³) MdªÆÇ\0µ[Þ,•‚0À\nÄ0?XØ*V` ž§ ÷0<óÑ£ ™M’-ÀáÅsP0 öZÀ¢õUç­eïì möî¿!¨¸ùØf¿]ÿøNÇë5içô¢>@Ž èæM ñ #I”# Sá…6š—[¦He?b \\ ÷Q¯ñ €@Þä»ÿ& P  ¨€º›aÒ D) ì€´g·;á.ŒýÛ#Î`|ã^ ¶oÊz—\r6g¸Xæ ­ç¢K*I± ÉôºTÛe¿7÷Í±Âáã‹@ © äp‹wèÒ\"  ­ø˜Ë ,©È  J\"À¥ UP| FÉ n ,®ü{9 üry öÍ k )Uze)¥xK€Ú. \" `:)€L {~\r/_Ó›Ï;Ç ª75B l¤èÕ=æIÆ¨ö§Ýé²«?%5¾¥Û$k<Þ­òOimãÍq _ÙÿÃJ¿k¬|C ‹þ„¦še­ âKL iù`ì® r ÕNÙwö Þ\'ýAypl>£¢ºž2 E jWfN\n¾ÒZ4	8…Â &Sc¨ -jt u4MÍá{ «RWN	 ª¦È\" :XèÅ Å~eªyºr•]× ³ã ª)Z»ù±ô‘!GÝÑ¢[zLrdßž  iÛÃoÍ‘vïˆUg(ç]›ÂØ\0ÔøûÐ÷’P˜LÌµ3YÖôzÞ¢@æÓßâh…\n\'VMW<lî“3\"£¯ ¬j¬Àû ™ ,Æ yp ¢¦b¿Bg¯³9{Q2 TTÙX”¨ ûTÖ¼è§Ð ²ç³ôº4 r†‚ ²  SºÞ’º\0R d*\0\\\0ç(Áù  1´ø‚ ýî`aù¼	ÁM ^H  »UÕÏÝ²#Þaâ V~Ç(Jn× twÍ¤$k¨I–5²  @>o.°œ/Mè-PÐÞ‡€þ +^0B?ïÎ ú†9 èƒž úè[G&¸ ²¼iñ8É/ï›dúPµŒ 5›a) ÓÒÒ Ð£mp®3@¡â‚­x¡ hÎž  W1ôKÕ€Fw¡!ð”&Ô Ôï‘n#Í é xHÔ@\Z²8 î_  * y’  $Ër‡ž7ŒßaÏþ¡ì%& À£ ¢+ ™oµ4À\'ŽN  =ÏÑF>ÿ„m£ÜÕ®æþÞó b ¸äq?×^Q¥õì Á–#º °ƒ šH™¬ˆ  ’ OïË—Ý%ïšGW®š=(d`´ÇS;A ì] cÏ1„úž]Ö4EML~Õî‘ ¾Á ¹ÌP û¥.çWàÒ]vçW ÆÕ v’½±ÇZöäÓe2váü Z iI”ß–ï«€QÀWzA»©Dž Á\0žÃ Xò²ƒýQ‚; Ôç8EZtEÊ<¤^[Ð\\.1sçG]Ü)¤  Á[KÌÍÉ±P°”˜º¢ý ñ% „•òkà `×DÂ BÝù6ß‹U¼”W þ ÛGÌl#ˆ¸må ,[ù•ýé¶^·7ïî˜GIÎ¨døú \Z¾ÊÀ‡Ê{ ÿ>™_t “*ø ¹  uè§ß\\ðû;w™Ÿ!ùå-ð¬q’šìSŽ[n$Qé ‘zÀl  4²ø Í m® xœTÊ  \'\0´U1¢ Ê#N ¯4iáö,éd¢ Žcðfe\Z{ã¸äyÒ xwŽU’åz·Üçíçoüyø(Ì×g¾ÚâyN6ýù/äÀ‚™m4Ò˜* N¬HX¸y©K9¿¢uJ ®“¼ë¨p®)ƒOà‰Ö\Z¸Ì“Ä‰· ¦Ì°L\\ ÉŒ  NˆŽõ—L¶ôa®,\n=­Ö†¡0{1÷3Ž], LÃ`¢ ôîË£Ügá q¤Òá & uO¾£x¤)Ýátµ‡òØRËvØ˜íÞ!J m‰\\V¼è ‹ ¯c¸? ßZp$U¦ˆS\\:æ §äZÎ*9\\‚· &×5Bv‹¢ô JÒ;)GO³êÓMžù¨k ]ÒÓ ênùxw¬NÙ ¬øF2F•Û˜± ŽöBPí½´ýV…±\"_ ÒMÕú XT·Eâ°–F~+úEÅîà¥ á°çÄªP¶V¡ß\ZãÅšoà—X áoœ;LØÇ4?6§ N z  ”<ñ“J[¢®õ Î ó Ž ðX È]\"$i$Ð $ÐÇG\Z¡hmP `/up gœYè etw˜ † ÷Û]»kºµ1 Sôû\ZS  ¶¶8Ü!6 !ÜgYûÝ¾Û­Ž˜Ã7Þ ß7°§ƒÃÎ?9§Îo>®…íŸvwýßü\nÈ˜ì\\‘í× W.3ŸÉæ °A™,tù¡ìm…9h+5m&Di_{  ¼ÒG`|éæ\ná †K¶Lb¥ %‘Ô®ê36 %u1¹+Štâ” ´câH€GCk @ð\0À…B¦)¶ ‘7ý~)”º°Á€ô] Ïß ÊMY>eÐ„Dƒ$owu  ÙÂç™Ø‰Å#o‘ªÜ nª-öc ÑJ\0Ôx­ âVÎ°§· ò +½%D(] éPzþ²|µk ê| ²4ìõr±¢¿•X\r¦ \r›`ÃÝ)#‡=fu†Omf0í½î®Q˜ý´¿ â„Ö:<s¨~@ÐqR\\?©ˆU‡¬5ÕÝ —ÏtÈ\0±•÷\0î/5ÀÐÖ/aFµ“	ˆ=óMÞªf6  xµ!­t²5  0’G\" +²?¼\nt^ ¥ ‘ËQB a‘.°V\"y^5ì ‡4´‹€½    ¸‡\Z\r«0ð¹°øW—nÍˆHšÌ~ÿh  ykWùêÕu Þ 8ñ	{ñ.Ü„,q\"C0/õ?Žºsäe\Z ®^}ÀÊ¦ ÏµÂu²9m–‘m fÁ«W¿@D~ñ#èÝ· axŒD»ñ ÊW›B^\\ÇÎÜsÃ(¡&  Ü À9tÞaßD7¼zõ“¿ ½·M<±.+?ƒuæ!¥Ev ³ëúy» jì¥ èl„kûV4pi Î¿YCo©¨‡  Š   x~Æ~TÇŸÉ_Ë  7Î*!e >ê£ ¶·aüJ=0SPË›­+4c¥¦À  ÌèŒ ¼ŽÓC\' LÆN °¦ÕJj,CËojÝÔ ¤Ü®YºsUì.‚Ÿ¸ ä˜ Íµ¥N .‚Û bG;ÙGƒ³ƒ»\r”zk—·áàØ¬Uå×V›‰~i\nûÔ@\"<ÁSÁ~½þøQ “\01bk7Pºg ‹ 4©ŽŒŽ :\ZÁŠ ÃÔ¥ !¦ ¬q» ÖÎ ä–x5T[l1Å„ýÒYà   Ìºªíì²³ ÓŠ0 D´oi×°â eQämLmàÌh/ÈÈ \rc6ˆ‰“ T‡U2«l±ªÒVlà¨“\\G6É{AR±E¹a)}ˆAmÕ6›£ ».ºÂÕJ$‘[²Å  O„›ú&\\$ )E\ZCµª Hb#\Z®ž(¢ä=IHe  ·‰ ¼D C ãJ·l ¨éˆSˆ|_o@× ¥ÚìVÊcçýØª—K¬°ÏT¢±x/‡½î nO U)TîùÎå Ó·wÕù]®”I \Z ¨â,¤b“¡ .L¾Q—kÊK+•ï¡ªPIžv€¤RƒŸG­vž]o •#ÕÁ¬\" #ú¥Ca°û„&7`7×÷~× ¾Ë+ùIŠI? ‚Q¹ k `æ…yÆ“v¨Î +G»Ïäyp¨kÿîÀ¶Y®”`Ž×[p‡ NT ƒ&ÚÝ¢«ß>Ü¼ «*Ä¸$ÂÔ ‡dùÅ§S¤ @TDouÑOóV; NÛQO jIeü„¢+jÑ¡6lßyÂ§ŸÕ Jßß¶ ÊŠžÄ€‹Å$©R vK«O}4¨2©ß ·  kLšI­oG~T¦P¶&Ê“„$Ø\n)©ß©è³ªúŸaÿ™á\06ƒ(XHCTcÞŠÜ(†š‹³ªÄ> )õåÁq7^àQÌŒ °óë”K¦~ æÃ‚ŒÂw4 ¢³ ù Cbo©íÝÍ‚BŽÊ„Î‚BXT¼€¢ Ïð’¢JŽ, ­°V:Êä3¶nÊWdÓ*nQ¦¶V…¯Ž UÃ\n*¨wœD à‚~R©OT$±šV t¸Ê6Ð .È  Y¹Ù·†e+A ÀêÍ3Y§Ä8V¡ýÍ¼_àÎ\rÀBŽ/pŠÐ‘o¤Î¥8ÇW 7Ôzd@l<:–™†®¹Ÿ¹ù< |œ’ÃXŒ © #y\0 	³ŠIÄ6ô˜¯œØ [g ´€í\" —¡5­Ÿ U+GÿI²FÕPK8®òh®Š;«®^}¢Ö äS¼¡ŽÈKD:cÇ° zÊ8ž dddÕ v#½fšàÙåw  ìÙoü ˜Ù÷6âÌ±0NŸ}D³K‰: ×   d_ªt.Â,HgÌêM»VþS~Xìó¬=nŠÇA ÿû_ÿÃŸ\"r©dÃxâ}å3ÖëÚ½éØ\ZÚ îà˜>»á í¨¨ ¯2j½4?÷Nz}4(ùª.ÒõŒÙÝAïÙ›§ ¢U´X }×Œ-A›I—’Àë!pÏ.. I>; êÈRz~ÝžÂá» ã¬G›³ˆnÎ< ·‹Ï “áà¢÷Ý}×ûî; |g÷_¢˜‡ýu)„\ZÌîYÃÞ¸×ï\r‡öÀf8\'~PÍ\ZÌZ›_œ`• §b:;i}ïÌz³þ ÷,¸÷:?*R»ÑÃO²! ¨ï²YÃYM”áò  WƒÚ³z3Ë†¿†øY7 nÖÎÕú ž Ž§ø¥7\0¬q[ <Öï§ œÙžµJü ÷Æýñ nMf­\\$iàÉD\\ÍEAL7úþ ø·‡© Î‰d Þ  ÄêÒÀ¢KÓ¡¥.aÊ /õ­Iþ ¦3èÍ  œSK2”NE[»þÞÕîŒáÆ{L°Ò5KËš•öoá ß *Öv ©{Cu¯(Q¨[\0“Ö«­®Â zÃ¬¼lÃ ;šÿÔSýY«©ÉN= ³\Z Ôýá¬ÕÜk¡ \ZÔ ª\r4iõ[mrc©Q£Vµà¤n\rä­:ÄÈM»òåô .6<¸Áôúgjž TÞµ¼$/	0d eX‰*Hq ¤Ø²&Ã^o€Wá\"PÓÂ?û0F°¹{°7Û/“Þè~ênÒèËÃj›eQæe÷  dõ&žiš°7íY¶Ý› G½žaÂ/Ác8q×_Üá ~zˆ·}çû/£át:ÿš8 1¡‰ ÷Ïgõ\róÝm]g¾ím¶¡ûd{ñü~žú ÖþöqèËù*Ü½ƒ–ƒ~Ï¶,»?2Lµò6#7\rAáÜ\rüÈõ“³r{éºŸŽ³éý˜ª*2{×md›Ðúòø”-£Õr¾N€3×‹;/¸¿·½é0q F“„æÚ\'‡  f°Æ€¦Õ·M,3zt¾l& <ôâíøK/Ì Vãûéx5^òÉVL½K¸÷Ík í¡a^  8{>ZÛO÷Á4í[Ûè.v†wn²\Z~½Ÿ/Ä¼\Zc?ûØ¦5õ\"ënòàyr6‹~tßXÜ þ#ŸÄýQø¸”tÞ­†ö¬ðÔêõÇ†™\'CïÁÞ~ G½ äxîv¸Ú&q ûPùòQ’y§nÛ7qo<0©„%¿K—+w`÷ü/ýxí=žÅëE øv¼˜ßÓÄe…Ù8Ñ 7‚Å´ àG &º_M–“§4ÚŒ\'c?yxì{ñÔâë;àé,™Üç jÖÂ;& ÷Æðoß¸ ÎÊ NÓ þ4ç Ù—i<_?ÙËíÝý—(\\ ¹þ©©ö½ dFr5 S UƒíÜ÷Æiòuóuiy÷ýM\Zß\'_6b>ƒ½Ø?eR¯^6ˆ“µíøÖÚ\'iäßSkx¿°¾Fý0  šî5B´ J 8êM\r“ólc\rƒÑS?Þ:ë/éW µµìùAÿ ¸È‚qþÈnÞÈÈ1wöÆäH#sú!PÒÄjƒœpþ’²à¶6ÊÑ\' }£CXŽ…Åx,Ïÿ\'XŒ Ô|cX¬þìÛÕÖ ®«iîkSj#wâðSÔï1	…°™¢% i?Ë´ì÷óYOº•›wÀŠ†[  ü þ„[žâméê;î¸ïñ¢b|t \r]Ì h“ ò«Ÿ)“«ßë ÷è \ríÖ0¿õ+¶s®jq‰ø ÷»0ÔQ +±ùÝ‰±ZP¹úY•ïPÕŒ1ÐëÁ_ T \0·úÂO.Ò³–ü\r³# U ål¾ ¾rý»62ž”ßøÑÞ„Ñˆ1ôk\0 ní   nŽO‘Ö È‡ËeÂS\n+G 1Ø\nV G?®ˆ‚Æ $í:’ý*’Ã™*«¼O\rCX@«cÂÑ> Ç©UÃ±€&ÿh \"h7 Ø¯#8¨\"8( ”_­©â7$üŒ öÏÂ Œi\rÃ  õ  D° ‚“ AíS!\rHÚ $ g!iÙƒ‰W\rŸ/AL g`:Ìs&êC\ZMhö\rh ÏCsØ ™Øµú­ ÄqømVSû<C š  š£³Ð´{C£æ1|2 1 ®y†è‚ ý… ³r2qõø<:ôë²[@|Ô‡ NãÓ9¢o¦“ö 3wØF…69*ƒ~¿J•¾™*úG  “Ó)€áhÓQöM¸›8bz îÓaMÏ•!«œ¿XOÏÀz\\ÅºtÊ{ â5Í n” éN7Ôöp\\Ã|\\Å¼|B½ÈeŸá—ŒgêpÆâ\0s³ð 1>×ý\ZÚ5-X@¤ ³Nx6ù_ êûúÑçæÅí×%\ZQ=Ó  \nßpH;áÚäŠ ¢ñ-Í×<üPoóª×L ’â<w­?ÔH¡Á|ÔñåD«&¯îÀà£~ i Ê	¯ â<—n(ªM5ž0œ–Jx6ùt ðD8k pÊ¦‰    Q?ÏÍ N 5»_±ñ¼P¢E“ïw\0-l{Öúd<ÌÒŒ¾qåÏsÿFÖ æåVÁÒ ß$ŒÏð k  GÇ 16ªúó ½ÑxZãõ\ZÆ\ZXˆñ9Þ\\ cÃÁc&ío7iÿó ºq¿îÔTA4ž¾Ft8Ã§Ã¬PùÄ« ¤L~ž\'7 OjþŒ  Äð ÿ­?­¬tó)FM¸›ØÝ>Ï—›Xƒº _t×‰N”9Ç¯  ôCcÌrn2îöy.Ýd4 Ö ] £ ´!ìÎÈ¦‰xÀ|î‡ Ó¡	Óó<ºioZw× Õ%Ö C¬Ïðëìa ëÒq F´G&´ÏóÞ¦C Ú ÈÊ 5 ÞM>Ú!¾Kuµ 8Í  › pf\"®7ê×ü×*Œ\r;j‰ MnÜ!î*LZÝßWC\\‘°Šö™‰9Ëê×%»€§œ†°›ü³  Âý w ™haTrç¹o–5é×ìy	ì#·A Éš ¼ HfS L½ÅÕD £*<Ï¹³ Ö¨îÏ–a*ºqE   \\Øæ\'kI7á GBÈª V×ŠcÉÊe±› ¯ßÝüú ‘`2…Yä‰ Øþ tËû›ñï+<Å€N À Ñò	àÕåÚ¾*ºaá‡ØÝûŒÚíŸ]úž6  ÿÂbð§lD¾°´ýÔÿi¨ ]•\Z•áE¹\nW–ì;fÕ ¨ ûª^ Ëû”«fØl 6[‡­Zéi ¬³ ´J ë ¸ú:\\} \\²>³ ¬C  CipQ[ý³ý€\rL€é_„ß œ} pú\'ê p¨ Xûðù.èú»¡«}ƒýhÐF&Úéß¼Þ Ýà0Úé á®\0(7M4 [’Œ± ì)ŸknFf  œòõécåk² »Ò\'™w`²OÞö};úh šê€7jw È{Èßü à£Å/Ð6A[ù€ì.€÷ æÎoÜž% VÉt ¾iÚ õ>eRÿÀê±,l•l—é ¦; ÛÇ·¦ªžGJ£E;ê œÍè ¨ ú¢è±Ø–]ž‰q ñyö §é cÇú<Ö°,• |xª Ú}|tÐ—² Ñ+e Fe Ì bj z¯ 4 êx8Çpjg’7Ã¹Wñ™¿èr´&™4‚iüÐÅ €÷óÃ¾¯r odJ&±òÕ‚] îá‚ÊÇ Ž†Ëî5Ru×	õ» >† v ®–&·KF±|þv3ð{Ttù ð£ Í¶›i­ ‚Ü ßð Òêç3  k¿ Öò±­ÍÀŽŽ\0¶|¦ìñÐ šU­ù,¼f°ÇÇ¨]óÑ}gYe»døê\'‚5A¾GìêG“ Bå2d%ƒvò AM ì ¾“>: Ï’A4oAoBb„š÷Ä7ðKí¸I•®ÛÜ¨Át¥¼ Dî|Áýfÿñ‘v\"‹vðÿØ¼Ç !ÍJuC ˆrÝ½Úƒ× :mÑÕ6:ÒÞÚé¬EgõávjÌí©í• yÜ¹/šËÅÉ¬ ÎTì;Øß) îÏZIšÍS m² }WÜøCt T øLßwrâíNêü-rË pqßLå ÜÇBû¸ñ…r’ñï<Nd/5 D±Œˆù\Z·bßT·Öä»­UÉK<÷æ)ò°ÌùÛ÷¢·ióZ _óÁwuVÞBä<ÿø','20150704055242')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '4854'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Help:Guidelines&oldid=80024
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.161
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:06d434416989838d12d6f3e53854aeff:0)
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png does not exist.
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_259cba307fc8-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_5d8f560e2a7e-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_2c68f87318a4-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png does not exist.
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_2d2af6ef5cf8-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_33d822ef11ef-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_505bd84b1dca-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png does not exist.
+BitmapHandler::doTransform: creating 98x102 thumbnail at /tmp/transform_22c38debb580-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png
+BitmapHandler::doTransform: creating 98x102 thumbnail at /tmp/transform_2efec09829de-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png
+BitmapHandler::doTransform: creating 98x102 thumbnail at /tmp/transform_133039a93088-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png does not exist.
+BitmapHandler::doTransform: creating 196x177 thumbnail at /tmp/transform_608f6877d8f4-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png
+BitmapHandler::doTransform: creating 196x177 thumbnail at /tmp/transform_3ff692ecb0ce-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png
+BitmapHandler::doTransform: creating 196x177 thumbnail at /tmp/transform_51ac48ef41db-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png does not exist.
+BitmapHandler::doTransform: creating 329x225 thumbnail at /tmp/transform_720d63e36717-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png
+BitmapHandler::doTransform: creating 329x225 thumbnail at /tmp/transform_5eaf99df6c74-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png
+BitmapHandler::doTransform: creating 329x225 thumbnail at /tmp/transform_2e6f79821b9f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png does not exist.
+BitmapHandler::doTransform: creating 359x162 thumbnail at /tmp/transform_33ca1bf4f741-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png
+BitmapHandler::doTransform: creating 359x162 thumbnail at /tmp/transform_342c9e6e202f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png
+BitmapHandler::doTransform: creating 359x162 thumbnail at /tmp/transform_707d1ecb2b9d-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png does not exist.
+BitmapHandler::doTransform: creating 340x166 thumbnail at /tmp/transform_71e3cfe45e71-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png
+BitmapHandler::doTransform: creating 340x166 thumbnail at /tmp/transform_21e105701a4f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png
+BitmapHandler::doTransform: creating 340x166 thumbnail at /tmp/transform_2c977bd85e66-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png does not exist.
+BitmapHandler::doTransform: creating 124x67 thumbnail at /tmp/transform_5b5872979020-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png
+BitmapHandler::doTransform: creating 124x67 thumbnail at /tmp/transform_5f24fffe6a31-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png
+BitmapHandler::doTransform: creating 124x67 thumbnail at /tmp/transform_5d86a89e69e8-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png does not exist.
+BitmapHandler::doTransform: creating 169x163 thumbnail at /tmp/transform_796ea6d24fcb-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png
+BitmapHandler::doTransform: creating 169x163 thumbnail at /tmp/transform_2fa729f4229f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png
+BitmapHandler::doTransform: creating 169x163 thumbnail at /tmp/transform_5a7bf9129ad2-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png does not exist.
+BitmapHandler::doTransform: creating 155x169 thumbnail at /tmp/transform_3612e9e95ea6-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png
+BitmapHandler::doTransform: creating 155x169 thumbnail at /tmp/transform_7cea100344b5-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png
+BitmapHandler::doTransform: creating 155x169 thumbnail at /tmp/transform_57658ae26d0d-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png does not exist.
+BitmapHandler::doTransform: creating 326x298 thumbnail at /tmp/transform_443a4b4cb2d6-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png
+BitmapHandler::doTransform: creating 326x298 thumbnail at /tmp/transform_6e657ae672ef-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png
+BitmapHandler::doTransform: creating 326x298 thumbnail at /tmp/transform_13876e4b6553-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png does not exist.
+BitmapHandler::doTransform: creating 250x175 thumbnail at /tmp/transform_77f8778d14e8-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png
+BitmapHandler::doTransform: creating 250x175 thumbnail at /tmp/transform_4c8f714a19e1-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png
+BitmapHandler::doTransform: creating 250x175 thumbnail at /tmp/transform_6c70d9a948d0-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png does not exist.
+BitmapHandler::doTransform: creating 233x143 thumbnail at /tmp/transform_4b553f5424a9-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png
+BitmapHandler::doTransform: creating 233x143 thumbnail at /tmp/transform_340f886d5621-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png
+BitmapHandler::doTransform: creating 233x143 thumbnail at /tmp/transform_2a15c74eac72-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png does not exist.
+BitmapHandler::doTransform: creating 237x143 thumbnail at /tmp/transform_90e0e5665f5a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png
+BitmapHandler::doTransform: creating 237x143 thumbnail at /tmp/transform_291be6fc75b2-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png
+BitmapHandler::doTransform: creating 237x143 thumbnail at /tmp/transform_7e9410041be9-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/90/CellCompartments_nucleus.png/1000px-CellCompartments_nucleus.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/90/CellCompartments_nucleus.png/1000px-CellCompartments_nucleus.png does not exist.
+BitmapHandler::doTransform: creating 1000x982 thumbnail at /tmp/transform_14a965504bf9-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:06d434416989838d12d6f3e53854aeff:0)
+Saved in parser cache with key wikipathways:pcache:idhash:4854-0!*!0!!en!2!* and timestamp 20150804092152
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:4854-0!*!0!!en!2!*','Å}Û’ÛÈ‘è>ë+j¸ GÒ.›$À;§ÕŽ 4’ç\"…Ôö„Ÿ:@¢HB\r h\\º›rL„?a?`ÏÏùKNfV P\0\n¼*æ8l«‰KUfVÞ3«ðafÙ³ÖG\'Nxü!K£,mÍúƒÙ?“ÙpÖÚÜð§´õ}2³ÇÓñ`ÖºŒ®~_ó€-bî¤^°baÌ¸ëÑŸ‘“® -ó‚e oàv 0\'e¿{wÞGq+i³ÈçNÂÙ ç K×œ-Cß  ñõUæ¹Ü÷ žÀ lã n‡±›5‡§µ[Ž·aiÈ¢8Ü„)g‹0H¼$åÁbÛfÎb‘ÅÎbËœÀeIêÌ=ßK·0ELS)øà x!í° ¶Úôie¦6Û† {ô|Ÿ­¹ á¤ Ç Rø ¶öVðFÊ¢0I¼¹ÏÙ}æÐtáÒL	€I  ‡H²Å‚\'	¾± 7›,€×/æ@ —!\"øZçÙe7ºzv	ÈÀ žûª•†‹ [øN’ˆ¿¯.Ó þç^]ºÞƒz\"õRŸÃ­µ}õZ`›\\váÇe  ‚á2 þÏ÷´q|þÀý  @\\$|S_X0€ÃÖ1_¾jýçO<à±ãß  ‚»Iä Ú A¶™ó¸ue]vñÎ «>\"3]É¡4ZËç/»Î Øl 6[‡Mr×­\\Ø €uö€ö±Ì\" ÁÕ×áê›à\n àæÕN°  L ¥ÁuÙõ½ à\Z˜àr‚ L‰ÍvÃf  [1Üñð\ruø$ËÞ‚ðÜí%\\7pr,&Ç: ²‘‰ró0 \\\'övJ \078ŒrÅpuøºÄw°–¤b¬Ãz¥ë0¾Õt ,¸{ 7y ú ˆq+õÔm fñb7.{x@LVSxÚd¹R”“ /[“=ØÁå »1Ù\'k \\à¿jèã9hªÃýIR„\'·ix   TašÅ|7Ä{¨_ Š&¦ ôxX­^3°!Ø¬ø ^Ù\'”exi\\ [œ \0VÉf½F#\nLÂSï>ãiº“Èûôˆ ‹åc Ï¿VÉhýê >ºÝ8_ Bp¡v’´¿iÅpŒ†#ì\\J\Z-™rK47àv	 Í-ÀÀã\0üƒ˜ À  ªE5›îÿálLÍÆòÙŽF¶ìé Llsˆ«³G0 ×œãêXÃ²H¢«È —»·YÂoÃe®Å¹Ï7èéí€v  i£3 ]÷eÕè é”2 £2  ¬\ZŒ„Ü ³A@ð´“Âû•_1 Ë < Ìq#˜ ìÐ3;ÁÜ«ó40ó OÐ\"“F0yðu‹ kq Àû¹A 9 Ü ü¡æ¥d ?§¡·X{á†§ñv7¤{x 4Òñ`Ù½Fšn2?õ€¥n oãùN|(iá 5 “sì¢ð1:Ü.YÃ¿%ˆïÌ¹¿ ö=Ê™†ab˜ã…Ì¶›)Í!È\rÑyÙ	Þð Â Cž\0j¿ T/@ k? ŒŽ€U ó ` Í:–û~†œ‹ºÑ‰Ó½6b|Œ¾•ƒ3}ðóŒ±]²wož Ôè xö{$N tœ _ ¬dÇÞ  ?K(îÈMp‚œ Þ& _xKPÃQž˜ð}¾]öÈ]>Ÿf”1S  ´šOËpåó€fÉ ¾Á(hÁ1ýtû Di±3æÝ#œÚ`L\rÖÈ,˜Òêbn«KÉ/¸´¶®.73òn °€ñŠ¿j½ã~4û©p×˜¼ýªe™ÓMåQ*àn /ÖÜqñÑ %ÔL¹/V –å¨\0 \0mÿhhmC ê8Pk©0V P ²/\\ `ˆ+víûê	ÊG:Š—ÚÀbÀx®p R/…%Ã 0¹Šhí-È —:Aøë/\\\'uX º\\\ZŠvþ¯ð/Óä%å \\ž,b/Â—Ú,Y‡™ï²9Çüï›`å{Éº#´†ä‰õàh’öë¹³Ó(ª’x¬<œFÏFOí! — 3&QÓ ÏŸ\\;  Ö \' üÂ‘€ŒÞ gÿþ×ÿ¾^‡>OÀb„>ûÁ “m€ùk/ù÷¿þoià CX†T®!Ç”vL#aÞ  ü˜þf2¥ i@wØ\'ðø  à R/€…zOý^Àú&Ì‰ R? óÄZüà ¥ “Ž ÖM¼¥d¸·¸ 4iàtí\0œ	Ë  °ë… xÜy =¢MÉiÊuá£—®E^ Ç Hhs¾_\nôóä|R(N œ¡ýò dÍ `dÂ5õ’$ º§kx|ƒ©:®ˆé*²‰•Á* —6ÆIp8P Þ  ,[Â_2,:Áal‘ö †VrJ.ðe ëŠH·O©¤P\\ÿFÀ,g s ø4YÓ Ó¬>lEæ¢«q ñØ/ž)Ò	 —\'ä¯\0 µ* >äP G/Ýä9 TOj-*ÌØa× ,’à@Ô$ñV,%åK‹ù­€Xi ‚¤,€¯V!fzÛ ÝK  xûk¡-‰…AîA}\"C°÷?  Žë\nh5})Ö ß”S©RÑ	‹74äÉ[¹ZÊžU ¬­™ G ù0*ŠŸëJa» ®D ¼ÈåSÏÅJY ä  ™ ê¬¤IŽâ ëjy±‘Š•¨O þ˜¿)Ö7ÚÒjÅJ×•¤ ïÀZ­< ¿Ü  `¾ ôU\0¼D¸ ¡˜ëúK}ZsÓ« F¥Si7H8  ˜\Z€s5{KjÐ‰\0‹(ö p  “1UÁ¯ƒ&ÙGˆ4’  ‡ˆÆŸ€Ð^Î p‡Ý V£ \' ’,–J¸¤µI¿£jw³  6  IW FAÑ„ñÊ	¼¯\"³QB\'/¶žÎœ#sä4Í¢ nX}Ø\Z—þZ³2¨gÃ Ð6N„ ^„1x>Q(ª»¹õIC°mm6ÏR!£Ò®ƒÅ%Ã.Ü*„Õ ú=’íK 7\nÖæ­ \')›Çá£\\zÐL1/X4©j¥ÂBæKÅ Aø:ì  Ä°8`Âdd¼Wèb <Â X ‡|@ £\Z©ò =ÞÍ ŸV/:nÅO)±ãÁªøÓ\'ð÷dÅélÌK¥1 –Út5 (7|”´h[ó(Á¯\0m &X ¸Zx[q¸ô|.ô…“¥!å  ß\'o ô Ï \' :»ÀÖ]¢Øß=ŽÝ ·ŠÉ[ŒZ $=åÝÜ}.4ÅG :†” ãÂ’r# tÌA  éî\n0ò„÷  í-¥>vÃÇÀ  Wª¿, 8æÞ   É ÆÜ¢uDŠ<‰ Z7RÒµp iÕ²!\0ïµK×±E\r0©¶	¦€+? ù Öt ŒÉ)ö—š¾6 N®:vJ¦¯D 1¨ð«(ä Žà>ùÓ\'ªñé®2åq Þ\\CeMSÔ˜úµìYâ<¾ˆù 0 êÅlž/\" áÜ3  õ^îV\'  G‰¾IÞºC¤-id \"\0ö{ZprÙÀ €7Ó8„  ø+X\0G\0Õ´ ;_ \rò¸@i ¢}OKlJ  öâ  @ )\"ßŠØzI\"îz ž›‘™)ò‹Zl–œ³¦X-ÞYË=g]+åf¶c¢Úê¾EßÇ÷«^ˆpëÔKaáÇU–T£þ =t¢à6^x -ÓGô@Á¹Ù\"M^ î¦§ú»Dd&YF_!EBåÝ£ÙÕ}ûª‡W éGíI9P‡½ n#i p,BWØq ÕbÍ!ÌÆ ßüí—köâ\rÌù7ðDØ/Þ T#g×«˜Sqï%1 l«Q§^ ¬ztÇÛ¬Ò êéGF õâ>«\rz¾uÆ¢½©¶~ °¦b?« k6½›ús/\0P®‰²J\\¼$\' Í’—”z2Ñƒ a‹6 lQ›-ÉÃL²Õ\nû ÉÅ YX¡d”óA®—,²$Qäj‹  j¯”\'õpÇ!÷¢Ã>§ —ˆ[‹  p!¥  ë R³£œÖ ™	’\'ôGqn½7RÙ­BeÀ{ý û NÌÃ Ó0ÁN\0¬ÂáÑU5h 0\r`ÁiÉ…¶+ÞË]ÿ¹è¢…@‡» ¢¢·¶É f‘J \\  £Ê“ &=i ÷½¸\07\rCÌñâLœ G ‘Ç™j  0t”¶‚M·…NQ#ð%h ´Óé°Kïê‘ÆI\0  Óç^è‡«-€†a \\Þ&)/œÉMˆ\"!3ˆÙ jŸX  ß­H­9Ä Ë.U \"=]Ë Gö³ G4€P×áëí‚­â0‹)ÁŒr!ZXó¢¬ = Â «uN•Ü“£Ø˜Ö,‘ƒ ¤yê<G ~«*e^¿Ifè ƒ/ðª „¢C9oùÍ9€** DlÅÓW­Û¹ï w-é@¯Ó4šu»@²Ü©[$ Çë$±× qêF´RÝ…Ð—	Ù‰ÜeëJ¡­ KÐ‹Ör—Ÿ°8 ‚ »  ŒB zëL¬  ¶} ’ ršFzõçc‚Stb9q\'ŒW]ðløS\'ZG] Ï­² $ è˜H8•U ë¢Ó\"Gæg  »½k³·Yà¬dí±ë6¨æ4ÉÂ;‡ý£Í>¸ ûyÆDÝ[¦–€¯ °ä›$o.o¬…À  Ö¥› O1& ¯ë7  vÊ ë ô™Ýë\rÛÌî¿˜¼œMGÖÅt4ê|#Ú=>v‚ÅÜë þ¦ xëÎ*|è‚§»án×\Zõ&v4þK »¨»aÝ^õÿ 8;ß{È!¯Þ iÌ¿~&Q³; ÅÏÎGzYþsû‰£îH>R€ ®ýýÇpñ9Û´®ÄD ª Ë ¤y T i )öðçomöWg Î öºÍ~ŒùÆ ™ü f p9Ø_ßàºð`\rö…½žáÖ\0öà%èÛJ)GZÇ| † –»Þ}_Ðþ üH ¦ AÆ5 ê÷ÚÌê½°z/gƒÞàbÐ›ü äïM§“áÔú“Éÿs¸ ØÏ¿·Ùµï¸_ø†ý\n+ñ;÷ ˜ Ü‰¿ÂB| ›‹äÿÇŒý\ZB<IU -„\0c %’·5’+ Ï´llœÍcÐm((Bg\'J—wpl±\0´ °\n#X…ñ ëåÌº°úŠ\0Ø£±=\Zý‰+ K,\'Ô² æ†ÂÓüæR1»>l¥˜ ]ý\0®Ä# uÌcä…> ,c$¢ü ÍÔ ‰  6Xî,õ|ï«ˆÈ ‰:0Ö‹É„wž½ óÉã\r½_hÕ$Ýú\\%Ç³H9Z€+ÜÎRñš¢ •ü§ 4H¤ÒH\Z³ r0ï†X  ?š‹.†rÅ° éY.êðÀFÌc£ë :GÙ  ×\\Î·Ò ÆõwÉ g€œø0\0Œ2gùPò‘ ¡e*+r| áÚ@ Ás¦ü`AÀÛ7ôÚGñV9O¨ùÄå§®ÄO& .Â9Ñí¨¹\'õØ 3·Ê2óðµu)÷Âåj¼x c\0p¥U Ña ˜Ú …Pbã„RVùºÂâ‰x.I ¦L+¾ 8 Ä q¾)®\r—< %p\"î$žÌú.  /Ys·¨Úÿû_ÿû ‡%Ã lÉE ¦œâ¼ ­1w ¾|//ËäÌ  ”(¯³\rLøé·kì2ÚnÀ a- BÝ9Æ‘¢¦•ƒŽAC¢pRëŽ{éä²,ýÐ VZ¦Z[”àÀ· *Í^ jv¢`•[\'ˆ>V¸ÙÀÛ\0±ü Ë£ÚCI¼À ºp÷ • y±‹îÂî– {ôÜtýª5ž€9ãÞj\rÃL -Ö•­R¸‘ïr «és\'~Õ‚  ïá²ÿCí[¤ð ;F€ì¨Ü@ ¶( i‰ü”\\E\"x‡} @©‰ì1wÛâªb zK ’H6bƒ×7Ÿ~¹ø©MU°u Òµçôàsµd1Â}±ð±Ï  (+íf”Ä‚ñÒtK—ZWÏžávFø¿5  P³  ÁÖâÂõ ì‚øMaêQ×¸.?! ·s\Zd÷âÐ“LÒ¸BËîÒíÖG•Ë4  Ë4™ªe ml{`t ¯C@Ô 4Bhu­~·6¦ Pã#«g—!¬6Ú õÆÍ-îgh=­Ûš™‡ohh£Ì 8£ùƒÀí<Jä†_Q” ) /Ð † ^ l·ÌNa JÄ rˆkt>ÄÎÝy’ÆèW [›ßÿá¥òPÈÃu{P-\010¼´z2fÄ¾ l¨ÛêA „Ü ÈÖà\Zµ¥å,šïD …ÔâCè?ˆ:Ô ³) MdªÆÇ\0µ[Þ,•‚0À\nÄ0?XØ*V` ž§ ÷0<óÑ£ ™M’-ÀáÅsP0 öZÀ¢õUç­eïì möî¿!¨¸ùØf¿]ÿøNÇë5içô¢>@Ž èæM ñ #I”# Sá…6š—[¦He?b \\ ÷Q¯ñ €@Þä»ÿ& P  ¨€º›aÒ D) ì€´g·;á.ŒýÛ#Î`|ã^ ¶oÊz—\r6g¸Xæ ­ç¢K*I± ÉôºTÛe¿7÷Í±Âáã‹@ © äp‹wèÒ\"  ­ø˜Ë ,©È  J\"À¥ UP| FÉ n ,®ü{9 üry öÍ k )Uze)¥xK€Ú. \" `:)€L {~\r/_Ó›Ï;Ç ª75B l¤èÕ=æIÆ¨ö§Ýé²«?%5¾¥Û$k<Þ­òOimãÍq _ÙÿÃJ¿k¬|C ‹þ„¦še­ âKL iù`ì® r ÕNÙwö Þ\'ýAypl>£¢ºž2 E jWfN\n¾ÒZ4	8…Â &Sc¨ -jt u4MÍá{ «RWN	 ª¦È\" :XèÅ Å~eªyºr•]× ³ã ª)Z»ù±ô‘!GÝÑ¢[zLrdßž  iÛÃoÍ‘vïˆUg(ç]›ÂØ\0ÔøûÐ÷’P˜LÌµ3YÖôzÞ¢@æÓßâh…\n\'VMW<lî“3\"£¯ ¬j¬Àû ™ ,Æ yp ¢¦b¿Bg¯³9{Q2 TTÙX”¨ ûTÖ¼è§Ð ²ç³ôº4 r†‚ ²  SºÞ’º\0R d*\0\\\0ç(Áù  1´ø‚ ýî`aù¼	ÁM ^H  »UÕÏÝ²#Þaâ V~Ç(Jn× twÍ¤$k¨I–5²  @>o.°œ/Mè-PÐÞ‡€þ +^0B?ïÎ ú†9 èƒž úè[G&¸ ²¼iñ8É/ï›dúPµŒ 5›a) ÓÒÒ Ð£mp®3@¡â‚­x¡ hÎž  W1ôKÕ€Fw¡!ð”&Ô Ôï‘n#Í é xHÔ@\Z²8 î_  * y’  $Ër‡ž7ŒßaÏþ¡ì%& À£ ¢+ ™oµ4À\'ŽN  =ÏÑF>ÿ„m£ÜÕ®æþÞó b ¸äq?×^Q¥õì Á–#º °ƒ šH™¬ˆ  ’ OïË—Ý%ïšGW®š=(d`´ÇS;A ì] cÏ1„úž]Ö4EML~Õî‘ ¾Á ¹ÌP û¥.çWàÒ]vçW ÆÕ v’½±ÇZöäÓe2váü Z iI”ß–ï«€QÀWzA»©Dž Á\0žÃ Xò²ƒýQ‚; Ôç8EZtEÊ<¤^[Ð\\.1sçG]Ü)¤  Á[KÌÍÉ±P°”˜º¢ý ñ% „•òkà `×DÂ BÝù6ß‹U¼”W þ ÛGÌl#ˆ¸må ,[ù•ýé¶^·7ïî˜GIÎ¨døú \Z¾ÊÀ‡Ê{ ÿ>™_t “*ø ¹  uè§ß\\ðû;w™Ÿ!ùå-ð¬q’šìSŽ[n$Qé ‘zÀl  4²ø Í m® xœTÊ  \'\0´U1¢ Ê#N ¯4iáö,éd¢ Žcðfe\Z{ã¸äyÒ xwŽU’åz·Üçíçoüyø(Ì×g¾ÚâyN6ýù/äÀ‚™m4Ò˜* N¬HX¸y©K9¿¢uJ ®“¼ë¨p®)ƒOà‰Ö\Z¸Ì“Ä‰· ¦Ì°L\\ ÉŒ  NˆŽõ—L¶ôa®,\n=­Ö†¡0{1÷3Ž], LÃ`¢ ôîË£Ügá q¤Òá & uO¾£x¤)Ýátµ‡òØRËvØ˜íÞ!J m‰\\V¼è ‹ ¯c¸? ßZp$U¦ˆS\\:æ §äZÎ*9\\‚· &×5Bv‹¢ô JÒ;)GO³êÓMžù¨k ]ÒÓ ênùxw¬NÙ ¬øF2F•Û˜± ŽöBPí½´ýV…±\"_ ÒMÕú XT·Eâ°–F~+úEÅîà¥ á°çÄªP¶V¡ß\ZãÅšoà—X áoœ;LØÇ4?6§ N z  ”<ñ“J[¢®õ Î ó Ž ðX È]\"$i$Ð $ÐÇG\Z¡hmP `/up gœYè etw˜ † ÷Û]»kºµ1 Sôû\ZS  ¶¶8Ü!6 !ÜgYûÝ¾Û­Ž˜Ã7Þ ß7°§ƒÃÎ?9§Îo>®…íŸvwýßü\nÈ˜ì\\‘í× W.3ŸÉæ °A™,tù¡ìm…9h+5m&Di_{  ¼ÒG`|éæ\ná †K¶Lb¥ %‘Ô®ê36 %u1¹+Štâ” ´câH€GCk @ð\0À…B¦)¶ ‘7ý~)”º°Á€ô] Ïß ÊMY>eÐ„Dƒ$owu  ÙÂç™Ø‰Å#o‘ªÜ nª-öc ÑJ\0Ôx­ âVÎ°§· ò +½%D(] éPzþ²|µk ê| ²4ìõr±¢¿•X\r¦ \r›`ÃÝ)#‡=fu†Omf0í½î®Q˜ý´¿ â„Ö:<s¨~@ÐqR\\?©ˆU‡¬5ÕÝ —ÏtÈ\0±•÷\0î/5ÀÐÖ/aFµ“	ˆ=óMÞªf6  xµ!­t²5  0’G\" +²?¼\nt^ ¥ ‘ËQB a‘.°V\"y^5ì ‡4´‹€½    ¸‡\Z\r«0ð¹°øW—nÍˆHšÌ~ÿh  ykWùêÕu Þ 8ñ	{ñ.Ü„,q\"C0/õ?Žºsäe\Z ®^}ÀÊ¦ ÏµÂu²9m–‘m fÁ«W¿@D~ñ#èÝ· axŒD»ñ ÊW›B^\\ÇÎÜsÃ(¡&  Ü À9tÞaßD7¼zõ“¿ ½·M<±.+?ƒuæ!¥Ev ³ëúy» jì¥ èl„kûV4pi Î¿YCo©¨‡  Š   x~Æ~TÇŸÉ_Ë  7Î*!e >ê£ ¶·aüJ=0SPË›­+4c¥¦À  ÌèŒ ¼ŽÓC\' LÆN °¦ÕJj,CËojÝÔ ¤Ü®YºsUì.‚Ÿ¸ ä˜ Íµ¥N .‚Û bG;ÙGƒ³ƒ»\r”zk—·áàØ¬Uå×V›‰~i\nûÔ@\"<ÁSÁ~½þøQ “\01bk7Pºg ‹ 4©ŽŒŽ :\ZÁŠ ÃÔ¥ !¦ ¬q» ÖÎ ä–x5T[l1Å„ýÒYà   Ìºªíì²³ ÓŠ0 D´oi×°â eQämLmàÌh/ÈÈ \rc6ˆ‰“ T‡U2«l±ªÒVlà¨“\\G6É{AR±E¹a)}ˆAmÕ6›£ ».ºÂÕJ$‘[²Å  O„›ú&\\$ )E\ZCµª Hb#\Z®ž(¢ä=IHe  ·‰ ¼D C ãJ·l ¨éˆSˆ|_o@× ¥ÚìVÊcçýØª—K¬°ÏT¢±x/‡½î nO U)TîùÎå Ó·wÕù]®”I \Z ¨â,¤b“¡ .L¾Q—kÊK+•ï¡ªPIžv€¤RƒŸG­vž]o •#ÕÁ¬\" #ú¥Ca°û„&7`7×÷~× ¾Ë+ùIŠI? ‚Q¹ k `æ…yÆ“v¨Î +G»Ïäyp¨kÿîÀ¶Y®”`Ž×[p‡ NT ƒ&ÚÝ¢«ß>Ü¼ «*Ä¸$ÂÔ ‡dùÅ§S¤ @TDouÑOóV; NÛQO jIeü„¢+jÑ¡6lßyÂ§ŸÕ Jßß¶ ÊŠžÄ€‹Å$©R vK«O}4¨2©ß ·  kLšI­oG~T¦P¶&Ê“„$Ø\n)©ß©è³ªúŸaÿ™á\06ƒ(XHCTcÞŠÜ(†š‹³ªÄ> )õåÁq7^àQÌŒ °óë”K¦~ æÃ‚ŒÂw4 ¢³ ù Cbo©íÝÍ‚BŽÊ„Î‚BXT¼€¢ Ïð’¢JŽ, ­°V:Êä3¶nÊWdÓ*nQ¦¶V…¯Ž UÃ\n*¨wœD à‚~R©OT$±šV t¸Ê6Ð .È  Y¹Ù·†e+A ÀêÍ3Y§Ä8V¡ýÍ¼_àÎ\rÀBŽ/pŠÐ‘o¤Î¥8ÇW 7Ôzd@l<:–™†®¹Ÿ¹ù< |œ’ÃXŒ © #y\0 	³ŠIÄ6ô˜¯œØ [g ´€í\" —¡5­Ÿ U+GÿI²FÕPK8®òh®Š;«®^}¢Ö äS¼¡ŽÈKD:cÇ° zÊ8ž dddÕ v#½fšàÙåw  ìÙoü ˜Ù÷6âÌ±0NŸ}D³K‰: ×   d_ªt.Â,HgÌêM»VþS~Xìó¬=nŠÇA ÿû_ÿÃŸ\"r©dÃxâ}å3ÖëÚ½éØ\ZÚ îà˜>»á í¨¨ ¯2j½4?÷Nz}4(ùª.ÒõŒÙÝAïÙ›§ ¢U´X }×Œ-A›I—’Àë!pÏ.. I>; êÈRz~ÝžÂá» ã¬G›³ˆnÎ< ·‹Ï “áà¢÷Ý}×ûî; |g÷_¢˜‡ýu)„\ZÌîYÃÞ¤7èMm  çÄ ªYƒYkó‹ ¬2àTLg\'­ïYoöÏ?àž ÷^çGEj7zøI6d\0õ]6k8«‰2\\ áàjP{öOofÙð× ?ëfÁÍÚ¹ZßÃ Ãñ ¿ô €5n«ƒÇúýñt‚3Û³V‰ÿàÞ¸? Â­É¬•‹$\r<™ˆ«¹(ˆéFßÿ ÿö 2õÁ9‘ÌÁÛ#€X]\ZXti:´Ô%L™à¥¾5É Ãt ½9€sjI†Ò©hk×ß»Ú1Üx	Vºf	rY³Òþ-œá{AÅÚn uo¨î %\nu `ÒzµÕU˜Co˜•—m˜cGóŸzª?k55Ù©G`Vc ’º?œµš{-ÔCƒÚCµ¦3­~«Mn,5jÔª œÔ­¼U‡ ¹iW¾œžÃÅ† 7˜^ÿLÍ3‚Ê»–—ä% †l¡ +Q )îõÆ=Ëš {½ ^…‹@M ÿìÃ ÁæîÁÞl¿Lz£û©»I£/ «m–E™—Ý/lÕ?šx¦iÂÞ´gÙvo2 õz†	¿ áÄ]q‡ƒøé!ÞöAžï¿Œ†Óéükâ Ä„&FÜ?ŸÕ7Ìw·uù¶·Ù†î“=îÅóûyê;<ZûÛÇ¡/ç«p÷ Z ú=Û²ìþÈ0ÕÊÛŒÜ4 …s7ð#×O ÎÊí¥ë~:Î¦÷wbªªÈì]·‘mBëËãS¶ŒVËù: Î\\/î¼àþÞö¦ÃÄy M škŸ 6R ˜Á\Z šVß6±ÌèÑù²™<ðÐ‹·ã/½t2Xï§ãÕxÉ\'[1õ.áÞ7¯=´‡†y-pàìùhm?Ý Ó´om£»Ø Þ¹Éjøõ~¾ ó6jŒýìc›ÖÔ‹¬»ÉƒÿåÉÙ,úÑ}ÿaq ø| ÷GáãRÒy·\ZÚ³ÂS«×  fž ½ {ûu õ ü‘ã¹Ûáj›Ä=ìCåËGIæºmßÄ½ñÀ¤ –ü.]®ÜÝó¿ôãµ7öx ¯ IàÛñb~O — fãDƒÞ  Ó Œ{& ¾_M–“§4ÚŒ\'c?yxì{ñÔâë;àé,™Üç jÖÂ;& ÷Æðoß¸ ÎÊ NÓ þ4ç Ù—i<_?ÙËíÝý—(\\ ¹þ©©ö½ dFr5 S UƒíÜ÷Æiòuóuiy÷ýM\Zß\'_6b>ƒ½Ø?eR¯^6ˆ“µíøÖÚ\'iäßSkx¿°¾Fý0  šî5B´ J 8êM\r“ólc\rƒÑS?Þ:ë/éW µµìùAÿ ¸È‚qþÈnÞÈÈ1wöÆäH#sú!PÒÄjƒœpþ’²à¶6ÊÑ\' }£CXŽ…Åx,Ïÿ\'XŒ Ô|cX¬þìÛÕÖ ®«iîkSj#wâðSÔï1	…°™¢% i?Ë´ì÷óYOº•›wÀŠ†[  ü þ„[žâméê;î¸ïñ¢b|t \r]Ì h“ ò«Ÿ)“«ßë ÷è \ríÖ0¿õ+¶s®jq‰ø ÷»0ÔQ +±ùÝ‰±ZP¹úY•ïPÕŒ1ÐëÁ_ T \0·úÂO.Ò³–ü\r³# U ål¾ ¾rý»62ž”ßøÑÞ„Ñˆ1ôk\0 ní   nŽO‘Ö È‡ËeÂS\n+G 1Ø\nV G?®ˆ‚Æ $í:’ý*’Ã™*«¼O\rCX@«cÂÑ> Ç©UÃ±€&ÿh \"h7 Ø¯#8¨\"8( ”_­©â7$üŒ öÏÂ Œi\rÃ  õ  D° ‚“ AíS!\rHÚ $ g!iÙƒ‰W\rŸ/AL g`:Ìs&êC\ZMhö\rh ÏCsØ ™Øµú­ ÄqømVSû<C š  š£³Ð´{C£æ1|2 1 ®y†è‚ ý… ³r2qõø<:ôë²[@|Ô‡ NãÓ9¢o¦“ö 3wØF…69*ƒ~¿J•¾™*úG  “Ó)€áhÓQöM¸›8bz îÓaMÏ•!«œ¿XOÏÀz\\ÅºtÊ{ â5Í n” éN7Ôöp\\Ã|\\Å¼|B½ÈeŸá—ŒgêpÆâ\0s³ð 1>×ý\ZÚ5-X@¤ ³Nx6ù_ êûúÑçæÅí×%\ZQ=Ó  \nßpH;áÚäŠ ¢ñ-Í×<üPoóª×L ’â<w­?ÔH¡Á|ÔñåD«&¯îÀà£~ i Ê	¯ â<—n(ªM5ž0œ–Jx6ùt ðD8k pÊ¦‰    Q?ÏÍ N 5»_±ñ¼P¢E“ïw\0-l{Öúd<ÌÒŒ¾qåÏsÿFÖ æåVÁÒ ß$ŒÏð k  GÇ 16ªúó ½ÑxZãõ\ZÆ\ZXˆñ9Þ\\ cÃÁc&ío7iÿó ºq¿îÔTA4ž¾Ft8Ã§Ã¬PùÄ« ¤L~ž\'7 OjþŒ  Äð ÿ­?­¬tó)FM¸›ØÝ>Ï—›Xƒº _t×‰N”9Ç¯  ôCcÌrn2îöy.Ýd4 Ö ] £ ´!ìÎÈ¦‰xÀ|î‡ Ó¡	Óó<ºioZw× Õ%Ö C¬Ïðëìa ëÒq F´G&´ÏóÞ¦C Ú ÈÊ 5 ÞM>Ú!¾Kuµ 8Í  › pf\"®7ê×ü×*Œ\r;j‰ MnÜ!î*LZÝßWC\\‘°Šö™‰9Ëê×%»€§œ†°›ü³  Âý w ™haTrç¹o–5é×ìy	ì#·A Éš ¼ HfS L½ÅÕD £*<Ï¹³ Ö¨îÏ–a*ºqE   \\Øæ\'kI7á GBÈª V×ŠcÉÊe±› ¯ßÝüú ‘`2…Yä‰ Øþ tËû›ñï+<Å€N À Ñò	àÕåÚ¾*ºaá‡ØÝûŒÚíŸ]úž6  ÿÂbð§lD¾°´ýÔÿi¨ ]•\Z•áE¹\nW–ì;fÕ ¨ ûª^ Ëû”«fØl 6[‡­Zéi ¬³ ´J ë ¸ú:\\} \\²>³ ¬C  CipQ[ý³ý€\rL€é_„ß œ} pú\'ê p¨ Xûðù.èú»¡«}ƒýhÐF&Úéß¼Þ Ýà0Úé á®\0(7M4 [’Œ± ì)ŸknFf  œòõécåk² »Ò\'™w`²OÞö};úh šê€7jw È{Èßü à£Å/Ð6A[ù€ì.€÷ æÎoÜž% VÉt ¾iÚ õ>eRÿÀê±,l•l—é ¦; ÛÇ·¦ªžGJ£E;ê œÍè ¨ ú¢è±Ø–]ž‰q ñyö §é cÇú<Ö°,• |xª Ú}|tÐ—² Ñ+e Fe Ì bj z¯ 4 êx8Çpjg’7Ã¹Wñ™¿èr´&™4‚iüÐÅ €÷óÃ¾¯r odJ&±òÕ‚] îá‚ÊÇ Ž†Ëî5Ru×	õ» >† v ®–&·KF±|þv3ð{Ttù ð£ Í¶›i­ ‚Ü ßð Òêç3  k¿ Öò±­ÍÀŽŽ\0¶|¦ìñÐ šU­ù,¼f°ÇÇ¨]óÑ}gYe»døê\'‚5A¾GìêG“ Bå2d%ƒvò AM ì ¾“>: Ï’A4oAoBb„š÷Ä7ðKí¸I•®ÛÜ¨Át¥¼ Dî|Áýfÿñ‘v\"‹vðÿØ¼Ç !ÍJuC ˆrÝ½Úƒ× :mÑÕ6:ÒÞÚé¬EgõávjÌí©í• yÜ¹/šËÅÉ¬ ÎTì;Øß) îÏZIšÍS m² }WÜøCt T øLßwrâíNêü-rË pqßLå ÜÇBû¸ñ…r’ñï<Nd/5 D±Œˆù\Z·bßT·Öä»­UÉK<÷æ)ò°ÌùÛ÷¢·ióZ _óÁwuVÞBä<ÿø','20150805092152')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '4854'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Help:Guidelines&oldid=80024
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.150
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:06d434416989838d12d6f3e53854aeff:0)
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png does not exist.
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_4021f5ec6d74-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_322d0ac97c78-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_575b99bd1c17-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png does not exist.
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_4f42713a4128-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_763bb5769d1c-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_417a696d6493-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png does not exist.
+BitmapHandler::doTransform: creating 98x102 thumbnail at /tmp/transform_16d14f076a80-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png
+BitmapHandler::doTransform: creating 98x102 thumbnail at /tmp/transform_21426b444e72-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png
+BitmapHandler::doTransform: creating 98x102 thumbnail at /tmp/transform_6c40257215f6-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png does not exist.
+BitmapHandler::doTransform: creating 196x177 thumbnail at /tmp/transform_6d8f321626f1-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png
+BitmapHandler::doTransform: creating 196x177 thumbnail at /tmp/transform_9092b60dd77a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png
+BitmapHandler::doTransform: creating 196x177 thumbnail at /tmp/transform_3d5a0e2f33d4-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png does not exist.
+BitmapHandler::doTransform: creating 329x225 thumbnail at /tmp/transform_4116f4cc2766-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png
+BitmapHandler::doTransform: creating 329x225 thumbnail at /tmp/transform_7b6fb8351e75-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png
+BitmapHandler::doTransform: creating 329x225 thumbnail at /tmp/transform_4a910fbe2fb9-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png does not exist.
+BitmapHandler::doTransform: creating 359x162 thumbnail at /tmp/transform_5d5281c23120-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png
+BitmapHandler::doTransform: creating 359x162 thumbnail at /tmp/transform_2579091111e1-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png
+BitmapHandler::doTransform: creating 359x162 thumbnail at /tmp/transform_161e7dc72f00-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png does not exist.
+BitmapHandler::doTransform: creating 340x166 thumbnail at /tmp/transform_6f3a22f01efc-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png
+BitmapHandler::doTransform: creating 340x166 thumbnail at /tmp/transform_5d006c5a61ae-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png
+BitmapHandler::doTransform: creating 340x166 thumbnail at /tmp/transform_48ee0e4756b9-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png does not exist.
+BitmapHandler::doTransform: creating 124x67 thumbnail at /tmp/transform_2842bdb8314a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png
+BitmapHandler::doTransform: creating 124x67 thumbnail at /tmp/transform_4531e8e17935-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png
+BitmapHandler::doTransform: creating 124x67 thumbnail at /tmp/transform_3473b18f2d89-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png does not exist.
+BitmapHandler::doTransform: creating 169x163 thumbnail at /tmp/transform_73c2853d5247-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png
+BitmapHandler::doTransform: creating 169x163 thumbnail at /tmp/transform_3d293bbe44f1-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png
+BitmapHandler::doTransform: creating 169x163 thumbnail at /tmp/transform_597b1d444e45-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png does not exist.
+BitmapHandler::doTransform: creating 155x169 thumbnail at /tmp/transform_b3ba83934862-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png
+BitmapHandler::doTransform: creating 155x169 thumbnail at /tmp/transform_49d7a3b1a7a8-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png
+BitmapHandler::doTransform: creating 155x169 thumbnail at /tmp/transform_14d3c6052272-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png does not exist.
+BitmapHandler::doTransform: creating 326x298 thumbnail at /tmp/transform_3b44cb0e3440-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png
+BitmapHandler::doTransform: creating 326x298 thumbnail at /tmp/transform_2f9a099b6de8-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png
+BitmapHandler::doTransform: creating 326x298 thumbnail at /tmp/transform_30aeb1d06706-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png does not exist.
+BitmapHandler::doTransform: creating 250x175 thumbnail at /tmp/transform_7154c299491d-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png
+BitmapHandler::doTransform: creating 250x175 thumbnail at /tmp/transform_16e0d7605e22-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png
+BitmapHandler::doTransform: creating 250x175 thumbnail at /tmp/transform_4ca94205481f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png does not exist.
+BitmapHandler::doTransform: creating 233x143 thumbnail at /tmp/transform_69eff59ac047-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png
+BitmapHandler::doTransform: creating 233x143 thumbnail at /tmp/transform_2b09b3236659-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png
+BitmapHandler::doTransform: creating 233x143 thumbnail at /tmp/transform_62ae2d967f89-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png does not exist.
+BitmapHandler::doTransform: creating 237x143 thumbnail at /tmp/transform_3d363e262829-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png
+BitmapHandler::doTransform: creating 237x143 thumbnail at /tmp/transform_4485d092792f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png
+BitmapHandler::doTransform: creating 237x143 thumbnail at /tmp/transform_4707b85a393d-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/90/CellCompartments_nucleus.png/1000px-CellCompartments_nucleus.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/90/CellCompartments_nucleus.png/1000px-CellCompartments_nucleus.png does not exist.
+BitmapHandler::doTransform: creating 1000x982 thumbnail at /tmp/transform_4cb271da565b-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:06d434416989838d12d6f3e53854aeff:0)
+Saved in parser cache with key wikipathways:pcache:idhash:4854-0!*!0!!en!2!* and timestamp 20150805141033
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:4854-0!*!0!!en!2!*','Å}Û’ÛÈ‘è>ë+j¸ GÒ.›$À;§ÕŽ 4’ç\"…Ôö„Ÿ:@¢HB\r h\\º›rL„?a?`ÏÏùKNfV P\0\n¼*æ8l«‰KUfVÞ3«ðafÙ³ÖG\'Nxü!K£,mÍúƒÙ?“ÙpÖÚÜð§´õ}2³ÇÓñ`ÖºŒ®~_ó€-bî¤^°baÌ¸ëÑŸ‘“® -ó‚e oàv 0\'e¿{wÞGq+i³ÈçNÂÙ ç K×œ-Cß  ñõUæ¹Ü÷ žÀ lã n‡±›5‡§µ[Ž·aiÈ¢8Ü„)g‹0H¼$åÁbÛfÎb‘ÅÎbËœÀeIêÌ=ßK·0ELS)øà x!í° ¶Úôie¦6Û† {ô|Ÿ­¹ á¤ Ç Rø ¶öVðFÊ¢0I¼¹ÏÙ}æÐtáÒL	€I  ‡H²Å‚\'	¾± 7›,€×/æ@ —!\"øZçÙe7ºzv	ÈÀ žûª•†‹ [øN’ˆ¿¯.Ó þç^]ºÞƒz\"õRŸÃ­µ}õZ`›\\váÇe  ‚á2 þÏ÷´q|þÀý  @\\$|S_X0€ÃÖ1_¾jýçO<à±ãß  ‚»Iä Ú A¶™ó¸ue]vñÎ «>\"3]É¡4ZËç/»Î Øl 6[‡Mr×­\\Ø €uö€ö±Ì\" ÁÕ×áê›à\n àæÕN°  L ¥ÁuÙõ½ à\Z˜àr‚ L‰ÍvÃf  [1Üñð\ruø$ËÞ‚ðÜí%\\7pr,&Ç: ²‘‰ró0 \\\'övJ \078ŒrÅpuøºÄw°–¤b¬Ãz¥ë0¾Õt ,¸{ 7y ú ˆq+õÔm fñb7.{x@LVSxÚd¹R”“ /[“=ØÁå »1Ù\'k \\à¿jèã9hªÃýIR„\'·ix   TašÅ|7Ä{¨_ Š&¦ ôxX­^3°!Ø¬ø ^Ù\'”exi\\ [œ \0VÉf½F#\nLÂSï>ãiº“Èûôˆ ‹åc Ï¿VÉhýê >ºÝ8_ Bp¡v’´¿iÅpŒ†#ì\\J\Z-™rK47àv	 Í-ÀÀã\0üƒ˜ À  ªE5›îÿálLÍÆòÙŽF¶ìé Llsˆ«³G0 ×œãêXÃ²H¢«È —»·YÂoÃe®Å¹Ï7èéí€v  i£3 ]÷eÕè é”2 £2  ¬\ZŒ„Ü ³A@ð´“Âû•_1 Ë < Ìq#˜ ìÐ3;ÁÜ«ó40ó OÐ\"“F0yðu‹ kq Àû¹A 9 Ü ü¡æ¥d ?§¡·X{á†§ñv7¤{x 4Òñ`Ù½Fšn2?õ€¥n oãùN|(iá 5 “sì¢ð1:Ü.YÃ¿%ˆïÌ¹¿ ö=Ê™†ab˜ã…Ì¶›)Í!È\rÑyÙ	Þð Â Cž\0j¿ T/@ k? ŒŽ€U ó ` Í:–û~†œ‹ºÑ‰Ó½6b|Œ¾•ƒ3}ðóŒ±]²wož Ôè xö{$N tœ _ ¬dÇÞ  ?K(îÈMp‚œ Þ& _xKPÃQž˜ð}¾]öÈ]>Ÿf”1S  ´šOËpåó€fÉ ¾Á(hÁ1ýtû Di±3æÝ#œÚ`L\rÖÈ,˜Òêbn«KÉ/¸´¶®.73òn °€ñŠ¿j½ã~4û©p×˜¼ýªe™ÓMåQ*àn /ÖÜqñÑ %ÔL¹/V –å¨\0 \0mÿhhmC ê8Pk©0V P ²/\\ `ˆ+víûê	ÊG:Š—ÚÀbÀx®p R/…%Ã 0¹Šhí-È —:Aøë/\\\'uX º\\\ZŠvþ¯ð/Óä%å \\ž,b/Â—Ú,Y‡™ï²9Çüï›`å{Éº#´†ä‰õàh’öë¹³Ó(ª’x¬<œFÏFOí! — 3&QÓ ÏŸ\\;  Ö \' üÂ‘€ŒÞ gÿþ×ÿ¾^‡>OÀb„>ûÁ “m€ùk/ù÷¿þoià CX†T®!Ç”vL#aÞ  ü˜þf2¥ i@wØ\'ðø  à R/€…zOý^Àú&Ì‰ R? óÄZüà ¥ “Ž ÖM¼¥d¸·¸ 4iàtí\0œ	Ë  °ë… xÜy =¢MÉiÊuá£—®E^ Ç Hhs¾_\nôóä|R(N œ¡ýò dÍ `dÂ5õ’$ º§kx|ƒ©:®ˆé*²‰•Á* —6ÆIp8P Þ  ,[Â_2,:Áal‘ö †VrJ.ðe ëŠH·O©¤P\\ÿFÀ,g s ø4YÓ Ó¬>lEæ¢«q ñØ/ž)Ò	 —\'ä¯\0 µ* >äP G/Ýä9 TOj-*ÌØa× ,’à@Ô$ñV,%åK‹ù­€Xi ‚¤,€¯V!fzÛ ÝK  xûk¡-‰…AîA}\"C°÷?  Žë\nh5})Ö ß”S©RÑ	‹74äÉ[¹ZÊžU ¬­™ G ù0*ŠŸëJa» ®D ¼ÈåSÏÅJY ä  ™ ê¬¤IŽâ ëjy±‘Š•¨O þ˜¿)Ö7ÚÒjÅJ×•¤ ïÀZ­< ¿Ü  `¾ ôU\0¼D¸ ¡˜ëúK}ZsÓ« F¥Si7H8  ˜\Z€s5{KjÐ‰\0‹(ö p  “1UÁ¯ƒ&ÙGˆ4’  ‡ˆÆŸ€Ð^Î p‡Ý V£ \' ’,–J¸¤µI¿£jw³  6  IW FAÑ„ñÊ	¼¯\"³QB\'/¶žÎœ#sä4Í¢ nX}Ø\Z—þZ³2¨gÃ Ð6N„ ^„1x>Q(ª»¹õIC°mm6ÏR!£Ò®ƒÅ%Ã.Ü*„Õ ú=’íK 7\nÖæ­ \')›Çá£\\zÐL1/X4©j¥ÂBæKÅ Aø:ì  Ä°8`Âdd¼Wèb <Â X ‡|@ £\Z©ò =ÞÍ ŸV/:nÅO)±ãÁªøÓ\'ð÷dÅélÌK¥1 –Út5 (7|”´h[ó(Á¯\0m &X ¸Zx[q¸ô|.ô…“¥!å  ß\'o ô Ï \' :»ÀÖ]¢Øß=ŽÝ ·ŠÉ[ŒZ $=åÝÜ}.4ÅG :†” ãÂ’r# tÌA  éî\n0ò„÷  í-¥>vÃÇÀ  Wª¿, 8æÞ   É ÆÜ¢uDŠ<‰ Z7RÒµp iÕ²!\0ïµK×±E\r0©¶	¦€+? ù Öt ŒÉ)ö—š¾6 N®:vJ¦¯D 1¨ð«(ä Žà>ùÓ\'ªñé®2åq Þ\\CeMSÔ˜úµìYâ<¾ˆù 0 êÅlž/\" áÜ3  õ^îV\'  G‰¾IÞºC¤-id \"\0ö{ZprÙÀ €7Ó8„  ø+X\0G\0Õ´ ;_ \rò¸@i ¢}OKlJ  öâ  @ )\"ßŠØzI\"îz ž›‘™)ò‹Zl–œ³¦X-ÞYË=g]+åf¶c¢Úê¾EßÇ÷«^ˆpëÔKaáÇU–T£þ =t¢à6^x -ÓGô@Á¹Ù\"M^ î¦§ú»Dd&YF_!EBåÝ£ÙÕ}ûª‡W éGíI9P‡½ n#i p,BWØq ÕbÍ!ÌÆ ßüí—köâ\rÌù7ðDØ/Þ T#g×«˜Sqï%1 l«Q§^ ¬ztÇÛ¬Ò êéGF õâ>«\rz¾uÆ¢½©¶~ °¦b?« k6½›ús/\0P®‰²J\\¼$\' Í’—”z2Ñƒ a‹6 lQ›-ÉÃL²Õ\nû ÉÅ YX¡d”óA®—,²$Qäj‹  j¯”\'õpÇ!÷¢Ã>§ —ˆ[‹  p!¥  ë R³£œÖ ™	’\'ôGqn½7RÙ­BeÀ{ý û NÌÃ Ó0ÁN\0¬ÂáÑU5h 0\r`ÁiÉ…¶+ÞË]ÿ¹è¢…@‡» ¢¢·¶É f‘J \\  £Ê“ &=i ÷½¸\07\rCÌñâLœ G ‘Ç™j  0t”¶‚M·…NQ#ð%h ´Óé°Kïê‘ÆI\0  Óç^è‡«-€†a \\Þ&)/œÉMˆ\"!3ˆÙ jŸX  ß­H­9Ä Ë.U \"=]Ë Gö³ G4€P×áëí‚­â0‹)ÁŒr!ZXó¢¬ = Â «uN•Ü“£Ø˜Ö,‘ƒ ¤yê<G ~«*e^¿Ifè ƒ/ðª „¢C9oùÍ9€** DlÅÓW­Û¹ï w-é@¯Ó4šu»@²Ü©[$ Çë$±× qêF´RÝ…Ð—	Ù‰ÜeëJ¡­ KÐ‹Ör—Ÿ°8 ‚ »  ŒB zëL¬  ¶} ’ ršFzõçc‚Stb9q\'ŒW]ðløS\'ZG] Ï­² $ è˜H8•U ë¢Ó\"Gæg  »½k³·Yà¬dí±ë6¨æ4ÉÂ;‡ý£Í>¸ ûyÆDÝ[¦–€¯ °ä›$o.o¬…À  Ö¥› O1& ¯ë7  vÊ ë ô™Ýë\rÛÌî¿˜¼œMGÖÅt4ê|#Ú=>v‚ÅÜë þ¦ xëÎ*|è‚§»án×\Zõ&v4þK »¨»aÝ^õÿ 8;ß{È!¯Þ iÌ¿~&Q³; ÅÏÎGzYþsû‰£îH>R€ ®ýýÇpñ9Û´®ÄD ª Ë ¤y T i )öðçomöWg Î öºÍ~ŒùÆ ™ü f p9Ø_ßàºð`\rö…½žáÖ\0öà%èÛJ)GZÇ| † –»Þ}_Ðþ üH ¦ AÆ5 ê÷ÚÌê½°z/gƒÞàbÐ›ü äïM§“áÔú“Éÿs¸ ØÏ¿·Ùµï¸_ø†ý\n+ñ;÷ ˜ Ü‰¿ÂB| ›‹äÿÇŒý\ZB<IU -„\0c %’·5’+ Ï´llœÍcÐm((Bg\'J—wpl±\0´ °\n#X…ñ ëåÌº°úŠ\0Ø£±=\Zý‰+ K,\'Ô² æ†ÂÓüæR1»>l¥˜ ]ý\0®Ä# uÌcä…> ,c$¢ü ÍÔ ‰  6Xî,õ|ï«ˆÈ ‰:0Ö‹É„wž½ óÉã\r½_hÕ$Ýú\\%Ç³H9Z€+ÜÎRñš¢ •ü§ 4H¤ÒH\Z³ r0ï†X  ?š‹.†rÅ° éY.êðÀFÌc£ë :GÙ  ×\\Î·Ò ÆõwÉ g€œø0\0Œ2gùPò‘ ¡e*+r| áÚ@ Ás¦ü`AÀÛ7ôÚGñV9O¨ùÄå§®ÄO& .Â9Ñí¨¹\'õØ 3·Ê2óðµu)÷Âåj¼x c\0p¥U Ña ˜Ú …Pbã„RVùºÂâ‰x.I ¦L+¾ 8 Ä q¾)®\r—< %p\"î$žÌú.  /Ys·¨Úÿû_ÿû ‡%Ã lÉE ¦œâ¼ ­1w ¾|//ËäÌ  ”(¯³\rLøé·kì2ÚnÀ a- BÝ9Æ‘¢¦•ƒŽAC¢pRëŽ{éä²,ýÐ VZ¦Z[”àÀ· *Í^ jv¢`•[\'ˆ>V¸ÙÀÛ\0±ü Ë£ÚCI¼À ºp÷ • y±‹îÂî– {ôÜtýª5ž€9ãÞj\rÃL -Ö•­R¸‘ïr «és\'~Õ‚  ïá²ÿCí[¤ð ;F€ì¨Ü@ ¶( i‰ü”\\E\"x‡} @©‰ì1wÛâªb zK ’H6bƒ×7Ÿ~¹ø©MU°u Òµçôàsµd1Â}±ð±Ï  (+íf”Ä‚ñÒtK—ZWÏžávFø¿5  P³  ÁÖâÂõ ì‚øMaêQ×¸.?! ·s\Zd÷âÐ“LÒ¸BËîÒíÖG•Ë4  Ë4™ªe ml{`t ¯C@Ô 4Bhu­~·6¦ Pã#«g—!¬6Ú õÆÍ-îgh=­Ûš™‡ohh£Ì 8£ùƒÀí<Jä†_Q” ) /Ð † ^ l·ÌNa JÄ rˆkt>ÄÎÝy’ÆèW [›ßÿá¥òPÈÃu{P-\010¼´z2fÄ¾ l¨ÛêA „Ü ÈÖà\Zµ¥å,šïD …ÔâCè?ˆ:Ô ³) MdªÆÇ\0µ[Þ,•‚0À\nÄ0?XØ*V` ž§ ÷0<óÑ£ ™M’-ÀáÅsP0 öZÀ¢õUç­eïì möî¿!¨¸ùØf¿]ÿøNÇë5içô¢>@Ž èæM ñ #I”# Sá…6š—[¦He?b \\ ÷Q¯ñ €@Þä»ÿ& P  ¨€º›aÒ D) ì€´g·;á.ŒýÛ#Î`|ã^ ¶oÊz—\r6g¸Xæ ­ç¢K*I± ÉôºTÛe¿7÷Í±Âáã‹@ © äp‹wèÒ\"  ­ø˜Ë ,©È  J\"À¥ UP| FÉ n ,®ü{9 üry öÍ k )Uze)¥xK€Ú. \" `:)€L {~\r/_Ó›Ï;Ç ª75B l¤èÕ=æIÆ¨ö§Ýé²«?%5¾¥Û$k<Þ­òOimãÍq _ÙÿÃJ¿k¬|C ‹þ„¦še­ âKL iù`ì® r ÕNÙwö Þ\'ýAypl>£¢ºž2 E jWfN\n¾ÒZ4	8…Â &Sc¨ -jt u4MÍá{ «RWN	 ª¦È\" :XèÅ Å~eªyºr•]× ³ã ª)Z»ù±ô‘!GÝÑ¢[zLrdßž  iÛÃoÍ‘vïˆUg(ç]›ÂØ\0ÔøûÐ÷’P˜LÌµ3YÖôzÞ¢@æÓßâh…\n\'VMW<lî“3\"£¯ ¬j¬Àû ™ ,Æ yp ¢¦b¿Bg¯³9{Q2 TTÙX”¨ ûTÖ¼è§Ð ²ç³ôº4 r†‚ ²  SºÞ’º\0R d*\0\\\0ç(Áù  1´ø‚ ýî`aù¼	ÁM ^H  »UÕÏÝ²#Þaâ V~Ç(Jn× twÍ¤$k¨I–5²  @>o.°œ/Mè-PÐÞ‡€þ +^0B?ïÎ ú†9 èƒž úè[G&¸ ²¼iñ8É/ï›dúPµŒ 5›a) ÓÒÒ Ð£mp®3@¡â‚­x¡ hÎž  W1ôKÕ€Fw¡!ð”&Ô Ôï‘n#Í é xHÔ@\Z²8 î_  * y’  $Ër‡ž7ŒßaÏþ¡ì%& À£ ¢+ ™oµ4À\'ŽN  =ÏÑF>ÿ„m£ÜÕ®æþÞó b ¸äq?×^Q¥õì Á–#º °ƒ šH™¬ˆ  ’ OïË—Ý%ïšGW®š=(d`´ÇS;A ì] cÏ1„úž]Ö4EML~Õî‘ ¾Á ¹ÌP û¥.çWàÒ]vçW ÆÕ v’½±ÇZöäÓe2váü Z iI”ß–ï«€QÀWzA»©Dž Á\0žÃ Xò²ƒýQ‚; Ôç8EZtEÊ<¤^[Ð\\.1sçG]Ü)¤  Á[KÌÍÉ±P°”˜º¢ý ñ% „•òkà `×DÂ BÝù6ß‹U¼”W þ ÛGÌl#ˆ¸må ,[ù•ýé¶^·7ïî˜GIÎ¨døú \Z¾ÊÀ‡Ê{ ÿ>™_t “*ø ¹  uè§ß\\ðû;w™Ÿ!ùå-ð¬q’šìSŽ[n$Qé ‘zÀl  4²ø Í m® xœTÊ  \'\0´U1¢ Ê#N ¯4iáö,éd¢ Žcðfe\Z{ã¸äyÒ xwŽU’åz·Üçíçoüyø(Ì×g¾ÚâyN6ýù/äÀ‚™m4Ò˜* N¬HX¸y©K9¿¢uJ ®“¼ë¨p®)ƒOà‰Ö\Z¸Ì“Ä‰· ¦Ì°L\\ ÉŒ  NˆŽõ—L¶ôa®,\n=­Ö†¡0{1÷3Ž], LÃ`¢ ôîË£Ügá q¤Òá & uO¾£x¤)Ýátµ‡òØRËvØ˜íÞ!J m‰\\V¼è ‹ ¯c¸? ßZp$U¦ˆS\\:æ §äZÎ*9\\‚· &×5Bv‹¢ô JÒ;)GO³êÓMžù¨k ]ÒÓ ênùxw¬NÙ ¬øF2F•Û˜± ŽöBPí½´ýV…±\"_ ÒMÕú XT·Eâ°–F~+úEÅîà¥ á°çÄªP¶V¡ß\ZãÅšoà—X áoœ;LØÇ4?6§ N z  ”<ñ“J[¢®õ Î ó Ž ðX È]\"$i$Ð $ÐÇG\Z¡hmP `/up gœYè etw˜ † ÷Û]»kºµ1 Sôû\ZS  ¶¶8Ü!6 !ÜgYûÝ¾Û­Ž˜Ã7Þ ß7°§ƒÃÎ?9§Îo>®…íŸvwýßü\nÈ˜ì\\‘í× W.3ŸÉæ °A™,tù¡ìm…9h+5m&Di_{  ¼ÒG`|éæ\ná †K¶Lb¥ %‘Ô®ê36 %u1¹+Štâ” ´câH€GCk @ð\0À…B¦)¶ ‘7ý~)”º°Á€ô] Ïß ÊMY>eÐ„Dƒ$owu  ÙÂç™Ø‰Å#o‘ªÜ nª-öc ÑJ\0Ôx­ âVÎ°§· ò +½%D(] éPzþ²|µk ê| ²4ìõr±¢¿•X\r¦ \r›`ÃÝ)#‡=fu†Omf0í½î®Q˜ý´¿ â„Ö:<s¨~@ÐqR\\?©ˆU‡¬5ÕÝ —ÏtÈ\0±•÷\0î/5ÀÐÖ/aFµ“	ˆ=óMÞªf6  xµ!­t²5  0’G\" +²?¼\nt^ ¥ ‘ËQB a‘.°V\"y^5ì ‡4´‹€½    ¸‡\Z\r«0ð¹°øW—nÍˆHšÌ~ÿh  ykWùêÕu Þ 8ñ	{ñ.Ü„,q\"C0/õ?Žºsäe\Z ®^}ÀÊ¦ ÏµÂu²9m–‘m fÁ«W¿@D~ñ#èÝ· axŒD»ñ ÊW›B^\\ÇÎÜsÃ(¡&  Ü À9tÞaßD7¼zõ“¿ ½·M<±.+?ƒuæ!¥Ev ³ëúy» jì¥ èl„kûV4pi Î¿YCo©¨‡  Š   x~Æ~TÇŸÉ_Ë  7Î*!e >ê£ ¶·aüJ=0SPË›­+4c¥¦À  ÌèŒ ¼ŽÓC\' LÆN °¦ÕJj,CËojÝÔ ¤Ü®YºsUì.‚Ÿ¸ ä˜ Íµ¥N .‚Û bG;ÙGƒ³ƒ»\r”zk—·áàØ¬Uå×V›‰~i\nûÔ@\"<ÁSÁ~½þøQ “\01bk7Pºg ‹ 4©ŽŒŽ :\ZÁŠ ÃÔ¥ !¦ ¬q» ÖÎ ä–x5T[l1Å„ýÒYà   Ìºªíì²³ ÓŠ0 D´oi×°â eQämLmàÌh/ÈÈ \rc6ˆ‰“ T‡U2«l±ªÒVlà¨“\\G6É{AR±E¹a)}ˆAmÕ6›£ ».ºÂÕJ$‘[²Å  O„›ú&\\$ )E\ZCµª Hb#\Z®ž(¢ä=IHe  ·‰ ¼D C ãJ·l ¨éˆSˆ|_o@× ¥ÚìVÊcçýØª—K¬°ÏT¢±x/‡½î nO U)TîùÎå Ó·wÕù]®”I \Z ¨â,¤b“¡ .L¾Q—kÊK+•ï¡ªPIžv€¤RƒŸG­vž]o •#ÕÁ¬\" #ú¥Ca°û„&7`7×÷~× ¾Ë+ùIŠI? ‚Q¹ k `æ…yÆ“v¨Î +G»Ïäyp¨kÿîÀ¶Y®”`Ž×[p‡ NT ƒ&ÚÝ¢«ß>Ü¼ «*Ä¸$ÂÔ ‡dùÅ§S¤ @TDouÑOóV; NÛQO jIeü„¢+jÑ¡6lßyÂ§ŸÕ Jßß¶ ÊŠžÄ€‹Å$©R vK«O}4¨2©ß ·  kLšI­oG~T¦P¶&Ê“„$Ø\n)©ß©è³ªúŸaÿ™á\06ƒ(XHCTcÞŠÜ(†š‹³ªÄ> )õåÁq7^àQÌŒ °óë”K¦~ æÃ‚ŒÂw4 ¢³ ù Cbo©íÝÍ‚BŽÊ„Î‚BXT¼€¢ Ïð’¢JŽ, ­°V:Êä3¶nÊWdÓ*nQ¦¶V…¯Ž UÃ\n*¨wœD à‚~R©OT$±šV t¸Ê6Ð .È  Y¹Ù·†e+A ÀêÍ3Y§Ä8V¡ýÍ¼_àÎ\rÀBŽ/pŠÐ‘o¤Î¥8ÇW 7Ôzd@l<:–™†®¹Ÿ¹ù< |œ’ÃXŒ © #y\0 	³ŠIÄ6ô˜¯œØ [g ´€í\" —¡5­Ÿ U+GÿI²FÕPK8®òh®Š;«®^}¢Ö äS¼¡ŽÈKD:cÇ° zÊ8ž dddÕ v#½fšàÙåw  ìÙoü ˜Ù÷6âÌ±0NŸ}D³K‰: ×   d_ªt.Â,HgÌêM»VþS~Xìó¬=nŠÇA ÿû_ÿÃŸ\"r©dÃxâ}å3ÖëÚ½éØ\ZÚ îà˜>»á í¨¨ ¯2j½4?÷Nz}4(ùª.ÒõŒÙÝAïÙ›§ ¢U´X }×Œ-A›I—’Àë!pÏ.. I>; êÈRz~ÝžÂá» ã¬G›³ˆnÎ< ·‹Ï “áà¢÷Ý}×ûî; |g÷_¢˜‡ýu)„\ZÌîYÃÞ¤7´ V¯ßg8\'~PÍ\ZÌZ›_œ`• §b:;i}ïÌz³þ ÷,¸÷:?*R»ÑÃO²! ¨ï²YÃYM”áò  WƒÚ³z3Ë†¿†øY7 nÖÎÕú ž Ž§ø¥7\0¬q[ <Öï§ œÙžµJü ÷Æýñ nMf­\\$iàÉD\\ÍEAL7úþ ø·‡© Î‰d Þ  ÄêÒÀ¢KÓ¡¥.aÊ /õ­Iþ ¦3èÍ  œSK2”NE[»þÞÕîŒáÆ{L°Ò5KËš•öoá ß *Öv ©{Cu¯(Q¨[\0“Ö«­®Â zÃ¬¼lÃ ;šÿÔSýY«©ÉN= ³\Z Ôýá¬ÕÜk¡ \ZÔ ª\r4iõ[mrc©Q£Vµà¤n\rä­:ÄÈM»òåô .6<¸Áôúgjž TÞµ¼$/	0d eX‰*Hq¯7îYÖdØë\rð*\\ jZøg Æ 6w öfûeÒ ÝOÝM\Z}yXm³,Ê¼ì~aƒ¬þÑÄ3M ö¦=Ë¶{“á¨×3Lø%x \'îú‹; ÄO ñ¶ ò|ÿe4œNç_ g &41âþù¬¾a¾»­ëÌ·½Í6tŸìq/žßÏSßáÑÚß> }9_…»wÐrÐïÙ–e÷G†©VÞfä¦!(œ» ¹~2pVn/]÷Óq6½¿ SUEfïºl Z_ Ÿ²e´ZÎ×	pæzqç ÷÷¶7 &ÎÃh’Ð\\ûä°‘¢À Ö Ð´ú¶‰eFÎ—Íä‡^¼ é¥“ùÃj|? ¯ÆK>ÙŠ©w	÷¾yí¡=4Ìk gÏGkûé>˜¦}k ÝÅÎðÎMVÃ¯÷ó…˜·Qcìg Û´¦^dÝM ü/OÎfÑîû ‹ûÀä“¸?\n —’Î»ÕÐž ž‚}  fž ½ {ûu õ ü‘ã¹Ûáj›Ä=ìCåËGIæºmßÄ½ñÀ¤ –ü.]®ÜÝó¿ôãµ7öx ¯ IàÛñb~O — fãDƒÞ  Ó Œ{& ¾_M–“§4ÚŒ\'c?yxì{ñÔâë;àé,™Üç jÖÂ;& ÷Æðoß¸ ÎÊ NÓ þ4ç Ù—i<_?ÙËíÝý—(\\ ¹þ©©ö½ dFr5 S UƒíÜ÷Æiòuóuiy÷ýM\Zß\'_6b>ƒ½Ø?eR¯^6ˆ“µíøÖÚ\'iäßSkx¿°¾Fý0  šî5B´ J 8êM\r“ólc\rƒÑS?Þ:ë/éW µµìùAÿ ¸È‚qþÈnÞÈÈ1wöÆäH#sú!PÒÄjƒœpþ’²à¶6ÊÑ\' }£CXŽ…Åx,Ïÿ\'XŒ Ô|cX¬þìÛÕÖ ®«iîkSj#wâðSÔï1	…°™¢% i?Ë´ì÷óYOº•›wÀŠ†[  ü þ„[žâméê;î¸ïñ¢b|t \r]Ì h“ ò«Ÿ)“«ßë ÷è \ríÖ0¿õ+¶s®jq‰ø ÷»0ÔQ +±ùÝ‰±ZP¹úY•ïPÕŒ1ÐëÁ_ T \0·úÂO.Ò³–ü\r³# U ål¾ ¾rý»62ž”ßøÑÞ„Ñˆ1ôk\0 ní   nŽO‘Ö È‡ËeÂS\n+G 1Ø\nV G?®ˆ‚Æ $í:’ý*’Ã™*«¼O\rCX@«cÂÑ> Ç©UÃ±€&ÿh \"h7 Ø¯#8¨\"8( ”_­©â7$üŒ öÏÂ Œi\rÃ  õ  D° ‚“ AíS!\rHÚ $ g!iÙƒ‰W\rŸ/AL g`:Ìs&êC\ZMhö\rh ÏCsØ ™Øµú­ ÄqømVSû<C š  š£³Ð´{C£æ1|2 1 ®y†è‚ ý… ³r2qõø<:ôë²[@|Ô‡ NãÓ9¢o¦“ö 3wØF…69*ƒ~¿J•¾™*úG  “Ó)€áhÓQöM¸›8bz îÓaMÏ•!«œ¿XOÏÀz\\ÅºtÊ{ â5Í n” éN7Ôöp\\Ã|\\Å¼|B½ÈeŸá—ŒgêpÆâ\0s³ð 1>×ý\ZÚ5-X@¤ ³Nx6ù_ êûúÑçæÅí×%\ZQ=Ó  \nßpH;áÚäŠ ¢ñ-Í×<üPoóª×L ’â<w­?ÔH¡Á|ÔñåD«&¯îÀà£~ i Ê	¯ â<—n(ªM5ž0œ–Jx6ùt ðD8k pÊ¦‰    Q?ÏÍ N 5»_±ñ¼P¢E“ïw\0-l{Öúd<ÌÒŒ¾qåÏsÿFÖ æåVÁÒ ß$ŒÏð k  GÇ 16ªúó ½ÑxZãõ\ZÆ\ZXˆñ9Þ\\ cÃÁc&ío7iÿó ºq¿îÔTA4ž¾Ft8Ã§Ã¬PùÄ« ¤L~ž\'7 OjþŒ  Äð ÿ­?­¬tó)FM¸›ØÝ>Ï—›Xƒº _t×‰N”9Ç¯  ôCcÌrn2îöy.Ýd4 Ö ] £ ´!ìÎÈ¦‰xÀ|î‡ Ó¡	Óó<ºioZw× Õ%Ö C¬Ïðëìa ëÒq F´G&´ÏóÞ¦C Ú ÈÊ 5 ÞM>Ú!¾Kuµ 8Í  › pf\"®7ê×ü×*Œ\r;j‰ MnÜ!î*LZÝßWC\\‘°Šö™‰9Ëê×%»€§œ†°›ü³  Âý w ™haTrç¹o–5é×ìy	ì#·A Éš ¼ HfS L½ÅÕD £*<Ï¹³ Ö¨îÏ–a*ºqE   \\Øæ\'kI7á GBÈª V×ŠcÉÊe±› ¯ßÝüú ‘`2…Yä‰ Øþ tËû›ñï+<Å€N À Ñò	àÕåÚ¾*ºaá‡ØÝûŒÚíŸ]úž6  ÿÂbð§lD¾°´ýÔÿi¨ ]•\Z•áE¹\nW–ì;fÕ ¨ ûª^ Ëû”«fØl 6[‡­Zéi ¬³ ´J ë ¸ú:\\} \\²>³ ¬C  CipQ[ý³ý€\rL€é_„ß œ} pú\'ê p¨ Xûðù.èú»¡«}ƒýhÐF&Úéß¼Þ Ýà0Úé á®\0(7M4 [’Œ± ì)ŸknFf  œòõécåk² »Ò\'™w`²OÞö};úh šê€7jw È{Èßü à£Å/Ð6A[ù€ì.€÷ æÎoÜž% VÉt ¾iÚ õ>eRÿÀê±,l•l—é ¦; ÛÇ·¦ªžGJ£E;ê œÍè ¨ ú¢è±Ø–]ž‰q ñyö §é cÇú<Ö°,• |xª Ú}|tÐ—² Ñ+e Fe Ì bj z¯ 4 êx8Çpjg’7Ã¹Wñ™¿èr´&™4‚iüÐÅ €÷óÃ¾¯r odJ&±òÕ‚] îá‚ÊÇ Ž†Ëî5Ru×	õ» >† v ®–&·KF±|þv3ð{Ttù ð£ Í¶›i­ ‚Ü ßð Òêç3  k¿ Öò±­ÍÀŽŽ\0¶|¦ìñÐ šU­ù,¼f°ÇÇ¨]óÑ}gYe»døê\'‚5A¾GìêG“ Bå2d%ƒvò AM ì ¾“>: Ï’A4oAoBb„š÷Ä7ðKí¸I•®ÛÜ¨Át¥¼ Dî|Áýfÿñ‘v\"‹vðÿØ¼Ç !ÍJuC ˆrÝ½Úƒ× :mÑÕ6:ÒÞÚé¬EgõávjÌí©í• yÜ¹/šËÅÉ¬ ÎTì;Øß) îÏZIšÍS m² }WÜøCt T øLßwrâíNêü-rË pqßLå ÜÇBû¸ñ…r’ñï<Nd/5 D±Œˆù\Z·bßT·Öä»­UÉK<÷æ)ò°ÌùÛ÷¢·ióZ _óÁwuVÞBä<ÿø','20150806141033')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '4854'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Help:Guidelines&oldid=80024
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.79
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '4854'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Help:Guidelines&oldid=80024
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:06d434416989838d12d6f3e53854aeff:0)
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png does not exist.
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_6a0508d265f6-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_2b8addb4393f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_edb21314b1ae-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png does not exist.
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_67956d102efb-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_7456bf5c5cc3-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_cfb9b573e9bb-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png does not exist.
+BitmapHandler::doTransform: creating 98x102 thumbnail at /tmp/transform_78defd73c889-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png
+BitmapHandler::doTransform: creating 98x102 thumbnail at /tmp/transform_59e4bb2e4bd6-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png
+BitmapHandler::doTransform: creating 98x102 thumbnail at /tmp/transform_35be46576e79-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png does not exist.
+BitmapHandler::doTransform: creating 196x177 thumbnail at /tmp/transform_15c1901570da-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png
+BitmapHandler::doTransform: creating 196x177 thumbnail at /tmp/transform_7ec81df07c4f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png
+BitmapHandler::doTransform: creating 196x177 thumbnail at /tmp/transform_42c98a1b1c9b-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png does not exist.
+BitmapHandler::doTransform: creating 329x225 thumbnail at /tmp/transform_18429002d70a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png
+BitmapHandler::doTransform: creating 329x225 thumbnail at /tmp/transform_ef0ae79cc4e7-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png
+BitmapHandler::doTransform: creating 329x225 thumbnail at /tmp/transform_6030b5a36699-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png does not exist.
+BitmapHandler::doTransform: creating 359x162 thumbnail at /tmp/transform_256e2718b793-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png
+BitmapHandler::doTransform: creating 359x162 thumbnail at /tmp/transform_5ef24bf82e22-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png
+BitmapHandler::doTransform: creating 359x162 thumbnail at /tmp/transform_2e89b1d020da-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png does not exist.
+BitmapHandler::doTransform: creating 340x166 thumbnail at /tmp/transform_1d25e147483a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png
+BitmapHandler::doTransform: creating 340x166 thumbnail at /tmp/transform_3454e7d64954-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png
+BitmapHandler::doTransform: creating 340x166 thumbnail at /tmp/transform_2b33160257ac-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png does not exist.
+BitmapHandler::doTransform: creating 124x67 thumbnail at /tmp/transform_23f5f3e0370b-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png
+BitmapHandler::doTransform: creating 124x67 thumbnail at /tmp/transform_74ad025bdbda-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png
+BitmapHandler::doTransform: creating 124x67 thumbnail at /tmp/transform_3456a7b72855-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png does not exist.
+BitmapHandler::doTransform: creating 169x163 thumbnail at /tmp/transform_2c495aa545e3-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png
+BitmapHandler::doTransform: creating 169x163 thumbnail at /tmp/transform_3d43dee41e35-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png
+BitmapHandler::doTransform: creating 169x163 thumbnail at /tmp/transform_510061b85456-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png does not exist.
+BitmapHandler::doTransform: creating 155x169 thumbnail at /tmp/transform_11b145335568-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png
+BitmapHandler::doTransform: creating 155x169 thumbnail at /tmp/transform_6c3c63758110-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png
+BitmapHandler::doTransform: creating 155x169 thumbnail at /tmp/transform_33db1eaa74fc-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png does not exist.
+BitmapHandler::doTransform: creating 326x298 thumbnail at /tmp/transform_ca342bb190ab-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png
+BitmapHandler::doTransform: creating 326x298 thumbnail at /tmp/transform_4801889a3018-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png
+BitmapHandler::doTransform: creating 326x298 thumbnail at /tmp/transform_2650121c3f00-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png does not exist.
+BitmapHandler::doTransform: creating 250x175 thumbnail at /tmp/transform_354b222a25e7-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png
+BitmapHandler::doTransform: creating 250x175 thumbnail at /tmp/transform_26eafb7b114b-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png
+BitmapHandler::doTransform: creating 250x175 thumbnail at /tmp/transform_16385e305eda-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png does not exist.
+BitmapHandler::doTransform: creating 233x143 thumbnail at /tmp/transform_23f941b1580e-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png
+BitmapHandler::doTransform: creating 233x143 thumbnail at /tmp/transform_65078a5f5dff-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png
+BitmapHandler::doTransform: creating 233x143 thumbnail at /tmp/transform_2146209b10a2-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png does not exist.
+BitmapHandler::doTransform: creating 237x143 thumbnail at /tmp/transform_b60f025152a1-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png
+BitmapHandler::doTransform: creating 237x143 thumbnail at /tmp/transform_4f4212de3e65-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png
+BitmapHandler::doTransform: creating 237x143 thumbnail at /tmp/transform_4bf59970a313-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/90/CellCompartments_nucleus.png/1000px-CellCompartments_nucleus.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/90/CellCompartments_nucleus.png/1000px-CellCompartments_nucleus.png does not exist.
+BitmapHandler::doTransform: creating 1000x982 thumbnail at /tmp/transform_61bbd6013a09-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:06d434416989838d12d6f3e53854aeff:0)
+Saved in parser cache with key wikipathways:pcache:idhash:4854-0!*!0!!en!2!* and timestamp 20150919040627
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:4854-0!*!0!!en!2!*','Å}Û’ÛÈ‘è>ë+j¸ GÒ.›$À;§ÕŽ 4’ç\"…Ôö„Ÿ:@¢HB\r h\\º›rL„?a?`ÏÏùKNfV P\0\n¼*æ8l«‰KUfVÞ3«ðafÙ³ÖG\'Nxü!K£,mÍúƒÙ?“ÙpÖÚÜð§´õ}2³ÇÓñ`ÖºŒ®~_ó€-bî¤^°baÌ¸ëÑŸ‘“® -ó‚e oàv 0\'e¿{wÞGq+i³ÈçNÂÙ ç K×œ-Cß  ñõUæ¹Ü÷ žÀ lã n‡±›5‡§µ[Ž·aiÈ¢8Ü„)g‹0H¼$åÁbÛfÎb‘ÅÎbËœÀeIêÌ=ßK·0ELS)øà x!í° ¶Úôie¦6Û† {ô|Ÿ­¹ á¤ Ç Rø ¶öVðFÊ¢0I¼¹ÏÙ}æÐtáÒL	€I  ‡H²Å‚\'	¾± 7›,€×/æ@ —!\"øZçÙe7ºzv	ÈÀ žûª•†‹ [øN’ˆ¿¯.Ó þç^]ºÞƒz\"õRŸÃ­µ}õZ`›\\váÇe  ‚á2 þÏ÷´q|þÀý  @\\$|S_X0€ÃÖ1_¾jýçO<à±ãß  ‚»Iä Ú A¶™ó¸ue]vñÎ «>\"3]É¡4ZËç/»Î Øl 6[‡Mr×­\\Ø €uö€ö±Ì\" ÁÕ×áê›à\n àæÕN°  L ¥ÁuÙõ½ à\Z˜àr‚ L‰ÍvÃf  [1Üñð\ruø$ËÞ‚ðÜí%\\7pr,&Ç: ²‘‰ró0 \\\'övJ \078ŒrÅpuøºÄw°–¤b¬Ãz¥ë0¾Õt ,¸{ 7y ú ˆq+õÔm fñb7.{x@LVSxÚd¹R”“ /[“=ØÁå »1Ù\'k \\à¿jèã9hªÃýIR„\'·ix   TašÅ|7Ä{¨_ Š&¦ ôxX­^3°!Ø¬ø ^Ù\'”exi\\ [œ \0VÉf½F#\nLÂSï>ãiº“Èûôˆ ‹åc Ï¿VÉhýê >ºÝ8_ Bp¡v’´¿iÅpŒ†#ì\\J\Z-™rK47àv	 Í-ÀÀã\0üƒ˜ À  ªE5›îÿálLÍÆòÙŽF¶ìé Llsˆ«³G0 ×œãêXÃ²H¢«È —»·YÂoÃe®Å¹Ï7èéí€v  i£3 ]÷eÕè é”2 £2  ¬\ZŒ„Ü ³A@ð´“Âû•_1 Ë < Ìq#˜ ìÐ3;ÁÜ«ó40ó OÐ\"“F0yðu‹ kq Àû¹A 9 Ü ü¡æ¥d ?§¡·X{á†§ñv7¤{x 4Òñ`Ù½Fšn2?õ€¥n oãùN|(iá 5 “sì¢ð1:Ü.YÃ¿%ˆïÌ¹¿ ö=Ê™†ab˜ã…Ì¶›)Í!È\rÑyÙ	Þð Â Cž\0j¿ T/@ k? ŒŽ€U ó ` Í:–û~†œ‹ºÑ‰Ó½6b|Œ¾•ƒ3}ðóŒ±]²wož Ôè xö{$N tœ _ ¬dÇÞ  ?K(îÈMp‚œ Þ& _xKPÃQž˜ð}¾]öÈ]>Ÿf”1S  ´šOËpåó€fÉ ¾Á(hÁ1ýtû Di±3æÝ#œÚ`L\rÖÈ,˜Òêbn«KÉ/¸´¶®.73òn °€ñŠ¿j½ã~4û©p×˜¼ýªe™ÓMåQ*àn /ÖÜqñÑ %ÔL¹/V –å¨\0 \0mÿhhmC ê8Pk©0V P ²/\\ `ˆ+víûê	ÊG:Š—ÚÀbÀx®p R/…%Ã 0¹Šhí-È —:Aøë/\\\'uX º\\\ZŠvþ¯ð/Óä%å \\ž,b/Â—Ú,Y‡™ï²9Çüï›`å{Éº#´†ä‰õàh’öë¹³Ó(ª’x¬<œFÏFOí! — 3&QÓ ÏŸ\\;  Ö \' üÂ‘€ŒÞ gÿþ×ÿ¾^‡>OÀb„>ûÁ “m€ùk/ù÷¿þoià CX†T®!Ç”vL#aÞ  ü˜þf2¥ i@wØ\'ðø  à R/€…zOý^Àú&Ì‰ R? óÄZüà ¥ “Ž ÖM¼¥d¸·¸ 4iàtí\0œ	Ë  °ë… xÜy =¢MÉiÊuá£—®E^ Ç Hhs¾_\nôóä|R(N œ¡ýò dÍ `dÂ5õ’$ º§kx|ƒ©:®ˆé*²‰•Á* —6ÆIp8P Þ  ,[Â_2,:Áal‘ö †VrJ.ðe ëŠH·O©¤P\\ÿFÀ,g s ø4YÓ Ó¬>lEæ¢«q ñØ/ž)Ò	 —\'ä¯\0 µ* >äP G/Ýä9 TOj-*ÌØa× ,’à@Ô$ñV,%åK‹ù­€Xi ‚¤,€¯V!fzÛ ÝK  xûk¡-‰…AîA}\"C°÷?  Žë\nh5})Ö ß”S©RÑ	‹74äÉ[¹ZÊžU ¬­™ G ù0*ŠŸëJa» ®D ¼ÈåSÏÅJY ä  ™ ê¬¤IŽâ ëjy±‘Š•¨O þ˜¿)Ö7ÚÒjÅJ×•¤ ïÀZ­< ¿Ü  `¾ ôU\0¼D¸ ¡˜ëúK}ZsÓ« F¥Si7H8  ˜\Z€s5{KjÐ‰\0‹(ö p  “1UÁ¯ƒ&ÙGˆ4’  ‡ˆÆŸ€Ð^Î p‡Ý V£ \' ’,–J¸¤µI¿£jw³  6  IW FAÑ„ñÊ	¼¯\"³QB\'/¶žÎœ#sä4Í¢ nX}Ø\Z—þZ³2¨gÃ Ð6N„ ^„1x>Q(ª»¹õIC°mm6ÏR!£Ò®ƒÅ%Ã.Ü*„Õ ú=’íK 7\nÖæ­ \')›Çá£\\zÐL1/X4©j¥ÂBæKÅ Aø:ì  Ä°8`Âdd¼Wèb <Â X ‡|@ £\Z©ò =ÞÍ ŸV/:nÅO)±ãÁªøÓ\'ð÷dÅélÌK¥1 –Út5 (7|”´h[ó(Á¯\0m &X ¸Zx[q¸ô|.ô…“¥!å  ß\'o ô Ï \' :»ÀÖ]¢Øß=ŽÝ ·ŠÉ[ŒZ $=åÝÜ}.4ÅG :†” ãÂ’r# tÌA  éî\n0ò„÷  í-¥>vÃÇÀ  Wª¿, 8æÞ   É ÆÜ¢uDŠ<‰ Z7RÒµp iÕ²!\0ïµK×±E\r0©¶	¦€+? ù Öt ŒÉ)ö—š¾6 N®:vJ¦¯D 1¨ð«(ä Žà>ùÓ\'ªñé®2åq Þ\\CeMSÔ˜úµìYâ<¾ˆù 0 êÅlž/\" áÜ3  õ^îV\'  G‰¾IÞºC¤-id \"\0ö{ZprÙÀ €7Ó8„  ø+X\0G\0Õ´ ;_ \rò¸@i ¢}OKlJ  öâ  @ )\"ßŠØzI\"îz ž›‘™)ò‹Zl–œ³¦X-ÞYË=g]+åf¶c¢Úê¾EßÇ÷«^ˆpëÔKaáÇU–T£þ =t¢à6^x -ÓGô@Á¹Ù\"M^ î¦§ú»Dd&YF_!EBåÝ£ÙÕ}ûª‡W éGíI9P‡½ n#i p,BWØq ÕbÍ!ÌÆ ßüí—köâ\rÌù7ðDØ/Þ T#g×«˜Sqï%1 l«Q§^ ¬ztÇÛ¬Ò êéGF õâ>«\rz¾uÆ¢½©¶~ °¦b?« k6½›ús/\0P®‰²J\\¼$\' Í’—”z2Ñƒ a‹6 lQ›-ÉÃL²Õ\nû ÉÅ YX¡d”óA®—,²$Qäj‹  j¯”\'õpÇ!÷¢Ã>§ —ˆ[‹  p!¥  ë R³£œÖ ™	’\'ôGqn½7RÙ­BeÀ{ý û NÌÃ Ó0ÁN\0¬ÂáÑU5h 0\r`ÁiÉ…¶+ÞË]ÿ¹è¢…@‡» ¢¢·¶É f‘J \\  £Ê“ &=i ÷½¸\07\rCÌñâLœ G ‘Ç™j  0t”¶‚M·…NQ#ð%h ´Óé°Kïê‘ÆI\0  Óç^è‡«-€†a \\Þ&)/œÉMˆ\"!3ˆÙ jŸX  ß­H­9Ä Ë.U \"=]Ë Gö³ G4€P×áëí‚­â0‹)ÁŒr!ZXó¢¬ = Â «uN•Ü“£Ø˜Ö,‘ƒ ¤yê<G ~«*e^¿Ifè ƒ/ðª „¢C9oùÍ9€** DlÅÓW­Û¹ï w-é@¯Ó4šu»@²Ü©[$ Çë$±× qêF´RÝ…Ð—	Ù‰ÜeëJ¡­ KÐ‹Ör—Ÿ°8 ‚ »  ŒB zëL¬  ¶} ’ ršFzõçc‚Stb9q\'ŒW]ðløS\'ZG] Ï­² $ è˜H8•U ë¢Ó\"Gæg  »½k³·Yà¬dí±ë6¨æ4ÉÂ;‡ý£Í>¸ ûyÆDÝ[¦–€¯ °ä›$o.o¬…À  Ö¥› O1& ¯ë7  vÊ ë ô™Ýë\rÛÌî¿˜¼œMGÖÅt4ê|#Ú=>v‚ÅÜë þ¦ xëÎ*|è‚§»án×\Zõ&v4þK »¨»aÝ^õÿ 8;ß{È!¯Þ iÌ¿~&Q³; ÅÏÎGzYþsû‰£îH>R€ ®ýýÇpñ9Û´®ÄD ª Ë ¤y T i )öðçomöWg Î öºÍ~ŒùÆ ™ü f p9Ø_ßàºð`\rö…½žáÖ\0öà%èÛJ)GZÇ| † –»Þ}_Ðþ üH ¦ AÆ5 ê÷ÚÌê½°z/gƒÞàbÐ›ü äïM§“áÔú“Éÿs¸ ØÏ¿·Ùµï¸_ø†ý\n+ñ;÷ ˜ Ü‰¿ÂB| ›‹äÿÇŒý\ZB<IU -„\0c %’·5’+ Ï´llœÍcÐm((Bg\'J—wpl±\0´ °\n#X…ñ ëåÌº°úŠ\0Ø£±=\Zý‰+ K,\'Ô² æ†ÂÓüæR1»>l¥˜ ]ý\0®Ä# uÌcä…> ,c$¢ü ÍÔ ‰  6Xî,õ|ï«ˆÈ ‰:0Ö‹É„wž½ óÉã\r½_hÕ$Ýú\\%Ç³H9Z€+ÜÎRñš¢ •ü§ 4H¤ÒH\Z³ r0ï†X  ?š‹.†rÅ° éY.êðÀFÌc£ë :GÙ  ×\\Î·Ò ÆõwÉ g€œø0\0Œ2gùPò‘ ¡e*+r| áÚ@ Ás¦ü`AÀÛ7ôÚGñV9O¨ùÄå§®ÄO& .Â9Ñí¨¹\'õØ 3·Ê2óðµu)÷Âåj¼x c\0p¥U Ña ˜Ú …Pbã„RVùºÂâ‰x.I ¦L+¾ 8 Ä q¾)®\r—< %p\"î$žÌú.  /Ys·¨Úÿû_ÿû ‡%Ã lÉE ¦œâ¼ ­1w ¾|//ËäÌ  ”(¯³\rLøé·kì2ÚnÀ a- BÝ9Æ‘¢¦•ƒŽAC¢pRëŽ{éä²,ýÐ VZ¦Z[”àÀ· *Í^ jv¢`•[\'ˆ>V¸ÙÀÛ\0±ü Ë£ÚCI¼À ºp÷ • y±‹îÂî– {ôÜtýª5ž€9ãÞj\rÃL -Ö•­R¸‘ïr «és\'~Õ‚  ïá²ÿCí[¤ð ;F€ì¨Ü@ ¶( i‰ü”\\E\"x‡} @©‰ì1wÛâªb zK ’H6bƒ×7Ÿ~¹ø©MU°u Òµçôàsµd1Â}±ð±Ï  (+íf”Ä‚ñÒtK—ZWÏžávFø¿5  P³  ÁÖâÂõ ì‚øMaêQ×¸.?! ·s\Zd÷âÐ“LÒ¸BËîÒíÖG•Ë4  Ë4™ªe ml{`t ¯C@Ô 4Bhu­~·6¦ Pã#«g—!¬6Ú õÆÍ-îgh=­Ûš™‡ohh£Ì 8£ùƒÀí<Jä†_Q” ) /Ð † ^ l·ÌNa JÄ rˆkt>ÄÎÝy’ÆèW [›ßÿá¥òPÈÃu{P-\010¼´z2fÄ¾ l¨ÛêA „Ü ÈÖà\Zµ¥å,šïD …ÔâCè?ˆ:Ô ³) MdªÆÇ\0µ[Þ,•‚0À\nÄ0?XØ*V` ž§ ÷0<óÑ£ ™M’-ÀáÅsP0 öZÀ¢õUç­eïì möî¿!¨¸ùØf¿]ÿøNÇë5içô¢>@Ž èæM ñ #I”# Sá…6š—[¦He?b \\ ÷Q¯ñ €@Þä»ÿ& P  ¨€º›aÒ D) ì€´g·;á.ŒýÛ#Î`|ã^ ¶oÊz—\r6g¸Xæ ­ç¢K*I± ÉôºTÛe¿7÷Í±Âáã‹@ © äp‹wèÒ\"  ­ø˜Ë ,©È  J\"À¥ UP| FÉ n ,®ü{9 üry öÍ k )Uze)¥xK€Ú. \" `:)€L {~\r/_Ó›Ï;Ç ª75B l¤èÕ=æIÆ¨ö§Ýé²«?%5¾¥Û$k<Þ­òOimãÍq _ÙÿÃJ¿k¬|C ‹þ„¦še­ âKL iù`ì® r ÕNÙwö Þ\'ýAypl>£¢ºž2 E jWfN\n¾ÒZ4	8…Â &Sc¨ -jt u4MÍá{ «RWN	 ª¦È\" :XèÅ Å~eªyºr•]× ³ã ª)Z»ù±ô‘!GÝÑ¢[zLrdßž  iÛÃoÍ‘vïˆUg(ç]›ÂØ\0ÔøûÐ÷’P˜LÌµ3YÖôzÞ¢@æÓßâh…\n\'VMW<lî“3\"£¯ ¬j¬Àû ™ ,Æ yp ¢¦b¿Bg¯³9{Q2 TTÙX”¨ ûTÖ¼è§Ð ²ç³ôº4 r†‚ ²  SºÞ’º\0R d*\0\\\0ç(Áù  1´ø‚ ýî`aù¼	ÁM ^H  »UÕÏÝ²#Þaâ V~Ç(Jn× twÍ¤$k¨I–5²  @>o.°œ/Mè-PÐÞ‡€þ +^0B?ïÎ ú†9 èƒž úè[G&¸ ²¼iñ8É/ï›dúPµŒ 5›a) ÓÒÒ Ð£mp®3@¡â‚­x¡ hÎž  W1ôKÕ€Fw¡!ð”&Ô Ôï‘n#Í é xHÔ@\Z²8 î_  * y’  $Ër‡ž7ŒßaÏþ¡ì%& À£ ¢+ ™oµ4À\'ŽN  =ÏÑF>ÿ„m£ÜÕ®æþÞó b ¸äq?×^Q¥õì Á–#º °ƒ šH™¬ˆ  ’ OïË—Ý%ïšGW®š=(d`´ÇS;A ì] cÏ1„úž]Ö4EML~Õî‘ ¾Á ¹ÌP û¥.çWàÒ]vçW ÆÕ v’½±ÇZöäÓe2váü Z iI”ß–ï«€QÀWzA»©Dž Á\0žÃ Xò²ƒýQ‚; Ôç8EZtEÊ<¤^[Ð\\.1sçG]Ü)¤  Á[KÌÍÉ±P°”˜º¢ý ñ% „•òkà `×DÂ BÝù6ß‹U¼”W þ ÛGÌl#ˆ¸må ,[ù•ýé¶^·7ïî˜GIÎ¨døú \Z¾ÊÀ‡Ê{ ÿ>™_t “*ø ¹  uè§ß\\ðû;w™Ÿ!ùå-ð¬q’šìSŽ[n$Qé ‘zÀl  4²ø Í m® xœTÊ  \'\0´U1¢ Ê#N ¯4iáö,éd¢ Žcðfe\Z{ã¸äyÒ xwŽU’åz·Üçíçoüyø(Ì×g¾ÚâyN6ýù/äÀ‚™m4Ò˜* N¬HX¸y©K9¿¢uJ ®“¼ë¨p®)ƒOà‰Ö\Z¸Ì“Ä‰· ¦Ì°L\\ ÉŒ  NˆŽõ—L¶ôa®,\n=­Ö†¡0{1÷3Ž], LÃ`¢ ôîË£Ügá q¤Òá & uO¾£x¤)Ýátµ‡òØRËvØ˜íÞ!J m‰\\V¼è ‹ ¯c¸? ßZp$U¦ˆS\\:æ §äZÎ*9\\‚· &×5Bv‹¢ô JÒ;)GO³êÓMžù¨k ]ÒÓ ênùxw¬NÙ ¬øF2F•Û˜± ŽöBPí½´ýV…±\"_ ÒMÕú XT·Eâ°–F~+úEÅîà¥ á°çÄªP¶V¡ß\ZãÅšoà—X áoœ;LØÇ4?6§ N z  ”<ñ“J[¢®õ Î ó Ž ðX È]\"$i$Ð $ÐÇG\Z¡hmP `/up gœYè etw˜ † ÷Û]»kºµ1 Sôû\ZS  ¶¶8Ü!6 !ÜgYûÝ¾Û­Ž˜Ã7Þ ß7°§ƒÃÎ?9§Îo>®…íŸvwýßü\nÈ˜ì\\‘í× W.3ŸÉæ °A™,tù¡ìm…9h+5m&Di_{  ¼ÒG`|éæ\ná †K¶Lb¥ %‘Ô®ê36 %u1¹+Štâ” ´câH€GCk @ð\0À…B¦)¶ ‘7ý~)”º°Á€ô] Ïß ÊMY>eÐ„Dƒ$owu  ÙÂç™Ø‰Å#o‘ªÜ nª-öc ÑJ\0Ôx­ âVÎ°§· ò +½%D(] éPzþ²|µk ê| ²4ìõr±¢¿•X\r¦ \r›`ÃÝ)#‡=fu†Omf0í½î®Q˜ý´¿ â„Ö:<s¨~@ÐqR\\?©ˆU‡¬5ÕÝ —ÏtÈ\0±•÷\0î/5ÀÐÖ/aFµ“	ˆ=óMÞªf6  xµ!­t²5  0’G\" +²?¼\nt^ ¥ ‘ËQB a‘.°V\"y^5ì ‡4´‹€½    ¸‡\Z\r«0ð¹°øW—nÍˆHšÌ~ÿh  ykWùêÕu Þ 8ñ	{ñ.Ü„,q\"C0/õ?Žºsäe\Z ®^}ÀÊ¦ ÏµÂu²9m–‘m fÁ«W¿@D~ñ#èÝ· axŒD»ñ ÊW›B^\\ÇÎÜsÃ(¡&  Ü À9tÞaßD7¼zõ“¿ ½·M<±.+?ƒuæ!¥Ev ³ëúy» jì¥ èl„kûV4pi Î¿YCo©¨‡  Š   x~Æ~TÇŸÉ_Ë  7Î*!e >ê£ ¶·aüJ=0SPË›­+4c¥¦À  ÌèŒ ¼ŽÓC\' LÆN °¦ÕJj,CËojÝÔ ¤Ü®YºsUì.‚Ÿ¸ ä˜ Íµ¥N .‚Û bG;ÙGƒ³ƒ»\r”zk—·áàØ¬Uå×V›‰~i\nûÔ@\"<ÁSÁ~½þøQ “\01bk7Pºg ‹ 4©ŽŒŽ :\ZÁŠ ÃÔ¥ !¦ ¬q» ÖÎ ä–x5T[l1Å„ýÒYà   Ìºªíì²³ ÓŠ0 D´oi×°â eQämLmàÌh/ÈÈ \rc6ˆ‰“ T‡U2«l±ªÒVlà¨“\\G6É{AR±E¹a)}ˆAmÕ6›£ ».ºÂÕJ$‘[²Å  O„›ú&\\$ )E\ZCµª Hb#\Z®ž(¢ä=IHe  ·‰ ¼D C ãJ·l ¨éˆSˆ|_o@× ¥ÚìVÊcçýØª—K¬°ÏT¢±x/‡½î nO U)TîùÎå Ó·wÕù]®”I \Z ¨â,¤b“¡ .L¾Q—kÊK+•ï¡ªPIžv€¤RƒŸG­vž]o •#ÕÁ¬\" #ú¥Ca°û„&7`7×÷~× ¾Ë+ùIŠI? ‚Q¹ k `æ…yÆ“v¨Î +G»Ïäyp¨kÿîÀ¶Y®”`Ž×[p‡ NT ƒ&ÚÝ¢«ß>Ü¼ «*Ä¸$ÂÔ ‡dùÅ§S¤ @TDouÑOóV; NÛQO jIeü„¢+jÑ¡6lßyÂ§ŸÕ Jßß¶ ÊŠžÄ€‹Å$©R vK«O}4¨2©ß ·  kLšI­oG~T¦P¶&Ê“„$Ø\n)©ß©è³ªúŸaÿ™á\06ƒ(XHCTcÞŠÜ(†š‹³ªÄ> )õåÁq7^àQÌŒ °óë”K¦~ æÃ‚ŒÂw4 ¢³ ù Cbo©íÝÍ‚BŽÊ„Î‚BXT¼€¢ Ïð’¢JŽ, ­°V:Êä3¶nÊWdÓ*nQ¦¶V…¯Ž UÃ\n*¨wœD à‚~R©OT$±šV t¸Ê6Ð .È  Y¹Ù·†e+A ÀêÍ3Y§Ä8V¡ýÍ¼_àÎ\rÀBŽ/pŠÐ‘o¤Î¥8ÇW 7Ôzd@l<:–™†®¹Ÿ¹ù< |œ’ÃXŒ © #y\0 	³ŠIÄ6ô˜¯œØ [g ´€í\" —¡5­Ÿ U+GÿI²FÕPK8®òh®Š;«®^}¢Ö äS¼¡ŽÈKD:cÇ° zÊ8ž dddÕ v#½fšàÙåw  ìÙoü ˜Ù÷6âÌ±0NŸ}D³K‰: ×   d_ªt.Â,HgÌêM»VþS~Xìó¬=nŠÇA ÿû_ÿÃŸ\"r©dÃxâ}å3ÖëÚ½éØ\ZÚ îà˜>»á í¨¨ ¯2j½4?÷Nz}4(ùª.ÒõŒÙÝAïÙ›§ ¢U´X }×Œ-A›I—’Àë!pÏ.. I>; êÈRz~ÝžÂá» ã¬G›³ˆnÎ< ·‹Ï “áà¢÷Ý}×ûî; |g÷_¢˜‡ýu)„\ZÌîYÃÞÔšö ½‘=f8\'~PÍ\ZÌZ›_œ`• §b:;i}ïÌz³þ ÷,¸÷:?*R»ÑÃO²! ¨ï²YÃYM”áò  WƒÚ³z3Ë†¿†øY7 nÖÎÕú ž Ž§ø¥7\0¬q[ <Öï§ œÙžµJü ÷Æýñ nMf­\\$iàÉD\\ÍEAL7úþ ø·‡© Î‰d Þ  ÄêÒÀ¢KÓ¡¥.aÊ /õ­Iþ ¦3èÍ  œSK2”NE[»þÞÕîŒáÆ{L°Ò5KËš•öoá ß *Öv ©{Cu¯(Q¨[\0“Ö«­®Â zÃ¬¼lÃ ;šÿÔSýY«©ÉN= ³\Z Ôýá¬ÕÜk¡ \ZÔ ª\r4iõ[mrc©Q£Vµà¤n\rä­:ÄÈM»òåô .6<¸Áôúgjž TÞµ¼$/	0d eX‰*Hq¯7îYÖdØë\rð*\\ jZøg Æ 6w öfûeÒ ÝOÝM\Z}yXm³,Ê¼ì~aƒ¬þÑÄ3M ö¦=Ë¶{“á¨×3Lø%x \'îú‹; ÄO ñ¶ ò|ÿe4œNç_ g &41âþù¬¾a¾»­ëÌ·½Í6tŸìq/žßÏSßáÑÚß> }9_…»wÐrÐïÙ–e÷G†©VÞfä¦!(œ» ¹~2pVn/]÷Óq6½¿ SUEfïºl Z_ Ÿ²e´ZÎ×	pæzqç ÷÷¶7 &ÎÃh’Ð\\ûä°‘¢À Ö Ð´ú¶‰eFÎ—Íä‡^¼ é¥“ùÃj|? ¯ÆK>ÙŠ©w	÷¾yí¡=4Ìk gÏGkûé>˜¦}k ÝÅÎðÎMVÃ¯÷ó…˜·Qcìg Û´¦^dÝM ü/OÎfÑîû ‹ûÀä“¸?\n —’Î»ÕÐž žZ½þØ0ódè=ØÛ¯ã¨÷à ÏÝ WÛ$îa *_>J2ïÔmû&î &•°äwérå ìžÿ¥ ¯½±Ç³x½H ßŽ ó{š¸¬0 \'BßahÛƒqÏÄÃ÷«Érò”F›ñdì\' }/žZ|} <%“û|AÍZxÇ¤ãÞ þí  ÔYùÃiúÀŸæñü!û2çë\'{¹½»ÿ …Ë ×?5Õ¾—ÌH®æÑ`\n¡j°ûÞ8M¾n¾.-ï¾¿IãûäËFÌg° û§³LêÕË q²¶ ßZûñ$ü»qj\rï Ö×¨  cAÓ½F¨‘¶C©\0G½©aržm¬a0zêÇ[gý%ý\n¤¶–=?è?\0 Y0Î  ÙÍ  9æÎÞ˜ )pdN? JšXm Î_R ÜÖF9ú$¢ot Ë±° åùÿ ‹ñ€šo ‹ÕŸ}»ÚÚÁu5Í}mJmäN ~Šú=&¡ 6S´ !íg™–ý~>ëI·ró XÑp  ƒßÂŸpËS¼-]}Ç ÷= RTŒ ä¯¡‹¹ mÒA~õ3erõ{ýâ ¢¡Ý\Zæ·~ÅvÎU-. Ÿà~ †:Š`%6¿;1V *W?«ò ªš1 z=øk‚J\0àV_øÉEzÖ’¿a6p ¤ê¡œÍ÷ÂW®×FÆ“ò ?Ú›0\Z1†~\r`Â­ â ÔÍñ)Ò\Z ùp¹LxJaåh\"æ [Á*àèÇ QÐØ€¤]G²_Er8S%p•÷©a  huL8Úçá8µj8 Ðä íA í  ûu  U   ‚ò«5Uü†„Ÿ ÃþY ‚1­aX€£>¢ƒ öÏ@pR ¨}*¤ IÛ€äà,$-{00ñªáó%ˆéà L‡yÎD}H£	Í¾ Íáyh û# »V¿õ8 ¿ÍjjŸgh@s`@st švohÔ<†OF ¦£Ó5Ï ]ð£¿0`VN&® ŸG‡~]v ˆú Òi|:GôÍtÒ¾Q`æ Û¨Ð&çQeÐïW©Ò7SEÿÈ R`r: 0 m:Ê¾	w GLÏÃ}:¬é¹2d•ó÷ ëé X«X—NyoB¼¦ùÀ !Ýé†Ú Žk˜«˜—O¨ ¹ì3ü’ñL ÎX `n ~#Æçº_C»¦  ˆ´cÖ	Ï&ÿë@}_?úÜ¼¸ýºD#ªgza£±Qá  i\'\\›\\±C4¾¥ùš‡ êm^õšéCRœç®õ§“\Z)4˜:¾œhÕäÕ  |ÔÏ!­‘B9áUBœçÒ\rEµ©Æ †ÓR	Ï&Ÿî\0žè g­ NÙ4ñ€ÁÀ!êç¹yÃé f÷+06ž J´hòý  …mÏZŸŒ‡YšÑ7®üyîßÈ\ZÔ¼Ü*XÚá›„ñ >`\rãâè #ÆFUž£7\ZOk¼^ÃX  1>Ç›«bl8xÌ¤ýí&ížC7î×š*ˆÆÓ×ˆ gøt˜ *ŸxÕ€´‘ÉÏóäÆãIÍŸ1Àƒ žá¿õ§••n>Å¨	w »Ûçùr kP÷à+î:Ñ‰²1çøu€‚~hŒYÎMÆÝ>Ï¥›Œ ÃÚ¢+`Ô6„Ý Ù4  ˜Ïý0c:4azžG7íMëîú ºÄ:`ˆõ ~=¬`]: ÁˆöÈ„öyÞÛth@» Yù  Â»ÉG;Äw©®¶q §™\0c  ÎLÄõFýšÿZ…±aG-‘¢É;Ä]…I«ûûjˆ+ VÑ>31gYýºd ð”Ó v“v\0’C¸â®  -ŒJî<÷Í²&ýš=/}ä6(\"Y“ƒw\0Élj©·¸šèaT…ç9wÖÀ\ZÕýÙ2LE7®¨#c Ûüd-é&¼ãH Y ÃêZq,Y¹,vóáõ»›_! L¦0‹<ñ\0Ûny3þ}…§ Ð	 ¸#Z>! ¼º\\ÛWE7,ü »{ŸQ»ý³KßÓ \"â_X þ”È –¶Ÿú?\r £«R£2¼(WáÊ’}Ç¬ú\0õa_ÕkayŸ²sÕ ›­Ãfë°U+=Í€uö€V©`  W_‡«o‚KÖgvu(`b(\r.j«¶ °	0ý‹ð»€³  NÿDýÑ\0 u\0k >ß ]7tµo° \rÚÈD;ý›×»   F;ý#Ü \0å¦‰f`K’1Ö=åsÍÍÈìaƒS¾>}¬|Mö`Wú$ó LöÉÛ¾oG ÍCS ðæOíî y ù›¿ |4°ø Ú&h+ Ý ð ÁÜùÛ³dÀ*™.Ã7M›¡Þ§Lê X=–…­’í2}Ãt tûøÖôQÕóHi´hG}€³  uãQ_ = Û²Ë301Î!>Ï á4}aìXŸÇ\Z–¥ò€ O5B» úRÖ!z¥ŒÁ¨ŒùCLÍ@ïÕ€æïC  ç¸ NíLòf8÷*>ó ]ŽÖ$“F0 ºØ ð~~Ø÷UŽãLÉ$V¾Z° Ô=\\PùxÂÑpÙ½Fªî:¡~ ÄÇðÃ®ÃõÏÒävÉ(–Ïßn ~Š.  ~´ Ùv3­õC›á  CZý|æãaí7ÂZ>¶µ ØÑ À–Ï”= ÚA³ª5Ÿ…× öø µk>ºï,«l— _ýD°&È÷ˆ]ýh²C¨\\†¬dÐN>#¨	=ÂwòÑGÇãY2ˆæ-èMHì‘Póžø ~© 7©Òu› µ3˜®”wƒÈ/¸ßì?>ÒNdÑ þ ›÷˜\"¤Y©n  Q®»W{ðzA§-ºÚFGÚ[;µè¬>ÜN¹=µ½R ;÷Es¹¸3™µÀ™Š} û;åÃýY+I³y\n´MÖ¡ïŠ ˆn\n ŸéûNN¼ýÑI¿Eny .î›©¼€ûXh 7¾PN2þÇ‰ìï¥¦ ‘(– 1_ãVì›êÖš|·µ*y‰çÞ<E –9û^ô6m^Ëãk>øî¯ÎÊ[ˆœç ÿ ','20150920040627')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '4854'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Help:Guidelines&oldid=80024
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.159
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:06d434416989838d12d6f3e53854aeff:0)
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png does not exist.
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_5b37ebd959e6-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_de54d35de655-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_7070ce36e1b6-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png does not exist.
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_4e2f86eb7fac-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_7964eba13d49-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_3f1e9e76157c-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png does not exist.
+BitmapHandler::doTransform: creating 98x102 thumbnail at /tmp/transform_b4bb229411df-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png
+BitmapHandler::doTransform: creating 98x102 thumbnail at /tmp/transform_16194ace1a0f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png
+BitmapHandler::doTransform: creating 98x102 thumbnail at /tmp/transform_3f368eb91db0-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png does not exist.
+BitmapHandler::doTransform: creating 196x177 thumbnail at /tmp/transform_5ac2933f7088-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png
+BitmapHandler::doTransform: creating 196x177 thumbnail at /tmp/transform_52470eb6451a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png
+BitmapHandler::doTransform: creating 196x177 thumbnail at /tmp/transform_521fd563e7ac-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png does not exist.
+BitmapHandler::doTransform: creating 329x225 thumbnail at /tmp/transform_5b231cb1e9d5-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png
+BitmapHandler::doTransform: creating 329x225 thumbnail at /tmp/transform_15e0b733724d-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png
+BitmapHandler::doTransform: creating 329x225 thumbnail at /tmp/transform_34279ed34f41-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png does not exist.
+BitmapHandler::doTransform: creating 359x162 thumbnail at /tmp/transform_31f9fcbe77f0-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png
+BitmapHandler::doTransform: creating 359x162 thumbnail at /tmp/transform_1133159af36c-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png
+BitmapHandler::doTransform: creating 359x162 thumbnail at /tmp/transform_28af68ad2c41-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png does not exist.
+BitmapHandler::doTransform: creating 340x166 thumbnail at /tmp/transform_6a0a255f673b-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png
+BitmapHandler::doTransform: creating 340x166 thumbnail at /tmp/transform_7a8cda833897-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png
+BitmapHandler::doTransform: creating 340x166 thumbnail at /tmp/transform_12b61984d7ce-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png does not exist.
+BitmapHandler::doTransform: creating 124x67 thumbnail at /tmp/transform_51912deae01a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png
+BitmapHandler::doTransform: creating 124x67 thumbnail at /tmp/transform_646df81b7383-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png
+BitmapHandler::doTransform: creating 124x67 thumbnail at /tmp/transform_4b47616b9cd5-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png does not exist.
+BitmapHandler::doTransform: creating 169x163 thumbnail at /tmp/transform_655bcc913deb-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png
+BitmapHandler::doTransform: creating 169x163 thumbnail at /tmp/transform_7bd62d469daa-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png
+BitmapHandler::doTransform: creating 169x163 thumbnail at /tmp/transform_3d4600bd5379-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png does not exist.
+BitmapHandler::doTransform: creating 155x169 thumbnail at /tmp/transform_56e3cc112a0c-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png
+BitmapHandler::doTransform: creating 155x169 thumbnail at /tmp/transform_f409fd0204b1-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png
+BitmapHandler::doTransform: creating 155x169 thumbnail at /tmp/transform_38a9866a3e7b-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png does not exist.
+BitmapHandler::doTransform: creating 326x298 thumbnail at /tmp/transform_400c90082255-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png
+BitmapHandler::doTransform: creating 326x298 thumbnail at /tmp/transform_493101936b5d-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png
+BitmapHandler::doTransform: creating 326x298 thumbnail at /tmp/transform_1a49c6be2d31-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png does not exist.
+BitmapHandler::doTransform: creating 250x175 thumbnail at /tmp/transform_5ddcf4c479f7-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png
+BitmapHandler::doTransform: creating 250x175 thumbnail at /tmp/transform_547581306513-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png
+BitmapHandler::doTransform: creating 250x175 thumbnail at /tmp/transform_659ddb4d1f93-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png does not exist.
+BitmapHandler::doTransform: creating 233x143 thumbnail at /tmp/transform_653fc83934f0-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png
+BitmapHandler::doTransform: creating 233x143 thumbnail at /tmp/transform_47f62f293b04-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png
+BitmapHandler::doTransform: creating 233x143 thumbnail at /tmp/transform_651b07b56a93-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png does not exist.
+BitmapHandler::doTransform: creating 237x143 thumbnail at /tmp/transform_466b74ef5cdf-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png
+BitmapHandler::doTransform: creating 237x143 thumbnail at /tmp/transform_28a8a27a6a78-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png
+BitmapHandler::doTransform: creating 237x143 thumbnail at /tmp/transform_21066a2c6988-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/90/CellCompartments_nucleus.png/1000px-CellCompartments_nucleus.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/90/CellCompartments_nucleus.png/1000px-CellCompartments_nucleus.png does not exist.
+BitmapHandler::doTransform: creating 1000x982 thumbnail at /tmp/transform_6051f4cf57ce-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:06d434416989838d12d6f3e53854aeff:0)
+Saved in parser cache with key wikipathways:pcache:idhash:4854-0!*!0!!en!2!* and timestamp 20151027055752
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:4854-0!*!0!!en!2!*','Å}Û’ÛÈ‘è>ë+j¸ GÒ.›$À;§ÕŽ 4’ç\"…Ôö„Ÿ:@¢HB\r h\\º›rL„?a?`ÏÏùKNfV P\0\n¼*æ8l«‰KUfVÞ3«ðafÙ³ÖG\'Nxü!K£,mÍúƒÙ?“ÙpÖÚÜð§´õ}2³ÇÓñ`ÖºŒ®~_ó€-bî¤^°baÌ¸ëÑŸ‘“® -ó‚e oàv 0\'e¿{wÞGq+i³ÈçNÂÙ ç K×œ-Cß  ñõUæ¹Ü÷ žÀ lã n‡±›5‡§µ[Ž·aiÈ¢8Ü„)g‹0H¼$åÁbÛfÎb‘ÅÎbËœÀeIêÌ=ßK·0ELS)øà x!í° ¶Úôie¦6Û† {ô|Ÿ­¹ á¤ Ç Rø ¶öVðFÊ¢0I¼¹ÏÙ}æÐtáÒL	€I  ‡H²Å‚\'	¾± 7›,€×/æ@ —!\"øZçÙe7ºzv	ÈÀ žûª•†‹ [øN’ˆ¿¯.Ó þç^]ºÞƒz\"õRŸÃ­µ}õZ`›\\váÇe  ‚á2 þÏ÷´q|þÀý  @\\$|S_X0€ÃÖ1_¾jýçO<à±ãß  ‚»Iä Ú A¶™ó¸ue]vñÎ «>\"3]É¡4ZËç/»Î Øl 6[‡Mr×­\\Ø €uö€ö±Ì\" ÁÕ×áê›à\n àæÕN°  L ¥ÁuÙõ½ à\Z˜àr‚ L‰ÍvÃf  [1Üñð\ruø$ËÞ‚ðÜí%\\7pr,&Ç: ²‘‰ró0 \\\'övJ \078ŒrÅpuøºÄw°–¤b¬Ãz¥ë0¾Õt ,¸{ 7y ú ˆq+õÔm fñb7.{x@LVSxÚd¹R”“ /[“=ØÁå »1Ù\'k \\à¿jèã9hªÃýIR„\'·ix   TašÅ|7Ä{¨_ Š&¦ ôxX­^3°!Ø¬ø ^Ù\'”exi\\ [œ \0VÉf½F#\nLÂSï>ãiº“Èûôˆ ‹åc Ï¿VÉhýê >ºÝ8_ Bp¡v’´¿iÅpŒ†#ì\\J\Z-™rK47àv	 Í-ÀÀã\0üƒ˜ À  ªE5›îÿálLÍÆòÙŽF¶ìé Llsˆ«³G0 ×œãêXÃ²H¢«È —»·YÂoÃe®Å¹Ï7èéí€v  i£3 ]÷eÕè é”2 £2  ¬\ZŒ„Ü ³A@ð´“Âû•_1 Ë < Ìq#˜ ìÐ3;ÁÜ«ó40ó OÐ\"“F0yðu‹ kq Àû¹A 9 Ü ü¡æ¥d ?§¡·X{á†§ñv7¤{x 4Òñ`Ù½Fšn2?õ€¥n oãùN|(iá 5 “sì¢ð1:Ü.YÃ¿%ˆïÌ¹¿ ö=Ê™†ab˜ã…Ì¶›)Í!È\rÑyÙ	Þð Â Cž\0j¿ T/@ k? ŒŽ€U ó ` Í:–û~†œ‹ºÑ‰Ó½6b|Œ¾•ƒ3}ðóŒ±]²wož Ôè xö{$N tœ _ ¬dÇÞ  ?K(îÈMp‚œ Þ& _xKPÃQž˜ð}¾]öÈ]>Ÿf”1S  ´šOËpåó€fÉ ¾Á(hÁ1ýtû Di±3æÝ#œÚ`L\rÖÈ,˜Òêbn«KÉ/¸´¶®.73òn °€ñŠ¿j½ã~4û©p×˜¼ýªe™ÓMåQ*àn /ÖÜqñÑ %ÔL¹/V –å¨\0 \0mÿhhmC ê8Pk©0V P ²/\\ `ˆ+víûê	ÊG:Š—ÚÀbÀx®p R/…%Ã 0¹Šhí-È —:Aøë/\\\'uX º\\\ZŠvþ¯ð/Óä%å \\ž,b/Â—Ú,Y‡™ï²9Çüï›`å{Éº#´†ä‰õàh’öë¹³Ó(ª’x¬<œFÏFOí! — 3&QÓ ÏŸ\\;  Ö \' üÂ‘€ŒÞ gÿþ×ÿ¾^‡>OÀb„>ûÁ “m€ùk/ù÷¿þoià CX†T®!Ç”vL#aÞ  ü˜þf2¥ i@wØ\'ðø  à R/€…zOý^Àú&Ì‰ R? óÄZüà ¥ “Ž ÖM¼¥d¸·¸ 4iàtí\0œ	Ë  °ë… xÜy =¢MÉiÊuá£—®E^ Ç Hhs¾_\nôóä|R(N œ¡ýò dÍ `dÂ5õ’$ º§kx|ƒ©:®ˆé*²‰•Á* —6ÆIp8P Þ  ,[Â_2,:Áal‘ö †VrJ.ðe ëŠH·O©¤P\\ÿFÀ,g s ø4YÓ Ó¬>lEæ¢«q ñØ/ž)Ò	 —\'ä¯\0 µ* >äP G/Ýä9 TOj-*ÌØa× ,’à@Ô$ñV,%åK‹ù­€Xi ‚¤,€¯V!fzÛ ÝK  xûk¡-‰…AîA}\"C°÷?  Žë\nh5})Ö ß”S©RÑ	‹74äÉ[¹ZÊžU ¬­™ G ù0*ŠŸëJa» ®D ¼ÈåSÏÅJY ä  ™ ê¬¤IŽâ ëjy±‘Š•¨O þ˜¿)Ö7ÚÒjÅJ×•¤ ïÀZ­< ¿Ü  `¾ ôU\0¼D¸ ¡˜ëúK}ZsÓ« F¥Si7H8  ˜\Z€s5{KjÐ‰\0‹(ö p  “1UÁ¯ƒ&ÙGˆ4’  ‡ˆÆŸ€Ð^Î p‡Ý V£ \' ’,–J¸¤µI¿£jw³  6  IW FAÑ„ñÊ	¼¯\"³QB\'/¶žÎœ#sä4Í¢ nX}Ø\Z—þZ³2¨gÃ Ð6N„ ^„1x>Q(ª»¹õIC°mm6ÏR!£Ò®ƒÅ%Ã.Ü*„Õ ú=’íK 7\nÖæ­ \')›Çá£\\zÐL1/X4©j¥ÂBæKÅ Aø:ì  Ä°8`Âdd¼Wèb <Â X ‡|@ £\Z©ò =ÞÍ ŸV/:nÅO)±ãÁªøÓ\'ð÷dÅélÌK¥1 –Út5 (7|”´h[ó(Á¯\0m &X ¸Zx[q¸ô|.ô…“¥!å  ß\'o ô Ï \' :»ÀÖ]¢Øß=ŽÝ ·ŠÉ[ŒZ $=åÝÜ}.4ÅG :†” ãÂ’r# tÌA  éî\n0ò„÷  í-¥>vÃÇÀ  Wª¿, 8æÞ   É ÆÜ¢uDŠ<‰ Z7RÒµp iÕ²!\0ïµK×±E\r0©¶	¦€+? ù Öt ŒÉ)ö—š¾6 N®:vJ¦¯D 1¨ð«(ä Žà>ùÓ\'ªñé®2åq Þ\\CeMSÔ˜úµìYâ<¾ˆù 0 êÅlž/\" áÜ3  õ^îV\'  G‰¾IÞºC¤-id \"\0ö{ZprÙÀ €7Ó8„  ø+X\0G\0Õ´ ;_ \rò¸@i ¢}OKlJ  öâ  @ )\"ßŠØzI\"îz ž›‘™)ò‹Zl–œ³¦X-ÞYË=g]+åf¶c¢Úê¾EßÇ÷«^ˆpëÔKaáÇU–T£þ =t¢à6^x -ÓGô@Á¹Ù\"M^ î¦§ú»Dd&YF_!EBåÝ£ÙÕ}ûª‡W éGíI9P‡½ n#i p,BWØq ÕbÍ!ÌÆ ßüí—köâ\rÌù7ðDØ/Þ T#g×«˜Sqï%1 l«Q§^ ¬ztÇÛ¬Ò êéGF õâ>«\rz¾uÆ¢½©¶~ °¦b?« k6½›ús/\0P®‰²J\\¼$\' Í’—”z2Ñƒ a‹6 lQ›-ÉÃL²Õ\nû ÉÅ YX¡d”óA®—,²$Qäj‹  j¯”\'õpÇ!÷¢Ã>§ —ˆ[‹  p!¥  ë R³£œÖ ™	’\'ôGqn½7RÙ­BeÀ{ý û NÌÃ Ó0ÁN\0¬ÂáÑU5h 0\r`ÁiÉ…¶+ÞË]ÿ¹è¢…@‡» ¢¢·¶É f‘J \\  £Ê“ &=i ÷½¸\07\rCÌñâLœ G ‘Ç™j  0t”¶‚M·…NQ#ð%h ´Óé°Kïê‘ÆI\0  Óç^è‡«-€†a \\Þ&)/œÉMˆ\"!3ˆÙ jŸX  ß­H­9Ä Ë.U \"=]Ë Gö³ G4€P×áëí‚­â0‹)ÁŒr!ZXó¢¬ = Â «uN•Ü“£Ø˜Ö,‘ƒ ¤yê<G ~«*e^¿Ifè ƒ/ðª „¢C9oùÍ9€** DlÅÓW­Û¹ï w-é@¯Ó4šu»@²Ü©[$ Çë$±× qêF´RÝ…Ð—	Ù‰ÜeëJ¡­ KÐ‹Ör—Ÿ°8 ‚ »  ŒB zëL¬  ¶} ’ ršFzõçc‚Stb9q\'ŒW]ðløS\'ZG] Ï­² $ è˜H8•U ë¢Ó\"Gæg  »½k³·Yà¬dí±ë6¨æ4ÉÂ;‡ý£Í>¸ ûyÆDÝ[¦–€¯ °ä›$o.o¬…À  Ö¥› O1& ¯ë7  vÊ ë ô™Ýë\rÛÌî¿˜¼œMGÖÅt4ê|#Ú=>v‚ÅÜë þ¦ xëÎ*|è‚§»án×\Zõ&v4þK »¨»aÝ^õÿ 8;ß{È!¯Þ iÌ¿~&Q³; ÅÏÎGzYþsû‰£îH>R€ ®ýýÇpñ9Û´®ÄD ª Ë ¤y T i )öðçomöWg Î öºÍ~ŒùÆ ™ü f p9Ø_ßàºð`\rö…½žáÖ\0öà%èÛJ)GZÇ| † –»Þ}_Ðþ üH ¦ AÆ5 ê÷ÚÌê½°z/gƒÞàbÐ›ü äïM§“áÔú“Éÿs¸ ØÏ¿·Ùµï¸_ø†ý\n+ñ;÷ ˜ Ü‰¿ÂB| ›‹äÿÇŒý\ZB<IU -„\0c %’·5’+ Ï´llœÍcÐm((Bg\'J—wpl±\0´ °\n#X…ñ ëåÌº°úŠ\0Ø£±=\Zý‰+ K,\'Ô² æ†ÂÓüæR1»>l¥˜ ]ý\0®Ä# uÌcä…> ,c$¢ü ÍÔ ‰  6Xî,õ|ï«ˆÈ ‰:0Ö‹É„wž½ óÉã\r½_hÕ$Ýú\\%Ç³H9Z€+ÜÎRñš¢ •ü§ 4H¤ÒH\Z³ r0ï†X  ?š‹.†rÅ° éY.êðÀFÌc£ë :GÙ  ×\\Î·Ò ÆõwÉ g€œø0\0Œ2gùPò‘ ¡e*+r| áÚ@ Ás¦ü`AÀÛ7ôÚGñV9O¨ùÄå§®ÄO& .Â9Ñí¨¹\'õØ 3·Ê2óðµu)÷Âåj¼x c\0p¥U Ña ˜Ú …Pbã„RVùºÂâ‰x.I ¦L+¾ 8 Ä q¾)®\r—< %p\"î$žÌú.  /Ys·¨Úÿû_ÿû ‡%Ã lÉE ¦œâ¼ ­1w ¾|//ËäÌ  ”(¯³\rLøé·kì2ÚnÀ a- BÝ9Æ‘¢¦•ƒŽAC¢pRëŽ{éä²,ýÐ VZ¦Z[”àÀ· *Í^ jv¢`•[\'ˆ>V¸ÙÀÛ\0±ü Ë£ÚCI¼À ºp÷ • y±‹îÂî– {ôÜtýª5ž€9ãÞj\rÃL -Ö•­R¸‘ïr «és\'~Õ‚  ïá²ÿCí[¤ð ;F€ì¨Ü@ ¶( i‰ü”\\E\"x‡} @©‰ì1wÛâªb zK ’H6bƒ×7Ÿ~¹ø©MU°u Òµçôàsµd1Â}±ð±Ï  (+íf”Ä‚ñÒtK—ZWÏžávFø¿5  P³  ÁÖâÂõ ì‚øMaêQ×¸.?! ·s\Zd÷âÐ“LÒ¸BËîÒíÖG•Ë4  Ë4™ªe ml{`t ¯C@Ô 4Bhu­~·6¦ Pã#«g—!¬6Ú õÆÍ-îgh=­Ûš™‡ohh£Ì 8£ùƒÀí<Jä†_Q” ) /Ð † ^ l·ÌNa JÄ rˆkt>ÄÎÝy’ÆèW [›ßÿá¥òPÈÃu{P-\010¼´z2fÄ¾ l¨ÛêA „Ü ÈÖà\Zµ¥å,šïD …ÔâCè?ˆ:Ô ³) MdªÆÇ\0µ[Þ,•‚0À\nÄ0?XØ*V` ž§ ÷0<óÑ£ ™M’-ÀáÅsP0 öZÀ¢õUç­eïì möî¿!¨¸ùØf¿]ÿøNÇë5içô¢>@Ž èæM ñ #I”# Sá…6š—[¦He?b \\ ÷Q¯ñ €@Þä»ÿ& P  ¨€º›aÒ D) ì€´g·;á.ŒýÛ#Î`|ã^ ¶oÊz—\r6g¸Xæ ­ç¢K*I± ÉôºTÛe¿7÷Í±Âáã‹@ © äp‹wèÒ\"  ­ø˜Ë ,©È  J\"À¥ UP| FÉ n ,®ü{9 üry öÍ k )Uze)¥xK€Ú. \" `:)€L {~\r/_Ó›Ï;Ç ª75B l¤èÕ=æIÆ¨ö§Ýé²«?%5¾¥Û$k<Þ­òOimãÍq _ÙÿÃJ¿k¬|C ‹þ„¦še­ âKL iù`ì® r ÕNÙwö Þ\'ýAypl>£¢ºž2 E jWfN\n¾ÒZ4	8…Â &Sc¨ -jt u4MÍá{ «RWN	 ª¦È\" :XèÅ Å~eªyºr•]× ³ã ª)Z»ù±ô‘!GÝÑ¢[zLrdßž  iÛÃoÍ‘vïˆUg(ç]›ÂØ\0ÔøûÐ÷’P˜LÌµ3YÖôzÞ¢@æÓßâh…\n\'VMW<lî“3\"£¯ ¬j¬Àû ™ ,Æ yp ¢¦b¿Bg¯³9{Q2 TTÙX”¨ ûTÖ¼è§Ð ²ç³ôº4 r†‚ ²  SºÞ’º\0R d*\0\\\0ç(Áù  1´ø‚ ýî`aù¼	ÁM ^H  »UÕÏÝ²#Þaâ V~Ç(Jn× twÍ¤$k¨I–5²  @>o.°œ/Mè-PÐÞ‡€þ +^0B?ïÎ ú†9 èƒž úè[G&¸ ²¼iñ8É/ï›dúPµŒ 5›a) ÓÒÒ Ð£mp®3@¡â‚­x¡ hÎž  W1ôKÕ€Fw¡!ð”&Ô Ôï‘n#Í é xHÔ@\Z²8 î_  * y’  $Ër‡ž7ŒßaÏþ¡ì%& À£ ¢+ ™oµ4À\'ŽN  =ÏÑF>ÿ„m£ÜÕ®æþÞó b ¸äq?×^Q¥õì Á–#º °ƒ šH™¬ˆ  ’ OïË—Ý%ïšGW®š=(d`´ÇS;A ì] cÏ1„úž]Ö4EML~Õî‘ ¾Á ¹ÌP û¥.çWàÒ]vçW ÆÕ v’½±ÇZöäÓe2váü Z iI”ß–ï«€QÀWzA»©Dž Á\0žÃ Xò²ƒýQ‚; Ôç8EZtEÊ<¤^[Ð\\.1sçG]Ü)¤  Á[KÌÍÉ±P°”˜º¢ý ñ% „•òkà `×DÂ BÝù6ß‹U¼”W þ ÛGÌl#ˆ¸må ,[ù•ýé¶^·7ïî˜GIÎ¨døú \Z¾ÊÀ‡Ê{ ÿ>™_t “*ø ¹  uè§ß\\ðû;w™Ÿ!ùå-ð¬q’šìSŽ[n$Qé ‘zÀl  4²ø Í m® xœTÊ  \'\0´U1¢ Ê#N ¯4iáö,éd¢ Žcðfe\Z{ã¸äyÒ xwŽU’åz·Üçíçoüyø(Ì×g¾ÚâyN6ýù/äÀ‚™m4Ò˜* N¬HX¸y©K9¿¢uJ ®“¼ë¨p®)ƒOà‰Ö\Z¸Ì“Ä‰· ¦Ì°L\\ ÉŒ  NˆŽõ—L¶ôa®,\n=­Ö†¡0{1÷3Ž], LÃ`¢ ôîË£Ügá q¤Òá & uO¾£x¤)Ýátµ‡òØRËvØ˜íÞ!J m‰\\V¼è ‹ ¯c¸? ßZp$U¦ˆS\\:æ §äZÎ*9\\‚· &×5Bv‹¢ô JÒ;)GO³êÓMžù¨k ]ÒÓ ênùxw¬NÙ ¬øF2F•Û˜± ŽöBPí½´ýV…±\"_ ÒMÕú XT·Eâ°–F~+úEÅîà¥ á°çÄªP¶V¡ß\ZãÅšoà—X áoœ;LØÇ4?6§ N z  ”<ñ“J[¢®õ Î ó Ž ðX È]\"$i$Ð $ÐÇG\Z¡hmP `/up gœYè etw˜ † ÷Û]»kºµ1 Sôû\ZS  ¶¶8Ü!6 !ÜgYûÝ¾Û­Ž˜Ã7Þ ß7°§ƒÃÎ?9§Îo>®…íŸvwýßü\nÈ˜ì\\‘í× W.3ŸÉæ °A™,tù¡ìm…9h+5m&Di_{  ¼ÒG`|éæ\ná †K¶Lb¥ %‘Ô®ê36 %u1¹+Štâ” ´câH€GCk @ð\0À…B¦)¶ ‘7ý~)”º°Á€ô] Ïß ÊMY>eÐ„Dƒ$owu  ÙÂç™Ø‰Å#o‘ªÜ nª-öc ÑJ\0Ôx­ âVÎ°§· ò +½%D(] éPzþ²|µk ê| ²4ìõr±¢¿•X\r¦ \r›`ÃÝ)#‡=fu†Omf0í½î®Q˜ý´¿ â„Ö:<s¨~@ÐqR\\?©ˆU‡¬5ÕÝ —ÏtÈ\0±•÷\0î/5ÀÐÖ/aFµ“	ˆ=óMÞªf6  xµ!­t²5  0’G\" +²?¼\nt^ ¥ ‘ËQB a‘.°V\"y^5ì ‡4´‹€½    ¸‡\Z\r«0ð¹°øW—nÍˆHšÌ~ÿh  ykWùêÕu Þ 8ñ	{ñ.Ü„,q\"C0/õ?Žºsäe\Z ®^}ÀÊ¦ ÏµÂu²9m–‘m fÁ«W¿@D~ñ#èÝ· axŒD»ñ ÊW›B^\\ÇÎÜsÃ(¡&  Ü À9tÞaßD7¼zõ“¿ ½·M<±.+?ƒuæ!¥Ev ³ëúy» jì¥ èl„kûV4pi Î¿YCo©¨‡  Š   x~Æ~TÇŸÉ_Ë  7Î*!e >ê£ ¶·aüJ=0SPË›­+4c¥¦À  ÌèŒ ¼ŽÓC\' LÆN °¦ÕJj,CËojÝÔ ¤Ü®YºsUì.‚Ÿ¸ ä˜ Íµ¥N .‚Û bG;ÙGƒ³ƒ»\r”zk—·áàØ¬Uå×V›‰~i\nûÔ@\"<ÁSÁ~½þøQ “\01bk7Pºg ‹ 4©ŽŒŽ :\ZÁŠ ÃÔ¥ !¦ ¬q» ÖÎ ä–x5T[l1Å„ýÒYà   Ìºªíì²³ ÓŠ0 D´oi×°â eQämLmàÌh/ÈÈ \rc6ˆ‰“ T‡U2«l±ªÒVlà¨“\\G6É{AR±E¹a)}ˆAmÕ6›£ ».ºÂÕJ$‘[²Å  O„›ú&\\$ )E\ZCµª Hb#\Z®ž(¢ä=IHe  ·‰ ¼D C ãJ·l ¨éˆSˆ|_o@× ¥ÚìVÊcçýØª—K¬°ÏT¢±x/‡½î nO U)TîùÎå Ó·wÕù]®”I \Z ¨â,¤b“¡ .L¾Q—kÊK+•ï¡ªPIžv€¤RƒŸG­vž]o •#ÕÁ¬\" #ú¥Ca°û„&7`7×÷~× ¾Ë+ùIŠI? ‚Q¹ k `æ…yÆ“v¨Î +G»Ïäyp¨kÿîÀ¶Y®”`Ž×[p‡ NT ƒ&ÚÝ¢«ß>Ü¼ «*Ä¸$ÂÔ ‡dùÅ§S¤ @TDouÑOóV; NÛQO jIeü„¢+jÑ¡6lßyÂ§ŸÕ Jßß¶ ÊŠžÄ€‹Å$©R vK«O}4¨2©ß ·  kLšI­oG~T¦P¶&Ê“„$Ø\n)©ß©è³ªúŸaÿ™á\06ƒ(XHCTcÞŠÜ(†š‹³ªÄ> )õåÁq7^àQÌŒ °óë”K¦~ æÃ‚ŒÂw4 ¢³ ù Cbo©íÝÍ‚BŽÊ„Î‚BXT¼€¢ Ïð’¢JŽ, ­°V:Êä3¶nÊWdÓ*nQ¦¶V…¯Ž UÃ\n*¨wœD à‚~R©OT$±šV t¸Ê6Ð .È  Y¹Ù·†e+A ÀêÍ3Y§Ä8V¡ýÍ¼_àÎ\rÀBŽ/pŠÐ‘o¤Î¥8ÇW 7Ôzd@l<:–™†®¹Ÿ¹ù< |œ’ÃXŒ © #y\0 	³ŠIÄ6ô˜¯œØ [g ´€í\" —¡5­Ÿ U+GÿI²FÕPK8®òh®Š;«®^}¢Ö äS¼¡ŽÈKD:cÇ° zÊ8ž dddÕ v#½fšàÙåw  ìÙoü ˜Ù÷6âÌ±0NŸ}D³K‰: ×   d_ªt.Â,HgÌêM»VþS~Xìó¬=nŠÇA ÿû_ÿÃŸ\"r©dÃxâ}å3ÖëÚ½éØ\ZÚ îà˜>»á í¨¨ ¯2j½4?÷Nz}4(ùª.ÒõŒÙÝAïÙ›§ ¢U´X }×Œ-A›I—’Àë!pÏ.. I>; êÈRz~ÝžÂá» ã¬G›³ˆnÎ< ·‹Ï “áà¢÷Ý}×ûî; |g÷_¢˜‡ýu)„\ZÌîYC«g{Ãá ÀÇ9ñƒjÖ`ÖÚüâ « 8 ÓÙIë{gÖ›ýó ¸gÁ½×ùQ‘Ú ~’\r @}—Í\ZÎj¢ —G8¸\ZÔžýÓ›Y6ü5ÄÏºYp³v®Ö÷ðÄp<Å/½ `Ûêà±~<àÌö¬Uâ?¸7î‡pk2kå\"I O&âj.\nbºÑ÷À¿=„L}pN$sðö  V—  ]š -u	S&x©oMòÇ0Ao `àœZ’¡t*ÚÚõ÷®vg 7Þc‚•®Y‚\\Ö¬´ gø^P±¶ HÝ ª{E‰BÝ ˜´^mu æÐ fåe æØÑü§žêÏZMMvê ˜ÕØ€¤î g­æ^ õÐ öPm éL«ßj“ K\Zµª \'uk oÕ!FnÚ•/§çp±áÁ\r¦×?SóŒ ò®å%yI€![(ÃJTAŠ{½qÏ²&Ã^o€Wá\"PÓÂ?û0F°¹{°7Û/“Þè~ênÒèËÃj›eQæe÷  dõ&žiš°7íY¶Ý› G½žaÂ/Ác8q×_Üá ~zˆ·}çû/£át:ÿš8 1¡‰ ÷Ïgõ\róÝm]g¾ím¶¡û Ú,žßÏSßáÑÚß> }9_…»wÐrÐïÙ–e÷G†©VÞfä¦!(œ» ¹~2pVn/]÷Óq6½¿ SUEfïºl Z_ Ÿ²e´ZÎ×	pæzqç ÷÷¶7 &ÎÃh’Ð\\ûä°‘¢À Ö Ð´ú¶‰eFÎ—Íä‡^¼ é¥“ùÃj|? ¯ÆK>ÙŠ©w	÷¾yí¡=4Ìk gÏGkûé>˜¦}k ÝÅÎðÎMVÃ¯÷ó…˜·Qcìg Û´¦^dÝM ü/OÎfÑîû ‹ûÀä“¸?\n —’Î»ÕÐž žZ½þØ0ódè=ØÛ¯ã¨÷à ÏÝ WÛ$îa *_>J2ïÔmû&î &•°äwérå ìžÿ¥ ¯½±Ç³x½H ßŽ ó{š¸¬0 \'\ZôF°˜ö`Ü3ñðýj²œ<¥Ñf< ûÉÃcß‹§ _ß OgÉä>_P³ Þ1é¸7†ûÆ uVþãpš>ð§y<È¾LãùúÉ^nïî¿Dá2ÈõOMµïe 3’«y4˜B¨\Zlç¾7N“¯›¯KË»ïoÒø>ù² ó ìÅþé,“zõ²Aœ¬mÇ·Ö~<I#ÿnœZÃû…õ5ê‡ÁXÐt¯ j¤íP*ÀQoj˜œg k ŒžúñÖYI¿ ©­eÏ ú ÀE Œó‡DvóFFŽ¹³7&G\n ™Ó ’&V ä„ó—” ·µQŽ>‰è  Âr,,Æcyþ?Áb< æ Ãbõgß®¶vp]Ms_›R ¹ ‡Ÿ¢~I(„Í -AHûY¦e¿ŸÏzÒ­Ü¼ V4ÜÂÀà·ð\'Üò oKWßqÇ}‡  ã£ ùkèbî@›t_ýL™\\ý^¿¸G§hh·†ù­_±sU‹KÄ\'¸ß…¡Ž\"X‰ÍïNŒÕ‚ÊÕÏª|‡ªfŒ^ þš  \0¸Õ ~r‘žµäo˜\r  ©z(gó½ð•ëßµ‘ñ¤üÆö&ŒFŒ¡_ ˜pk‡ø\0us|Š´Æ@>\\. žRX9šˆyÄV°\n8úqE 46 i×‘ìW‘ ÎT	\\å}j Â Z  Žöy8N­\ZŽ 4ùG{ A» Á~ ÁA ÁA üjM ¿!ágÄ° †`Lk  à¨è ‚ý3 œ  jŸ\ni@Ò6 98 IË  L¼jø|	b:8 Óaž3Q ÒhB³o@sx šÃþÈÄ®Õo} ŽÃo³šÚç \ZÐ  Ð …¦Ý \Z5á“ ˆéètÍ3D üè/ ˜•“‰«ÇçÑ¡_—Ý â£>¤€t\ZŸÎ }3´o ˜¹Ã6*´ÉyT ôûUªôÍTÑ?²€ ˜œN  G›Ž²oÂÝÄ ÓópŸ kz® Yåü}Äzz Öã*Ö¥SÞ› ¯i>p£DHwº¡¶‡ã\Zæã*æå êE.û ¿d<S‡3  ˜›…ßˆñ¹î×Ð®iÁ \"í˜uÂ³Éÿ:Pß×>7/n¿.Ñˆê™^ØhlTø†CÚ	×&Wì oi¾æá‡z›W½fú ç¹kýé¤F\n\ræ£Ž/\'Z5yu   õsHk¤PNx• ç¹tCQmªñ„á´TÂ³É§;€\'úÃYë€S6M<`0pˆúynÞp:¨Ùý\nŒç… -š|¿ haÛ³Ö\'ãa–fô+žû7² 5/·\n–vø&a|† XÃ¸8:Æˆ±QÕŸçèÆÓ\Z¯×0ÖÀBŒÏñæª    3i»IûŸçÐûu§¦\n¢ñô5¢Ã > f…Ê\'^5 mdòó<¹ñxRóg ð †gøoýie¥›O1jÂÝÄîöy¾ÜÄ\ZÔ=ø\n¤»Nt¢lÌ9~    \Zc–s“q·Ïsé&£Á°¶è\n u \rawF6MÄ æs?Ì˜ M˜žçÑM{Óº»>¨.±  b}†_g +X—ŽC0¢=2¡}ž÷6 \ZÐ®@V>¨ðnòÑ ñ]ª«mÜÀi&ÀØD€3 q½Q¿æ¿ValØQK¤hrã qWaÒêþ¾\ZâŠ„U´ÏLÌYV¿.Ù <å4„ÝäŸ €ä îŸ¸+ÈD £’;Ï}³¬I¿fÏK` ¹\rŠHÖäà @2›Z`ê-®&z UáyÎ5°Fu¶ SÑ+êÈXàÂ6?YKº	ï8 BVÅ°ºV KV.‹Ý|xýîæ×_ˆ “)Ì\"O<Àö_ [ÞßŒ_á) tB\0îˆ–O  ¯.×öUÑ\r ?ÄîÞgÔnÿìÒ÷´ˆø  ƒ?e#ò…¥í§þOCÅèªÔ¨ /ÊU¸²dß1«>@}ØWõZXÞ§ì\\5Ãfë°Ù:lÕJO3`= U*X ÁÕ×áê›à’õ™]` \n˜ Jƒ‹ÚêŸí l` Lÿ\"ü.àìÃ€Ó?Q4€C ÀÚ‡ÏwA×ß\r]í ìGƒ62ÑNÿæõ.è ‡ÑNÿ w @¹i¢ Ø’dŒu`Où\\s32{Øà”¯O +_“=Ø•>É¼ “}ò¶ïÛÑGóÐT ¼ùS»»@ÞCþæï\0 \r,~¶	ÚÊ dw ¼G0w~ãö, °J¦ËðMÓf¨÷)“ú Vea«d»Lß0Ý Ý>¾5}Tõ<R\Z-ÚQ àlFç@ÝxÔ EÅ¶ìò LŒsˆÏ³G8M_ ;Öç±†e©<àÃSÐîã£ƒ¾”uˆ^)c0*c`þ S3Ð{5 ùûPÇÃ9n„S;“¼ Î½ŠÏüE—£5É¤ Lã‡.v\0¼Ÿ ö}•ãx#S2‰•¯ ì u  T>žp4\\v¯‘ª»N¨ß ñ1ü°ëpý³4¹]2Šåó·›ß£¢ËG€ -h¶ÝLký äfø†ÇV?ŸùxXû°–mm vt °å3e‡vÐ¬jÍgá5ƒ=>Fíšî;Ë*Û%ÃW? ¬	ò=bW?šì *—!+ ´“Ï jB`ð|ôÑñx– ¢y z  {$Ô¼\'¾_jÇMªtÝæFí ¦+åÝ rç î7û´ Y´ƒÿÇæ=¦ iVª Â@”ëîÕ ¼^Ði‹®¶Ñ‘öÖNg-:« ·ScnOm¯ ÈãÎ}Ñ\\.îLf-p¦bßÁþNùpÖJÒlž m“uè»âÆ ¢[  Ågú¾“ otRço‘[Þ€‹ûf*/à> ÚÇ/”“Œçq\"û{©)h$ŠeDÌ×¸ û¦²µ¦Øm­J^â¹7O‘‡eÎß¾ ½M›×òøš ¾û«³ò \"çùÇÿ ','20151028055752')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '4854'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Help:Guidelines&oldid=80024
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.10
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:06d434416989838d12d6f3e53854aeff:0)
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png does not exist.
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_649e0ba35481-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_2ef8eee237ad-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_7b2dfabc6fb1-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png does not exist.
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_6
+
+Start request GET /w/index.php?title=Help:Guidelines&oldid=80024
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.17
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '4854'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Help:Guidelines&oldid=80024
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.150
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '4854'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Help:Guidelines&oldid=80024
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '4854'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Help:Guidelines&oldid=80024
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.159
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:06d434416989838d12d6f3e53854aeff:0)
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png does not exist.
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_553854712c58-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_44f5b53a724c-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c2/Complex.png/78px-Complex.png
+BitmapHandler::doTransform: creating 78x94 thumbnail at /tmp/transform_3aab58555e78-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png does not exist.
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_485b405b2bd5-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_4a2b43d4321c-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fd/Group_before.png/96px-Group_before.png
+BitmapHandler::doTransform: creating 96x89 thumbnail at /tmp/transform_28c2bc3f3f44-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png does not exist.
+BitmapHandler::doTransform: creating 98x102 thumbnail at /tmp/transform_2f5d54f15671-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png
+BitmapHandler::doTransform: creating 98x102 thumbnail at /tmp/transform_7fbf5a6b43fa-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/13/Group_after.png/98px-Group_after.png
+BitmapHandler::doTransform: creating 98x102 thumbnail at /tmp/transform_19a0e8073178-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png does not exist.
+BitmapHandler::doTransform: creating 196x177 thumbnail at /tmp/transform_36e65a7a7ab1-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png
+BitmapHandler::doTransform: creating 196x177 thumbnail at /tmp/transform_5fea58525dfd-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9f/Enzyme.png/196px-Enzyme.png
+BitmapHandler::doTransform: creating 196x177 thumbnail at /tmp/transform_28c3bcff59b9-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png does not exist.
+BitmapHandler::doTransform: creating 329x225 thumbnail at /tmp/transform_1f13d4875245-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png
+BitmapHandler::doTransform: creating 329x225 thumbnail at /tmp/transform_4dfd899f1427-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/Option1.png/329px-Option1.png
+BitmapHandler::doTransform: creating 329x225 thumbnail at /tmp/transform_5faed16052b9-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png does not exist.
+BitmapHandler::doTransform: creating 359x162 thumbnail at /tmp/transform_5a02846029e6-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png
+BitmapHandler::doTransform: creating 359x162 thumbnail at /tmp/transform_4e1caa206f7b-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d4/Smooth_muscle_original.png/359px-Smooth_muscle_original.png
+BitmapHandler::doTransform: creating 359x162 thumbnail at /tmp/transform_396e48553e03-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png does not exist.
+BitmapHandler::doTransform: creating 340x166 thumbnail at /tmp/transform_e2aabb18f079-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png
+BitmapHandler::doTransform: creating 340x166 thumbnail at /tmp/transform_3d1c677d62c4-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b4/Sm-contraction_hub2.png/340px-Sm-contraction_hub2.png
+BitmapHandler::doTransform: creating 340x166 thumbnail at /tmp/transform_2798a9786f4f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png does not exist.
+BitmapHandler::doTransform: creating 124x67 thumbnail at /tmp/transform_44fc95486111-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png
+BitmapHandler::doTransform: creating 124x67 thumbnail at /tmp/transform_e66bc0e5581b-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Labelshape_after.png/124px-Labelshape_after.png
+BitmapHandler::doTransform: creating 124x67 thumbnail at /tmp/transform_692e98637173-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png does not exist.
+BitmapHandler::doTransform: creating 169x163 thumbnail at /tmp/transform_983a05e36694-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png
+BitmapHandler::doTransform: creating 169x163 thumbnail at /tmp/transform_7eaa0137439d-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0b/Label2datanode_before.png/169px-Label2datanode_before.png
+BitmapHandler::doTransform: creating 169x163 thumbnail at /tmp/transform_6ce84bbc2326-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png does not exist.
+BitmapHandler::doTransform: creating 155x169 thumbnail at /tmp/transform_3cdfb6e24038-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png
+BitmapHandler::doTransform: creating 155x169 thumbnail at /tmp/transform_2a3f4d803f08-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c8/Label2datanode_after.png/155px-Label2datanode_after.png
+BitmapHandler::doTransform: creating 155x169 thumbnail at /tmp/transform_4915463448fc-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png does not exist.
+BitmapHandler::doTransform: creating 326x298 thumbnail at /tmp/transform_10d9ff51fa5b-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png
+BitmapHandler::doTransform: creating 326x298 thumbnail at /tmp/transform_1f3f9b951aa5-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/9a/Elbow.png/326px-Elbow.png
+BitmapHandler::doTransform: creating 326x298 thumbnail at /tmp/transform_2862a2e061d8-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png does not exist.
+BitmapHandler::doTransform: creating 250x175 thumbnail at /tmp/transform_6d826202bd95-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png
+BitmapHandler::doTransform: creating 250x175 thumbnail at /tmp/transform_41f474756906-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b6/Arrow_activation.png/250px-Arrow_activation.png
+BitmapHandler::doTransform: creating 250x175 thumbnail at /tmp/transform_199bea712690-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png does not exist.
+BitmapHandler::doTransform: creating 233x143 thumbnail at /tmp/transform_7c0b01f65270-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png
+BitmapHandler::doTransform: creating 233x143 thumbnail at /tmp/transform_1bdf091f66ab-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/26/Link_before.png/233px-Link_before.png
+BitmapHandler::doTransform: creating 233x143 thumbnail at /tmp/transform_3fd10b9d57fa-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png does not exist.
+BitmapHandler::doTransform: creating 237x143 thumbnail at /tmp/transform_4cddde7f1f36-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png
+BitmapHandler::doTransform: creating 237x143 thumbnail at /tmp/transform_10c921168b91-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/3d/Link_after.png/237px-Link_after.png
+BitmapHandler::doTransform: creating 237x143 thumbnail at /tmp/transform_4b8481b5549c-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/90/CellCompartments_nucleus.png/1000px-CellCompartments_nucleus.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/90/CellCompartments_nucleus.png/1000px-CellCompartments_nucleus.png does not exist.
+BitmapHandler::doTransform: creating 1000x982 thumbnail at /tmp/transform_3047a5811527-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:06d434416989838d12d6f3e53854aeff:0)
+Saved in parser cache with key wikipathways:pcache:idhash:4854-0!*!0!!en!2!* and timestamp 20160503013515
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:4854-0!*!0!!en!2!*','Å}Û’ÛÈ‘è>ë+j¸ GÒ.›$À;§ÕŽ 4’ç\"…Ôö„Ÿ:@¢HB\r h\\º›rL„?a?`ÏÏùKNfV P\0\n¼*æ8l«‰KUfVÞ3«ðafÙ³ÖG\'Nxü!K£,mÍúƒÙ?“ÙpÖÚÜð§´õ}2³ÇÓñ`ÖºŒ®~_ó€-bî¤^°baÌ¸ëÑŸ‘“® -ó‚e oàv 0\'e¿{wÞGq+i³ÈçNÂÙ ç K×œ-Cß  ñõUæ¹Ü÷ žÀ lã n‡±›5‡§µ[Ž·aiÈ¢8Ü„)g‹0H¼$åÁbÛfÎb‘ÅÎbËœÀeIêÌ=ßK·0ELS)øà x!í° ¶Úôie¦6Û† {ô|Ÿ­¹ á¤ Ç Rø ¶öVðFÊ¢0I¼¹ÏÙ}æÐtáÒL	€I  ‡H²Å‚\'	¾± 7›,€×/æ@ —!\"øZçÙe7ºzv	ÈÀ žûª•†‹ [øN’ˆ¿¯.Ó þç^]ºÞƒz\"õRŸÃ­µ}õZ`›\\váÇe  ‚á2 þÏ÷´q|þÀý  @\\$|S_X0€ÃÖ1_¾jýçO<à±ãß  ‚»Iä Ú A¶™ó¸ue]vñÎ «>\"3]É¡4ZËç/»Î Øl 6[‡Mr×­\\Ø €uö€ö±Ì\" ÁÕ×áê›à\n àæÕN°  L ¥ÁuÙõ½ à\Z˜àr‚ L‰ÍvÃf  [1Üñð\ruø$ËÞ‚ðÜí%\\7pr,&Ç: ²‘‰ró0 \\\'övJ \078ŒrÅpuøºÄw°–¤b¬Ãz¥ë0¾Õt ,¸{ 7y ú ˆq+õÔm fñb7.{x@LVSxÚd¹R”“ /[“=ØÁå »1Ù\'k \\à¿jèã9hªÃýIR„\'·ix   TašÅ|7Ä{¨_ Š&¦ ôxX­^3°!Ø¬ø ^Ù\'”exi\\ [œ \0VÉf½F#\nLÂSï>ãiº“Èûôˆ ‹åc Ï¿VÉhýê >ºÝ8_ Bp¡v’´¿iÅpŒ†#ì\\J\Z-™rK47àv	 Í-ÀÀã\0üƒ˜ À  ªE5›îÿálLÍÆòÙŽF¶ìé Llsˆ«³G0 ×œãêXÃ²H¢«È —»·YÂoÃe®Å¹Ï7èéí€v  i£3 ]÷eÕè é”2 £2  ¬\ZŒ„Ü ³A@ð´“Âû•_1 Ë < Ìq#˜ ìÐ3;ÁÜ«ó40ó OÐ\"“F0yðu‹ kq Àû¹A 9 Ü ü¡æ¥d ?§¡·X{á†§ñv7¤{x 4Òñ`Ù½Fšn2?õ€¥n oãùN|(iá 5 “sì¢ð1:Ü.YÃ¿%ˆïÌ¹¿ ö=Ê™†ab˜ã…Ì¶›)Í!È\rÑyÙ	Þð Â Cž\0j¿ T/@ k? ŒŽ€U ó ` Í:–û~†œ‹ºÑ‰Ó½6b|Œ¾•ƒ3}ðóŒ±]²wož Ôè xö{$N tœ _ ¬dÇÞ  ?K(îÈMp‚œ Þ& _xKPÃQž˜ð}¾]öÈ]>Ÿf”1S  ´šOËpåó€fÉ ¾Á(hÁ1ýtû Di±3æÝ#œÚ`L\rÖÈ,˜Òêbn«KÉ/¸´¶®.73òn °€ñŠ¿j½ã~4û©p×˜¼ýªe™ÓMåQ*àn /ÖÜqñÑ %ÔL¹/V –å¨\0 \0mÿhhmC ê8Pk©0V P ²/\\ `ˆ+víûê	ÊG:Š—ÚÀbÀx®p R/…%Ã 0¹Šhí-È —:Aøë/\\\'uX º\\\ZŠvþ¯ð/Óä%å \\ž,b/Â—Ú,Y‡™ï²9Çüï›`å{Éº#´†ä‰õàh’öë¹³Ó(ª’x¬<œFÏFOí! — 3&QÓ ÏŸ\\;  Ö \' üÂ‘€ŒÞ gÿþ×ÿ¾^‡>OÀb„>ûÁ “m€ùk/ù÷¿þoià CX†T®!Ç”vL#aÞ  ü˜þf2¥ i@wØ\'ðø  à R/€…zOý^Àú&Ì‰ R? óÄZüà ¥ “Ž ÖM¼¥d¸·¸ 4iàtí\0œ	Ë  °ë… xÜy =¢MÉiÊuá£—®E^ Ç Hhs¾_\nôóä|R(N œ¡ýò dÍ `dÂ5õ’$ º§kx|ƒ©:®ˆé*²‰•Á* —6ÆIp8P Þ  ,[Â_2,:Áal‘ö †VrJ.ðe ëŠH·O©¤P\\ÿFÀ,g s ø4YÓ Ó¬>lEæ¢«q ñØ/ž)Ò	 —\'ä¯\0 µ* >äP G/Ýä9 TOj-*ÌØa× ,’à@Ô$ñV,%åK‹ù­€Xi ‚¤,€¯V!fzÛ ÝK  xûk¡-‰…AîA}\"C°÷?  Žë\nh5})Ö ß”S©RÑ	‹74äÉ[¹ZÊžU ¬­™ G ù0*ŠŸëJa» ®D ¼ÈåSÏÅJY ä  ™ ê¬¤IŽâ ëjy±‘Š•¨O þ˜¿)Ö7ÚÒjÅJ×•¤ ïÀZ­< ¿Ü  `¾ ôU\0¼D¸ ¡˜ëúK}ZsÓ« F¥Si7H8  ˜\Z€s5{KjÐ‰\0‹(ö p  “1UÁ¯ƒ&ÙGˆ4’  ‡ˆÆŸ€Ð^Î p‡Ý V£ \' ’,–J¸¤µI¿£jw³  6  IW FAÑ„ñÊ	¼¯\"³QB\'/¶žÎœ#sä4Í¢ nX}Ø\Z—þZ³2¨gÃ Ð6N„ ^„1x>Q(ª»¹õIC°mm6ÏR!£Ò®ƒÅ%Ã.Ü*„Õ ú=’íK 7\nÖæ­ \')›Çá£\\zÐL1/X4©j¥ÂBæKÅ Aø:ì  Ä°8`Âdd¼Wèb <Â X ‡|@ £\Z©ò =ÞÍ ŸV/:nÅO)±ãÁªøÓ\'ð÷dÅélÌK¥1 –Út5 (7|”´h[ó(Á¯\0m &X ¸Zx[q¸ô|.ô…“¥!å  ß\'o ô Ï \' :»ÀÖ]¢Øß=ŽÝ ·ŠÉ[ŒZ $=åÝÜ}.4ÅG :†” ãÂ’r# tÌA  éî\n0ò„÷  í-¥>vÃÇÀ  Wª¿, 8æÞ   É ÆÜ¢uDŠ<‰ Z7RÒµp iÕ²!\0ïµK×±E\r0©¶	¦€+? ù Öt ŒÉ)ö—š¾6 N®:vJ¦¯D 1¨ð«(ä Žà>ùÓ\'ªñé®2åq Þ\\CeMSÔ˜úµìYâ<¾ˆù 0 êÅlž/\" áÜ3  õ^îV\'  G‰¾IÞºC¤-id \"\0ö{ZprÙÀ €7Ó8„  ø+X\0G\0Õ´ ;_ \rò¸@i ¢}OKlJ  öâ  @ )\"ßŠØzI\"îz ž›‘™)ò‹Zl–œ³¦X-ÞYË=g]+åf¶c¢Úê¾EßÇ÷«^ˆpëÔKaáÇU–T£þ =t¢à6^x -ÓGô@Á¹Ù\"M^ î¦§ú»Dd&YF_!EBåÝ£ÙÕ}ûª‡W éGíI9P‡½ n#i p,BWØq ÕbÍ!ÌÆ ßüí—köâ\rÌù7ðDØ/Þ T#g×«˜Sqï%1 l«Q§^ ¬ztÇÛ¬Ò êéGF õâ>«\rz¾uÆ¢½©¶~ °¦b?« k6½›ús/\0P®‰²J\\¼$\' Í’—”z2Ñƒ a‹6 lQ›-ÉÃL²Õ\nû ÉÅ YX¡d”óA®—,²$Qäj‹  j¯”\'õpÇ!÷¢Ã>§ —ˆ[‹  p!¥  ë R³£œÖ ™	’\'ôGqn½7RÙ­BeÀ{ý û NÌÃ Ó0ÁN\0¬ÂáÑU5h 0\r`ÁiÉ…¶+ÞË]ÿ¹è¢…@‡» ¢¢·¶É f‘J \\  £Ê“ &=i ÷½¸\07\rCÌñâLœ G ‘Ç™j  0t”¶‚M·…NQ#ð%h ´Óé°Kïê‘ÆI\0  Óç^è‡«-€†a \\Þ&)/œÉMˆ\"!3ˆÙ jŸX  ß­H­9Ä Ë.U \"=]Ë Gö³ G4€P×áëí‚­â0‹)ÁŒr!ZXó¢¬ = Â «uN•Ü“£Ø˜Ö,‘ƒ ¤yê<G ~«*e^¿Ifè ƒ/ðª „¢C9oùÍ9€** DlÅÓW­Û¹ï w-é@¯Ó4šu»@²Ü©[$ Çë$±× qêF´RÝ…Ð—	Ù‰ÜeëJ¡­ KÐ‹Ör—Ÿ°8 ‚ »  ŒB zëL¬  ¶} ’ ršFzõçc‚Stb9q\'ŒW]ðløS\'ZG] Ï­² $ è˜H8•U ë¢Ó\"Gæg  »½k³·Yà¬dí±ë6¨æ4ÉÂ;‡ý£Í>¸ ûyÆDÝ[¦–€¯ °ä›$o.o¬…À  Ö¥› O1& ¯ë7  vÊ ë ô™Ýë\rÛÌî¿˜¼œMGÖÅt4ê|#Ú=>v‚ÅÜë þ¦ xëÎ*|è‚§»án×\Zõ&v4þK »¨»aÝ^õÿ 8;ß{È!¯Þ iÌ¿~&Q³; ÅÏÎGzYþsû‰£îH>R€ ®ýýÇpñ9Û´®ÄD ª Ë ¤y T i )öðçomöWg Î öºÍ~ŒùÆ ™ü f p9Ø_ßàºð`\rö…½žáÖ\0öà%èÛJ)GZÇ| † –»Þ}_Ðþ üH ¦ AÆ5 ê÷ÚÌê½°z/gƒÞàbÐ›ü äïM§“áÔú“Éÿs¸ ØÏ¿·Ùµï¸_ø†ý\n+ñ;÷ ˜ Ü‰¿ÂB| ›‹äÿÇŒý\ZB<IU -„\0c %’·5’+ Ï´llœÍcÐm((Bg\'J—wpl±\0´ °\n#X…ñ ëåÌº°úŠ\0Ø£±=\Zý‰+ K,\'Ô² æ†ÂÓüæR1»>l¥˜ ]ý\0®Ä# uÌcä…> ,c$¢ü ÍÔ ‰  6Xî,õ|ï«ˆÈ ‰:0Ö‹É„wž½ óÉã\r½_hÕ$Ýú\\%Ç³H9Z€+ÜÎRñš¢ •ü§ 4H¤ÒH\Z³ r0ï†X  ?š‹.†rÅ° éY.êðÀFÌc£ë :GÙ  ×\\Î·Ò ÆõwÉ g€œø0\0Œ2gùPò‘ ¡e*+r| áÚ@ Ás¦ü`AÀÛ7ôÚGñV9O¨ùÄå§®ÄO& .Â9Ñí¨¹\'õØ 3·Ê2óðµu)÷Âåj¼x c\0p¥U Ña ˜Ú …Pbã„RVùºÂâ‰x.I ¦L+¾ 8 Ä q¾)®\r—< %p\"î$žÌú.  /Ys·¨Úÿû_ÿû ‡%Ã lÉE ¦œâ¼ ­1w ¾|//ËäÌ  ”(¯³\rLøé·kì2ÚnÀ a- BÝ9Æ‘¢¦•ƒŽAC¢pRëŽ{éä²,ýÐ VZ¦Z[”àÀ· *Í^ jv¢`•[\'ˆ>V¸ÙÀÛ\0±ü Ë£ÚCI¼À ºp÷ • y±‹îÂî– {ôÜtýª5ž€9ãÞj\rÃL -Ö•­R¸‘ïr «és\'~Õ‚  ïá²ÿCí[¤ð ;F€ì¨Ü@ ¶( i‰ü”\\E\"x‡} @©‰ì1wÛâªb zK ’H6bƒ×7Ÿ~¹ø©MU°u Òµçôàsµd1Â}±ð±Ï  (+íf”Ä‚ñÒtK—ZWÏžávFø¿5  P³  ÁÖâÂõ ì‚øMaêQ×¸.?! ·s\Zd÷âÐ“LÒ¸BËîÒíÖG•Ë4  Ë4™ªe ml{`t ¯C@Ô 4Bhu­~·6¦ Pã#«g—!¬6Ú õÆÍ-îgh=­Ûš™‡ohh£Ì 8£ùƒÀí<Jä†_Q” ) /Ð † ^ l·ÌNa JÄ rˆkt>ÄÎÝy’ÆèW [›ßÿá¥òPÈÃu{P-\010¼´z2fÄ¾ l¨ÛêA „Ü ÈÖà\Zµ¥å,šïD …ÔâCè?ˆ:Ô ³) MdªÆÇ\0µ[Þ,•‚0À\nÄ0?XØ*V` ž§ ÷0<óÑ£ ™M’-ÀáÅsP0 öZÀ¢õUç­eïì möî¿!¨¸ùØf¿]ÿøNÇë5içô¢>@Ž èæM ñ #I”# Sá…6š—[¦He?b \\ ÷Q¯ñ €@Þä»ÿ& P  ¨€º›aÒ D) ì€´g·;á.ŒýÛ#Î`|ã^ ¶oÊz—\r6g¸Xæ ­ç¢K*I± ÉôºTÛe¿7÷Í±Âáã‹@ © äp‹wèÒ\"  ­ø˜Ë ,©È  J\"À¥ UP| FÉ n ,®ü{9 üry öÍ k )Uze)¥xK€Ú. \" `:)€L {~\r/_Ó›Ï;Ç ª75B l¤èÕ=æIÆ¨ö§Ýé²«?%5¾¥Û$k<Þ­òOimãÍq _ÙÿÃJ¿k¬|C ‹þ„¦še­ âKL iù`ì® r ÕNÙwö Þ\'ýAypl>£¢ºž2 E jWfN\n¾ÒZ4	8…Â &Sc¨ -jt u4MÍá{ «RWN	 ª¦È\" :XèÅ Å~eªyºr•]× ³ã ª)Z»ù±ô‘!GÝÑ¢[zLrdßž  iÛÃoÍ‘vïˆUg(ç]›ÂØ\0ÔøûÐ÷’P˜LÌµ3YÖôzÞ¢@æÓßâh…\n\'VMW<lî“3\"£¯ ¬j¬Àû ™ ,Æ yp ¢¦b¿Bg¯³9{Q2 TTÙX”¨ ûTÖ¼è§Ð ²ç³ôº4 r†‚ ²  SºÞ’º\0R d*\0\\\0ç(Áù  1´ø‚ ýî`aù¼	ÁM ^H  »UÕÏÝ²#Þaâ V~Ç(Jn× twÍ¤$k¨I–5²  @>o.°œ/Mè-PÐÞ‡€þ +^0B?ïÎ ú†9 èƒž úè[G&¸ ²¼iñ8É/ï›dúPµŒ 5›a) ÓÒÒ Ð£mp®3@¡â‚­x¡ hÎž  W1ôKÕ€Fw¡!ð”&Ô Ôï‘n#Í é xHÔ@\Z²8 î_  * y’  $Ër‡ž7ŒßaÏþ¡ì%& À£ ¢+ ™oµ4À\'ŽN  =ÏÑF>ÿ„m£ÜÕ®æþÞó b ¸äq?×^Q¥õì Á–#º °ƒ šH™¬ˆ  ’ OïË—Ý%ïšGW®š=(d`´ÇS;A ì] cÏ1„úž]Ö4EML~Õî‘ ¾Á ¹ÌP û¥.çWàÒ]vçW ÆÕ v’½±ÇZöäÓe2váü Z iI”ß–ï«€QÀWzA»©Dž Á\0žÃ Xò²ƒýQ‚; Ôç8EZtEÊ<¤^[Ð\\.1sçG]Ü)¤  Á[KÌÍÉ±P°”˜º¢ý ñ% „•òkà `×DÂ BÝù6ß‹U¼”W þ ÛGÌl#ˆ¸må ,[ù•ýé¶^·7ïî˜GIÎ¨døú \Z¾ÊÀ‡Ê{ ÿ>™_t “*ø ¹  uè§ß\\ðû;w™Ÿ!ùå-ð¬q’šìSŽ[n$Qé ‘zÀl  4²ø Í m® xœTÊ  \'\0´U1¢ Ê#N ¯4iáö,éd¢ Žcðfe\Z{ã¸äyÒ xwŽU’åz·Üçíçoüyø(Ì×g¾ÚâyN6ýù/äÀ‚™m4Ò˜* N¬HX¸y©K9¿¢uJ ®“¼ë¨p®)ƒOà‰Ö\Z¸Ì“Ä‰· ¦Ì°L\\ ÉŒ  NˆŽõ—L¶ôa®,\n=­Ö†¡0{1÷3Ž], LÃ`¢ ôîË£Ügá q¤Òá & uO¾£x¤)Ýátµ‡òØRËvØ˜íÞ!J m‰\\V¼è ‹ ¯c¸? ßZp$U¦ˆS\\:æ §äZÎ*9\\‚· &×5Bv‹¢ô JÒ;)GO³êÓMžù¨k ]ÒÓ ênùxw¬NÙ ¬øF2F•Û˜± ŽöBPí½´ýV…±\"_ ÒMÕú XT·Eâ°–F~+úEÅîà¥ á°çÄªP¶V¡ß\ZãÅšoà—X áoœ;LØÇ4?6§ N z  ”<ñ“J[¢®õ Î ó Ž ðX È]\"$i$Ð $ÐÇG\Z¡hmP `/up gœYè etw˜ † ÷Û]»kºµ1 Sôû\ZS  ¶¶8Ü!6 !ÜgYûÝ¾Û­Ž˜Ã7Þ ß7°§ƒÃÎ?9§Îo>®…íŸvwýßü\nÈ˜ì\\‘í× W.3ŸÉæ °A™,tù¡ìm…9h+5m&Di_{  ¼ÒG`|éæ\ná †K¶Lb¥ %‘Ô®ê36 %u1¹+Štâ” ´câH€GCk @ð\0À…B¦)¶ ‘7ý~)”º°Á€ô] Ïß ÊMY>eÐ„Dƒ$owu  ÙÂç™Ø‰Å#o‘ªÜ nª-öc ÑJ\0Ôx­ âVÎ°§· ò +½%D(] éPzþ²|µk ê| ²4ìõr±¢¿•X\r¦ \r›`ÃÝ)#‡=fu†Omf0í½î®Q˜ý´¿ â„Ö:<s¨~@ÐqR\\?©ˆU‡¬5ÕÝ —ÏtÈ\0±•÷\0î/5ÀÐÖ/aFµ“	ˆ=óMÞªf6  xµ!­t²5  0’G\" +²?¼\nt^ ¥ ‘ËQB a‘.°V\"y^5ì ‡4´‹€½    ¸‡\Z\r«0ð¹°øW—nÍˆHšÌ~ÿh  ykWùêÕu Þ 8ñ	{ñ.Ü„,q\"C0/õ?Žºsäe\Z ®^}ÀÊ¦ ÏµÂu²9m–‘m fÁ«W¿@D~ñ#èÝ· axŒD»ñ ÊW›B^\\ÇÎÜsÃ(¡&  Ü À9tÞaßD7¼zõ“¿ ½·M<±.+?ƒuæ!¥Ev ³ëúy» jì¥ èl„kûV4pi Î¿YCo©¨‡  Š   x~Æ~TÇŸÉ_Ë  7Î*!e >ê£ ¶·aüJ=0SPË›­+4c¥¦À  ÌèŒ ¼ŽÓC\' LÆN °¦ÕJj,CËojÝÔ ¤Ü®YºsUì.‚Ÿ¸ ä˜ Íµ¥N .‚Û bG;ÙGƒ³ƒ»\r”zk—·áàØ¬Uå×V›‰~i\nûÔ@\"<ÁSÁ~½þøQ “\01bk7Pºg ‹ 4©ŽŒŽ :\ZÁŠ ÃÔ¥ !¦ ¬q» ÖÎ ä–x5T[l1Å„ýÒYà   Ìºªíì²³ ÓŠ0 D´oi×°â eQämLmàÌh/ÈÈ \rc6ˆ‰“ T‡U2«l±ªÒVlà¨“\\G6É{AR±E¹a)}ˆAmÕ6›£ ».ºÂÕJ$‘[²Å  O„›ú&\\$ )E\ZCµª Hb#\Z®ž(¢ä=IHe  ·‰ ¼D C ãJ·l ¨éˆSˆ|_o@× ¥ÚìVÊcçýØª—K¬°ÏT¢±x/‡½î nO U)TîùÎå Ó·wÕù]®”I \Z ¨â,¤b“¡ .L¾Q—kÊK+•ï¡ªPIžv€¤RƒŸG­vž]o •#ÕÁ¬\" #ú¥Ca°û„&7`7×÷~× ¾Ë+ùIŠI? ‚Q¹ k `æ…yÆ“v¨Î +G»Ïäyp¨kÿîÀ¶Y®”`Ž×[p‡ NT ƒ&ÚÝ¢«ß>Ü¼ «*Ä¸$ÂÔ ‡dùÅ§S¤ @TDouÑOóV; NÛQO jIeü„¢+jÑ¡6lßyÂ§ŸÕ Jßß¶ ÊŠžÄ€‹Å$©R vK«O}4¨2©ß ·  kLšI­oG~T¦P¶&Ê“„$Ø\n)©ß©è³ªúŸaÿ™á\06ƒ(XHCTcÞŠÜ(†š‹³ªÄ> )õåÁq7^àQÌŒ °óë”K¦~ æÃ‚ŒÂw4 ¢³ ù Cbo©íÝÍ‚BŽÊ„Î‚BXT¼€¢ Ïð’¢JŽ, ­°V:Êä3¶nÊWdÓ*nQ¦¶V…¯Ž UÃ\n*¨wœD à‚~R©OT$±šV t¸Ê6Ð .È  Y¹Ù·†e+A ÀêÍ3Y§Ä8V¡ýÍ¼_àÎ\rÀBŽ/pŠÐ‘o¤Î¥8ÇW 7Ôzd@l<:–™†®¹Ÿ¹ù< |œ’ÃXŒ © #y\0 	³ŠIÄ6ô˜¯œØ [g ´€í\" —¡5­Ÿ U+GÿI²FÕPK8®òh®Š;«®^}¢Ö äS¼¡ŽÈKD:cÇ° zÊ8ž dddÕ v#½fšàÙåw  ìÙoü ˜Ù÷6âÌ±0NŸ}D³K‰: ×   d_ªt.Â,HgÌêM»VþS~Xìó¬=nŠÇA ÿû_ÿÃŸ\"r©dÃxâ}å3ÖëÚ½éØ\ZÚ îà˜>»á í¨¨ ¯2j½4?÷Nz}4(ùª.ÒõŒÙÝAïÙ›§ ¢U´X }×Œ-A›I—’Àë!pÏ.. I>; êÈRz~ÝžÂá» ã¬G›³ˆnÎ< ·‹Ï “áà¢÷Ý}×ûî; |g÷_¢˜‡ýu)„\ZÌîY£Þ°×ïYý¡5d8\'~PÍ\ZÌZ›_œ`• §b:;i}ïÌz³þ ÷,¸÷:?*R»ÑÃO²! ¨ï²YÃYM”áò  WƒÚ³z3Ë†¿†øY7 nÖÎÕú ž Ž§ø¥7\0¬q[ <Öï§ œÙžµJü ÷Æýñ nMf­\\$iàÉD\\ÍEAL7úþ ø·‡© Î‰d Þ  ÄêÒÀ¢KÓ¡¥.aÊ /õ­Iþ ¦3èÍ  œSK2”NE[»þÞÕîŒáÆ{L°Ò5KËš•öoá ß *Öv ©{Cu¯(Q¨[\0“Ö«­®Â zÃ¬¼lÃ ;šÿÔSýY«©ÉN= ³\Z Ôýá¬ÕÜk¡ \ZÔ ª\r4iõ[mrc©Q£Vµà¤n\rä­:ÄÈM»òåô .6<¸Áôúgjž TÞµ¼$/	0d eX‰*Hq¯7îYÖdØë\rð*\\ jZøg Æ 6w öfûeÒ ÝOÝM\Z}yXm³,Ê¼ì~aƒ¬þÑÄ3M ö¦=Ë¶{“á¨×3Lø%x \'îú‹; ÄO ñ¶ ò|ÿe4œNç_ g &41âþù¬¾a¾»­ëÌ·½Í6tŸìq/žßÏSßáÑÚß> }9_…»wÐrÐïÙ–e÷G†©VÞfä¦!(œ» ¹~2pVn/]÷Óq6½¿ SUEfïºl Z_ Ÿ²e´ZÎ×	pæzqç ÷÷¶7 &ÎÃh’Ð\\ûä°‘¢À Ö Ð´ú¶‰eFÎ—Íä‡^¼ é¥“ùÃj|? ¯ÆK>ÙŠ©w	÷¾yí¡=4Ìk gÏGkûé>˜¦}k ÝÅÎðÎMVÃ¯÷ó…˜·Qcìg Û´¦^dÝM ü/OÎfÑîû ‹ûÀä“¸?\n —’Î»ÕÐž žZ½þØ0ódè=ØÛ¯ã¨÷à ÏÝ WÛ$îa *_>J2ïÔmû&î &•°äwérå ìžÿ¥ ¯½±Ç³x½H ßŽ ó{š¸¬0 \'\ZôF°˜ö`Ü3ñðýj²œ<¥Ñf< ûÉÃcß‹§ _ß OgÉä>_P³ Þ1é¸7†ûÆ uVþãpš>ð§y<È¾LãùúÉ^nïî¿Dá2ÈõOMµïe 3’«y4˜B¨\Zlç¾7N“¯›¯KË»ïoÒø>ù² ó ìÅþé,“zõ²Aœ¬mÇ·Ö~<I#ÿnœZÃû…õ5ê‡ÁXÐt¯ j¤íP*ÀQoj˜œg k ŒžúñÖYI¿ ©­eÏ ú ÀE Œó‡DvóFFŽ¹³7&G\n ™Ó ’&V ä„ó—” ·µQŽ>‰è  Âr,,Æcyþ?Áb< æ Ãbõgß®¶vp]Ms_›R ¹ ‡Ÿ¢~I(„Í -AHûY¦e¿ŸÏzÒ­Ü¼ V4ÜÂÀà·ð\'Üò oKWßqÇ}‡  ã£ ùkèbî@›t_ýL™\\ý^¿¸G§hh·†ù­_±sU‹KÄ\'¸ß…¡Ž\"X‰ÍïNŒÕ‚ÊÕÏª|‡ªfŒ^ þš  \0¸Õ ~r‘žµäo˜\r  ©z(gó½ð•ëßµ‘ñ¤üÆö&ŒFŒ¡_ ˜pk‡ø\0us|Š´Æ@>\\. žRX9šˆyÄV°\n8úqE 46 i×‘ìW‘ ÎT	\\å}j Â Z  Žöy8N­\ZŽ 4ùG{ A» Á~ ÁA ÁA üjM ¿!ágÄ° †`Lk  à¨è ‚ý3 œ  jŸ\ni@Ò6 98 IË  L¼jø|	b:8 Óaž3Q ÒhB³o@sx šÃþÈÄ®Õo} ŽÃo³šÚç \ZÐ  Ð …¦Ý \Z5á“ ˆéètÍ3D üè/ ˜•“‰«ÇçÑ¡_—Ý â£>¤€t\ZŸÎ }3´o ˜¹Ã6*´ÉyT ôûUªôÍTÑ?²€ ˜œN  G›Ž²oÂÝÄ ÓópŸ kz® Yåü}Äzz Öã*Ö¥SÞ› ¯i>p£DHwº¡¶‡ã\Zæã*æå êE.û ¿d<S‡3  ˜›…ßˆñ¹î×Ð®iÁ \"í˜uÂ³Éÿ:Pß×>7/n¿.Ñˆê™^ØhlTø†CÚ	×&Wì oi¾æá‡z›W½fú ç¹kýé¤F\n\ræ£Ž/\'Z5yu   õsHk¤PNx• ç¹tCQmªñ„á´TÂ³É§;€\'úÃYë€S6M<`0pˆúynÞp:¨Ùý\nŒç… -š|¿ haÛ³Ö\'ãa–fô+žû7² 5/·\n–vø&a|† XÃ¸8:Æˆ±QÕŸçèÆÓ\Z¯×0ÖÀBŒÏñæª    3i»IûŸçÐûu§¦\n¢ñô5¢Ã > f…Ê\'^5 mdòó<¹ñxRóg ð †gøoýie¥›O1jÂÝÄîöy¾ÜÄ\ZÔ=ø\n¤»Nt¢lÌ9~    \Zc–s“q·Ïsé&£Á°¶è\n u \rawF6MÄ æs?Ì˜ M˜žçÑM{Óº»>¨.±  b}†_g +X—ŽC0¢=2¡}ž÷6 \ZÐ®@V>¨ðnòÑ ñ]ª«mÜÀi&ÀØD€3 q½Q¿æ¿ValØQK¤hrã qWaÒêþ¾\ZâŠ„U´ÏLÌYV¿.Ù <å4„ÝäŸ €ä îŸ¸+ÈD £’;Ï}³¬I¿fÏK` ¹\rŠHÖäà @2›Z`ê-®&z UáyÎ5°Fu¶ SÑ+êÈXàÂ6?YKº	ï8 BVÅ°ºV KV.‹Ý|xýîæ×_ˆ “)Ì\"O<Àö_ [ÞßŒ_á) tB\0îˆ–O  ¯.×öUÑ\r ?ÄîÞgÔnÿìÒ÷´ˆø  ƒ?e#ò…¥í§þOCÅèªÔ¨ /ÊU¸²dß1«>@}ØWõZXÞ§ì\\5Ãfë°Ù:lÕJO3`= U*X ÁÕ×áê›à’õ™]` \n˜ Jƒ‹ÚêŸí l` Lÿ\"ü.àìÃ€Ó?Q4€C ÀÚ‡ÏwA×ß\r]í ìGƒ62ÑNÿæõ.è ‡ÑNÿ w @¹i¢ Ø’dŒu`Où\\s32{Øà”¯O +_“=Ø•>É¼ “}ò¶ïÛÑGóÐT ¼ùS»»@ÞCþæï\0 \r,~¶	ÚÊ dw ¼G0w~ãö, °J¦ËðMÓf¨÷)“ú Vea«d»Lß0Ý Ý>¾5}Tõ<R\Z-ÚQ àlFç@ÝxÔ EÅ¶ìò LŒsˆÏ³G8M_ ;Öç±†e©<àÃSÐîã£ƒ¾”uˆ^)c0*c`þ S3Ð{5 ùûPÇÃ9n„S;“¼ Î½ŠÏüE—£5É¤ Lã‡.v\0¼Ÿ ö}•ãx#S2‰•¯ ì u  T>žp4\\v¯‘ª»N¨ß ñ1ü°ëpý³4¹]2Šåó·›ß£¢ËG€ -h¶ÝLký äfø†ÇV?ŸùxXû°–mm vt °å3e‡vÐ¬jÍgá5ƒ=>Fíšî;Ë*Û%ÃW? ¬	ò=bW?šì *—!+ ´“Ï jB`ð|ôÑñx– ¢y z  {$Ô¼\'¾_jÇMªtÝæFí ¦+åÝ rç î7û´ Y´ƒÿÇæ=¦ iVª Â@”ëîÕ ¼^Ði‹®¶Ñ‘öÖNg-:« ·ScnOm¯ ÈãÎ}Ñ\\.îLf-p¦bßÁþNùpÖJÒlž m“uè»âÆ ¢[  Ågú¾“ otRço‘[Þ€‹ûf*/à> ÚÇ/”“Œçq\"û{©)h$ŠeDÌ×¸ û¦¼µFÛm­J^â¹7O‘‡eÎß¾ ½M›×òøš ¾û«³ò \"çùÇÿ ','20160504013515')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Guidelines]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '4854'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

@@ -1,0 +1,53 @@
+
+
+Start request GET /wiki/User_talk:BriannaHa
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Special:BlockList
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User talk:BriannaHa]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 198.23.150.44
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User talk:BriannaHa]] are {edit,move}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:32760-0!*!*!*!*!*!* and timestamp 20160515230700
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:32760-0!*!*!*!*!*!*','uT]oÚ0 ís~…›ÇItNÂGk¦I ë R)HÐíÙï ‹ÄŽl§…U•ö ö ÷Kæ  \rÐ…‡ {Î½¹çÞcÏX ³pÎ 3«]U»%]ödY…å Ö. Z–\\^²0øpÞéà  çsRÈR:b ÒÆ sÿ6: kµ! ÒJ ‚(-€¤ºVŽ ú>¢ÍsHÍ@áÇäø•¬­ûûû ¬+® ‘*-jO³ò `É˜^\r¢^Lî7 l°„²*|-ÂMV— Üxc™å` iŠZ©  P¹ ‰]\Z\\¯+ðÑ  U3 ò³V©CV[IÐé| ¶ãXð ÀÖöü”§9Gér²‚ÿ³’ wù#ßXV5 “\"ç6gI<èÓ =÷ú#(ÓÉÒ÷ÇËŠÄ4êÓžo=¡ J	~ — uýfn¸ÊjžÁT+  9£ìéÙc‘ÇF~ ™6 Ú\0ÅuJWÀ~§Ñ  ï°eÇ‹ ûl$WŠ9B}üÀQá&7ãv<nÅ\'¢… <0)}‹m¶·QùU °\0nÒ|VáhÛ8J»^;0Š Ç  !\'Êc8Ô·t{g. ÙV8¼gt¸Ë K o@(èVãE fs      e«>ö=Õ¢.à¸Ûmt‘\ZY¹6–¼bns˜Ö{¦þ  M ç¹=ˆc­Û ýºÊ Ü(©²£èNÙñœ¯…t;h©W€øN$ knt Æ ˜ ³–³Ñx9½A øY„Ã ëì\\¹w 7\'Ú2Šz4¢1Fco›³öMræ×%`=×…L7­‚	=!~JñJ\0qâˆ¤wÂõš´ Ül¾pÇï*qhÈøò$ \rÕ uL8Tû ŒmLÑÜwÑEÿ¢û\"y„§ u·$·Îc ÷<qH´Ñ-FÑú#­ —ÊÎ\n1å™L·Ãþ ','20160516230700')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+Block::isExpired() checking current 20160515230700 vs infinity
+Block::deleteIfExpired() -- not expired
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 9129
+User: loading options for user 9129 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User talk:BriannaHa]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '32760'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

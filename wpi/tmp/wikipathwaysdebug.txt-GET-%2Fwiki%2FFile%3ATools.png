@@ -1,0 +1,65 @@
+
+
+Start request GET /wiki/File:Tools.png
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/MediaWiki:PullPageList
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Tools.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Tools.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 23.94.134.181
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c5/Tools.png/25px-Tools.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c5/Tools.png/25px-Tools.png does not exist.
+BitmapHandler::doTransform: creating 25x25 thumbnail at /tmp/transform_3fa1dc9a5aa3-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Tools.png from process cache
+RepoGroup::findFile: got File:Tools.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Tools.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:7400-0!*!*!*!*!*!* and timestamp 20160515050038
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7400-0!*!*!*!*!*!*','uTÑnÚ0 í3_áæq  HKÍ4ibİ@* 	¶=»ñ]b‘Ø–í´°ªÒ>aß¸/™o€6@  ‚î9÷æ{=cqÂ¢9· ì¬ö¦ö ëõÙ“c)‹ª%¬}4t¬7¸bQçÃy·K:wğ8Ÿ“RVÒ  F[ß™‡·Õ 8§-yNz Di $ÓµòŒĞ÷1mCj \n,?&\'¯díüßß`m¸ Dª¬¬ ÍÉ_€% z} §	¹ßxp%T¦ µ ·y]òÿáe^€ó¤)ê¤VD€ñ  û´s³6 ¢ @L3 ò³V™GV[I§ÛıØÙcÁ \0[Ûó3 @ ¥/È\n6áÏJ\Zî‹G¾qÌ4 “¢à®`W}J»ôüİë J/«Ğ ¯ Ih|IÓ8¥)¥½ Áoâ.â~XÌ-WyÍs¸•jå¢!g”== , Ø(L!×VB  ¸MéKØ¯ Ë|‘%°¥Ö¥»0*Çè%Ö>ªÙ¤î¦Û\'­øD´à•jR…îÚìA â÷ ÀmVÌ  µ£ª›µ «xyÜ Zq¢ †ã|Krğä š=EÃ{F‡»œ± ğ „‚îôW^–`7 Ñ1p1ñPµêcßS-ê »İF ™•Æ·±Ş+æ7‡ié 4\r\'àhB8Ïí  kİ–x € Ü*©ò£èNÙñœo„ô;h©W€øN$ knµ ë üYËÙh¼œŞ¢\rÂ,¢á‹kv†Ü»&ø’Ò$8“ö J1š Ûœµï³°. ë¹.e¶i ìÑ â§ /  \'è¥\'Ü I+Áíæ3÷ü› ‡†L \'	h¨æcÂ¡Úï`]cŠæ¦‹/./ú/’GxNQwKrë(6ÑdÏ W†D İa ­?ÒÊs©Ü¬ SËl;üç','20160516050038')
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c5/Tools.png/25px-Tools.png
+BitmapHandler::doTransform: creating 25x25 thumbnail at /tmp/transform_58bf76a87ad8-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/archive/c/c5/20100205104200!Tools.png/50px-Tools.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/archive/c/c5/20100205104200!Tools.png/50px-Tools.png does not exist.
+BitmapHandler::doTransform: creating 50x50 thumbnail at /tmp/transform_fbeb382790ba-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Tools.png from process cache
+RepoGroup::findFile: got File:Tools.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Tools.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7400'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

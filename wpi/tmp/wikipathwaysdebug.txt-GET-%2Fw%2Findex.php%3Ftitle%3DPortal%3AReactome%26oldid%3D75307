@@ -1,0 +1,906 @@
+
+
+Start request GET /w/index.php?title=Portal:Reactome&oldid=75307
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.66
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:f0d90ceab00b1827af71d578431d0094:1)
+Parser output marked as uncacheable.
+GETTING PATHWAY OF THE DAY for date: Monday 18 May 2015
+END GETTING PATHWAY OF THE DAY for date: Monday 18 May 2015
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/6/6f/WP2758_75307.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/6/6f/WP2758_75307.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/6/6f/WP2758_75307.gpml" "/tmp/WP2758_75307.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/6/6f/WP2758_75307.gpml" "/tmp/WP2758_75307.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/6/6f/WP2758_75307.svg:
+<BR>Status:255
+<BR>Message:[     0.019] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/6/6f/WP2758_75307.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/6/6f/WP2758_75307.gpml" "/tmp/WP2758_75307.svg" 2>&1<BR>[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2015-05-17 22:56:05') AND (exptime < '20150518074437') AND keyname IN ('wikipathways:pcache:idhash:35006-0!*!0!!en!*!*','wikipathways:pcache:idoptions:35006','wikipathways:pcache:idhash:35007-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:35007','wikipathways:messages:en:lock','wikipathways:pcache:idhash:4880-0!*!0!*!*!2!*','wikipathways:pcache:idoptions:4880') 
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '16361'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:Reactome&oldid=75307
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-ENCODING: gzip
+ACCEPT-LANGUAGE: en-US
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.12
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:f0d90ceab00b1827af71d578431d0094:1)
+Parser output marked as uncacheable.
+GETTING PATHWAY OF THE DAY for date: Thursday 25 June 2015
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:Reactome_Approved' 
+		Pathway in cache: 'WP1897'
+	Did we have WP1897 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP1897','Curation:Reactome_ApprovedThursday 25 June 2015')
+END GETTING PATHWAY OF THE DAY for date: Thursday 25 June 2015
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/b/bf/WP1897_75307.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/b/bf/WP1897_75307.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/bf/WP1897_75307.gpml" "/tmp/WP1897_75307.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/bf/WP1897_75307.gpml" "/tmp/WP1897_75307.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/b/bf/WP1897_75307.svg:
+<BR>Status:255
+<BR>Message:[     0.021] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/b/bf/WP1897_75307.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/bf/WP1897_75307.gpml" "/tmp/WP1897_75307.svg" 2>&1<BR>[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+[slow-parse] 3.59  Portal:Reactome
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:Reactome&oldid=75307
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.139
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:f0d90ceab00b1827af71d578431d0094:1)
+Parser output marked as uncacheable.
+GETTING PATHWAY OF THE DAY for date: Thursday 30 July 2015
+END GETTING PATHWAY OF THE DAY for date: Thursday 30 July 2015
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/f/f0/WP1925_75307.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/f/f0/WP1925_75307.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/f/f0/WP1925_75307.gpml" "/tmp/WP1925_75307.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/f/f0/WP1925_75307.gpml" "/tmp/WP1925_75307.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/f/f0/WP1925_75307.svg:
+<BR>Status:255
+<BR>Message:[     0.020] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/f/f0/WP1925_75307.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/f/f0/WP1925_75307.gpml" "/tmp/WP1925_75307.svg" 2>&1<BR>[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '16361'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:Reactome&oldid=75307
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.12
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:f0d90ceab00b1827af71d578431d0094:1)
+Parser output marked as uncacheable.
+GETTING PATHWAY OF THE DAY for date: Sunday 6 September 2015
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:Reactome_Approved' 
+		Pathway in cache: 'WP1796'
+	Did we have WP1796 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP1796','Curation:Reactome_ApprovedSunday 6 September 2015')
+END GETTING PATHWAY OF THE DAY for date: Sunday 6 September 2015
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/9/92/WP1796_75307.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/9/92/WP1796_75307.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/9/92/WP1796_75307.gpml" "/tmp/WP1796_75307.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/9/92/WP1796_75307.gpml" "/tmp/WP1796_75307.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/9/92/WP1796_75307.svg:
+<BR>Status:255
+<BR>Message:[     0.017] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/9/92/WP1796_75307.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/9/92/WP1796_75307.gpml" "/tmp/WP1796_75307.svg" 2>&1<BR>[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:Reactome&oldid=75307
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.158
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML t
+
+Start request GET /w/index.php?title=Portal:Reactome&oldid=75307
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.15
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:f0d90ceab00b1827af71d578431d0094:1)
+Parser output marked as uncacheable.
+GETTING PATHWAY OF THE DAY for date: Friday 1 January 2016
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:Reactome_Approved' 
+		Pathway in cache: 'WP2735'
+	Did we have WP2735 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP2735','Curation:Reactome_ApprovedFriday 1 January 2016')
+END GETTING PATHWAY OF THE DAY for date: Friday 1 January 2016
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/b/b1/WP2735_75307.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/b/b1/WP2735_75307.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/b1/WP2735_75307.gpml" "/tmp/WP2735_75307.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/b1/WP2735_75307.gpml" "/tmp/WP2735_75307.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/b/b1/WP2735_75307.svg:
+<BR>Status:255
+<BR>Message:[     0.016] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/b/b1/WP2735_75307.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/b1/WP2735_75307.gpml" "/tmp/WP2735_75307.svg" 2>&1<BR>[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:Reactome&oldid=75307
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2016-01-11 11:09:52') AND (exptime < '20160111114526') AND keyname IN ('wikipathways:pcache:idhash:13531-0!*!0!!*!2!*','wikipathways:pcache:idoptions:13531') 
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:f0d90ceab00b1827af71d578431d0094:1)
+Parser output marked as uncacheable.
+GETTING PATHWAY OF THE DAY for date: Monday 11 January 2016
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:Reactome_Approved' 
+		Pathway in cache: 'WP1797'
+	Did we have WP1797 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP1797','Curation:Reactome_ApprovedMonday 11 January 2016')
+END GETTING PATHWAY OF THE DAY for date: Monday 11 January 2016
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/c/cc/WP1797_75307.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/c/cc/WP1797_75307.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/c/cc/WP1797_75307.gpml" "/tmp/WP1797_75307.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/c/cc/WP1797_75307.gpml" "/tmp/WP1797_75307.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/c/cc/WP1797_75307.svg:
+<BR>Status:255
+<BR>Message:[     0.015] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/c/cc/WP1797_75307.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/c/cc/WP1797_75307.gpml" "/tmp/WP1797_75307.svg" 2>&1<BR>[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:Reactome&oldid=75307
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.154
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:f0d90ceab00b1827af71d578431d0094:1)
+Parser output marked as uncacheable.
+GETTING PATHWAY OF THE DAY for date: Thursday 10 March 2016
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:Reactome_Approved' 
+		Pathway in cache: 'WP2792'
+	Did we have WP2792 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP2792','Curation:Reactome_ApprovedThursday 10 March 2016')
+END GETTING PATHWAY OF THE DAY for date: Thursday 10 March 2016
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/4/4e/WP2792_75307.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/4/4e/WP2792_75307.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/4/4e/WP2792_75307.gpml" "/tmp/WP2792_75307.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/4/4e/WP2792_75307.gpml" "/tmp/WP2792_75307.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/4/4e/WP2792_75307.svg:
+<BR>Status:255
+<BR>Message:[     0.020] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/4/4e/WP2792_75307.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/4/4e/WP2792_75307.gpml" "/tmp/WP2792_75307.svg" 2>&1<BR>[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+[slow-parse] 3.48  Portal:Reactome
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:Reactome&oldid=75307
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.12
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:f0d90ceab00b1827af71d578431d0094:1)
+Parser output marked as uncacheable.
+GETTING PATHWAY OF THE DAY for date: Friday 8 April 2016
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:Reactome_Approved' 
+		Pathway in cache: 'WP1846'
+	Did we have WP1846 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP1846','Curation:Reactome_ApprovedFriday 8 April 2016')
+END GETTING PATHWAY OF THE DAY for date: Friday 8 April 2016
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/e/e6/WP1846_75307.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/e/e6/WP1846_75307.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/e/e6/WP1846_75307.gpml" "/tmp/WP1846_75307.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/e/e6/WP1846_75307.gpml" "/tmp/WP1846_75307.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/e/e6/WP1846_75307.svg:
+<BR>Status:255
+<BR>Message:[     0.014] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/e/e6/WP1846_75307.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/e/e6/WP1846_75307.gpml" "/tmp/WP1846_75307.svg" 2>&1<BR>[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:Reactome&oldid=75307
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.16
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:f0d90ceab00b1827af71d578431d0094:1)
+Parser output marked as uncacheable.
+GETTING PATHWAY OF THE DAY for date: Tuesday 10 May 2016
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:Reactome_Approved' 
+		Pathway in cache: 'WP1903'
+	Did we have WP1903 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP1903','Curation:Reactome_ApprovedTuesday 10 May 2016')
+END GETTING PATHWAY OF THE DAY for date: Tuesday 10 May 2016
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/d/d7/WP1903_75307.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/d/d7/WP1903_75307.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/d/d7/WP1903_75307.gpml" "/tmp/WP1903_75307.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/d/d7/WP1903_75307.gpml" "/tmp/WP1903_75307.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/d/d7/WP1903_75307.svg:
+<BR>Status:255
+<BR>Message:[     0.014] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/d/d7/WP1903_75307.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/d/d7/WP1903_75307.gpml" "/tmp/WP1903_75307.svg" 2>&1<BR>[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:Reactome&oldid=75307
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:f0d90ceab00b1827af71d578431d0094:1)
+Parser output marked as uncacheable.
+GETTING PATHWAY OF THE DAY for date: Wednesday 29 June 2016
+END GETTING PATHWAY OF THE DAY for date: Wednesday 29 June 2016
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/f/f4/WP1782_75307.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/f/f4/WP1782_75307.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/f/f4/WP1782_75307.gpml" "/tmp/WP1782_75307.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/f/f4/WP1782_75307.gpml" "/tmp/WP1782_75307.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/f/f4/WP1782_75307.svg:
+<BR>Status:255
+<BR>Message:[     0.015] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/f/f4/WP1782_75307.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/f/f4/WP1782_75307.gpml" "/tmp/WP1782_75307.svg" 2>&1<BR>[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:962709abbc1f760665a87c67f47cf8f0:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Reactome]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '16361'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

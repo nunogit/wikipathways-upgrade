@@ -1,0 +1,78 @@
+
+
+Start request GET /wiki/Pathway:WP246
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://vm1.wikipathways.org/w/index.php?title=Special%3ABrowsePathways&browse=Mus_musculus&tag=Curation%3AAnalysisCollection&view=list
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,he;q=0.6
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP246]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 18.93.15.198
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP246]] are {edit,move}
+Article::view: doing uncached parse
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/4/4b)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/4/4b/WP246_69201.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/4/4b/WP246_69201.svg
+FileCacheBase::isCacheGood: cachetime 20160722212259, touched '20130708182402' epoch 20150515185216, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/4/4b/WP246_69201.gpml" "/tmp/WP246_69201.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/4/4b/WP246_69201.gpml" "/tmp/WP246_69201.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/4/4b/WP246_69201.svg
+moved into place WP246_69201.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160722212302, touched '' epoch 20150515185216, good 1
+Got thumbUrl: http://vm1.wikipathways.org/w/img_auth.php/cache/pathways/svg/4/4b/WP246_69201.svg
+Parser output marked as uncacheable.
+updateCache called for filetype png
+	->Updating cached file for png
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160722212302, touched '' epoch 20150515185216, good 1
+wfShellExec: /bin/bash '/var/www/wikipathways/w/includes/limit.sh' 'inkscape -z -b white -w 1000 -f '\''/var/www/wikipathways/w/images/cache/pathways/svg/4/4b/WP246_69201.svg'\'' -e '\''/var/www/wikipathways/w/images/cache/pathways/png/4/4b/WP246_69201.png'\'' 2>&1' 'MW_CPU_LIMIT=180; MW_CGROUP='\'''\''; MW_MEM_LIMIT=524288; MW_FILE_SIZE_LIMIT=102400; MW_WALL_CLOCK_LIMIT=180'
+PNG CACHE SAVED: /var/www/wikipathways/w/images/cache/pathways/png/4/4b/WP246_69201.png, 1;
+updateCache called for filetype png
+FileCacheBase::isCacheGood: cachetime 20160722212303, touched '' epoch 20150515185216, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160722212259, touched '' epoch 20150515185216, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160722212259, touched '' epoch 20150515185216, good 1
+[ContentHandler] Accessing pathway content as text!
+Article::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Class SkinWikiPathways not found; skipped loading
+[slow-parse] 4.77  Pathway:WP246
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP246]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '1800'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

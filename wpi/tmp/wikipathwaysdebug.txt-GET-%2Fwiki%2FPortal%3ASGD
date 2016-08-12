@@ -1,0 +1,85 @@
+
+
+Start request GET /wiki/Portal:SGD
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Special:WhatLinksHere/File:Sgd-logo.jpeg
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:SGD]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 191.101.50.216
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:SGD]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:aaf9013affc5935bf71d95f2f06f5393:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160513075116, touched '' epoch 20150515185216, good 1
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/2/27/WP2869_78912.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/2/27/WP2869_78912.svg
+[ContentHandler] Created handler for pathway: PathwayHandler
+FileCacheBase::isCacheGood: cachetime 20160513075116, touched '20150212202521' epoch 20150515185216, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/2/27/WP2869_78912.gpml" "/tmp/WP2869_78912.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/2/27/WP2869_78912.gpml" "/tmp/WP2869_78912.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/2/27/WP2869_78912.svg
+moved into place WP2869_78912.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160514161829, touched '' epoch 20150515185216, good 1
+Got thumbUrl: http://vm1.wikipathways.org/w/img_auth.php/cache/pathways/svg/2/27/WP2869_78912.svg
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160513075116, touched '' epoch 20150515185216, good 1
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/2/26/WP2838_77924.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/2/26/WP2838_77924.svg
+FileCacheBase::isCacheGood: cachetime 20160513075116, touched '20141030174137' epoch 20150515185216, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/2/26/WP2838_77924.gpml" "/tmp/WP2838_77924.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/2/26/WP2838_77924.gpml" "/tmp/WP2838_77924.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/2/26/WP2838_77924.svg
+moved into place WP2838_77924.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160514161831, touched '' epoch 20150515185216, good 1
+Got thumbUrl: http://vm1.wikipathways.org/w/img_auth.php/cache/pathways/svg/2/26/WP2838_77924.svg
+ExifBitmapHandler::isMetadataValid: back-compat version
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/f5/Sgd-logo.jpeg/225px-Sgd-logo.jpeg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/f5/Sgd-logo.jpeg/225px-Sgd-logo.jpeg does not exist.
+BitmapHandler::doTransform: creating 225x225 thumbnail at /tmp/transform_5731fc724852-1.jpeg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:aaf9013affc5935bf71d95f2f06f5393:0)
+[slow-parse] 3.70  Portal:SGD
+Saved in parser cache with key wikipathways:pcache:idhash:34898-0!*!*!*!*!2!* and timestamp 20160514161831
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:34898-0!*!*!*!*!2!*','íZërÛ6 îo? ÊN;»H ©;e{Çq®³qì‰½Íô— $! 5I0 hYíd¦°÷õú${ \0R”l7Ùnºm²‰c‰Æí\\ðá|À O Ï œ3ZIVÖª¬•  GÁO2  N~Án”³ÁÌ›Ì g?æ×DªuÆ œ(c´\nH(Tº ¥\\qQ ¤b Uüš- ¦Š ´\"ã1Y¥\\µ…½ U\Z ¯¼Ñ¿ ¨ ÑUR‰ºˆ òÕd> Ïç  ‰LÀ ¶oIã˜ I@ú Ë \n4ëÑŒ\' 4b…bÕ\"§UÂ‹ ¨¤D Ay³p ÷öËÃ}YÒ‚D •òÀ)3Ê‹Œ WÒilÙ¨OCP· iJ”Z¿EÅ“T™Çíñµ KQ¨žä?²`6øz[açpŸ¢; œB,E–‰•Ó¨\0ª³ª  A# ¢`\\¦ œË0£Å•CÒŠ- œT©2pÝëÜë¯ø /©JWt-û¢JÜ•Ë‹˜ÝôË´ü›â\nl8 •¢Ypþô‘û¼P•ø†æå‚FhÕ ‹¹r¬ šÙÛR  ì»X¸ïÒÃo¾ò&ƒ…ùÜ³åð]ÂGê7#l,÷ hºþ{Å´·B‘Å \0 ¢€Ù3Î p®›‰Ü<nùÔzÑÌ:è ò $ã\'XGŒ¡„*ò\Z¼rf½²ïb=!dÏ<í»©: `á« Û˜K\0À: 3 ]mtD Þ T€A ¬ rÍ*Å#š5ÈƒúÅ tŸè- `FQL ¬ [ªŽ;àÇC¤nà>hü¢aØ B	\"YÑ0c% ±=#ÌÊÖ\r+üˆ µå tËLP¥Ñ¬‘i@æ\"´Ü\'<cÁy ÷2‘ˆþ %KZ¨òœ&  ªAæà `  ç	¡™ê” YE0¢Jë<ÔÈ\\ l©!©yàùc‡˜GG?§\Z8ö  Gâzx¿¡f3âõÇ7  ®Š<¹¤µJ±»t—cw« ño âjŒ7ÐpÁKèªÆ«f²‡Mìhª úÃC² HòU/e4†P  âñóše‘ÈÙ¥ —*e—à˜KƒVçØ:\0 :ÒAr»ð@€ VááÅv‹ ¬ ¶\n 1L Š0Ë˜^åD,IÙ¶¨+ªXLÂu+M1š÷aq4+ -ƒ\n? VZ¶ L£(¥•È× “ä)+PíG \ZQÉÈ_`¬¿’² ×<f¨J^V,e…„˜O8„áÄJæ€É —\n”.E•S­$<iÂZã›¬ •jGdÄ*vÍ%§ \0& ÑŠ«”H ›(%´ˆá—fkÉ%8SdøIØM	+€áÐ c Ê> ¬\0³P Êƒe 	X¼ktÓ².´Ë@7CW¢)/%	™Z1 A’½©Y 1--a Cƒã:R ŒÁî	×U)€–U \"2-¸Ìe ]KÐ‘/@Û‚ä¨ \rE­´  „ ì ÷µç =;š    m­v Î B½og¼  \nQV0Y- vâ“Ž m|\Z`ì!ƒ¾ßùÄh´‰á÷4À¸­ÿ ›í×jµºÇì  Á™YØ¡ýÅ ~{Ç¢7,NS}› t˜ L6Á`âíà¬~Þü| ›ŸSXhÕ\'·ùáˆò_~þ—$ßë€ÙRÁ­m ÇMÐ ¿\rbcüù¶A†§v<Ñ2 ¿Í‹9-jšeë– s ÁÎhC™ ÏYñã:  ‚.÷QRŸ€ì=#û! QÊrMrV\Z03:2Q •šgŠÔ²!£¦í…¦/)–jE(bvÍ2Q\ZÚ>c°JÈßiUZ¦‘Æ&šÔLO;  \n´ä\ZIòŠY’|\nÓPj\r^=\'Ï ½Þ áõÉ9GbƒÞ P$…Æ\re¤¨)²_ë-´™­X¬5h\\· Ÿhá2â yø œ˜ V ¶®À=\'º·i¾»-Á©’\" è\nàTð­l<…BV þ›Ò’± !µ X5æA}^ \\­ÿ(fûÔò™5þ¬¬ñ’­ä\'H\Zh–¦„Oœ þ{ÔH»½„° Wü¦ÏâÚ=üêû Ü`â7ñ Þ §: ¾ ‘ê¨Ðaî öö)’ ˆø›˜S…¡‡ Æ h»w¢ƒ–7| Ç =ò‚+À y ¾~@Ž^Y àï‡@?šg ¤„^\"©F?žYhæ¢ `‘?ƒ Õ ]„ <Ý” ‹b	4 ì€f6ZO[­Ïh¤ƒ=Ë5{@ŽöŽB©*X1À\\æ  G,by Ìå\rtÇÑG ¡ï; XmlF`úù ðÑ„ó\'LoFâO0¤7{Çãvƒûÿ±çßJ}6#˜Þ· ¡F è†™P¢…Ãlë%ât £˜³+W:ÉØ SÿE )¥ yQ@÷í<¡?öõ kó©¿\nYLµÚù ^Ÿù³É|“f5›ô¬Í´Ú «N©¾c tsž ìèY“#’®¼N\\ßõ§® w9Í=¿ ¥ŽÉÝ¶IX ®Ü¤a ‚‰·˜ÉwIÿ “ŒÓLúØä\\	¹åÔˆ–ˆaçðe­*<Oèäf%2<7T< Rä %t ŽÝ”p \Zò›øÝ ú =¡ÃÙÿhB\'® w9ÎýÑï9¡ “þ³	}vú”< á=!s‘Ñ\nŽk$Éà4“keÞ5m^úþµ  ~ çR¨Ë>LJ wL·<±K/ç%‹8Í¾  =¬ÄJ²&ñ 9&ÔE [IƒËMÒ@·Q498¶§b  o ŽJL¤[žÂ³öö¡t   #›Ì ¸ÛdÏá m¸Îfóo\'òÿÌ»-¼à¨\0?Í5„.ÝÛÿ²×#{p^9;# Ï¹‚i-ÁÈ½3ø6y ° ½‰9ˆBÄ  E]À¶d8ž¸@¾øo»1Æ “²è6÷¼A§½ê—Ÿÿ	 “ ¼ˆ²\ZZj>\'Þhêy°ažO½±OÂµbrï‚åÀ Š pYc´2mýél·)BŸÁ!@1 6É%réÄ \rö ß”öÊ¤Ô ïí•D£æ\0uÜëõ\Z×œS€	^>Øö:,˜‹‘+¶&]ô ¥® xœR	 ×Ñl>ë\r¾üÖþø_~«S-Šç  \0 ·é“ÁØ y o6ô \nÅ+o 8ù Z$5¬ø z·¸ Á øé-ÔyPw žH DínÅ\0_\ZÀ Ó¼9€%›­ –LpÜñt7ë]]î ?q(žÀã _Fð† Þ4º¡¸éé é,¸¶mne<„\n¼Žƒ0 5£ñt  sÓIßˆ› óÁÈÚÖŒV`þ,kjýM/JnÊ‡ø „)ÇSuS<ÆÁ|SÞ¬Ù¦n²xûÖÔ¶¦=ßß8àjmÃ ÆÍ=­Ï®uÐcæßk ÖNï° Ë½ÛÖañð ë¦óµn\nÆ=GJhì²ÆlÝ%C o®\0 9Þ5Ÿë<Þ©fŠ_íH  kÀ „kƒJ< |o ß°ÁR(”)õðq Ð ­ã7*œ¾©“|PÌyXLÇ^’óú‡,ŽË4uÌÄ ¾ [šhñ8Fy8Æ»®Û´Q _•yŸ[ª¦õ xWºÁ¶ \r‚÷?ÐÛ>Þp ü N v í]lÖe²`‹Çº ÖÎ:¾G¤“Ð¨Ï]  wnÎ2Î\"„ ‘íóŒÇìŽ*  /ÅS`V­·JŸÁ\ny®XÞ   w\"â:Û\nR£¶ô<ªx©ºuÃM rY·jÜV\0Å4 ·•¸ÌÍûSÏ„èš ë-M« 8t§ÔZ¶		 x˜!\0Am%€D¯YÖL. ·ƒ°À ZØë· àÑ‡ú{ß1°Q·¨15c Ð‹ :iLè… 8 =]\nºaÒÝF\"h=é†ð&Þ §#Û‰åR2 ö/ ZD©¨v”ºã¥ ³\nq† ÃÑÛ:ãB\\1ôˆV„ÇY%J<{\ZwûöÕ´B€‡P (¡• b  âe  [gapqzüìâäE·‹!+ËƒÛÑÅ ú < i3À¨/ºoÈ} x ¯á\rÒº3 .ï†G nGX¼ ìÀÇfÀ  ­ÕKe8¾Õ Ü\"Š˜Vk¼XúG 7ühPäÏnuÀˆ¦7 Øa{!|Ç*i  ‚¼þ¤?jÝpŒ{†‹í ÛÙ 8–	L;Ø¾p\\{8á RÀ±}#å4‹OhÂ#3oÿ\r','20160515161831')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:SGD]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '34898'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

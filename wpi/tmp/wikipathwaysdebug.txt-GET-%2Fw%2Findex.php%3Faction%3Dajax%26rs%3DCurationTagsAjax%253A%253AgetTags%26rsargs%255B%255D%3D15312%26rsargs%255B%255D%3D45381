@@ -1,0 +1,58 @@
+
+
+Start request GET /w/index.php?action=ajax&rs=CurationTagsAjax%3A%3AgetTags&rsargs%5B%5D=15312&rsargs%5B%5D=45381
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CACHE-CONTROL: no-transform
+PRAGMA: cache=yes
+REFERER: http://vm1.wikipathways.org/w/index.php?title=Pathway:WP1544&oldid=45381
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+AjaxDispatcher::performAction dispatching CurationTagsAjax::getTags
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+User: cache miss for user 2
+User: loading options for user 2 from database.
+User: cache miss for user 6
+User: loading options for user 6 from database.
+Parser: using preprocessor: Preprocessor_DOM
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+IP: 66.249.79.44
+[ContentHandler] Created handler for pathway: PathwayHandler
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+Connected to database 0 at localhost
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2015-02-17 06:17:16') AND (exptime < '20150217074113') AND keyname IN ('wikipathways:pcache:idhash:7375-0!*!0!!*!*!*','wikipathways:pcache:idoptions:7375','wikipathways:pcache:idhash:15416-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:15416','wikipathways:pcache:idhash:17355-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:17355','wikipathways:pcache:idhash:18553-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:18553','wikipathways:pcache:idhash:34494-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:34494','wikipathways:pcache:idhash:34503-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:34503','wikipathways:pcache:idhash:34500-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:34500','wikipathways:pcache:idhash:34486-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:34486','wikipathways:pcache:idhash:6406-0!*!0!*!*!*!*','wikipathways:pcache:idoptions:6406','wikipathways:pcache:idhash:34198-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:34198') 
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7b/Curated.png/25px-Curated.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/7/7b/Curated.png/25px-Curated.png does not exist.
+BitmapHandler::doTransform: creating 25x19 thumbnail at /tmp/transform_a7864f14e0af-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7b/Curated.png/25px-Curated.png
+BitmapHandler::doTransform: creating 25x19 thumbnail at /tmp/transform_16ddc11b3027-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7b/Curated.png/25px-Curated.png
+BitmapHandler::doTransform: creating 25x19 thumbnail at /tmp/transform_33b8a1ed1af5-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+AjaxDispatcher::performAction dispatch complete for CurationTagsAjax::getTags
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

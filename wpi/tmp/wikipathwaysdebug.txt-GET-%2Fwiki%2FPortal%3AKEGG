@@ -1,0 +1,93 @@
+
+
+Start request GET /wiki/Portal:KEGG
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Special:WhatLinksHere/Portal:KEGG/FeaturedPathways
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:KEGG]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 104.156.63.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:KEGG]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:3d6c4d622bcc8b85b19fdccd36050632:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+GETTING PATHWAY OF THE DAY for date: Sunday 15 May 2016
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Synthesis and Degradation of Ketone Bodies KEGG]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Notch signaling KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Tryptophane Metabolism KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Regulation of Actin Cytoskeleton KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Complement and Coagulation Cascades KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Alanine and aspartate metabolism KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Integrin-mediated cell adhesion KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Urea cycle and metabolism of amino groups KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Mus musculus:Gluthation Metabolism KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Mus musculus:Alanine and aspartate metabolism KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Mus musculus:Complement and Coagulation Cascades KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Mus musculus:MAPK signaling pathway KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Mus musculus:Regulation of Actin Cytoskeleton KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Mus musculus:Integrin-mediated cell adhesion KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Mus musculus:Cell cycle KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Notch signaling KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:MAPK signaling pathway KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Regulation of Actin Cytoskeleton KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Integrin-mediated cell adhesion KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Urea cycle and metabolism of amino groups KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Gluthation Metabolism KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Rattus norvegicus:Alanine and aspartate metabolism KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Saccharomyces cerevisiae:Cell Cycle KEGG]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Saccharomyces cerevisiae:MAPK Signaling KEGG]] are {edit,move}
+		Pathway in cache: 'Homo_sapiens:Notch_signaling_KEGG'
+	Did we have Homo_sapiens:Notch_signaling_KEGG before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('Homo_sapiens:Notch_signaling_KEGG','Portal:KEGG/FeaturedPathwaysSunday 15 May 2016')
+Couldn't make pathway of the day: 'Pathway:Homo sapiens:Apoptosis' does not exist!MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/4/4c/Kegg128.gif/128px-Kegg128.gif
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/4/4c/Kegg128.gif/128px-Kegg128.gif does not exist.
+BitmapHandler::doTransform: creating 128x92 thumbnail at /tmp/transform_f4389cd7067b-1.gif using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/4/4c/Kegg128.gif/128px-Kegg128.gif
+BitmapHandler::doTransform: creating 128x92 thumbnail at /tmp/transform_783c77882c0a-1.gif using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/4/4c/Kegg128.gif/128px-Kegg128.gif
+BitmapHandler::doTransform: creating 128x92 thumbnail at /tmp/transform_4f6e36d11a8f-1.gif using scaler im
+BitmapHandler::doTransform: returning unscaled image
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:3d6c4d622bcc8b85b19fdccd36050632:0)
+Saved in parser cache with key wikipathways:pcache:idhash:4927-0!*!0!*!*!2!* and timestamp 20160515072920
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:4927-0!*!0!*!*!2!*','íZýnÛ8 ß¿ó ŒŠÝ ŠÚúòG,\'>dsmSô# šnq-h‰¶¸¦H IÅñ  î î ïIn†’l9I‹½C‹m{MQGá ‡3ÃßÌp(_$a”x—T ¦/*[VÖKâAòÎ$ÃÄ+®Øõ¦& ÇÁQâ güš » ìÄK £:!seó))•á–+™ Í µüšM¢3  F	ž‘uÎív°·æ™Í  –7î\0 š®–ZU2KÈƒ üŒFS’*¡@Âƒ ˆãÉ –¡YÆå2!ý S ºõ¨àKX6eÒ2=-¨^rÙ ¥¬*  ”7Sovp\\ÎŽMI%I 5æÄ+ åRp¹2^kÍÎ\0: …+ÐÕªÒi8Õ|™Ûúq_¾Ób¡¤í þ –  ?ÞVÙ› StÉ‰\'ÕB	¡Ö^« (Ï´¤‚   ± ™Ù ï·¹ rå‘\\³Å‰—[[&¾]„ý5_ñ’Ú|M7¦¯ôÒ_û\\fì¦_æå_,·`Å¥Ò–Šäùã§OýgÒjõ -Ê)MÑ° –që5~h·ð–®Èrì#ÇìØ§³Ÿ „£`Z 4ãð»„<jeìÌ  ´ßý½fÎes%²  ¤’\0€Úƒ	ny»›»Ç=Ç6®l7 tŸó%¬Ÿh\"¡–¼ §\\6N9ö‘B 9¨ŸŽý<B} ³ð«ƒÜŒ @À&™ •®vú! ïÃ*à ƒ×)¹fÚò”Š z@Ÿî¡÷‰ûÙB 6 —é¢U°…í¸ þ… Õ ¾ÑþÖ\' ‡ý F¼ÆŽ A ¡¨uàt0« ã#Nü\'\\°ä9[.Ãè¨¿ä‹-êxA— Øy±$T\0Þö˜ŒNQ‚ ÔßhesÄ–?ð ©¿Çæ¼qâÁß€S·Õ\'Þ$òˆï`Óz¼œ½e\"U    ›3òIBa½^÷—L‚Øþï¥¿ µü&*ú¹-„ç j:\Zn£ä\\åÜ@ÂrÄ ” h\0ŒÔ °kI¤%i¥©e ™oœò qš Ué”õ›0(k ^ž^¿=ý  ¹ w]0 rD-`eE…ØLÓµÜ.RÐÒ€´  ÂZ°Ë ä’•TkÁ²%#0  - ˆª Õ„cz«#™P™ÁÜæ ÉìZé•ÀÓ¤`–BÐqS<\"à$ 8…™@)¨c.µJ™1°Þ#Âä5×J °>8âC\\) Â)Ð 2ã–Ï+0Œ@ 1\nCýÚ  hJUjPy›^;àw€Ý‚?@`“  u> ê»äð  ¯ÁÙÝ’ä*Ò–|7ü]Ø$u Öq=Š~ôfäà{uûjªÛ+¶6ßdqã34íØç³?»Œ5³?K +gÝ$ OÆr! ¬Ë4&`cuå6¶M´_Ijùž5¾è¬q 5U£iã²s|Ñ|^Y¥ë4Bþü ñçM%¯ ûtÇË • R í¯*žêþj£¬êU}šâi  —\r™ :G8|ÏOßóÓ§ËO§sUÙo4?9ÛHÝœñ/ Kÿ¼9É;%KRšC÷Ç$´t¼né\0´¶ç\ZXèÍ ¥k›Æ¢ Ì2÷\0@Ö»æ¶­$ÎÆvì‘{ 4Qé\Z=\\ Gæ\\™ \n {„Æ¥947p¦b’ÎE+×É ø‚èŒo{Tl‚Áƒ‚]3ÑhrÃí I hÿÚÅÉœåôšC©! ­\nÒÚ…<ÝÞuÛ[öÉ•ZS Ð  gÀ·f d€úŒAG‰:¨  bŠ m§¦fÛ| I èËë+ ìÛµmÝƒ £\ZL u‡&Ü´„mÞ~ ý1ôõJs0¥Ù’_ö×9si	g>ÇìOÞHHÚ GZWŸ»ö÷©»†èð#©Ã\r#W\n*HßÛ^ \\)‚)X‚w4ƒ´ÕÆÄ#rÍaÎg½&Á°sI žŸÃšÌÕ±/¿ŒA=˜kâ·ÙìC}}£\\\nâñ÷Æþ+_` yÂ¨­ q‘æ¨ûÿqº}SçoÈC ìÛûÃ&Ùd` ù¹ñGr®\nE -9“&9-Ui  æg’)ÈuRY iÝØC·™.œf¿r¶&P È­ëãî¡¤u{{\n‰Ç \\¼2ÝÙ-ãîdñ’Òeþz2lÜì+8A×¿ Ž {=rðŠ­//‰à ¤k(Ò`ÇÁ% kW Á<—ÈÁn©2,»•„  Ä‘ ‚?ûÌxI[_3wÙÃp<ÞñÃáßÿü »)±úp™Š\n8]ì‘p0 D~ LÆá0\"óeæàŠA  ‘ |TáínÃ EÑè ë9 ~ƒ¸\0Ù O  + ÷#  <¾) H ±Ä\Z¨p‹JÖg†FÍ\0u<èõZ×¼†2Ž\Z¶ü)M £kns²b Ò= \'¥#&<Ë©É“Á$\Z÷‚Ã‡‡øÿáatø°.µ¼\0õà<L¢\0ÒÑ0  ãh   ×Ä·’á ñŠ T.+ºd/\\fœÒ$HÞ½ Z ´3pÄÒ û !À÷šˆáöå&²vÐŒC# Ü\n “w ¦êG“DÀ?ì§ l‰£éûí:ÍnÜ–s„rP}\'g®nz.ªj ÑÑ´žþ ŒçŒBVr„á¸%ì^ñ5K H vÄI<ÏˆFÞ ¨“†ˆ÷‹8<ŒG{ÒÜåH#mÐ%¸“{Cˆ‘ ß²¾¡…µÕQÇêgÙaw NÆãû\rŸ„A|¯åá(¬•½ßt  ßc{8œ„ñ½Æ#%¼×z¤D 2 õˆýc0ÿ ¾dk-¯áÕ}†üStÕ ðâ›º×îÐzQbp}d\ZM\"  ça`´ø‚à Bc EÃ8 â( šœ†ø ƒŒÑ ×Q5‘:¤¿ ãJ Ãuxt½ ¦ˆÃ\nÜè¶\r#éqsÀÜ ?ÆõbPó ¾|s–ÁŒQòÇîSîòüÜºõ ~5á  0©Ü ø°Ó¯ë·pÞtž´ÑQœóŒÝCÂH}¥žb«¦7{£ç\0Âg–  ù¸k/UV‰½¤2ØŽ¾N5/m— ïhXkº¤á–ô *B ›†ˆ¡T%ã\\©®‰€çâ-´ Pãn6–u¥ ¾3n  ´$ é‘è¬K­J<äÔ‹GÍw?àÄ R  øÁk€/ Þ7˜Ö}\r­qÊÕÅÙùÕË Ý)uªm²ø ÄÆQ 9ÄF\0€ º_Aù v7c7—p<K7 qp‡ñ4uiÖ	 g xÃæU1Çê‡Ö†	ÆVs ‡ “Ã9µ&€þñðŽ`ð—’ Õ›¿RKß”Y›Åk·FGw&`ø¸2Š öñò+¶„µÇ`¡°?ê ¶þ9ÃJxµ ÑÝbçF£– Š2Gˆr šÀm &œ38~Co`.Dö’.yZïîûÿ\0','20160515082920')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:KEGG]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

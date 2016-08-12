@@ -1,0 +1,48 @@
+
+
+Start request GET /wiki/Download_Pathways
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+PROXY-CONNECTION: close
+USER-AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36
+ACCEPT: text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+ACCEPT-LANGUAGE: en
+ACCEPT-ENCODING: gzip, deflate
+REFERER: http://vm1.wikipathways.org/wiki/www.facebook.com%2FLazadaPHshopping%2F_Pathways
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Download Pathways]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 111.56.13.150
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Download Pathways]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Download Pathways]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2016-03-01 16:10:28') AND (exptime < '20160301172808') AND keyname = 'wikipathways:messages:en:lock'
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '1934'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

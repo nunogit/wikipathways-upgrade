@@ -1,0 +1,65 @@
+
+
+Start request GET /wiki/File:Lines.png
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/MediaWiki:PullPageList
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Lines.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Lines.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 198.46.156.186
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/05/Lines.png/25px-Lines.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/05/Lines.png/25px-Lines.png does not exist.
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_e9be3434caef-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Lines.png from process cache
+RepoGroup::findFile: got File:Lines.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Lines.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:7396-0!*!*!*!*!*!* and timestamp 20160514153403
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7396-0!*!*!*!*!*!*','uT]oÚ0 í3¿ÂÍã$:ç ÚšiÒÄºT\n l{vã»Ä\"±#ÛiÉªJû	ûû%ó\rÐ èÂCÐ=çÞÜsï±ç,ŒX°àÆ‚™×®ª]Àâ„=Y6`A¹‚ F–ÅW—,è}8ï÷Iï    RÈR:b ÒÆõ þmt\nÖjC ¤•  QZ\0Iu­ #ô}HÛçš ÃÉÑ+Y[÷÷÷ ØT\\	\"UZÔžfå/À’ ½¾   ¹o ØÞ\nÊªðµ 7Y]‚rÿáMd–ƒu¤-j¥VD@år$&´w³©ÀG €TíHÈÏZ¥ Y]%½~ÿco;Ž%\0lmÏOyš y”.\'khüŸµ¬¸Ë ycYÕ‚LŠœÛœ]Æ×Ã>=÷ú#¨ÒÉÒ·ÇËŠD4 ÒA˜„ƒ8¡1Áoâ.ÂÄ/æ–«¬æ ÜJµ¶Áˆ3Êžž= zlì§i#¡ PÜ¦t ìWŠe¾È ˜/ ö¢R F‡Xû¨f›º›n7 uâSÑA¼WÊié»ë²¯| ¿· nÒ|^áP»8ªºÙ80Š Ç   §Êc8Î·${O.¡ÝS0ºgt´Ë™H o@(èNåE ¦9ˆN€‹©ƒ²S ûžiQ pÜí6ºL¬\\ ‹_1× ¦\r^ ™? G ÂynàDë®Äk üàFI• EwÊŽç|#¤ÛA+½ Äw\"qX £+0îÀ ˜µš\'«Ù-ÚÀÏ\" ½¸fgÈ½k¼/)¼3iB“ £‘·ÍY÷ 9óë °YèB¦M§`LOˆŸR¼ @œ8\" œp½&­ 7Ígîø·J \Z2º:I@Cµ‡   Õ~ c[S´7]x1¼H^$ñœ¢îŽäÎQl£Ñžç¯ ‰6ºÃ(Z¬•ãRÙy!f<“évøÏÿ\0','20160515153403')
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/05/Lines.png/25px-Lines.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_111f4f6e58cc-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/archive/0/05/20100205104043!Lines.png/50px-Lines.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/archive/0/05/20100205104043!Lines.png/50px-Lines.png does not exist.
+BitmapHandler::doTransform: creating 50x43 thumbnail at /tmp/transform_447ed8d94380-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Lines.png from process cache
+RepoGroup::findFile: got File:Lines.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Lines.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7396'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

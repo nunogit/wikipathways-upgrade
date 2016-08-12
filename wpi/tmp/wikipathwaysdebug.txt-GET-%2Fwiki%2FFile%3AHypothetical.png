@@ -1,0 +1,61 @@
+
+
+Start request GET /wiki/File:Hypothetical.png
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/MediaWiki:PullPageList
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Hypothetical.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Hypothetical.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 23.81.90.200
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/ee/Hypothetical.png/26px-Hypothetical.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/e/ee/Hypothetical.png/26px-Hypothetical.png does not exist.
+BitmapHandler::doTransform: creating 26x26 thumbnail at /tmp/transform_5696ca196213-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Hypothetical.png from process cache
+RepoGroup::findFile: got File:Hypothetical.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Hypothetical.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:32896-0!*!*!*!*!*!* and timestamp 20160513080251
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:32896-0!*!*!*!*!*!*','uTÛn\Z1 Ì3_áìc%Ò½p5U¥Š¦%R HÐöÙYŸîZìÚ–íMØF‘ú	ýÆ~I} H Há tf||f<ö‚F1\r–ÌX0‹ÊéÊ 4éÑ\'Kû4(×°uÁÄÒd4¢AçÃe·K:wð¸\\’B”Â  Z ×Yú_£R°V ò ¬pÀ‰T Hª*é(	ßGaó9¦f Á°SrüJVÖýýý ¶šIN„L‹ÊÓ¬ø Ø2 ÇÃ¨ “ûÚí¬¡Ô…ïE˜Éª ¤û o&² ¬#MS+”$ ´Ë‘Ø ;×[\r¾ú\0D7–Ÿ•L ²ÚJ:ÝîÇÎÎŽ {\0 íÀOYš y .\' ¨ýŸÐÌå¬¶T7  <g6§I<\Z ºáå»×/A™N”~>Vj ‡Ñ ìGI8\nã~DpS<Œ¨çOæ–É¬b Ü\n¹±Á„Ñ>={,òØÔÛ)# \r„xœÂ p8ÓØS¿ˆ è¬ÖÊåàDÊŠ+-3  ¸ÅIë¦ÃÞåv=nÕox  zà¦ôC¶Ù>H%n» fÒ|¡ÑÜ6Žâ®· ŒdÅé  É é1´õ-å>›+hÎ+˜ÜÓp²_3  Þ€PÐúÊŠ L}T ã7 ÊVœ{®xUÀé´»ê*5B»6–¼b®>^Öæþ&œ8„~î®âL©¶Ä± ~0#…ÌNª{e§>_sáöÐZm\0ñ½H4ki” ãŽb‚«Ö‹él=¿Å x/‚ÉKxö¹<dÐÇ3	‡a \r{ãdÜDÊÇæ¢ý–\\øãâ°]ªB¤u«a ž ?¥ø(\0?KDÒ?ãzMJrfêÏÌ±oš  2 -À@5—   «ý Æ6¡h^¼èjpÕ{‘<ÅûŠº[’[7²©Æ ž: Æè « ý©’Ž	i  Ÿ³L¤;óŸÿ ','20160514080251')
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/ee/Hypothetical.png/26px-Hypothetical.png
+BitmapHandler::doTransform: creating 26x26 thumbnail at /tmp/transform_18b4f2056fcf-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Hypothetical.png from process cache
+RepoGroup::findFile: got File:Hypothetical.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Hypothetical.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '32896'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

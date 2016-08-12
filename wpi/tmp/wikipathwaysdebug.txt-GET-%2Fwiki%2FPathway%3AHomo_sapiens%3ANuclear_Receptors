@@ -1,0 +1,775 @@
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nuclear_Receptors
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.36
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Article::view: doing uncached parse
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nuclear_Receptors
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [5bf4f00f] /wiki/Pathway:Homo_sapiens:Nuclear_Receptors   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nuclear Receptors' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21038, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nuclear_Receptors
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [5033b085] /wiki/Pathway:Homo_sapiens:Nuclear_Receptors   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nuclear Receptors' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21038, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nuclear_Receptors
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [518d628f] /wiki/Pathway:Homo_sapiens:Nuclear_Receptors   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nuclear Receptors' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21038, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nuclear_Receptors
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [35939e93] /wiki/Pathway:Homo_sapiens:Nuclear_Receptors   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nuclear Receptors' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21038, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nuclear_Receptors
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [30f78b3c] /wiki/Pathway:Homo_sapiens:Nuclear_Receptors   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nuclear Receptors' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21038, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nuclear_Receptors
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [44c985cb] /wiki/Pathway:Homo_sapiens:Nuclear_Receptors   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nuclear Receptors' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21038, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nuclear_Receptors
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [2c03147d] /wiki/Pathway:Homo_sapiens:Nuclear_Receptors   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nuclear Receptors' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21038, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nuclear_Receptors
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [609e74e1] /wiki/Pathway:Homo_sapiens:Nuclear_Receptors   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nuclear Receptors' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21038, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nuclear_Receptors
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [7b67ca3e] /wiki/Pathway:Homo_sapiens:Nuclear_Receptors   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nuclear Receptors' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21038, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nuclear_Receptors
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [e7f24963] /wiki/Pathway:Homo_sapiens:Nuclear_Receptors   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nuclear Receptors' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21038, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nuclear_Receptors
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [18bcbe2a] /wiki/Pathway:Homo_sapiens:Nuclear_Receptors   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nuclear Receptors' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21038, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nuclear_Receptors
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.66.155
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [33664605] /wiki/Pathway:Homo_sapiens:Nuclear_Receptors   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nuclear Receptors' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21038, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nuclear_Receptors
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.66.151
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [36198ddb] /wiki/Pathway:Homo_sapiens:Nuclear_Receptors   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nuclear Receptors' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21038, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nuclear_Receptors
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.75.37
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [3218dc36] /wiki/Pathway:Homo_sapiens:Nuclear_Receptors   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nuclear Receptors' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21038, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nuclear_Receptors
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Pathways4Curation
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 170.75.153.73
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [10cfabb3] /wiki/Pathway:Homo_sapiens:Nuclear_Receptors   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nuclear Receptors' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21038, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nuclear_Receptors
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.13
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [20f4aee2] /wiki/Pathway:Homo_sapiens:Nuclear_Receptors   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nuclear Receptors' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21038, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Nuclear_Receptors
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [86fcd331] /wiki/Pathway:Homo_sapiens:Nuclear_Receptors   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Nuclear Receptors' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21038, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Nuclear Receptors]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!

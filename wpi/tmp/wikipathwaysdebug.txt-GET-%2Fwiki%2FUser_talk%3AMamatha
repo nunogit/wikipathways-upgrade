@@ -1,0 +1,101 @@
+
+
+Start request GET /wiki/User_talk:Mamatha
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Mamatha]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Mamatha]] are {edit,move}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:18794-0!*!*!*!*!*!* and timestamp 20160129220716
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:18794-0!*!*!*!*!*!*','uTÛn\Z1 Í3_áìc%Ò]s7U¥Š¦ ) $Hûì¬§» »öÊö&l¢Hı„~c¿¤ ’ Rò\0šsf2gæŒ ,¢,XrcÁ,JW”.`.{¶¬Ç‚|\r[ Œ-ë ‡,h}ºl·Ië  —K’É\\:b ĞÆµ–şÛè ¬Õ†<H+  ¢´\0 ëR9FÂQX©	(0ü”LßÈÚº¿¿ÿÀ¶àJ ©â¬ô4+Ÿ\0KÒp4ˆz”ÜW lk\ry‘ùZ„›¤ÌA¹ÿğ¦2IÁ:R µR+\" p) »aëz[€>\0)ê‘_¥Š ²šJZíöçÖn +ş\0ØÚ ó8 ò(]J6Pù  Yp—>òÊ²¢ ™ )·)‹†ƒQ· ^~xû#(ÓÉÜ÷Çó‚Ğ0ê‡  Q\Z ¢>ÁŠËˆº~37\\%%OàFª\rÆœ…ìùÅc‘Ç&~ ‰6 š@ˆë”.ƒÃN£  î°eÇ³\r›óÜ·É ècù“²uö~ÂÍ8mÄg¢øâù,÷\r6ÙŞDù7™Á\n¸‰ÓEƒmâ(ìzëÀ(v€vœ)áHßSí}¹‚zWÁø…ã}ÎT\nx BA·ú;Ï20ÕQt\n\\Ì äúØ÷\\‹2ƒÓnwÑUldášXç\rsÕqZï šû+8™ Îsw†S­› G øÉ’*9‰î•ÎùZH·‡Öz ˆïEâ°–F `Ü‘E0k½˜L×ó ´ŸE0~5ÎŞ“ ÿykÒ° RÚéôè £ÔÛæ¢ù\\øu	Ø.u&ãªQ°  ¿Äø €8sD§wÆõš´ ÜT_¹ãw…86$ % ¡êCÇ„cµ?ÀØÚ õk ]õ¯º¯’\'x«¨»!¹qu” xşÙh£Ûı]å ­ —Ê.21ç‰ŒwÃù ','20160130220716')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 2426
+User: loading options for user 2426 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Mamatha]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '18794'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/User_talk:Mamatha
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/User:Mamatha
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Mamatha]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 162.211.66.56
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Mamatha]] are {edit,move}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:18794-0!*!*!*!*!*!* and timestamp 20160515091907
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:18794-0!*!*!*!*!*!*','uTQoÚ0 Şs~…›ÇItN€ fš4±n •‚ İİø–X$vd;-¬ª´Ÿ°ß¸_2_€6„>€îûîzßİw^°(fá’  fQ¹²r!ëöØ“e}  kØºplYw8dağñ¢Ó!Á-<.—$—…tÄ@© –şÛè ¬Õ†<H+  ¢´\0’èJ9Fè‡ˆÖŸSj\n\n o“ãW²¶îïï?°-¹ Dª$¯<ÍÊ_€%c:\ZDı˜Üï Ø`\rE™ûZ„›´*@¹ÿğ¦2ÍÀ:R µR+\" t  {4¸Ş–à£ @Êz$äg¥ ‡¬¦’ Óù ìÇ±â €­ ù	O2 Òed ;ÿc#Kî²G¾³¬¬A&EÆmÆ¢á`ÔëĞ‹÷¯ e:YøşxQ’˜FW´ õé(\ZÑ ÁŠËˆz~37\\¥ OáFª\rÇœQöôì±Èc ?†T 	M€â:¥Ëá¸ÓhÀÂ;lÙñ|Ãæ¼ğmr ®°|«l}˜p3 7â3Ñ@|ñbVø ›lo¢â«Ìa Ü$Ù¢ÄÁ6q v½u` ÏÛ   gÊc8Ò·T{_® ŞU8¾gt|È™J o@(èVãy fw   3 E£>ö=×¢Ê¡İí>ºJŒ,] ë¾bnwšÖæş\nZ ÂyîÏpªuSâÈ ?¸QR¥­èAY{Î×Bº ´Ö @ü  ‡µ4º ãN,‚YëÅdºß \rü,Âñ‹q <úÏ[3¦=\ZÇİn? a4ö¶y×|GŞùu	Ø.u.“]£`— ?\'ø €8sD·Æõš´ Üì¾pÇïJqjÈxx–€†ª   NÕ~ ckSÔ¯]tyuÙ{‘<Á[Eİ\rÉk¬£ñ‘çŸ\r‰6º=ÜU1ÑÊq©ì\" sÊd?üç','20160516091907')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 2426
+User: loading options for user 2426 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Mamatha]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '18794'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

@@ -1,0 +1,58 @@
+
+
+Start request GET /w/index.php?title=User:BruceConklin&printable=yes
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:BruceConklin]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.39
+Connected to database 0 at localhost
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2015-08-21 16:43:35') AND (exptime < '20150822071842') AND keyname IN ('wikipathways:messages:en:lock','wikipathways:pcache:idhash:34830-0!*!0!!en!*!*','wikipathways:pcache:idoptions:34830','wikipathways:pcache:idhash:7369-0!*!0!!en!*!*','wikipathways:pcache:idoptions:7369','wikipathways:pcache:idhash:25951-0!*!0!!en!*!*','wikipathways:pcache:idoptions:25951','wikipathways:pcache:idhash:7331-0!*!0!!en!*!*','wikipathways:pcache:idoptions:7331','wikipathways:pcache:idhash:7367-0!*!0!!en!*!*','wikipathways:pcache:idoptions:7367','wikipathways:pcache:idhash:28629-0!*!0!!en!*!*','wikipathways:pcache:idoptions:28629','wikipathways:pcache:idhash:23419-0!*!0!!en!2!*','wikipathways:pcache:idoptions:23419','wikipathways:pcache:idhash:16662-0!*!0!!en!*!*','wikipathways:pcache:idoptions:16662','wikipathways:pcache:idhash:17147-0!*!0!!en!*!*','wikipathways:pcache:idoptions:17147') 
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:BruceConklin]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 16
+User: loading options for user 16 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:BruceConklin]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '4609'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User:BruceConklin&printable=yes
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,applic

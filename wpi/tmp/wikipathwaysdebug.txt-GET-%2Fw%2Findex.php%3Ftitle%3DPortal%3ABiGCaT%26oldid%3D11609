@@ -1,0 +1,306 @@
+
+
+Start request GET /w/index.php?title=Portal:BiGCaT&oldid=11609
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:BiGCaT]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:BiGCaT]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+GETTING PATHWAY OF THE DAY for date: Monday 28 September 2015
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP376]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP513]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP43]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP136]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP521]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP186]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP531]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP438]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP716]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP357]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP325]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP143]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP206]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1438]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1403]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1425]] are {edit,move}
+		Pathway in cache: 'WP513'
+	Did we have WP513 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP513','Portal:BiGCaT/FeaturedPathwaysMonday 28 September 2015')
+END GETTING PATHWAY OF THE DAY for date: Monday 28 September 2015
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/9/95/WP513_11609.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/9/95/WP513_11609.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/9/95/WP513_11609.gpml" "/tmp/WP513_11609.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/9/95/WP513_11609.gpml" "/tmp/WP513_11609.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/9/95/WP513_11609.svg:
+<BR>Status:255
+<BR>Message:[     0.016] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/9/95/WP513_11609.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/9/95/WP513_11609.gpml" "/tmp/WP513_11609.svg" 2>&1<BR>Saved in parser cache with key wikipathways:pcache:idhash:4847-0!*!0!*!*!*!* and timestamp 20150928220337
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:4847-0!*!0!*!*!*!*','í[ırÚH ¿§˜ek×öU ’@| ›+¯c\'©µ *v’«ÚÚJ\rh  $N\ZÀ¾Tªî î ïI®{f ’\0 ;¹Û[§ ¢{èîéîùMÏ ¯<Ûñª š¤,y5“ñLV½FÓû˜z®W\r¯Ù­¬öRÏnt:M¯zäó9Iå]À«£€ÑÄ#C!\'= ‹”K.\"$, ’ÏY 8‰Ï E* î“Å„Ë%ñpÁ}9ñˆ ßªÿ 0èh:NÄ,ò=ò­  §GF\"  Á|7¦¾Ï£±Gj6 { L;¤  ƒÒ ‹$Kz!MÆ<: “¤ =bÅ·½j¿r ÷Ò˜Fd Ğ4=®Æ åQÀ£iZÍú²2Ÿ ÁÜ h“\"Vöõ >HıX”¯¬¸ ‘<Lù?˜×±¾+\Z\\í QtÇq5 7\" Ä¢š™\0¦³$¢ ÁNT‰ ¹L Wß  \ZM«d’°›ãêDÊØ«×ç¡][ğ)©œ,è]Z É¸¾¨óÈg·µx ÿUr	} ˆDÒÀû?;¥×õ ‘LÄ÷4Œ{t„ ;f>—Uã‡,€ [±ÁQ ùı£:íÿ­İ²zúµbèğ ÃËÄÉ$¬:o[Ø{õyÁ”Ã†\"ğW9 ‰  ¨ıça¸³X®  n5Ô »‡| šñUwPIŞS Æ)ä(Åı Î®OÀVx:ªc[BHE? Õ\' Ú ù o¹,öy\nùpç\r 1š®ìÅ¤Ü”· ¹Üí‘9K$ Ñ KDà÷\n™|®ş–‰  F5ùÜ\rØÌ¹ şÙ˜¸«lGd>RYYk\0  [ÒaÀˆ’ áTc\0È@OÖˆGÒï ñpLÒd´L­ÅbQ ïŒ¨¬Í\" RšÖ¢   c–Ö 1 ï-÷pÂ(ô¼ö! WA*dé&F ‹*ê2Ae‰Öø # 2p ‘ FLìtª>! ` Ÿ o Åÿ*ãec§ª&o0µÁ Á#Ğ  PR‚±Š1¡¾ş¼âKx	 M$y  0&\05whG-ç2xÁXšÜ4Z# \'<’K”Êe ¥eÖX˜ Äª9¹WÌ‘Õ(ÛÒ\0F–\Z ë¸®`}É^ 77 ÒÓ¹« DËù®Ú\'•?¦ˆßÈ ñ’-Òßİ ÁûØ­£:ïÿ¾‘ ô è$tø @\" v›80 °ç ¹^a­AX  ³è p |í¨ ßÿÍ@Í (ò+F‘7°lø=Âˆê—Â ò{¯\"ã>â…N à ëê úĞ„‘Ñ,I û3`	Y8 –gbµ $j’ª©¤ÒÃ;‰ü„Bò©ô©æH}¢ŞÉ;JÇ!c)ä*¦„ ©mâÎæ, EqšÔ\'§“ N}ÚAĞ ,zÏø‡4eQQ\\Ñ\'ø‰˜;H½š¥´$O“úD½“S #h—~E´(õS‘ú ß!N Ä~ Åú.f]Ng2 %Ã2bŸ\\RHÁˆ’  a y\'Ñ‚¥“µ°j\" V=‘§3)iNœyâş9”ß,1Y´K ]B ÍYP²ß Á~ıDNü„S ¥»ô á¬d>RÀvx#sˆÔY2İÅ³èº Ñ[\Z½€ ±fb™k|ı!R*4q -×  Ò´(ÛĞúD? Yàï4„ ïÌ,~  R9ó  RX¾Á j °œğ!Ìj>Éf‘]b{E‡<b>eay$ 80€ÔGòT}Ş)I# êÎ¬\rò  S D_.)»E~º í©ğT…÷ TUé|\'a/  >°¹? I*‹bK¼>1 ¥ BNŞ\"} %¯y:á”&”#z Ü  mà÷‰\"’“ q-!~Í¥ä¶Å«±FOÄö «×‡×¿º²íœQ9K\0~L óÿRÁ•Æºé½÷nàÚå /Rû§T²ÑD 4DLMï\"9a)W`Oö_S)g)Ä%™³1 ÍÒƒ£aBê} Í)ºÃÀ» í v;b1& Ù;Ë ÷`hÉ	Lñi\n5\nÙ{ ©íJ)p@‡ác}N Ü2«çW ¸êĞ›#€\"V_ÒÓù¸Ş­wİºêÂ{ ²¯[ \"L2Êº+	áO=Çu\ráR+÷~RI`Õ,»õ3y İ  8ŒAI;b)¹á`ÙÒ–\Zzê-O¹È= _°4Ú“ĞWÊ\'P c±ì³ : dZyG   î- Nş–õ 9 ’p34± OŠMRô ¶¡sÊ ã ŸŞÕ*gI‚™²òZÂ¨ ¢â™Dk½ ºn ‡ÁºïZy6¸¼€ªÔX\\y£<Vùó 0iE&ß ²§´+gE4dß!aBºP G ÆÏ\n\r 5„” ™\\0 s\"ªÓÛ¯„F>I ğa‰\n8 j4 Ê†? ê–ûÊÈzí6  ” ‡Jï3 ]  À i  ln®›^½} dH“{[\r^b«8º¿Õõ‹ós K~ss¿´§Ø,ö¡ ®®rÁöyÂÔR 7e| ®Åñç“›D„j  ×ì‘j*n aåõZå5 |ƒt >C  Ë#¯~ Cl  / ßc¨D¢ ša\n ÓñL •TM5ÑÑÃÄŒ–S †  OEşğoá­k;—äğ M¶&Û\"æ\0¬‘Ê³9 “÷#‘°\Z~¥úµ ´\n¢d — }•8èjµù`ë ìáP»ÏÔ¥oÓ #— ¸ÅáÙN»[   M‰LèˆeÕ«ĞÕ«õ%Â÷m§Ù:ğ²©Iå‰Á‰ı½’ÜZ­¶w°ªåì/Ók7»%½)³lhû§ ˆı=pi^§óE:[vIå,öaÂÙ¬«±«.Ã¹ÌÂ¡î[«QÒ3fò ’ÿÍë ­æ	DrÆrÊšVæZ+]Šêy!2õx õÖ«á‡}ø Ã{ß´:xBöJó,† ¨Ÿß²»I ÛqË eVû ˆ8™o5A •ø /$ö   –•ŒK~âQfĞ,RÀõsÙ	0‰BQ´ê:Ş%À \nLxAñfÃŒã·4ÈY×Ú>	F£\0–¦ D´¦®RQl¸\r â ÕZğ ··Şc¿ŞÓ$¡wû{¥iƒN—SÛ~”ZÇµUú E ~°@<7]ºppÍB¨G%;GLÿôÕ%úóÛxñ ±sƒIİMJXœ (zR‘ `=Œ¬v»hÜ áïj6L¡Â›)Û”Ê\'ä  söt å¢¦ÕD+ K‘Ê v « å›—0ù•õÙÛ¡ù¿æ€ ··cõ}=·Ú‡ôü	±ò:·cõ=:mÛm » u	{K Egº¿÷ñc eï\ZÊÒò´´ ·ïÑë6Kj3€Q¤:Ÿ \Z¤Ì¼å-Ø æ9 ¿ 0Ô 1M• Ív«ÜïÑ j£9»¦ãíFäÕnÅ•\"Ï Ô6`òê JÀ§€.k\0y)\"¨õ‰Ó!W°fb şŠ\',çeİ_ ôJfo =û—C½‚ ·X÷k @ûq Øèv ‰€Î/€€÷zÀy\0 n4¨Ùm}Ö @= p7XBª4óÚ €‰ µ»f.ZëcVe¾„ÏşI2¡öı=ÜüÆ­ğB\rı(€ltšÎıª?£u;(î˜	İ @B\rú yàşk ç  ù¿ 	ƒÎ/ğÀ/€†›{ş8 ü¢j¨ñ\0 |h5ôñãù›‹‹ÁÉ³³—\'—¥‰¹ñ¸Ê¯ó¹jè^; œˆ:ëã†ó©ş¬´;zºYi·j]†ú\Z·| V‘×WÇÕ–oz WÛÙ«Ú«É›»  êë c– „Â’é  æo­ï—¬Sª· ™·h ¬   œŠ ÆE;ÍRN ê;‘LOpç?`o9[(»|Ôı¼ \0ĞHQòÛVÛÈ7ZQ   P©JV ¾ Øé«9i m<QÏº Fx1Š•ø9ğ ²wÀ- –Ö@¯¬Tè}¦‰(JÜ ˜–  –  /™Ï)Òt~² wˆO\n…£éÃA)EózwÀ¡¥^·µUïkö÷ Ke¾KÍ àfå$·³&:¤<* ¼ GÌ]¬}·»&\'™ Å8ä#Šş” Ô\n}r\ZğÑ´|8\\Zr˜S´lgou‚t³ş„%L IAR†WÓay” É-ï•­öûOÅ\"\n õ—× ³{GÃ;’ÆlÄYê Õ‡ÙÑâ, Ø7²:ïºïîZ¶=Måh’)R ÙŒäãç\" ;iÌa¡¨¶‘q×üú.fÇ¸í¬( O%¢Ññg=”íÓElQ%ı¼hôH –¯eúÚùÜW¶Mşª ¿• ÿÊÑ7‡‡¤ò’-   ğK S:¸¡’¯y Zà…• ª	2BÀõH£m×mKı  YÄ Znn;VkÕ^¤òßÿü—.Vˆ\0¢NÁ‰Ól¶İ:Ì mÛu Ç%K+YåH¨)ê³¶v³Sjú ¼	èC”l}˜Äb<ƒn×›Våì6Æ\r9#ºÊXnLdfZhcåğ0sÍ 3´0k¯ dô¡í”İ‘|Rz±bzÜŸĞtâ5;Íö¡õÍ_¾ÁÿêŸ:É“< ó íˆcÁú©ët ÇjÀ,‚:ÕÏÈš^5¼ Ñx )y¡n(ô¨gy ? Ï  n÷E  cXøC4  Õ¯Ñ¼\" !±…¢3‘\rï#÷ x°[æ§lúÆa{Ín×î)’¾5 $×rÛ=mAşê pZP ëÆú Ÿú~»i¾¯nã Én7\\¤µ½jv£ ©®Û²45» §Úv CÍ.\\) œ  Á=ê \ZRl Í û«kWÈĞŠN·£;m.)…J ş¯poJ±:í–	@éâ êr\Z]­]İ_R”¦mš—î )f×EfÇ«n¸/¤¿íö>VK…ÀD@_;@Û[MG³[ Ûˆnƒ&ÕÛf«÷i™ fÄ¨H; i-©’ĞaFÒPÜ ª‰ËˆP=  ?\0]ÿxI1ÜvÇx-ÿã9ó  Yí‚È O¨M š\r“7¹ U N³(T](6,¥Ï]ë±á\Z×e®ÁdÇ-È»ÔxÄ„º© âä òÂK Dvš›}Òµ­Æ §à·Üû¼‚\r¶¸ ‹òÖ ¿¸İn³½İ1sİ<ã¸v[¹ ì ÕqI K gC< ¼‚Éc41 ‚   êÌœÀåÑ X]oã± ê ³wÿ/Ğ²v¶·å—bªÁ\'í€ğ Öı¨c J‚;¯ô ‚joèYÆiásî³\r, 2/Å3¨ÅXrW >‡€¿,ÌÉGÿ\\\n °²W4õj”ğXæy  \'æ<Ë]²Ì=œ<  W/İÔÎóŠ ~ ñ6\r€I‰jzVç™Ï¥a]‹)C¾é$:kˆ og-áBQ$¤ á´ ~È¦”Hào ÒÌ}†gœrıêôùõåEş+z^2S^6½á¯p¬¦İ¶m VDHu`øı)¿Tı D êø€Jü.\'°a­5< aáÁü\\¢.S?•³¡„R ÖX]VÙÓp×„€oğœ!¹{J%}£ás.ÄÄ-}á,;:Á/ sã­¾DRÕ3 ]kÕšK_¨³}tÈÊ ù* j ¾n Õ\nOÔˆm´,ËàIˆ |X³¤¯ ÿ’Bİ©#ùé?','20150928230337')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:BiGCaT]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:BiGCaT&oldid=11609
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-ENCODING: gzip
+ACCEPT-LANGUAGE: en-US
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:BiGCaT]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.13
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:BiGCaT]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+GETTING PATHWAY OF THE DAY for date: Monday 25 April 2016
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP376]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP513]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP43]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP136]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP521]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP186]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP531]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP438]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP716]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP357]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP325]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP143]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP206]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1438]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1403]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1425]] are {edit,move}
+		Pathway in cache: 'WP43'
+	Did we have WP43 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP43','Portal:BiGCaT/FeaturedPathwaysMonday 25 April 2016')
+END GETTING PATHWAY OF THE DAY for date: Monday 25 April 2016
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/1/14/WP43_11609.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/1/14/WP43_11609.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/1/14/WP43_11609.gpml" "/tmp/WP43_11609.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/1/14/WP43_11609.gpml" "/tmp/WP43_11609.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/1/14/WP43_11609.svg:
+<BR>Status:255
+<BR>Message:[     0.014] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/1/14/WP43_11609.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/1/14/WP43_11609.gpml" "/tmp/WP43_11609.svg" 2>&1<BR>Saved in parser cache with key wikipathways:pcache:idhash:4847-0!*!0!*!*!*!* and timestamp 20160425212841
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:4847-0!*!0!*!*!*!*','í[ÿsÚH²¿_¿b–­[Û¯b„ F`^y ;I­ S±“\\ÕÖVj@c˜ iô¤ ì—JÕû îo¼¿äuÏŒ@ p°“»ırëT@t İ=İ=ŸéùÂ•o;~µOÓŒ¥WS™LeÕo¸ş§Ì÷üjtÃîdµ“ùvã¨Õò«İ€ÏH&ïCv\\ †Œ¦>  9îDd\\r û$e!•|Æ:ÀI  -2 ò€ÌÇ\\.ˆ‡s È±OìäNı·€A‡“Q*¦qà“ï-ø;r:d(B  Ìw \Z < ù¤f³¨#Á´C\Zò ( ²X²´ ÑtÄãC0IŠÈ\'Vr×©ö*İ¤×Í \Z“aH³ì¸š„”Ç!\'Y5ïËÒ|:\0s§ MŠDÙ×Iùh,õãª|eÅ­ˆåaÆÿ—ùGÖßV\r®öº İq\\Å­ C1¯æ&€é,iH° U\"A.“ÇÕ ƒÆ“* §ìö¸:–2ñëõYd×æ|Â *ÇszŸÕD:ªÏë< Ø]- \'ÿ-¹„>ôE*ièÿÈ_œÒ›ú«X¦â \Z% :Ä ³€ËªñC À [±A·ü^·N{?|o7­~­ :¼\'ğ2vr	ËÎÛ ö^}3å° ƒe Ä\"†\0jÿù î<–ËÇ ·\ZGêÀƒİ > Íøª;H¨$ïÁ)}ã ÒÍ¦IïÇ³› ° ºulK ©è§n}ì ı¿ğVÈâ€g ÷ş  ÃÉÒ^LÊMy YQÈİ ™±Tò!\róD ~g%“ÏÕß\"1 À¨¦˜»!»• ×À?  w™íèÜG*+k\r `bK:  Qr œj \0 èé\Z±+ƒ^—G#’¥ÃEjÍçó\ZxgHem\ZóˆÒ¬ ‡ux ±¬ Š‘ø`y‡cF¡çµÉ¨\nR!K71êè\\TQ—)*KµÆ÷, Šˆ[ˆ 3bb§Sõ ¡\0 ø y“*ş7 / ;U5yƒ©\rf  ƒÎ €j˜ ŒU‚	õíô  _ÂƒLùp,ÉÛ €1 ¨¹G;j —Á ÆÒä¦Ñ\Z‹$å±\\ T!k (-²ÆÂŒ VÍ)¼b,GÙ– 0²ÔXÇu ë öú¸¹\r •¾Î]= šÎßª=RùsŠøL ¯Ù<ûÃÍ ¼‡İêÖyïüÓ°×\r¡“Ğá \0‰Ø-âÀ€Àûäf‰µ ayFDÂâïÀ ğµn ¾ÿ»š?Qä7Œ\"oaÙğG„ Õ/…#ä^E&=Ä 8À]­«§è BSF†Ó4…ìÏ%bÑ\0X¾‰Õ ¨Iª:¦’J ÿ$ R\nÉ§Ò§Z õˆz\'ï) EŒe«˜  ¤¶‰;›±P¬ŠÓ¤ 9 §€têÓ ‚.`Ñ{Æ?f ‹WÅ  =‚Ÿˆù¸ƒÔëiFKò4©GÔ;9 0‚véçHÄóR? ©Gğ â BìÇP¬ïbÖåd*#Q2,\'öÈ%… Œ)ùI vw ÏY6^ «&b`Õ y>•’ Äé™\'éCùÍR“E»$Ñ%TĞœ…%û\r ì×Oä$H9eq¶K RÎJæ# l‡72ƒH¥“]<‹®û ¿£ñ+  k&–¹Æ× c¥B wĞr3  ÍVe Zè ò  ƒ†ĞÓ™ÇÏ @&§ €B Ë7X@\r –S>€Y- ù,²Kl¯é€Ç, ,*Ä    õ‘<WŸwJÒ˜Eº3kƒ¼ÄÃ” Ñ— Ên‘Ÿ¬E{¢#<Qá} UU6ÛIØk„…l ÌDšÉU±%^ ‚Ò !\'ï¾ƒ’7< sJ‡cÊ ½ îW mà÷ˆ\"’“ q-!~Ë¥ä¶Å«±FOÄÖŸ«×Ç×¿¹²íœQ9M ~L óŸRÁ•Æºé½ÿ¾ï6  |…Ø»ºã Å” ƒ{rz/ÅpœâV]ßõ,µK¶ÿRD‚d4á0  t )©÷x<£è  îZ²OØİ%JÖŞYş¸  Ka‚Ï2¨PÈŞÛXmVJ³ º  ë3šâ†Y½¸îÀ5‡Ş‚   ±ú‚ÍFu»n»uìÁ  R¯] \ZÌ0Ê¸k	±Ï|Çó áRëöV `Õ,Ûı…¼Šo…OH ¼Å  ²ŒÜr0laJ\rıôg\\  I X ïIè*Ïä3(‹±R Ø-†2«¼§)Ä 7 û\'Ï; °  I¸ —Øg«M2t ¶¡3ÊCãŸ€Ş×*giŠi²tZÊh\0¢’©DkıGzn”DášëXyÑ¿¼€ŠÔ \\y« VùëG°hI&?„²£”+_Å4b?Œ YFºP‡F+Œ_  @Z\Z	  09g æCT§·^	 ’1àÃò 0 Ôh ” =Ô-÷•‘õÚ]  (# •Ş ,¾<é÷ Ñ$9ØÜ\\7½~÷ È% ¶ê¿ÆVIüp«›Wçç@—üööaiÏ±Y @+\\Y b ğ”©e2nÈ  \\ ayCnaè© p\\¯Çª©¸U„¥×k•7 °\r²I  }D,Ÿ\\ı †Ø>À]\n¾ÇP‰Tç3Ã  ¦ã›8*©šj¢£G‰ ,§\"Š \"¾Šüáß£;Ïv.ÉáGšnÍµyÂ Tc•f3 % †\"e5üJõ åg $É()ø*qĞÑjÛÁÖæïá8{ÈĞ…g³    ¸¹áÛN«]   NˆLéåu«Ğu«õ5Â÷mÇm øù¤¤²Ä€Äş^In­VÛ;XVqö×éµİvIoFg, ØÁ)†a \\ZÔé|•Îf£UR9M`¦a›u5vÕe87ãi4Ğ}k6JzFLCê¿}s¡Õ<ƒHNYA™ûdeµÔ¥¨¾ Ñ	S Pi]\r>îÃ Üû¦ÕÁ3²Wšc1´@ıòfİmÊØ›u(³ÚÛ@Ä9|«	ºœÄ§d.± øØ°¬bd<ò3sƒ¦±‚­_ÊN€  Ê¡e×ñ  ö¼Xkä²Wôn¶Ëø}Kƒ‚qÍí `< aMŠ1DcêÚ& Ä†×p ŒP¦… p_ë vë MSz¿¿Wê—6è y µ­\'©u<[e RôØ  ôÇsãØ… û7,‚BT²s ô Ï¯.Ñß\'óW œ L:Úİ¤”%©€‚\' )\nÖ£ÈjµV  ú]O   wSe›RùŒ<`bÁö“\\äZ.ZÑ_ˆT¦°;XV Kß¼†™¯¬ÏŞÌÿ2 lì¸½ ª ê¹Õj<¦çÏˆUÔ¹ ª ĞiÛ^cµËà X°w4åXpfû{Ÿ>åQöo $-ÏJÛaû ½[R›ã‹\"mÔùŒÜÒ0cæ­hÁv,/àø…€¡öRˆI¦ p[Ír¿‡S(Œfì†¶ QT»  —Š| @Û€ÉÕ-ÔÏ ]ÖğñRÄPç Ç#êøÎÀßêÑÊyY÷· ½’Ù›AÏşõPoÅ[¬û­  ı4 l´ÛOD@çW@À =à< 	7\Zä¶›_ô PÏBÜ –*nQû#0q£vÏÌEk}Ì‹Ì×ğ98IGSÔ¾¿‡»Ş¸ ¾RB?	  G®ó°ê/hİ Š;fB» P‚~E xÿæZÀy Bş{FÂÓ ó+<ğ+ áæ?\r ¿ª\Zj<   [\r}útşöâ¢òâìõÉeibn<­ò;úR5ô Î PÎ@D  ôq§ùTVÚ =İ,µ\'[µ.B}ƒ»½ ËÈë;ãj·7;Ğ‹íüUmÕ Íİ  õ½ƒ ËÇ\0BaÉô  ‹×Õ÷KÖ)Õ[Œ,Z´ Vö… OÅ ã¢f)§ õ½H\'\'¸å ²wœÍ•]@ê~QÇ \0h¤(ù-«eä ­(ĞŒ\0¨T%[ ¾ Øé;9Y m<QÏº Fx1Š•ø ğWdï€[ \Z-­^YªĞÛLc±*q `ZHlX H¼d §HÓùÉRÜ >Y) M  J)ZÔ»  -ôzÍ­zß°ÿ™²L »äî\07K\'yGk¢#Êã  áˆ¹„µïµ×ä¤ÓU1 ù„¢?ç\'´B ÙŸ†|8)Ÿ\n—– æø,ßØ[ =Ü¬7f)S§FRŒátX ågq‹ eËçŞs1CAƒÅ=ÅüÂÑàd	 r–ùİú ?Sœ† ûF– ] ]ZË÷¦© sEê ›‘|\\<ÚR»È¸e~sŸ°cÜtV”g Ñèø‹ Ê·éb6¯’^Q4z$ Ë·2ı\r•rš‘X¤36âÃé·¶Mş² ¿—£şJ÷»ÃCRyÍæı>	yÄ%) ÜP)Ö< ,ğ¦J Õ  \"àú¤Ñ²ë¶¥şV XÌRZnn;VsÙ^dòŸÿ÷ ]¬   D  Çu›V æ–í9ã’e•¼r$Ô õy[Ûk–š¾ o ú %[Ÿ$±  Ÿ[u×ªœİ%¸á1cDW ‹‰ÜL m¬  æ®¹¦3† æíÕiŒ>¯°{RLJ?QLŸ cš}÷Èm Zßı×wø_ıSÇx’G` ¤ q,˜~]Çslç ğ uªß¹~5º ñh\n)y¡®&t¨oùŸ> Ï Ş)8b$RÈğ ÃÂ_ !\0-†æ¯B  ›(: Ùğ?qß »i~Ã¦¯\Zv¸ï¶ÛvG‘ôuA y–×êh Šwş€Ó„BX7Ö—÷Ô÷[®ù¾º† $»ÕğÖò«ùU:¤z^ÓÒÔüBœjÛv 5¿i¥,p\Z@ ÷¨ËgH±m4 ì¯®İ C+ÚGºÓæö—R¨„à ùV.L)ÖQ«i Pºñ„ºœF[kW — ÅµMóÒ¥#Ål{È<ò« .\néo{Ï ÕR!À € uá\0Mw›¶æ6s®  İ†Lª³n³óy‘\nfÀ¨@; h-©…’Ğ_FÒ@Ü ªyËˆP   ? ]ÿhI1¼Ö‘qZñGsæ; ²Z+\"c<61p &m\n?¦0 wU¨ºHlXJŸ·ÖcÃ5Ë]ƒ¹;÷™ñˆ‰´« â  ò*x”K BvÜÍ>iÛVc‹Sğ[ŞC^Á [Ü‚5ys‹_¼vÛmmw ¤\\{\'Ï8İR® û\"uZR„ HÙ   ¯aî Íz ÀG|:3çoE0 VÛßxè†:ÁlçÈø—gy;Ûßò 1Õà³v@ô\nË~Ô±	$Á×úş@µ3ğ-ã´è% Ø   ™×â ”b,½_¡¾„€¿’,*ÈGÿ\\Š`\Z²²W4õz˜òD y% çå\"Ë[°Ì œ\"  W¯ÜÔÆó’ ~ğ\"\r`I‰jzVçYÀ¥aİˆ	C¾é$:«ŸŠ oe-àBAw,¤ â¬ ~Èg”Xào ²Ü}†gœrsuúòæò¢ø =-™ /Ÿİğ×7–k·lÛ‚  R  ~)®Tÿ Ñ…2¾/  ¿/ lXk\rO†Xw° ¨‹ÔÏät ¡’„%V `—Uö4¼5!à <fHïŸSIßªCø‚ 1qK_8ËONğ «¹ñN_ ©ê	Ğ®5kîÂ êd  ²ôE± ¨š¯ÛA±ÂS5b MË2x áú –,ÙU \\R(;u$?ÿ?','20160425222841')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:BiGCaT]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:BiGCaT&oldid=11609
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:BiGCaT]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.149
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:BiGCaT]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+GETTING PATHWAY OF THE DAY for date: Thursday 16 June 2016
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP376]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP513]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP43]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP136]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP521]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP186]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP531]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP438]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP716]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP357]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP325]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP143]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP206]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1438]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1403]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1425]] are {edit,move}
+		Pathway in cache: 'WP521'
+	Did we have WP521 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP521','Portal:BiGCaT/FeaturedPathwaysThursday 16 June 2016')
+END GETTING PATHWAY OF THE DAY for date: Thursday 16 June 2016
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/b/b1/WP521_11609.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/b/b1/WP521_11609.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/b1/WP521_11609.gpml" "/tmp/WP521_11609.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/b1/WP521_11609.gpml" "/tmp/WP521_11609.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/b/b1/WP521_11609.svg:
+<BR>Status:255
+<BR>Message:[     0.014] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/b/b1/WP521_11609.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/b1/WP521_11609.gpml" "/tmp/WP521_11609.svg" 2>&1<BR>Saved in parser cache with key wikipathways:pcache:idhash:4847-0!*!0!*!*!*!* and timestamp 20160616110429
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:4847-0!*!0!*!*!*!*','í[ırÛ8’ß×OÑÔí«X\"©/‹²u¥qì$;v¢Šd«¦¦R 	K°I‚G‚’½©Tí#Ü3Ş“\\7\0J$%9²“Ûù¸q* Õ\rv7º ?4 ğk;nmD“”%o2 g²æ6[î§Ôm»µğŠİÉZ?uíæa¯åÖ|>#©¼ ØqÍ  M\\2 rÚ\'±H¹ä\"rIÂ *ùŒõ“ø Z¤\"à>™O¹\\  æÜ—S—Øñúo ƒz·“Dd‘ï’ï-ø;túÄ \0	æŞ˜ú>&.©Û,ìK0í€ | J= I–ôCšLxt\0&I ºÄŠïúµÁÎQ<8Jc\Z / iz\\‹ Ê£€G·i-ïËÒ|: s3Ğ&E¬ìë\'|2•ú²,_Yq-\"yò2÷Ğú[ÙàÚàˆ¢;k‘¸ A æµÜ 0% \r v¢F$Èeò¸öq Ğè¶F¦	»>®M¥ŒİFc Úõ9¿å1•Ó9½Oë\"™4æ\r ùì® Oãÿ”\\B F\"‘4pä/NèUãU$ ñ \rã>õ°cÇÌç²fü °d+68j pÔ ƒ ¾·;V_î :|Çğ1ur	ËÎÛ ö^ı3å°± üe D\"‚\0jÿ¹ î<–ËË’[#uàÁî1Ÿ€füÔ $T’ à”‘q\n9J³xğãéÕ l…«£ ¶%„ìè«£ÆÔAû!á«Å>O! îİq ¼Û¥½˜”ëò ²¢»}2c‰ä \ròD ~¿”Égêo‘  `TSÌİ€]Ë‚kàŸ‰»ÌvôGî#••õ&P0±%  Œ(9 N5 € ôd…x$ıÁ  \'$M¼EjÍçó:xÇ£²E<¤4­GA .&,m b\">Zíƒ)£ĞóúM<©TÈÒuŒ : U4d‚Ê ­ñ  < 2p ‘SFLìtª># ` ¯ o Åÿ&ãem§j&o0µÁ Á#Ğ  Py)ÁXÅ˜PßNQñ \\È„{SIŞE\0Œ	@Í=ÚQ/¸ >0–&7ÖHÄ	ä ¥\nY£@i‘5 f ±êNá sd9Ê64€‘¥†Ä*®+X_°WÇÍu ¨tuîê ÑqşV ?§ˆßÉ ñšÍÓ?Ü Á Ø­£  ü±‘?  G t :<  ˆİ%   ì¹K®–Xk –§DÄ,ú   · 5àşß\rÔü‰\"¿a y \rD QıR8BşèUd<@¼Ğ‰ Ür]¡  M ñ²$ìÏ%dá X®‰Õ ¨Iª ¦’J w ù	…äSéS+ D}“ ”NBÆRÈUL	 R›ÄÎX Êâ4i@N¦	 úµ… sxè=å7iÊ¢²¸\"c@ğ 1?·z™¥´\"O“ D}“  #h›~ND4¯ôS‘  ¿!N Ä~\nÅú6f]Üf2  Ãrâ€\\PHÁˆ’Ÿ a yÃhÎÒéJX5  «®ÈóLJZ §gxp å7KL m“D PAs Tì7D°__‘¡ŸpÊ¢t› $œUÌG\nØ _d ‘:Mn·ñ,ºî&zO£W0 VL¬r¯o\"¥B ·Ğr5 !MË²\rm@ô ù‰ şVCèéÎÌãgP •™  Âã <@y\0Ë	 Ã¬æ“| Ù&¶—tÌ#æS VGb‰  Hı$ÏÕï­’4b¡îÌÊ ¯ğ0eAôÅ‚²]äoW¢}«#|«Âû ªªt¶•°×  7læÏD’Ê²Ø\no@ Aé€“÷HßBÉ[N9¥Ş”rDo€û²¢5ü QD2, W â·\\Jnzx5Öè‰¸Ùıóéõñuço®l;cTf	À)`ş¿Tp•±nzï~ µ {1ÂËÔÁ0ä‘ ÔƒÎ pßd Š BÄ5 ³èŸ‚{Š§VÌö^ŠP”Æ fƒı£qB\Z  Í(:Æ\0½Vâ vç±X	Ú=Í/waÉ)Löi\nÕ\nÙ} ©…K)P1º / 3šàâY£ø ‚Ï z9Ò Pb =M\ZãÆØn¨Î|´! {u Ât£¬»” ©ë´Û†p¡•»?«t°ê–İú…¼Š®…KÈ \\Ç ¸õXJ®9X¶°¥>{ÏS.\n—Ä ,v%ô•§ò ÔÈX6ûìšfLw>Ğ  ˆ«Œ£á?ò  FGB n )öãY¹IŠ>Ã6tFy` äÓûúÎi’`Î,½–0êƒ¨8“h­ûH×Mâ0Xõ Rw^Œ.Î¡>5 ï¼S Ûùë\r˜´$“  ÙWÚ•³\"\Z² &º?#]¨-¤ ã … ¤FB\nù%çŒÁìˆêôB,¡‘OR |xX Ä 5š  Ä_ tË=ed£~  ûÊˆ ¥÷ ‹.†£ °C\ZÇûë›ë¦—ï_\0 ÒäÁV£×Ø* nuõêì è’__?,í96‹}h…ÏY…`û<aê¡ —g| ®\r±Ø!×‰ Õz8>½G© ”HXz½¾ó– ÒA:	Ÿ¡ˆå’7?!¶ à—€ï1T\"Ñ	Í0…€é¸&Jª¦šèèabFË‰ Cˆˆ«\"ğğ®m; äà†& “m s€ØHåÙ ‡ÉGO$¬·Ô¾U‚Ö@” ãê ¯  ]­–!lİ] j ™ºğmš£åâ  ;\\Ûéöv\0E¼[\" ê±¼ ºµ¾Føí´:ûn>I©<18±·[‘[¯×w÷—UıuzíV¯¢7¥3– mÿ  ±· .-êt¾Jg§Ù­¨ÌbŸJ¶^Ws[]†s5ÍÂ±î[§YÑ3aò ’ÿİÛs­æ D2c e­\'+k[K]Šêº!½eêò *¯7ã›=ø Ã{Ï´ÚFv+3.† ¨_^¼»N Ûrñ eÖ kˆ8o4A——x Ï%ö /›–UŒL›üÌ£Ü ,RÀõKÕ	0‰By´ì:*À—J\\xIñzÃŒã74(X×Ù<	F^\0 © D´¦¡RQl¶› Ä ê¶à#.t}Ä~}¤IBï÷v+ Ó \r‘WPÛ}’Z§m«ôAŠ ü`şyf<»páèŠ…P™Jv†˜şñù› ôç÷ñü bç\Z“ ·7)aq\" èIE‚‚õ0²ºİ²qc„¿ËlœB…—)Û”Êgä   öôä¢–ÕB+F ‘Ê v Ï şÒ7¯aò«ê³7Cóÿ™ ÖvÜŞŒÕ õÜê6 ÓógÄ*êÜŒÕ è´ív³Üep <¡°÷4áXt¦{»Ÿ>åQv¯ ,­NK›qû ½íVEm 0Š´Vç3rMƒ”™¯¢ ›Á¼\0äç †ÚK!nSe@«Û©öÛË 6š±+:ÙlDQí X\\*r]@m &o®¡ | è² \03I\nÕ>±;äïYdà¯¼×rVÕıíA¯bözĞ³=Ô+¹qƒu¿5\0´Ÿ†€Í^ï‰ èü\n ø  œG áZƒZ½Î } ÔÓ\0×…%¤J«¨ı ˜¸V{ÛÌE+}Ì«Ì×ğÛ &“ µïíâ28.Š—jè\' dó°å<¬ú Z7ƒâ–™Ğ«\0$Ô _‘ ís-à< !ÿ=#áiĞù  ø Ğp}ÏŸ†‚_U\r5  „­†>}:{w~>\Z¾8}=¼¨LÌÍ§U~‡_ª† Ô¹ Ê ˆhà ?.=ŸèßJ»£§›¥öx£ÖE¨¯pÉw y}ˆ\\-ù¦ûúi;ÿTk5Es·ÀC} aÂò1€PX1=‡Áâùõ½ŠuJõ #‹ m•#!‚ ‘a\\´Ó,å4 ~ Éí ÷\0 ö³¹²Ë Hİ+êØ \0 %¿ku|£  š \0•ªd%á[€>¤“6ĞÆ¡ºÖu0Â‹Q¬ÄÏ€_’½ nah´´&ze©B¯3MEYâ À´Ø´Ú ñ‚ùœ\"Mç\'Kp…xX* M ö+)ZÔ»  -ô¶; õ¾eÿ•±T »ÔÚ n–Nj ®ˆ )J  Â s*k¯İ[‘“de1 ù„¢?ç[¶BïáŸ Ü»­n W 9Ì~Z¾²·ÜKz¸Ù`Ê ¦¶¤ )ÃCêğx”oÎ-N˜-× ÏÅ<\n õ   ó Hã{’ÆÌã,u\Zã|“1  ö,w¾ :Å–/OSéMsEêH›‘|\\ÜßRËÈ¸j~u ³c\\vV”€§ Ñèø‹ Ê×é\"6¯‘AQ4z$ Ë·2ı-•2KI$’ ›p/ûÖö¯È_vâ÷²÷¿sôİÁ ÙyÍæ£ 	xÈ%) Ü°S¬y îZàÑ• ª	â!àº¤Ùµ ¶¥şÊ\',b	­6· «³l/Rù?ÿúo]¬   Dí‡ §Õ:t\Z0tí¶ 9.Yº“W„š¢>ok  Vš¾ o ú %[o&± w£»–µsz ã‚ÇŒ ]e, &r3-´qçà wÍ%1´0o¯6dô¦í-»\'Å¤tcÅt¹?¥éÔm ¶º Öwÿñ şWÿÔNä!˜ iG  ¦ßİ±m« 5 êT/”µÜZxN£I )y®Î*ô©k¹Ÿ> Ï Ş	8b\" Èğ ÃÂWÒ €–ï¥¹e(Bb Eç\"›î\'î:pawÌKmúìaŸ»­^Ïî+’>? ¤¶Õîöµ ÅC€Àé@!¬ ëÓ|êşnËÜ¯Îå Éî6ÛHëºµül RÛí¥©ù	9Õ¶ç j~ôJYà4 îQ§ÑbÛh&Ø_[9L†V ö u§Íq0¥P	Á7ûJ\'¨ ë°Û1 ¨ B]N³§µ«“LŠÒ²MóÊ)$Åìµ‘yèÖÖœ Òw·ûŸA«¥B`\"    í­vO³;9Ûˆn‚&ÕÛV§ÿy‘ fÄ¨H; i-©‹’ĞaFÒXÜ ¨‰ËˆP=  ? ]¿Æ¤ íî¡ñZñ5:sƒ¬nId„;Ô& ­¦É›Âë †Ó* UG‹\rKék¯ôØpër×`²ã ä}j<bBİÒ q\n yå?Ê%P\";­õ>éÙVsƒSğ®öC^Á  Ü‚Eygƒ_Ú½^«»Ù1s½­<ã´í®r\rØ ªí’\"–@Î†¸=x	“‡75   > Ô©Ù+¢	°zîÚm7Ô	f;‡îÃï¢åílwÃ;cªÁgí€ğ Öı¨c J‚;/õ ‚ZìZÆiáKî³5, 2¯Å ¨ÅXr_¢¾„€¿’,,ÈGÿ\\ ? XÕ+šzé%<–E^sÉÃ‰¹Èj/Xæ N‘‰‰« İÔÊó’ ~ ñ4\r€I…jzVç©Ï¥a]‰[†|ÓItÖ( 1ÓZÀ… £HHáá´ ~È§”Hà[\niî>Ã3N¹zsòòêâ¼x‹—Ì”—Ooø>Õ²»8ó5{Hu`øı¥ø¨ú ˆ.Ôñ# •ø}A`ÓZi8ô°ğ`~!Q ©ŸÊl,¡”„g¬ÀÇ.«ìi¶W„€oDäÓäş9•ôÚ†/¸  ·rÃi¾u‚7”sã½>DRÓ3 ]ïÔ[ _¨½}tÈÒ Å* f ¾n Õ\nOÔˆmv,ËàIˆ øğÌ’¾	ü \nu§äçÿ ','20160616120429')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:BiGCaT]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

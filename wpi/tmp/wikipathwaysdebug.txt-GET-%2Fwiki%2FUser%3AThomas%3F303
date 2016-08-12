@@ -1,0 +1,55 @@
+
+
+Start request GET /wiki/User:Thomas?303
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+REFERER: http://vm1.wikipathways.org/wiki/User:Thomas
+CONNECTION: Keep-alive
+ACCEPT: */*,text/css,*/*;q=0.1
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Thomas]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.44
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Thomas]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:b3b604351cc2811481167eaeb2c77dc0:0)
+SiteStats::loadAndLazyInit: reading site_stats from slave
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:b3b604351cc2811481167eaeb2c77dc0:0)
+Saved in parser cache with key wikipathways:pcache:idhash:1523-0!*!0!!en!*!* and timestamp 20150323154645
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:1523-0!*!0!!en!*!*','í ínÛFò~û)6:àĞ ±Ä }™qxH\\·6.NŒXiîp8 +r%mLruäÊŠZ è  î û$7³KR$EÊ’’ -pEšˆ;ß³³³³Ãå;Ç´œÖ-  ¿[ÊÅR¶ »ëü’8=§ ØgÙz‘8¦a\r Në\\ÒIÀ ÷_¶¤ğZÄ h’èßî¹Œáß=÷ùC†!¹  €æ–{!\"É\"™œwàá¼ HîÉù2€¿ ^à °  œš ~& èEtj  Jæ1›¾lıù–ÊùŠ®“±˜¯cÌ 	ğdA£ —h NXÜrÍó B\\REh—›1#bJ2f)Åy‡Âÿ ßC?«¤Ÿˆ%\r’f•¬\'TÒô‡ka µx5 K9¾aÍjØ»ÕP È\r;\\nQï . !LüxAgl‡_º» *p\"ŠSA³æ8²ŠšõŠšX¸ ¨Ü©Qû‰ğÉyìå¥’.ı¢.7Ìçô#¿ç»ty\"nr ‡ë2(êòNÎYüä\\µŸ  ÅeköÔgX§]ë»Û~\"lFµ+º£â¥ô  W 3XG¥8 Â4 ® ğ«L5S ½l}€LéŒæ\"¤I‹¤ —-³)”yT \rW§sFı€G¬¥’f}~#u¬In ¨zr¾ØÈ÷b aé“ —s’È¥‰—€Sc ¼lEb*‚@¬òô\rbqD ¢|F$gL¾l\' î[éLÌ¥\\8ÎjµjOBÙ–KÖ‚NË}ÍE öy@~ ÍÀ  óh†Î&ÓX„_Oª–Ør/yäÏÅ ‹È‡ˆ?°8árâ ˜Å…Î  b.Éc¨³‚eÑIã¼§R.“q$â 6ãŞ2qŞ³ˆGãÓñ+P_À •ÀÓİ:‘, ­p Ëg%%&UbrJ\nÄ$#ŞÌq  Š!\0ò 9ˆ“Îq ®‡ v AàÍE@C˜–q²`U&<ÙÃª %)P fR ›‚=zõ= º_7’–  )MT4İÀ  so. §+ ŠqB  &ÌñÖxæ + ßv{Æ–£ ™l# ¼Ë·»(÷ ’¢·sš°ñ5 }$\"¥ëx A Ó(™Š8¤˜©¶ã¤¤„bA®!`…ÒƒÔ±ØÛ¨½ø aê+ˆ=1~åq %è§åLqÚm›¢!HCJ4{ SÏ &îïp ÿ½äŞ=¡‘O€©\\Ã6SY “5	Ù1 ‰ ˜	È  ­ \'<ÚÃü\r ©Píí€& GLà\rO`ö½9X° <Ş­z†L2ä:ûõ?û  ¡+„îé|ãs ùãO‚C^ŸíV»LG€ät‡XĞÌg+ö ,o¬ÂÑäÀŠ&; ‘ôW¥niŠg…ì¼æ?^ĞÑÆ{¥QWÿK  áQš%¼§’„æpAc ÖèŒE\" šª€*Ø­ o–‘ %® IIÆKåˆo¿ÔÇvñÜu˜“7 >’±hr3wß3Ø+#\Z‚ î:DëAşÆ °¨è8î~ ñ½Fúj›/óg,`tÑ†¬\0åã%<¾Gô]»,üğÒœ\n| úsù Ôeä-Ã  Hğ“2Ím,¦,I€\n4Ê\nåDs\0¢ Ø£ mšbá7\rÖP’<\'>•”<ğdI ş³’ûœ`À$ä/4\\¼€™ C(  ={Ë8…C$Ä‚Æq‰Ñ\" ³˜†° Ì* a „z2µ v»p]N Œ1 à}  i\\\"€  .Rã€\n)Uo‹˜„”ÃL \" Ò?©üWÑß_ œİÚ3øaQZÓ  [L·5  ı\0{â RaV2æ.Ú ¸Õ‘t Ë-® Ùô^¤³ ‘ U– röÍ n#h‡ÀÔn(8!…¯Fb ëqÓ È„îÆrw‚w ¿bÁÂ -¥ˆ9\rÆ:‹> [ƒñ\r¤¹ùØ2Œa®B	—¤¸Ä\Z …K ®» R® „}PèõJ­–ÃB®Ğç!ùïBˆÙu!–!æ ]‡ ^î‘ °[?¾c\Z¶ ~â> Ír4x[\Z?DÎ d³  İ–‚Ã‡ yK 8 ¾;ü–cl Ë@%“˜tà©I®ğa§k½Fh	ìÖïc_Šz[  E [7º„·lµSH î6\0 4 <±ØiB¨5\n!‡J{-¤ án)N½L\rÜGì%ä‹7<ºO¶¥m@îöØ¾¼ït.ªç İºÑ}$\\Ì™wÿê vvìLn ©Àİ À>¢0ÿÖ‡\\ q·†4ã jcxÃ¡ S[ñ{6…’,òXÍT4£ºOãìcİ+ß 	ìIÍD\\“ Ê`·~| 9ß³Ä‹ù ç÷N.\'Û’ª n d¯ğHk ÕÄF èÖîgOÀ$óëìĞ€\rg_ìÃõãİ Ë¨aİ `nÍ`5â:  cŸÛ‹ùâ¯šSæ   UÂS]N`ñ ¡0„:áş¥™Ÿe\"¶ªÓE± ß`‰B|Á°Å)	ûÌ ùmI=…×`z³Š  ÷î¿DAÅàIõ Öñ5X¿ôŠé°\Z¬P°’ü÷S5Xè`u-¢¶—lrF-Ğ­ İ ‰[èŸv øTÇÿÓ~ìï <›Ğ¸†y q·†öb|‰Ç½1L7Ÿr}V O„¿® ¤0I “(Ì‚`VÏl/E>²\0—Lõ+‹ º Ãm   £ƒÊ‹ÇÃ¢´ôæ“  = ©Pt%c<æğ‡ÍÆ‰ƒ$ t‹OO Ë\nÉ9) ÂJ wkhça Ò2ÎèB@\ZX —zœ¤ãne` K¨¾6ê©  ÿŞeX¥ {°{qâ· ğ€€½ D % ·	²CZŠò‘û3¶9ë”GİÒãS ów ¸¥  Ê³² vËÏÇ ò0{q}èYW½+ •ß\rë˜={>0¬T ¼ “ò˜ƒÆs8× Øk^C‰p¾¨BZ:ä\'îµ$<ÁîÖB$Ì\'rN%üÅ1®%÷ F&°ıèí ~zt™0|[\rëˆè–!fØ/õX 9çIzœ;ç.vô`ñ\'ºÕ—MÁõ”¬Å’x`0õı˜Á ¬Ä¥,ÔK áóé\Zù¢”´§÷œ, †ï’ĞsšdÓíóa‡$‰h“\0ë †b Š ¦ÑB›(×’y Æ*XÎ [l 3ÃŠ£u“O01 ˜0EÚvœÙ) ÑhšÔ&#Aèƒà>j>]&ªs š¡ƒ $fŸa‡æ YÍ×Jî†-JÎÙÂ |>¾aèóÄ[ªŞè¦eˆº ]ÔÎ¼s’M,ú©0¹|ZvWŒ;G” 0  ñ˜b:…LGğ`\rö#²Lë ²¢	Î\'ğ˜Â¾Ğ©úCLÃ±L ‹  ZıŞ ¬0ô\nø¦½Áo§Qzëke\'çÏNOÉ	 †oIÀCá½ ±<¹…c Ç… T|à	G{\"á3˜›e$ Ò7:¦¡ş+ãÎX„G\n¶yfmĞE\"ûõ¿0™ e<ò‚% &ügæet,ãl`ö, [É’“¬,  Ï–ª÷©1»V ñŠÏæ¸ _5w>[È¹CìN×8¹ü¼À‹    xLÓ\n9ÓP™srzš9å>à F ¾G=˜hõ²ı­UÃ;{ûè, Ğáşœ&s T²Ogß=3=c üûZN’C H¨V‰e˜=Ã¶l³×íw{ eª›ƒ]§ ¾¡Ñl	±¢OÚ/¨c8¿< Ì Xz²â¬ 0ğî! r~  P‹É †úÈ8c8p~áÎ ~ôğê\"Ò *Ã  Ô·‡@s–J‡{]  8­¬ Ó¸8hÙN«©Â ¬A¿×GÅzN«ZÜ\0´; ö^<rÇ\0•†J%Pw«Cˆ¦m °³£ÃŒxg–x`Áî¦0\ZĞ7  /v–Š \0õûıaªuµ(@›¬.BaÊÔ#]ÃD±0Ô¸£DÛ ZÈ×v*{¬ò§a(gØà   ¾Èæ - ˜ 5ÑW–‚#›rs ñŒù¢ Ó\rQ\r³R‹K]L\rB £ÿ·ú\Zlg\\K B¥¸ÕMc¯ØoSTİ4¶+½8EÕÍ\\\\miè\0¡Ã24íti„¾ÔMoJë™ªRl*éhµS]* Í É†zñäÚ ­^\ZsÍM M}–ú¦Ü Ñ+ÇÌ ©ÜÎĞP#U·Ø‚À€²  ½â²î   Ï†ÊŸ°l Gäc\r³ š¯q YãzÁ#­~Æğ± |lŒ ÛØLuÃË\rtB¿×KC¦TXk {z\n6ÅZV¶¡E V¶¬»àöƒ®”¡µ¦rk×¬#mº´…tÖ™ÊKC\\‹;® ¡ ƒ3ŒÁQAİïâ 2 * v¯Â á:\rjg ¸ íA…¢ñ \nJ9SØ²¨zçC±71Ìí³\nê+ Êef_ÏX “Kš{Òë j%èÕˆÑTyåê™°i<æûQş*I§±4c™Ù†ó=Ö c¨ TH÷Ï ¯+Z«@{íïGm -LŠ*òC• ‹Û#ø+ü ìaH¿[¤Ó–ÃqÏ½L_Ìç[¤ºÔo6\rW9Q,úbàÔ\\»L nÒe ]§ùm¿ÂyÔî ÕÛy,8êŠ ÈªyŠ›¨õ®h® ß×€pvŞŠ i 0LN…Ñ+8 ]Ã²+ğGßİ  °ªÇôèÊeE˜½Éu™¬—ƒnt5\\ âÄëO*®„(š 1 ~¤1 ie4µL 1Hòú ÔÎ®Kg¾ áé3 sZVKoİê@ˆSaä[LéŞpZ;¥w¨5­ÙÒüT—²8 Ja ®?ä¨¯ÃĞÑX¬Šé4Ñ ¾¡%Ğ  Y\\U¥t³Y­ÍãM„PÍ® Õ eÕ e mÔÀ VÍ*Š C¬ã\r ŠìŞN%v%öÑ–@*­Z’ÉÇ+DY¥v¤)æÀim]ê¨3ª[cT÷h£LKm?%«*ª¤Í=´¯Û`ŸµmŸ]± ´+ì  ³ UtÛu‹©w¼a¶:g” +ë\0öô¾ÈÂá¡ÎºuÔ?Ş³îÖB*ë\0öô· •(toëMª[Pƒ£M²Ls+ååj ¢np¼U]G·÷j­©[IÃã­ÁÒ£bM.ş1+?\n§‘¸g¸e¥û.îßpr…ó©, ê‘jôîâjtóF	¶úı¯şEá ã“ÂßÉ7…¿›\nÿÿUá^_ ş®>+üİ}WøGù°0Kºá(kfmRË0»Fß šg–i«M×‚ ù§â·Ù‚c äøÛ´c—@jm©mÀØB|åaïšù…Ó¡ê $m&¾=ÒG‰*ì A/ u­z–\ráÙ\'‘Ë‰ ¯%s ø\Zğ¨;  ‰° ˆÈ§ñ\ZÎ²ôÃÂÏÎÊ:ıã!¿B€GTÕÔF‚òFñ ~‰…G<µ±™í¾Şä”ã.°/Ş+8®ĞzÖ›K†wùyÁuÇÊî FZ †ê*6’wCgÜÓ›×ãÿ\0','20150323164645')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 2
+User: loading options for user 2 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Thomas]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching; Sat, 14 Feb 2015 19:09:24 GMT **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '1523'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

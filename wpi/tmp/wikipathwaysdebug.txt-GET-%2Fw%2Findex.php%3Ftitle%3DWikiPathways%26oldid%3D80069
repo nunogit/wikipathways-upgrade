@@ -1,0 +1,575 @@
+
+
+Start request GET /w/index.php?title=WikiPathways&oldid=80069
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.53
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ed7fba50c0696bc52a412dcd05ad2993:0)
+ExifBitmapHandler::isMetadataValid: back-compat version
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x122 thumbnail at /tmp/transform_7869bdad4f6b-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg does not exist.
+BitmapHandler::doTransform: creating 160x118 thumbnail at /tmp/transform_3becf7377f63-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x118 thumbnail at /tmp/transform_1164820f330f-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x117 thumbnail at /tmp/transform_7f9b98956dcf-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+GETTING PATHWAY OF THE DAY for date: Monday 18 May 2015
+END GETTING PATHWAY OF THE DAY for date: Monday 18 May 2015
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/d/dd/WP428_80069.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/d/dd/WP428_80069.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/d/dd/WP428_80069.gpml" "/tmp/WP428_80069.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/d/dd/WP428_80069.gpml" "/tmp/WP428_80069.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/d/dd/WP428_80069.svg:
+<BR>Status:255
+<BR>Message:[     0.019] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/d/dd/WP428_80069.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/d/dd/WP428_80069.gpml" "/tmp/WP428_80069.svg" 2>&1<BR>User: cache miss for user 187
+User: loading options for user 187 from database.
+User: cache miss for user 187
+User: loading options for user 187 from database.
+User: cache miss for user 187
+User: loading options for user 187 from database.
+Parser output marked as uncacheable.
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:2b46f1e1dd08bd4bac732d97deda3a4e:0)
+SiteStats::loadAndLazyInit: reading site_stats from slave
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:2b46f1e1dd08bd4bac732d97deda3a4e:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ed7fba50c0696bc52a412dcd05ad2993:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '1'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=WikiPathways&oldid=80069
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.64.110
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ed7fba50c0696bc52a412dcd05ad2993:0)
+ExifBitmapHandler::isMetadataValid: back-compat version
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x122 thumbnail at /tmp/transform_2b200de7f151-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg does not exist.
+BitmapHandler::doTransform: creating 160x118 thumbnail at /tmp/transform_595b9c80203f-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x118 thumbnail at /tmp/transform_35b301202dd6-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x117 thumbnail at /tmp/transform_1fcf1913579f-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+GETTING PATHWAY OF THE DAY for date: Wednesday 9 September 2015
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:FeaturedPathway' 
+		Pathway in cache: 'WP528'
+	Did we have WP528 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP528','Curation:FeaturedPathwayWednesday 9 September 2015')
+END GETTING PATHWAY OF THE DAY for date: Wednesday 9 September 2015
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/a/a6/WP528_80069.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/a/a6/WP528_80069.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/a/a6/WP528_80069.gpml" "/tmp/WP528_80069.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/a/a6/WP528_80069.gpml" "/tmp/WP528_80069.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/a/a6/WP528_80069.svg:
+<BR>Status:255
+<BR>Message:[     0.016] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/a/a6/WP528_80069.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/a/a6/WP528_80069.gpml" "/tmp/WP528_80069.svg" 2>&1<BR>User: cache miss for user 187
+User: loading options for user 187 from database.
+User: cache miss for user 187
+User: loading options for user 187 from database.
+User: cache miss for user 187
+User: loading options for user 187 from database.
+Parser output marked as uncacheable.
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:2b46f1e1dd08bd4bac732d97deda3a4e:0)
+SiteStats::loadAndLazyInit: reading site_stats from slave
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:2b46f1e1dd08bd4bac732d97deda3a4e:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ed7fba50c0696bc52a412dcd05ad2993:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=WikiPathways&oldid=80069
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/
+
+Start request GET /w/index.php?title=WikiPathways&oldid=80069
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.75.37
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ed7fba50c0696bc52a412dcd05ad2993:0)
+ExifBitmapHandler::isMetadataValid: back-compat version
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x122 thumbnail at /tmp/transform_11c6451827c8-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg does not exist.
+BitmapHandler::doTransform: creating 160x118 thumbnail at /tmp/transform_539fd2647ba2-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x118 thumbnail at /tmp/transform_194a8336245d-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x117 thumbnail at /tmp/transform_15343fe6162e-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+GETTING PATHWAY OF THE DAY for date: Saturday 19 December 2015
+END GETTING PATHWAY OF THE DAY for date: Saturday 19 December 2015
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/6/6d/WP1982_80069.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/6/6d/WP1982_80069.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/6/6d/WP1982_80069.gpml" "/tmp/WP1982_80069.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/6/6d/WP1982_80069.gpml" "/tmp/WP1982_80069.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/6/6d/WP1982_80069.svg:
+<BR>Status:255
+<BR>Message:[     0.016] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/6/6d/WP1982_80069.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/6/6d/WP1982_80069.gpml" "/tmp/WP1982_80069.svg" 2>&1<BR>User: cache miss for user 187
+User: loading options for user 187 from database.
+User: cache miss for user 187
+User: loading options for user 187 from database.
+User: cache miss for user 187
+User: loading options for user 187 from database.
+Parser output marked as uncacheable.
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:2b46f1e1dd08bd4bac732d97deda3a4e:0)
+SiteStats::loadAndLazyInit: reading site_stats from slave
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:2b46f1e1dd08bd4bac732d97deda3a4e:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ed7fba50c0696bc52a412dcd05ad2993:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '1'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=WikiPathways&oldid=80069
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.75.20
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ed7fba50c0696bc52a412dcd05ad2993:0)
+ExifBitmapHandler::isMetadataValid: back-compat version
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x122 thumbnail at /tmp/transform_6411a1b53e35-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg does not exist.
+BitmapHandler::doTransform: creating 160x118 thumbnail at /tmp/transform_5e9be0454d51-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x118 thumbnail at /tmp/transform_76770ed67727-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x117 thumbnail at /tmp/transform_dcea0c43a950-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+GETTING PATHWAY OF THE DAY for date: Wednesday 30 March 2016
+END GETTING PATHWAY OF THE DAY for date: Wednesday 30 March 2016
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/3/3e/WP2586_80069.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/3/3e/WP2586_80069.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/3/3e/WP2586_80069.gpml" "/tmp/WP2586_80069.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/3/3e/WP2586_80069.gpml" "/tmp/WP2586_80069.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/3/3e/WP2586_80069.svg:
+<BR>Status:255
+<BR>Message:[     0.018] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/3/3e/WP2586_80069.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/3/3e/WP2586_80069.gpml" "/tmp/WP2586_80069.svg" 2>&1<BR>User: cache miss for user 187
+User: loading options for user 187 from database.
+User: cache miss for user 187
+User: loading options for user 187 from database.
+User: cache miss for user 187
+User: loading options for user 187 from database.
+Parser output marked as uncacheable.
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:2b46f1e1dd08bd4bac732d97deda3a4e:0)
+SiteStats::loadAndLazyInit: reading site_stats from slave
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:2b46f1e1dd08bd4bac732d97deda3a4e:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ed7fba50c0696bc52a412dcd05ad2993:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '1'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=WikiPathways&oldid=80069
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ed7fba50c0696bc52a412dcd05ad2993:0)
+ExifBitmapHandler::isMetadataValid: back-compat version
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x122 thumbnail at /tmp/transform_4659ab0363b7-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg does not exist.
+BitmapHandler::doTransform: creating 160x118 thumbnail at /tmp/transform_7e9b33584f3a-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x118 thumbnail at /tmp/transform_2066c5572975-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x117 thumbnail at /tmp/transform_67f9bd5e7d97-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+GETTING PATHWAY OF THE DAY for date: Tuesday 14 June 2016
+END GETTING PATHWAY OF THE DAY for date: Tuesday 14 June 2016
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/5/59/WP403_80069.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/5/59/WP403_80069.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/5/59/WP403_80069.gpml" "/tmp/WP403_80069.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/5/59/WP403_80069.gpml" "/tmp/WP403_80069.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/5/59/WP403_80069.svg:
+<BR>Status:255
+<BR>Message:[     0.014] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/5/59/WP403_80069.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/5/59/WP403_80069.gpml" "/tmp/WP403_80069.svg" 2>&1<BR>User: cache miss for user 187
+User: loading options for user 187 from database.
+User: cache miss for user 187
+User: loading options for user 187 from database.
+User: cache miss for user 187
+User: loading options for user 187 from database.
+Parser output marked as uncacheable.
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:2b46f1e1dd08bd4bac732d97deda3a4e:0)
+SiteStats::loadAndLazyInit: reading site_stats from slave
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:2b46f1e1dd08bd4bac732d97deda3a4e:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ed7fba50c0696bc52a412dcd05ad2993:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '1'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

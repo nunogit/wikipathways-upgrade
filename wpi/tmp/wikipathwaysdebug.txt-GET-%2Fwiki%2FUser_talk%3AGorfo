@@ -1,0 +1,50 @@
+
+
+Start request GET /wiki/User_talk:Gorfo
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Gorfo]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.64.100
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Gorfo]] are {edit,move}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:26604-0!*!*!*!*!*!* and timestamp 20150721053604
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:26604-0!*!*!*!*!*!*','uT]oÚ0 ís~…›ÇItNÂGk¦I ë R)HĞíÙo ‹Äl§…U•ö ö ÷Kæ  \rĞÑ Ğ=Ç·÷œ{ì ‹b Î¹±`fµ«j ²¤Ë-ë±°\\ÂÚ…CË’ËK  ŸÎ;  ÜÂÓ|N\nYJG TÚ¸`î¿NÁZmÈ£´Ò J  ©®•c„~Œhó9¤f ÀğcrüFÖÖııı Ö W‚H• µ§Yù °eL¯ Q/&÷  6XBY ¾ á&«KPî?¼±Ìr°4M­ÔŠ ¨\\Ä.\r®× øê#ª±„<Ô*uÈj+	:ÏÁÖ   mÏOyš y’.\'+Øø +Yq—?ñeU 2)rns ÷û´Û¡ç Şş Êt²ôóñ²\"1zt G´—x*ÁŠËˆº~37\\e5ÏàFª•\r‡œQöüâ±Èc#oC¦„6@qÒ °ßiä |‡#;^¬Øwm 4–ûØü¨isvço» ·ê ÑB  ˜”~¼6ÛG¨ü& X\07i>«ĞÖ6²®× ŒâÅñ  Æ‰ò \ZúfŸÊ 4›\n‡÷Œîô•c)à   İêï¼(Àl ªcàbâ lõÇ¹§ZÔ  O»­.R#+×Æ’7Ìm õ^¡©¿ G ¡ŸÛK8Öº-ñÊ ?¹QReGÕ²cŸ¯…t;h©W€øN$š57º ã  ‚§–³Ñx9½Á x/Âáklv‰Ü§Ï 3¡	 Ğ«¸Û `5ö±9k¿\"g~] Ös]ÈtÓj˜Ğ â— Ÿ  \'‰Hz\'\\¯I+ÁÍæ+wü® ‡Œ/O ` šk  Õş\0c›P4o]tÑ¿è¾J áMEİ-É­»ØTã=Ï?\Z ct‹UŒşH+Ç¥²³BLy&Ó­ù/ÿ\0','20150722053604')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 6110
+User: loading options for user 6110 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Gorfo]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '26604'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

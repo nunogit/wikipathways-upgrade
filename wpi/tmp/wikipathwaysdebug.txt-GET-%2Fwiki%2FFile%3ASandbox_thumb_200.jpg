@@ -1,0 +1,61 @@
+
+
+Start request GET /wiki/File:Sandbox_thumb_200.jpg
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/MediaWiki:PullPageList
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Sandbox thumb 200.jpg]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+ExifBitmapHandler::isMetadataValid: back-compat version
+RepoGroup::findFile: got File:Sandbox_thumb_200.jpg from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 144.172.68.51
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x117 thumbnail at /tmp/transform_4f0352444c9e-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Sandbox_thumb_200.jpg from process cache
+RepoGroup::findFile: got File:Sandbox_thumb_200.jpg from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Sandbox thumb 200.jpg]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:16392-0!*!*!*!*!*!* and timestamp 20160514082834
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:16392-0!*!*!*!*!*!*','uT]oÚ0 İ3¿ÂÍã$:\'|”šiÒÄºT\n l{6ñ]â‘Ø–í´°ªÒ~Â~ã~É| ´ :x\0İs|}Ïñ±g,NX4çÖUŞT>b.{t¬Ç¢r	  \r ë  ,j½¿h·Ië  æsRÈRzbÁhë[óğku\nÎiKî¥“  QZ\0Iu¥<#ô]LëÏ15  –Ÿ’“ ²vşïï?°1\\	\"UZTæä/À–	½¾Š{	Ym=¸Ö JS„^„Û¬*AùÿğÆ2ËÁyR7uR+\"Àø ‰]ÚºÙ  Õ{ ¦¶„ü¨Tê‘ÕTÒj·?´vv,ø=àh ~ÊÓ Èƒô9YÃ6üYKÃ}şÀ·™\ZdRäÜå,îw®“6½xûò%(ÓË2ÌÇKC \Z÷i/îÒA2èt	nŠ‡ wÃÉÜr•U<ƒ[©Ö.\ZrFÙãSÀâ€‚\r™¶ š\0Åã”¾€Ã™&} }– °EØu¥7ÄçU¹\n›ÒËŸ&CF ÷9é_·Ù[İ¬\'úD4«\0LÊ0i“ ÒTâŞ à6Íg  nâ¨ğfãÁ*^œN€¹œ¨€¡·¯É  ]@}hÑpÅèp¿f, ¼ ¡ ;ı…  ØíQu \\L<”ş8÷T‹ª€ÓiwÕEj¥ñM¬ó‚ùíñ²Ş34\r×áÄ!ôsw ÇZ7%^ à;·Jªì¤ºWvêó~ -õ\Z ß‹D³æV °ş(+¸j9 —Ó[ŒAğ\"\Z>\'h ÎC CFc\ZÓ«$N 49äêMóAy KÀf® ™n \r;ôŒø1Å— ÄY\":½3nĞ¤•àvû‰{şÕˆã@&ƒ³  ¨úÆã‚cµßÀº: õ³ _ö/»Ï’GxiQwCrãZÖÕäÀ ï‡Ä İa £?ÒÊs©Ü¬ SÉtgşÓ?','20160515082834')
+ExifBitmapHandler::isMetadataValid: back-compat version
+ExifBitmapHandler::isMetadataValid: back-compat version
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Sandbox_thumb_200.jpg from process cache
+RepoGroup::findFile: got File:Sandbox_thumb_200.jpg from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Sandbox thumb 200.jpg]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '16392'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

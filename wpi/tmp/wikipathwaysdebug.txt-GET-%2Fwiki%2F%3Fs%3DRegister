@@ -1,0 +1,87 @@
+
+
+Start request GET /wiki/?s=Register
+HTTP HEADERS:
+REFERER: http://vm1.wikipathways.org/wiki/
+USER-AGENT: Mozilla/5.0 (Windows NT 6.1; rv:26.0) Gecko/20100101 Firefox/26.0
+ACCEPT-ENCODING: gzip
+ACCEPT-LANGUAGE: zh-cn
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+IP: 171.113.52.209
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:80e690a025b4e01592d7253859fea3f8:0)
+ExifBitmapHandler::isMetadataValid: back-compat version
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x122 thumbnail at /tmp/transform_3bfb19464084-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg does not exist.
+BitmapHandler::doTransform: creating 160x118 thumbnail at /tmp/transform_779e812e5846-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x118 thumbnail at /tmp/transform_3b97b0f54b75-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x117 thumbnail at /tmp/transform_63cd82974e07-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+GETTING PATHWAY OF THE DAY for date: Tuesday 17 March 2015
+END GETTING PATHWAY OF THE DAY for date: Tuesday 17 March 2015
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150317105037, touched '' epoch 20150214190924, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150317105037, touched '' epoch 20150214190924, good 1
+Got thumbUrl: http://vm1.wikipathways.org/w/img_auth.php/cache/pathways/svg/7/73/WP201_69113.svg
+User: cache miss for user 187
+User: loading options for user 187 from database.
+User: cache miss for user 9465
+User: loading options for user 9465 from database.
+User: cache miss for user 187
+User: loading options for user 187 from database.
+Parser output marked as uncacheable.
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:2b46f1e1dd08bd4bac732d97deda3a4e:0)
+SiteStats::loadAndLazyInit: reading site_stats from slave
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:2b46f1e1dd08bd4bac732d97deda3a4e:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:80e690a025b4e01592d7253859fea3f8:0)
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '1'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

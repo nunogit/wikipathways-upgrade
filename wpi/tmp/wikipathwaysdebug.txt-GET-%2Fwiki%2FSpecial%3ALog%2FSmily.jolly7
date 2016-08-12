@@ -1,0 +1,26 @@
+
+
+Start request GET /wiki/Special:Log/Smily.jolly7
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-ENCODING: gzip
+ACCEPT-LANGUAGE: en-US
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Array syntax for $wgSpecialPages is deprecated, define a subclass of SpecialPage instead.IP: 180.76.15.154
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2015-06-26 14:02:37') AND (exptime < '20150626160156') AND keyname IN ('wikipathways:pcache:idhash:6197-0!*!0!*!*!*!*','wikipathways:pcache:idoptions:6197') 
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **

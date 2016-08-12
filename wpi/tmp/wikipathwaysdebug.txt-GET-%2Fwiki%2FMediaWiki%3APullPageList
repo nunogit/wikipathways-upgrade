@@ -1,0 +1,728 @@
+
+
+Start request GET /wiki/MediaWiki:PullPageList
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/File:NeedsWork.png
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[MediaWiki:PullPageList]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 173.234.150.182
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:b33620672e90ce253fd8c97656520939:0)
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/95/Analysis.png/30px-Analysis.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/95/Analysis.png/30px-Analysis.png does not exist.
+BitmapHandler::doTransform: creating 30x25 thumbnail at /tmp/transform_4f3611ea2d34-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/95/Analysis.png/30px-Analysis.png
+BitmapHandler::doTransform: creating 30x25 thumbnail at /tmp/transform_1c8959631ee3-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/95/Analysis.png/30px-Analysis.png
+BitmapHandler::doTransform: creating 30x25 thumbnail at /tmp/transform_294a4fcf19a0-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b7/Approved.png/25px-Approved.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/b7/Approved.png/25px-Approved.png does not exist.
+BitmapHandler::doTransform: creating 25x25 thumbnail at /tmp/transform_2f3ab2c32fbf-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b7/Approved.png/25px-Approved.png
+BitmapHandler::doTransform: creating 25x25 thumbnail at /tmp/transform_7ac5c6fe57c4-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b7/Approved.png/25px-Approved.png
+BitmapHandler::doTransform: creating 25x25 thumbnail at /tmp/transform_32d842b27154-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7b/Curated.png/25px-Curated.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/7/7b/Curated.png/25px-Curated.png does not exist.
+BitmapHandler::doTransform: creating 25x19 thumbnail at /tmp/transform_3d42c1bc7103-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7b/Curated.png/25px-Curated.png
+BitmapHandler::doTransform: creating 25x19 thumbnail at /tmp/transform_73b6d2bc5d4a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7b/Curated.png/25px-Curated.png
+BitmapHandler::doTransform: creating 25x19 thumbnail at /tmp/transform_27393bb7ccd7-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/2f/CIRM.png/31px-CIRM.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/2/2f/CIRM.png/31px-CIRM.png does not exist.
+BitmapHandler::doTransform: creating 31x25 thumbnail at /tmp/transform_588e2c2a6003-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/2f/CIRM.png/31px-CIRM.png
+BitmapHandler::doTransform: creating 31x25 thumbnail at /tmp/transform_6d429b337f3e-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/2f/CIRM.png/31px-CIRM.png
+BitmapHandler::doTransform: creating 31x25 thumbnail at /tmp/transform_1b81097a582d-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b2/Datanodes.png/25px-Datanodes.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/b2/Datanodes.png/25px-Datanodes.png does not exist.
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_6839030828b2-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b2/Datanodes.png/25px-Datanodes.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_e265fff5430d-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b2/Datanodes.png/25px-Datanodes.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_47671ad54f2e-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/34/Deletion.png/27px-Deletion.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/3/34/Deletion.png/27px-Deletion.png does not exist.
+BitmapHandler::doTransform: creating 27x25 thumbnail at /tmp/transform_72fe57d716b3-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/34/Deletion.png/27px-Deletion.png
+BitmapHandler::doTransform: creating 27x25 thumbnail at /tmp/transform_572aa3b43765-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/34/Deletion.png/27px-Deletion.png
+BitmapHandler::doTransform: creating 27x25 thumbnail at /tmp/transform_39285f2248b1-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/87/Description.png/25px-Description.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/8/87/Description.png/25px-Description.png does not exist.
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_4e94577b61b2-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/87/Description.png/25px-Description.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_743bcab01dc0-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/87/Description.png/25px-Description.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_98be02d2e006-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/2f/Featured.png/25px-Featured.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/2/2f/Featured.png/25px-Featured.png does not exist.
+BitmapHandler::doTransform: creating 25x24 thumbnail at /tmp/transform_51f6d1f32aa2-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/2f/Featured.png/25px-Featured.png
+BitmapHandler::doTransform: creating 25x24 thumbnail at /tmp/transform_4be7f6682cd3-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/2f/Featured.png/25px-Featured.png
+BitmapHandler::doTransform: creating 25x24 thumbnail at /tmp/transform_384cab285788-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/61/Genmapp.png/25px-Genmapp.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/6/61/Genmapp.png/25px-Genmapp.png does not exist.
+BitmapHandler::doTransform: creating 25x26 thumbnail at /tmp/transform_e2e4ed33ffeb-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/61/Genmapp.png/25px-Genmapp.png
+BitmapHandler::doTransform: creating 25x26 thumbnail at /tmp/transform_5c5be6d23bed-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/61/Genmapp.png/25px-Genmapp.png
+BitmapHandler::doTransform: creating 25x26 thumbnail at /tmp/transform_193bd9bff591-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/ee/Hypothetical.png/26px-Hypothetical.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/e/ee/Hypothetical.png/26px-Hypothetical.png does not exist.
+BitmapHandler::doTransform: creating 26x26 thumbnail at /tmp/transform_543c91141fd6-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/ee/Hypothetical.png/26px-Hypothetical.png
+BitmapHandler::doTransform: creating 26x26 thumbnail at /tmp/transform_1952b08f4404-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/ee/Hypothetical.png/26px-Hypothetical.png
+BitmapHandler::doTransform: creating 26x26 thumbnail at /tmp/transform_7f2ae99c6f30-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/67/Inappropriate.png/25px-Inappropriate.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/6/67/Inappropriate.png/25px-Inappropriate.png does not exist.
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_21a98952ec0f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/67/Inappropriate.png/25px-Inappropriate.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_1546aa273619-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/67/Inappropriate.png/25px-Inappropriate.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_576fae954585-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/05/Lines.png/25px-Lines.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/05/Lines.png/25px-Lines.png does not exist.
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_1f8597cb7304-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/05/Lines.png/25px-Lines.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_4520b16e57e6-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/05/Lines.png/25px-Lines.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_9b3336b6ee08-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/1b/MissingDescription.png/24px-MissingDescription.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/1/1b/MissingDescription.png/24px-MissingDescription.png does not exist.
+BitmapHandler::doTransform: creating 24x24 thumbnail at /tmp/transform_6638260b1878-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/1b/MissingDescription.png/24px-MissingDescription.png
+BitmapHandler::doTransform: creating 24x24 thumbnail at /tmp/transform_294b40733374-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/1b/MissingDescription.png/24px-MissingDescription.png
+BitmapHandler::doTransform: creating 24x24 thumbnail at /tmp/transform_28f1eb34731e-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/MissingXref.png/29px-MissingXref.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/6/6c/MissingXref.png/29px-MissingXref.png does not exist.
+BitmapHandler::doTransform: creating 29x24 thumbnail at /tmp/transform_1e9dc57928b5-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/MissingXref.png/29px-MissingXref.png
+BitmapHandler::doTransform: creating 29x24 thumbnail at /tmp/transform_236b2e1b1b14-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/MissingXref.png/29px-MissingXref.png
+BitmapHandler::doTransform: creating 29x24 thumbnail at /tmp/transform_20d120725c70-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/e5/NeedsRef.png/27px-NeedsRef.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/e/e5/NeedsRef.png/27px-NeedsRef.png does not exist.
+BitmapHandler::doTransform: creating 27x24 thumbnail at /tmp/transform_1019feee4a08-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/e5/NeedsRef.png/27px-NeedsRef.png
+BitmapHandler::doTransform: creating 27x24 thumbnail at /tmp/transform_27d0675e2476-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/e5/NeedsRef.png/27px-NeedsRef.png
+BitmapHandler::doTransform: creating 27x24 thumbnail at /tmp/transform_8e674af39abb-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/10/NeedsWork.png/27px-NeedsWork.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/1/10/NeedsWork.png/27px-NeedsWork.png does not exist.
+BitmapHandler::doTransform: creating 27x26 thumbnail at /tmp/transform_6e39027f684e-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/10/NeedsWork.png/27px-NeedsWork.png
+BitmapHandler::doTransform: creating 27x26 thumbnail at /tmp/transform_65d12986becb-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/10/NeedsWork.png/27px-NeedsWork.png
+BitmapHandler::doTransform: creating 27x26 thumbnail at /tmp/transform_104662b51cb4-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/05/NonTypical.png/26px-NonTypical.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/05/NonTypical.png/26px-NonTypical.png does not exist.
+BitmapHandler::doTransform: creating 26x26 thumbnail at /tmp/transform_5d1b01cc565a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/05/NonTypical.png/26px-NonTypical.png
+BitmapHandler::doTransform: creating 26x26 thumbnail at /tmp/transform_11d503cf4299-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/05/NonTypical.png/26px-NonTypical.png
+BitmapHandler::doTransform: creating 26x26 thumbnail at /tmp/transform_29d13a22668c-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/e9/PLoS_OpenAccess.png/24px-PLoS_OpenAccess.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/e/e9/PLoS_OpenAccess.png/24px-PLoS_OpenAccess.png does not exist.
+BitmapHandler::doTransform: creating 24x25 thumbnail at /tmp/transform_6c03738a5eb9-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/e9/PLoS_OpenAccess.png/24px-PLoS_OpenAccess.png
+BitmapHandler::doTransform: creating 24x25 thumbnail at /tmp/transform_556d72cd668b-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/e9/PLoS_OpenAccess.png/24px-PLoS_OpenAccess.png
+BitmapHandler::doTransform: creating 24x25 thumbnail at /tmp/transform_1f03e07e2c5f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/08/Reactome.png/27px-Reactome.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/08/Reactome.png/27px-Reactome.png does not exist.
+BitmapHandler::doTransform: creating 27x25 thumbnail at /tmp/transform_3af97a7f265e-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/08/Reactome.png/27px-Reactome.png
+BitmapHandler::doTransform: creating 27x25 thumbnail at /tmp/transform_7e9e6f604287-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/08/Reactome.png/27px-Reactome.png
+BitmapHandler::doTransform: creating 27x25 thumbnail at /tmp/transform_29a9ca973638-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_f45dc5d30fb1-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_1ca11b0706b6-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_36c790ba2913-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/df/Tutorial.png/30px-Tutorial.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/df/Tutorial.png/30px-Tutorial.png does not exist.
+BitmapHandler::doTransform: creating 30x22 thumbnail at /tmp/transform_5de314a97652-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/df/Tutorial.png/30px-Tutorial.png
+BitmapHandler::doTransform: creating 30x22 thumbnail at /tmp/transform_6d4cbb955277-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/df/Tutorial.png/30px-Tutorial.png
+BitmapHandler::doTransform: creating 30x22 thumbnail at /tmp/transform_42e4ef646c95-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c5/Tools.png/25px-Tools.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c5/Tools.png/25px-Tools.png does not exist.
+BitmapHandler::doTransform: creating 25x25 thumbnail at /tmp/transform_8a0eeeb51561-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c5/Tools.png/25px-Tools.png
+BitmapHandler::doTransform: creating 25x25 thumbnail at /tmp/transform_613163381fb3-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c5/Tools.png/25px-Tools.png
+BitmapHandler::doTransform: creating 25x25 thumbnail at /tmp/transform_2a0feafecd7b-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/dd/Unconnected.png/30px-Unconnected.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/dd/Unconnected.png/30px-Unconnected.png does not exist.
+BitmapHandler::doTransform: creating 30x24 thumbnail at /tmp/transform_414b078a3c53-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/dd/Unconnected.png/30px-Unconnected.png
+BitmapHandler::doTransform: creating 30x24 thumbnail at /tmp/transform_72fd9e51777e-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/dd/Unconnected.png/30px-Unconnected.png
+BitmapHandler::doTransform: creating 30x24 thumbnail at /tmp/transform_7051a597832b-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/4/44/UnderConstruction.png/24px-UnderConstruction.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/4/44/UnderConstruction.png/24px-UnderConstruction.png does not exist.
+BitmapHandler::doTransform: creating 24x24 thumbnail at /tmp/transform_f8c86c57503f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/4/44/UnderConstruction.png/24px-UnderConstruction.png
+BitmapHandler::doTransform: creating 24x24 thumbnail at /tmp/transform_35bb9d777401-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/4/44/UnderConstruction.png/24px-UnderConstruction.png
+BitmapHandler::doTransform: creating 24x24 thumbnail at /tmp/transform_3a32a09e144a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/17/Wormbase.png/27px-Wormbase.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/1/17/Wormbase.png/27px-Wormbase.png does not exist.
+BitmapHandler::doTransform: creating 27x27 thumbnail at /tmp/transform_432c1b6c29b8-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/17/Wormbase.png/27px-Wormbase.png
+BitmapHandler::doTransform: creating 27x27 thumbnail at /tmp/transform_749112cd5d7a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/17/Wormbase.png/27px-Wormbase.png
+BitmapHandler::doTransform: creating 27x27 thumbnail at /tmp/transform_468d30fc7312-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x122 thumbnail at /tmp/transform_7a7c51150b23-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg
+BitmapHandler::doTransform: creating 200x122 thumbnail at /tmp/transform_10d6bcc21de9-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg
+BitmapHandler::doTransform: creating 200x122 thumbnail at /tmp/transform_204ddada1304-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg does not exist.
+BitmapHandler::doTransform: creating 160x118 thumbnail at /tmp/transform_6f24d1e14970-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg
+BitmapHandler::doTransform: creating 160x118 thumbnail at /tmp/transform_5ae4908617d2-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg
+BitmapHandler::doTransform: creating 160x118 thumbnail at /tmp/transform_429e0bd06174-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/77/Questy_reaction_1.png/300px-Questy_reaction_1.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/7/77/Questy_reaction_1.png/300px-Questy_reaction_1.png does not exist.
+BitmapHandler::doTransform: creating 300x127 thumbnail at /tmp/transform_4db27330223a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/77/Questy_reaction_1.png/300px-Questy_reaction_1.png
+BitmapHandler::doTransform: creating 300x127 thumbnail at /tmp/transform_6e98146b2187-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/77/Questy_reaction_1.png/300px-Questy_reaction_1.png
+BitmapHandler::doTransform: creating 300x127 thumbnail at /tmp/transform_3e49bbc96e9e-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/71/Questy_reaction_2.png/300px-Questy_reaction_2.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/7/71/Questy_reaction_2.png/300px-Questy_reaction_2.png does not exist.
+BitmapHandler::doTransform: creating 300x127 thumbnail at /tmp/transform_587e10e76769-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/71/Questy_reaction_2.png/300px-Questy_reaction_2.png
+BitmapHandler::doTransform: creating 300x127 thumbnail at /tmp/transform_58319d4bb775-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/71/Questy_reaction_2.png/300px-Questy_reaction_2.png
+BitmapHandler::doTransform: creating 300x127 thumbnail at /tmp/transform_acbcaba759ae-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x117 thumbnail at /tmp/transform_420eb176b498-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg
+BitmapHandler::doTransform: creating 200x117 thumbnail at /tmp/transform_6f0ed7554a9a-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg
+BitmapHandler::doTransform: creating 200x117 thumbnail at /tmp/transform_2379055e6a3d-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x118 thumbnail at /tmp/transform_457395442e5d-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg
+BitmapHandler::doTransform: creating 200x118 thumbnail at /tmp/transform_4c63d53a61e2-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg
+BitmapHandler::doTransform: creating 200x118 thumbnail at /tmp/transform_5469f7575425-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:b33620672e90ce253fd8c97656520939:0)
+Saved in parser cache with key wikipathways:pcache:idhash:33172-0!*!*!*!*!2!* and timestamp 20160513075209
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:33172-0!*!*!*!*!2!*','≠[›éú8 ûÎ~äöív/FÍÄ˘ß:S“LOf )ùÙ&=õΩã  pÒ[ÿ@Q£H˚ ˚å˚$k†®Ü¬ $ŸâFÈ¯|ˆ˘Œ±}Œ±Møﬂ\0i≥~Ñ AŸ˚ú¶9]odeÛ Ÿ®õuÙÑ t}G6 \0Êf˝2 ∑/Cº]ΩÑ+?CÓœk°ƒ  ~«!⁄¸ √∞\"òºHcoΩ≤CH»œk A ≠∑/q‰≠`H^ Q$≥Î1 &˛ sÍøH˝T0 S Ü∏ ;‘ˇy-ãÎïè∞Á≥Å$uΩ ∂/ ∏Ωy)0N”º“4K\n‰Ã\Z†∏º,¡“Ö!Óƒ´ÊÚ’ºÓÛ “9Z  óï.Ëñ0ÄqH s)©7  f ù \\:í π¬3¶õ8\r ˙\rR \' öYQ ∞©©ìÑ  oÓ§•‘Pà(N‚ f  óò,»ä0ƒuºÙoq \"vÜ”%‘.Ä\\vÜ`Ë¬ ˙=é˚ Aögs´~àö^gC èó≤ê◊ (é`ö^ß5\0qYiÇ Ñ åGJ[HÍuï&‘gK√Ü·ufc$ó    ∆ÿé£ˆ\r ﬂƒ∞éàiÜY\0∫Ní ùr¢.p¿ﬂ≥Óﬁ‚x.éÙ \\Z¢ ™B Ù=t 0!8ˆ o◊)<ó( Ä%LıËX+ﬂ∞INc˛ãµ/¢˚ úög[ A;ÇÊ7 |áêC>Ã± ¢¶6ä* qº∞¸Uº>%Y∞Äÿ3ljrE· »£∂tˇæK‚ß*ùè0ó∏È-râ¸ûËÚ¯6˘¯˘}ä‚_l ëô\r\\ÉWó‡©È5 ÓÿºÌ±4˘~@–¶I4  á®)7\Z¬ ˜=E¡Gö[◊9=#∏|\\¡E¬3¶„\"˜∏» π<Â4a!}f±\rQ\\Né‡∏¬ «;$,\r»OI Œ,Ø ÑÀ» lUËÅæÁlgl\'qåÏŸÛ¡ 8Â,G Ay˛Z\Z—˛å î›\'1°YnœÁØ	8ó¨\"(ä0—·{≤ ãóë …Ãˆ ¢¶B∞. qºÌ©_ ÿ·˘ÊÍ	˙◊,)	˙L˝<≤>K¢¯bó^a⁄¢W\rzuFO’ÒÜ¿ Ωc.ˆV XºmÓ3VÅwc mÜqã>1>£ß6ì\"G?1fˇÓ1 ∆B∆ˇ» °’Á¨éÆlY} ◊óC _u ∏~ ◊ÖâÒœ{m‡ÊÀ%≤î¥Ùu§•Î§¡à¥Ùˇ ˝ ∆éï ñ.Á |—zf	“ &∆Á.h∞îÙ\'L¸  ∫îuá_J[ ¶4y_.Î´A‰ 9 ~b?m~q ‰îê⁄>≠/V ” ±∫|\n∞ùí\\wŸsØ_° õ2Í÷Àí<% ï#»vZ∂XmíPñ\"`z √¬Ç OÌ%d;-[¨∂	•èê˙%¨∏∂  €)…RÖ˜I ± h û≤ûpÀk˝J%ª+:v< ªÂ\ZÍkJ `(Ù»≠É\\ „&∑ ¢êßÛ\nzª ∂î◊oI á	t8$Œ¢Ì∏mÈØ\"à√œqB±ÀéEMÑµ ß‚hkê´>r’ ∑≥ê≈\\öûì˙ ÈXÁsÛWÍ!πµc%Á¥™ 0÷ví,U¯6Òpú°} \"ÙD– A∂”≤•j  éÎ> ug—v‹∂t¯w	Ã(∂√)ìÜÚÌÑ`©∂∂ ∞a ¢?º›ˇM“ GÁ ÍÔ0JÔ`_7 ç ‚  ‚k⁄„≈ö?  ≈Ùﬁá±á»ï‡Œ«mg\0ÀYDı˚“µ‰=ÇlßeK’~ƒ ‚\'–N≤ 5- ˚â-¯& NDùN>ä; ¡Wkõé=Áq9—ÁR∂X-;˘≥rîßÌ$Ÿéö èùUË\0˘¶t¢Ì∏mÈüPh\' ≤Î„ À\' -óàÌ§Ë≤VΩy˘„ÌÌÍÊ *  W!é0eÁí4…ËÕ#˚;KÍ¢/…V &ò\"gUøœ≠Ï$èÈfU_u6ˇ\r° äQÛ⁄9\0+œ‡Ñ–ˇ˛˚?Ëê≤ ¬\n«vò3 ¡G¥YâÇ$ö:P•ïUQDnûPîÜıô f^ ±M;Å{ÕÍq UVÕ†§Œπ J©_sTƒõWá ±÷ ≠“Ê }ÂÊq{Ú:ë kr7∑∑ù;>B∂E µ oC€GÏ @˝UÄ™U==È)ll“F∏¡é âøëe†K∑‚è?ù˛H?˛¥™Õ§8b¸X†eG v2VÅ,Í*≥aU+≠ Å≤YGoYD Ÿ˙~ã„Ä¨Ô‡F‹¸ıÖ…\0ì›37xIÜQ_ ÷ü\0‘ã°˚ @í6ΩeÒòá·c3 i§Z≠£  l˛¬ É˝ 5_ ‘ .N wLn\ZzÕéı ù ò »@5:˘e!œ‰µ;¿…∫ãöªÓ≠™Ú]kEØFn r=™ynﬂux•∂Qﬂ¨Ø’ûµ^…lÜ66ÎsÅX †ËZmé$o÷SE ÉÈö™›µnÔócL¢ô≤z2Á¢Äjªô\'_å*ôìØÙñ”πÚhmmz1J√b°ı~#c èrˆ…LQ· bxÚøR˚_b¶”bÎVıƒ{îπZ ıd0 ]¶iY+\'÷√Ï—\Z*uãb ÏOrΩ ± ΩÌàjÎùs»lZ€°‘Õ˙2∆1©b Í›óÛF8 ã˛ ëzÌoúûÑ)èﬁ‘∑ Mõ ö-¿–ÉÔZj wßˆ˛w%];ÿ >\0953 Œ XtHÊß·Á\rΩ° ü tÌÍfÙ\r@ØÀ‡aΩ«¶ˇ¥›5≥Y =)w2ÊÖÒCÓI»vﬂÛkÍ©≠	/¸óÀ ÒÀ7√ Ò¡õ]œ9√ ≥N†l.ﬂµ:	#«{ Íi\Zºœ<œÃ˘ô§  <S<[ˇ¸V–≥ÌÚñæs ÿL\\¢˜Ù Ó§ªéb  /.úzrÓ=kO1ˇNÛ\n@∫ ÔÍzì>q+÷ Í}∆< ’ t  Ãlˇ}≥,ÆÓ,ñvj õ·:5v ê%GQîÄ*ä¿ f› \Zâ A˝# jΩ  ÀUS1⁄„@ƒ°Ïƒ  ©ÉïX3lè≈º/ºÌzM À≈¢\"™<eÈaá+\\XÿÒƒ£\\π∫â3 ¢†Ù,À †Uv  &u±åœL” Cñ8∫¨}ïHq è1M Ã è• K≤  e\r ê4∫ ÅeR `fiÃ0CU8z< )æ,õ¢g%íj˘ñ\"ÎG ÌÏ pèG±µi ≠Ê=(È m°\\Ñ¨†1BZ9∫FA†dûî _ìÛró—Ût\rC‡ú eCÊ)ã —±ê`*âE zy¨§$» D 3›W≠2^\\ù5N \ZGüi ¯ ƒÆ#⁄\"	¬¨å ëïãAòKh‹üç  ÎŸıaä<„h‡ ∆NÀä¿Ev )0å Qb√+™B,û◊‚  Ã &Ò÷= +Ÿ\rpë If¯ á!5 d%∏ÂÈ •≠.nZô7NÊ)¥5# {ﬂì57 m√J*#*é™óä…qÔ ≠B~Æö5 (*G£oË©% s-¬™·g4óc/Òï2*˜•ªw\Zç√ 8ø  ôÁK¢Óêx îT•—N= N)W6;1ê áDj ]À™s U5Öª6 œ»√†T•C™ã:≤4ßä}√1Õ ≤Ω‡º F©zv 5E‰Ë @∂≥];ãiÊ i ‚ƒó-Ö ÿ¥	ƒŒy/ Ûˇ¨2Q‰ G);u ıÿÙ]b‡ù≤+,ômõ∞8Ñ\0ï“9Ü]  ≥Æ4∏;/ \n‰{\ZŸôrH£¢\nX)Î VF¥‘ Ói7p*ïyu\n7  ìU .ˆ yID(%\nı\\]∑èé +∂÷™õ*&uJ,-®í $≈‡eU?äMáÜæ* ™ ¥JI√#>HJZV‡êûgoXS]À@Ä% 	p3 ±¥Éæè ;E Îb|,aË™⁄Aı ÿE˚.”= j≥é‘%ûQFnÅ4 M9B)<™‘NBœ G= %[•≈Ÿ®aı7´LRyFôE•9˚ÃW 5» ∂@›ƒ≥2gWÏú Û‹.ûÙJ ˘ÿ,Ú6⁄ {í F{˜( âE5§˘Â!(™√˛hÏ Âº±GuÍÏ^”π ón vnÙ» ∆  \"\Z†Ù† ÖH$ É™≠KÆ ø≥ÓT∏ïW}ô ÿâå-˘ Èé#ój  hÔÔvVY>/»aE}uıõ ˚Å ªv ∆∆æ:¯Ü ƒ•ËT‘wrÕ≤ IÃÿ_≠âìe˙ïyîÅ) VÔÒî&•±« ’h™ß^§∫	Û2´èÚ2IÚ îg•¸⁄V©	\0G) \"®¢‡x  âàr   0˜);qÎ@9OÊƒÅ‚ döÏ¶[ÂmDíÿ{-U§CûD`á3ìRì∏Ö£„úÏ\"gR´¥P´…Õ{\' MÉÜG;0BüUÓ ¬ ;ƒîvë Õ;kù8˙Ã{XÂ•{  ﬂ™ j®N` ª¬ûaÏ#Y#•aÌë}N˜SÁ©+1ïÈd˚EÊ\ZãäcnK  ∫è”å***î–¥u\0-)ovÈ)IEØ  eÏ$vy≈Xˇ2—õò…ÍÀMﬁ˝„;T~Dv{ÛbmƒªSü◊ÿA Q} Û.˘ Ü! ™AÎk ù7 EΩÒÎ√„C‚‰·‡ÍF9∑~lJ¢æL~ñ—jÿM=ã XZÏ.xz◊AÌ/QΩNíæâ,6Gü` ≥ZË¢ıdYîöÔ+ ”ìË)	P-? Y;Îë ©(£ÉÀ⁄∫◊”˚˚◊O oÎicæXw>yÍná˚´ H,ÉÍ,n5·Cbıˆ ˝ﬂ ˚ÅMóÉ èIàÌ™7†,éÄmÖÄúﬁ±º9ï3ÛöÂWﬂ©◊Ùõ£º¨é˙3;ìÿÅYU \nˇLù· õdå:‘ã¨πÜØ; =Oîëf°4øø ^h/î≥ ÓÎõÙß·∫Ô›ï7≠Rá{uHqΩ¥ﬁ›µgÉËææ\r∆1y : –√v;!_˛ ','20160514075209')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[MediaWiki:PullPageList]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33172'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/MediaWiki:PullPageList
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/File:Curated.png
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[MediaWiki:PullPageList]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 193.234.224.248
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:b33620672e90ce253fd8c97656520939:0)
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/95/Analysis.png/30px-Analysis.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/95/Analysis.png/30px-Analysis.png does not exist.
+BitmapHandler::doTransform: creating 30x25 thumbnail at /tmp/transform_3a431e4558c2-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/95/Analysis.png/30px-Analysis.png
+BitmapHandler::doTransform: creating 30x25 thumbnail at /tmp/transform_7edf87fc6ded-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/95/Analysis.png/30px-Analysis.png
+BitmapHandler::doTransform: creating 30x25 thumbnail at /tmp/transform_743f623c33bd-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b7/Approved.png/25px-Approved.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/b7/Approved.png/25px-Approved.png does not exist.
+BitmapHandler::doTransform: creating 25x25 thumbnail at /tmp/transform_4187b9c3de81-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b7/Approved.png/25px-Approved.png
+BitmapHandler::doTransform: creating 25x25 thumbnail at /tmp/transform_15b097237564-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b7/Approved.png/25px-Approved.png
+BitmapHandler::doTransform: creating 25x25 thumbnail at /tmp/transform_3328323625f7-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7b/Curated.png/25px-Curated.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/7/7b/Curated.png/25px-Curated.png does not exist.
+BitmapHandler::doTransform: creating 25x19 thumbnail at /tmp/transform_20bd34fc1992-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7b/Curated.png/25px-Curated.png
+BitmapHandler::doTransform: creating 25x19 thumbnail at /tmp/transform_532d5af4b380-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7b/Curated.png/25px-Curated.png
+BitmapHandler::doTransform: creating 25x19 thumbnail at /tmp/transform_236dbef51391-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/2f/CIRM.png/31px-CIRM.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/2/2f/CIRM.png/31px-CIRM.png does not exist.
+BitmapHandler::doTransform: creating 31x25 thumbnail at /tmp/transform_205dc5a25a2c-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/2f/CIRM.png/31px-CIRM.png
+BitmapHandler::doTransform: creating 31x25 thumbnail at /tmp/transform_75ec5a497e63-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/2f/CIRM.png/31px-CIRM.png
+BitmapHandler::doTransform: creating 31x25 thumbnail at /tmp/transform_35601e517977-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b2/Datanodes.png/25px-Datanodes.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/b2/Datanodes.png/25px-Datanodes.png does not exist.
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_2378efc44f1f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b2/Datanodes.png/25px-Datanodes.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_8a4db6d71cfd-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/b2/Datanodes.png/25px-Datanodes.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_6ac536f48410-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/34/Deletion.png/27px-Deletion.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/3/34/Deletion.png/27px-Deletion.png does not exist.
+BitmapHandler::doTransform: creating 27x25 thumbnail at /tmp/transform_5d63eb635704-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/34/Deletion.png/27px-Deletion.png
+BitmapHandler::doTransform: creating 27x25 thumbnail at /tmp/transform_4a5d6d1750fb-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/3/34/Deletion.png/27px-Deletion.png
+BitmapHandler::doTransform: creating 27x25 thumbnail at /tmp/transform_38f4ef6650b0-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/87/Description.png/25px-Description.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/8/87/Description.png/25px-Description.png does not exist.
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_4533b6cc208c-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/87/Description.png/25px-Description.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_4bda144455c5-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/87/Description.png/25px-Description.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_2d47365e2b11-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/2f/Featured.png/25px-Featured.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/2/2f/Featured.png/25px-Featured.png does not exist.
+BitmapHandler::doTransform: creating 25x24 thumbnail at /tmp/transform_60b42c062dfa-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/2f/Featured.png/25px-Featured.png
+BitmapHandler::doTransform: creating 25x24 thumbnail at /tmp/transform_3359d2b25d9f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/2/2f/Featured.png/25px-Featured.png
+BitmapHandler::doTransform: creating 25x24 thumbnail at /tmp/transform_c4a711263832-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/61/Genmapp.png/25px-Genmapp.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/6/61/Genmapp.png/25px-Genmapp.png does not exist.
+BitmapHandler::doTransform: creating 25x26 thumbnail at /tmp/transform_55a2c01b6cfb-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/61/Genmapp.png/25px-Genmapp.png
+BitmapHandler::doTransform: creating 25x26 thumbnail at /tmp/transform_3d67cac61a1e-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/61/Genmapp.png/25px-Genmapp.png
+BitmapHandler::doTransform: creating 25x26 thumbnail at /tmp/transform_1b8407bd6256-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/ee/Hypothetical.png/26px-Hypothetical.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/e/ee/Hypothetical.png/26px-Hypothetical.png does not exist.
+BitmapHandler::doTransform: creating 26x26 thumbnail at /tmp/transform_154747e2122c-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/ee/Hypothetical.png/26px-Hypothetical.png
+BitmapHandler::doTransform: creating 26x26 thumbnail at /tmp/transform_28c944481577-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/ee/Hypothetical.png/26px-Hypothetical.png
+BitmapHandler::doTransform: creating 26x26 thumbnail at /tmp/transform_1bd024335c1a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/67/Inappropriate.png/25px-Inappropriate.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/6/67/Inappropriate.png/25px-Inappropriate.png does not exist.
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_59c25b7451fd-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/67/Inappropriate.png/25px-Inappropriate.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_20a5840959a8-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/67/Inappropriate.png/25px-Inappropriate.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_7d8c027538c9-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/05/Lines.png/25px-Lines.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/05/Lines.png/25px-Lines.png does not exist.
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_33cc8d4b39d9-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/05/Lines.png/25px-Lines.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_5318477c7f41-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/05/Lines.png/25px-Lines.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_3fe201746c1e-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/1b/MissingDescription.png/24px-MissingDescription.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/1/1b/MissingDescription.png/24px-MissingDescription.png does not exist.
+BitmapHandler::doTransform: creating 24x24 thumbnail at /tmp/transform_4d41737c4449-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/1b/MissingDescription.png/24px-MissingDescription.png
+BitmapHandler::doTransform: creating 24x24 thumbnail at /tmp/transform_437632582bda-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/1b/MissingDescription.png/24px-MissingDescription.png
+BitmapHandler::doTransform: creating 24x24 thumbnail at /tmp/transform_7e136d4a2b7b-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/MissingXref.png/29px-MissingXref.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/6/6c/MissingXref.png/29px-MissingXref.png does not exist.
+BitmapHandler::doTransform: creating 29x24 thumbnail at /tmp/transform_29dc80782c69-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/MissingXref.png/29px-MissingXref.png
+BitmapHandler::doTransform: creating 29x24 thumbnail at /tmp/transform_571e62c27496-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6c/MissingXref.png/29px-MissingXref.png
+BitmapHandler::doTransform: creating 29x24 thumbnail at /tmp/transform_3ea4fcf07321-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/e5/NeedsRef.png/27px-NeedsRef.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/e/e5/NeedsRef.png/27px-NeedsRef.png does not exist.
+BitmapHandler::doTransform: creating 27x24 thumbnail at /tmp/transform_2f1d730d6b94-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/e5/NeedsRef.png/27px-NeedsRef.png
+BitmapHandler::doTransform: creating 27x24 thumbnail at /tmp/transform_5e8f5b754d0c-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/e5/NeedsRef.png/27px-NeedsRef.png
+BitmapHandler::doTransform: creating 27x24 thumbnail at /tmp/transform_57e61a564092-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/10/NeedsWork.png/27px-NeedsWork.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/1/10/NeedsWork.png/27px-NeedsWork.png does not exist.
+BitmapHandler::doTransform: creating 27x26 thumbnail at /tmp/transform_392b0a96ecdb-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/10/NeedsWork.png/27px-NeedsWork.png
+BitmapHandler::doTransform: creating 27x26 thumbnail at /tmp/transform_29e961656af5-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/10/NeedsWork.png/27px-NeedsWork.png
+BitmapHandler::doTransform: creating 27x26 thumbnail at /tmp/transform_f4d867c6d921-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/05/NonTypical.png/26px-NonTypical.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/05/NonTypical.png/26px-NonTypical.png does not exist.
+BitmapHandler::doTransform: creating 26x26 thumbnail at /tmp/transform_4a0c8cd6495c-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/05/NonTypical.png/26px-NonTypical.png
+BitmapHandler::doTransform: creating 26x26 thumbnail at /tmp/transform_2d5ad39617e1-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/05/NonTypical.png/26px-NonTypical.png
+BitmapHandler::doTransform: creating 26x26 thumbnail at /tmp/transform_263a8bfb1a07-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/e9/PLoS_OpenAccess.png/24px-PLoS_OpenAccess.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/e/e9/PLoS_OpenAccess.png/24px-PLoS_OpenAccess.png does not exist.
+BitmapHandler::doTransform: creating 24x25 thumbnail at /tmp/transform_1ed4eb31281a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/e9/PLoS_OpenAccess.png/24px-PLoS_OpenAccess.png
+BitmapHandler::doTransform: creating 24x25 thumbnail at /tmp/transform_61330062ed13-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/e/e9/PLoS_OpenAccess.png/24px-PLoS_OpenAccess.png
+BitmapHandler::doTransform: creating 24x25 thumbnail at /tmp/transform_59fa0ca7d69a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/08/Reactome.png/27px-Reactome.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/08/Reactome.png/27px-Reactome.png does not exist.
+BitmapHandler::doTransform: creating 27x25 thumbnail at /tmp/transform_75ca9121500b-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/08/Reactome.png/27px-Reactome.png
+BitmapHandler::doTransform: creating 27x25 thumbnail at /tmp/transform_15cd9e8039c5-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/08/Reactome.png/27px-Reactome.png
+BitmapHandler::doTransform: creating 27x25 thumbnail at /tmp/transform_75f76d17f4ae-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png does not exist.
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_44910c8ba3b0-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_34064ed31500-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/f/fe/Stub.png/23px-Stub.png
+BitmapHandler::doTransform: creating 23x23 thumbnail at /tmp/transform_434915cd4d2d-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/df/Tutorial.png/30px-Tutorial.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/df/Tutorial.png/30px-Tutorial.png does not exist.
+BitmapHandler::doTransform: creating 30x22 thumbnail at /tmp/transform_42968b267d9a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/df/Tutorial.png/30px-Tutorial.png
+BitmapHandler::doTransform: creating 30x22 thumbnail at /tmp/transform_51ed7322490a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/df/Tutorial.png/30px-Tutorial.png
+BitmapHandler::doTransform: creating 30x22 thumbnail at /tmp/transform_57c00daa318c-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c5/Tools.png/25px-Tools.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c5/Tools.png/25px-Tools.png does not exist.
+BitmapHandler::doTransform: creating 25x25 thumbnail at /tmp/transform_19ac44174ebd-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c5/Tools.png/25px-Tools.png
+BitmapHandler::doTransform: creating 25x25 thumbnail at /tmp/transform_664dfc2d3dd9-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c5/Tools.png/25px-Tools.png
+BitmapHandler::doTransform: creating 25x25 thumbnail at /tmp/transform_17fe83e5b23e-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/dd/Unconnected.png/30px-Unconnected.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/dd/Unconnected.png/30px-Unconnected.png does not exist.
+BitmapHandler::doTransform: creating 30x24 thumbnail at /tmp/transform_4b1b2ca641a6-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/dd/Unconnected.png/30px-Unconnected.png
+BitmapHandler::doTransform: creating 30x24 thumbnail at /tmp/transform_7e14a5b161b9-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/dd/Unconnected.png/30px-Unconnected.png
+BitmapHandler::doTransform: creating 30x24 thumbnail at /tmp/transform_71c5e404716b-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/4/44/UnderConstruction.png/24px-UnderConstruction.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/4/44/UnderConstruction.png/24px-UnderConstruction.png does not exist.
+BitmapHandler::doTransform: creating 24x24 thumbnail at /tmp/transform_5278e9082d30-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/4/44/UnderConstruction.png/24px-UnderConstruction.png
+BitmapHandler::doTransform: creating 24x24 thumbnail at /tmp/transform_312ffcdd452f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/4/44/UnderConstruction.png/24px-UnderConstruction.png
+BitmapHandler::doTransform: creating 24x24 thumbnail at /tmp/transform_68e3173e36db-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/17/Wormbase.png/27px-Wormbase.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/1/17/Wormbase.png/27px-Wormbase.png does not exist.
+BitmapHandler::doTransform: creating 27x27 thumbnail at /tmp/transform_3f3bfb253fa3-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/17/Wormbase.png/27px-Wormbase.png
+BitmapHandler::doTransform: creating 27x27 thumbnail at /tmp/transform_3cded97e4ad6-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/1/17/Wormbase.png/27px-Wormbase.png
+BitmapHandler::doTransform: creating 27x27 thumbnail at /tmp/transform_4c29b294bcd4-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x122 thumbnail at /tmp/transform_7c4c7df35419-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg
+BitmapHandler::doTransform: creating 200x122 thumbnail at /tmp/transform_4c205c4717ea-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg
+BitmapHandler::doTransform: creating 200x122 thumbnail at /tmp/transform_5a0dda42632e-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg does not exist.
+BitmapHandler::doTransform: creating 160x118 thumbnail at /tmp/transform_7291987921ae-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg
+BitmapHandler::doTransform: creating 160x118 thumbnail at /tmp/transform_2c66af784b8e-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg
+BitmapHandler::doTransform: creating 160x118 thumbnail at /tmp/transform_293b88192bb2-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/77/Questy_reaction_1.png/300px-Questy_reaction_1.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/7/77/Questy_reaction_1.png/300px-Questy_reaction_1.png does not exist.
+BitmapHandler::doTransform: creating 300x127 thumbnail at /tmp/transform_5c7ac9ea458e-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/77/Questy_reaction_1.png/300px-Questy_reaction_1.png
+BitmapHandler::doTransform: creating 300x127 thumbnail at /tmp/transform_3512ceef1c1a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/77/Questy_reaction_1.png/300px-Questy_reaction_1.png
+BitmapHandler::doTransform: creating 300x127 thumbnail at /tmp/transform_4351741a6e39-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/71/Questy_reaction_2.png/300px-Questy_reaction_2.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/7/71/Questy_reaction_2.png/300px-Questy_reaction_2.png does not exist.
+BitmapHandler::doTransform: creating 300x127 thumbnail at /tmp/transform_7254378d545a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/71/Questy_reaction_2.png/300px-Questy_reaction_2.png
+BitmapHandler::doTransform: creating 300x127 thumbnail at /tmp/transform_6fdd84e25bfb-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/71/Questy_reaction_2.png/300px-Questy_reaction_2.png
+BitmapHandler::doTransform: creating 300x127 thumbnail at /tmp/transform_79a0685e1d3e-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x117 thumbnail at /tmp/transform_2eaca5f41358-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg
+BitmapHandler::doTransform: creating 200x117 thumbnail at /tmp/transform_46a2e6a72756-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg
+BitmapHandler::doTransform: creating 200x117 thumbnail at /tmp/transform_c0c7c6256a81-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg does not exist.
+BitmapHandler::doTransform: creating 200x118 thumbnail at /tmp/transform_4ffc3d48151e-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg
+BitmapHandler::doTransform: creating 200x118 thumbnail at /tmp/transform_1c67abc5663f-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg
+BitmapHandler::doTransform: creating 200x118 thumbnail at /tmp/transform_257e2d5d753d-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:b33620672e90ce253fd8c97656520939:0)
+Saved in parser cache with key wikipathways:pcache:idhash:33172-0!*!*!*!*!2!* and timestamp 20160614112151
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:33172-0!*!*!*!*!2!*','≠[›éú8 ûÎ~äöív/FÍÄ˘ß:S“LOf )ùÙ&=õΩã  pÒc\n  5ä¥è∞œ∏O≤ äj(LAíùhîéœgüÔ €Á €Ù˚\rê6ÎGòf(}ü”$ßÎç¨l˛ 6Íf =° ]ﬂe  \0s≥~ôá€ó!ﬁÆ^¬ïü\"˜ÁµP‚\0 ø„ m~âaXe8{ëƒﬁzeá0À~^„ zhΩ}â#o C˙Ûzà Rª C`‚œ0ß˛ãƒO S0Uaà+±C˝ü◊≤∏^˘ {> HR◊+a˚RÄ€õó „4Õ+IRR gÜ◊\0≈Âe	ñ. q\'^5óØÊuüßêŒ—\ZÄ∏¨tA∑Ñ åC\nòKIΩ˘0√Ëå‡“ë … û1›ƒÅop–oê¬ò8hfE]¿¶¶N .ÄºπìñRC!¢òƒ3Ã (.1Yê aàÎxÈﬂ‚2îŸ)NñPª\0rŸ Ç° #Ë˜8Ów iûŒ≠˙!jzù\rq<^ B^†8ÇIrù÷\0ƒe•	\Z  0 )m!©◊UB®œñÜ\r√ÎÃ∆H.=$ $å± GÌ 8æâa  ì ≥\0tù$ :ÂD]‡Äøg›Ω≈Ò\\ ÈA∏¥DATÖ Ë{Ë<‡,√±∑xªN·πDÅ\0,a™G«Z˘ÜMr\ZÛ_¨} ›g‡‘<€¬ ⁄ 4øÅ‡;ÑúÏ√ ª!jj£®¬ « À_≈Î IÉ ƒûaSì+\n @ µ•˚˜ âü™d>¬\\‚¶∑»%Ú{¢À„[ÚÒÛ˚ ≈øÿ6 f6p\r^]Çß¶◊ ∏cÛ∂«“‰˚ Aõíh&\n QSn4Ñ!Ó{äÇè4∑ÆszFp˘∏ÇãÑgL«EÓqë ry )a!}f±\rQ\\Né‡∏¬ «;$,\r»OÑÑ3À´ ·2≤ [ z†Ô9 ¸ €$éë={>  ßúÂ #(œ_K#⁄ü±É“{ g4ÕÌ˘¸5 ÁíU E &:|OˆbÒ2≤`6≥=á®© ¨ C o{Í º vxæπzÇ˛5%eÜ>S?è¨œí(æÿ%Wò∂ËUÉ^ù—Suº!GÔòãΩU\0 oõ˚îU‡›ò@õa‹¢OåœË©Õ§ ¸—OåŸø{åÅ±êÒ?rî—ÍsZGW∂¨>ÉÎÀ°ÖØ:¯\n\\?âÎ¬ƒ¯ÁΩ6pÛÂ YJZ˙:““u“`DZ˙ê˛ c«\"á•À˘ _¥ûYÇ¥ÖâÒπ \Z,%˝	g~à3∫îuá_J[ ¶4y_.Î´A‰ 9 ~b?m~q ‰îê⁄>≠/V ” ±∫|\n∞ùí\\wŸsØ_° õ2Í÷KIûd ï#»vZ∂X-!î• ò‹∆∞∞` S{	ŸNÀ ´mBÈ#§~	+Æ≠C¿vJ≤T·=â\"ñ Ìåß¨\'‹ÚZøR…Óäé O≈nπÜ˙öí  \nΩÏ÷A.éqì€ Q»”y Ω] [ Î7R∆!Å áƒY¥ ∑- ˛U q¯9& ªÏX‘DXã8 G[É\\ıë´ πùÖ,Ê“Ùú‘ﬂH«:üõøROñ[;VrN´Í\0cm\'…RÖoâá„ Ì  °\'Çﬁ ≤ùñ-U˚\0q\\˜·®;ã∂„∂•√ø#0•ÿ ßL\Z ∑ Ç•⁄⁄:¿Ü	ã˛vˇ7IÉ ù ®ø√(πÉ}›\\¿7rà 0àØiè k˛Äl ”{ ∆  Æ w>n; XŒ\"™ﬂóÆ%Ô d;-[™ˆ#v ?ÅvíÌ®iÈÿOl¡7!p\"ÍtÚQ‹  æZ€tÏ9èÀâ>ó≤≈jŸ…üï£<m\'…v‘¥xÏ¥B »7• m«mKáˇÑBõD»Æè[,üp¥\\\"∂ì¢ÀZıÊÂè∑∑´õw®||\\Ö8¬îùK í“õGˆwJÍ¢è§´ gò\"gUøœ≠lí«t≥™Ø:õˇÜP ≈®yÌ Äïg0…Ëˇ˝ tHÿ aÖc;Ã ,√G¥YâÇ$ö:P•ïUQî›<°(	Î3)LΩ<bõv ˜ö’„,™¨öA≥:Á:(°~ÕQ o^  ƒZ ¥JögÙïõ«Ì…ÎDN¨…›‹ﬁvÓ¯ Ÿ e‘:º\rm ± \0ıW ™VıÙ$ß∞±I\Z· ;>Ã¸ç, ]∫ ¸ÈÙG˙ÒßUm&≈ „« -;Ç∞ì±  \0$†ÇU≠¥~¿  f Ωe )gÎ˚-éÉl} 7‚ÊØ/L òÏûπ¡#)F}ÅX P/ÜÓ;\0I⁄Ùñ≈c ÜèÕxY#’j ›ÿ`Û ﬁ Ï ©˘ö†&pqÍ∏cr”–kv¨ÁË|¿ƒ@ ™—…/ y&Ø› N÷]‘‹uoUïÔZ+z5r#êÎQÕs˚Æ√+µç˙f}≠ˆ¨ıJf3¥±Yü ƒz\0E◊js$y≥û*˙ L◊TÌÆu{ø c Õî’ì9  T€Õ<˘bT…ú|•∑úŒïGkk”ãQ\Z  ≠˜  3xî≥Ofä\n  √ìˇï⁄ˇ 3Öü [∑™\'ﬁ£Ã’í®\'É©Ë2MÀZ9± fè÷P©[ £`íÎÌà]ËmGT[ÔúCf”⁄ •n÷ó1éI √PÔæú7¬)XÙ7à‘k„Ù$LyÙ¶æ-h⁄d–l Ü |◊R ∏;µ˜ø+È⁄¡f »©ôôp˛¿¢C2?\r?oË\r=¯º†kW7£o\0z]  Î=6˝ßÌÆôÕ¬ËIπì1/å rOB∂˚û_SOmMx·ø\\ˆà_æ ˆà ﬁÏzŒ æòu es˘Æ’I 9ﬁ˚PO”‡}ÊyfŒœ$=Ë‡ô‚Ÿ˙Á∑Çûmó∑Ùùc¿f‚ Ωßgp\'›u ª»xq·‘ìsÔY{ä˘wöW\0“%ÄW◊õÙâ[± QÔ3ÊŸ®æ†˚à`j˚Ôõequg±¥S ÿ ◊©±ÀÄ,9ä\"Àã¢ L`÷≠¨1Û!®dC≠waaπj\"F{ à8îù∏¬!u∞ kÜÌ±ò˜Ö∑]Ø) U *¢ Sñ v∏¬ÖÖ O< ï´õ8 \"\nJœ≤<\0Zeó1`Ró,ÍÃ4]1dâ£À⁄WDäCxå))S[<ñZ,…nxî5(√¨—5 ,ìz\03KcÜ ™¬—„·HÒeŸ =ãH™Â[ä¨ ≥hgWÜ{<ä≠M„h5ÔAIÁh Â\"d ç “ —5\n %ı§ ¯öúóªîûßk  Á\\( 2OYÏàéÖ¸ SôYÙ†ó«J\"AÆ†,0ì}’*„≈’Y„$†qÙôvÄ AÏ:¢-fAòñ±\"≤r1 s	Ìè˚≥q√`=ª>Lëg \r √ÿii ∏» \" ÜQñ)±· U! œkqê Ê\rìxÎ ÑïÏ ∏HèYj¯ á!52»JpÀ”!JZ]‹¥2oúÃShkF\nˆæ\'kn ⁄ÜE*#*é™óà‰∏˜äV!?WÕö  ï£—7Ùƒíèπ a’SöÀ±G|•å }ÈÓùF„0 ŒÔ\0EÊ˘2SwH< J¢“hß  ßî+õù ≤ áô‘(∫ñUÁ<™j\nwm œ»√†T•C¢ã:≤4ßä}√1Õ ≤Ω‡º F©zv 5E‰Ë @∫≥];çiÍ i b‚ÀñB l⁄ ƒŒy/ Ûˇ¨2Q‰ G);u ıÿÙ›Ã¿;eWX2€6aq  *•s ª(*f]ipw^  »˜¥lg !çä*`•¨oXi¶% pOªÅS©Ã´S∏â 3Y5‡bˇêóô %¢Pœ’u˚Ë∏±bk≠∫©ÚgRßƒ“Ç*I@R ^Vı£ÿthË´r°Z@´î$<‚É§$e  …yˆÜ5’µ  XBê\07”eñv–˜ëa\' b]åè% ]U;®˛ ªhﬂe∫ÁBm÷ë∫ƒ3 »-ê§°)G(ÅGï⁄$Ù,p‘ P≤UZúç\ZV≥ $ïgîYTö≥O}≈PÉ‘a ‘%ûï:ªbÁTûÁvÒ§WRŒ«fë∑—vÿì‹0⁄ªGŸ  ’êÊóá†® ˚£±\' ycèÍ‘ŸΩ¶s .› Ï‹Ëe  K0àhÄíÉ\nîL “0®⁄∫‰JÒ;ÎNÖ[y’ó9ÅMdl…áHw πTãPF{∑≥ ÚyA +Í´´ﬂîÿ ‹ÿµs06ˆ’¡7î .Eß¢æìkñ]Hb ˛jMú,”ØÃ£ L	∞zèßîî∆  T£âûxëÍ ÊeV Â%!y\n ≥R~Ì?´‘ Ä£ • TQxpº  \"¢‹ÉÖ Ã}¬N‹:PŒì9q†∏2ô&˚üÈVy 1#ˆ^K Èêì ÏpjRjfn·Ë8œvë3©UZ®’‰f¯Ω Ü¶A√£  °œ*w	·Ç bJªH2Õ;kù8˙Ã{XÂ•{  ﬂ™ 5T\'0Å]aœ0ˆë¨e•aÌë}N˜SÁ©+1ïÈd˚EÊ\ZãäcnK  ∫èìî***î–¥u\0-)ovÈ)IEØ  •Ï$vy≈Xˇ2—õò…ÍÀMﬁ˝„;T~Dv{ÛbmƒªSü◊ÿA Q} Ûé¸ √ •’†ı5ÇŒ ä¢ﬁ¯ı·ÒÅ8y8∏∫QŒ≠ õí®/ìüe¥\ZvSœ¢ ñ ª ûﬁuP˚KTØ	Èõ»bsÙ	¶1´Ö.ZOñıG©˘ær0=âûHÄj˘…»⁄Yè¨HE) \\÷÷Ωûﬁﬂø~zx[O Û≈∫Û…Sw;‹_›@b Tgq´	  ´∑Ëˇ ÿ l∫ tx$!∂´ﬁÄ≤8 ∂  rz«ÚÊTŒÃkñ_}ß^”oéÚ≤:ÍœÏ$± ”™> ˛ô8√;6… u® Ys\r_w z‡ü(ÕöÖ“¸˛\Zx°ΩPŒn∏Øo“üÜÎæwWﬁ¥J Ó’!¡ı“zw◊û\r¢˚˙6 «Ÿ˚–yÄ ∂€	˘Ú?','20160615112151')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[MediaWiki:PullPageList]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33172'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

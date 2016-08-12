@@ -1,0 +1,40 @@
+
+
+Start request GET /w/index.php?title=Special:Search&query=statin&doSearch=1
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: en-US,en;q=0.5
+ACCEPT-ENCODING: gzip, deflate
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP430
+COOKIE: __utma=141536308.87085994.1416834660.1453722479.1457091449.17; __utmz=141536308.1457091449.17.8.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmb=141536308.1.10.1457091449; __utmc=141536308; __utmt=1
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+IP: 145.88.209.33
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2016-03-04 10:24:33') AND (exptime < '20160304113748') AND keyname IN ('wikipathways:pcache:idhash:5019-0!*!0!!en!*!*','wikipathways:pcache:idoptions:5019','wikipathways:pcache:idhash:18256-0!*!0!!en!*!*','wikipathways:pcache:idoptions:18256','wikipathways:pcache:idhash:34768-0!*!*!!*!*!*','wikipathways:pcache:idoptions:34768') 
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

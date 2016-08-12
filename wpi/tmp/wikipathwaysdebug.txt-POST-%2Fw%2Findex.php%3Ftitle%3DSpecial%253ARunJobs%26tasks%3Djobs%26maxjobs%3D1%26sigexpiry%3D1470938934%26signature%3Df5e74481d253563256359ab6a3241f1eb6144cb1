@@ -1,0 +1,238 @@
+Start request POST /w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1470938934&signature=f5e74481d253563256359ab6a3241f1eb6144cb1
+HTTP HEADERS:
+HOST: trunk.wikipathways.org
+CONNECTION: Close
+CONTENT-LENGTH: 0
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+MWCryptRand::realGenerate: Generating cryptographic random bytes for MediaWiki\Session\SessionManager->generateSessionId/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 20 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+IP: 137.120.17.117
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 6059 will be used for SqlBagOStuff
+[session] SessionBackend "jatghqkfeh1ia3u6cs66f9n8iqh0b9je" is unsaved, marking dirty in constructor
+[session] SessionBackend "jatghqkfeh1ia3u6cs66f9n8iqh0b9je" save: dataDirty=1 metaDirty=1 forcePersist=0
+[cookie] already deleted setcookie: "wpupgrade127_session", "", "1439402929", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439402929", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439402929", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439402929", "/", "", "", ""
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[runJobs] refreshLinksPrioritized WikiPathways isOpportunistic=1 rootJobTimestamp=20160811180841 requestId=b943d901e27c29f1e969a583 (id=6,timestamp=20160811180841) STARTING
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+Title::getRestrictionTypes: applicable restrictions to [[WikiPathways]] are {edit,move}
+ParserOutput cache miss.
+[Preprocessor] Cached preprocessor output (key: wpupgrade127:preprocess-xml:744ce062acc62a7205e611a585ef8387:0)
+ExifBitmapHandler::isMetadataValid: back-compat version
+MimeMagic::__construct: loading mime types from /var/www/upgrade27.wikipathways.org/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/upgrade27.wikipathways.org/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/8/88/Browse_thumb_200.jpg/200px-Browse_thumb_200.jpg does not exist.
+TransformationalImageHandler::doTransform: creating 200x122 thumbnail at /tmp/transform_6d2513f0fbf6.jpg using scaler im
+TransformationalImageHandler::doTransform: returning unscaled image
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg does not exist.
+TransformationalImageHandler::doTransform: creating 160x118 thumbnail at /tmp/transform_930677d72276.jpg using scaler im
+TransformationalImageHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/06/Wishlist_thumb_200.jpg/200px-Wishlist_thumb_200.jpg does not exist.
+TransformationalImageHandler::doTransform: creating 200x118 thumbnail at /tmp/transform_cbf1ce93e5b7.jpg using scaler im
+TransformationalImageHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/0c/Sandbox_thumb_200.jpg/200px-Sandbox_thumb_200.jpg does not exist.
+TransformationalImageHandler::doTransform: creating 200x117 thumbnail at /tmp/transform_f5f0a8472cd1.jpg using scaler im
+TransformationalImageHandler::doTransform: returning unscaled image
+GETTING PATHWAY OF THE DAY for date: Thursday 11 August 2016
+[error] [b943d901e27c29f1e969a583] /w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1470938934&signature=f5e74481d253563256359ab6a3241f1eb6144cb1   ErrorException from line 36 of /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/PathwayOfTheDay_class.php: PHP Strict Standards: Only variables should be assigned by reference
+#0 [internal function]: MWExceptionHandler::handleError(integer, string, string, integer, array)
+#1 /var/www/upgrade27.wikipathways.org/w/includes/specials/SpecialRunJobs.php(101): call_user_func_array(string, array)
+#2 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/PathwayOfTheDay_class.php(36): SpecialRunJobs->{closure}(integer, string, string, integer, array)
+#3 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/PathwayOfTheDay_class.php(17): PathwayOfTheDay->fetchTodaysPathway()
+#4 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/TaggedPathway.php(8): PathwayOfTheDay->__construct(string, string)
+#5 /var/www/upgrade27.wikipathways.org/w/extensions/LocalHooks.php(466): TaggedPathway->__construct(string, string, string)
+#6 [internal function]: LocalHooks::getPathwayOfTheDay(Parser, string, string, string)
+#7 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(3817): call_user_func_array(string, array)
+#8 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(3552): Parser->callParserFunction(PPFrame_DOM, string, array)
+#9 /var/www/upgrade27.wikipathways.org/w/includes/parser/Preprocessor_DOM.php(1175): Parser->braceSubstitution(array, PPFrame_DOM)
+#10 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(3366): PPFrame_DOM->expand(PPNode_DOM, integer)
+#11 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(1248): Parser->replaceVariables(string)
+#12 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(446): Parser->internalParse(string)
+#13 /var/www/upgrade27.wikipathways.org/w/includes/content/WikitextContent.php(331): Parser->parse(string, Title, ParserOptions, boolean, boolean, integer)
+#14 /var/www/upgrade27.wikipathways.org/w/includes/content/AbstractContent.php(497): WikitextContent->fillParserOutput(Title, integer, ParserOptions, boolean, ParserOutput)
+#15 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/jobs/RefreshLinksJob.php(213): AbstractContent->getParserOutput(Title, integer, ParserOptions, boolean)
+#16 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/jobs/RefreshLinksJob.php(119): RefreshLinksJob->runForTitle(Title)
+#17 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/JobRunner.php(265): RefreshLinksJob->run()
+#18 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/JobRunner.php(179): JobRunner->executeJob(RefreshLinksJob, BufferingStatsdDataFactory, integer)
+#19 /var/www/upgrade27.wikipathways.org/w/includes/specials/SpecialRunJobs.php(112): JobRunner->run(array)
+#20 /var/www/upgrade27.wikipathways.org/w/includes/specialpage/SpecialPage.php(479): SpecialRunJobs->execute(NULL)
+#21 /var/www/upgrade27.wikipathways.org/w/includes/specialpage/SpecialPageFactory.php(576): SpecialPage->run(NULL)
+#22 /var/www/upgrade27.wikipathways.org/w/includes/MediaWiki.php(282): SpecialPageFactory::executePath(Title, RequestContext)
+#23 /var/www/upgrade27.wikipathways.org/w/includes/MediaWiki.php(745): MediaWiki->performRequest()
+#24 /var/www/upgrade27.wikipathways.org/w/includes/MediaWiki.php(519): MediaWiki->main()
+#25 /var/www/upgrade27.wikipathways.org/w/index.php(43): MediaWiki->run()
+#26 {main}
+A brand new day....refreshing pathway of the day
+Searching for fresh pathway
+Fetching random pathway...
+[error] [b943d901e27c29f1e969a583] /w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1470938934&signature=f5e74481d253563256359ab6a3241f1eb6144cb1   ErrorException from line 136 of /var/www/upgrade27.wikipathways.org/w/wpi/MetaTag.php: PHP Deprecated: mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead
+#0 [internal function]: MWExceptionHandler::handleError(integer, string, string, integer, array)
+#1 /var/www/upgrade27.wikipathways.org/w/includes/specials/SpecialRunJobs.php(101): call_user_func_array(string, array)
+#2 [internal function]: SpecialRunJobs->{closure}(integer, string, string, integer, array)
+#3 /var/www/upgrade27.wikipathways.org/w/wpi/MetaTag.php(136): mysql_real_escape_string(string)
+#4 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/TaggedPathway.php(18): MetaTag::getPagesForTag(string)
+#5 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/PathwayOfTheDay_class.php(91): TaggedPathway->fetchRandomPathway()
+#6 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/PathwayOfTheDay_class.php(86): PathwayOfTheDay->findFreshPathway()
+#7 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/PathwayOfTheDay_class.php(46): PathwayOfTheDay->brandNewDay()
+#8 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/PathwayOfTheDay_class.php(25): PathwayOfTheDay->todaysPathway()
+#9 /var/www/upgrade27.wikipathways.org/w/extensions/LocalHooks.php(470): PathwayOfTheDay->getWikiOutput()
+#10 [internal function]: LocalHooks::getPathwayOfTheDay(Parser, string, string, string)
+#11 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(3817): call_user_func_array(string, array)
+#12 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(3552): Parser->callParserFunction(PPFrame_DOM, string, array)
+#13 /var/www/upgrade27.wikipathways.org/w/includes/parser/Preprocessor_DOM.php(1175): Parser->braceSubstitution(array, PPFrame_DOM)
+#14 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(3366): PPFrame_DOM->expand(PPNode_DOM, integer)
+#15 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(1248): Parser->replaceVariables(string)
+#16 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(446): Parser->internalParse(string)
+#17 /var/www/upgrade27.wikipathways.org/w/includes/content/WikitextContent.php(331): Parser->parse(string, Title, ParserOptions, boolean, boolean, integer)
+#18 /var/www/upgrade27.wikipathways.org/w/includes/content/AbstractContent.php(497): WikitextContent->fillParserOutput(Title, integer, ParserOptions, boolean, ParserOutput)
+#19 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/jobs/RefreshLinksJob.php(213): AbstractContent->getParserOutput(Title, integer, ParserOptions, boolean)
+#20 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/jobs/RefreshLinksJob.php(119): RefreshLinksJob->runForTitle(Title)
+#21 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/JobRunner.php(265): RefreshLinksJob->run()
+#22 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/JobRunner.php(179): JobRunner->executeJob(RefreshLinksJob, BufferingStatsdDataFactory, integer)
+#23 /var/www/upgrade27.wikipathways.org/w/includes/specials/SpecialRunJobs.php(112): JobRunner->run(array)
+#24 /var/www/upgrade27.wikipathways.org/w/includes/specialpage/SpecialPage.php(479): SpecialRunJobs->execute(NULL)
+#25 /var/www/upgrade27.wikipathways.org/w/includes/specialpage/SpecialPageFactory.php(576): SpecialPage->run(NULL)
+#26 /var/www/upgrade27.wikipathways.org/w/includes/MediaWiki.php(282): SpecialPageFactory::executePath(Title, RequestContext)
+#27 /var/www/upgrade27.wikipathways.org/w/includes/MediaWiki.php(745): MediaWiki->performRequest()
+#28 /var/www/upgrade27.wikipathways.org/w/includes/MediaWiki.php(519): MediaWiki->main()
+#29 /var/www/upgrade27.wikipathways.org/w/index.php(43): MediaWiki->run()
+#30 {main}
+[error] [b943d901e27c29f1e969a583] /w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1470938934&signature=f5e74481d253563256359ab6a3241f1eb6144cb1   ErrorException from line 136 of /var/www/upgrade27.wikipathways.org/w/wpi/MetaTag.php: PHP Warning: mysql_real_escape_string(): Access denied for user 'manager'@'localhost' (using password: NO)
+#0 [internal function]: MWExceptionHandler::handleError(integer, string, string, integer, array)
+#1 /var/www/upgrade27.wikipathways.org/w/includes/specials/SpecialRunJobs.php(101): call_user_func_array(string, array)
+#2 [internal function]: SpecialRunJobs->{closure}(integer, string, string, integer, array)
+#3 /var/www/upgrade27.wikipathways.org/w/wpi/MetaTag.php(136): mysql_real_escape_string(string)
+#4 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/TaggedPathway.php(18): MetaTag::getPagesForTag(string)
+#5 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/PathwayOfTheDay_class.php(91): TaggedPathway->fetchRandomPathway()
+#6 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/PathwayOfTheDay_class.php(86): PathwayOfTheDay->findFreshPathway()
+#7 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/PathwayOfTheDay_class.php(46): PathwayOfTheDay->brandNewDay()
+#8 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/PathwayOfTheDay_class.php(25): PathwayOfTheDay->todaysPathway()
+#9 /var/www/upgrade27.wikipathways.org/w/extensions/LocalHooks.php(470): PathwayOfTheDay->getWikiOutput()
+#10 [internal function]: LocalHooks::getPathwayOfTheDay(Parser, string, string, string)
+#11 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(3817): call_user_func_array(string, array)
+#12 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(3552): Parser->callParserFunction(PPFrame_DOM, string, array)
+#13 /var/www/upgrade27.wikipathways.org/w/includes/parser/Preprocessor_DOM.php(1175): Parser->braceSubstitution(array, PPFrame_DOM)
+#14 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(3366): PPFrame_DOM->expand(PPNode_DOM, integer)
+#15 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(1248): Parser->replaceVariables(string)
+#16 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(446): Parser->internalParse(string)
+#17 /var/www/upgrade27.wikipathways.org/w/includes/content/WikitextContent.php(331): Parser->parse(string, Title, ParserOptions, boolean, boolean, integer)
+#18 /var/www/upgrade27.wikipathways.org/w/includes/content/AbstractContent.php(497): WikitextContent->fillParserOutput(Title, integer, ParserOptions, boolean, ParserOutput)
+#19 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/jobs/RefreshLinksJob.php(213): AbstractContent->getParserOutput(Title, integer, ParserOptions, boolean)
+#20 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/jobs/RefreshLinksJob.php(119): RefreshLinksJob->runForTitle(Title)
+#21 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/JobRunner.php(265): RefreshLinksJob->run()
+#22 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/JobRunner.php(179): JobRunner->executeJob(RefreshLinksJob, BufferingStatsdDataFactory, integer)
+#23 /var/www/upgrade27.wikipathways.org/w/includes/specials/SpecialRunJobs.php(112): JobRunner->run(array)
+#24 /var/www/upgrade27.wikipathways.org/w/includes/specialpage/SpecialPage.php(479): SpecialRunJobs->execute(NULL)
+#25 /var/www/upgrade27.wikipathways.org/w/includes/specialpage/SpecialPageFactory.php(576): SpecialPage->run(NULL)
+#26 /var/www/upgrade27.wikipathways.org/w/includes/MediaWiki.php(282): SpecialPageFactory::executePath(Title, RequestContext)
+#27 /var/www/upgrade27.wikipathways.org/w/includes/MediaWiki.php(745): MediaWiki->performRequest()
+#28 /var/www/upgrade27.wikipathways.org/w/includes/MediaWiki.php(519): MediaWiki->main()
+#29 /var/www/upgrade27.wikipathways.org/w/index.php(43): MediaWiki->run()
+#30 {main}
+[error] [b943d901e27c29f1e969a583] /w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1470938934&signature=f5e74481d253563256359ab6a3241f1eb6144cb1   ErrorException from line 136 of /var/www/upgrade27.wikipathways.org/w/wpi/MetaTag.php: PHP Warning: mysql_real_escape_string(): A link to the server could not be established
+#0 [internal function]: MWExceptionHandler::handleError(integer, string, string, integer, array)
+#1 /var/www/upgrade27.wikipathways.org/w/includes/specials/SpecialRunJobs.php(101): call_user_func_array(string, array)
+#2 [internal function]: SpecialRunJobs->{closure}(integer, string, string, integer, array)
+#3 /var/www/upgrade27.wikipathways.org/w/wpi/MetaTag.php(136): mysql_real_escape_string(string)
+#4 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/TaggedPathway.php(18): MetaTag::getPagesForTag(string)
+#5 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/PathwayOfTheDay_class.php(91): TaggedPathway->fetchRandomPathway()
+#6 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/PathwayOfTheDay_class.php(86): PathwayOfTheDay->findFreshPathway()
+#7 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/PathwayOfTheDay_class.php(46): PathwayOfTheDay->brandNewDay()
+#8 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/PathwayOfTheDay/PathwayOfTheDay_class.php(25): PathwayOfTheDay->todaysPathway()
+#9 /var/www/upgrade27.wikipathways.org/w/extensions/LocalHooks.php(470): PathwayOfTheDay->getWikiOutput()
+#10 [internal function]: LocalHooks::getPathwayOfTheDay(Parser, string, string, string)
+#11 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(3817): call_user_func_array(string, array)
+#12 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(3552): Parser->callParserFunction(PPFrame_DOM, string, array)
+#13 /var/www/upgrade27.wikipathways.org/w/includes/parser/Preprocessor_DOM.php(1175): Parser->braceSubstitution(array, PPFrame_DOM)
+#14 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(3366): PPFrame_DOM->expand(PPNode_DOM, integer)
+#15 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(1248): Parser->replaceVariables(string)
+#16 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(446): Parser->internalParse(string)
+#17 /var/www/upgrade27.wikipathways.org/w/includes/content/WikitextContent.php(331): Parser->parse(string, Title, ParserOptions, boolean, boolean, integer)
+#18 /var/www/upgrade27.wikipathways.org/w/includes/content/AbstractContent.php(497): WikitextContent->fillParserOutput(Title, integer, ParserOptions, boolean, ParserOutput)
+#19 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/jobs/RefreshLinksJob.php(213): AbstractContent->getParserOutput(Title, integer, ParserOptions, boolean)
+#20 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/jobs/RefreshLinksJob.php(119): RefreshLinksJob->runForTitle(Title)
+#21 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/JobRunner.php(265): RefreshLinksJob->run()
+#22 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/JobRunner.php(179): JobRunner->executeJob(RefreshLinksJob, BufferingStatsdDataFactory, integer)
+#23 /var/www/upgrade27.wikipathways.org/w/includes/specials/SpecialRunJobs.php(112): JobRunner->run(array)
+#24 /var/www/upgrade27.wikipathways.org/w/includes/specialpage/SpecialPage.php(479): SpecialRunJobs->execute(NULL)
+#25 /var/www/upgrade27.wikipathways.org/w/includes/specialpage/SpecialPageFactory.php(576): SpecialPage->run(NULL)
+#26 /var/www/upgrade27.wikipathways.org/w/includes/MediaWiki.php(282): SpecialPageFactory::executePath(Title, RequestContext)
+#27 /var/www/upgrade27.wikipathways.org/w/includes/MediaWiki.php(745): MediaWiki->performRequest()
+#28 /var/www/upgrade27.wikipathways.org/w/includes/MediaWiki.php(519): MediaWiki->main()
+#29 /var/www/upgrade27.wikipathways.org/w/index.php(43): MediaWiki->run()
+#30 {main}
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = ''
+Couldn't make pathway of the day: There are no pathways tagged with 'Curation:FeaturedPathway'!
+[error] [b943d901e27c29f1e969a583] /w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1470938934&signature=f5e74481d253563256359ab6a3241f1eb6144cb1   ErrorException from line 70 of /var/www/upgrade27.wikipathways.org/w/wpi/extensions/recentChangesBox.php: PHP Strict Standards: Only variables should be assigned by reference
+#0 [internal function]: MWExceptionHandler::handleError(integer, string, string, integer, array)
+#1 /var/www/upgrade27.wikipathways.org/w/includes/specials/SpecialRunJobs.php(101): call_user_func_array(string, array)
+#2 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/recentChangesBox.php(70): SpecialRunJobs->{closure}(integer, string, string, integer, array)
+#3 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/recentChangesBox.php(39): RecentChangesBox->query()
+#4 /var/www/upgrade27.wikipathways.org/w/wpi/extensions/recentChangesBox.php(30): RecentChangesBox->__construct(string, string)
+#5 [internal function]: RecentChangesBox::create(string, array, Parser, PPFrame_DOM)
+#6 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(4262): call_user_func_array(string, array)
+#7 /var/www/upgrade27.wikipathways.org/w/includes/parser/Preprocessor_DOM.php(1260): Parser->extensionSubstitution(array, PPFrame_DOM)
+#8 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(3366): PPFrame_DOM->expand(PPNode_DOM, integer)
+#9 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(1248): Parser->replaceVariables(string)
+#10 /var/www/upgrade27.wikipathways.org/w/includes/parser/Parser.php(446): Parser->internalParse(string)
+#11 /var/www/upgrade27.wikipathways.org/w/includes/content/WikitextContent.php(331): Parser->parse(string, Title, ParserOptions, boolean, boolean, integer)
+#12 /var/www/upgrade27.wikipathways.org/w/includes/content/AbstractContent.php(497): WikitextContent->fillParserOutput(Title, integer, ParserOptions, boolean, ParserOutput)
+#13 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/jobs/RefreshLinksJob.php(213): AbstractContent->getParserOutput(Title, integer, ParserOptions, boolean)
+#14 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/jobs/RefreshLinksJob.php(119): RefreshLinksJob->runForTitle(Title)
+#15 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/JobRunner.php(265): RefreshLinksJob->run()
+#16 /var/www/upgrade27.wikipathways.org/w/includes/jobqueue/JobRunner.php(179): JobRunner->executeJob(RefreshLinksJob, BufferingStatsdDataFactory, integer)
+#17 /var/www/upgrade27.wikipathways.org/w/includes/specials/SpecialRunJobs.php(112): JobRunner->run(array)
+#18 /var/www/upgrade27.wikipathways.org/w/includes/specialpage/SpecialPage.php(479): SpecialRunJobs->execute(NULL)
+#19 /var/www/upgrade27.wikipathways.org/w/includes/specialpage/SpecialPageFactory.php(576): SpecialPage->run(NULL)
+#20 /var/www/upgrade27.wikipathways.org/w/includes/MediaWiki.php(282): SpecialPageFactory::executePath(Title, RequestContext)
+#21 /var/www/upgrade27.wikipathways.org/w/includes/MediaWiki.php(745): MediaWiki->performRequest()
+#22 /var/www/upgrade27.wikipathways.org/w/includes/MediaWiki.php(519): MediaWiki->main()
+#23 /var/www/upgrade27.wikipathways.org/w/index.php(43): MediaWiki->run()
+#24 {main}
+Unstubbing $wgLang on call of $wgLang::date from RecentChangesBox->query
+User: cache miss for user 6
+User: loading options for user 6 from database.
+Title::getNsText: Unknown namespace ID: 90
+Title::getNsText: Unknown namespace ID: 90
+Title::getNsText: Unknown namespace ID: 90
+User: got user 6 from cache
+Title::getNsText: Unknown namespace ID: 90
+Title::getNsText: Unknown namespace ID: 90
+Title::getNsText: Unknown namespace ID: 90
+User: got user 6 from cache
+Title::getNsText: Unknown namespace ID: 90
+Title::getNsText: Unknown namespace ID: 90
+Title::getNsText: Unknown namespace ID: 90
+Parser output marked as uncacheable.
+[Preprocessor] Cached preprocessor output (key: wpupgrade127:preprocess-xml:2b46f1e1dd08bd4bac732d97deda3a4e:0)
+SiteStats::loadAndLazyInit: reading site_stats from slave
+[Preprocessor] Cached preprocessor output (key: wpupgrade127:preprocess-xml:2b46f1e1dd08bd4bac732d97deda3a4e:0)
+[Preprocessor] Cached preprocessor output (key: wpupgrade127:preprocess-xml:744ce062acc62a7205e611a585ef8387:0)
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[runJobs] refreshLinksPrioritized WikiPathways isOpportunistic=1 rootJobTimestamp=20160811180841 requestId=b943d901e27c29f1e969a583 (id=6,timestamp=20160811180841) t=1396 good
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[cookie] setcookie: "UseDC", "master", "1470938941", "/", "", "", ""
+[cookie] setcookie: "UseCDNCache", "false", "1470938941", "/", "", "", ""
+Request ended normally
+[session] Saving all sessions on shutdown

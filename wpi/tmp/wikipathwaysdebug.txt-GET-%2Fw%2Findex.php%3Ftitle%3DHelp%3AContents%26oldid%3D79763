@@ -1,0 +1,220 @@
+
+
+Start request GET /w/index.php?title=Help:Contents&oldid=79763
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Contents]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.66
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Help:Contents]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Contents]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '1576'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Help:Contents&oldid=79763
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Contents]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.160
+Connected to database 0 
+
+Start request GET /w/index.php?title=Help:Contents&oldid=79763
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-ENCODING: gzip
+ACCEPT-LANGUAGE: en-US
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Contents]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.149
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Help:Contents]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:04f83a88c4b8ac819349183db415bdc0:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:04f83a88c4b8ac819349183db415bdc0:0)
+Saved in parser cache with key wikipathways:pcache:idhash:1576-0!*!0!!*!*!* and timestamp 20160522070807
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:1576-0!*!0!!*!*!*','½YınÛÈ ¿¿ı   ‡k‹Úü¨ Fæ!qœØ¸8VNJ ô \"×ÒI.C.-ë‚\0}„>Oÿí›ôI:³\\R$%¹rÜ6 bsfv¾vö7³›kÇ´ mì¥ M¯s‘äBs:]çkæØ MéƒĞ^fN·k 6JÜÑ<%ºKFzâ ––KFYâÅÄ ½,;Õ¢Õñ’zAÈbª  œj—±Hyû‚ñXsIı“Œt\\êtPs4ÊCw 2Ğç‘eJoO5}Åî˜~AÃÄyG…`ñb6 ^*h  ÁDHOµ:“”L·E é ¨×A÷^ı èjvÆÁ76Ï Og sæße¸¼i\näHMÔäÜı¼  xËâ\0  {b¹òÖYÓ¬â’Šë¶) ˜øÌèj¿	Å­™˜.iù ? ô\0 ç  ûM(nÍD›r€‰74¤Ø(Ù5#[¤š  Šî*â2/ÌN¬³ÙÛW gTøPÍ ù/ ˆ ˆO¨érq3€ŠêVÊÉˆ¹\\1±$÷, <ûÓHG×ÿsM¥ôKNc ®g¯²;\Z@UÓ  ^»º*9\"åÈFÎİÏ;À_b¾ŠgIÊç!ZF%T<·ø «oâÅ yË è 3)\rOµ˜ßò0ä+­Ü2À)šÆ^H \" c· âT›ÍC/¾Ó”oK! G×ã4Ÿğt¡gK¾ò½Œ £Ï‰*c† u²  lB…W<]“I ùÿŸx´Z­NæŒ#ZdÒ³û^¨gÔKı¥ÀéûùËiİIÍ½¯²¢	€ékµü;ª»®jæç©§Àºa¢¤?¡ÂÏÔ’ l«à>o•zÉ& Ûİ\" PeïrØ  &›!ğtìÁ ´Õ$*)Ò”r‹ÏŸ2¢(DŠ>Éğ>SĞŠ6fo¡\'ÔúÃ! ¨LÇÔ[d»s\'9›´áç zÇ)»÷ İƒ¡Š[ƒĞ6å\0 7ğ—ûqºd×ŒüBi‚”iêùw„ß>ÉÚø,d\0Sã0_°¸LGËän™ª	•G‹H¨ Ğı\Zõ_,&‰\\-7 YŸYÆø  2€„€ûÙÉ‚óEHO| áw  z ›ıŞël9}>ì>^üöûM* ñ×óäã*~÷érĞû L=OœOéä“N!¼Ÿ“šÀS ‘.Oæ û!°ìßBŸÑ ”$< àbä  ÒØ‹}úlDáQ”ÇL¬· ¥d< SÆ<dàt»dKª;aX§êó€Êyåû<Åìj oSµ  u ÷  ËDq ±2É Ì+ôà	¿ +/¥³)ça+ŠJŠ”R¤r÷q 0ı+ ñ`vEı¥ ³,jš,¸dÃu\'Ü‡¡ƒ´ [šÒ(	 ! LÌìú×³Ë7•  <÷‚¯ˆàÄ  ²æ¹\"Cé@³[FÓCÎ|½ÆÆ²jÛ S/¶RÂİEı‘ 2 3èÒ³òd–m³â ç	EşÆ Ş æ’öp[‘›ATô§fí†ÎaOî™OõWãËG’× tÛL2)¸Ou`’xé—p #fºu¦ 6\nAR\nº»˜  æã>¨E7,\0ì­ 6©nyí)¾Q¡Ch4‡ã  0\0-J°{Zö Â\" Ñ€S ó\n² 0Ô(¨òæ|4š»×Ğ\\RòŞ‹ 9,Ë ¨Œù>´KE¾€‘›:8:Ğ Ï:?¾~ ğ6ú5¥şù p7T• ¼°¿8>&GpS IÈ\"& S!° ágÊ}šeĞØî º ˜ ”HŒsˆÕÑMCşiÊ.h ÙhKw¬4Œ¥ÿúÛßéC‚3=‹ı0 ¹ŒıN bè–1ì›¶EækA³£ * tFypöÈ]°Å ®!D*Íğl 4 KğRï\ZGç 	 ªÜ |Õ ·y\\<8(ï tîèøØ=* 2ñî)ºVÊû İ_ wtMês·“H¦Ã‚¥—- Óî÷ ~a¼€à¯¼¸  w^” Ë0{†mYFß  }‚&ñ5Åì:ZTîÿ{ ßeÚKÏ1œ¯ß€g ï ’°à²Ô7  ßcpÛËG ³ã¨i w :  {¨ºTÙq¾2Ç€_L|ĞAùf¥¿d ‚aØ/¿Á/ 9°T r êt»=K\nY dÙRÊv´ö»ŒÔ×ïƒ  øñÈ«Š  t1  Üzı(ô  {ëå¢`  {ëÕ¡Pn »ïhÛ/ Èï ¶	  §ºÛ#¹kØ]åü#·g©h¨lİr‘9 v”ñí+ fÓìt16 Vï½½ \\§?”90êrÒÏô _î\Z7 `õ;}[%fkÌ—›vO9·=£ ‘É €ê= ³¬ «3(ÒW^EÖ¥¿CGÛ5W ÚM ùŞ™ ÅzÆ°ÜŞ­  øÃ¡Aâ›äÎ1\0Dzf w \\Ù´M ¿İCÍV¿µ´ÕâPÔê\rz»D[] D-s ç£ph\'\ZË˜lˆé[u’ ÖÕO¸U£_ 5 x ]b©KCò£·,¤ ùJp¨â¬ø 2çêÊQG„ ÊÇyú[ †\0!Ú=çû_-”  ‘èÿÑ‘Ö¿ È ]b Gçvá/ ×„ oÖ/ç<é¸æ Îà  nç şÎ Cš® Ô päRHX(õã®]ñ  i{¯\nêÄOY\"ê¼Î†\'ÖÍevÅº‚vÜª ¬¦âEÿ‚ózˆp&¢ /!E-ªŠLRí²w °dÀmÀ¯ŞÓM%8šú cfÉÿ\'\0\ZÈ\nœ\Z¯ÿEsŠs ¤RµÆÔ\n=€ÿô¡N gnS É)go«Ã ã@Àoo³¢™IĞ\0#\07Kîö »Ø3¢ªuŒÍ³ï®Ø¬ ±YÏˆ­kvÛÁ!Üì|šÆ ­ï Ò2›ˆW=şíŠ³³#ÎÎ3âì÷ì­8[şl )1ĞÎ3 µÚVo ;\"íîˆ´ûŒHa Ø Õj‡ºñ bí>#VpjÏÕtW°ö`íç Û t¶‚­»ÔºG  Ñ ç\" LS~G  Ä\"TÃ`•ĞT¨QÙ*çÜ˜c?Èh =àŠ(ÆI¬\")H^Ÿ]L¯Ş×$Õ¼­Fùrl‡‰Ş6º¦a Ì^Gn> ‹?Ôÿÿô è-39 ­k\n;Æ– LI€Û4¨5ï\"‚n¹ ª•É˜M•íLäs wEhÙaP0 Š½¥ ²ÆãÀK×8 }J‚æ¸a\r¶ à¸ /T¸ Ù³>Ó4S© CæIï¤[eé ïD˜ªZ–j÷ ‡ 9¸1l“ Ô \ZaİÀ”˜]‡Á•·`~±½ßş\r','20160523070807')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Contents]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '1576'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Help:Contents&oldid=79763
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Contents]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.19
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Help:Contents]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:04f83a88c4b8ac819349183db415bdc0:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:04f83a88c4b8ac819349183db415bdc0:0)
+Saved in parser cache with key wikipathways:pcache:idhash:1576-0!*!0!!*!*!* and timestamp 20160622125323
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:1576-0!*!0!!*!*!*','½YınÛÈ ¿¿ı   ‡k‹Úâ‡¨ Fæ!qœØ¸8VNJ ô \"×ÒI.C.-ë‚\0}„>Oÿí›ôI:³\\R$%¹rÜ6 bsfv¾vö7³›kÇ0 mì¥ M¯s‘äBs¬®ó5slG‹¦ôAh/3§Û5uG %îh’KFÄ=\Z-M—Œ²Ä‹‰ zYvªE«ã%õ‚ÅT#,8Õ.c‘ò ÷ ã±æ’ú\' up©;ê€š£Q º£>,Sz{ªuVìu.h˜8ï¨ ,^Ì&ÂK \r4\"˜ é©Vg’’é¶ £ ê; {¯ş t5;ãà ›ç‚§³9óï2\\Ş4 r¤&Gjrî~Ş  ¼eq€ =±\\yë¬iVqIÅuÛ” L|ftµß„âÖLL—´ü‚Ÿ z€‰ó€‰ı& ·f¢M9ÀÄ \ZÒGl”ìš‘-RÍJ Šî*â2/ÌNÌ³ÙÛW gTøPÍ ù/ ˆ ˆO¨érq3€ŠêVÊÉˆ¹\\1±$÷, <ûÓ¨ƒ®ÿçšJé—œÆ\"\\Ï^ew4€ª¦  ¼vuUrDÊ‘œ»Ÿw€ ¿Ä| Ï’”ÏC\ZµŒJ ©xnñ=VßÄ‹ ò–=Ğ fR\Zj1¿åaÈWZ¹e€S4½ D, ÇnAÅ©6›‡^|§)ß–B$N§ §ñü„§‹N¶ä+ßËè1úœ¨ò8fˆQ\'K Á&TxÅÓ5™„ÿÿ‰G«ÕêdÎ8¢E&= ¹ï…Œz©¿ì$pú~şrZwRsoà«¬h `úZ-ÿê®«šùyê)°n˜(éO¨ğ3µd Û*¸Ï[¥^²IÅv·H TÙ» v ƒÉfˆ\'< {pà m5‰JŠ4¥Üâó§Œ(\n‘¢O2¼Ï ´¢Ù[è	µşpÈ *Ó1õ ÙîÜIÎ&møy€ŞqÊî=A÷`¨âÖ ´M9ÀÄ\'üå~œ.Ù5#¿Pš ešzş á·O²6>  ÀÔ8Ì ,.ÓÑ2¹[¦jBåÑ\" j t¿Fı ‹I\"WËÍDÖg–1ş_G„  !à~v²à| Ò ŸGøGàA\'è ıŞël9}>ì>^üöûM*tñ×óäã*~÷érĞû L=OœOéäS‡Bx?\'!;5ş€§ \"=]Ì öC`Ú¿…>£-(Ix*ÀÅÈ  ¤± ûôÙˆÂ£(™XoAJÉx ¦ŒyÈÀévÉ–TwÂ°NÕç •óÊ÷y ‹ÙÕ&Ş¦j%@ê î\' –‰â be’\'˜WèÁ ~+V^JgSÎÃV • )¥H!åîã `úW\nâÁìŠúK/fYÔ4YpÉ†ëN¸ C i3 ·4¥Q  B8˜˜Ùõ¯g—o*;\r )xî _ Á‰  dÍsE†Ò g·Œ¦‡œùzeÕ¶A¦^l¥„»‹ú=#!d&fĞ¥gåÉ,ÛfÅ!\rÎ Šü\'¼9Ì%íá¶\"7ƒ¨èOÍÚ\rÃÜ3Ÿv^/ I^KĞm3É¤à>ÕIâ¥_Â Œ˜éÖ™nØ( I)èîb~,˜û  İ°\0°·2Ø¤ºåµ§øF… ¡Ñ    Â\0´(ÁîiÙ3 ‹`D NQÌ+È ÀP£ Ê›óÑhî^CsIÉ{/^ä°,s 2æûĞ. ù Fnêàè@<³~|ı*àmôkJıó  án¨*#xaq|Là¦: “EL@§B`9\ZÃÏ”û4Ë ±İ3t? 1 (‘ ç Óê ºüÓ”]Ğ ²Ñ–¶Ì4Œ¥ÿúÛßéC‚3=‹ı0 ¹ŒıN ¢wL}Ø7l“Ì×‚fG%T èŒòàì‘»`‹%\\CˆTšáÙ\nh\"–àe§« ?$ ¨r{ğUƒÜæqñà ¼ÓÑ¹£ãc÷¨HÈÄ»§èZ)ï{>t9 ÜÑ5©ÏİN\"™  –^¶t »ß;Ö_üù…ş ş¿òâ\"X ŞyQBLİèé=Ó4LÛ2-‚&ñ5Åè:ZTîÿ{ ßeÚKÏÑ¯ß€g\0ï ’°à²Ô7  ßcpÛËG ÃrÔ4ˆ»  ‰=T]ª´œ¯ÌÑá   tP¾Yé/ „ ëöËoğËF ,Õ€ „¬n·gJ! „L[JÙÖ~—‘úú}pÃ ? yU‘‚ƒ.  ‚[¯ …bo½\\ ì¡bo½: Êud÷ mûÅ\0ù–n  0pª»=’»ºİUÎ?r{–ú‡ºÚÈÖ- ™Ã¡¥Œo_0›†ÕÅØLX½÷ö‚rV(s ×å¤Ÿ é\'¾Ü5n Àê[}[%fkÌ— vO9·=£ ‘É €ê= ³¬ Ó\Z é«F¯\"ëÒß¡£íš«\ní†Š|ïL„b=}XnïÖ\0 üáPÇ ñMrç \0\"=£‹; ®lÚ¦Œßî¡f³ßZÚjq(jö ½]¢­® ¢¦1„óQ8´ eL6Äô­:É\nëê\'Ü¬Ñ/ƒ\Z <ˆ.±ÇÔ¥!ùÑ[ Ò‰|%¸NTqV| ™suå¨#B åã<ı- C€ íóı¯ J‡Hôÿ¿èHëß\näŠ.±£s»ğ kB‹7ë—sGt\\s gp  ·ó ç…!M×\rê 8r)$,”úq×®x‡´½W uâ§, uµá‰us™]±®  ·ê «©xÑ¿à¼ \"œ‰èÆKcHQ‹ª\"“T»ì  , p ğ+¤÷tS	¦¾Á˜£™òÿ	€†#² §ÆëÑœâ  ©T­1´B à?}¨ÓÀ™Û”GrÊÙÛê0Å8 ğÛÛ¬hf 4À ÀÍ’§»½À.öŒ¨j cóì»+6sGlæ3bë\Zİvp 7;Ÿ¦1Hóûƒ4&âU»â´vÄi=#Î~ÏŞŠ³åÏæ‘  µ ¨Ù ´z«Ø iwG¤İgD\ncÀv¨f;ÔG k÷ ±‚S{®¦»‚µw k?\'ØŞÀÚ\n¶îRë ]tJDKœ‹ 0Mù EtR ‹P\rƒUBS¡Fe³œscı £ ô€C*¢ \'±Š¤ yz}v1½z_“Tó¶\ZåË± &z[ï\Zº10z–Ü|  ¨ÿÿé Ğ[ gr0Z× Zú– LI€Û4¨5ï\"‚n¹ ª•É˜\r•íLäs wEhÙaP0 \nËŞR Yãqà¥k >%AsÜ0 [ p\\ *\\ĞìYŸiš©T‚!ã¤wÒ­²t†w\"LU-Kµ{O‰Ã… \\Ï ¶É j\n°n`JÌ®ÃàÊ[0¿ØŞoÿ ','20160623125323')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Contents]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '1576'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Help:Contents&oldid=79763
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Contents]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Help:Contents]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Contents]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '1576'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

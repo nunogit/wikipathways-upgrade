@@ -1,0 +1,358 @@
+
+
+Start request GET /w/index.php?title=Portal:GenMAPP&oldid=37324
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:GenMAPP]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.36
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:GenMAPP]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:6a4843379cb5e356e042740eb7082a57:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+GETTING PATHWAY OF THE DAY for date: Friday 20 March 2015
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:AnalysisCollection' 
+		Pathway in cache: 'WP654'
+	Did we have WP654 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP654','Curation:AnalysisCollectionFriday 20 March 2015')
+END GETTING PATHWAY OF THE DAY for date: Friday 20 March 2015
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/f/fa/WP654_37324.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/f/fa/WP654_37324.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/f/fa/WP654_37324.gpml" "/tmp/WP654_37324.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/f/fa/WP654_37324.gpml" "/tmp/WP654_37324.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/f/fa/WP654_37324.svg:
+<BR>Status:255
+<BR>Message:[     0.014] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/f/fa/WP654_37324.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/f/fa/WP654_37324.gpml" "/tmp/WP654_37324.svg" 2>&1<BR>MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:AnalysisCollection' 
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/63/GenMAPP-Portal_logo.png/200px-GenMAPP-Portal_logo.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/6/63/GenMAPP-Portal_logo.png/200px-GenMAPP-Portal_logo.png does not exist.
+BitmapHandler::doTransform: creating 200x198 thumbnail at /tmp/transform_23932f0659e1-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/63/GenMAPP-Portal_logo.png/200px-GenMAPP-Portal_logo.png
+BitmapHandler::doTransform: creating 200x198 thumbnail at /tmp/transform_5e4ad8122599-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/63/GenMAPP-Portal_logo.png/200px-GenMAPP-Portal_logo.png
+BitmapHandler::doTransform: creating 200x198 thumbnail at /tmp/transform_3079bda91f17-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:6a4843379cb5e356e042740eb7082a57:0)
+[slow-parse] 7.49  Portal:GenMAPP
+Saved in parser cache with key wikipathways:pcache:idhash:4880-0!*!0!*!*!2!* and timestamp 20150320213505
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:4880-0!*!0!*!*!2!*','í\\{sÛ6¶ß¯? ¢ÎÖN\'–øĞÃ¦ ;c\'ÙÚ\'všİít< IˆI‚ AËJ&3û ö3ŞOrÏ @‰”%ÇI¤mÚÛ´–e\0<oüpğâ«Àõ‚Ú9• “¯r•æª øÍàC ´‚Z|ÉnUm\' ÜíNÓ j»!¿!™\ZGl¯Ö‹ • é\n5Ü!©È¸â\"	ˆd Uü†í@  ´ÈDÄC2\Zr5)Ü ñP\r â¦·úÇ\nÚ» H‘\'a@¾kÂ¿ÖÁ é‰H\0 ûlJÃ\'ƒ€Ô] ï( m“F|\0L{,QLîÄT x²	\")  ÄIowjûk»éşn–Ò„ô\"še{µ4¢<‰xrÕ\n]¦âÓ.ˆ› 7%R-ßäƒ¡2_«ôµ }‘¨ÍŒ¿gÁ–ó×ªÀµı]ŠæØ«%¢/¢HŒj…  :“	 *Q#\nè2µW»êF4¹®‘¡dı½ÚP©4h4nb·>â×<¥j8¢ã¬.ä 1jğ$d·õt˜şMq :œ ©h <gÉéÁùyãe¢¤øÆé í¡f{,äªf\rQx°\",6Øm`ışnƒîÿÛvvÌçš-‡ß)| ½‚ÂT{×Aõõß#¦-Ö Q8\r‚D$àAcÀ\0ı]8súµbWkIãy»Ë À ?­†„*ò ÌrnÍ²ÛÀJBÈšù¶Û z(0D,ü*ÅmÈ3ˆ€qĞDïz* †á¼H…8(Eë ¹aRñ ŠĞƒúJì ë“P\0—\"›r´F¬¯J¶€ÿ\\ Õi|£ \n£è8¬ûP‚¡¬h7bø[âGˆÎğ÷I%¼ãÑæÑ  œÕ  ÷joYÔ 1»RâJ\rÙ•µß•	˜ºçÖö‰m Ê hB\n ›&È$,€™îNİıË!Ï ×c= ‚¿#ô9” o€òĞ! ¥KŞ…  ’î¸B< Àú8Î ®Æ„&!	Ù\r‹D\Zã“ŠÑ¸ ®,‚.]No\ZFõ Kbš¦Ø‘jE8aÈ P‰’¾d å $  ¡] îÆ. âeà?Ğ ÌtÃ³ Üù  Æ »M%Ë2l…Š\0&Â³P#bŞ#!U”@\r0Í@ l	\Z‚sI—C 0œ\nËeúy ¦ \ZdDô5ƒ¬N G³¤hÉ WÃ‰ ©d$• ªâ %K™ì  ƒ&ƒHt2 ÓŒ3>¡U VÌHÉ í#í¾[…O !ª% õÓ  ÕPä |Ñ5Ï‘î«D¡:àf&A–\r ï qJ>~BxŒÑB\"©©V\r \\1hÁ»9B’°Ñ”&ñ Ë5\rd Â# *{C eªbi»@Hˆ ×vÒ*Ù˜ ±nİDRC÷ ø€€2±Ñ@|m óˆ ø¹iBÿ\nÔ õ4 LbÇt€ÈÎã ¡ DYõ 2} “=¤Ü€–W4WCÄêF»Ñö  yhœÙ«y Q«Qt¯ænoÕHCC²  >$~X$@d³²%\"•<Q“Q­„9z ›`ƒxBœºWúD„™‚ò‚  ¸ Ô»y€N &ÕwQ· 	ª ƒ| NÛŞ_ yÖşL)~/)Å  e¸Œ‚ï£Z»\r¾ÿ›\' ¬…ÿ­(qÈ£ıİ ”<„Ñìš¬b(m\0rgõ¡Š£Ú>Œ~L¨\0¾  § ÀĞ‡Y¦&Ã šı ˜ „Úm€t¿ $û ¤¾ez…™×  ¥ÎK‰µN¨…4¨E¾)ÏJ‘+Ìø¦y ÀË¼©…‰6L¬1á   Ös:Y*¬aTë ßL’ ¸--LI\'«R­4Õ\"3éâ ˜¿ g D,  }ÊÄcm¶|ŸœÜ } EÑ4—3„/X—fŠ³„<Í¡ß”«K\ns¡ÒdP.=å×ŒœpÖ…<›&¥´ğ Ò>•y Šä\ZP *o¥fŸè?‰ı{VÜSš$còšÆ\\²÷ =hL^çá¸\\ö#”=£Ãè×  ÿ‡Kz4Ì8 U mÙ>9\nÉ ü:+Ø —4äïÉk6fY¹â b· ç!ä_4îŠ¤\\7;(’³èêâ:¢²*ƒ©!¦Æh¬¿Ï¤çŸĞn\"Ï9ïÍ(Y­2¢ ü>«ìßÅ¸  òOÆ*ªâlmD~ Ñ‡‹ó#Dg ÓÆ™  ƒ %¸\'”¼°ew‚‚Ñ Äø	O%}/ªnŒã˜‡,Z ¬¿ç‰ÍŸéÀ·œ  tE®ş€é€Ö‹LÖ®ø·°ğ¹â,`·»ÿvH .ÒY½ÿVY ´…  z!/!´GC†K[PD @&½Š§ˆ]i4+YYâšÒ„.ÙĞËY§4 8M„¢lé†E v.EŸGfIêk–\n—²0Xè) B P  Q  åõÖŠ  Wë   \ZeOô$Mär5 C-‹ X 0FO ­äß2ÎcÔIÒ(‚lÑ²– Îô ¿óçºÖïjŒ8fTAŞ ş ‡‰Bµ ¹ş¿Ì g²\\«}ğö¼İjN’ÜjéşÁå)¹\0ÖÀ \0xb0ºO6^S¥ò ¼\"o €r=6°À“ ŠÆ(v½4á\0 ¾ÇR\r³ëGÅ×u³9  òÓ #ëo =%…á æ±h.üÚ¸¡ Ñ³Q b½…\0Ïd í\rYcRİ \ZıFŸ6´ W~Ç÷šu(„I¯–î  ®< ¼VË œ\ZæÁÏ: œºã6!/“¾   i¬ ³ê¤Ç2‚cÛT–:šâ\'  Vé+	 Ë’u ºÂÄà	É34ZÈú4T¶ö Æ! ú”‹óƒ \ZÂ 	ƒ)n1é®z<©6Ñƒ\"¶¡7”GÖ@! ××¤Ä8™ZM2\n#X #/J |¦é i İµ –®=??=Á™¯‘xí¶ØÚÿ¼ ‘¦ÅäûHíhîÚX	Ù÷  ×Ÿ±\\èS •Š_4 @`Z\n é25b0ã×ìp¿ ’ ‹@b\" íÌ ¢©È€ÿ¦i¹¡…lÔoãè± bSó$.u t Ïonš^üô Š!Lîmu~†­ÒäşV—/¡\\ñ~ÿ~jÏ°Y\ZB«K³»X8;ä’iÄÅ”-d¸qÈ1mêK ëì á?1[•}]0µz}í5 tƒp nˆ W?‚ n\0ıW‚íÑU»é€f BPé Öšª)µŞ) {ıëPÄ0_\r íùÍÄ·-×;%›ï¨\\ l£” ¬&:În°›\\õ  «ã#µe h\rH©8íô5â¡©õ æ\Z Ö±«İ\'êÄ¶Y“/8Z ®×ö×\0E`ú®$í±b5M˜½ çkˆo¸ï< \nœÕqbqbc}†n½^_l·\nàÇı:¾®ïÏğÍè\r+ºvxˆØX “–yz_Å³í¹3,ó r6Ÿ—ÿP^¶ær˜Ç]£[{V5È•p[ûÍë Ãæ	x2g%fÍ/fÖ*¹O— AL¯™şz )ã«î»\røî½a[Áti}f”E×Bé§³?<•ñÀì iÖöç â`¾P “ ã·t¤P üê;NÙ3-ò3O\nòD ×/³F€A R¢©êx° 5¯¤  ñ\nãù‚YÃ/hP’®½x LzQ âq -MÃ ¥½è·| ü ¹Zt…\'r®P¯+*% o¬Ï(f :Àº ÛÎ ±õZ¦K`‰éü ùóØZvbÂóK §¸}xŒ˜~õìÕ)Úó»tô ±sH[  	gİ ’LH$lº‘ÓéT…ë\"ü]äİ 2¼\\Ë¦Y>!÷ˆX’gû‹LÔtš(Åù„¤ …İÂÜ\"œÚæ  ¿Y~îbh^™ æ*î.Æêû4w:şçhş„8e‹±ú ®Ûò«*ƒa`VÂ~¢’cÒ™m¬øPx9¸„´tvXZŒÛ÷ğm5gØ \0£‹æò|Bú4Ê˜ıU–`1˜—€üD@W{!Äu¦ hvœY½{9äF7ì’   Qf»\0 §Œ‚\0PÛ‚É«>¤€Ï\0]î\0ä±äë Ï!§xºËÂßa.õ’Up ±ÙR Å*2, üfÄŸ ~îo‡~ s.î[ B÷ËĞßŞşB$ô~ $¼× Şg â\\šÛíOÚ J\"†Çh!TšeîŸs¹·ì˜tGÇ\"Û<ƒ¿Ã 9È‘ûÆº= œUré/ J«éİÏú \\ ƒã #Á ~\Z	‹~E ´şË9÷  ùßé	_ _aß\0\rçkşe(øUY‘ÿ @ø¹YÑ‡ ÇoNNÎ   œÎ$ ş—e€[ŸÊŠîåù\0”³ ÑÀ+$¸ì|hşÖÜ=3ÜL¹§ ¹N\\}‰K¿§7÷©ôÒoöØÌº‹O½fS ÷ xhnº XÑ  \ngD/`°|•kcF:Íze‰ €•çBD‡\"G¿ £9ÚhPúVÈë \\ÿØOœ´\\¡ÀÒ2 \0 ¥¢éwœ¥o¹\"AÛ  cU¬Bü `gvz² Êx ¿›| áÅ2Öäo ¾Bû ¸…®1Ô|´Ê”…Yo\ZŠ*Å \0Ó„¢ï´€â) 9Å2 ŸæÊÇA%q´:<	Ñ2ß àĞ„o«½ïkökÎ2UV©ù\0¸™\Z©µu‡tLyR!x Øí½Öö :2¯’ñÈ $ı±8y,¢âp :‰@\Z¾¼=ğ;[‘wv\"/RÖã4\nìïb® 3/sÒ #¥XQ< rof2Ä³CĞ, ×îlöé3Z¸…@ ^Ö2»“# Fégb”D‚†Zñ;ç,»c’¡d, JG-òˆ -Ét—í¾í×bYœªŞ°à¦-`)ï $\" 2 JÈ€Æ]N™Ö —ì/Ç)ÛÃ5o]¢èà^ı§şH ølÿ ]4G  K ^Ò. EŠ×«ÔFœ&tYòÏ!½\n \n Os™gK |Jp%âÒ ¢<#YŞU<âK“z–î*„?¤, rH»!WàVˆÎ M–¥Á|â«Q#  }\Zƒ  \\ U²« ı ğÀİcÉÅ’¤.Q\\‰ÀRd\0d<¢$f0Ğˆ Í”½â° áçS_…\"GYo Fê\r9™‹ø’4˜%» ÑÍ  z´K !–%x…è*Ä~®)Ãğ·D©+4W\"4ïv ä_ ‘ïÙÒ’ ª« ü…ˆ ÉhÊÙÒ ½Lr \"Ÿ‚\'ã<ëåË‹2É•ˆ<î‰.Lİ Ëç1Q9x x‰liƒĞb «Pç• ¿§àbÅo–•7–I®Bäsš %Å  áX±e™}†êJ  )F%°ÑBô¨L—eò9”W¡ÀcˆK ÿ İU A{½!•\" ã Ã €1Z\ZÀ/\"¿ U dJ\0  @ Ş… “ÅËRc é•¨€  ıeu)ÁUˆû/ ù)´^’° ¹©¨ßş\rô¹W Öv mn’µ36:?\' ¹Âk$Bªµò  Ş@áxM6 !¾Ì  f»Óp ı¯Ú o•˜×Ì”›»¾Wj/2õ¿ÿşÙz vAè“íÄÛn»­†çlwÜ–Gº ækÅ> ¡v‹Î¶õ=Ï›iú Œ‹¯	Ğ´Í Q–â¹òN£é¬ İ¦xŒá† ³g09nPˆé Œk››…i.è\rC	‹öú˜¥9Š}ÍÆ¤ ‰Aª+   i6 š[[Î¦óè‡GøóÃ#ïÑ æ­7< ñ èˆç¸-Ç÷ Ïõ[N‹ Oı¦´fP‹Oh2Èé€è« ;4p‚  ¡Î…ºC0Ä@H ëR…ƒïZÃ%ÁÉ ×€Lõ –¶‘vAÓ >ğÀƒ/m|[ ’(İ:Şá Áv )yA­r½ «ÚÎ¶!g/ÕšæmÛ¼rÿ ª@QW×ùA­zA Ÿël#­í 6½0ªÉ9ŞÎGxÖA ]ûB9sÖ IB<µv>Nt· 2UÌuÚğuK«Ö	Š×ì4ºâvS¯\Z [Ş¡ğ ÊñµWL Ülu¶¬¼• ¢Ù‡tİV•h‚G­#ÛÀ·†(¿úÄVmÏĞÕ/ °öófêô-=[§ŸkOëŠÕZ]½íøÆV…©\n µ gv1×¸Ák\Z“y%“½ ?Ïh®»ÕiÎ·Ú¶ëø‹Ìæow|ï^»¹M×Xvá¼-w{±åüV»½Èt ®©\\`»³í· b<¯åv´õÀ0±>9¨í¦Ÿğ¦œï¼•	Ÿİùh ñ0í ÃãIvÛìa$´{²\0ú4âGÑ¿ A\\ø¿åxÍ¶¿…¥P˜\r©‹_}ÀŠè]Ë‘ñø½”İwı_oÜëô×n”ß¶# ¶Ş½ëÔL0 à Ù­‰	8´´! SÎ; «U ‘½`Á•½¢…¿°Eém/E[aÛÒ @ÛØEw.m«äs¶I&îÄ×[â;Õ$ò Ô » ÅCİÀÙ±Ï¼à!›S…(v&py„Éq¥ô t°—ŠÅ%ú J§\"Ì£Ê Ğœ”^ô$OU¹ÎŸÖaªP®jMªì Ÿr%\"…Ù ÖGÙ¦5 \Z1^ÓÁË¤ÕR«Y Ú<p\nL ±•€ å†M 	ÌíßÀ,¨ù6ŠõÛ 1(À\0÷¿\\Ğ kôv \r4 İ €² M :ô¦.  ñnˆE3ˆagvœ, ËX ³\nÑïg ÀäÌ°¢	LÒ4+ ïO¾ Ñt2ôØQÈ•5Î¥¸fh!ëf —s‰ »â“1L« ° ò Yj ã · ³\"€l\r‹ËW‡/.OOÊ˜äÀæ %ğpœ–×q`$mjğğ@·¿”wÿÿ ñ\r <  ïK Ñ)3\r z˜ı±°„jZ 0·> ù\ZjëZ 2•w $öĞó¢ĞT€ü~ë a°—HB*ÇÏ¨¢oô­‡R¸y[w 8*Nªâ Õ ó“¹³cƒÃ­·ëÍ‰}ôUŠË*¸–Ò³š —L;H#¹Ô£‚ßv´ qLÀs ”\'Ù«(<¥0 6Şıø','20150320223505')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:GenMAPP]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:GenMAPP&oldid=37324
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:GenMAPP]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.64.105
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:GenMAPP]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:6a4843379cb5e356e042740eb7082a57:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+GETTING PATHWAY OF THE DAY for date: Tuesday 8 September 2015
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:AnalysisCollection' 
+		Pathway in cache: 'WP2486'
+	Did we have WP2486 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP2486','Curation:AnalysisCollectionTuesday 8 September 2015')
+END GETTING PATHWAY OF THE DAY for date: Tuesday 8 September 2015
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/5/57/WP2486_37324.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/5/57/WP2486_37324.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/5/57/WP2486_37324.gpml" "/tmp/WP2486_37324.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/5/57/WP2486_37324.gpml" "/tmp/WP2486_37324.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/5/57/WP2486_37324.svg:
+<BR>Status:255
+<BR>Message:[     0.016] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/5/57/WP2486_37324.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/5/57/WP2486_37324.gpml" "/tmp/WP2486_37324.svg" 2>&1<BR>MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:AnalysisCollection' 
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/63/GenMAPP-Portal_logo.png/200px-GenMAPP-Portal_logo.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/6/63/GenMAPP-Portal_logo.png/200px-GenMAPP-Portal_logo.png does not exist.
+BitmapHandler::doTransform: creating 200x198 thumbnail at /tmp/transform_1c448d9c749a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/63/GenMAPP-Portal_logo.png/200px-GenMAPP-Portal_logo.png
+BitmapHandler::doTransform: creating 200x198 thumbnail at /tmp/transform_1e7d61e73be0-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/63/GenMAPP-Portal_logo.png/200px-GenMAPP-Portal_logo.png
+BitmapHandler::doTransform: creating 200x198 thumbnail at /tmp/transform_202c4170723d-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:6a4843379cb5e356e042740eb7082a57:0)
+[slow-parse] 8.27  Portal:GenMAPP
+Saved in parser cache with key wikipathways:pcache:idhash:4880-0!*!0!*!*!2!* and timestamp 20150909000937
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:4880-0!*!0!*!*!2!*','í\\érÛ8¶¿×O¨kÚNW,qÑbÑË”ãØI¦½¨b\'™™®. $B b’`HP²’JÕ<Â<ã}’{ \0J¤,9N\"Mwúv Y À³ãÃÁÆ Ïv¼J‡&)K.2 g²â¹uïcê5¼JxÅnee7õìv«İò*{> ‘TN ¶_é Œ& é\n9Ü%±H¹ä\"òHÂ *ùˆíBMâ3h‘Š€ûd<ärZ¸=æ¾ zÄoÕ *hïfˆ,ò=òC ş4 wIO  (˜gcêû<\Zx¤j³pW‚hÛ4à `Úc‘dÉnH“ ¶A$)BXñínå`c/>ØKc\Z‘^@Ót¿  ”G nÒJ®ËL|Ú q3à&E¬äÛMø`(õ×2}%E_Dr;å ˜·cıµ,på`¢9ö+‘è‹  ãJ. ˆÎ’ˆ  •¨ 	t™Ü¯\\w \ZİTÈ0aııÊPÊØ«ÕF¡] ó  S9 ÓIZ É 6®ñÈg·Õx ÿMr	:tD\"ià=gÑÙa§S{ ÉDüHÃx—öP³}æsY1†È=X   ìÕ°ş`¯F ~üÁnZ»úsÃ”ÃÏ >†NNa¦½m¡úê÷1S ëŠÀŸ A$\"ğ 6 ‡şÎ9ûZ²«±¤ö<Èİå àŒŸFCB%y fé ³ìÕ°’ ²¡¿íÕ† \n   ?\nqëó \"`âu Ñ»™	ˆa¸(R! \nÑºKF,‘¼Gƒ<ô ~· »\'êÏ4 À¥È¦ ­ ëË‚-à¯¡:‹o4@n  ‡U J0”%í  &øá£3Ü R\nïp¼=dÔ‡\0g ÂııÊ[ ôDÈ®¥¸–Cvmìw­ ¦êØ• bš€2 šÜÄºÉ#2\r `¦ºS÷àjÈSèõXO†àï\0} %Ú  <tÈHªŸ	ïB‡òIwR\" à@} f — B#ŸølÄ  ‡ø¤d4¬‚+ó ‹WÓ›ÆãquÀ¢Æ1v¤J N ò T¢¤Ÿ0†r  ‚€Ğ.\0wc  ñRğ h f\Zñ4 w~` ¨1Ânã„¥)¶BE\0 áY¨ !ï ŸJJ  ˜¦  ¶ \rÁ¹¤Ë!H  N¹åRõ< S \rR\"úŠAZ%Ğ£Ù ¡hÉ1—Ã© iÂHœ ¨\nS”,fI_$!h2 D (S0Í$åSZEaÅœ”<R>Rî»•øÄ ¢:a¾zº$£ Š,…/ªæ9Ò½ˆ$ª nf	È²…â N%Ÿ  b´€§r¦U\r —ŒGJğnÆ ŸDl<ã£H<ÅrE Ù‚ğH‡&½!Œ2e±”] $D+;)•LLY·ª#©¦ú\r|@@éØ¨!¾ÖNxÀrüÜÖ¡\rêˆj \r¦±ÆC:@dçá€Ğ\0¢¬ü\0™=&=¤\\ƒ–×4“CÄêZ³ÖtkKy(œÙ¯8– Q«Pt¿b·w*¤¦ Y‹  	~ $@d3²E\"Nx$§£Z sÔ 6Å  ñ„XU§ğ‰ 3 å%\r@q ¨wó\0• L«ï¢n? Tz\Zù4œ6¿ ò`Çşø‘˜Nşgzñ¤ çlœşá² ~€jíÕøÁoD° ş]S ‘  { (y #Û\rYÇ°Z  O«C  •  	™\Z] ˆS Z Œ¡ ³TN‡04û#03 µW é~ß¨ö\'`}‡€u Ù  ±:…„[%Ú\"Ñ F~ S¡µ¢X<	Îò?€šES  m˜pc\"  òŒçT •[C«ÖB¿éäË³ J˜‚NF¥Ja\nFæÒÈ×0¯ñÎS\ZˆPD ú”ÇÊ|ù 9 ¹!ú.ó¢Y§	_².M%g yšA¿)V=O(Ì‘şI£A±ôŒß0rÊY òo\Z ÒÅÏHû4ÉzìHD7€ eyK5 DıJÌïóâÑ(šW4ä	ûPÒƒ†äUæOŠe?CÙ3: Şg0!x¸¤ÇÃ”SQ–Ñ” cŸ¼À¯ó‚ó„úü yÅ&,-V  ì–âü„ü‹†]  ë q E2 \\_Ş 4)Ë kˆ®Ñ\Z«ïsiûg´›ÊÓá½9%ËUZt‚ßç•ı»˜ô‚IDşÉXIUœÅÉÏcúpq~†èLa:9 Ã³bpc îã %/LÙ `t\01~Ê?Ğ„~ e·@öqÂ} , ÖïnÂógjğ ¦ ‡]‘É?`j ô\"Óõ-ş{X ]sF°×=x;¤  òŒŞ+-!šBŒ µØ  Ú£>Ãå/(¢  ”Zé“HÄ¬FêÕ®4‹qİiJ—l©%¯3\Z ´FBRH¼TÃ<!ë$¢Ï ½lõ-Ë‰+Y<Ìõ¿  ¡ ¨	È”¨\nâšlÉ H‹ËÍ”  \rÒ\'jò&²d= F%‹™1Y 0FM\Z«3,ııbş^7!µ<È–-} átoq[®}}·ãÅ	£ òqÿ 8däªå(öÿe&9—ı\Zí½· §¾Óœf¿sÅ ç‡Ï ÌçFtÀ¦ _/ÕR×ÖqÚ ²„÷† Á?à5FğhDÑ\ZykEØ ¸ï±XaîæqşuSïf„0  ıÍ×‘š«ÂX  \\´ ~­h‚PZ+F±Ús€gÒZ‚ µiy:\ZÔ\ZµF«¦ ¸v[®S¯B)L‡•x—0Œe©ç4\Z¦àLs÷~QA`U-»ù+y õ…G`€c}˜oG=–  éfÂTÑPo8 _…¯Ä ,6%( S†\'$Kq óYŸfL7ŞÂ¨ DŸrÑ9üG®\" ˜0´â¦”êÜ¨È“r 5Db :¢<0 òé¤ºqœ$ )3³%ŒÂx Á8ŒÒz_h»A   Œ‡Å Ï;g§8)Ö\"o¼V&ÛøŸw Ó¬˜ü È]Å^Y+¢!ûq\0 û – uğ¢Tñ«‚ ˆMC!%]&ÇŒED±Ã->ÈQTj yJ €§7 uE\nü·uË-%d­z  • ÛŠï4©â üxqsİôòÍs(†8¹·Uç [ÅÑı­®^œ@¹äışıÔa³Ø‡VWzC2÷¶Ï ¦@ 38Ÿá^#Ç,ªŸˆP%38 Dzw³¯\nfV¯n¼b\0p O ²/° ±<rñ3 b{€y	Ø ] ©œŠh†1 •gü¨¨êRã|ìW?D SYßSßşGxÛ°3²ı&K£m s@ÖH Ú ûÉu R³*>RYY„V€– ã;ı¾B 4¶\ZÈl­Â&ö¶û„Z7Íarú ‡LÏvZí\r\0 ˜ÛË„öX¾Ô&ô¦ƒõ-Ä·l§Ş|ìå£“Š   [›st«Õêæc³§\0ÿíoãk×Ûs|S:byçöĞ [›`Ò\"Oç›x6İÖ Ë,†É\0[ÌË}(/Ss5ÌÂ®Ö­éÎñ„	÷Â_¿:Õl€\'3V`Vÿjf\rkÆK•z^Ho˜úz\nyãE÷İ ü‡ ¾eZÁüisn E×BéçS@<ÊñÀ  iV   âx¾T  ã·x,Q üêZVÑ3\rò r²HA×¯óF€q ò¢™êx\Z 5/§ 9õ çÅ’ Ë/iP ¯¹| ŒzAæã!\r%NMK¥Üè6\\  	 [pçx®Q±kš$t²µ9§™ è ë\nl[_ÅÖiØ*~°D÷~@ÿzbL;µaçŠ…1n4 ¬_?»8Cƒş _\"|. içá\"á<\\@â“Š 	ë~dµZeáºˆ—Y7…4/S²)–OÈ=\" äi•‰êV ¥èLI*QØ-Ì0ü™mÎaü›çg/Çæµ `¡âör°¾Os«å~‰æOˆUä¹ ¬ïáiÛ\r·¬2  æ&ì\rM8&éÖæÇ¹—½+HMçÇ¥åÀ} ßF}m0ªh!Ï\'¤Oƒ”™ E	–£y ÉO tµ BÜ¤J€z«9¯w/ƒôhÄ®è`¹ E¶KpqÆÈó\0¶\r˜\\ô! | èr !¯2–BÂOvÈ%Lœ˜¿£,Q‹XŞ¡:üfJq +É°zğ› 1øÙ¿ ú•Ì¹Dºß  Ú_‡„n»ı•Hèü Hx¯ œ/@Ä… ÕÛÍÏÚ J †‡o!TêEî_€ ¹7Ì˜tGÇ<İ<‡ßıÃd!÷­Msz8-%Ó_ ”îNİ¹Ÿõg¸. Ç FB{ (! ı†8hü—s ç  ò¿Ó ¾ :¿Á ¿ \Z.ÖüëPğ›²\"÷ €ğK³¢ O^Ÿv Ÿ Ÿ Í% î×e€;ŸËŠîåù\0”3 QÃ‹\'¸ø|¤WÜ =ÜÌ¸ÇK¹N]}…ë¿g×·°ÔúoúXO»óOµhS ÷ x¨ïÇ XŞ  \nçDÏa°x lkN:Åz‰E‰ €• !‚#‘¡_´Ñ,e4(}+’›CÜ  Ø ÎÆJ._`éV‘Ç \0ĞPQô[VËĞ7\\‘ é ±JV\"ş\0°Óû=i\re<Tßu>Œğb +ò#¨/Ñ~\0n¡k45 ­2c¡ œ†¢Lñ À4¥èZ\r xÆ|N±LÇ§¾(rXJ  çB´È÷ 84åÛh.åûŠ½‡Ô] Uª?\0nfFjìÜ! R • Ş‡#f“o«Ñ¾C\'ÉÊd ò IÊÏ(‹ ?n€N\"†¯nWüÎ†äıÈË˜õ8\r<ó3ŸëÀÌKŸÉÇHÉ— OD²?7 âé H¨×Ğ+w¶üÔ	.ÜE  ¯xé½Ïé!\n­ô31 A}¥øS˜İ	IQ2–z…Ã Y@Ğ–d¶×vß&l¾2Neo˜sS 0”÷ #    %d@Ã.§Li«öW“˜íãª·*‘tp¯ş3D |vp‡.š# „•	ŸĞ.÷EŒ—²ä œFtUò/ ½  \n O³$KW$øŒàZÄ¥=  YJÒ¬+yÀW&õ<İu DY$’!íú\\‚[!: 4Z• ‹‰¯G  ôi v‚Dpu\n”É®CôgÀ w .V$uâZ ND\n@Æ JB   ĞTš  + ~1õu(2bE\ZÌ“]‹èï3\0† íRDˆU	^\"º ±Ÿ+Ê0ü­Pê Íµ Í»] ù Dä ¶²d`ê: !BAR\Zs¶2D/’\\‡ÈgàÉ0K{Ùêâ£Hr-\"Oz¢ S7èòYHd ^ ^\"]Ù ´œÁ:Ô¹H& (¸XòÑªòÆ\"ÉuˆÜ¡ ‘‰  ÂŸH¶*³ÏQ]‹à\"Æ¨ 60Zˆ MâU™| åu(ğŠJ	\\ É ± ï­¬ÏŞ¡» á/i¯7¤‰ \'xÌ° `Œ‡¤V ğËÈ¯E  ™ €C\0P7¥ÀdáªÔX@z-*àD§—ˆşªºÀŒà:Äı ƒü Z¯HØœÜLÔïá®ú‚Ë	 {¶·ÉÆ9 w:$à!—x±D$r£¸ƒwR8^¢„ 0³Hz¤ŞlÕlKı)7Æ{&úå4Åæ¶ë¶gíE*ÿ÷ßÿÑ[ Ä,è u¾8íf½Qs¬vËn8¤‹`¾‘ï  j¶èL[×qÜ¹¦/À¸øB E[Ÿ e1.oÕêÖÆñmŒÇ Fxü	×®§Ç\rr1-”qc{;7Í% 1”0o¯NZêóØ7lBŠ‘èÅªÒãş¦C¯¾³cm[~z„ÿzä<úI¿+‡‡    q,»aµá¯eµİ Aêıju¯ ÒhÑ ;U (v©gy ?A\ruG`ˆH ¬   ¾¡\r— §¯i 2åÛ\nXÚDÚ9MÇûÈ= ¾4ñ oH¢p\'y—ƒ í:Rr¼Jéò/V5­¶&g®ÜêæMÓ¼t; ª@Q[Õ¹^¥|} Ÿkµ‘VÛ«Ì®“*r–³û	µPD E væÀ=Ô;;nİÚı4UŞ„ÈL3ÛjÂ× ¥[ËËßÎSëŠÛmµxª™ì8»šÂS(Ç·e1%q½ÑÚ1 —Ş£f Ru;e¢  · L ×X¢ø– SÕ£«ŞG` èÌÕ©‹{¦N=×œÕåËµªºm¹ÚX¹­\nµ™¤f5WûÁ©k“9 “½ô¿Ìh­¶µS_lµ¶m¹ËÌæ¶[®s¯İğ2Ã9;v{©åğÁ¥¦³ífó Ûµ û5 b<§a·”õÀ0¡::¨ì¦pfœï¼Ì	Ÿİı¤  ñ8í%ÃwV™}³‡‘PîI=èÔ  y   ±á_ÃrêMw K¡0 R ¿º\0 Á»†•„“ IÒ}×?²oâ÷İ »m Òo¼{×ªè`@Ä96{ Sth(C@¯\\t<V© \";Ş’[|y wi‹Â‹aò¶îÒ¶…;¦±î\\Ù^É—ì“Lİ‰oÅÄW±%È{ RCì^æ u=k×<ó‚ûlA ¢Ø¹Àõ –LJ¥/ ƒ½”,,ĞÇP: ~ ”Fú´ô²—ğX ëÜY æ\nÅªÆ´ÊÜò)V\"RèÍ`u–mV ¡ â] ¼_Z.5šå¡Í=+Ç  [\nHRFlêH`n~ f^Å5Q¬^ZˆA  ¸ÿ„f\\ƒ¬·‹h ¨¨ \0”U (2Ğ¡·U) ˆ÷C šA [ó e YÚú˜Vˆ~?e\0&çš `–¦Xaxö¥Šº“¡Ç}.q®Ä\rC  7c¸t LÙ%ŸaJ…H€Å ÈR1  	¼D˜æ dêLX\\] ½¸:;->¢³ “x ÀÃ²\ZNË²] S•)@·¿ ·ÿÿ ñ\r ìˆ€÷& ‚è”¹†‡=Lÿ˜_@5¥ ˜[ ‡Ç„\rµµ\n©Ìº 2{èy¯+@~·q‡0ØKD>M&Ï¨¤¯Õ½‡B¸9;w 8Îªâ å óFßÛ1ÁaW›ÕúÔ>ê2ÅU \\ ùYÅŒKº ä‘<Q£‚Û´” qLÀƒ ”GéEàŸQ˜ kï~ú?','20150909010937')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:GenMAPP]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:GenMAPP&oldid=37324
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:GenMAPP]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:GenMAPP]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:6a4843379cb5e356e042740eb7082a57:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+GETTING PATHWAY OF THE DAY for date: Friday 25 September 2015
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:AnalysisCollection' 
+		Pathway in cache: 'WP1365'
+	Did we have WP1365 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP1365','Curation:AnalysisCollectionFriday 25 September 2015')
+END GETTING PATHWAY OF THE DAY for date: Friday 25 September 2015
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP1365_37324.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/a/ad/WP1365_37324.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP1365_37324.gpml" "/tmp/WP1365_37324.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP1365_37324.gpml" "/tmp/WP1365_37324.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/a/ad/WP1365_37324.svg:
+<BR>Status:255
+<BR>Message:[     0.017] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP1365_37324.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP1365_37324.gpml" "/tmp/WP1365_37324.svg" 2>&1<BR>MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:AnalysisCollection' 
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/63/GenMAPP-Portal_logo.png/200px-GenMAPP-Portal_logo.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/6/63/GenMAPP-Portal_logo.png/200px-GenMAPP-Portal_logo.png does not exist.
+BitmapHandler::doTransform: creating 200x198 thumbnail at /tmp/transform_7ea02b6d3fdf-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/63/GenMAPP-Portal_logo.png/200px-GenMAPP-Portal_logo.png
+BitmapHandler::doTransform: creating 200x198 thumbnail at /tmp/transform_2cd021806abc-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/63/GenMAPP-Portal_logo.png/200px-GenMAPP-Portal_logo.png
+BitmapHandler::doTransform: creating 200x198 thumbnail at /tmp/transform_1909a22179d5-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:6a4843379cb5e356e042740eb7082a57:0)
+[slow-parse] 8.31  Portal:GenMAPP
+Saved in parser cache with key wikipathways:pcache:idhash:4880-0!*!0!*!*!2!* and timestamp 20150926055820
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:4880-0!*!0!*!*!2!*','í\\érÛ8¶¿×O¨kÚNW,qÑbÑË”ãØI¦½Uì$3ÓÕå‚HHBL  	ZVR©šG˜g¼OrÏ @‰”%ÇI¤éNßN·e \0Ï   Ï<Ûñjç4ÍXz–Ë$—5Ïmz 3¯åÕ¢Kv+kÛ™gw·¬®WÛ	ø\rÉä8d»5?d4õHOÈá6IDÆ% ±GR RÉoØ6Ô¤ ƒ ™ y@FC.\'…›# È¡GìäVıXPAıëA*ò8ğÈ Mø×Úß&¾  P0Ï&4 x<ğHİfÑ¶ Ñ6iÈ ÀÔg±dévDÓ 7A$)\"XÉívmom\'ÙÛÉ \Z ?¤Y¶[KBÊãÇ×Y­Ğe*>í¸9p“\"Qòm§|0”úk•¾’¢/b¹™ñ ÌÛ²şZ ¸¶·CÑ »µXôE ŠQ­  DgiLC‚JÔˆ ºLîÖ®z!¯kd˜²şnm(eâ5\Z7‘] ñkP9 ÑqV é 1jğ8`·õd˜üMr	:œ‹TÒĞ{Îâ“ıóóÆËX¦âG\Z%ÛÔGÍvYÀeÍ ¢ğ`EXl°ÓÀú½ İûñ »mmëÏ5S ¿ ø : …©ö¶…ê«¿GLY¬\'Â`\Z ±ˆÁƒÚ€ ú»pæôkÅ®Æ’Úó w €3~\Z\r	•ä-˜åÜ˜e§•„5ım§1tP`ˆXøUŠÛ€g  c¯ \nÿz* †á¼H…8(Eë6¹a©ä>\r‹ĞƒúíJì ©“P\0—\"›r´†¬/K¶€ÿl Õi|£ \n£¨8¬»P‚¡,i/dø;Å\0áî‘JxG£Í!£  8«  ìÖŞ²Ğ  »’âJ Ù•±ß• ˜ºc×öˆi Ê hB\n ë&È$,€™êN½½Ë!Ï ×c= ‚¿Cô9”ho€òĞ!c©~§¼  * ½q…x € õQ”Ç\\	  °  Š$Â\'%£Q \\Y ]²œŞ4\Zê  G4I°#ÕŠpÂ\'  %ı”1”   „v!¸ » ˆ—ÿ@ 0Ó\rÏrpç F€\Z#ì6IY–a+T 0 …\Z qŸ TR 5À4  °%h Î%= A2Àp*,—©ç1˜ h ÑW ²: Í )EK¸ NìHSF’T@U”¡d	Kû\"@“A(z@™‚iÆ ŸĞ* +f¤ä±ò‘rß­Ä\'† Õ) ÔÓ  åPä |Q5Ï‘îY,Q p3KA–\r ï q*}ü„ğ £…„<“S­\Z ¸d<V‚÷r  $f£) Eâ)–+\ZÈ „G:4õ‡0ÊTÅRv >WvR*™˜ ±^]GRCõ ø€€Ò±Ñ@|m ñ ø¹©Cÿ\nÔ õ$ LbGt€ÈÎ£ ¡!DYõ 2} K}¤Ü€–W4—CÄêF»Ñv  y(œÙ­9– Q«Pt· #o4 $kÑá#Å ƒ ˆlF¶X$)ådT+a\ZÄ&˜c! «î”> a¦ ¼  (®\0õn  Ò€Iõ]Ôí‡‚JO#Ÿ†Ó¶óW@ ìØ ? ÓÉÿL/¾“ôâ”²?\\vÁ÷P­ ßûÍ“ ÖÂÿV”DäáŞN J ÀÈvMV1¬6\0Å³úPFam FB¦FW\0â †V cèÃ,““! Íş Ì Bí4@ºß7ªı	Xß!`aFö D¬óRÂ­ m‘j #¿ƒ©ĞJQ,™Ì §ù @Í¼)‡6L¸1   yÆs*‰*¬¡Uë ßtòåÙ-%LI\'£R­4 #3iäk˜×x§ \rE$b }JÇcm¶|œ‚Ü } EÑ4ÇÓ„/Xf’³˜<Í¡ß”«§ æHÿ¤ñ \\zÂ¯ 9æ¬ ù7Kéâg¤}šæ>; ñ5 @UŞJÍ Q ó÷¬¸\'4Çä xÊ>Tô  y• ãrÙÏPöŒ Ã÷9L  .éá0ãTTe4e{ä0 /ğë¬`§<¥ ÿ@^±1ËÊ û!»¥8?!ÿ¢QOÄåºyÜA‘œ…W ×!M«2è\Z¢k´ÆêûLÚş í&òœsFÉj• à÷Yeÿ.Æ~8É? «¨Š³¸ ùyD .ÎÏ  L\'gbxZ nLÁ}<¦ä…)»  Œ  Æù šÒ ¢ê È>xÀÂEÁúİMxşL\r¾ÃÔ`¿\'rù L\r”^d²¾Å ‹£+Î vz{o‡TâBÑûo•%DSˆq¡ ûbB}\Z0\\ş‚\"\Z J©•>‰DÌj¤^íÊò ×&tÉ†Zò:¡	@k,$…ÄK5, ²óTôy¨—­¾e9q)‹‡…ş—‚   5 ™ U R^“­  iq¹‘ aöDMŞD®fÂ¨d13Æ ë Æ¨Ic}Š¥¿_Ìßé¥¤Q Ù¢¥/#œî-nçÏµ¯ïv¼8bTB> ü ‡ŒBµ Åş¿Ì$g²_£½÷öÜvÛ­Iö;S¼w@CŸç0·aƒ<Ô˜iöO h\Zpê“  †jíkã àª€M¹x¬ñ‚Ç7 -Sl™)& @¿Ï Ekı°øº®w6\"  è€‘õ×±š·Â¸ “]´ ~mÜĞ aµQhµÿ\0Ïd\rŸúCÖ˜”g7€¹\r\Z4´2WnÇušu(…©± ï †´<óœVË œhîŞ/* ¬ºew~%/ã¾ğ  v¬ sïØg ÁQo*L ö†ÃPVúJ Á²x]‚²0}xBò Ç³€õi Êlí-ŒP@ô) çûÿ(T„Á †Y4°êè¨È“j 5\\b zCyh, Ğq}í0M1j¦fK …±-†1 ¥õ¾Ğvƒ$\nç  ‹×ŸŸ ã Y‹¼öZ™líŞLÓbòc(· {e­˜FìÇ Dï/X.Ô!ŒJÅ¯\n\Z N\r…Œô˜ 1  Å ·û _Qi\nä,)€ŸŞ€Ô  ğßÔ-7”úm >VBl*¾“œ¦ãñãùÍuÓ‹7Ï¡ âäŞVç§Ø*‰ïouùòè Ê%ï÷ï§ö ›% ´ºÔ›“…· 2_w¼ â ÷ 9fTıTDª#âh ëÎ¾*˜Z½¾öŠ ØA<	ÈÄÀFÄòÈÙÏ ˆí ş¥`{t ¤u*¢ Æ T:ñ£¢ªKwŠ<@ı:  Lk Oy~ó ÑmËvNÈæ;š.Œ¶QÂ ec h7ØO®|HÓêøHmi Z Z2Jîôû\ZqĞØjP³µ\nëØÛî vbİ¬€ÌÉ  >=Ûét×\0H`/Sê³bÙMè\r ë[ˆoØN³ıØ+F* ) *6ÖgèÖëõõÇf ~ìoãk7»3|3zÃŠÎ   +6ÖÁ¤eÎ7ñl» –y   6Ÿ—ûP^¦ær˜G=­[Ûá É î‹¿~u¬Ù< Oæ¬Ä¬ùÕÌZÖ”—*õ¼ˆ^3õõ rÈ³Ş»\rø ¾aZÁ\\j}fĞE×BéçÓA<ÖñÀt iÖöæ âP¾P (ã·d$Q üêZVÙ3-ò  òXA×¯³F€q r¤©êx2 5¯¦  õ\nçù’ Ë/hP ¯½x Œı0 ğÀ† §¡¥Rnt[® „ì-¼Â3=W¨Ø MS:ŞXŸÑL ´u%¶¯bë´l ?X¢{?H ÿ<2¦Øğü’E	n: !¬_=;;AƒşŒ^\"|Î iëá\"áœ\\@â“‰ 	ë~du:Uázˆ y/ƒ4/W²)–OÈ=\"–äé~•‰šV ¥8ŸT¢°[˜m SÛœÂø7ËÏ^ŒÍ+3À\\ÅíÅ`}ŸæVÇı ÍŸ «Ìs1XßÃÓ¶[nUe0 ÌSØ šrL<³õ  /{—šÎK‹û ¾­æ Û aTÑ\\OHŸ† 3¿Ê ,Fó ’  èj/„¸Î”\0ÍN{Vo?‡ôè†]ÒÁb!Êl àâ”‘ç l 09ëC ø Ğå B ¥ ò}â´È Lœ˜¿ƒ<U“3o_ „3¥8ŒUdX>øÍˆ? üìß ı*æ\\ İï\r í¯CB·ÛıJ$t~ $¼× Î  â\\šİögm ¥‡!Ãƒ¸ *Í2÷/ÀÆ¹Ü[fLº£c‘nÂßÁ~:È‘ûÆº9IœU’é¯ Jw«éÜÏú3\\ ƒã #¡; ”Œ~C ´şË9ó  ùßé	_ ß`ß\0\rçkşu(øMY‘û @ø¥YÑÇG¯Ï÷Ÿ îŸÌ$ î×e€[ŸËŠîåù\0”3 ÑÀK(¸ } ÿVÜ =ÜL¹\' ¹N\\}‰ë¿§×7²ÔúoöXO»‹OµhS ÷ x¨ïÊ XÑ  \ngD/`°| lcF:Åze‰ €•çB„ \"G¿h£YÊhPúV¤×û¸# ²7œ”\\ÀÒ2 \0 ¡¢èw¬¡o¸\"AÓ  c•¬Bü `§÷~² Ê¸¯¾ë| áÅ0Väo ¾Bû ¸…®ÑÔ\\´Ê”…^p\ZŠ*Å \0Ó„¢kµ€â	 8Å2 ŸúÒÈ~%q4:<	Ñ2ß àĞ„o«½ï+ö>g™,«Ô|\0ÜLÔÚºC:¢<® ¼ GÌ†ßF«{‡NšWÉ8ä#’şTœW aqô\0D \r_Ş ùÍÉ;{“ 	ó9\r=ó»˜ëÀÌKŸÏÇH)– Dº;3 âÙ H¨×Ğkw¶ÿÔi.ÜE  ¯{é}ĞÉ\n­ô31ŠCA ¥ø ™½1ÉP2–y¥ƒ yHĞ–dºïvß†l±2N¥?,¸)  Ê»û±H† † 2 QS¦4ÇUûËqÂvqÕ[•H:¸Wÿ©?b >Û»C ÍQ ÂÒ„Oi \"Á ZrHCNcº,ùç^…\nO Ğ§yšgK |Jp%âRŸ‡a‘,ïI ò¥I=Kw Â P ‹tH{ —àVˆÎ —¥Á|â«Q#  }\Z  \\ U²« ½´“¿$©K W\"p*2\02 R 1 hÄ€fÒ\\†X‚ğó©¯B‘ÃÌ ‚‘ü!Ç u!_’ ³dW\"úû €Á§=Š ±,Á+DW!ösE †¿%J]¡¹ ¡y¯Ç ÿ‚ˆüÀ–– ÌP]…à/D$HF Î–†èe’« ù < å™Ÿ//>Ê$W\"òØ =˜ºA—Ï#\"sğ*ğ ÙÒ ¡Å V¡ÎY:ş@ÁÅ’ß,+o,“\\…Èç4&2 ƒP cÉ–eö ª+ \\$ •À F áÓ4Y–ÉçP^… ¯¨”À ’¼ 6àşÒúì º« ş‚úş¦\"\Zã1C À  I-\rà ‘_‰* 2%\0‡   oMÉ¢e©1‡ôJTÀ‰ŸŠş²ºÀ”à*Äı ƒü Z/IØ‚ÜTÔïáŞúœ‹\nk;67ÉÚ) Ÿ“G\\â% ‘Êµò  ŞOáx¡6   ÀÌcé‘f»Ó°-õ¯Ú ïœè Õ”›Û®Û¶ ™üßÿGo= ³ GÔYwâtÛ­NÃ±º »å ‚ùZ± D¨Ù¢3m]§İiú Œ‹/ P´õ)Q–àIóN£i­ Ş&xŒá† ½g09nPˆi¡Œk››…i.è\rC	‹öê¤¥>}ÍÆ¤ ‰^¢*=  i6ôš[[Ö¦õè§GøóÓ#çÑOú½9< ñ èˆcÙ-«ë´­VkË± òTïZkzµè˜Æƒœ Ø±ºL±M=Ëûø	êl¨;\0C D\na]ª°ğmm¸$8ye ©Ş\\ÀÒ6Ò.h:ŞGî9ğ¥ï{C ¥ûÉÛ 4è6‘’ãÕ* ±ªmu59sıV7o›æ•›²P ŠÚªÎõjÕ«¬ø\\§‹´º^mzµT‘³œíOğ¬…\"Ú(\"°3‡ï‘fÓíZÛŸ&Ê› ™jf[møº¥tëxÅ›z\Z=q»© O5“-g[Sx\nåøæ,¦$n¶:[FàÊ;ÕÌCªn«J4ÆãÖ¡ià\ZK”ß˜bªº3tÕ»	Œ ™:u‰ÏÔ©çÚÓºb¹VUw-W «° RÁ³6ãÌ¬æj?8Mm2§d²—Á— ­Óµ¶šó­Öµ-w‘ÙÜnÇuîµ  ^d8gËî.´ >¸Ğt¶½Õnßc»ÕuÛ 1Ó²;Êz`˜H  TvSO8SÎw^ì„ÏnÒŠGxœö‚áû«Ì¾ÙÃH(÷d tj ¢ƒ „ØğËršmw K¡0 R ¿º\0 á»–•Fã iÚ{×c_\'ï{a~Û eĞz÷®SÓÁ€ˆshö&&èĞR†€^9ïx¬R	Dv¼ 7úŠ îÂ ¥—Ä mİ…mK÷ Mc İ¹´½’/Ù\'™¸ ß‰¯eK‘÷<¤†Ø½( êyÖ¶yæ  Øœ*D±Së#, WJ_@ {)YT¢¡t\"‚<¬Œ ÍIé…ŸòD–ëÜi æ\nåªÖ¤ÊÜò)W\"RèÍ`u–mZ ¡ á] ¼kZ-5š ¡Í=«À  [\nHRnØÄ‘ÀÜü\rÌ¼šk¢X½À ƒ  pÿû	Í¸ Yo Ñ@QQ \0(« Pd CoªR  ï‡ 4ƒ ¶f Ê ²´õ1­ ı~Æ\0LN5+\ZÃ,M±Âğşì  u\'C  \\\Zã\\Šk† 2nÆp9O1e—|2†) b  C^ KÍ`\\,ğBaV ©3aqyvğâòä¸üˆÎ LâQ  Ëj9 Ëv¦   tûKyûÿ/ ß`Às r\\\"ˆN™i¸ïcúÇ‚ ª)\rÀÜê8<&l¨­mTÈdŞ“ÙCÏ  ] ò»­;„Á^\" h:~F%}­î=”ÂÍÙºóÀaqT  ¨ö˜7úŞ	 »Ş®7\'öQ—).«àZÊÏjf\\Òí ä©\Z Ü¶¥ ˆc  ¤ <ÎÎÂà„ÂDX{÷Óÿ ','20150926065820')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:GenMAPP]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:GenMAPP&oldid=37324
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:GenMAPP]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:GenMAPP]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:GenMAPP]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '4880'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

@@ -1,0 +1,97 @@
+
+
+Start request GET /w/index.php?title=User:I.BenShlomo&action=edit
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:I.BenShlomo]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+EditPage::edit: enter
+EditPage::importFormData: Not a posted form.
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.65.148
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+User::getBlockedStatus: checking...
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+EditPage::edit: User can't edit
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 655
+User: loading options for user 655 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2015-03-11 19:29:42') AND (exptime < '20150311231118') AND keyname IN ('wikipathways:pcache:idhash:25991-0!*!0!!en!*!*','wikipathways:pcache:idoptions:25991','wikipathways:pcache:idhash:6078-0!*!0!*!*!*!*','wikipathways:pcache:idoptions:6078','wikipathways:pcache:idhash:6935-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:6935','wikipathways:pcache:idhash:12580-0!*!0!*!*!2!*','wikipathways:pcache:idoptions:12580','wikipathways:pcache:idhash:4898-0!*!0!!*!*!*','wikipathways:pcache:idoptions:4898','wikipathways:pcache:idhash:28627-0!*!0!!en!*!*','wikipathways:pcache:idoptions:28627','wikipathways:pcache:idhash:4064-0!*!0!*!*!*!*','wikipathways:pcache:idoptions:4064','wikipathways:pcache:idhash:13391-0!*!0!*!*!*!*','wikipathways:pcache:idoptions:13391','wikipathways:pcache:idhash:16503-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:16503','wikipathways:pcache:idhash:4056-0!*!0!*!*!2!*','wikipathways:pcache:idoptions:4056','wikipathways:pcache:idhash:15218-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:15218','wikipathways:pcache:idhash:13758-0!*!0!*!*!*!*','wikipathways:pcache:idoptions:13758') 
+Title::getRestrictionTypes: applicable restrictions to [[User:I.BenShlomo]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User:I.BenShlomo&action=edit
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:I.BenShlomo]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+EditPage::edit: enter
+EditPage::importFormData: Not a posted form.
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+User::getBlockedStatus: checking...
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+EditPage::edit: User can't edit
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 655
+User: loading options for user 655 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:I.BenShlomo]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

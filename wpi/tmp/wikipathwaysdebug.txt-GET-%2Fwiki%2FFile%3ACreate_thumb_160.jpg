@@ -1,0 +1,61 @@
+
+
+Start request GET /wiki/File:Create_thumb_160.jpg
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/MediaWiki:PullPageList
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Create thumb 160.jpg]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+ExifBitmapHandler::isMetadataValid: back-compat version
+RepoGroup::findFile: got File:Create_thumb_160.jpg from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 104.244.158.209
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/c/c4/Create_thumb_160.jpg/160px-Create_thumb_160.jpg does not exist.
+BitmapHandler::doTransform: creating 160x118 thumbnail at /tmp/transform_238c14533304-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Create_thumb_160.jpg from process cache
+RepoGroup::findFile: got File:Create_thumb_160.jpg from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Create thumb 160.jpg]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:16395-0!*!*!*!*!*!* and timestamp 20160515220544
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:16395-0!*!*!*!*!*!*','uT]o⁄0 Ì3ø¬Õ„$:\'|µfö4±n ïÇ €û›¯.ÒHlÀvZhUi?aøqødæ ⁄\0 <ÄÓ9ææÁ¯ÿ3 \',ösÎ¿Œ*o* ±Nó=9÷cQπÑµèÜéu./Y‘˙pﬁnì÷-<ÃÁ§ê•ÙƒÇ—÷∑Ê·◊Í ú”ñ‹K\'= ¢¥\0íÍJyFË˚ò÷üCj \n,?&\'ØdÌ¸ﬂﬂ`m∏ D™¥® Õ…G¿ñ	Ω\ZƒΩÑ‹m<∏÷ JSÑ^Ñ€¨*A˘ˇ∆2À¡yR7uR+\"¿¯ â]⁄∫^  ’{ ¶∂Ñ¸¨TÍë’T“j∑?∂∂v,¯=‡h{~ ” »ÉÙ9Y¡&¸YI√}˛¿7éô\ZdR‰‹Â,ÓwÆzmz˛ÓıKP¶óeòèóÜ$4Ó”^ =°Ωnó‡¶x q7úÃ\rWY≈3∏ëjÂ¢!gî== , ÿ(ÿêi+°	P<NÈ ÿüi  ¯ã,Äç,†o>Ø ; vº¯e2$Ùqõ£ˆuóù”Õz“®OD   `RÜAõÏ ¶ ∑^\0∑i>3hp GÅ◊k VÒ‚x åÂD  ≠}K}»Á Í3ãÜwå wk∆R¿  \n∫’_yQÄ› T«¿≈ƒCŸËèsOµ®\n8ûv[]§V\Zﬂƒ:Øòﬂ .ÎΩ@”p é B?∑◊q¨uS‚U\0~p´§ é™;e«>_ Èw–RØ\0ÒùH4knµ Î ¢Ç´ñ≥—x9Ω¡  /¢·KÄvŸ‹Á0D4¶1 $qá“A ´ õ≥Ê{r éK¿zÆ ôn\Z\r;ÙÑ¯)≈á ƒI\":Ω n–§ï‡vÛô{˛Õà√@&ó\' 0PıÖ« ájøÉuu(ÍW/æË_t_$èŒ¢ÓÜ‰∆≠¨´…û û â1∫≈*F§ïÁRπY!¶<ìÈ÷¸Á','20160516220544')
+ExifBitmapHandler::isMetadataValid: back-compat version
+ExifBitmapHandler::isMetadataValid: back-compat version
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Create_thumb_160.jpg from process cache
+RepoGroup::findFile: got File:Create_thumb_160.jpg from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Create thumb 160.jpg]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '16395'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

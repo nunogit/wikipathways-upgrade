@@ -1,0 +1,46 @@
+
+
+Start request GET /wiki/MediaWiki:Toolbox
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/MediaWiki:PullPageList
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[MediaWiki:Toolbox]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 107.161.157.110
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:1535-0!*!*!*!*!*!* and timestamp 20160515223012
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:1535-0!*!*!*!*!*!*','uTÑnÚ0 ís¾ÂÍã$Z\'!´5U¥‰u£R)H°õÙï ‹Ä¶l§…U•ö	ûÆ}Éì J€Ž>€î9÷öž{Ïõ”D1	gT ÐÓÚªÚ†$é“WCR V XÙphH ;ÒµºYHY>ÉUp}®n‚ëÓ^   ð2›¡’WÜ\"\rJj ÌÜ·–  #5zæ†[`HH (“µ° Eç n>ûÔ  hzHîïÈÒØ¿¿ÿÀJQÁ  YY;šá¿€ | ã«‹(ÑÓÚ‚	 P©ÒÕBTçu Âþ‡7æy Æ¢¦¨áR  Ê ¾Ç> nW\n\\ô j&„~Ö\"³žÕ6‡}sA¯w lÆ1§Ïà[Ûò3š €^¸-Ð ÖîÇ’+j‹ º6D5 á¬ ¦ Qš¤=|úi÷‡¼JË+× ­ Šq4À©ë<Np #ÿ?ýj¢¾ÛÓ= yMs¸çbiÂ!%˜¼¾9,rØÈM!—šC À~¹Ü–°ÝptAÂ	0N ]‹¤Ý³  ¾üAÙ&» p7 wâw¬ƒ¸âÕ]å\Zì²/]ð+/a TgÅTù¹vq/ìveA Z vàÍy\' æ\'ú‘jgË94«\n‡O  Ûœ1gð ä =Èo´,A¯÷¢c ìÎBÕ©ïûžHV—pØí&:Ï4W¶‹%;Ì®÷ÓÒwhâŽà`B~ž›£ KÙ•xå€Gª  ùA´Uv8ç[Æm -ä <ÞŠôÃši©@Û=‹ø¬Åt4^Lî½\rÜ,Âá»qZOný c|û8ÅI4H®|4v¶9é¾*\'n] V3YòlÝ)˜à#âçÌ¿ ÀŽ ‘¤G\\§I\nFõú µô»bû†Œ/ ¼¡š;÷	ûj€6)š·/: œõß%ü©zÝ;ÉÝkl¢ñ–ç^\rîmôÐÞU5’ÂR.Ì´d šól3ü·','20160516223012')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[MediaWiki:Toolbox]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '1535'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

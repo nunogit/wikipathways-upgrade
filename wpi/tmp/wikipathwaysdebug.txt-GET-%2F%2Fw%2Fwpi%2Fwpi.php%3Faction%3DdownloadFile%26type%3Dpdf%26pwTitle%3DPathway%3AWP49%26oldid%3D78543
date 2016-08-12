@@ -1,0 +1,29 @@
+
+
+Start request GET //w/wpi/wpi.php?action=downloadFile&type=pdf&pwTitle=Pathway:WP49&oldid=78543
+HTTP HEADERS:
+CONNECTION: close
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+HOST: vm1.wikipathways.org
+COOKIE: wikipathways_session=95cisbv0vtcqs2sc5nl7d0l9a0
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+[cookie] session_set_cookie_params: "0", "/", "", "", ""
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+IP: 188.143.232.62
+updateCache called for filetype pdf
+	->Updating cached file for pdf
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20150515201613, touched '' epoch 20150515185216, good 1
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/4/4c/WP49_78543.gpml to pdf in /var/www/wikipathways/w/images/cache/pathways/pdf/4/4c/WP49_78543.pdf
+[ContentHandler] Created handler for pathway: PathwayHandler
+FileCacheBase::isCacheGood: cachetime 20150515201613, touched '20150107103041' epoch 20150515185216, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/4/4c/WP49_78543.gpml" "/tmp/WP49_78543.pdf" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/4/4c/WP49_78543.gpml" "/tmp/WP49_78543.pdf" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/pdf/4/4c/WP49_78543.pdf
+moved into place WP49_78543.pdf

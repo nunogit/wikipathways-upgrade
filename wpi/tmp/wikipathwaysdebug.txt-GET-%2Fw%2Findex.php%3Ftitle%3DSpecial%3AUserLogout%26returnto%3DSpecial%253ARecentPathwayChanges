@@ -1,0 +1,54 @@
+
+
+Start request GET /w/index.php?title=Special:UserLogout&returnto=Special%3ARecentPathwayChanges
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+REFERER: http://vm1.wikipathways.org/wiki/Special:RecentPathwayChanges
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,fr;q=0.6,zh-CN;q=0.4,zh;q=0.2
+COOKIE: __utma=141536308.795546891.1416096662.1424200924.1424207514.86; __utmb=141536308.3.10.1424207514; __utmc=141536308; __utmz=141536308.1423943373.81.11.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=http%3A%2F%2Fwikipathways.org%2Findex.php%2FCuration_Events; wikipathwaysUserID=5; wikipathwaysUserName=AlexanderPico; wikipathways_session=uru2mvaolu9lf11bo3ihe60v27
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+[cookie] session_set_cookie_params: "0", "/", "", "", ""
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+User: cache miss for user 5
+User: loading options for user 5 from database.
+User: logged in from session
+User: loading options for user 5 from override cache.
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+[cookie] setcookie: "wikipathwaysUserID", "", "1424122890", "/", "", "", ""
+[cookie] setcookie: "wikipathwaysToken", "", "1424122890", "/", "", "", ""
+[cookie] setcookie: "wikipathwaysforceHTTPS", "", "1424122890", "/", "", "", ""
+[cookie] setcookie: "wikipathwaysLoggedOut", "20150217214130", "1424295690", "/", "", "", ""
+User: cache miss for user 5
+User: loading options for user 5 from database.
+IP: 10.1.2.3
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+DatabaseBase::query: Writes done: INSERT  INTO `logging` (log_id,log_type,log_action,log_timestamp,log_user,log_user_text,log_namespace,log_title,log_page,log_comment,log_params) VALUES (NULL,'userlogin','logout','20150217214130','0','10.1.2.3','2','AlexanderPico','4799','10.1.2.3','')
+User: loading options for user 5 from database.
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Class PEAR_Error not found; skipped loading
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:resourceloader:filter:minify-js:7:900355c2929f612e42a9193240b7621f','uUMs€8 Ω˜WdxJ∫n*)ñe)ß˛Åù=Ï± àÇ,∆ ÈíTîl¶ˇ}AR˛d:„Ò è ¯Ä Ç∂)Új›∞q~î\Z:4èb<H Qπ{6Y≤ı¡	≠,[ıì‚˛Û˛·Éº/◊ -∫˚ ∆˘àZ· BZ÷d+∆µˇÿ“W  Y√:Ïaíé  ˙^+˘ ¸:a°ïa„•mß› ≠  v¬— w ƒÉZu≠‰R˝…œb‡…ö¸ ÷ à›‡.|ïv¢ Ö“&∏QÏú aÉØ  ∫Œ\\¯˙§ »˝ àXå    §∞Ób·Õ°ÍN 1 aFÅÙ…_ !ëxP äø[±ãÜ6  ∑i ¡ƒjÌ(.í3õ‘^ÈY ÂAt Ú  ﬁ:Ä3ZR‡Äà—Û ˇë ≈äΩLñ8«`#∏!\r€è•ı+\nÁêM\ZMi |¿„∑VØT )‘~Aºk |JSMcãf@ËÑ⁄≈÷8P} ŒZı¬,’9AN  •_ )’ÇYt1ºÉw⁄]˘O)FA€J⁄g®[}¸ X;S !ò—3π ÂäY „5 ˛ -ŸAœîTáäÉãl<Ù2Q„S Q>èD⁄6hHƒâF∆‚ä”¸‰Â¥ñÅ§∑˜Ç⁄éÕb/®d√Ï˘ Í¶÷\rÜJ©edÁ \n}“cÚz“—ãeQäW\\™ ‹	\"5  F†√\rBºñ±6 ºTo $∆õê≠æ∞S/∆2≤Í∏œc^eP!`v ∑⁄}ÇJ1•‡π Ø`ﬂ§	x›Sai‘Ø∏ %èÇyÖ_¡  wü(KPªâ\Zì,ÙΩ ı˝€fG} ;gM “‚ ) ‰)A÷	R&»&A™ Ÿ&Hù yñB)Î<•ùßºÛîxû2œ≥liò3í\'Hq[…Ï)A>9.˚Ïº¥VyvÆ º¿[ƒ£∂4K ÕD>ÄÒ ZfgÃﬂèÄ-s ùü\\Å÷@s]˙Ÿﬁ\ZΩGµ$§hz( }£¸ê¯ ˛ñ˝#∏æ»£æmö:ø nãQ k·ƒà\\ s|lÿ∑™°Ú˛~x~˛Ω˙øáÁ?ø™Œ ˝¸QçKÀõÍS˝wIjª-Û*´ä∫«M]dE_¬¶^ì |ãUWø~˛dtœ„≈Z6-Ö ◊Î ß/9¥˛èf`_m;ﬁmÀ≤-yΩÆ¯:ﬂT>ŒU\Z_æΩ #ˇnèÔÕ›Âxkh¨Èâ^©òg” IOZCÉÄ^òo/∂©ö:Àû í 5 ﬂ‰ Æ ®Û˙©Xgmµ)Ú˛ÓÎwˆ¸?','20380119031407')
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

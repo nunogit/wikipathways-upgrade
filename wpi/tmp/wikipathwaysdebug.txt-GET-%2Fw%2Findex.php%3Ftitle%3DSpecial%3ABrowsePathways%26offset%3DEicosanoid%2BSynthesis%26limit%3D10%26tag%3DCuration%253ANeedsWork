@@ -1,0 +1,135 @@
+
+
+Start request GET /w/index.php?title=Special:BrowsePathways&offset=Eicosanoid+Synthesis&limit=10&tag=Curation%3ANeedsWork
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.44
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1541]] are {edit,move}
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214174220, touched '' epoch 20150214190924, good 
+	->Updating cached file for svg
+FileCacheBase::isCacheGood: cachetime 20150214174220, touched '' epoch 20150214190924, good 
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20150214174216, touched '' epoch 20150214190924, good 
+	->Updating cached file for gpml
+[ContentHandler] Created handler for pathway: PathwayHandler
+FileCacheBase::isCacheGood: cachetime 20150214174216, touched '20130708173658' epoch 20150214190924, good 
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/e/ea)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/e/ea/WP1541_68947.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/e/ea/WP1541_68947.svg
+FileCacheBase::isCacheGood: cachetime 20150215000031, touched '20130708173658' epoch 20150214190924, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/e/ea/WP1541_68947.gpml" "/tmp/WP1541_68947.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/e/ea/WP1541_68947.gpml" "/tmp/WP1541_68947.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/e/ea/WP1541_68947.svg
+moved into place WP1541_68947.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150215000034, touched '' epoch 20150214190924, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2636]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214235259, touched '' epoch 20150214190924, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214235259, touched '' epoch 20150214190924, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1495]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214235301, touched '' epoch 20150214190924, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214235301, touched '' epoch 20150214190924, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2840]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214235305, touched '' epoch 20150214190924, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214235305, touched '' epoch 20150214190924, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2839]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214235307, touched '' epoch 20150214190924, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214235307, touched '' epoch 20150214190924, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2645]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214235309, touched '' epoch 20150214190924, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214235309, touched '' epoch 20150214190924, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2806]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214235312, touched '' epoch 20150214190924, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214235312, touched '' epoch 20150214190924, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2813]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214235314, touched '' epoch 20150214190924, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214235314, touched '' epoch 20150214190924, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2815]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214235316, touched '' epoch 20150214190924, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214235316, touched '' epoch 20150214190924, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2817]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214235318, touched '' epoch 20150214190924, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150214235318, touched '' epoch 20150214190924, good 1
+ContextSource::getContext (ThumbPathwaysPager): called and $context is null. Using RequestContext::getMain() for sanity
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

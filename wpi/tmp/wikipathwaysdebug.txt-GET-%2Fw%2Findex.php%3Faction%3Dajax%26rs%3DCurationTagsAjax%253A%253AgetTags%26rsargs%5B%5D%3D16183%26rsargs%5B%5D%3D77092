@@ -1,0 +1,60 @@
+
+
+Start request GET /w/index.php?action=ajax&rs=CurationTagsAjax%3A%3AgetTags&rsargs[]=16183&rsargs[]=77092
+HTTP HEADERS:
+ACCEPT: */*
+PRAGMA: cache=yes
+CACHE-CONTROL: no-transform
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP1837
+ACCEPT-LANGUAGE: en-gb
+ACCEPT-ENCODING: gzip, deflate
+USER-AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+HOST: vm1.wikipathways.org
+COOKIE: __utma=141536308.710203718.1469462789.1469462789.1469462789.1; __utmb=141536308.1.10.1469462789; __utmc=141536308; __utmz=141536308.1469462789.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmt=1
+MAX-FORWARDS: 10
+VIA: 1.1 ws500.adaptimmune.corp.local:8080
+CONNECTION: Keep-Alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+AjaxDispatcher::performAction dispatching CurationTagsAjax::getTags
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+User: cache miss for user 39
+User: loading options for user 39 from database.
+User: cache miss for user 9550
+User: loading options for user 9550 from database.
+Parser: using preprocessor: Preprocessor_DOM
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+IP: 88.98.68.56
+[ContentHandler] Created handler for pathway: PathwayHandler
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/08/Reactome.png/27px-Reactome.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/08/Reactome.png/27px-Reactome.png does not exist.
+BitmapHandler::doTransform: creating 27x25 thumbnail at /tmp/transform_577883376aa2-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/08/Reactome.png/27px-Reactome.png
+BitmapHandler::doTransform: creating 27x25 thumbnail at /tmp/transform_36c815443518-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/08/Reactome.png/27px-Reactome.png
+BitmapHandler::doTransform: creating 27x25 thumbnail at /tmp/transform_4ea048151567-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+AjaxDispatcher::performAction dispatch complete for CurationTagsAjax::getTags
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

@@ -1,0 +1,130 @@
+
+
+Start request GET /wiki/File:Categories.png
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Template:Curation:Uncategorized
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Categories.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Categories.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 63.142.250.123
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/db/Categories.png/25px-Categories.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/db/Categories.png/25px-Categories.png does not exist.
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_1f8471032ced-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Categories.png from process cache
+RepoGroup::findFile: got File:Categories.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Categories.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:7608-0!*!*!*!*!*!* and timestamp 20160516041341
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7608-0!*!*!*!*!*!*','uTínÚ0 íoÂÍÏItNø(5Ó¤‰u © $ØöÛï ‹Ä¶l§…U•ö {Æ=É| ”\0   İsîÍ=÷ {Æâ„Esn ØYåMå#Öé²gÇz,*—°öÑĞ±ÎàšE­ —í6iİÃÓ|N\nYJO, m}k V§àœ¶äQ:éA ¥ TWÊ3BßÇ´ş S3P`ù)99µóÿµáJ ©Ò¢\n4\' –LèÍuÜKÈÃÆƒk-¡4E¨E¸Íª ”ÿ o,³ œ\'uQ\'µ\" ŒÏ‘Ø¥­Ûµ } bê‘Ÿ•J=²šJZíöÇÖv  ş ØÚŸò4 ò$}NV°	VÒpŸ?ñc¦ ™ 9w9»îÓA›^¾;|	ªô² íñÒ„Æ}Ú ¿nÜéÆ ß‰»ˆ»a1w\\e ÏàNª•‹†œQöü °8`£0…L[	M€â6¥/`¿Òø†E_d ì@¿2*C¨/8)\\çïFÜŒ\'øD4`˜rR† ›ìA âK ÀmšÏ N¶‰£´Ûµ «xqÚ úq¢ †3}Kw0æ êeEÃ F‡»œ± ğ „‚îõW^ `7GÑ1p1ñP6êcßS-ª N»İF ©•Æ7±Î ó›ã´Ş+4\rÇàdB8Ïí9 kİ” ÖUşàVI•DwÊNç|+¤ßAK½ Äw\"qXs«\rXd ÌZÎFãåô m f \r_­³såŞÁœ”&q Ó.í% M‚m.š ÉEX—€õ\\ 2İ4\nvè ñSŠ7 ˆ3GtzgÜ I+Áíæ3÷ü› Ç†L g	h¨ú¤cÂ±Úï`]mŠúº‹¯úWİWÉ#<¬¨»!¹q ëh²ç…{C¢î1ŠÖ iå¹TnVˆ)Ïdº şË?','20160517041341')
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/db/Categories.png/25px-Categories.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_10f5140b1e99-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/archive/d/db/20100211104052!Categories.png/50px-Categories.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/archive/d/db/20100211104052!Categories.png/50px-Categories.png does not exist.
+BitmapHandler::doTransform: creating 50x43 thumbnail at /tmp/transform_3b9c3727f761-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Categories.png from process cache
+RepoGroup::findFile: got File:Categories.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Categories.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7608'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Categories.png
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Template:Curation:Uncategorized
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Categories.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Categories.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 162.248.100.80
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/db/Categories.png/25px-Categories.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/db/Categories.png/25px-Categories.png does not exist.
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_201b128a51a8-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Categories.png from process cache
+RepoGroup::findFile: got File:Categories.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Categories.png]] are {edit,move,upload}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/db/Categories.png/25px-Categories.png
+BitmapHandler::doTransform: creating 25x22 thumbnail at /tmp/transform_66bcef3c2391-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/archive/d/db/20100211104052!Categories.png/50px-Categories.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/archive/d/db/20100211104052!Categories.png/50px-Categories.png does not exist.
+BitmapHandler::doTransform: creating 50x43 thumbnail at /tmp/transform_66279a7e113a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Categories.png from process cache
+RepoGroup::findFile: got File:Categories.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Categories.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7608'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

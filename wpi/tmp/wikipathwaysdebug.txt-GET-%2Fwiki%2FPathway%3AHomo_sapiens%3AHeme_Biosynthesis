@@ -1,0 +1,1040 @@
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.44
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [23dbe4ee] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [4f774e77] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [48b896d3] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [1dc4c435] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [332661e6] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [5c8d6023] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [574503ee] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [79044ef5] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [eb662b88] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2015-10-26 20:53:44') AND (exptime < '20151027044212') AND keyname IN ('wikipathways:pcache:idhash:17274-0!*!0!!en!*!*','wikipathways:pcache:idoptions:17274','wikipathways:pcache:idhash:33933-0!*!0!!en!*!*','wikipathways:pcache:idoptions:33933','wikipathways:pcache:idhash:33147-0!*!0!!en!*!*','wikipathways:pcache:idoptions:33147','wikipathways:pcache:idhash:33148-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:33148','wikipathways:pcache:idhash:7537-0!*!*!!en!2!*','wikipathways:pcache:idoptions:7537','wikipathways:pcache:idhash:17718-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:17718','wikipathways:pcache:idhash:17717-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:17717','wikipathways:pcache:idhash:17720-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:17720','wikipathways:pcache:idhash:17719-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:17719','wikipathways:pcache:idhash:32957-0!*!0!!en!*!*','wikipathways:pcache:idoptions:32957','wikipathways:pcache:idhash:33350-0!*!*!*!*!*!*','wikipathways:pcache:idoptions:33350') 
+[exception] [6ebdc506] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.66.159
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [7c309aa2] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.66.155
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [53a88fc2] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [33913ad3] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.69.4
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [3009899d] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.69.4
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [43fe784d] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.69.4
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [6b7e517f] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.75.37
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [3fe4f818] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Pathways4Curation
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 68.67.75.107
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [220c7f84] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.13
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [5c1a5ca3] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [a827b3d4] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [7534165d] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.65.48
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [642dacc2] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.65.48
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [82a854b5] /wiki/Pathway:Homo_sapiens:Heme_Biosynthesis   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:Heme Biosynthesis' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21861, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Heme Biosynthesis]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!

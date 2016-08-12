@@ -1,0 +1,391 @@
+
+
+Start request GET /w/index.php?title=Template:Curation:NeedsReference&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.44
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [6da3fe25] /w/index.php?title=Template:Curation:NeedsReference&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2015-03-02 19:51:12') AND (exptime < '20150302210556') AND keyname IN ('wikipathways:pcache:idhash:7155-0!*!0!!en!*!*','wikipathways:pcache:idoptions:7155','wikipathways:pcache:idhash:7248-0!*!0!!en!*!*','wikipathways:pcache:idoptions:7248','wikipathways:pcache:idhash:17168-0!*!0!!en!*!*','wikipathways:pcache:idoptions:17168','wikipathways:pcache:idhash:7339-0!*!0!!en!*!*','wikipathways:pcache:idoptions:7339') 
+
+
+Start request GET /w/index.php?title=Template:Curation:NeedsReference&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.67.44
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [f3cd88c2] /w/index.php?title=Template:Curation:NeedsReference&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Template:Curation:NeedsReference&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [7f3145e6] /w/index.php?title=Template:Curation:NeedsReference&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Template:Curation:NeedsReference&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [311e9234] /w/index.php?title=Template:Curation:NeedsReference&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Template:Curation:NeedsReference&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [46a38cb2] /w/index.php?title=Template:Curation:NeedsReference&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Template:Curation:NeedsReference&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.13
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [760962bb] /w/index.php?title=Template:Curation:NeedsReference&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Template:Curation:NeedsReference&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.13
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [798aacae] /w/index.php?title=Template:Curation:NeedsReference&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Template:Curation:NeedsReference&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.16
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [706ca2df] /w/index.php?title=Template:Curation:NeedsReference&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Template:Curation:NeedsReference&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.13
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [3e990415] /w/index.php?title=Template:Curation:NeedsReference&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Template:Curation:NeedsReference&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.13
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [6ec4bad9] /w/index.php?title=Template:Curation:NeedsReference&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Template:Curation:NeedsReference]] are {edit,move}

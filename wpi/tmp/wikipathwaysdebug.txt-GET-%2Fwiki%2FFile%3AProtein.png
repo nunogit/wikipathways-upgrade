@@ -1,0 +1,172 @@
+
+
+Start request GET /wiki/File:Protein.png
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Protein.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Protein.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d8/Protein.png/315px-Protein.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d8/Protein.png/315px-Protein.png does not exist.
+BitmapHandler::doTransform: creating 315x263 thumbnail at /tmp/transform_221e6585b218-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Protein.png from process cache
+RepoGroup::findFile: got File:Protein.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Protein.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:34295-0!*!*!*!*!*!* and timestamp 20160204181703
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:34295-0!*!*!*!*!*!*','uT]oÚ0 í3¿ÂÍã$:\'|ÖL“&Ö\r¤R`Û³ ß% ‰mÙN «*í\'ì7î—Ì7@    A÷Ü{sÏ¹Ç³8aÑ‚[ v^ySùˆuºìÉ± ‹Ê l|4r¬3 ²¨õá²İ&­;x\\,H!Ké‰ £­o-ÂÛê œÓ–<H\'= ¢´\0’êJyFèû˜ÖÏqj \n,?MN^“µóÿáJ ©Ò¢\niNş l™ĞëAÜKÈıÖƒk­ 4EèE¸Íª ”ÿOŞDf98Oê¦NjE  Ÿcb—¶n6 Bô ˆ©%!?+•zÌj2iµÛ [;9–ü p´C~ÊÓ È£ô9YÃ6üYKÃ}şÈ·™\ZdRäÜåAåäº×¦—ï^ izY†ùxiHBã>Mh7 Æ Ú!øQ\\FÜ\r›¹å*«x ·R­]4âŒ²§ç€Å    2m%4 Šë”¾€ÃNã>‹¾È ØÂj R] •a¼İOºÖÅ{›ñ¤ ŸŠ 2 À´ ó5³ƒ‡Jüâ ¸Mó¹A]›8òºÙx°Š §   §*`¨è[¤ƒ-—P¯*\Zİ3:Ú×L¤€7 $t§¿ò¢\0»=ŠN€‹©‡²Ñ çiQ p:í.ºL­4¾‰u^1¿=.ë½@³p N B=w§p¢u“âu\0~p«¤ÊN¢{f§:ß é÷ĞJ¯ ñ=I +¬Ü€õG ÁªÕ|<YÍnÑ A‹hôâ›½% ö ÎìÒ íÑ^\'‰)F“`›‹æ5r Ö%`³Ğ…L·† z–ø)Åû\0Ä™#:½³ÜÀI+Áíö3÷ü› Ç†L†g h¨úœcÁ1Ûï`]mŠú²‹¯úWİ Êc<ªÈ»A¹q ëhrÈ ·†D İa ­?ÖÊs©Ü¼ 3Ét\'şó?','20160205181703')
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Protein.png from process cache
+RepoGroup::findFile: got File:Protein.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Protein.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '34295'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Protein.png
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Help:Guidelines_EditorPalette
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Protein.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Protein.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 198.12.126.84
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d8/Protein.png/315px-Protein.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d8/Protein.png/315px-Protein.png does not exist.
+BitmapHandler::doTransform: creating 315x263 thumbnail at /tmp/transform_30496a5247a9-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Protein.png from process cache
+RepoGroup::findFile: got File:Protein.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Protein.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:34295-0!*!*!*!*!*!* and timestamp 20160513110547
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:34295-0!*!*!*!*!*!*','uTÑnÚ0 í3_áæq   ´fš4±nT* 	¶=»ñ]b‘Ø–í´°ªÒ>aß¸/™o€6@  ‚î¹÷æs=cqÂ¢9· ì¬ö¦ö ëõÙ“c)‹ª%¬}4r¬wyÉ¢Î‡ón—tîàq>\'¥¬¤\' Œ¶¾3 o«3pN[ò ô ˆÒ H¦kå ¡ïcÚ<‡©9(°ü89yMÖÎÿıı Ö†+A¤ÊÊ:¤9ù °eB¯†qšû ×YBeÊĞ‹p›× (ÿŸ¼‰Ì p4MÔŠ 0¾ÀÄ>í\\¯\r„è  ÓHB~Ö*ó˜ÕfÒév?v¶r,ø àhûüŒg Gé ²‚Mø³’†ûâ‘o 3\rÈ¤(¸+‚ÊÉUÚ¥çï^ izY…ùxeHBã Mã^ Ó´?$øQ\\FÜ ›¹å*¯y ·R­\\4âŒ²§ç€Å    rm%´ Šë”¾„ıNã ‹¾È ØÜj R] •c|€İº6Å;Ûñ¤ ¿ -d €›*Ì×Î  ªğ‹ à6+f umãÈëzíÁ*^ O€n¼Q CEß\" l¹€fUÑèÑÑ®f\" ¼ !¡;ı•—%ØÍAt \\Üx¨Zıqî© u	ÇÓn£‹ÌJãÛXï ó›Ã²ô š†Cp¤ ê¹=… ­Û ¯ ğƒ[%U~ İ1;ÖùZH¿ƒ–z ˆïH¢Xaå ¬?p V-gãÉrz‹6 ZD£ ßì,¹·_pfŸ iJÓ^ SŒ&Á6gíkä,¬KÀz®K™mZ\r{ô$ñS†÷ ˆ GôÒ“ÜÀI+Áíæ3÷ü› ‡†L.O\nĞPÍ9Ç‚C¶ßÁºÆ Íe _ .ú/”ÇxT‘w‹rë06ÑdŸ n\r‰6ºÃ(Z¬•çR¹Y)¦<—ÙVüç','20160514110547')
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Protein.png from process cache
+RepoGroup::findFile: got File:Protein.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Protein.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '34295'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Protein.png
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Googlebot-Image/1.0
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Protein.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Protein.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.75.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d8/Protein.png/315px-Protein.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d8/Protein.png/315px-Protein.png does not exist.
+BitmapHandler::doTransform: creating 315x263 thumbnail at /tmp/transform_3ea1d8a77ded-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Protein.png from process cache
+RepoGroup::findFile: got File:Protein.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Protein.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:34295-0!*!*!*!*!*!* and timestamp 20160610203659
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:34295-0!*!*!*!*!*!*','uTÑnÚ0 í3_áæq   mÍ4ibİ@* 	¶=»ñ]b‘Ø–í´°ªÒ>aß¸/™o€6@  ‚î¹÷æs=cqÂ¢9· ì¬ö¦ö ëõÙ“c)‹ª%¬}4t¬wuÅ¢Î‡ón—tîàq>\'¥¬¤\' Œ¶¾3 o«3pN[ò ô ˆÒ H¦kå ¡ïcÚ<‡©9(°ü89yMÖÎÿıı Ö†+A¤ÊÊ:¤9ù °eB¯/ã4!÷  ®³„Ê”¡ á6¯+Pş?yc™ à<iš:©  `|‰}Ú¹Y  Ñ  ¦‘„ü¬Uæ1«Í¤Óí~ìlåXğ ÀÑöù Ï\n Ò d ›ğg%\r÷Å#ß8f\ZIQpW •“ë´KÏß½ş Òô²\nóñÊ„Æ :ˆiB{ƒôšàGq q?læ–«¼æ9ÜJµrÑ3Ê   l dÈµ•Ğ (®Sú ö; ,ú\"K`s«=HuaTñ v?êÚ ï nÇ“V|\"ZÈe\0&U˜¯ <Tá  ÀmVÌ êÚÆ‘×ÍÚƒU¼<\0İ8Q CEß\" l¹€fUÑğÑá®f, ¼ !¡;ı•—%ØÍAt \\L<T­ş8÷T‹º„ãi·ÑEf¥ñm¬÷ŠùÍaYú MÃ!8R õÜÂ±ÖmŠ× øÁ­’*?Šî˜ ë|#¤ßAK½ Äw$Q¬°r Ö 8 «–³Ñx9½E  -¢á‹ov–ÜÛ/8³O/iJÓ^ SŒ&Á6gíkä,¬KÀz®K™mZ\r{ô$ñS†÷ ˆ GôÒ“ÜÀI+Áíæ3÷ü› ‡†L®N\nĞPÍ9Ç‚C¶ßÁºÆ Íe _ .ú/”GxT‘w‹rë06ÑdŸ n\r‰6ºÃ(Z¤•çR¹Y)¦<—ÙVüç','20160611203659')
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Protein.png from process cache
+RepoGroup::findFile: got File:Protein.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Protein.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '34295'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

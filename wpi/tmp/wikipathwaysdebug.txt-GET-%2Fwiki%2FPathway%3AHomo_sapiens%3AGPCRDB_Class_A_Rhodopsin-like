@@ -1,0 +1,600 @@
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.52
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Article::view: doing uncached parse
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [736c671c] /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:GPCRDB Class A Rhodopsin-like' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21639, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [1b0d98b8] /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:GPCRDB Class A Rhodopsin-like' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21639, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [470f02ad] /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:GPCRDB Class A Rhodopsin-like' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21639, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [27acdce6] /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:GPCRDB Class A Rhodopsin-like' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21639, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [2a98c423] /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:GPCRDB Class A Rhodopsin-like' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21639, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [19774635] /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:GPCRDB Class A Rhodopsin-like' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21639, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [4e4741a5] /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:GPCRDB Class A Rhodopsin-like' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21639, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Pathways4Curation
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 107.178.101.237
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Pathways4Curation
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Article::view: doing uncached parse
+Parser: using preprocessor: Preprocessor_DOM
+[exception] [a62bee31] /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:GPCRDB Class A Rhodopsin-like' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21639, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Fully initialised
+Class SkinWikiPathways not found; skipped loading
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 69.12.67.128
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [686f4434] /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:GPCRDB Class A Rhodopsin-like' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21639, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [229a091f] /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:GPCRDB Class A Rhodopsin-like' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21639, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [72d8770e] /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:GPCRDB Class A Rhodopsin-like' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21639, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [56b599ed] /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:GPCRDB Class A Rhodopsin-like' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21639, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!
+
+
+Start request GET /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Article::view: doing uncached parse
+[exception] [30779ea7] /wiki/Pathway:Homo_sapiens:GPCRDB_Class_A_Rhodopsin-like   Exception from line 134 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'Homo sapiens:GPCRDB Class A Rhodopsin-like' does not exist!
+#0 /var/www/wikipathways/w/wpi/extensions/Pathways/PathwayContent.php(177): Pathway::parseIdentifier(Object(Title))
+#1 /var/www/wikipathways/w/includes/WikiPage.php(3402): PathwayContent->getParserOutput(Object(Title), 21639, Object(ParserOptions))
+#2 /var/www/wikipathways/w/includes/PoolCounter.php(209): PoolWorkArticleView->doWork()
+#3 /var/www/wikipathways/w/includes/Article.php(707): PoolCounterWork->execute()
+#4 /var/www/wikipathways/w/includes/actions/ViewAction.php(44): Article->view()
+#5 /var/www/wikipathways/w/includes/Wiki.php(439): ViewAction->show()
+#6 /var/www/wikipathways/w/includes/Wiki.php(305): MediaWiki->performAction(Object(Article), Object(Title))
+#7 /var/www/wikipathways/w/includes/Wiki.php(565): MediaWiki->performRequest()
+#8 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#9 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#10 {main}
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:GPCRDB Class A Rhodopsin-like]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Accessing pathway content as text!

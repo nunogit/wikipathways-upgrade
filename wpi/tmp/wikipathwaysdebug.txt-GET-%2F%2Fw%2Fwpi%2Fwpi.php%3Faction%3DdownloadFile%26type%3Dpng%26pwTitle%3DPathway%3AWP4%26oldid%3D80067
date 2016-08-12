@@ -1,0 +1,19 @@
+
+
+Start request GET //w/wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP4&oldid=80067
+HTTP HEADERS:
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
+HOST: vm1.wikipathways.org
+ACCEPT: */*
+CACHE-CONTROL: max-age=259200
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+IP: 107.168.109.213
+updateCache called for filetype png
+FileCacheBase::isCacheGood: cachetime 20150520005112, touched '' epoch 20150515185216, good 1

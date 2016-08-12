@@ -1,0 +1,509 @@
+
+
+Start request GET /w/index.php?title=User:Grietje&oldid=43798
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-ENCODING: gzip
+ACCEPT-LANGUAGE: en-US
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.141
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE keyname = 'wikipathways:pcache:idoptions:17111' AND exptime = '2015-07-05 22:22:04'
+Class SkinWikiPathways not found; skipped loading
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:17111-0!*!0!!en!*!* and timestamp 20150706062814
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1765
+User: loading options for user 1765 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17111'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User:Grietje&oldid=43798
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.66
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1765
+User: loading options for user 1765 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17111'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User:Grietje&oldid=43798
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.148
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:17111-0!*!0!!en!*!* and timestamp 20150916230536
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:17111-0!*!0!!en!*!*','ÍXİNëF >×yŠÅ½;Rğo lB¤#zz@\"  N¹D {“l±½–½ R„ÔGè3öI:³¶ƒã8´ 	¤`ggvöûÆ;ã/{Im‡\Z –f<½ÌU’+ƒº }Êh\ZÑ5TÆ £çÚÔ *6\r9 Á±¡¤o ?dYVÜ†*…O0\Z â¾òPB… L gt\"cÅc•\rMø24ÁiÔ æ!ü E-NÈïyØµ	Üf æË¸kC\0F )Ÿ  ?—·7âNL˜Z<°e ¦,aq-@œGS\Z#{h¢eDš \n ÆKRS: M ŸPü TN U æVÎnÏ€gÊ3µ šó:´* ‘3R Û Ÿ»†O¦Š…¯dËı HÅüİQxu ç\"¾{ ƒ÷: ={w ½:‚/S™«Û1ß ¢÷:  €Œù& Sïe  ÀÄJ0u©À n÷èò@¨  IØœ  ß¡àè·Tpõ;7Hi;6ì–Í¹>¿ .zè.8 B C ,¼\Z!€d  Àé*„4BÔ*Oæ 8›W	÷  )Vn*¦9.™+Àº¶×½Š_·`Æ::emKbJna§İÑæ2h!k   :› –”q‹\'±kÚm…·[îÛ; i ½å)ìïï¿‹ˆ[+× ±W]‚”w? ¡·*æİğ•ıƒèë ÂÖ«×ønğ^š ©Bl+41ú•³Ä,‚UÄˆ’  9•¡JeR¯ 1º‘é]áöÂ®4KŸ!¶-æI*g<ËÀ V«ö]¶Å +˜ùªiÕyì ÷º]Ò¹à “		E$ Iy »¤3k*}XE¦ä^dBñ€Ä2àP÷y¬(±û¦mé¿uß9yÊšŞ÷â-3õ÷ŸñGÈ`@Dì‡9øeâ N‰e:ÖÑ¡İsÈt©xÖ¹æQ B0ÂÒy ÎØâw*æ ,=  óB ¨ ¬kzVçëcÂaôÃ A9Dfy\\ì™ …à:İn•+vÏ Zåï3ÁÉƒP rÇ— {ZRV>M´‘Š`Á² µ mÛîZ{Ÿ÷¬½= Ãõ3AšJD€E	q,»g Ù kõÜ ‚‹¢ ³=Peç,ç°‹Š 0jÑ§g°D‹N \rs	û©n°PÊa\'­ô j¾µ €± Œ\\E´é“ nq“ÑCj¬ … ï WËä× tjãgAÍ ‘¢³ °×½û0ø‹ ù g©¿¸Lô«¢fGÎ_ aûÂ>nrF•ª·6f»-!°i¯Š\n6 Sj\rÊ9§\"à-&$t!¿±0äérmô ªıLñ¨  qe‡¼‰¶ ½òS‘¨ºÍ}±©åú´ŞÊ4†\nid óY¨óS)ë ÀpÃÒXÄóÆhÉLöğiZpÓÇ§	°+±¤ ç@kıò;,Fám Wà¡»[™±†ˆ(wL)œŠi¶Q„ qÀ ëc€g–Ê¨ø=°eûa’±Jål–q…À¬b	 û ™¾ÀXW7ƒgdğffE¶·s =§…óvz¶í5	ÖÑ¬I dé¼%T]õvoáå¶ğrßÁËë7yÕ×.úÊ ™€¹,òM ^  ï < š<^V  ŞÛYÀŒJ#´ éµ é½ƒHãT\0P¯  {ÙWP;eÛ¸–w {GÙ\0±‘‚šHxªÖŞ,8ëúòäôz|®Ã:Şÿ~Jğ‘	>ü9Á 9(ø\0\'  ÿ¨ *^Pj¥ ¬  hAÛ:tú¶g÷Cı¢€jşT?´û \" šÅD†Â_¢  Â‹km8~ñQ‚ó ¦³\\lc¸RA Ø ‚bª» Ty  BÕ *™LåS ùÊ 2 \n ´ ··±\"ô   ,]şÌ û ëbÑéoL@±§õ9NXï6¿ñ4Ó‚MwH{ÿ`ß[%î %6f¯–¸šˆ®:fá j_ Ä»ÀQ”¥ú ˆ³Ë0 ³¹ğ‹æ÷ü ','20150917230536')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1765
+User: loading options for user 1765 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17111'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User:Grietje&oldid=43798
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.67.173
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:17111-0!*!0!!en!*!* and timestamp 20150922211557
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:17111-0!*!0!!en!*!*','ÍXmOãF ¾Ïù ‹ûí¤à—ØGØ„H\'z=È  ®÷ mìM¼ÅöZö\ZHOHı	ıı%YÛÁq Ú@O )ØÙ™}ñÎøÉ^RÛ¡ÆŒe9Ï. • Ê  —~Ï©Gøš?(c”SÇ ØÔ +68 Á‰¡¤o ?by^ŞOÆ*ƒO0  â®öPBE L¡39•‰â‰ÊÇ&| ›à4é‹ şE¢ \'âw<êÛ ns óeÒ·!\0#aÆ \'ÆOÓÕÍ7q+fL…÷l•ƒ)OYÒ  ñœgÆÄ ›h™¶ƒBF“éŠ4ãTÎc“Á\' ÿ •ÓDU‡¹‘‹›sà™ñ\\í†æ< ­ Fä‚ÔÁöÇ7ØÀ\'3Å¢g²5ø HåüıQ¸M  \"¹} ƒû< ={ ^ ÁÇ¹,ÔÍ”ï á= B  S¾ÃÔ{ÙÄ 0± L]*0„Û=¾§< ªÂDR¶ä\'ÆW(8ú9 \\ıÎ\rRÙN »csnÎo‹ïû!gA$  ƒ…·U#¤ ¬á 8]…FˆZçÉ¼ gó*å¾` ÅÊÍÄ¼À¥ss\rX×ö‰ñ¼ Rñ› ÌXO§¬kILÉ\rì´[Ú^ -dÃ‚¡q@g Ã’*nù$öM»³«ğöË}w\' ]¡w<…ÃÃÃW  4ÊuOìu— Õİ Bè®‹y?|Uÿ úúƒ°yÍ\Zß ŞSs!uˆ]…&&¿r ‘„Å°Š˜PR !g2R™L› \"&ßdv[º=±«L Ògˆm‡y–É Ïsp€Õê}—ïpÆ\nf¾j[u {ãƒ~Ÿô¾ğûÙŒD\" Šd<…]Ò›Á5“>¬\"3r\'r¡x@  p¨û\"Q”ØCÓ¶ôß¦ï’\'<cmoÇ}ò–¹úûÏ¿ø d0 \"ñ£ ürñ §Ä2 ëøÈö 2_)÷®yœF Œ°lYÄ 3vø‰eˆ¥§ƒb^HÀS Âº¦kõ>=¤ Fï8ì ”CdQ$å©ĞY ®×ï×	¹bw ¡Õş>óCNî…\nÉ-_ ìiiUù4ÕF*‚å!µlÛî[ ï ¬ƒ Àõ=AšJÄ€Å)q,Û³ Ç±mÏ;\"¸(\n1Û UvÁ’e Û¸¬ˆ £ ış 6hñ)¤a)a?5\r J9ì¤µCÍ·Q 0ö #× mú]ĞAy“Ó#j¬ … ïŒ ×«ä7 t\ZãçAÃ ‘âó °7½‡0ø‹ˆø g™ ^¦úUÑ°#çO °}a ·9£JÕ[ ³İ• Ø´We  £9µFÕœ3 ğ   ú\"?³(âÙjcô ªı\\ñ¸  qOePD¼¶ ½ò3‘ª¦mğdS«ÍiŞÚ4…\nie óYªó3)› Áğe‰H–­ÑŠ™ õğiZp3Ä§	°k±¤ çHkıê;,Fám Wà¡»[•±–ˆ¨vL%œÊi¶Q† IÀ šc€g‘É¸ü=°cûa’±Jåb‘s…À¬r	–ø¡Ì`lª›Ñ#2x13Ç¢F×Û¹‹ÓAÏy9=ÛvÛ ›h6$ ²t^Î ª®~»wğ\Ztğ\Z¼‚—;lój®ÿXö• 2 sUäÛ<Ü  î+x|8nóxZ X¸/g 3jĞEÄë â½‚ÈpëÔ\0P¯” {Ù\'P;UÛ¸–· {GÕ\0±‘‚šHy¦6Ş,8ëúòôìzz¡Ã:îÿ~Jğ–	Şü9Á 9(x \' oÿ¨ .^Pj• ¬  hAÛ:r†¶k #ı¢€j~×<´{ \" šÅLFÂ_¡  ÂËÀÚrüè£ çACg\r°áJ%9üaS\nŠ¹îfPå  ˆ@vÖC¨drUÌ ä+ e ” h	 okEè)2	X¶ú™)ö5\r6Å¢3Üš€bOësœ°Ùm~ãY® ›îöá‡Cw¸S”Ø˜½Fâ\Z\"ºî˜¥ ¨} ï ¢,Õ?€D’_FÁ”-…_6¿Ç\0','20150923211557')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1765
+User: loading options for user 1765 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17111'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User:Grietje&oldid=43798
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.159
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:17111-0!*!0!!en!*!* and timestamp 20151121054937
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:17111-0!*!0!!en!*!*','ÍXmOãF ¾Ïù ‹ûí¤à× a \"èõ@\"GT¸ŞG´±7ñ ÛkÙk =!õ\'ô7ö—tfm Çqh =	¤`ggvöyÆ;ã\'{Im‡\Z3–å<»,TZ(ƒº ıÓ 5âkş ŒQN Ïµ©1Vl q\"‚ CIß ~Äò¼¼ŸŒU Ÿ`2 Ä]í¡„Š8˜Bgr* Å •Mø26ÁiÒ   ü‹D#NÄïxÔ·	Üæ æË¤oC\0FÂŒ/NŒŸ¦«›oâVÌ˜\nïÙ* S²¤  )â9ÏŒ‰=6Ñ2!m …Œ&Ó iÆ©œÇ&ƒO$ş *§‰ª s# 7çÀ3ã¹Ú\rÍy Z ŒÈ ©ƒíÏİÀ\'3Å¢g²åş ¤rşş(¼&Š ‘Ü>ƒÁ{ ƒ½?‚A ÁÇ¹,ÔÍ”ï 1x „ @¦| ‡©÷²‰ `b%˜ºT` ·{|Oy T…‰¤lÉOŒ¯Ppôs&¸ú ¤² vÇæÜœß  ß÷CÎ‚H$   o«FH+ YÃ pº\n! µÎ“y ÎæUÊ}Á\"Š•›‰yKçæ\Z°®í ãy/¤â7-˜±NY×’˜’ Øi·´½ ZÈ† Cã€Î&†%UÜòIì›vgWáí—ûîN@ºBïx\n‡‡‡¯\"â6ÊuOìu— Õİ Bè­‹y?|Uÿ úúƒ°\rš5¾ ¼§æBê »\nML~å,\"	‹a 1¡¤ BÎd¤2™6+DL¾Éì¶t{bW™.¤Ï Û ó,“ çà\0«Õû.ßáŒ Ì|Õ¶ê<öÆ ı>é}á÷³ ‰D, Éx\n»¤7ƒk&}XEfäNäBñ€$2àP÷E¢(±‡¦mé¿Mß%OxÆÚŞ÷ä-sõ÷Ÿñ È`@DâG øåâ N‰e:Öñ‘=pÈ|¥xŞ»æq\ZA0Â²e ƒÎØáw&–!– Šy! OU ëšÕûôr ½ã°GP ‘E‘”{¦Bg!¸^¿_\'äŠİq„VûûÌ 9¹ *$·|E°§¥UåÓT © B–‡Ô>²m»o ¼?°  x ×÷ i*  > §Ä±ìm;¶5ğİ#‚‹¢ ³=Pe ,Y °ËŠ 1jÑï` ‰ ŸB\Z– öSÓ`¡”ÃNZë9Ô| %\0c 0r Ñ¦ß uË›œ Qcí(4xgô¸ \\%¿¹ Ó ? \Z ˆ ŸÇ€½é=„Á_DÄ¯8Ëüğ2Õ¯Š† 9z€í û¸Í UªŞÚ˜í®„À¦½*+Ø Í©5ªæœ‰€w˜Ğ ù™E ÏV £gPíçŠÇøˆ{*ƒ\"âm´åè•Ÿ‰T5mî“M­6§\rÖ¦)TH+C˜ÏRŸIÙ¤x †o,KD²lVÌôè\0Ÿ¦ 7C|š\0» Kúq´Ö¯¾Ãb Ş†p  º»U k‰ˆjÇTÂ©œf e(‘ ü¡9 x ™ŒËß ;¶ & «T. 9W Ì*—`‰ Êì	Æ¦º =\"ƒ 3s,jt½»è9 ôœ—Ó³m¯M°‰fCB Kçå,¡êê·{ /·ƒ—û\n^Ş°Í«¹şcÙW^È ÌU‘oóğ:xx¯àñá¸Íãiu`á½œ Ì¨5B ‘A ‘Á+ˆ · H\r\0õJÙÉ±—} µSµkyË±wT\r  )¨‰”gjãÍ‚³®/OÏ®§ :¬ãıï§ où˜àÍŸ ¼‘ƒ‚7pRğö\nêâ ¥V‰ÀZğ ´­#gh{öĞ9Ò/\n¨æwÍC»w ‚ YÌd$ü z@ ¼¸Ö–ãG %8 \Z:ËÅ6†+•äğ‡M)(æº›A•    ÙY ¡’ÉU1W¯<”QP\Z %¸ƒ­ ¡§È$`Ùêg¦Ø×4Ø ‹Îpk Š=­ÏqÂf·ùg¹ lºCÚ‡  ½uâNQbcö\Z‰kˆèºc–~ ö J¼/8Š²Tÿ\0 I~  S¶ ~Ùü ÿ ','20151122054937')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1765
+User: loading options for user 1765 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17111'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this conn
+
+Start request GET /w/index.php?title=User:Grietje&oldid=43798
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.137
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:17111-0!*!0!!en!*!* and timestamp 20160106082223
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:17111-0!*!0!!en!*!*','ÍXmOãF ¾Ïù ‹ûí¤à×@n \"èõ@\"GT¸ŞG´±7ñ ÛkÙk =!õ\'ô7ö—tfm Çqh =	¤`ggvöyÆ;ã\'{Im‡\Z3–å<»,TZ(ƒº ıÓ 5âkş ŒQN Ïµ©1Vl q\"‚ CIß ~Äò¼¼ŸŒU Ÿ`2 Ä]í¡„Š8˜Bgr* Å •Mø26ÁiÒ   ü‹D#NÄïxÔ·	Üæ æË¤oC\0FÂŒ/NŒŸ¦«›oâVÌ˜\nïÙ* S²¤  )â9ÏŒ‰=6Ñ2!m …Œ&Ó iÆ©œÇ&ƒO$ş *§‰ª s# 7çÀ3ã¹Ú\rÍy Z ŒÈ ©ƒíÏİÀ\'3Å¢g²åş ¤rşş(¼&Š ‘Ü>ƒÁ{ ƒ½?‚A ÁÇ¹,ÔÍ”ï 1x „ @¦| ‡©÷²‰ `b%˜ºT` ·{|Oy T…‰¤lÉOŒ¯Ppôs&¸ú ¤² vÇæÜœß  ß÷CÎ‚H$   o«FH+ YÃ pº\n! µÎ“y ÎæUÊ}Á\"Š•›‰yKçæ\Z°®í ãy/¤â7-˜±NY×’˜’ Øi·´½ ZÈ† Cã€Î&†%UÜòIì›vgWáí—ûîN@ºBïx\n‡‡‡¯\"â6ÊuOìu— Õİ Bè­‹y?|Uÿ úúƒ°\rš5¾ ¼§æBê »\nML~å,\"	‹a 1¡¤ BÎd¤2™6+DL¾Éì¶t{bW™.¤Ï Û ó,“ çà\0«Õû.ßáŒ Ì|Õ¶ê<öÆ ı>é}á÷³ ‰D, Éx\n»¤7ƒk&}XEfäNäBñ€$2àP÷E¢(±‡¦mé¿Mß%OxÆÚŞ÷ä-sõ÷Ÿñ È`@DâG øåâ N‰e:Ö‡c{àùJñ¼wÍã4‚`„eË\" ±ÃïL,C,=  óB ª Ö5=«÷é!å0zÇa  \"‹\")÷L…ÎBp½~¿NÈ »ã ­ö÷™ rr/THnùŠ`OK«Ê§©6R „, ©}lÛvß:x`  ğ ®ï	ÒT\" |,N‰cÙG–m YCÇq\\‚‹¢ ³=Pe ,Y °ËŠ 1jÑï` ‰ ŸB\Z– öSÓ`¡”ÃNZë9Ô| %\0cG ¹hÓï‚ºåMN©±v \Z¼3z\\ ®’ß\\ĞiŒŸ \r DŠÏcÀŞô Âà/\"âWœe~x™êWEÃœ?=Àö…}ÜæŒ*UomÌvWB`Ó^• lŒæÔ\ZUsÎDÀ;LHè‹üÌ¢ˆg«Ñ3¨ösÅãF|Ä=•A ñ6ÚrôÊÏDªš6÷É¦V›Ó kÓ *¤•!Ìg©ÎÏ¤lRü\0†o,KD²lVÌôè\0Ÿ¦ 7C|š\0» Kúq´Ö¯¾Ãb Ş†p  º»U k‰ˆjÇTÂ©œf e(‘ ü¡9 x ™ŒËß ;¶ & «T. 9W Ì*—`‰ Êì	Æ¦º =\"ƒ 3s,jt½»è9 ôœ—Ó³m¯M°‰fCB Kçå,¡êê·{ /·ƒ—û\n^Ş°Í«¹şcÙW^È ÌU‘oóğ:xx¯àqô¡Íãiu`á½œ Ì¨5B ‘A ‘Á+ˆ · H\r\0õJÙÉ±—} µSµkyË±wT\r  )¨‰”gjãÍ‚³®/OÏ®§ :¬ãıï§ où˜àÍŸ ¼‘ƒ‚7pRğö\nêâ ¥V‰ÀZğ ´­cgh{öĞ9Ö/\n¨æwÍC»w ‚ YÌd$ü z@ ¼¸Ö–ãG %8 \Z:ËÅ6†+•äğ‡M)(æº›A•    ÙY ¡’ÉU1W¯<”QP\Z %¸ƒ­ ¡§È$`Ùêg¦Ø×4Ø ‹Îpk Š=­ÏqÂf·ùg¹ lºCÚ‡G‡Ş:q§(±1{Ä5Dtİ1K?Pû %Ş  EYª\0‰$¿Œ‚)[\n¿l~ÿ\0','20160107082223')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1765
+User: loading options for user 1765 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17111'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User:Grietje&oldid=43798
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.33
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:17111-0!*!0!!en!*!* and timestamp 20160226013303
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:17111-0!*!0!!en!*!*','ÍXmOãF ¾Ïù ‹ûí¤à×@n \"èõ@\"GT¸ŞG´±7ñ ÛkÙk =!õ\'ô7ö—tfm Çqh =	¤`ggvöyÆ;ã\'{Im‡\Z3–å<»,TZ(ƒº ıÓ 5âkş ŒQN Ïµ©1Vl q\"‚ CIß ~Äò¼¼ŸŒU Ÿ`2 Ä]í¡„Š8˜Bgr* Å •Mø26ÁiÒ   ü‹D#NÄïxÔ·	Üæ æË¤oC\0FÂŒ/NŒŸ¦«›oâVÌ˜\nïÙ* S²¤  )â9ÏŒ‰=6Ñ2!m …Œ&Ó iÆ©œÇ&ƒO$ş *§‰ª s# 7çÀ3ã¹Ú\rÍy Z ŒÈ ©ƒíÏİÀ\'3Å¢g²åş ¤rşş(¼&Š ‘Ü>ƒÁ{ ƒ½?‚A ÁÇ¹,ÔÍ”ï 1x „ @¦| ‡©÷²‰ `b%˜ºT` ·{|Oy T…‰¤lÉOŒ¯Ppôs&¸ú ¤² vÇæÜœß  ß÷CÎ‚H$   o«FH+ YÃ pº\n! µÎ“y ÎæUÊ}Á\"Š•›‰yKçæ\Z°®í ãy/¤â7-˜±NY×’˜’ Øi·´½ ZÈ† Cã€Î&†%UÜòIì›vgWáí—ûîN@ºBïx\n‡‡‡¯\"â6ÊuOìu— Õİ Bè­‹y?|Uÿ úúƒ°\rš5¾ ¼§æBê »\nML~å,\"	‹a 1¡¤ BÎd¤2™6+DL¾Éì¶t{bW™.¤Ï Û ó,“ çà\0«Õû.ßáŒ Ì|Õ¶ê<öÆ ı>é}á÷³ ‰D, Éx\n»¤7ƒk&}XEfäNäBñ€$2àP÷E¢(±‡¦mé¿Mß%OxÆÚŞ÷ä-sõ÷Ÿñ È`@DâG øåâ N‰e:Ö‡c{àùJñ¼wÍã4‚`„eË\" ±ÃïL,C,=  óB ª Ö5=«÷é!å0zÇa  \"‹\")÷L…ÎBp½~¿NÈ »ã ­ö÷™ rr/THnùŠ`OK«Ê§©6R „, ©}lÛvß:x`  ğ ®ï	ÒT\" |,N‰cÙG–ã Y¶ëZ.ÁEQˆÙ ¨² –, ØÆeEŒ µè÷G°D‹O!\rK	û©i°PÊa\'­õ j¾ €±#Œ\\G´éwAİò&§ÇÔX;\n\rŞ =® WÉo.è4ÆÏƒ† \"Åç1`oz ağ  ñ+Î2?¼Lõ«¢aGÎŸ `ûÂ>nsF•ª·6f»+!°i¯Ê\n6Fsjª9g\"à &$ôE~fQÄ³ÕÆè Tû¹âq#>âÊ ˆx m9zåg\"UM›ûdS«Íiƒµi\n ÒÊ æ³TçgR6)~\0Ã7–%\"Y¶F+fzt€OÓ‚›!>M€]‹%ı8GZëWßa1\noC¸  İİªŒµDDµc*áTN³2”H şĞ  <‹LÆåï Û “ŒU* ‹œ+ f•K°Ä eö cSİŒ ‘Á‹™9 5ºŞÎ]ôœ zÎËéÙ¶×&ØD³!!¥ór–PuõÛ½ƒ—ÛÁË} /oØæÕ\\ÿ±ì+/d æªÈ·yx <¼Wğ8úĞæñ´:°ğ^Î fÔ\Z¡‹È ƒÈà D†[ ¤ €z¥ìäØË>Ú©ÚÆµ¼åØ;ª ˆ ÔDÊ3µñfÁY×—§g×Ó  Öñş÷S‚·|LğæÏ	ŞÈAÁ 8)xûG uñ‚R«D`-ø@ ÚÖ±3´={è ë  Tó»æ¡İ; AĞ,f2 ş\n=  ^\\kËñ£ œ \råb Ã•JrøÃ¦  sİÍ Ê   ì¬‡PÉäª˜+ÈW Ê((\rĞ ÜÁÖŠĞSd °lõ3Sìk\ZlŠEg¸5 ÅÖç8a³ÛüÆ³\\ 6İ!íÃ£Co¸S”Ø˜½Fâ\Z\"ºî˜¥ ¨} ï ¢,Õ?€D’_FÁ”-…_6¿Ç\0','20160227013303')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1765
+User: loading options for user 1765 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17111'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User:Grietje&oldid=43798
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:17111-0!*!0!!en!*!* and timestamp 20160416103210
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:17111-0!*!0!!en!*!*','ÍXmOãF ¾Ïù ‹ûí¤à×@n \"èõ@\"GT¸ŞG´±7ñ ÛkÙk =!õ\'ô7ö—tfm Çqh =	¤`ggvöyÆ;ã\'{Im‡\Z3–å<»,TZ(ƒº ıÓ 5âkş ŒQN Ïµ©1Vl q\"‚ CIß ~Äò¼¼ŸŒU Ÿ`2 Ä]í¡„Š8˜Bgr* Å •Mø26ÁiÒ   ü‹D#NÄïxÔ·	Üæ æË¤oC\0FÂŒ/NŒŸ¦«›oâVÌ˜\nïÙ* S²¤  )â9ÏŒ‰=6Ñ2!m …Œ&Ó iÆ©œÇ&ƒO$ş *§‰ª s# 7çÀ3ã¹Ú\rÍy Z ŒÈ ©ƒíÏİÀ\'3Å¢g²åş ¤rşş(¼&Š ‘Ü>ƒÁ{ ƒ½?‚A ÁÇ¹,ÔÍ”ï 1x „ @¦| ‡©÷²‰ `b%˜ºT` ·{|Oy T…‰¤lÉOŒ¯Ppôs&¸ú ¤² vÇæÜœß  ß÷CÎ‚H$   o«FH+ YÃ pº\n! µÎ“y ÎæUÊ}Á\"Š•›‰yKçæ\Z°®í ãy/¤â7-˜±NY×’˜’ Øi·´½ ZÈ† Cã€Î&†%UÜòIì›vgWáí—ûîN@ºBïx\n‡‡‡¯\"â6ÊuOìu— Õİ Bè­‹y?|Uÿ úúƒ°\rš5¾ ¼§æBê »\nML~å,\"	‹a 1¡¤ BÎd¤2™6+DL¾Éì¶t{bW™.¤Ï Û ó,“ çà\0«Õû.ßáŒ Ì|Õ¶ê<öÆ ı>é}á÷³ ‰D, Éx\n»¤7ƒk&}XEfäNäBñ€$2àP÷E¢(±‡¦mé¿Mß%OxÆÚŞ÷ä-sõ÷Ÿñ È`@DâG øåâ N‰e:Ö‡c{àùJñ¼wÍã4‚`„eË\" ±ÃïL,C,=  óB ª Ö5=«÷é!å0zÇa  \"‹\")÷L…ÎBp½~¿NÈ »ã ­ö÷™ rr/THnùŠ`OK«Ê§©6R „, ©}lÛvß:x`  ğ ®ï	ÒT\" |,N‰cÙG–g Ù–ëØ ÁEQˆÙ ¨² –, ØÆeEŒ µè÷G°D‹O!\rK	û©i°PÊa\'­õ j¾ €±#Œ\\G´éwAİò&§ÇÔX;\n\rŞ =® WÉo.è4ÆÏƒ† \"Åç1`oz ağ  ñ+Î2?¼Lõ«¢aGÎŸ `ûÂ>nsF•ª·6f»+!°i¯Ê\n6Fsjª9g\"à &$ôE~fQÄ³ÕÆè Tû¹âq#>âÊ ˆx m9zåg\"UM›ûdS«Íiƒµi\n ÒÊ æ³TçgR6)~\0Ã7–%\"Y¶F+fzt€OÓ‚›!>M€]‹%ı8GZëWßa1\noC¸  İİªŒµDDµc*áTN³2”H şĞ  <‹LÆåï Û “ŒU* ‹œ+ f•K°Ä eö cSİŒ ‘Á‹™9 5ºŞÎ]ôœ zÎËéÙ¶×&ØD³!!¥ór–PuõÛ½ƒ—ÛÁË} /oØæÕ\\ÿ±ì+/d æªÈ·yx <¼Wğ8úĞæñ´:°ğ^Î fÔ\Z¡‹È ƒÈà D†[ ¤ €z¥ìäØË>Ú©ÚÆµ¼åØ;ª ˆ ÔDÊ3µñfÁY×—§g×Ó  Öñş÷S‚·|LğæÏ	ŞÈAÁ 8)xûG uñ‚R«D`-ø@ ÚÖ±3´={è ë  Tó»æ¡İ; AĞ,f2 ş\n=  ^\\kËñ£ œ \råb Ã•JrøÃ¦  sİÍ Ê   ì¬‡PÉäª˜+ÈW Ê((\rĞ ÜÁÖŠĞSd °lõ3Sìk\ZlŠEg¸5 ÅÖç8a³ÛüÆ³\\ 6İ!íÃ£Co¸S”Ø˜½Fâ\Z\"ºî˜¥ ¨} ï ¢,Õ?€D’_FÁ”-…_6¿Ç\0','20160417103210')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1765
+User: loading options for user 1765 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17111'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User:Grietje&oldid=43798
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.19
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:17111-0!*!0!!en!*!* and timestamp 20160529221836
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:17111-0!*!0!!en!*!*','ÍXİNëF >×yŠÅ½;RğO  › éˆ  D…S.ÑÆŞÄ[l¯e¯ !õ úŒ}’Î¬íà8 m G )ØÙ™ı¾ñÎøË^RÛ¡Æ”¥ O/s•äÊ =—>e´Oèš?*c˜QÇíÙÔ )6 9 ş±¡¤g /dYVÜG*…? ùâ¾òPB… L3>‘±â±ÊF&| ™à4îŒò ş…¢ \'ä÷<ìÚ n3 óeÜµ!\0#AÊçÇÆO“åí¸ S¦‚ ¶ÌÀ”%,® ˆóhÆSclL´ŒIÓA!£ñdIêqJç‘Éà Šÿ€Ê©£ªÂÜÊùí ğLy¦¶Cs^‡V #rNª`»ãë­á“©bá+Ùêı ¤bşî(Ü:Šs ß½‚Á} ƒ½;‚~ Á—™ÌÕí„o Ñ „ @&| ‡©÷²‰ `b%˜ºT` ·{ô@¹/T‰‰$lÁïPpô[*¸ú ¤´  vËæ\\Ÿß\0 =t ÎüPÄ   o£FH# YÁ pº\n! µÊ“ù\0ÎæUÂ=ÁBŠ•›ŠYKgæ\n°®ícãu/¤âÕ-˜±NYÛ’˜’[Øiw´¹ ZÈš Cã€Î&†%eÜâIìšvg[áí–ûöN@ÚBoy\nûûûï\"Ò«•ëØ«.AÊ» „Ğ] ónøÊşAôõ aë×k|7x/Í…T!¶ š ÿÊYHb Á*bLI	„œÊP¥2©Wˆ ßÈô®p{aWšÎ¥Ç Û ó4•seà\0«Uû.ÛâŒ Ì<Õ´ê<vF{İ.é\\ğ‡é”„\" Š¤<]Ò™Â5• ¬\"Sr/2¡¸Obés¨û<V”Ø Ó¶ôßºï‚Ç<eMoÇ}ñ–™úûÏ¿ø#dĞ\'\"öÂ ü2ñ §Ä2 ëèĞî;d¶T<ë\\ó(	! aé\"@glñ; ‹\0KO Å¼ Ÿ\'*€uM×ê|}L8ŒŞsØ#(‡È<‹=S¢³ \\§Û­ rÅî9B«ü=æ œ<  ;¾$ØÓ’²òi¢Tø Ë j Ú¶İµö>ïY{{<†ëg‚4•ˆ\0 ‹ âXöÕw Ç ô  .ŠBÌvA•³x‘Ã6.*bÈ¨EŸÁ  -:4,$ì§ºÁB)‡´Òs¨ùÖJ\0Æ 0r Ñ¦O‚öŠ›Œ Rcå(4xgø¼\n\\&¿¾ S ?ók ˆ E€½î=€Á_DÈ¯8K½à2Ñ¯Šš 9}„í û¸É UªŞÚ˜í¶„À¦½**Ø Î¨5,çœ\nŸ·˜Ğ…üÆÂ§ËµÑS¨ö3Å£Z|Ä=‘~ ò&ÚbôÊKE¢ê¶Ş‹M-×§õW¦	TH#C˜ÏBŸJY§x † –Æ\"^4FKfz´OÓ‚› >M€]‰%ı8‡Zë—ßa1\noC¸  İİÊŒ5DD¹cJáTL³\"”ˆ}şX  <óTFÅï-Û “ŒU*çóŒ+ f K°Ø dú c]İ Ÿ‘Á›™9 5ÚŞÎmôœ zÎÛéÙ¶Û$XG³&!¥óv–PuÕÛ½…W¯…Wï ¼ÜA“W}ıç¢¯¼‘	˜Ë\"ßäá¶ğpßÁãà¨Éãeu`á¾ Ì¨4B ‘~ ‘ş;ˆ 6 H \0õJÑÉ±—} µS¶kyÇ±w”\r  )¨‰„§jíÍ‚³®/ON¯\'ç:¬ãşï§  ù˜àÃŸ |ƒ‚ pRğñ\nªâ ¥VŠÀJğ ´­Cg`»öÀ9Ô/\n¨æOõC»O ‚ YLe(¼%z@ ¼ô¬\rÇ/ Jpî×tV Û ®TÃ 6… ˜én UC€ dg5„J&SùLA¾²@†~a€–Ğëo¬ =EÆ>K—?3Å¾\'şºXt   Pìi} Ö»Ío<Í´`Ó ÒŞ?ØwW‰;A‰Ù«%®&¢«YøÚ (ñ.p e©ş $âì2ô\'l!¼¢ù=ÿ ','20160530221836')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1765
+User: loading options for user 1765 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17111'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User:Grietje&oldid=43798
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1765
+User: loading options for user 1765 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Grietje]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17111'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

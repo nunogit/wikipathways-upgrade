@@ -1,0 +1,28 @@
+Start request POST /w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1470936482&signature=6e5fe7b37ea8954eabc0f2a1624d0119ce89ad29
+HTTP HEADERS:
+HOST: trunk.wikipathways.org
+CONNECTION: Close
+CONTENT-LENGTH: 0
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+MWCryptRand::realGenerate: Generating cryptographic random bytes for MediaWiki\Session\SessionManager->generateSessionId/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 20 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+IP: 137.120.17.117
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 5913 will be used for SqlBagOStuff
+[session] SessionBackend "95lvh9if66hqf4lqin0cpqdt04qjmoss" is unsaved, marking dirty in constructor
+[session] SessionBackend "95lvh9if66hqf4lqin0cpqdt04qjmoss" save: dataDirty=1 metaDirty=1 forcePersist=0
+[cookie] already deleted setcookie: "wpupgrade127_session", "", "1439400477", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439400477", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439400477", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439400477", "/", "", "", ""
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+Request ended normally
+[session] Saving all sessions on shutdown

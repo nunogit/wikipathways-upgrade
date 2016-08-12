@@ -1,0 +1,59 @@
+
+
+Start request GET /wiki/Portal:Sample
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Special:WhatLinksHere/Pathway:WP78
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+VIA: 1.1 proxy.local:31128 (squid/2.6.STABLE21)
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Sample]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 173.193.226.37
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Sample]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:4fe02183af7e83b526cff3ec678f2e39:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+GETTING PATHWAY OF THE DAY for date: Saturday 14 May 2016
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Krebs-TCA Cycle]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+		Pathway in cache: 'Homo_sapiens:Krebs-TCA_Cycle'
+	Did we have Homo_sapiens:Krebs-TCA_Cycle before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('Homo_sapiens:Krebs-TCA_Cycle','Portal:Sample/FeaturedPathwaysSaturday 14 May 2016')
+Couldn't make pathway of the day: 'Pathway:Homo sapiens:Apoptosis' does not exist![Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:4fe02183af7e83b526cff3ec678f2e39:0)
+Saved in parser cache with key wikipathways:pcache:idhash:4582-0!*!0!*!*!*!* and timestamp 20160514102554
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:4582-0!*!0!*!*!*!*','íYënÛ6 Þo? £¢-0ÀÖÅ—8”ãaÍÒ%@Û H¶a¿ Zb,\" )T ¯(°GØ3îIv %Ùr. 6ì–® ¢ª:äáùÎùÎGF>£aD½s¦\r×g•-+ëÑáˆ¾7tL½â’ßZ/†ûñô€z³r>[hâÏ{3¿„K*nˆ±ëœ zIÎ™¦d¡l “R a…’”hž3+nx  r aT.R²Ê„Ý<ì¯Dj3JÂòÖý ``ÉõR«J¦”<‹¢0|õ*&‰Ê xhæ–,M…\\R2 y [ ´Ïr±„E .-×qÁôRÈ>„dUAIPÞÆ  \r LÉ$IrfÌ¡WæLÈ\\ÈkãµX¶á³ „[ÁjV•.¾X‹efëÛ]ÿ.Š+%mßˆ 9 Ïw öæ3†é8ô¤ºRy®V^  „Îµd9A  ±à—ÛCï‡EÎäµG2Í¯ ½ÌÚ’úþM  VâZ”Ìf+¶6 ¥—þÊ 2å·ƒ2+¿°Â †s¥-Ëé +Êœû§Òjõ îc– °Cž\në5yh ¸ + ˜ùhŸÏ|6ñ,œ q}í5Ï  dQëa >  ½ûÿŠ»„-Tžn9 •„ Öù£Xî¶–ÛÛ´6‰¬  q/Ä VÆë%¢ùxK éÕw3?‹0< ç.ISa ÜkºÈUr½\r 9÷ -¡è jÆä†k+ –·< {¼CÔ×î³©;Ô —éR3çW¶ƒ ~Bäå–Ì ·M#Ý` OjÞžpÍ‰0 %Þ¬UE` s ¡ EN«ÄY4‘|Ej ì W*$¾˜ å\"¹&X^Â`ZÆIU–€Õñ\Z ×’k¢®À  -Ôí`æ‹n»7”•ªÔ°à¦e: §\rÆ\0ã\'Á ê\\ Ñ¶ä À2ÿ5-s¯]6Íâï´‰7?ª p ˆ«À;AQ@ò ©æ5™î žÓ;¯5ßgÜU®˜¥uÕk*M¢çÞœ|ÒÎ§¢ïøÊ|tÒ)æ  [û_×Ìcø¼>þ‡5 ÄÑ  »0u—ñ  Ôéf¢Š¢’Â® OU6ÿ¤T}R¡ÿ°\n åôG(C —Ó!ò 8¿ýÍZô=¨O õª G	+( 7(=‰;y@æ¶\0FUÒÈ BN µÅÉSM‹Á •¦§z¢{ì`×d¦&ÙpÿÓÉî)iêkÎl¥yzÞLú åµ…H\ZŒÿ ¥ýF²EÎQX3¤aE-‚œ¤€‹¼l2BOT¡ˆa¥àÒÐ/KUZà¹yIR Ê,•%üV »· ÜÅü[ Z³<\'@Ýš…Nüßf 0ØqÐûa÷jf_À ]+x=  ì	 /ï¼/¬Ÿöf{ý>éÁ_ çç É l\\š—\0«w ÿj•pc\0í\0½4H•ràI%A`†ã‘ ½ƒŸÝÁK » »;< ƒp;^ ûËO?óÛ ÷U!“¼‚‘® Zû“È‚ƒýp ‘ÅÚrÓ»äP pI eU{p3v<\nî =ärƒT ß ôƒ¤¼Äf˜ø£ w|[ ·@î!»ø–•\\UÒ©L f€1öúý65 ì†c„íø„%@Û•° ¹ækÒ :Z:# iÆLFGãiÔ ö>ßÃ_÷ã  V    ŽD (Ô8 …A4  ®‰¯wÃ õŠ7L.+¶äoœìÇŒ ôý °…`;‚D,• ¼k ð 1’º}K  é.½ñá ]·.Cú^ÀÄI}kh 3 ë„XÐÑA0?lÖj*r×Ó>z\n\' OpÈé»fs.Æû qíà <Ï8 Áj S4D›yî5i³¬›³¿ãR*]°¼ž:\rã:3· õÌ0ØuêN¸ÉM\ZßCÜ,¹_#:HOÓ?„5  ¢ñÃ`!®á#hqÖä·à†a8š<Œ çN  Œ¶ƒÇ ‡“p 8È°nqZ\0óºäšÂÃ×\"ç  .IvVbÃtíÈØãæˆÐ¥—¡#ð÷G Š Oü¡Žµ8Åƒ N}¨ \0ù wíëÅ \Z4øŠ ‘ò LHÛwêkØ-¸^ï<=Úœâ ˆ­„üV¥UÎï ­Ÿ^$Z”¶k nm¨Å]Óxcz  y\'¹È±úËž ¥º  Àð Ó ö€;O dwKt ç Æt©®9Ú ˜¬s­J<\nÔ‹GÍ·J°«ª ¥ òÐÊ†Tx¢2mú\Z[“”Ë³£“Ë·oºSjíid­•°(  ‚q0Âh \rñi òY÷Ë­Ï º@s8Ä$ëŽÃapoà—	n.<ípÏñ Ã5¶ZXØüM ç6„ìØ3 ßs ¹Q2ezý ³ì›2må«Na4½7 9íö œ°Ëo¹6Mv`¡p0 Œ6¹8Âm\0 ²ÍEWé½¦Gëq°#	¤£ ÃI 4­_ Áq Nýæ,Oß²¥HêJ~ø ','20160514112554')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Sample]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

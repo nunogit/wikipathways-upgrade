@@ -1,0 +1,581 @@
+
+
+Start request GET /w/index.php?title=Special:BrowsePathways&offset=TP53+network&limit=10&tag=Curation%3ANoInteractions
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.36
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2709]] are {edit,move}
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+[ContentHandler] Created handler for pathway: PathwayHandler
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/6/6d)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/6/6d/WP2709_76922.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/6/6d/WP2709_76922.svg
+FileCacheBase::isCacheGood: cachetime 20150215034406, touched '20140717081927' epoch 20150214190924, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/6/6d/WP2709_76922.gpml" "/tmp/WP2709_76922.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/6/6d/WP2709_76922.gpml" "/tmp/WP2709_76922.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/6/6d/WP2709_76922.svg
+moved into place WP2709_76922.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150215034408, touched '' epoch 20150214190924, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP3]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/7/78)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/7/78/WP3_74850.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/7/78/WP3_74850.svg
+FileCacheBase::isCacheGood: cachetime 20150215034408, touched '20140501024828' epoch 20150214190924, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/7/78/WP3_74850.gpml" "/tmp/WP3_74850.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/7/78/WP3_74850.gpml" "/tmp/WP3_74850.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/7/78/WP3_74850.svg
+moved into place WP3_74850.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150215034410, touched '' epoch 20150214190924, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2755]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/6/6a)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/6/6a/WP2755_77005.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/6/6a/WP2755_77005.svg
+FileCacheBase::isCacheGood: cachetime 20150215034410, touched '20140717083005' epoch 20150214190924, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/6/6a/WP2755_77005.gpml" "/tmp/WP2755_77005.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/6/6a/WP2755_77005.gpml" "/tmp/WP2755_77005.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/6/6a/WP2755_77005.svg
+moved into place WP2755_77005.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150215034414, touched '' epoch 20150214190924, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2821]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/3/32)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/3/32/WP2821_76135.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/3/32/WP2821_76135.svg
+FileCacheBase::isCacheGood: cachetime 20150215034414, touched '20140611131713' epoch 20150214190924, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/3/32/WP2821_76135.gpml" "/tmp/WP2821_76135.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/3/32/WP2821_76135.gpml" "/tmp/WP2821_76135.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/3/32/WP2821_76135.svg
+moved into place WP2821_76135.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150215034416, touched '' epoch 20150214190924, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2751]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/1/1f)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/1/1f/WP2751_76992.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/1/1f/WP2751_76992.svg
+FileCacheBase::isCacheGood: cachetime 20150215034416, touched '20140717082824' epoch 20150214190924, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/1/1f/WP2751_76992.gpml" "/tmp/WP2751_76992.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/1/1f/WP2751_76992.gpml" "/tmp/WP2751_76992.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/1/1f/WP2751_76992.svg
+moved into place WP2751_76992.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150215034418, touched '' epoch 20150214190924, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP107]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/0/05)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/0/05/WP107_78489.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/0/05/WP107_78489.svg
+FileCacheBase::isCacheGood: cachetime 20150215034419, touched '20150107102832' epoch 20150214190924, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/0/05/WP107_78489.gpml" "/tmp/WP107_78489.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/0/05/WP107_78489.gpml" "/tmp/WP107_78489.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/0/05/WP107_78489.svg
+moved into place WP107_78489.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150215034420, touched '' epoch 20150214190924, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2777]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/c/c9)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/c/c9/WP2777_77058.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/c/c9/WP2777_77058.svg
+FileCacheBase::isCacheGood: cachetime 20150215034420, touched '20140717083557' epoch 20150214190924, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/c/c9/WP2777_77058.gpml" "/tmp/WP2777_77058.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/c/c9/WP2777_77058.gpml" "/tmp/WP2777_77058.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/c/c9/WP2777_77058.svg
+moved into place WP2777_77058.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150215034423, touched '' epoch 20150214190924, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1934]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/9/9e)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/9/9e/WP1934_77016.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/9/9e/WP1934_77016.svg
+FileCacheBase::isCacheGood: cachetime 20150215034423, touched '20140717083107' epoch 20150214190924, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/9/9e/WP1934_77016.gpml" "/tmp/WP1934_77016.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/9/9e/WP1934_77016.gpml" "/tmp/WP1934_77016.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/9/9e/WP1934_77016.svg
+moved into place WP1934_77016.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150215034425, touched '' epoch 20150214190924, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1935]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/b/b2)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/b/b2/WP1935_76949.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/b/b2/WP1935_76949.svg
+FileCacheBase::isCacheGood: cachetime 20150215034425, touched '20140717082215' epoch 20150214190924, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/b2/WP1935_76949.gpml" "/tmp/WP1935_76949.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/b2/WP1935_76949.gpml" "/tmp/WP1935_76949.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/b/b2/WP1935_76949.svg
+moved into place WP1935_76949.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150215034429, touched '' epoch 20150214190924, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2692]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/3/33)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/3/33/WP2692_76896.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/3/33/WP2692_76896.svg
+FileCacheBase::isCacheGood: cachetime 20150215034429, touched '20140717081656' epoch 20150214190924, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/3/33/WP2692_76896.gpml" "/tmp/WP2692_76896.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/3/33/WP2692_76896.gpml" "/tmp/WP2692_76896.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/3/33/WP2692_76896.svg
+moved into place WP2692_76896.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150215034431, touched '' epoch 20150214190924, good 1
+ContextSource::getContext (ThumbPathwaysPager): called and $context is null. Using RequestContext::getMain() for sanity
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Special:BrowsePathways&offset=TP53+network&limit=10&tag=Curation%3ANoInteractions
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.66
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2709]] are {edit,move}
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+[ContentHandler] Created handler for pathway: PathwayHandler
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/6/6d)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/6/6d/WP2709_76922.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/6/6d/WP2709_76922.svg
+FileCacheBase::isCacheGood: cachetime 20150521074716, touched '20140717081927' epoch 20150515185216, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/6/6d/WP2709_76922.gpml" "/tmp/WP2709_76922.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/6/6d/WP2709_76922.gpml" "/tmp/WP2709_76922.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/6/6d/WP2709_76922.svg
+moved into place WP2709_76922.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074719, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP3]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/6/69)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/6/69/WP3_79527.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/6/69/WP3_79527.svg
+FileCacheBase::isCacheGood: cachetime 20150521074719, touched '20150324102209' epoch 20150515185216, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/6/69/WP3_79527.gpml" "/tmp/WP3_79527.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/6/69/WP3_79527.gpml" "/tmp/WP3_79527.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/6/69/WP3_79527.svg
+moved into place WP3_79527.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074721, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2755]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/6/6a)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/6/6a/WP2755_77005.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/6/6a/WP2755_77005.svg
+FileCacheBase::isCacheGood: cachetime 20150521074721, touched '20140717083005' epoch 20150515185216, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/6/6a/WP2755_77005.gpml" "/tmp/WP2755_77005.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/6/6a/WP2755_77005.gpml" "/tmp/WP2755_77005.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/6/6a/WP2755_77005.svg
+moved into place WP2755_77005.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074725, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2821]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/3/32)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/3/32/WP2821_76135.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/3/32/WP2821_76135.svg
+FileCacheBase::isCacheGood: cachetime 20150521074725, touched '20140611131713' epoch 20150515185216, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/3/32/WP2821_76135.gpml" "/tmp/WP2821_76135.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/3/32/WP2821_76135.gpml" "/tmp/WP2821_76135.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/3/32/WP2821_76135.svg
+moved into place WP2821_76135.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074727, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2751]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/1/1f)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/1/1f/WP2751_76992.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/1/1f/WP2751_76992.svg
+FileCacheBase::isCacheGood: cachetime 20150521074727, touched '20140717082824' epoch 20150515185216, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/1/1f/WP2751_76992.gpml" "/tmp/WP2751_76992.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/1/1f/WP2751_76992.gpml" "/tmp/WP2751_76992.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/1/1f/WP2751_76992.svg
+moved into place WP2751_76992.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074729, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP107]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150517024321, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150517024321, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2777]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/c/c9)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/c/c9/WP2777_77058.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/c/c9/WP2777_77058.svg
+FileCacheBase::isCacheGood: cachetime 20150521074729, touched '20140717083557' epoch 20150515185216, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/c/c9/WP2777_77058.gpml" "/tmp/WP2777_77058.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/c/c9/WP2777_77058.gpml" "/tmp/WP2777_77058.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/c/c9/WP2777_77058.svg
+moved into place WP2777_77058.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074732, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1934]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/9/9e)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/9/9e/WP1934_77016.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/9/9e/WP1934_77016.svg
+FileCacheBase::isCacheGood: cachetime 20150521074732, touched '20140717083107' epoch 20150515185216, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/9/9e/WP1934_77016.gpml" "/tmp/WP1934_77016.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/9/9e/WP1934_77016.gpml" "/tmp/WP1934_77016.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/9/9e/WP1934_77016.svg
+moved into place WP1934_77016.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074734, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1935]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/b/b2)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/b/b2/WP1935_76949.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/b/b2/WP1935_76949.svg
+FileCacheBase::isCacheGood: cachetime 20150521074734, touched '20140717082215' epoch 20150515185216, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/b2/WP1935_76949.gpml" "/tmp/WP1935_76949.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/b2/WP1935_76949.gpml" "/tmp/WP1935_76949.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/b/b2/WP1935_76949.svg
+moved into place WP1935_76949.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074738, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2692]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/3/33)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/3/33/WP2692_76896.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/3/33/WP2692_76896.svg
+FileCacheBase::isCacheGood: cachetime 20150521074738, touched '20140717081656' epoch 20150515185216, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/3/33/WP2692_76896.gpml" "/tmp/WP2692_76896.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/3/33/WP2692_76896.gpml" "/tmp/WP2692_76896.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/3/33/WP2692_76896.svg
+moved into place WP2692_76896.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074740, touched '' epoch 20150515185216, good 1
+ContextSource::getContext (ThumbPathwaysPager): called and $context is null. Using RequestContext::getMain() for sanity
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Special:BrowsePathways&offset=TP53+network&limit=10&tag=Curation%3ANoInteractions
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.53
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2709]] are {edit,move}
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074719, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074719, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP3]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074721, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074721, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2755]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074725, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074725, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2821]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074727, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074727, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2751]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074729, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074729, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP107]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150517024321, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150517024321, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2777]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074732, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074732, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1934]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074734, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074734, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1935]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074738, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074738, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2692]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074740, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074740, touched '' epoch 20150515185216, good 1
+ContextSource::getContext (ThumbPathwaysPager): called and $context is null. Using RequestContext::getMain() for sanity
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Special:BrowsePathways&offset=TP53+network&limit=10&tag=Curation%3ANoInteractions
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2709]] are {edit,move}
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074719, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074719, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP3]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074721, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074721, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2755]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074725, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074725, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2821]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074727, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074727, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2751]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074729, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074729, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP107]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150517024321, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150517024321, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2777]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074732, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074732, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1934]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074734, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074734, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1935]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074738, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074738, touched '' epoch 20150515185216, good 1
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2692]] are {edit,move}
+BasePathwaysPager::imgToData: returning data url
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074740, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150521074740, touched '' epoch 20150515185216, good 1
+ContextSource::getContext (ThumbPathwaysPager): called and $context is null. Using RequestContext::getMain() for sanity
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

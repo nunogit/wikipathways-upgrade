@@ -1,0 +1,58 @@
+
+
+Start request GET /wiki/File:Sgd-logo.png
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Special:NewFiles
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Sgd-logo.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Sgd-logo.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 199.38.242.230
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/5/58/Sgd-logo.png/225px-Sgd-logo.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/5/58/Sgd-logo.png/225px-Sgd-logo.png does not exist.
+BitmapHandler::doTransform: creating 225x144 thumbnail at /tmp/transform_893afaa43c41-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Sgd-logo.png from process cache
+RepoGroup::findFile: got File:Sgd-logo.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Sgd-logo.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:34914-0!*!*!*!*!*!* and timestamp 20160514121454
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:34914-0!*!*!*!*!*!*','uT—n⁄0 Ì3_·Êq ù íñöi“ƒ∫ÅT\n l{v„ªƒ\"±-€i…™J˚Ñ}„ædv m ]x ∫Á˙ÊûsœıíÑ 	VT –À ™  d ì\'C  î ÿŸ`b»h<&¡‡√˘pà w∏Z°Çó‹\"\rJj;Xπ∑ñ) #5z‡Ü[`HH (ïï∞ ·˜!nû„‘  h⁄Oé^ì•±ˇÅù¢Ç!.“¢riÜˇ _2¬◊Wa °˚⁄Ç l†TÖ´Ö®Œ™ Ñ˝Oﬁåg9 ãö¢ÜKÅ (õ˚ƒ  nv\n\\Ù êj$A?+ëZü’e2  ? ˆr¨È ¯÷ ˘)Ms@è‹Êh µ˚≥Âä⁄¸ë÷Ü® $úÂ‘‰NÂÎ0 ‚ÛwØ?‰iZ^∫˛h©PÑ√KúÑq Öq #ˇQ?å0vìπ•\"´h ∑\\lM0° ìßgáÖ õ: 2©9t Ï«…m áôÜW$¯¬  Îå\r ô… %2 \\˙ÚΩ≤ÕÈV·n<ÍƒÁ¨É∏‚Âºt\rv≥ùâJˇ…5PùÊKÂÖÌ‚ûÿÕŒÇ ¥Ëw‡Ì8  Ûíæ≈⁄˘r\rÕ¨Ç…=¡ìˆÃå3x ÚÑÓ‰WZ †Î£Ë (õ[(;ı}ﬂ …™ ˙›Ó£ÎTseªÿË ≥ıÒ±‰ Z∏-Ë)‰ı‹Ø·L .≈k ¸†Zpëı¢-≥æŒ7å€ ⁄»-xº%È≈Zi©@€#ã¯SõÂt∂Y‹z 8-Ç…ãqZO ¸Á¨ô‡(¬—( cÏ£ë≥ÕY˜ 9s„b∞[…Çßuß‡ ü$~J˝Ö\0Ïƒ £‰$◊qíÇQ]¶ñ~SÏÿê—¯‰Ä7T≥Ë˛¿1€Ô†McäÊ∂ /./‚  Sø´ûwárg õht»s◊ ˜6∫k˜™úJa) fY∞ Õx∫ ˇ˘ ','20160515121454')
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Sgd-logo.png from process cache
+RepoGroup::findFile: got File:Sgd-logo.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Sgd-logo.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '34914'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

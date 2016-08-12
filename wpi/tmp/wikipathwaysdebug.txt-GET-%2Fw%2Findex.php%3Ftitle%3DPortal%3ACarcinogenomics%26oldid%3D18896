@@ -1,0 +1,113 @@
+
+
+Start request GET /w/index.php?title=Portal:Carcinogenomics&oldid=18896
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Carcinogenomics]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.174
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Carcinogenomics]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ccefb2a54c3e58650a05a9ca35e8ef21:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+GETTING PATHWAY OF THE DAY for date: Monday 28 September 2015
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Sandbox]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:Apoptosis]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:Homo sapiens:test1234]] are {edit,move}
+		Pathway in cache: 'Homo_sapiens:Sandbox'
+	Did we have Homo_sapiens:Sandbox before?  1
+Fetching random pathway...
+		Trying: 'Homo_sapiens:test1234'
+			1 attempt
+	Did we have Homo_sapiens:test1234 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('Homo_sapiens:test1234','Portal:Carcinogenomics/FeaturedPathwaysMonday 28 September 2015')
+Couldn't make pathway of the day: 'Pathway:Homo sapiens:Apoptosis' does not exist![Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ccefb2a54c3e58650a05a9ca35e8ef21:0)
+Saved in parser cache with key wikipathways:pcache:idhash:7138-0!*!0!*!*!*!* and timestamp 20150928192441
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7138-0!*!0!*!*!*!*','íZënÛ8 žß~\nFÅÎ\0‹µu±|“ /:™d  i $þX,\nZb,N$Q éØÞ¢À>Â<ã<ÉžCI¶|	  º@Ò&Ad…<\"Ïùø i] ® X * “WsÏµ ´ýà³\n:•Þ°¥¶†*èû=\'°F ¿\'J¯ vl…	£2 S¡ã!É…âš‹, ’%Tó{6„  1P\"á yã÷ú]Ç¯š›  é8 n¾4 tÐðn&Å<‹‚t(  c,b®aÈœF Ïf i¹, jÐ­I >ƒiC–i&‡)•3ž5A)-Ò€8ùrh £|<R9ÍH˜P¥Ž­<¡<Kxv§¬Êš t\n\nÏa6-r£ßPòY¬‹Ûíñ ·\"ÓMÅÿÃ‚¾ó·m…­ñˆ\" ÇV&nE’ˆ…U©\0ª3™Ñ„   Ñ0.ÓÇÖ§iB³;‹Ä’Ý [±Öy`Û÷©ÛZð;žS /èJµ„œÙ ›g [¶ò8ÿ§æ\Zl˜ ©i œP òLÌX&R *û\"ÓRüHÓ|HC´ð˜E\\[% ÕZn) # ûÇ#›Ž|ãvaqm”íð™Ã%öª 6(¸ Â`þ_0ƒÜT$Ñ† ™È`%   \\÷jQ7·[ø–ˆ  \0½§| 3ãuÇRB5ù 0MJ˜F6\n B\ZÅÝÈŽ=T 8  5&G\\ #VÁ4 áÝFQ¤åaî 3jü ’{&5 iR‘ ú‡[l>ÃŸ57ÞtÍÏÔ	œ°[]ƒ ~]dï†òˆE…¡f«\r-ÈnM§	#F¡c á7 / ¹7ã [ðHé	|ü‘%¡H èItÌÈ.Ž¹!Ò.œ­‘Í«u‡Q¦ã›˜¯eá ,e LÌ”–sÃ4€}\\ÉŸ	IR! áÙ­)Å~p51×å ê D1FÀa\nîÛÈxûœ%yP×âSÁrpÜ‚ôÖž ©$ÆÆ¸ ú Ä SÈåV¡­£   ãáðÀCQâëøñb±h…ÛX·Ø  çéŒ( >\"hƒ˜=KÄ”&v ÉO‰˜‰ÖŒßZ` L¹Ýd ×Ýx+   ‰ dKé\0¥ ™È%Ïô: ÖxiYóÒAÎ §åÕ®ÈÂ ? \0F\Z¿ÛO &¬»÷ó6 T …w >× \0ÁIã5 ½¼\\ôž-Ô7—Šø ÍÂèø 2{vöK“jÚ}üýj©fžŒG	 z ‘5<œ6   $4;  @vdÃC/&Ü¼F’— I® ·Ëo0””U ÖQZòé m+b y •ìÿ7¾ä \0*( £Š8;…a) œ‹T|R4ç,SÁ5Í¢©X®kÃº Ù *9›.š ¸!Yˆ àé 8 ÕtÉJdÊV ËÇ\'ÕÊ ù˜’ `K Ü0¥ñf­ÕvëfÊ9ü»7ßkØ|\r›_1l¾Å ×7 6]‡7³Rü ®]†Ðï €biFyJÄ­ÁãlÒ­0¨*¶_Oß_]^œ\\c©¦ ‰Ø=KD ;srÏµ $e: ‘‚e“ øÉ”‚yÌ`›’‡àæ\ZüŒ maªP¤9Z Ûxª 	ö¤Èiô~œ$œK	ÒDŠ ?¦\\ÀÈ¸[ÇIp±´Xòë < mÍ m-So¦ôw” EYSœB´Ð0Û\n IY ÓŒ«´9¥ŠE «4D\\Ð, AM áÌ÷Tr1W$ µ”±£naá#-2š <¿XŸX<âÕ rE6O§& ü• ‚¹ÿ. /¦•³=ç¼€§C’Ø•ª íéKå\nïñ×Mý Í)gŒê9”PUåö\r¦—ÊD2©ÊÂï¥ /Î–Kkª @Ü µõMÝ·š…&¥bµ£èñ‡Ì  Ï  «\n»ÊS  D~:X±¿ÍE®Á}ÔO$  ¦!Y ¶äJ Õ 6qšê8·ðU«˜ ‚÷oœ- /ÙÛD<Ð›ýÄ åÇ·;|1gÏ&áh<4/Æ)£ù‹=™}ÏOˆÏÏ.”]kX  1å»:UÀ“•âxR­íÇš ë@%DvTûrë9»_ñÑ  5›¤ñž-& ’ð”C]Íðøµ1O)B(Ù±¸å@i B  ·Ä”½ é¸  ¨†?ÛÂ Í˜¤»â®×ooä…Òþ÷ ¶Ì±FçY˜ÌAÒ°—¸=·íÛž3è¹ LWPm7nX\n¼Ñ° ‘³yŠe!ëuÛí Ñs@ êsbÆVøÝ`ÄräO×öÆé2‡<€;‰Ü¼¦@nç™©/*5 Ô±ÑlVÐ\\Óû¢ô/åC\ZÆø\r©ŽÉ [‘z­ ä¦3àQLU € ý¦sô÷#ü3¿fC¢y\nêAaC<Çí8 ¯ï <ßw	Î‰ïG¸~`¥ïh6›Ó {g\"Ë Nðù ô¹Ðw @Ì„ä¬Þáà  ˜[ª×,<| ã`–ÁÞ.ÎQí ŸyàÁ‹ïjô k}¤4äß÷zÃ/<p×  Ìuð‹Tîº¾c¤-ñƒgk ÞëuüB¼[‰·AïGÓ\">êúÞðËÚô’ Æ  í)†  \r:ûC‚ M“‹‹±Úƒa1ÒÏÐ 3\Z•Æwz}ÄÒÝ À¼ Q*â£L÷ð$ îñ’RÐ  x ú6« é<0Ÿ9¦.eº È˜³‹R¦‡2þÃX–bî Cap¯Tj 8{5œ/¢¿†´Ûï z‡¡ ¸Nû1¬Ýþ\0ˆõ °q¢þ#hãh M¹† …üÇðv ŽÛ~ à¨Õà1ÄqF×@Þ Ä/R|ã æéàŸé OØ5„ö0¾ÊÍ¹~­ ÃÇi¹e[»xá‰ƒà‘ó œ}ˆƒà [ X a€; „\0Ãkf\"§5œ ÈkóÌ9Ø.tÑ÷âW(œ™\\mµž  .4Kkã£—\"š\'l×¬¢õ:”<×õ¾ö¦ ó^½«³îº„ì´ %2ºxQí\\ˆº‰\0Tú‘Ê òíNkiÙî‚œÂæ³ìº w ûK# ¬‰ 9 .Åä^ùF žT… Œ   øÛØ†ÛXUÁWö• Ü\\œß\\¾«?R„ý2£TÙÃsœ¾3p]g\0éÅ·Jù¡þbÞ °º°%Ÿ@Ñ ®j ¶=Á·!æu Õ˜fØ„ê*=ŸjØ © *L4Ù°§ÝÙ  ° YDåê ªé‡<ªBu ¡×ß{\0 lÒ7>°Íß˜T%:0‘Ûê¶ü5 \'˜ \r õ$kZ½J Š ŽtäA»ë˜ÅB‡Ãoe ¦WWItIg<,VòËÿ\0','20150928202441')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Carcinogenomics]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:Carcinogenomics&oldid=18896
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Carcinogenomics]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Carcinogenomics]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Carcinogenomics]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7138'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

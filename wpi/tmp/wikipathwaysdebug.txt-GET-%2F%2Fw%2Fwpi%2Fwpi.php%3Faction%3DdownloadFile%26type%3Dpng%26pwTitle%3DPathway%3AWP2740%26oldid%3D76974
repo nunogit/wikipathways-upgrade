@@ -1,0 +1,46 @@
+
+
+Start request GET //w/wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP2740&oldid=76974
+HTTP HEADERS:
+CONNECTION: close
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+HOST: vm1.wikipathways.org
+COOKIE: wikipathways_session=vddgkq1ee4ff92a437g32dpfu7
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+[cookie] session_set_cookie_params: "0", "/", "", "", ""
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+IP: 188.143.232.22
+updateCache called for filetype png
+	->Updating cached file for png
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150730130701, touched '' epoch 20150515185216, good 1
+wfShellExec: /bin/bash '/var/www/wikipathways/w/includes/limit.sh' 'inkscape -z -b white -w 1000 -f '\''/var/www/wikipathways/w/images/cache/pathways/svg/7/7e/WP2740_76974.svg'\'' -e '\''/var/www/wikipathways/w/images/cache/pathways/png/7/7e/WP2740_76974.png'\'' 2>&1' 'MW_CPU_LIMIT=180; MW_CGROUP='\'''\''; MW_MEM_LIMIT=524288; MW_FILE_SIZE_LIMIT=102400; MW_WALL_CLOCK_LIMIT=180'
+
+
+Start request GET //w/wpi/wpi.php?action=downloadFile&type=png&pwTitle=Pathway:WP2740&oldid=76974
+HTTP HEADERS:
+CONNECTION: close
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+HOST: vm1.wikipathways.org
+COOKIE: wikipathways_session=ngl23hltp6vghr8tibmi3hkmq2
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+[cookie] session_set_cookie_params: "0", "/", "", "", ""
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+IP: 188.143.232.19
+updateCache called for filetype png
+	->Updating cached file for png
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150730130701, touched '' epoch 20150515185216, good 1
+wfShellExec: /bin/bash '/var/www/wikipathways/w/includes/limit.sh' 'inkscape -z -b white -w 1000 -f '\''/var/www/wikipathways/w/images/cache/pathways/svg/7/7e/WP2740_76974.svg'\'' -e '\''/var/www/wikipathways/w/images/cache/pathways/png/7/7e/WP2740_76974.png'\'' 2>&1' 'MW_CPU_LIMIT=180; MW_CGROUP='\'''\''; MW_MEM_LIMIT=524288; MW_FILE_SIZE_LIMIT=102400; MW_WALL_CLOCK_LIMIT=180'

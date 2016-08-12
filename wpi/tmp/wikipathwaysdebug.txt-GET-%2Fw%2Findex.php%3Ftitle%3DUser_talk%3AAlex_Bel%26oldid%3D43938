@@ -1,0 +1,52 @@
+
+
+Start request GET /w/index.php?title=User_talk:Alex_Bel&oldid=43938
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Alex Bel]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.65.148
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Alex Bel]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:17172-0!*!*!*!*!*!* and timestamp 20150310110311
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:17172-0!*!*!*!*!*!*','uTaoÚ0 Ýçü\n7 \'ÑÅ	 j¦I ë R)HÐí³ ß ‹ÄŽl§…U•ö ö ÷Kæ Ð è@\"èÞÝåÞ»gÏ Y8çÆ‚™Õ®ª]È’.{²¬ÇÂr	k  -K     Ï:  ÜÂã|N\nYJG TÚ¸`îŸF§`­6äAZé@ ¥ T×Ê1 } Qó9LÍ@áÇÉñk²¶îïï?°®¸ Dª´¨}š•¿\0[ÆÑeŸöbr¿q`ƒ%”Uá{ n²º åþ“7–Y Ö‘¦©•Z  •Ë1±  ×ë\n|ô HÕHB~Ö*u˜Õf t:Ÿ‚­  þ\08Ú>?åi äQºœ¬`ãÿ¬dÅ]þÈ7–U\rÈ¤È¹Í íÓ~Ü‰ÎÞ¿~	Òt²ôóñ²\"qD{QB#Jý/%øR\\ íúÍÜp•Õ<ƒ ©V6 r ±§gQ¼ ™6 Ú@„ë”®€ýN©_é Žìx±bW ¬Ég( ¹ÀþG}›òÄíxÜŠOD é{`Rú	ÛÙþ•åWYÀ ¸IóY…Ê¶qdv½v` /Ž\'@?N”ÇPÓ·h{c. YV8¼gÑpW3– Þ€Ð­þÆ‹ Ìæ : .& ÊVœ{ªE]Àñ´Ûè\"5²rm,yÅÜæ°¬÷ Mý18R õÜžÃ±ÖmŠ— øÁ’*;Šî˜ ë|-¤ÛAK½ Äw$Q¬¹Ñ  wà ¬ZÎFãåô màµ ‡/ÎÙ™roÀ ]9  ÚM I„ÑØÛæ]û\"yç×%`=×…L7­†It’x•â\0âÄ Iï$×sÒJp³ùÂ ¿«Ä¡!ãÁI \Zª9éXpÈö; Û˜¢¹îèùÅy÷…ò  +ònQn Ç&\Zïóü½!ÑF· Eë´r\\*;+Ä”g2ÝŠÿü ','20150311110311')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1785
+User: loading options for user 1785 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Alex Bel]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17172'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

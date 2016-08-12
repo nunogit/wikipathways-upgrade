@@ -1,0 +1,52 @@
+
+
+Start request GET /wiki/User_talk:Bart_Smeets?303
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+REFERER: http://vm1.wikipathways.org/wiki/User_talk:Bart_Smeets
+CONNECTION: Keep-alive
+ACCEPT: */*,text/css,*/*;q=0.1
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Bart Smeets]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.67.44
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Bart Smeets]] are {edit,move}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:33690-0!*!*!*!*!*!* and timestamp 20150319143544
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:33690-0!*!*!*!*!*!*','uT]oÚ0 ís~…›ÇItù¢ 3MÚX7JA‚nÏn|—X$vd;-¬ª´Ÿ°ß¸_2ß\0m ]x ºçøæãcÏi QÁ´ =¯mU[ŸÆ	}2´Oır  ë   ê{ Î{=âİÂãbA\nQ\nK4TJ[oáŞZ¥`ŒÒäA a ©8TÕÒR ¼ ƒæ9¦f A³.9z%+cÿşş ›ŠIN„L‹ÚÑŒø Ø2\n†Wa?\"÷[ Æ[AY ® a:«Kö?¼‰Èr0–4MP’p¨lÄ$ğ®7 ¸ê ª±„ü¬ej‘ÕVâõz ½ Kö\08ÚŸ²4 ò(lNÖ°uÖ¢b6d[C« ¤‚çÌä4/‡A/8÷ú#(ÓŠÒÍÇÊŠDAØ âp &q?I ~ 7#LÜÎÜ0™Õ,ƒ !×Æ 1\ZĞ§g‡…  ; 2¥ ´\0·SØ  {\Z9ê lY±¦Ÿ™¶dY Xƒà%~¢Óºé°w¹]Zõ)o!W ˜–nÈ6Û ©ü*\nX Ói>¯ĞÜ6â®7 ´dEw ŒäT: m}K¹Ëæ šıòG÷4 í×L ‡7  t«¾±¢\0½=ªN€ñ©…²Õ ç)^ ĞvW]¦ZT¶Å¯˜İ /ë¿@3w : ¡Ÿ»£8Qª-qè€ LK!³Nu¯¬ëó5 v ­Ô\Z ß‹D³ ZU íQLpÕj>¬f7  ç…?z	Ï>—‡ ºx&A %a \r’¨‰”‹ÍYû.9sÛÅa³P…H·­†qpBü”â¥\0ü$ qÿ„ë4)É™Ş~a–İUü8Ñàd  ª9ì¸àXíwĞ¦	Esã… — É‹ä1WÔİ’Ü:‘M5:ğÜÕ!0F·XÅè•´LH3/øŒe\"İ™ÿü ','20150320143544')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 9465
+User: loading options for user 9465 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Bart Smeets]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching; Sat, 14 Feb 2015 19:09:24 GMT **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33690'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

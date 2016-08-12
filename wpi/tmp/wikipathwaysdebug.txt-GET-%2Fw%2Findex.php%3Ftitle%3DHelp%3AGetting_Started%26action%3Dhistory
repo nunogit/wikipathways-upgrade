@@ -1,0 +1,580 @@
+
+
+Start request GET /w/index.php?title=Help:Getting_Started&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.67.39
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2015-06-20 08:10:34') AND (exptime < '20150620105144') AND keyname IN ('wikipathways:pcache:idhash:1934-0!*!0!!en!*!*','wikipathways:pcache:idoptions:1934','wikipathways:pcache:idhash:5057-0!*!0!!en!*!*','wikipathways:pcache:idoptions:5057','wikipathways:pcache:idhash:5019-0!*!0!!en!*!*','wikipathways:pcache:idoptions:5019') 
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [5e7739a7] /w/index.php?title=Help:Getting_Started&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Help:Getting_Started&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.66
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [63504223] /w/index.php?title=Help:Getting_Started&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Help:Getting_Started&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.79
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [2ee59583] /w/index.php?title=Help:Getting_Started&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Help:Getting_Started&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.69.4
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [7e62e17b] /w/index.php?title=Help:Getting_Started&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Help:Getting_Started&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.53
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [86803ca2] /w/index.php?title=Help:Getting_Started&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2015-08-14 15:50:08') AND (exptime < '20150814173349') AND keyname = 'wikipathways:messages:en:lock'
+
+
+Start request GET /w/index.php?title=Help:Getting_Started&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.75.36
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [6511fac5] /w/index.php?title=Help:Getting_Started&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Help:Getting_Started&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.75.52
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [3c1bbd92] /w/index.php?title=Help:Getting_Started&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2015-08-15 05:02:32') AND (exptime < '20150815054600') AND keyname IN ('wikipathways:pcache:idhash:9905-0!*!0!!*!*!*','wikipathways:pcache:idoptions:9905','wikipathways:pcache:idhash:15560-0!*!0!!*!*!*','wikipathways:pcache:idoptions:15560') 
+
+
+Start request GET /w/index.php?title=Help:Getting_Started&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.75.36
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [419de2ea] /w/index.php?title=Help:Getting_Started&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Help:Getting_Started&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.64.105
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [5f7475e6] /w/index.php?title=Help:Getting_Started&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Help:Getting_Started&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [1630d731] /w/index.php?title=Help:Getting_Started&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathway
+
+Start request GET /w/index.php?title=Help:Getting_Started&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.65.80
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [5bf417e6] /w/index.php?title=Help:Getting_Started&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Help:Getting_Started&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [5f6b0cfb] /w/index.php?title=Help:Getting_Started&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Help:Getting_Started&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [77131e43] /w/index.php?title=Help:Getting_Started&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Help:Getting_Started&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+[exception] [71d6d901] /w/index.php?title=Help:Getting_Started&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+
+
+Start request GET /w/index.php?title=Help:Getting_Started&action=history
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.139
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2016-06-21 21:20:25') AND (exptime < '20160621213217') AND keyname IN ('wikipathways:pcache:idhash:4974-0!*!0!!en!*!*','wikipathways:pcache:idoptions:4974') 
+[exception] [46ab49f8] /w/index.php?title=Help:Getting_Started&action=history   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}
+Title::getRestrictionTypes: applicable restrictions to [[Help:Getting Started]] are {edit,move}

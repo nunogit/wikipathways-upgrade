@@ -1,0 +1,524 @@
+
+
+Start request GET /w/index.php?title=Portal:WormBase&printable=yes
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.67.46
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:874e954e1cb248f3537a65dba165d7a0:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+GETTING PATHWAY OF THE DAY for date: Friday 19 June 2015
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:WormBase_Approved' 
+		Pathway in cache: 'WP394'
+	Did we have WP394 before?  1
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:WormBase_Approved' 
+		Trying: 'WP264'
+			1 attempt
+	Did we have WP264 before?  1
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:WormBase_Approved' 
+		Trying: 'WP525'
+			2 attempt
+	Did we have WP525 before?  1
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:WormBase_Approved' 
+		Trying: 'WP1453'
+			3 attempt
+	Did we have WP1453 before?  1
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:WormBase_Approved' 
+		Trying: 'WP2915'
+			4 attempt
+	Did we have WP2915 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP2915','Curation:WormBase_ApprovedFriday 19 June 2015')
+END GETTING PATHWAY OF THE DAY for date: Friday 19 June 2015
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+[ContentHandler] Created handler for pathway: PathwayHandler
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/e/e9)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/e/e9/WP2915_79936.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/e/e9/WP2915_79936.svg
+FileCacheBase::isCacheGood: cachetime 20150619205732, touched '20150427174223' epoch 20150515185216, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/e/e9/WP2915_79936.gpml" "/tmp/WP2915_79936.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/e/e9/WP2915_79936.gpml" "/tmp/WP2915_79936.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/e/e9/WP2915_79936.svg
+moved into place WP2915_79936.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150619205734, touched '' epoch 20150515185216, good 1
+Got thumbUrl: http://vm1.wikipathways.org/w/img_auth.php/cache/pathways/svg/e/e9/WP2915_79936.svg
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:WormBase_Approved' 
+ExifBitmapHandler::isMetadataValid: back-compat version
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7e/Image_new_colour.jpg/615px-Image_new_colour.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/7/7e/Image_new_colour.jpg/615px-Image_new_colour.jpg does not exist.
+BitmapHandler::doTransform: creating 615x74 thumbnail at /tmp/transform_2cb990f2670e-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7e/Image_new_colour.jpg/615px-Image_new_colour.jpg
+BitmapHandler::doTransform: creating 615x74 thumbnail at /tmp/transform_550892dc7b44-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7e/Image_new_colour.jpg/615px-Image_new_colour.jpg
+BitmapHandler::doTransform: creating 615x74 thumbnail at /tmp/transform_ad92e4b1c876-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/db/Screen_Shot_2014-08-08_at_13.34.29.png/867px-Screen_Shot_2014-08-08_at_13.34.29.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/db/Screen_Shot_2014-08-08_at_13.34.29.png/867px-Screen_Shot_2014-08-08_at_13.34.29.png does not exist.
+BitmapHandler::doTransform: creating 867x262 thumbnail at /tmp/transform_daa86617985d-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/db/Screen_Shot_2014-08-08_at_13.34.29.png/867px-Screen_Shot_2014-08-08_at_13.34.29.png
+BitmapHandler::doTransform: creating 867x262 thumbnail at /tmp/transform_1e59018c1625-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:874e954e1cb248f3537a65dba165d7a0:0)
+Saved in parser cache with key wikipathways:pcache:idhash:13531-0!*!0!!*!2!* and timestamp 20150619205735
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:13531-0!*!0!!*!2!*','í[{sÛ6 ¿¿ı) fÚ¹ëTâK/Ó¶:‰“4™i _í6j   QS K‚–Nnî#Üg¼Or»xˆ”,ÛÊÃ}]û(`	ìşv±»XÀo\"?ˆœSZV¬|SË¢–N ö¢_ª¨ 9‹sv%ƒ*ò½`\0d‡	¿$•¼ÎØ‘ gŒ– ™\n™ BT\\r‘G¤d •ü’ @O™0 ¨DÆ ²L¹\\5v–<‘iDüâJıïA /æ¥¨ó$\"û£¡GÃ  ‹LÀ æİ‚&	Ïç éúlq µ Íø &Y.Yy° åœç `IŠED¼âêÀ ï  ãÃª 9‰3ZUGN‘Qg<¿¨ +KÃ> »5Ì&E¡ø;(ù<•úq}|ÅÅLä²Sñw,\Zy_¬3ìŒ )Âqääb&²L, Ë °ÎÊœf …pˆ„q™<r&ÓŒæ  IK6;rR)‹Èu/ ~wÉ/xAeº¤×UW”swéò<aWİ\"-¾‘\\‚ §¢”4‹ŞŠrñ”VÌ}•ËR|I Å Q´#–pé $¬\n×¸E‚C ûÇ‡. ùØ x úsÏ´Ãw  i`GhÄ÷=”_ı^2 ÙTdIc ¹ÈA…\ZÁ  nµÙ<® k Ôª ¾§| 3ã§ ‘PIŞ 0§ ˜C {	!{úéĞM ä l ¾Z–›ğ\nlà:šf\"¾h8DCÜf«`	-{= —¬”<¦™5>è?h[¯yÛ€ *ÅIÚÖš±™lA ÿúhª}£ü  e‡İ ZĞ”%f ¿KüHP á˜¬™÷bÙI MÀÀ™Cxrä¼eY, l\"ÅD¦lbá›h‹é ¾3&† d!@CV kšGde 0ZPÓñyÊ+X÷ØORPx†J‡ ­\r  –d.ALKøŸ%dzİ Lód5 9 ‹Esyİ ÍY#s•xğ «H/  —û‚g,zµ s6ÉÙr‚0×e÷§b¾Z] ;ÁdøbNh ëJQ  &mêªŒqL È&´–).&wè aíl ]ÙÀ‘3ğû°B•‰ 9ÃC\\µ\\4ÃğQâ‡QSÑ +€ :â¹Zø¸  6À¨ \0y½ bF¦ &›óJV\n Ğ 8cV’*æ\0¤jO`ÆT – ¨¢ — mD Y²\nüqœâ{\ZL`X¦„Æq]Â+_ ø.a ¯±‰U   Ÿ 0¨øAnb`Î 8g9 ;¯¾Æ\'±€\'Å–æò\Z >äãã.a ›Ó V  +  \0€ÃœÁ¸\"aUWë   QP.Š X¹ßÖâPŞvµ8<4|âuƒÖ\'.…ÆyÜB€ ãó¸ßårÙ] FSP\"º^§Qé[6%g°ÖQıh¸ÚÕÜŒ‘*D:¶û¦?še‚ÊH{ íh Á °(÷ş\n·˜p{Œ‹ DúÓE\\>6ñ•X ÕJÿcìã§/õŸ (Ê‚L÷ÄÔ§¥XB =îNŒû›X{™ˆ|ÒÎJœ±¦%«´1²\"àu×3  e µÌ›ŸÕ•mšö¦aŸ ,æ4û\"|¢g·¼)Ãª¦£c\n ¡Lé ì—W  E!éüÈ\Z\nŒ±J6  ®X¢ˆ.9[ É´^L«–;µ$¤CûUµ \0 € #Ó1@ÀÔ #I)\n’ˆeN2   5‹@ –2O·¢ÎsrIK.ê\n¬ \"}…Á¬(YA5ßİÃi	Q}o[âq —Œå“³TÈIàù½7‚ÿ&TNü° öºÁ~·ÈïHEôû ß\'Íû˜Ê®¿¯“ …‘RÎìh·™ ¾:S zŞ*iQÏ6i	ü@MP¡¥l&@‰›Lİİæ\"~·õ5ù” ‚«VşTì´ô¾er j+!Ç˜`†3™@mù|\"Ê	zT|¤v=:c \'†^gD–ˆ’ zB­ul.Á\r xÉ²\":Ö©-Ä3½dœõÖ1ş„ñÀ°Z‚ÕÙø0 Ç¹m@`Qq}¦Ù\\ ×t Û9¶\rF(3 Œ}ëø\'É\"{%ŸÖ PúgÍã õúúT@GZt¤E7nw˜ğ¹QÃÊ	®MczIã\"MË #[ó„¡1lŒÙj 7Ï; x’‚Ã[ nÕ:>“¬èL¯; | išÛ » Ù]ìö¬.¸l, ÷cÖ÷Á4ª·±Cte¶wÓ&\r­ËŸ%6HúåII» t%‹Ó.Kj÷_ô]]²i™¸ñœw¦<wq·P¹†Ç.´:ã”•¬eç¿všÿ!97î[µg_±úWvıGÈ®ß@Ø/ÿ„©5d4³:#ß¡şTZM~ûòÕ §Ö÷–«ä90 ³… ¦k?×ËP­úé–	hÎ×6ú®3†x¨‹ \'Bn &Ÿ¿º€ ¶  «ÓbòŒWq]U˜é¾À›açşêŸÍÀ¿g•¨Ë˜µSîUÛ  {CD: µtëŠ•s Ôı0è{½NÇ÷Zœı`» Ô7Xrs æ  K ƒt ö˜÷“?ÚŸÑ„ ûƒi¬¹=i‘‘o?;·3Å,|®3[ÔS×6€¡¼8?%•©B}„mLVÅ×M iÊ²¿® qaÖŸ² øù6@%¼Ûšï	ş~¨	›š¨u0­ß 1© f–îÉI8™• Ôpo¢“·“VÿG Ğ÷ìçšUr’BÎìŒÍ/‚¿~M‡\"…È*·ª <ø¦.³£õ&½#»!Şï9S½­Hl¸Ññ< şU%şcå±/˜Š ÉŸ0•µ¢ÙméÿG:»^P0¢GoOƒ}<%4 …æñ÷\"cXrÌx â-˜„ô#ãÕ  “í 5:&_/µÚ¾è}¬‚ ıp±T•Â•)«_Dê èŒÛ®Nuñ<‡v« ãM¼@-Í•Lwšú6qmÍSŸq6 •İä5URUø¼g•µ«1Sf+ àò/ç.sÙ¾«™š ÷÷ÃA Z ]İ‘ [7\rÛuS‡d\"ŸC´¾Ã;ÀÑğ«ª°)| rC=1-Ğ5ìn)Mèh—:Æ?r¶ ±³Ï wwÇ ›~G¯ ØF ‰  ´ nŸ\"\0.ÏÄ2‡pš(lš+	öüauP0½& ÊÃª¨u1 6ì˜ÍİV\nØë²àî”Ê8µó*¼ÌÈGÛW¸ tÆ3v~]°£y±Ènà İ@§¥Àœ’ÇÛÇÖç*ŒDh£d§[÷  u:d ¶ç§§°6° Z2ÌôöNá» x½  à’ã¾( —0pÿu  C8\Z¹  ñŸub¼îPÒMr?èù\r½¨äÿı vU`M€ÃÎ¯ J e‰?Ø C7ğö‡~?\0Ã‘¬Ú;g‹ ïB €¬Æú…¡\r ½MÒ—\0.¦ÎjlµßOX1nèö¼½çW ƒÖK èâ==2«óØÜÙPlzÈã^§c¡9£hÇà$ ½r’úôã‚áÅÆH£BuF<Ii•F~Ø ı÷è«GŞ#ø  }¥¯êğ °  ˆ‡V}oàï ^ ö	Î©. ö\"gñ Íç5¸6UÏr häE¿¼‡> ú ˆ¹(Áâ[  ^1D¿±ºgØœ¤	› 8¸ 4ˆ~á‘ ÀÓ\0¯)\"guôr\0 ıáÀ ´y¬¢{‡Ğ À€w Š(ÂQ ‡ Â ‡ ºÛ;Ğ ´N  £7êã{ÀÔê  [=h}Ïñ\Z%°í#Û0°	\rĞ ö}àúı\n c8-q½ < ñE Æ^%”SqÕQW1 º  WO¡ ÷j æqşşpd”´~AĞ¾† øû  ç¸=Î,Iˆ$Ã ‰õC–`s Uµµ½£Í×­ã¶ }\rÅÇ  B‘\0Ş w\r{ĞÓ0 -˜^%  T°ß ¶ µï{á­H\rzƒ¾7R8ôğ.¤†Ã w;R0ÃÀ» )x½ î‚T\0&¥ ‚‘ êB› 	Ì äŞzÇ\r_„ÙC@nÇƒnõÆ{\rö OÈÏÔ-´7*ÙeFC\0h ±® f M‚ºAŒ~ˆ­ĞX¥ÔÇÇ üÉèÂ  b9ú©·œ±«:õå² ^ü çsáÏã‘ƒ<}ˆ ·²ÑóFŞ(ğÂ~0ÜÆ†WOc¯œ÷¨/¯‡”]^ ®½€ñ€ı ÒÅ¾£ }ãs“i­Ü ¨\r åİvÓÌhÃ ÷£ÉÁ¢ ìîìëîÌâËvÎeø\Z4¬ôé¡ *èGwÔá­Uú·Bµ*› Ò¾w;é ågóöp¸óÛ;VŠ­ àôw*êZXz7 YUGoB·¥¤¹h£ i¹kÄ¾§lhQ ÜÓ½5¹•ãÀ?3x…[F´ëm™  ê3}İÇ9˜F	î‹—\0ÿ–.ŒŸ\'â[ÈìYy½Öú ¼ü+É ­ñÑi½ I­e%½U+x ^Èv_ØôaîÚîê¯º^CJi ®éÄx¥ÿ¼â%h°Õ k{ñ–ªk· ­F2Õ:ÂØæé Å¶ 4_²l¥‹È1¿a²È±.S•jÍÚ¹ç·É³rXâ ‹Ô0ÊÏÁĞÊÃ¨q ÔtT+p F±01 LÌ¿‘¹ÙÀ©ñÇDWÌf  İŸè¹h §BÍ †Ñ ÷ÔUÜÛ „` „ (a÷ËxÛğ >\0ŞM<š<` H\ZnwºfˆØ Ÿ€Í@åË pSj >áV|‚‡ÁGsü!wÁ £ğã1\n0Ÿ¸ãÎ6Dz[ 	  ‘†¿[n ¡ü½[ä îw\"èüÖOç7  ‚^÷ †É…ww ? `ÿ  lí š3ÏíRnw ÛMıÓ¤l1Õ:¢EQ  /j`¶ Û y· ¼}mo·äO Ø²¶õd\ZÅ ~‚†Á©¶)·‹º}Ñö @·\r;ú Uï 0-ÁªƒÉ\0ÎÅ Ã4Àä2˜ –¢ÀƒÖ¦ øÍ ÀãÂ¼vä ı`e³$ÓgrŸó7Ç/Ï_×~E—dLµçÆ>È ‡ı‘’ äø[û¯Fÿ I  u*2 _·  ½ „OÔß ±¤µIT{!ÀVï0ø;†Òúfv­ Ü¤ë$Éô€p•¬§2-Y•Š,Ñ ¸ïëß˜  yBËëgTÒ ŠÄ Wt¶…sã Ü®©B ¾°0şÈÊÊ`	 ùİ¶ …Ü1ÖÒÎ×w­r™Õ¹¦{~UğRíÖÃgwı ¬IQWo²ä5óXëııÿ\0','20150619215735')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:WormBase&printable=yes
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.64.100
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:874e954e1cb248f3537a65dba165d7a0:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+GETTING PATHWAY OF THE DAY for date: Tuesday 8 September 2015
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:WormBase_Approved' 
+		Pathway in cache: 'WP2578'
+	Did we have WP2578 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP2578','Curation:WormBase_ApprovedTuesday 8 September 2015')
+END GETTING PATHWAY OF THE DAY for date: Tuesday 8 September 2015
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+[ContentHandler] Created handler for pathway: PathwayHandler
+FileCacheBase::checkCacheDirs: called wfMkdirParents(/var/www/wikipathways/w/images/cache/pathways/gpml/6/6a)
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/6/6a/WP2578_78452.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/6/6a/WP2578_78452.svg
+FileCacheBase::isCacheGood: cachetime 20150908213422, touched '20150107102718' epoch 20150515185216, good 1
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/6/6a/WP2578_78452.gpml" "/tmp/WP2578_78452.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/6/6a/WP2578_78452.gpml" "/tmp/WP2578_78452.svg" 2>&1'
+moving into place /var/www/wikipathways/w/images/cache/pathways/svg/6/6a/WP2578_78452.svg
+moved into place WP2578_78452.svg
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150908213425, touched '' epoch 20150515185216, good 1
+Got thumbUrl: http://vm1.wikipathways.org/w/img_auth.php/cache/pathways/svg/6/6a/WP2578_78452.svg
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:WormBase_Approved' 
+ExifBitmapHandler::isMetadataValid: back-compat version
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7e/Image_new_colour.jpg/615px-Image_new_colour.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/7/7e/Image_new_colour.jpg/615px-Image_new_colour.jpg does not exist.
+BitmapHandler::doTransform: creating 615x74 thumbnail at /tmp/transform_400aa341350b-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7e/Image_new_colour.jpg/615px-Image_new_colour.jpg
+BitmapHandler::doTransform: creating 615x74 thumbnail at /tmp/transform_6e3e72c71943-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7e/Image_new_colour.jpg/615px-Image_new_colour.jpg
+BitmapHandler::doTransform: creating 615x74 thumbnail at /tmp/transform_8d4520d4f0e1-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/db/Screen_Shot_2014-08-08_at_13.34.29.png/867px-Screen_Shot_2014-08-08_at_13.34.29.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/db/Screen_Shot_2014-08-08_at_13.34.29.png/867px-Screen_Shot_2014-08-08_at_13.34.29.png does not exist.
+BitmapHandler::doTransform: creating 867x262 thumbnail at /tmp/transform_1c35256164ef-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/db/Screen_Shot_2014-08-08_at_13.34.29.png/867px-Screen_Shot_2014-08-08_at_13.34.29.png
+BitmapHandler::doTransform: creating 867x262 thumbnail at /tmp/transform_5fa1d414139f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:874e954e1cb248f3537a65dba165d7a0:0)
+Saved in parser cache with key wikipathways:pcache:idhash:13531-0!*!0!!*!2!* and timestamp 20150908213425
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:13531-0!*!0!!*!2!*','í[{sÛ6 ¿¿ı) fÚ¹»©Ä—^¦luR7i2Ó&¾ÚişÔ@$$¢¦  	Zv;¹¹pŸñ>Éíâ!R²lËIÜ×µ ‰ –Àîo »‹ ü&òƒÈ9¥eÅÊ7µ,jéDa/ú¹Šú‘³<gWÒ W‘ï # ;Jø%©äuÆ8c´ŒÈLÈtL\nQqÉE ‘’eTòK6†2a@Q‰Œ\'d•r¹nì¬x\"ÓˆøÅ•úßƒ \Z_,JQçIDöGC†c ‹LÀ æİ‚&	Ï  éúl9–ÀZ‡f| “Æ,—¬ /i¹ày X’b  ¯¸\Z;“ƒ£brT 4\'qF«êØ)2ÊóŒç •ceiØ§3`·†Ù¤( ã’/R© 7ÇW\\ÌE.; ÿ‰E#ï³M†É E8\\ÌE–‰•cY\0ÖY™ÓŒ   ‘0.“ÇÎt–ÑüÂ!iÉæÇN*e ¹îåÒï®ø /¨LWôºêŠrá®\\\'ìª[¤Å—’KáT”’fÑ;Q.¿¢ s_å² ŸÓe1¦1ŠvÌ . ƒ„Uá ·HpäbÿäÈ¥“ÏŸú o¬? L;| ğ‘ v„F|ßCùÕï SÍD–4V‹ T¨ ŒPáV›Íã ° J­zà{Æ 03~Z 	•ä \0sj€9r±— r ŸÜ4@Áfá«e¹	¯À ®£Y&â‹†C4Ä]¶\n–Ğ²×1¹d¥ä1Í¬ñAÿ¸m½æm .¨ \'i[kÆæ²  üë£©6öò[L” vChAS–t–1ü.ñ#A]„ ²aŞËU\'e4  g áÉ±óe±X²© S™²©…oª-¦ øÎ„ \Z…\0\rYC¬iµ]ÀtjAÍ&ç)¯`İc?IAá * Z´6@|X’¹ 1y.á–Ùu30Í“õLäD,—uÎåu 4gÌUâÁ ¬\"½ \\\\ î ±èÕ’.Ø4g«)Â\\—İ ‹Åzuqì “áË ¡ ¬+EM€š´©«2Æ1] ›ÒZ¦¸˜Ü¡;„µ³ste ÇÎÀïÃ\nU&~ì { qÕrÑ ÃG‰ FMEc¬\0 èˆçjáã‚ Ø\0£\n\0äõ’ˆ9™q˜lÁ+Y)t@ àŒYIª˜ ª=5\ZS	X‚¢ŠR\\r´  dÉ*ğÇqŠïi0a™ \ZÇu	¯|Aà»„¾À&VU X ~æÀ â ¹‰9;à‚å ì¼ú ŸÄ  [šËkdøˆONº„elAsX}|¢ T\0\0 s ãŠ„U]­O\\€FA¹(J@bí~[‹CyÛõâğĞğ‰×\rZŸ¸ \Zçq  :ŒOã~W«Uw  Í@‰èzF¥ïØŒœÁZGõ£ájWs3Fª éØî›şh	*#í ´£  ŸÁ¢<ø3ÜşnÂí	.2 é  qùÄÄWbET+ıW±O¿zñuÿùè‘¢,ÈtOLıª + ¡\'İ©qSk/S‘OÛY‰3Ñ´¤q•6FV ¼îf c£l Ö‘yó“º²mÓŞ6ì³‚ÅœfŸ…Ïôì–7eØ3Õt|B!\"”)ıòÊB ($] [C1ÖÉÆ³ Ã K Ñ%g«c™ÖËYÕr§–„4ph¿ªÖ\0Àñ ˆ02\0 L-1’”¢ ‰Xå$ƒ\0‰QQ³ t`)‹t\'ê<\'—´ä¢®ÀZ!ÒW ÌŠ’ Tóİ=š• Õ v% gqÉX>=K…œ ßëx#øoJåÔ »a¯  v‹üTD¿Oğ}Ò¼©ìæû:9Q )åÌ÷›Yá«3•¡ç­“ õl“–À Ô  ZÊv ”¸ÉÌİo.âwûW_ !¸jåOÅ^Kï &§ ¶ rŒ)f8S˜	Ô–/¦¢œ¢GÅGj×£3 zbèuFdé‰(‰¡\'ÔZÇö Ü²—,+¢ ÚB<ÓKÆÙlàO   «%XM2pœ»    ×gšÍÍqM\'± Û`„2sÀØ·ÿ\Z2Yd¯ä³Z Jÿ¨y|¡^ßœ\nèH‹´è&Íó  >7jX;ÁiL/i\\¤iÙcäoj04†­1[í“æy ÏQRpx›Ã­[\'g’ Ùu§‚o\"Ms{` 4»İÕ³%—eâ~Ìú>˜Fõ6vˆ®ÌönÛ¤¡µqù“Ä IbyRÒ. ]Éâ´Ë’Úı ı©.Ù¬LÜxÁ;3»¸[¨\\Ãc ZIÊJÖ²ó_:ÍHÎûVíÙ×¬ş™]ÿ ²ë7 öË?`j\r Í¼ÎÈ·¨?•V“_¿|õÈ©õ½åªgy ŒÄl©ƒéÆÏÍ2T+¤~¼e š‹¾ëL  ê¢Çk!w “O_]@ [ƒ‡Õi1ùšWq]U˜é¾À›açşêŸÍÀ¿g•¨Ë˜µSîuÛ# {CD: µtëŠ•  ÔOı0è{½NÇ÷Zœ½µİ¿ ê[,¹¹\0sƒ%„¿§Aº {ÌûÑ  ÎiÂ‡ıÁ,ÖÜ¾n‘‘o>9·sÅ,|n2[Ô3×6€¡¼8?%•©B}€mL×Å×m iÊ²¿¬ qaÖŸ² øù˜6@%¼Ûšï ş~¬	›š¨u0­ß1© f–îë×át^BPÃ½‰NŞ^·ú?À€¾gÿ¬Y%§)äÌÎÄü\"øë—t(Rˆ¬r«ºÀÓˆ/ë2;ŞlÒ;² âı–3ÕÛŠÄ†  ÏÃáŸUâßW û‚©X‘ü SY+šİ–ş¤³›  #zôî4è GëŠÂVóäù÷äL–¬ª:os°Á A+!Ãä9 ÚBäÿüõíé÷¬ü *œüu³Şj šÓ›Y…%:ãb¥Ê…k{V¿ˆÔËĞ™´ıêây íV\rÆ¥xZŸkÁî´÷]2ÛÂ§>èlÊ*  ÚÔKU	ôõÖ®;Æ4N™­M€ó¿\\¸ w@]ÍÙt8êõƒ.´:º û †l 5l—Q ’‰| Áû>6ï€I+B ‰M ” ŠŠiâ†Ó„“vùcò g+\0 û„±ø7w¤°í‹T> >°$ /-h¯Ü>Y\0\\¾ « Bl¢°i®)Ø3‰õáÁìšT( «¢Öe ØÄc†Cö[8`¹«‚»3*ãÔÎ«ğ2# ï^ğJĞ9ÏØùuÁ Å2»Ot – s Jì [Ÿµü>’£­2n=8zÒé Ø²Ÿ’Œc´d˜ı œÂw)ğÊ  À%Ç½R a/a  ê ²ˆp4r!Lâ?›Äx ¢¤Ûä~Ğó zQÉÿşû?ìªÀ: ‡İ`\r”*ò pØ İÀ; úı\0 G²êàœ- ¼ A\0²\Zk\Z†6 ôG[¤/ \\L§ÕØª ° ãŞĞíy Ï¯\n ­— ĞÅ»{d^ç±¹Ç¡ØôÇƒNÇBsFÑÁU zå.õ‰È ÃË\"‘F…êŒx’Ò*ü° ú ïÉßŸxOà#xòw}}‡/=°@<Èê{‡Ş(ğÃ^Ğ\'8§º4Ø‹œå·4_ÔàßTË ÓÈ‹~~ }>ô\0  Q‚Å·:<¼vˆ~c}÷° 9[‰ 6 pp;h ıÌ#?€§ ^] EÎú8f  ıáÀ ´}Ô¢{‡Ğ À€w ”(ÂQ ‡ Â   ºÛ k Z§ ĞÑ õñ=`j}¬€­ ´¾çxµ Øö‘m ØÄ è Ã  ß¯!1†Ó × Àã _ôaìu’9 W åx S »Àpõ tàş\r¢>Î ó %m^\Z´¯!(şáÖÀ9n™3K \"É°Ebı%8ÜAUrmïhûuë¸-A_ dññC€P$€·Á]Ã ô4LA ¦WÉ \n {£Ñn  }/¼ ©AoĞ÷ïF\n‡ Ş…Ôp ônG\nf xw! ¯÷Ã}\núşPA #-Õ%7  ˜?È½óŞ ¾ ³‡€Ü‡ßê÷\Zì%šŸ©›ioT ³ÏŒ†\0Ğ@ c]	Ì š uƒ ı [¡±J©!ø“Ñ…  Äjôco5gWuêËU?¼ø1Î Â_Ä°¨Ş?LŒ[Ùèy#pv^Ø †»ØğêYì•‹ õåõ²ËËÁµ 0 °†tyèhcEßøÜdZk7 jC`@y·İ>3ÚğÃÃèCr°h+ »;ûº;³ø¼s ¾ \rë |¢h†\núÑ µyk•ş­P­Ké†´ïİNzGIÚ¼= îıöÕc+ 8ı½\n½ –ŞMFÖ Ó›Ğí(sî&Ú*MZî\Z±ï)%Z” ·ãtoní8ğO ^á  ízWæ\0úL_ rÆ³È3Á}ù àßÑ…ñóµø 2{V^o´¾ /ÿJ²ek|tZß‰¤Î6²’Şº ¼ /d»/lú0wmwõ×]ßAJi ®éÄx¥ÿäâ%h°Õ k{ùª«¸[­F2Õ:ÂØæé Å¶ 4_²l­‹È1¿a²È±.S•oÍÚ¹çŞ·É³rXâ ‹Ô0ÊÏÁĞÊÃ¨q ÔtT+p F±41 LÌ¿‘¹ÙÀ©ñÇDWÌç  İ¿ÖsÑ<N…š+ £=î®«¸·? Á  =PÂş ôvá <\0ŞM<š<` H\Zn÷ºzˆØ  Í@åË ¸=µ Ÿp\'>Áãà£9~Èı0Ä(üpŒ Ì\'î¸»³ ‘ŞNDÂGA¤áï–›G(ï ùƒû :¿Í ûm ×ıH§ará=äİÁ  Øÿ  [;†æ t·”»]ÁnSÿ8)[LµmQÔÁ‡‹\Z˜íÇ®ƒßİ ï^Û»-ù£ ¶¬í<­F±‡ ¡apªí£Ëİ¢î^´½GĞmÃ>WÕû LK°ê`2€sqÁ0\r0¹ æD§¥(ğ0¤µ© ~s pà¸0¯] ¹@?XÙ,Éô™ÜçüÍÉËóï¾m¿¢K2¦Úsc ä‡ÃşHÉ\rrü¥ı—¤$ Ğ:  ¯[ †Ş\rÂgêo’XÒÚ$ª½ `«w ü\'†Òúfv­ Ü¤ë$Éô€p•¬g2-Y•Š,Ñ ¸ïëß˜  yBËë¯©¤o‹Ä Wt¶…së Ü®©B ¾°™0şÀÊÊ`	 ùİ¶ …Ü	ÖÒÎ7w­r™Õ¹¦{~UğRíÖÃgwıK¬IQWo²ä;ºà±Öûûÿ ','20150908223425')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:WormBase&printable=yes
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:874e954e1cb248f3537a65dba165d7a0:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+GETTING PATHWAY OF THE DAY for date: Saturday 7 November 2015
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:WormBase_Approved' 
+		Pathway in cache: 'WP525'
+	Did we have WP525 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay
+
+Start request GET /w/index.php?title=Portal:WormBase&printable=yes
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-ENCODING: gzip
+ACCEPT-LANGUAGE: en-US
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.16
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:874e954e1cb248f3537a65dba165d7a0:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+GETTING PATHWAY OF THE DAY for date: Monday 21 March 2016
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:WormBase_Approved' 
+		Pathway in cache: 'WP264'
+	Did we have WP264 before?  1
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:WormBase_Approved' 
+		Trying: 'WP2313'
+			1 attempt
+	Did we have WP2313 before?  1
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:WormBase_Approved' 
+		Trying: 'WP264'
+			2 attempt
+	Did we have WP264 before?  1
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:WormBase_Approved' 
+		Trying: 'WP2915'
+			3 attempt
+	Did we have WP2915 before?  1
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:WormBase_Approved' 
+		Trying: 'WP2313'
+			4 attempt
+	Did we have WP2313 before?  1
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:WormBase_Approved' 
+		Trying: 'WP2226'
+			5 attempt
+	Did we have WP2226 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP2226','Curation:WormBase_ApprovedMonday 21 March 2016')
+END GETTING PATHWAY OF THE DAY for date: Monday 21 March 2016
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150826223523, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150826223523, touched '' epoch 20150515185216, good 1
+Got thumbUrl: http://vm1.wikipathways.org/w/img_auth.php/cache/pathways/svg/c/cb/WP2226_79239.svg
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:WormBase_Approved' 
+ExifBitmapHandler::isMetadataValid: back-compat version
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7e/Image_new_colour.jpg/615px-Image_new_colour.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/7/7e/Image_new_colour.jpg/615px-Image_new_colour.jpg does not exist.
+BitmapHandler::doTransform: creating 615x74 thumbnail at /tmp/transform_161fdb4c36e8-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7e/Image_new_colour.jpg/615px-Image_new_colour.jpg
+BitmapHandler::doTransform: creating 615x74 thumbnail at /tmp/transform_3dd877643471-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7e/Image_new_colour.jpg/615px-Image_new_colour.jpg
+BitmapHandler::doTransform: creating 615x74 thumbnail at /tmp/transform_759704645fc9-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/db/Screen_Shot_2014-08-08_at_13.34.29.png/867px-Screen_Shot_2014-08-08_at_13.34.29.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/db/Screen_Shot_2014-08-08_at_13.34.29.png/867px-Screen_Shot_2014-08-08_at_13.34.29.png does not exist.
+BitmapHandler::doTransform: creating 867x262 thumbnail at /tmp/transform_7d37afcbd84c-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/db/Screen_Shot_2014-08-08_at_13.34.29.png/867px-Screen_Shot_2014-08-08_at_13.34.29.png
+BitmapHandler::doTransform: creating 867x262 thumbnail at /tmp/transform_3409497558d4-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:874e954e1cb248f3537a65dba165d7a0:0)
+Saved in parser cache with key wikipathways:pcache:idhash:13531-0!*!0!!*!2!* and timestamp 20160322061804
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:13531-0!*!0!!*!2!*','í[{sã¶ ïßş 8Ş$Óv\"ñ¥—i[™;ç.w3É[;½?5 	‰ˆ)‚!AËN&~„~Æ~’îâ!R2më N“4yH °\0v»Ø],á·‘ DÎ -+V¾­eQK\'\n ÑOU4ŒœÕ »–ÎQ ù?ö\"ç8áW¤’7 ;qâŒÑ2\"s!Ó#RˆŠK.òˆ”,£’_±#è)   •ÈxBÖ)—›ÆŞš\'2ˆ_\\«ÿ=è ñå² uDäép2öhxDb‘	˜ÁŒ-h’ğ| ‘¾ÏVG XëÑŒ/aÑ˜å’•G+Z.yŞ –¤XEÄ+®œéÁq1=®\nš“8£Uuâ  åyÆóËÊ±²4ìÓ9°[ÃjR Š¿£’/S© ·çW\\,D.{ ÿ‘E ï³m†é1E8Nœ\\,D–‰µcY\0ÖY™ÓŒ   ‘0/“\'ÎlÑüÒ!iÉ \'N*e ¹îÕÊï¯ù%/¨L×ô¦ê‹ré®]\'ìº_¤Å—’KáL”’fÑ;Q®ÓŠ¹¯sYŠÏéª8¢1ŠvÂ . ƒ„Uá ·HpìbÿôØ¥ÓÏŸú#ïH ˜vø.à#\rì ø¾‡ò«ßk¦ ›‹,i¬  9¨P# ¡Â­6›Ç-`\r”ZõÀ÷œ/aeü´\" *É;\0æÌ\0sìb/!ä@? »i€ ƒÍÂWËr ^\rÜDóLÄ—\r‡hˆ]¶\n–Ğ²×#rÅJÉcšYãƒş£¶õšÑ \\P).Ò¶ÖŒ-d \nø×GSmì å·˜(;ì‡Ğ‚¦,é<cø]âG‚º §dË¼Wë^Êh  Î Â“ ç Ëb±b3)f2e3 ßL[L?ğ)14   \Z²XÓ<! »€åÔ†šO/R^Á¾Ç~’‚Â3T:´hm€ø°%s	bò\\Âÿ,!ó›fbš\'›•È©X­êœË›>hÎ\Z™«Äƒ ØEzC¸¸\rÜ—<cÑë ]²YÎÖ3„¹.ûß ËÍîâØ	&ÃWKB3ØWŠš\05iSWeŒsº@6£µLq3¹cw {§sve \'ÎÈ Â U&~âŒ  qÕvÑ ÃG‰ FMEc¬\0 èˆçjãã† Ø\0£\n\0äõŠˆ ™sXlÉ+Y)t@ àŒYIª˜ ª==\ZS	X‚¢ŠR\\q´  dÉ*ğÇqŠã4˜À°L	ãº„!_ ø.a¢/°‰U   Ÿ 0¨øAnb`ÎN¸d9 ;¯¾À\'±‚\'Å–æò  >æÓÓ>a [Ò v Ÿ*  \0€ÃœÁ¼\"aU_ë 7 QP.Š Ø¸ßÖæPŞv³9<4|âõƒÖ\'n…ÆyÜA€ ãÓ¸ßõzİ_ FsP\"º^§Qé;6\'ç°×Qıh¸ÚÕÜ‘*D:¶û¶?Zd‚ÊH{ íhFÁg°) ş ·¿™p{Š› DúİE\\>5ñ•X ÕNÿ ÇØ§Ï_~5|1y¤( 2= SŸ—b\r!ô´?3îofíe&òY;+q¦š–4®ÒÆÈŠ€×İÎ`l”\rÔ>2#?©+Û5í]Ã>/XÌiöYøL¯nyS†=WM\'§ \"B™Ò9Ø/¯, ŠBÒå‰5 ˜c“l<+0\\±D ]q¶>‘i½šW-wjIH ‡ö«j \0 ß  F¦S€€©-F’R $ ëœd  1*j  ,e™v¢ÎsrEK.ê\n¬ \"}…Á¬(YA5ßıãy	Qı +ñ8KÆòÙy*ä,ğüAÏ›À3*g~Ø  ıà°_ä÷¤\"z<Áñ¤ ©ìöxœ(Œ”r \'û­¬ğÕ™ÊØó6I‹z¶IKà j\n-e7 JÜdîî· ñûÃë/ÈÇÌ \\·ò§b¯­÷5“3P[	9Æ 3œ ¬ jË—3QÎĞ£â#µûÑ™ =1ô:#²ôD”ÄĞ j­cw îØÀ+– Ñ©Nm!é-ãl·Nñ\'Ì †Õ ¬Î¦Ç 8Î®	EÅõ¹fs{^ÓIlçÔ6 ¡Ì\Z0÷ó¿L Ù+ù¼–€Òßj _ªáÛK  iÑ‘ İ´yŞcÁ F\r \'¸µŒé%‹4-{ÌüuÍ †Æ°3g«}Ú<ï1á J\n o{ºMëô\\²¢7¿éUğM¤inOì‚f÷±Ûóz¾â²±L<Yß Ë¨ŞÆ Ñ•ÙŞ]›4´6.’Ø é,OJÚ‡ +YœöYR»ÿ¤?Ö%›—‰ /yoÎs O •kxìC«3MYÉZvşK§ùï“sã¹U{ö\r«d×¿…ìú-„ıòw˜ZCF³¨3ò\rêO¥Õä_¾zäÔúÁrÕ³< Fb¶ÒÁtëçv ª R?Ş2 ÍåÖAßu¦  uÑã]ÁäÓW ĞÁÖàauZL¾âU\\W fº/±ãvØy¸úg3ğ¿³JÔeÌÚ)÷¦í ½%\"‹ZºuÅÊ% ê§~  ½A¯ç{-Î¾³İ¿ ê;,¹¹\0sƒ‰%„¿§Aº  ÌûŞŸ .hÂÇÃÑ<ÖÜ¾i‘‘¯?9· Å,|n3[Ôs×6€¡¼¼8#•©B}€mÌ6Å×] iÊ²¿¬ qiöŸ² øù˜6@%Œm­÷ ?Ö‚MMÔ:˜ÖïÇXÔ. +K÷Í›p¶(!¨áÙD\'ooZı `@g?Ô¬’³ rfgj~ üõK: )DV¹U]àÛˆ/ë2;ÙnÒ\'²[âıš3Õ»ŠÄ†  ÏÃñ UâßV û’©X‘ü SY+š=–ş¤³Û  #zôî, ‚Ñ¦¢°Ó<=eYFX¾¬³ fµ¨Tòçíšª-ZşE X ^èp‹µ*	nlVı\"Ro5gÚöiª‹ç9´[¨Ûğ µ 7ÌßkÓ]rÙâ¦~™Ù”Nv 3uOUÊ|`ß´ë‡1Sfk àÄ¯–nìÆsW¯>   áa Z ]Qİ]Ô–<ÃvÉÓ!™È— h bå q5 ª kj–„Ü <¦ îê %7î½]˜şƒ³5 ’}ÂØø«+ñïú •_O*‰ÄK ÚK¶+ı€ËWbCÈK 6Íµ û`SÌŸß\nåaUÔº<\0‡jÌ8È~F  ¸.¸;§2Níº\n/3óI÷æT‚.xÆ.n\nv²,VÙ-|¢[è´ ˜3Pò´{nıîã·‘¬ì”ÕtëÁñ“^ À úìŒd  –%Ãlìà ¾KW À\0®8]  C	  ]ç ÕÃÉÄ…°…ÿl ã•„’î’ûÁÀoèE%ÿó¯³ë Ïí Ng5PªHHüÑ¡ï»w8ö‡   œé .ØªÀû\n  «q£\ZÚp8 ì¾ p1½Us«3yÂ\nŒCcwà ¼¸. ´^1@ ïÒ‘EÇæ^…bÓC  z= Í9E;æ¹¥WnO¿¡¸dxy£1Ò¨P ORZ¥‘  C¿ç=ùë ï	| Oşª¯Óğ °  ˆ/–F^  ŞÈŸx ‚kªK|ƒÈY}CÁ\' S5\'çˆF^ôÓÏĞçCß)\0± %X|«ÃÃk€è76w ‡‘³“Ø`ó \'·“ ÑO<ò x\ZáUÂIäl^ AÇp<2 í¾úĞ½cè\r`Â{^\\(ÂÉ\0§ Â[/ t·w¤ h½ €Ádˆã€©M™ [=hı †yÈ¶lÃÄ& àt‡ƒ  l 1†Ó × Áã  ú0÷&é›‹ër¼j Ğ]`¸z  x‚ ë Ç £¤íK|v ‚â îLœã 6³$!’Œ[$Ö Y‚Ãİ TeÕöNv‡[Çm	†\Z ‹  „\" ¼\rî\ZöÀÀ ´`z¼\'PÁá`2é êĞ÷Â;‘\Z\rFCÿ~¤pêñ}HÇÁàn¤`…‘w R0| îƒT0ôÇ\n*˜i¥.YÀüAîÎ{h8 V  ¹=_F« ?k°Wø û\\İ {«2•}V4 € ú ëJ`EĞ$¨ Ä †Ø\nUJ}| ÁŸL.½p$Ö“ï ë »®S_®‡áå÷q¾ ş28ÈÓûˆq\'  oâM /  ã.6¼z {år@}y3¦ìêjtã Œ ì‡®  m¬è _˜LkãÆ@m  (ï®Û`F ~x }H  íd`÷g_÷g Ÿ·s.Ã×¨aıƒßğ™©‚atO­ÜZ¥\'T›Ò¶! zw“ŞS\"6£Çã½GïYÍµ €Óß«ğja ÜfdSÁ¼\r]GÙ±›h§Th¹kÄ~ ´gQ İÓƒu³ãÀ? x§=´ë®Ì  õ¹¾’ã Í#Ï ÷Õ+€¿£ ãç ñ5dö¬¼Ùj} ^şµd«Öüè´¾ Ime%ƒM+x ^Èv_ØôaîÚî\Znº¾…”Ò:\\Ó‰ñJÿ	Ä+Ğ`« ööê UWcwZdªu‚±ÍÓ Šm) i¾bÙF ‘c~Ãb‘c]¦*§š½óÀ=l“gå°Å1 ©i”Ÿƒ©•‡Qó@¨é©Và Œbeb*˜˜+s³Sã‰®X,* º£×¢yœ\nµV F{Ü%Wqo ‚    „ı/Ìuá ¼  ƒÛx4yÀ 4Üîu  ±	> ›‘Ê—ßã6S >a\'>Áãà£9~ŸûZˆQøá  ˜OÜs—¦ ‘A\'\"á£ ÒğwÇM ”p‡üÁÃN ßö ô]`ĞÿH§ará=äíà   ~„€­ Có^²[ÊnWĞmê \'e‹©ÖkT uôá¢ æøÑõ\"¶[àî½İmÉ %°e­óí1Š=ş \rƒSm¿Jì µ{Ó  A·\r;ú=§>/`Z‚U “ \\ˆK†i€Ée0\':+E/\'Z‡:à7 \0 Î ëÚ\r’ ôƒ•Í’LŸÉ}.Ş¾ºøö›ö ]’1Õ[ç ?  \'JnãOí¿ìü $q€Ö™Èx|Óš0ôn >S#Ä’Ö!Q…\0[}Âà?2”Ö7«kíà!]\'I¦ „«d=—iÉªTd‰îÀsßğÖ’€¤È ZŞ|E%ı®HlqEg[è8w àqM âpÀvÂø VV KXÈï´½(äN±–v±}‚l•Ë¬Î5İ‹ë‚—ê´ <{ê_aMŠò¼z›%ßÒ%µŞş/','20160322071804')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:WormBase&printable=yes
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.64.100
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '13531'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:WormBase&printable=yes
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.75.4
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '13531'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:WormBase&printable=yes
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.147
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:874e954e1cb248f3537a65dba165d7a0:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+GETTING PATHWAY OF THE DAY for date: Sunday 5 June 2016
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:WormBase_Approved' 
+		Pathway in cache: 'WP264'
+	Did we have WP264 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP264','Curation:WormBase_ApprovedSunday 5 June 2016')
+END GETTING PATHWAY OF THE DAY for date: Sunday 5 June 2016
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150516085506, touched '' epoch 20150515185216, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20150516085506, touched '' epoch 20150515185216, good 1
+Got thumbUrl: http://vm1.wikipathways.org/w/img_auth.php/cache/pathways/svg/0/0b/WP264_69946.svg
+MetaTag::getPagesForTag: SELECT page_id FROM tag WHERE tag_name = 'Curation:WormBase_Approved' 
+ExifBitmapHandler::isMetadataValid: back-compat version
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7e/Image_new_colour.jpg/615px-Image_new_colour.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/7/7e/Image_new_colour.jpg/615px-Image_new_colour.jpg does not exist.
+BitmapHandler::doTransform: creating 615x74 thumbnail at /tmp/transform_6b41c84c6e27-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7e/Image_new_colour.jpg/615px-Image_new_colour.jpg
+BitmapHandler::doTransform: creating 615x74 thumbnail at /tmp/transform_43a7c7a94d19-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/7/7e/Image_new_colour.jpg/615px-Image_new_colour.jpg
+BitmapHandler::doTransform: creating 615x74 thumbnail at /tmp/transform_28af73c8504e-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/db/Screen_Shot_2014-08-08_at_13.34.29.png/867px-Screen_Shot_2014-08-08_at_13.34.29.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/db/Screen_Shot_2014-08-08_at_13.34.29.png/867px-Screen_Shot_2014-08-08_at_13.34.29.png does not exist.
+BitmapHandler::doTransform: creating 867x262 thumbnail at /tmp/transform_4b28b083efc3-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/db/Screen_Shot_2014-08-08_at_13.34.29.png/867px-Screen_Shot_2014-08-08_at_13.34.29.png
+BitmapHandler::doTransform: creating 867x262 thumbnail at /tmp/transform_401e105a4bb0-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:874e954e1cb248f3537a65dba165d7a0:0)
+Saved in parser cache with key wikipathways:pcache:idhash:13531-0!*!0!!*!2!* and timestamp 20160605214410
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:13531-0!*!0!!*!2!*','í[érã6 Şß~\n §’ÚMÄK—i[© g®ªÄãÌO DB\"bŠ`HĞ²\'•­}„}Æ}’íÆ!R²lk OM ‰ \Z@÷×îF ~ ùAäœÒ²bå›Z µt¢° ıREıÈYœ³+é T‘ïùûÃÈ9Lø%©äuÆœ8c´ŒÈTÈô€ ¢â’‹<\"%Ë¨ä—ì\0zÊ„ E%2eÊåª±³ä‰L#â Wê :h|1/E\' yÜ \r=\Z Xd f0c š$<ŸG¤ë³Å Ö:4ãsX4f¹dåÁ‚–sw€%)  ñŠ« g¼wXŒ «‚æ$ÎhU 9EFyñü¢r¬,\rût\nìÖ°š …âï äóTêÇõù  3‘ËNÅß±hä}±Î°3>¤ Ç‘“‹™È2±t, À:+sš  Â! æeòÈ™L3š_8$-ÙìÈI¥,\"×½\\øİ%¿à •é’^W]QÎİ¥Ëó„]u‹´øZr	2œŠRÒ,z+ÊÅ3Z1÷u.Kñ%]  4FÑXÂ¥c°*\\ã 	 ]ì  ºtüåcà èÏ=Ó ß |¤¡ ß÷P~õ{É dS‘% ä\"  j #T¸Õfó¸ ¬R« øò9¬ŒŸVDB%y Àœ\Z` ]ì%„ìé§C7\rc°YøjYnÂ+°ëhš‰ø¢á \rq›­‚%´ìõ€\\²Rò˜fÖø ÿ m½f´  TŠ‹´­5c3Ù‚ şõÑT ûFù-&Ê »!´ )K:Í ~—ø‘ .Â1Y3ïÅ²“2š€3‡ğäÈyË²X,ØDŠ‰LÙÄÂ7Ñ Ó\r|gL \rÈB€†¬ Ö4ÈÊ.`9µ¡¦ãó”W°ï±Ÿ¤ ğ • -Z  >lÉ\\‚˜<—ğ?KÈôº™˜æÉj%r, ‹:çòº š³Fæ*ñà v‘Ş .n ÷ ÏXôzAçl’³å a®ËîOÅ|µ»8v‚ÉğÅœĞ ö•¢&@MÚÔU ãœ.Mh-SÜLîĞ ÂŞÙ:»²#gà÷a‡* ?r†=‡¸j»h†á£Ä £¦¢1V\0 tÄsµñqC l€Q \0òzAÄŒL9,6ç•¬ :  pÆ¬$UÌ HÕÀ © ,AQE).9Úˆ ²d øã8Åq\ZL`X¦„Æq]Â\' ¾K˜è	6±ªâÀ\"ğ3   ?ÈM ÌÙ	ç,g`çÕ |  xRli.¯‘áC>>î –±9Ía÷ñ±\"P \08Ì Ì+ Vuµ>q \Z å¢( ‰•ûmm åmW›ÃCÃ\'^7h}âVhœÇ- è0>û].—İ%`4 %¢ëu\Z•¾eSr { Õ†«]ÍÍ ©B¤c»oú£Y&¨Œ´WĞf | ›rï¯pû‡	·Ç¸É@¤?]Äåc _‰ Qíôß8Æ>~öâ›şóÑ EYé˜ú¬ K ¡Çİ‰q k/ ‘OÚY‰3Ö´¤q•6FV ¼îz c£l ö‘ ùI]Ù¦io\ZöYÁbN³/Â§zuË›2ì©j::¦  Ê”NÁ~ye!P ’Î¬¡À «dãiáŠ%Šè’³å‘LëÅ´j¹SKB\Z8´_U{\0àø ˆ02   Lm1’”¢ ‰Xæ$ƒ\0‰QQ³ t`)ót+ê<\'—´ä¢®ÀZ!ÒW ÌŠ’ Tóİ=œ– Õ÷¶% gqÉX>9K…œ ßëx#øoBåÄ »a¯ ìw‹üTD\'84ã1•] ¯“ …‘RÎìh·• ¾:S zŞ*iQÏ6i	ü@-P¡¥l&@‰›LİİÖ\"~·õ„|Ì ÁU+*vÚz/™œ€ÚJÈ1&˜áL`%P[>Ÿˆr‚   ©İÎ è‰¡× ‘¥\'¢$†Pk ›[pÃ ^±¬ˆuj ñLo g½uŒ?a>0¬–`u6>ÌÀqn› XT\\Ÿi6×ç5Ävmƒ Ê¬ sß:ÿ	d²È^É§µ ”şYóøB\r__\nèH‹´èÆÍó  >7jX9ÁµeL/i\\¤iÙaæ—5O \ZÃÆœ­öqó¼Ã„ç()8¼õéV­ã3ÉŠÎôºSÁ7‘¦¹=± šİÅnÏêé‚ËÆ2ñ<f} ,£z ;DWf{7mÒĞÚ¸üIbƒ¤ïX”´ AW²8í²¤vÿEßÕ%›–‰ ÏygÊs O •kxìB«3NYÉZvş¹Óü÷É¹ñÜª=ûŠÕ¿²ë?Bvı Â~ù\'L­!£™Õ ù õ§ÒjòÛ—¯ 8µ¾·\\õ4Ï‘˜-t0]û¹^†j…Ô·L@s¾vĞw1ÄC]ô8 r[0ùôÕ t°5xX “ox ×U…™î ì¸ vî¯şÙ ü{V‰ºŒY;å^µ= °7D¤SQK·®X9Ç@ıØ ƒ¾×ët|¯ÅÙ ¶û³ ¾Á’› 07˜XBø{ ¤ó°Ç¼ŸüÑşŒ&|Ø LcÍíI‹Œ¼üäÜÎ ³ğ¹ÎlQO]Û\0†òâü”T¦\nõ ¶1Y _7-¤)Ë~^; âÂì?e\rğó!m€J ÛZï)ş~¨ ›š¨u0­ß ±¨] V–îÉI8™• Ôğl¢“·“Vÿ  Ğ÷ìçšUr’BÎìŒÍ/‚¿>§C‘Bd•[Õ ¾øº.³£õ&}\"»!Şï9S½­Hl¸Ññ< şU%şcå±/˜Š ÉŸ0•µ¢ÙcéÿG:»^P0¢GoOƒAoUPXo ?   § İ(9»ÎálSq rÈß×+«¶tù }lU¨¡Û-–ª0¸²\\õ‹H½áœqÛ³©.çĞn 7ÎÃ ÔN\\‰p§eo‘ÎV8õ Í¦~r‹|¦ ªêš÷l¢v11¦qÊlÁ <úåÜõ\\oê*&&ƒııŞ  ®®Ş¶¶-ƒ†í2¨C2‘Ï!øŞÇÑíÂktU×”1	¹~L Üèwh¾ñüíJÅøGÎ– Wö	Ãæï®ú¿é6ô>€S ‘x¿@;ĞöK\0Àå ±Ì!\Z&\n›æF}}°ªóO¯I…ò°*jİ+€ó6&#d7Ë {\\ ÜR §v]…—™ùhûU‚ÎxÆÎ¯ v4/ Ù\r|¢ è´ ˜3PòxûÜúµÈ #Ù¨¸éÖ½ÃG ÙƒÓõé)É8Ö2K†‰ÚŞ)|— o\'€ \\r<Ö$ ¡  Ş»Î!à‡£‘  \rÿY\'ÆÛ\n%İ$÷ƒßĞ‹Jş÷ßÿaW  é9 Üj TA’øƒ}à ŞşĞï `8pÜß;g‹ ¯2 €¬Æòƒ¡\rûû›¤¯\0\\Ì|ÕÜê¸° CÔĞíy{Ï¯\n ­— ĞÅkvdVç±¹r¡ØôÇ½NÇBsFÑyné• Ô//. ŞëhŒ4*TgÄ“”Viä‡ıĞïx¾zä=‚àÑWú¦\r_\0{`øÎià\r¼~à÷z¾GpMu¿¯ 9‹oi>¯Á—©r”s@#/úåWèó¡ï €˜‹ ,¾Õáá\rAô «k‚ıÈÙÈy°y€“ÛIƒè  ù <\rğ–á(rVoN  £? ˜‰6ßŠèŞ!ô 0á ï4 á¨‡Ó\0áw ºÛ;Ğ ´^ @GoÔÇqÀÔê\r\0¶zĞú+ ómß\\Ô¡\0ºƒ° İ+@ŒÙ´„õ ğ8Äa>Ì¼Ê §âª£Ü®b	4  A  ´ hãêıáÈ¨hıvŸ †øû  çx¶Í,Iˆ$Ã ‰õB–`s Urµ½£ÍáÖm[‚¾†Ç¢ã‡\0 H\0mƒº =00 -˜^\'ï	T°ß ¶ µï{á­H\rzƒ¾7R8õğ.¤†Ã w;R°ÂÀ» ) Ş wA*èûC  Ì´P·Ñ,H`ü ÷Ö j8 V  ¹ ßR« ¿j° øzûL]!{£ò•]V4 € z ëH`EĞ$¨ Äè‡Ø\nUJ}| Á›Œ.¼p –£ŸzË »ªS_.ûáÅOq> ş< 9ÈÓûˆq+ =oä /ì Ãmlxõ4öÊyúòzHÙååàÚ   ØÏ!]ì;ÚXÑ3>7yÖÊ‰Ú  PŞm×ÄŒ6üp?ú ,ÚÈ¿îÎ½îÎ+¾lg\\†¯AÃú ¿ú3S ıè\"ºµJÿV¨V5oCÚ÷n\'½£vlF ‡;Ş±Ìk%€X²SEÖÂÒ»ÉÈª´y º-õÈíD 5DË]#ö=5?‹òàvœî-¨­  şÀk< ¢]oË  LŸé»:ÎÁ4òLh_¼ ø·taü< /!¯gåõZë+ğò¯%[´æG§õHêl-\'é­ZÁ{ğB¶ûÂ¦ 3×vWÕõ $”ÖášNŒWúo#^ [=°· o©º3»Ñj$S­#Œm~PlK )ó%ËVºˆ ó  ‹ ë2UÕì{.h›,+‡-±HM£ü L­<Œš BMGµ ‡`   SÁÄü y›\rœ\ZLsÅlV1Ğı‰^‹æp’Uk…a´Ã%s ÷v !Ø\0¡ JØı&İ6<‚÷À£w & Ø ’†Ûî \"6ÁG`3PÙò{\\sÚ†O¸ ŸàağÑ ¿ÏE.Ä(üpŒ Ì\'î¸d³\r‘ŞVDÂ A¤áï–+B(ï ùƒû :¿õWë›  A¯û‘NÃäÂ;È»…  °ÿ  ¶N Í ËíRnw ÛMıã¤l1Õz¿Š¢ >\\ÔÀ ?¶½¡İ.ğö½½İ’?J`ËÚÖ×Ê(öğ#4 Nµıq»¨Û7mï tÛ°£_€êó ¦%Xs0 À¹¸`˜ ˜\\ s¢ÓR øÖ¢u¨ ~s pà¼°®İ ¹@?XÙ,Éô™ÜçüÍñ«óï¾m Ñ  Së¹q òÃa¤ä 9şÖş“Ï¿A  hŠŒÇ×­	Cï áSõÇC,i  ÕY °Õ\' ş¡´¾Y]k  é:I2= \\%ë©LKV¥\"Kt ûú7– $EĞòú *é Eb‹+:ÛBÇ¹1\0kª ‡ Ö Æ YY ,a!¿;Ğö¢;ÆJÚùú	²U,³:×tÏ¯\n^ªÓz8ğì© )ÊóêM–|Gç<Özÿõ','20160605224410')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:WormBase]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

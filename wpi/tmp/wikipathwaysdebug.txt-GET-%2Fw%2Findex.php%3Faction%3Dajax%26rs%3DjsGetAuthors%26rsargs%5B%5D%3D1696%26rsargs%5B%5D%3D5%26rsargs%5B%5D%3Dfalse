@@ -1,0 +1,47 @@
+
+
+Start request GET /w/index.php?action=ajax&rs=jsGetAuthors&rsargs[]=1696&rsargs[]=5&rsargs[]=false
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (Windows NT 5.1; rv:37.0) Gecko/20100101 Firefox/37.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: en-US,en;q=0.5
+ACCEPT-ENCODING: gzip, deflate
+PRAGMA: cache=yes
+CACHE-CONTROL: no-transform
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP560
+COOKIE: __utma=141536308.1752148294.1427452499.1427702952.1429246616.3; __utmz=141536308.1429246616.3.3.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmb=141536308.4.10.1429246616; __utmc=141536308; __utmt=1
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+AjaxDispatcher::performAction dispatching jsGetAuthors
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+User: cache miss for user 2
+User: loading options for user 2 from database.
+User: cache miss for user 3
+User: loading options for user 3 from database.
+User: cache miss for user 5
+User: loading options for user 5 from database.
+User: cache miss for user 6
+User: loading options for user 6 from database.
+User: cache miss for user 39
+User: loading options for user 39 from database.
+User: cache miss for user 658
+User: loading options for user 658 from database.
+AjaxDispatcher::performAction dispatch complete for jsGetAuthors
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

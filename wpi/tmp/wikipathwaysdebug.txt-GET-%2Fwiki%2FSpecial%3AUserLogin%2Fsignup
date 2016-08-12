@@ -1,0 +1,30 @@
+
+
+Start request GET /wiki/Special:UserLogin/signup
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+REFERER: http://vm1.wikipathways.org/wiki/Special:PasswordReset
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1455878772.1456173493.69; __utmc=141536308; __utmz=141536308.1455702523.62.16.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); wikipathways_session=ca3rm0mphgshbj4qdi9n9e0sp5
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+[cookie] session_set_cookie_params: "0", "/", "", "", ""
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Unstubbing $wgAuth on call of $wgAuth::validDomain from LoginForm::load
+IP: 137.120.195.201
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+User::getBlockedStatus: checking...
+MWCryptRand::realGenerate: Generating cryptographic random bytes for LoginForm::setCreateaccountToken/MWCryptRand::generateHex/MWCryptRand::realGenerateHex/MWCryptRand::generate/MWCryptRand::realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 16 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.

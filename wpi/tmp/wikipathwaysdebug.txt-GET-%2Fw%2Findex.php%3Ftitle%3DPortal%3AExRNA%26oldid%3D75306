@@ -1,0 +1,608 @@
+
+
+Start request GET /w/index.php?title=Portal:ExRNA&oldid=75306
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.65.148
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:24a0983765d2e4f75bde4257cb4f851d:1)
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP2583_75306.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/a/ad/WP2583_75306.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP2583_75306.gpml" "/tmp/WP2583_75306.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP2583_75306.gpml" "/tmp/WP2583_75306.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/a/ad/WP2583_75306.svg:
+<BR>Status:255
+<BR>Message:[     0.020] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP2583_75306.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP2583_75306.gpml" "/tmp/WP2583_75306.svg" 2>&1<BR>updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/1/18/WP2811_75306.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/1/18/WP2811_75306.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/1/18/WP2811_75306.gpml" "/tmp/WP2811_75306.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/1/18/WP2811_75306.gpml" "/tmp/WP2811_75306.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/1/18/WP2811_75306.svg:
+<BR>Status:255
+<BR>Message:[     0.018] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/1/18/WP2811_75306.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/1/18/WP2811_75306.gpml" "/tmp/WP2811_75306.svg" 2>&1<BR>MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/bb/Exrna-logo-black.png/252px-Exrna-logo-black.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/bb/Exrna-logo-black.png/252px-Exrna-logo-black.png does not exist.
+BitmapHandler::doTransform: creating 252x102 thumbnail at /tmp/transform_15aae3ba752f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/bb/Exrna-logo-black.png/252px-Exrna-logo-black.png
+BitmapHandler::doTransform: creating 252x102 thumbnail at /tmp/transform_36dc4ad2230b-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/bb/Exrna-logo-black.png/252px-Exrna-logo-black.png
+BitmapHandler::doTransform: creating 252x102 thumbnail at /tmp/transform_1f6100ce2caa-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Saved in parser cache with key wikipathways:pcache:idhash:34126-0!*!0!!*!2!* and timestamp 20150314025641
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:34126-0!*!0!!*!2!*','í<isÛF–óuô+ÚHM$ÏŠ$   (1£Q|ÕZ2×–ãÙJ¥TM Iv    AJ“rÕş„ıûKæ½î   ’i[YÇ %eŠìn¼ûê  _ùë[Cšå,{UÈ´–ïµı_s¿ã[ñ »–V?÷Ã  – …|Fry ±c+ˆ Í|2 rÚ\'©È¹ä\"ñIÆ\"*ùŒõa&  ¬ÈEÄC2ŸrY\r6æ<”SŸ8éµúgÃ \r®&™(’Ğ/× \" ˆ!‚)@AÃ\' Ÿ4  ÷% Ö  Ÿ\0Ê€%’eı˜f 4€ )bŸØéuß\Zì ¥ƒ£<¥		\"šçÇV\ZQD<¹Ê­’“ ñt Ä €[ŠTQ×Ïød*õ×eøŠŠ±Hd#çÿdşı—e‚­Á Ea [‰ ‹( s«$ HgYB#‚LXD \\&­K¸.¹²È4cãck*eê·Z³ØiÎù O©œÎéMŞ Ù¤5oñ$d×Ítš~\'¹  †\"“4òŸ\\¿>?i½Hd&¾¥qÚ§ òuÌB.-#†R{K¤â‚£ Î Ztğí7N×îëÏ 3 Sø˜º%„ ïÌ«ßs¦ä5 Q¸0€D$ M-> u]ªrñuIªFZï@÷ˆO =ş9jM]ü v jÖ ò 4{  	4– 5\Z×&û ıÖl°Of,“< QiR0ßÿ EÖm0bcYã şwĞ\0 V‹Œ•Ì*ëjz0‚ *é(bø7Ã …ì\rÈ’ÑÆóÆ”Ñ Ì–Y„‡ÇÖ;  \"f—R\\Ê)»Tz¿ j ¹ÔÆ`\rˆY Ü XEÔ*bV ½ŠTj ¤ÊYFƒ‹)ÏÁ£Õô ô ¡NaÄ\\ €¢ÁãĞ¸ÙŒÂ   ¤‘Ñ€EQ ÑŒ ªŒå #‚)\\ ÇEÂåM ÔXšR\nˆ ¹ /Aø\" ƒªš	Ÿ6\'bÖ kH  6ºÀ Ü›å- Zq6o”sÖàT]HÂ•`I •lÂ RÎ“4  Ësô	2¥9	ÙŒE\"e!¡87ÉhLàò{á]ÃJtokğdM’§Z€ EFršDkÉ Ayœ£ À\r d“ ,h j ä# f;Aó†õ<	x\Z± b(¤R\\Ì‚)Mx  Ä Ôˆ \',a™Â¶Or dL¥ \' -ÉÑ<úˆ‘‡€„oÔ”‘ H (¥€t pŒDx Ñ ‹Ñ°Š ì{$Â 2\n æ}\r  &3–K> e(òRæÆáš±ÈH‘£b Ì ÁáŠ\0  Ô \n‚_ MY ÎLb ± @Vá2 8ç Ë  &Fs B d ±” (b‘±šTŒh÷ÉŒCz¸w W_•6µG´”÷K°. *Ç–J>*‘h(-Ì ­§<b éáò HX4T4j¦`Î%I<¦  ×ñx  €˜Í«ó,@˜-XvI 9Å|Ò\ZµF£Öæõ*` [nÇ ¶T ?¶  ~´TÖ¸  Íçóæ’˜Ğx^—D -Ä¦¥   ~˜ Š	ÁàL Úº¬’|-X+±VÁÚÆ@Lì¦[ûÄĞ¼ÈR·,\0 «<´^ ©š¨š^OVãHPéë”¡³P×ı Äë/R_}cÛ4dã¯©Â2$Á\Zë´ĞÑq»2«¢÷wYh• P•ZªÒâƒ²R(y=jñ.ÃÈ .Ç¾acüÿ7*È 0Ñ 2Mr#Šİ(‚, ÙdB‚,    1›Œ •E EAi@ÚI™Êf•!b Ó™ø¦IŞAb\0#D<9[\\©êµq&âï h\0\n$¨·¨ \") ºIÄ¯ Rõ  B.Té…Ğs&‘œ ,L°0	6ÇÂ}Ht×X¸@¶ ®5q:™ªlgt ftcjY’(n¡Â‘BD9QDSIŞ³ Kg1æÚşPÉúŒI Üå ğE  Â !f¤VŠ¶ b \r\"àOífÂ\"0t,!¿Ÿ”“dÉHù|> ó\0ê‚F=\Z48 ĞœÊ Jê½ Œ—åM  ú ÏÅ I[IÔÏY”ú«l  L¬ú$©d D‚ © *¥Bå\"u‘¼ øœÍ/O! d|TH‘]şWÁƒ+uí2 XGjëHmİà üŞP?ĞçrS\\Ö8{¦êÀh# §z#/ã«F Sø	†5ay\rh ôº¹@Ê E Õ7 Jõı  ) •Yµ˜¸ß¢­• £ÈÔày«¬M\"ğ®L € Ñİ[9” #ŞL¢x±·‰ƒÖw\0#>9ğ ÆTU.Ê –æÇª ÌC äEl\rÔ²ÊÇõ i à\'Ö†¶¤œŠƒR® ˆ½Éù} 6¸‘\"  \\×¥ŞiùSY¾Ú Ü×ş¦iŞ\\B§†Zu?· K‘ æ }\"6ÜP Í3¢û Ş?Ïh9KØ`K\\@2\\bºaÆV˜×£›\rc[ .«†KØHıÌ   U%AÊ±[ \Z[ PT‘“ˆ]“! `S8†Í 0 ;C¦¶‘ •Lö‰ÎádyoXeÁıÏ”fLy$…²! ão“ˆ†¹„:«Y ù¸ÉÂÂ\ZÜ6³&¿ßóö ;? ìäLùù° ùJ6\"¯°åñGŞ…¼ÍÙ¸ˆÈKÔcm BşØ{2 -šR÷\\Ì( U cv&+)ïm‚²+÷ g7 |3ÎT M7“—ú’÷@an  ìnd1bMØ µæT ÓïfÇ£ñÙÄ{=½>   ŸA .VëpMTÕv6=ì{  ØÓ ä†¾ª [ ÊP£mßë=4¢¾ªøÿÔ4 ÊÚíœ\nJ^ËÉr>øc\' Õâ.9)!è« D4Œü4%p ŞU,ï&hß±ôMFÌ(²\\î	•eùP; ,U±|÷Iùu Bƒœ’˜å9ì ÉîÛD‘\" –é( üÚšÑ #÷ÒîBİ[À½f+ Á”µªñ| ù§EÃÖ»¡Û9ğ.{ Ïî6aÔ_ ¢o$(;÷İNgG œi ü Q×  m×ş‰¼HÆÂ\'d n ›ƒ { c ÔUô4«-Ví+	 Ë“]	üò\\î› ˜ -\"™ï¼£  —ü‹áÉ?J.Y æ,ÕÖ = yÙ_^‚í µ†Î`Ó`„ Ò›æÎ“,C‹XH.ƒ­ €J ‰Ôú )¾I\ZG ä‡Ã;Ï†g/±ß£IŞy«D¶óçŸ¦Å0ù6’}…^I+¡1ûv –ù# õ ÈÒÄO* €j „œŒ˜œ3– …nŒ·ô¤Ú¾æl¦úE ËR3‘ ş†^¹§ˆl5¯ãè±\"¢¡ğ>cÉÙÉp Ó1ì» o^®—¾ùá  ƒ©Ü¹jx«ÒäîU />…qÉÇã»¡}ËÒ Va·µ¦ígLw&9Ş Æ l€Cİ®57ÅY¢–BÍ„  ©7w^3 g`O\"d(#bûäÕ !  . Ù£ª`_«,š¡\rÁ¤ë =*¨zÔh§ÜÁ©?XšF|¥ùÆ?âëã‘ÆÏ4»ÕÚæ)‡ š,š — ”ŸM¼Äº7 µ\0–ŒÓ5×·ˆ‹ÂVùËÑ,ì¢·İEl%İ¼U¦„ò æKßq»Ş  ’àŠ¨;ê¾ÉeBW×öç\0ßs\\Ï~ì—¹HYŠ	 {»+p›ÍæîãEê| ^ÇóVğætÆJç OQ {» Ò:N÷³pv]g e‘†T²Í¸¼mq™™‹i 4oİUÖ ZÂ Şo_¿ÔhöA“ «!k2²NM}jÔ÷czÅÔWÜn¾\Zı¼ ÿÀÁ÷ÌªÇûd÷¢qÊ¢ˆ¼f˜ E†ª…Ñ ×ãŒ±-ë?„i\r6 b‰¶7†à£…Ÿ»é\\\"¹H‚Ûj ®† ùQõÌ ö\"Qqê§U!iB±³à Ÿ D6Í*_»é ¾A¿I ‘¦ úîíY-	¢ b ¨ Ñµ4V¥ ¯ã¹  (³¢Ë  /‘ğKšeôfow…r-ú œ«qİû$´nG 8hW \nôÏ§Ft•Œ† ,Nñ ßSŒÑ—ß¿:C}“Î_`,Ü@ÒÁö$eÌ<s$2 ¬Âîõ–‰ a0{SŒr(Û\nE›B¹Oî ±FÏá\'‰È;<D*† HE\n»†=B¸Í9$³U|ÎíöË À¹= oGPû°ûAYÀè“ˆá3X` í:öÛcñvØ;v[a_ã±Œ˜çğ;<É& bßÛ5OìåK9èö }—  ´İ»Q\0ëíÑzKKĞ‚_X ÄÓÏ°ƒÎ\'	¡mäÿ	ğ AñÿÇ >-\\~† ¾@0ÜÌù§EA»ç} çûÄ® a    8 §ã-³ ‚‰€é hÆqG™ïíş\nÿ=}ûòåğäÙ“ó“³•‚ÓıˆxWwö ´e5¡†>ˆs‹(gBD o>bŸÄ<; °»:İ,°§·b­T}]ŒÇ Íë·\ZT #¬+ÇòSí;êän  õ=Ò	+}\0Cá\née ¬¿P±·BB} ‘uŠ¶ˆ•C!¢SQ ^´Ğl%4 }\'²« lXEì |æ é\n îÕql \0\r  ¿g÷ |ƒ  \Z `A!Ù ğ-‚îTæ-¤ñD}WxÚ ^ b  ŸÛ^‚½EÜBÕhh JeBï™¦b â ©‚èÙ €xÆBNqLÛ\'Ë°ßq²T,\Z  ¯˜h ï q¨ÂÛéŞŠ÷5û¥`¹¬³äm n Bê ¬)O–\0Ş GL“z¯s¸ \'+–Á¸äW ı¾¼w\"\"İ½¿&zxİ  W­sÇn:¶í¶¦,mº=»íYƒ zE§4Ÿò}Â$¡Q“¼ É  Õ@¨ç ğ  OHÄñ1zó ¸~€éË÷L–s€“ ÇYê™nÙ0u ş ¦ëÂ{h˜>4LO\rÓÍ Zk˜.ùıCÃô¡aú54Lc¹°Ù Ë| ñ‰ø7h˜‚›®7L7ˆá¡aúĞ0}h˜>4L \Z¦ \rÓ‡†éCÃô¡aúĞ0}h˜>4L¿xÃt qÚtİ®İµ Ã\"çAÕ-ıoQÈ©j\\±dÆ3‘˜3FX’ñ`Š?Ê£C  /-bÂ®E.b–ë—º¸:W%æ¯ ¸ ’S*ñ]°XÀòÓó7$¾a OªSNv çb¨“ n}œõh´zJÆ IWo¬Ş½j€ \0ø\"²öä±:‹Dâ ,‹#)ÌÙ6_×± +ï}éÑ£G Ù9góáD<æxÚ ¾M±S/1ôÉ( ” ’7¨ â›O¼Î!˜‘úoyqi ËË Çn/Ö‹\\şßÿü¯®\rˆñ8¢4\'×é¶ \\÷œKF7’å;e¡F¨©¡ÍZÇsÜÎÊÚç ]ğv¢€ëV$KñÙîn«mï<¹N±ë1Ã á1»TÛÿ’N ‰Üi4JÙ¼¡3ı ¢Y¯ÚyºéÅnHİ×ıTMú<Ä  ¾×vÜnÃ~ô×Gö#øp ıU¿÷ÉÁG$SâÚ°_ñ È–nÛ!ˆS ÁÖö­ø%M& $Tõ6”Õ§¾íÿú æ ˜;ÅÓ‹ ¾ŸS›°ñ 7´õê$7<í­fõ8ÖEÈ%D×ÿ•Ã*øæá)pNÇ_{u¿  :½ \\éÂ¥w¼ˆ®  ´aáoU/†ëË»ı÷ğ×î \"  ¹@Ø-~  €Ô<»ÿ¾bÉh^Qì(Š ¤^I²†4 ×\råé „‹4#€¿Ã ¾®\n  fÚŞA_K±v‚Z‰ÖÁ©n ¤>Â¨„y`”³|0Hyõ2`õ¶^9Õ[º°äº {¨¹ukÜ¾ ?†ß^Çõº›ù=tlo3ÃpQ·w Ã ´w+ÃX¨ nf  {·2Ü;€´£ î ¿ª-T²\n–aû›O0BCê£Àºblz¾Qï}™Òp‹ë•µç>„îWz 8`Ûî8® Ñ£íà( æSª¾zÀZXÀ)pv »sÚÉœÉÁÁ?‹ úåçÄåE`iÍ¡¿>1y¸ò.Gi¬ ZıÌ£Ë ïZOk‡K™9ä{ã©Jf¾}àü  æZÏ^Ç»r>‚YÙsüO:Ì`ÓA ëŒ-Ÿ!P2æù õæÿ:Øê†N lÇõ?íåúRf@Ö‡_\'/‰ñ6 Ø¼³¹Âæ¶/M–İ\rõK%¡ «»éåòî]Ëkµdi³‡şÆ ~åÎxòè ¬îpjSªƒ”óFßF´ú#ßî›kóm˜Â„q.A Ç²›¥Ñç  _H ×àc(9 ! WCÚ®Fß  Oe}Î[ÌaµUŸêTSæ^|} #»Şï> ¢Î\"ˆ\'Æ;êàæ+£†35ÚÆ,`Ã— Œ(@¶ PæÍXå¢€Üü d¾å™@¦Nh0JŞâ€HS $E<Â@®@©@ —«-Œ‚å[ \r5\nTâ­\\“„th^?œÔ2\nÀÒLŒÇ9ƒRá\\#¢I0 Ù\nws©êˆ[äà®Ë¡½\"‡ZSÃ³Ê3ğç4?‚k×Yáz‘$·`|cÉõ ™ùd&ÀÅ: ¹s7rçŞ?wË¤\0[Şgè ª…µ3E6óçmäÏû\r´W£iqö‰.	0¸<	¹4~|!® :³‰H Ù†™Hñ=S–WÕ	      ä\n‡‡cøîn^Æ:3g\"ØÅ«Óç g/ë—è€Ùd¬”:]øwè)SÆŠşOõfÜŸ  ƒÈ† RûM\r V\0+ O Üë±°V€©=  XİtÅİ rë ìZEX—êPgf€¹  ™„í<”#Q¨\'Şëˆ°‚ $)’f7ßSIßª[ìµ˜é ¬]ğ¤¼¿ ,‡ı ô#\"ÆPœf·Ù®$§îÛ_, ‰µ]Z¹³Òë`7É1Óœ sˆOuë# …gtÂ ­ò÷ÿ ','20150315025641')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '34126'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:ExRNA&oldid=75306
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.79
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '34126'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:ExRNA&oldid=75306
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.64.105
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '34126'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:ExRNA&oldid=75306
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.67.164
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '34126'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:ExRNA&oldid=75306
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '34126'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:ExRNA&oldid=75306
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-ENCODING: gzip
+ACCEPT-LANGUAGE: en-US
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.15
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:24a0983765d2e4f75bde4257cb4f851d:1)
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP2583_75306.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/a/ad/WP2583_75306.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP2583_75306.gpml" "/tmp/WP2583_75306.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP2583_75306.gpml" "/tmp/WP2583_75306.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/a/ad/WP2583_75306.svg:
+<BR>Status:255
+<BR>Message:[     0.015] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP2583_75306.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP2583_75306.gpml" "/tmp/WP2583_75306.svg" 2>&1<BR>updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/1/18/WP2811_75306.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/1/18/WP2811_75306.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/1/18/WP2811_75306.gpml" "/tmp/WP2811_75306.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/1/18/WP2811_75306.gpml" "/tmp/WP2811_75306.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/1/18/WP2811_75306.svg:
+<BR>Status:255
+<BR>Message:[     0.015] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/1/18/WP2811_75306.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/1/18/WP2811_75306.gpml" "/tmp/WP2811_75306.svg" 2>&1<BR>MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/bb/Exrna-logo-black.png/252px-Exrna-logo-black.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/bb/Exrna-logo-black.png/252px-Exrna-logo-black.png does not exist.
+BitmapHandler::doTransform: creating 252x102 thumbnail at /tmp/transform_6a3d91c179ec-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/bb/Exrna-logo-black.png/252px-Exrna-logo-black.png
+BitmapHandler::doTransform: creating 252x102 thumbnail at /tmp/transform_2fa44e14671c-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/bb/Exrna-logo-black.png/252px-Exrna-logo-black.png
+BitmapHandler::doTransform: creating 252x102 thumbnail at /tmp/transform_2e857d324d72-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Saved in parser cache with key wikipathways:pcache:idhash:34126-0!*!0!!*!2!* and timestamp 20160410193635
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:34126-0!*!0!!*!2!*','í<ksÛ¶–÷ëúW ìÜÚ¹kI|èaS¶º¾n^³±£Mœæît: ˆ„$Ä$Á’ dßNfö\'ìoÜ_²ç\0 E=ì(‰»iºn\'² €çıÂ!‰W¾ãúÖf9Ë^ 2-¤å{mÿ·ÜïøV|Á®¥ÕÏ}çğÀƒeG!Ÿ‘\\ŞDìØ\n\"F3ŸŒ„œöI*r.¹H|’±ˆJ>c}˜ÉB +r ñÌ§\\Vƒ9 åÔ\'Nz­şÙ0Aƒ«I&Š$ôËµˆ bˆ`\nPĞ0äÉÄ\'M‡Å}	„5hÄ\'€2`‰dY?¦Ù„\'\r HŠØ\'vzİ· ;Géà(OiB‚ˆæù±•F”\' O®r«ädA<  ± à–\"UÔõ3>™Jıu ¾¢b, ÙÈù?™`ÿu™`kpDQ ÇV\"Æ\"ŠÄÜ*I\0ÒY–Ğˆ   ‘\0—Écë ®K®,2ÍØøØšJ™ú­Ö,všs~ÅS*§sz“7E6iÍ[<	Ùu3¦?H.‡¡È$ü\'×¯ÏOZ/ ™‰ïiœöi€| ³KËˆ¡ÔŞ ©¸à¨…óƒ£  |ÿÓµûúsÇŒÃß >¦n	aÁ»c#óê÷œ)yD .   	hS‹ÏG]—ª\\|]’ª‘£Ö;Ğ=â DZS ¿ƒ ÂŸš5†< ÍŞÀE ¥DÆµÉş@¿5 ì“ Ë$ hTš Ì÷?j‘u ŒØXÖx„ÿ 4À…Õ\"c%³Êºš Œ J:Š şÍğ#D!{ ²d´ñ¼1e4 ³e áá±õEˆÙ¥ —rÊ.•Ş/‡ÚF.µ1X bV 7 V µŠ˜UD¯\"•Ú ©r–ÑàbÊsğh5= }F¨S 1   hğ84n6£ğÅ€ id4`QTD4#ˆ*c9Äˆ`\n—Äq‘pyÓ 5–¦” \"FîÅK ¾HÆ ªfÂ§Í‰˜µÀ\Z’ „.0 ÷fyK€–gœÍ åœ58U ’§p%XRF%›ğ€”ó$ÍDÀò }‚LiNB6c‘HYH(ÎM2\Z ¸ü^x`×° İÛ\Z<Y“ä© `@ÑŸ‘œ&ÑZ2DP ç¨ pƒ\0Ù$( \Zƒš\0ùˆƒÙNĞ¼a=O F,‡X\'\n©  ³`J   1 5\"Â	KX¦°í“œ  Ó_)È	hKr4>bä! áã 5eä Ò J) ]\0 £# @4Èb4¬\" û ‰ğ†Œ£‚‡y_  ˆÉŒå’O@ Š¼T ¹q¸f,2Rä¨  3Gp¸\"\0Ç\0µ‚àWFSV€3“XD,(U¸ d\0ÎyÅ2Å#ˆ‰Ñœ   C,%(ŠXd¬& #Ú}2ã î]ÇÕW¥Mí -åı ¬ ƒÊ±¥’J$\ZJ 3Aë) Dz¸¼   \r š)˜sI é„Áu<\0( fóê<  f –]ÒBN1Ÿ´F­Ñ¨µy½\n˜Ç–Ûq- è-Ç† -•5îGDóù¼¹$&4×e ÑA ±iiÁG† &„bB08 ¶.«$_ ÖJ¬U°¶1  »éÖ>14/²Ô- @À* ­ Eª&ª¦×“Õ8 Tú:eè,Ôuÿ\nñzç«ÔWßÙ6\rÙø[ª° É_±Æ:-ttÜ®ÌªèıC Z¥ T¥–ª´ø ¬ J^Z| Ë0ò•Ë±ïØ ÿÿ\n2(LtE£L“Üˆb7Š  Bv ™  È@†CÌ&cFe‘AQP\ZvR¦²Yeˆ Çt&¾i’w§ À  OÎ Wªzmœ‰ø  \Z€ 	ê-j†HÊ ¤n ñ+†T=B… Uz!ôœI$g   ,L‚Í±p  İ5 .í€kMœN¦*Û ]‡ ã˜Z–$Š[¨p¤ QN ÑT’wà,ÃÒYŒ¹¶?V²>c  wù | èpgFˆ ©•¢m€XDƒ£ øS»™°   KÈï\'å$Y2R>ŸOÅ<€º Q \r 4§2†’z/ ãeùc“€>Eãs1GÒV õs ¥ş*ÛD  «>I*™\0‘àBê‡J©P¹H]$¯ >góËS     Rd—ÿQğàJ]»Œ Ö‘Ú:R[7ø ¿7Ô ô¹Ü —5Î©:0ÚHÁ©Ş äËøªÑÁ ~‚aMX^ Ú ½nc.òE‘Aõ\r†R}¿ÅDÊ@eV-&î·hk¥Å(25xŞ*k“ ¼+S `Et÷V %Áˆ7“(^ìmâ õ Àˆc $ü«1U•‹2†¥ù±* óP y [ µ¬òq=G\Z ø‰µ¡-)§â ”+ bor~ß‚\rn¤È (×u©wZşT–¯6 ÷µ?¤iš7—Ğ©¡VİÏ­ÁRdùßCŸˆ\r7 BóŒè~ÂŸ÷Ï3ZÎ 6Ø   —˜n˜± æõèfÃØÖËªá 6RïY€ ¡ª$H9v‹Cc‹ Š*r ±k2ä l\nÇ°Ù æagÈÔ62P ’É>Ñ9œ,ï\r«,¸ÿ…ÒŒ)¤P6 tüÛ$¢a.¡Îj A>n²°° ·Í¬Éï¼=ÁÎO ;9S~>lD¾‘È+lyü™w!os6.\"ò õXÛ?÷ ¤Œ„g‹¦Ô= 3\nhUÅ˜ÉJÊ{› ìÊ=ÂÙ\r ßŒ3ÕBÓÍä¥¾ä=P˜›Ä » YŒX ¶C­9•Áô‡Ùñh|6ñ^O¯Ïã (ÄgP‡‹Õ:\\ UµM û  ö4 ¹áŸo*ÂßÖ‡2ÔhÛ÷z ¨o*ş?5Í‡²vû3§‚’×rc²œ şÜ	Aµ¸KNJ úê  \r#?M	\\†w Ë»	Úw,}“‘\'3Š,—{BeY>ÔÎ KU,ß}R~İ…Ğ §$fy ûF²û6Q¤He:\n ¿¶f4ÃÈ½´»P÷ p¯Ù\nh0e­j<ŸAşiÑ°õnèv ¼Ë^Ç³»M õ …è 	ÊÎ}·ÓÙÑ gš\0ÿgÔ5„@ÛéüB^$cá 2 7‚ÍA‚=‚1 ê*zšÕ «ö•„‚åÉ® ~y.÷ÍÆ L ‘ÌwŞÑ „KşÎÅğä %—, s–jë¼ì//Áö‰ZCg°i0B\néMsçI–¡E,$—ÁV	@¥…DjıO ß$£\ròÃágÃ³—ØïÑ$ï¼U\"Ûù—÷@Ób˜| É¾B¯¤•Ğ˜}? Ëü Ç…z\ndiâ   @5 BNFLÎ KˆB7Æ[zRm_s6Sı\"e©™È C¯ÜSD¶š×qôX ÑPxŸ±äìd8„é öİ7/×Kßüô †ÁTî\\5<ÇUir÷ª‹ OŸÂ¸äãñİĞ~Äei «°ÛZÓvÈ3¦;“ ï cO 6À¡n×š›â,QK¡fÂ…Ô›;¯ „3°\' 2” ±}òêß Ç‡ —ìQU°¯U ÍĞ†`Òõ  T=j´SîàÔ ,Í@#¾Ò|ã ñuÇqÏHã=Ínµ¶yÊ!‚&‹&Åe\0åg /±îÍB-€%ãtÍõ-â¢°Uşr4 »èmw [I7o•)¡ü‚ùÒwÜŞá  ’àŠ¨;ê¾ÉeBW×ö—\0ßsÜv÷±_æ\"e)&Tìí®Àm6›» uªóexöá\nŞœÎXéÜá)ªbo DZÇé~ Î®×[AY¤!•l3.o[\\fæbZÄ#Í[×[Á Õ Şğ~ûú¥F³ š,X\rYû³‘uì .5êû1½bê+n7_ŞïÁ?pğ=³êñ>Ù½hœ²(\"¯ ¦G‘¡jaôãõß8clËú aZƒ\rƒX¢íã!øháçn:—H.’àv \Z¨«¡C~V=3…½HTœúe•cHšPì,øÄç\0‘M³Ê×nº€oĞo Ãc¤i¾{{VK‚¨€˜ *At-UéÄëx.h Ê¬è²€ÁK$ü’f ½ÙÛ]¡\\‹ş çj\\÷> ­Ûq”1àˆve @ÿ|jDWÉhxÁâ oğ=Å }ùã«3 Øwéü ÆÂ\r$ lORÆÌ3G\"CÀÚ)ì^o™¸  ³7Å(‡²­P´)”ûä  kô ~–ˆ¼C v† HE\n»†=B¸Í9$³U|Îíöë À¹= oGPû°ûQYÀè“ˆá3X` í:öÛcñvØ;v[a_ã±Œ˜çğ;<É& bßÛ5OìåK9èö }—  ´İ»Q ëíÑzKKĞ‚_X ÄÓ/°ƒÎg	¡mäÿ ğ	AñÿÆ >/\\~ ¾B0ÜÌùçEA»ç}\nçûÄ® aŸ   8 §ã-³ ‚‰€éŸhÆqG™ïíş ÿ=}ûòåğäÙ“ó“³•‚Óı„xWwö ´e5¡†>Šs‹(gBD o>bŸÄ<; °»:İ,°§·b­T}]ŒÇ Íë·\ZT #¬+ÇòSí;êän  õ=Ò	+}\0Cá\née ¬¿P±·BB} ‘uŠ¶ˆ•C!¢SQ ^´Ğl%4 }\'²« lXEì\'|æ é\n îÕql \0\r  ¿g÷ |ƒ  \Z `A!Ù ğ-‚îTæ-¤ñD}WxÚ ^ b  ŸÛ^‚½EÜBÕhh JeBï™¦b â ©‚èÙ €xÆBNqLÛ\'Ë°ßq²T,\Z  ¯˜h ï q¨ÂÛéŞŠ÷5ûµ`¹¬³äm n Bê ¬)O–\0Ş GL“z¯s¸ \'+–Á¸ä7 ı¡¼w\"\"İ½¿&zxİ  W­sÇn:¶í¶¦,mº=»íYƒ zE§4Ÿò}Â$¡Q“¼ É  Õ@¨ç ğ  OHÄñ1zó ¸~€éë÷L–s€“ ÇYê™>4L·hG­ ï¡aúĞ0ı#5L7[h­aºä÷ \rÓ‡†é·Ğ0yæÂf ,óUÄ\'âÿAÃ Üt½aºA  \rÓ‡†éCÃô¡aúĞ0}h˜>4L \Z¦ \rÓ‡†éCÃô¡aúÕ ¦“ˆÓ¦ëví®5  9 ªnéŠBNUãŠ%3‰Äœ1Â’Œ SüQ  Â xi  v-r ³\\¿ÔÅÕ¹*1İÀÍœR‰ï‚Å –Ÿ¿!ñ\r‹xRr²³8 Côpëã¬G£ÕS2î|HºzcõîU ô\0À ‘µ\'ÕY$ `Y IaÎ¶ù¶¥XyïKî =j4ÈÎ9› ‡$â1ÇÓ~ğmŠz‰¡OF ¡$¼A½ ß|âu ÁŒÔË‹K³X^î8v{±^äòşë¿um@ŒÇ õ¤9ét¼N· áºçt\\2º‘,ß) 5BM\rmÖ:ãvVÖ> é‚·  \\·\"YŠÏvw[m{çÉuŠ] ¾ Ù¥Úş—tÚHäN£QÊæ\ré÷ ÍzÕÎÓMÿ+vCê¾î§jÒç!Şxğ½¶ãv ö£¿=² Á‡ûèoú½O >\"iœ ×vºvÛ±C¯ëu âTG°µ}+~I“I 	U½\reõ©oû¿}€9 æNñô\"ïçÔ&l<Ä\rm½:É\rO{«Y=u r	Ñõã°\n¾yx\nœÓñ×^İïÃ‚N¯ Wºpé /¢«… mXxà[Õ‹áúònÿ üµ»€ÈAD. v‹ Â  5Ïî¨X2šW ;Šb ©W’¬!ÄuCyº á\"Í àï0¯«B\0™v§wĞ×R¬ V¢upª[ ©0*a  å,  R^½ X½­WNõ–.,¹.Á jnİ\Z·/ÂOá·×q½îf~  ÛÛÌ0\\ÔíİÁ0 íİÊ0 j‡› FÀŞ­ ÷  í(†{À¯j •¬‚eØşæ ŒĞú($°® ›oÔ{_¦4Üâzeí¹ $¡û•^  Ø¶;ëBôh;8\nƒù”ª¯ °  ğc\nœ]Çîœv2grpğÏ\"ˆ~}Ÿ¸¼ ,­9ô×\'& WŞå(uA«_xt™â]ëiíp)3‡|o<UÉÌ· üO? Ã\\ëÙëxWÎG0+{ÿY‡ l:È`±å3 JÆ<ÿ“Şü_ [İĞ©ƒí¸şç½\\_Ê Èúøëä%1Ş  ›w6WØÜö¥É ²» ²~©±$´ãou7½\\Ş½ky­–,möĞßØÀ¯Ü O }Õ NmJurŞèÛˆVäÛ}sÍs ²\rS˜0ÎÅ3¨ãXv³4ú Bâ Éâ\Z| %g\"ÄsãjHÛÕè› ã©¬Ïy‹9¬¶êSjÊÜ‹¯Obd×ûİçBÔY ñÄxG Ü|eÔp¦FÛ˜ lør€  È– Ê¼ «\\ ›ß€Ì·< ÈÔ	\rFÉ[  iêƒ¤ˆG È (  árµ…Q°|ë¢¡FJ¼•k’ Íë‡“ZF Xš‰ñ8gP*œkD4	¦\"[!ğÎs.U q‹ Üu9´WäP+pªsxVy şœæ\'pí:+\\/’ä Œo,¹> 3ŸÍ$ ¸8Pg#wîFîÜûçn™ `Ëû İAµ°v¦Èfş¼üy¿ƒöj4-Î>Ñ%  —\'!—Æ/Ä Cg6 	#Û0 )¾gÊòª: ¢  ‚Aà€\\áğp ßİÍËXgæL »xuúüâìeı ½ 0›Œ•R§ ÿ =eÊXÑÿ¥ŞŒû „b ÙP@j¿© Ä\n`eáI€{= Ö\n0µ‡\0 «›®¸;Cn ƒ]« ëR êÌ 0—C\"“°‡r$\nõÄ   VP‚$E ÒìæG*é[u‹½ 3İƒµ ”÷·ñ‚å°ÿ“~DÄ ŠÓì6Û•äÔ}û‹å\"±¶K+wVz ì&9fšsc ñ©n}ä¯¢ğŒNx Uşá ','20160411193635')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '34126'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:ExRNA&oldid=75306
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.75.12
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '34126'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:ExRNA&oldid=75306
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.134
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:24a0983765d2e4f75bde4257cb4f851d:1)
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP2583_75306.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/a/ad/WP2583_75306.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP2583_75306.gpml" "/tmp/WP2583_75306.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP2583_75306.gpml" "/tmp/WP2583_75306.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/a/ad/WP2583_75306.svg:
+<BR>Status:255
+<BR>Message:[     0.015] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP2583_75306.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/a/ad/WP2583_75306.gpml" "/tmp/WP2583_75306.svg" 2>&1<BR>updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/1/18/WP2811_75306.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/1/18/WP2811_75306.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/1/18/WP2811_75306.gpml" "/tmp/WP2811_75306.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/1/18/WP2811_75306.gpml" "/tmp/WP2811_75306.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/1/18/WP2811_75306.svg:
+<BR>Status:255
+<BR>Message:[     0.014] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/1/18/WP2811_75306.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/1/18/WP2811_75306.gpml" "/tmp/WP2811_75306.svg" 2>&1<BR>MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/bb/Exrna-logo-black.png/252px-Exrna-logo-black.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/b/bb/Exrna-logo-black.png/252px-Exrna-logo-black.png does not exist.
+BitmapHandler::doTransform: creating 252x102 thumbnail at /tmp/transform_113bd95027b9-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/bb/Exrna-logo-black.png/252px-Exrna-logo-black.png
+BitmapHandler::doTransform: creating 252x102 thumbnail at /tmp/transform_28f606ba1dd6-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/b/bb/Exrna-logo-black.png/252px-Exrna-logo-black.png
+BitmapHandler::doTransform: creating 252x102 thumbnail at /tmp/transform_23e1233d5310-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Saved in parser cache with key wikipathways:pcache:idhash:34126-0!*!0!!*!2!* and timestamp 20160520175637
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:34126-0!*!0!!*!2!*','í<isÛF–óuô+ÚHM$ÏŠ$   (1£Q|ÕZ2×–ãÙJ¥TM Iv    AJ“rÕş„ıûKæ½î   ’i[YÇ Å Šìn¼ûê  _ùë[Cšå,{UÈ´–ïµı_s¿ã[ñ »–V?÷Ã  – …|Fry ±c+ˆ Í|2 rÚ\'©È¹ä\"ñIÆ\"*ùŒõa&  ¬ÈEÄC2ŸrY\r6æ<”SŸ8éµúß†	\Z\\M2Q$¡_®\rD$ C S€‚†!O&>i:,îK ¬A#> ” K$Ëú1Í&<i\0ARÄ>±Óë¾5Ø9J GyJ  D4Ï­4¢<‰xr•[%\' âé ˆ-\0· ©¢®ŸñÉTê¯Ëğ  c‘ÈFÎÿÉü û/Ë [ƒ#ŠÂ8¶ 1 Q$æVI Î²„F ™°ˆ ¸L [—p]re‘iÆÆÇÖTÊÔoµf±Óœó+R9Ó›¼)²IkŞâIÈ®›é4ıNr	< E&iä?¹~}~Òz‘ÈL|Kã´O äë˜…\\ZF ¥ö–HÅ G-œ  µèàÛoœ®İ×Ÿ;f ş¦ğ1uK  Ş  ™W¿çLÉk$¢pa\0‰H@›Z|>êºTåâë’T µŞî Ÿ züsÔšºø ì şÔ¬1ä9hö . h,%j4®Mö ú­Ù`ŸÌX&y@£Ò¤`¾ÿA‹¬Û`ÄÆ²Æ#üsĞ\0 V‹Œ•Ì*ëjz0‚ *é(bø7Ã …ì\rÈ’ÑÆóÆ”Ñ Ì–Y„‡ÇÖ;  \"f—R\\Ê)»Tz¿ j ¹ÔÆ`\rˆY Ü XEÔ*bV ½ŠTj ¤ÊYFƒ‹)ÏÁ£Õô ô ¡NaÄ\\ €¢ÁãĞ¸ÙŒÂ   ¤‘Ñ€EQ ÑŒ ªŒå #‚)\\ ÇEÂåM ÔXšR\nˆ ¹ /Aø\" ƒªš	Ÿ6\'bÖ kH  6ºÀ Ü›å- Zq6o”sÖàT]HÂ•`I •lÂ RÎ“4  Ësô	2¥9	ÙŒE\"e!¡87ÉhLàò{á]ÃJtokğdM’§Z€ EFršDkÉ Ayœ£ À\r d“ ,h j ä# f;Aó†õ<	x\Z± b(¤R\\Ì‚)Mx  Ä Ôˆ \',a™Â¶Or dL¥ \' -ÉÑ<úˆ‘‡€„oÔ”‘ H (¥€t pŒDx Ñ ‹Ñ°Š ì{$Â 2\n æ}\r  &3–K> e(òRæÆáš±ÈH‘£b Ì ÁáŠ\0  Ô \n‚_ MY ÎLb ± @Vá2 8ç Ë  &Fs B d ±” (b‘±šTŒh÷ÉŒCz¸w W_•6µG´”÷K°. *Ç–J>*‘h(-Ì ­§<b éáò HX4T4j¦`Î%I<¦  ×ñx  €˜Í«ó,@˜-XvI 9Å|Ò\ZµF£Öæõ*` [nÇ ¶T ?¶  ~´TÖ¸  Íçóæ’˜Ğx^—D -Ä¦¥   ~˜ Š	ÁàL Úº¬’|-X+±VÁÚÆ@Lì¦[ûÄĞ¼ÈR·,\0 «<´^ ©š¨š^OVãHPéë”¡³P×ı Äë/R_}cÛ4dã¯©Â2$Á\Zë´ĞÑq»2«¢÷wYh• P•ZªÒâƒ²R(y=jñ.ÃÈ .Ç¾acü÷  dP˜èŠF™&¹ Ån A „ì@2!A  ‡˜MÆŒÊ\"ƒ¢ 4 í¤Le³Ê 1éL|Ó$ï O1€ \"œ-®TõÚ8 ñw 4\0  Ô[Ô ‘”	Hİ$âW ©z„\n! ªôBè9“HÎ  &X˜ ›cá>$ºk,\\ Û ×š8LU¶3º 3:Ç1µ,I ·PáH!¢œ(¢©$ïÀY†¥³ sm¨d}Æ$\nîò\rø\"Ğ áÎŒ 3R+EÛ\0±ˆ G ğ§v3a  :–ßOÊI²d¤|>ŸŠy\0uA£ \r\Z 	hNe %õ^ ÆËòÇ&  }ŠÆçb¤­$êç,JıU¶‰ &V}’T2 \"Á…Ô •R¡r‘ºH^ |Îæ—§ \n2>*¤È.ÿ«àÁ•ºv  ¬#µu¤¶nğ ~o¨ ès¹).kœ=Su`´‘‚S½ È—ñU£ƒ)ü Ãš°¼ ´ zİÆ\\ å‹\"ƒê  ¥ú~‹‰”Ê¬ZLÜoÑÖJ‹Qdjğ¼UÖ& xW¦ ÀŠèî­ J‚ o&Q¼ØÛÄAë;€  Ç Hø cª* e KócU æ¡ ò\"¶ jYåãz4 ğ kC[RNÅA)W\nÄŞäü¾  ÜH‘ P®ëRï´ü©,_m îkHÓ4o.¡SC­ºŸ[ƒ¥È ó¿…>  n(„æ Ñı€?ïŸg´œ%l°%.  .1İ0c+ÌëÑÍ†±­ —UÃ%l¤~f  „ª’ åØ- - (ªÈIÄ®É °) Ãf ˜‡!SÛÈ@J&ûDçp²¼7¬²àşgJ3¦<’BÙ Ğñ·IDÃ\\BÕ,‚|Üdaa\rn›Y“ßïy{‚Ÿ vr¦ü|Øˆ|% ‘WØòø#ïBŞæl\\Dä%ê±¶ !ì=H 	Ï M©{.f ĞªŠ1;“•”÷6AÙ•{„³  ¾ gª…¦›ÉK}É{ 07‰ v7² ±&l‡Zs*ƒéw³ãÑølâ½^ŸÇ PˆÏ   «u¸&ªj;› ö=  ìi rÃ?_U„¿­ e¨Ñ¶ïõ \ZQ_Uüjš eíöGN %¯åÆd9 ü± ‚jq—œ” ôÕ \"\ZF~š ¸ ï*–w ´ïXú&#Of Y.÷„Ê²|¨ –ªX¾û¤üº ¡ANIÌò öd÷m¢H‘ Ët \n~mÍh†‘{iw¡î-à^³ Ğ`ÊZÕx>ƒüÓ¢aëİĞí x—½gw›0ê/\nÑ7 ”ûn§³£ Î4 ş¨k ¶Óù‰¼HÆÂ\'d n ›ƒ { c ÔUô4«-Ví+	 Ë“]	üò\\î› ˜ -\"™ï¼£  —ü‹áÉ?J.Y æ,ÕÖ = yÙ_^‚í µ†Î`Ó`„ Ò›æÎ“,C‹XH.ƒ­ €J ‰Ôú )¾I\ZG ä‡Ã;Ï†g/±ß£IŞy«D¶óçŸ¦Å0ù6’}…^I+¡1ûv –ù# õ ÈÒÄO* €j „œŒ˜œ3– …nŒ·ô¤Ú¾æl¦úE ËR3‘ ş†^¹§ˆl5¯ãè±\"¢¡ğ>cÉÙÉp Ó1ì» o^®—¾ùá  ƒ©Ü¹jx«ÒäîU />…qÉÇã»¡}ËÒ Va·µ¦ígLw&9Ş Æ l€Cİ®57ÅY¢–BÍ„  ©7w^3 g`O\"d(#bûäÕ !  . Ù£ª`_«,š¡\rÁ¤ë =*¨zÔh§ÜÁ©?XšF|¥ùÆ?âëã‘ÆÏ4»ÕÚæ)‡ š,š — ”ŸM¼Äº7 µ\0–ŒÓ5×·ˆ‹ÂVùËÑ,ì¢·İEl%İ¼U¦„ò æKßq{‡; H‚+¢î¨û&—	]]ÛŸ |ÏqÛİÇ~™‹”¥˜P±·» ·Ùlî>^Ô©ÎçáuÚ‡+xs:c¥s‡§¨Š½] i §ûY8»^o e‘†T²Í¸¼mq™™‹i 4o]o  TKxÃûíë—\ZÍ>h²`5díOFÖ± ¸Ô¨ïÇôŠ©¯¸İ|5úy ş  ß3« ï“İ‹Æ)‹\"òšaz  ª F?\\ÿ3Æ¶¬ÿ ¦5Ø0ˆ%Ú>Ş ‚ ~î¦s‰ä\"	n ªº\Z:äGÕ3SØ‹DÅ©ŸV9†¤	ÅÎ‚O|  Ù4«|í¦ ø ı&1<Fš è»·gµ$ˆ\nˆy  D×ÒX•N¼ç‚V ÌŠ.  ¼DÂ/i–Ñ›½İ ÊµèOp®Æuï“Ğº G  hW \nôÏ§Ft•Œ† ,Nñ ßSŒÑ—ß¿:C}“Î_`,Ü@ÒÁö$eÌ<s$2 ¬Âîõ–‰ a0{SŒr(Û\nE›B¹Oî ±FÏá\'‰È;TagXT¤°kØ#„ ÙœC2[ÅçÜ h¿Œ\0œÛ#ğv µ » ” Œ>‰ >ƒ æÑ®c¿= o‡½c· ö5 Ëˆy ¿Ã“lR ö½]óÄ^¾”ƒn Òw ÁAÛ½ õ °Ş ­·´ -ø…%@<ı ;è|’ ÚFşŸà	   ÿ<áÓÂågHà  ÃÍœZ ´{ŞÇp¾Oìz ö pÓq:Ş2Ë ˜ ˜şf w”ùŞî¯ğßÓ·/_ O=9?9[)8İˆwug_A[V jèƒ8·ˆr&D´ğæ#öIÌ³ \n»«ÓÍ {z+ÖJÕ ØÅx¼Ğ¼~«Au1òÇºr,?Õ¾£Nî ñPß#°Ò 0 ®^†Áú  {+Ô)Ô· Y§h‹X9 \":  êE ÍVBƒÑw\"»:Á†UÄ~Àg‘®Pàè^ Ç  Ğ@Qğ{vÏÀ7X  ñ\0  ’- ß\"ØéNeŞB\ZOÔw…§áÅ Vàñ¹í%Ø[Ä-T†æ¡T (ôi*–!n ˜*ˆİ ˆg,ä Ç´}² û \'KÅ¢ááñŠ‰Öñn ‡*¼î­x_³_\n–Ë:KŞ áf!¤ÎÁ\Zè˜òd	à]qÄ4©÷:‡kp²b ŒK~EĞïË{\'\"Òİûûh¢‡×ÍPpÕ:wì¦cÛnkÊÒ¦Û³Û5¸ WtJó)ß\'L \Z5ÉK‘L°Qİ „z\0ï ñ„D  £7 Šë ˜¾|ÏÔi9 Ø89pœ¥é¶\rÓö¿sÃt]x \rÓ‡†éï©aºÙBk\rÓ%¿h˜>4L¿††iÌ3 6[`™¯\"> ÿ \rSpÓõ†é 1<4L \Z¦ \rÓ‡†éCÃô¡aúĞ0}h˜>4L \Z¦ \rÓ‡†é o˜N\"N›®Ûµ»Ö`Xä<¨º¥ÿ-\n9U+–Ìx& sÆ K2 LñGyt #à¥ELØµÈEÌrıR WçªÄüu 7CrJ%¾   X~zş†Ä7,âIuÊÉÎâ\\ uÒÃ­³ VOÉ¸ó!éêÕ»W\rĞ \0_DÖ<Vg‘H<‚eq$…9Ûæë:–bå½/=ºsô¨Ñ ;çl> ’ˆÇ OûÁ·)vê%†>  „’@ò õB|ó‰×9 3Rÿ-/.Íby¹ãØíÅz‘ËÿûŸÿÕµ 1 GÔ“æ¤Óñ:İ „ëÓqÉèF²|§,Ô 55´YëxÛYYû ¤ ŞN pİŠd)>Ûİmµí\'×)v=fø\"<f—jû_Òi#‘;F)›7t¦ßC4ëU;O7ı¯Ø\r©ûºŸªIŸ‡xãÁ÷ÚÛmØşúÈ~  î£¿ê÷>9øˆ¤qJ\\ÛéÚ øìuº^ Nu [Û·â—4™ PÕÛPVŸú¶ÿë{˜s`î O/ ø~NmÂÆCÜĞÖ«“Üğ´·šÕãX !— ]ÿW «à›‡§À9 íÕı>,èôzp¥ —Şñ\"ºZxĞ†… ¾U½ ®/ïößÃ_» ˆ Dä a·ø!\\\0RóìşûŠ%£yE±£(Vz%É\ZÒH\\7”§  .ÒŒ\0ş  øº*  ˜iwz }-ÅÚ	j%Z §ºuú £ æQÎòÁ åÕË€ÕÛzåToéÂ’ë ì¡æÖ­qû\"ü ~{ ×ënæ÷Ğ±½Í ÃEİŞ  #ĞŞ­ c¡v¸™a ìİÊpï\0Òb¸ üª¶PÉ*X†ío>Á \r©B ëŠ±éùF½÷eJÃ-®WÖû@ º_éeàzm»ã¸.D¶ƒ£0˜O©úê ka ?¦ÀÙuìÎi\'s&  ÿ,‚è—Ÿ — ¥5‡şúÄäáÊ» ¥±.hõ3.S¼k=­ .eæï§*™ùöÿñG`˜k={ ïÊù feÏñ?é0ƒM  ¬3¶|†@É˜çÔ›ÿë`« :u° ×ÿ´—ëK™ Y ~¼$ÆÛ `óÎæ\n›Û¾4YBv7@Ö/5–„vü­î¦—Ë»w-¯Õ’¥Í ú  ø•;ãÉ£/°ºÃ©M© RÎ } Ñê|»o®yÎC¶a\n Æ¹x u Ën–FŸCH|!Y\\ƒ¡äL„xn\\\ri»\Z} d<•õ9o1‡ÕV}ªSM™{ñõIŒìz¿û\\ˆ:‹  ï¨ƒ›¯Œ\ZÎÔh ³€\r_ 0¢\0ÙR@™7c•‹ ró ù–g ™:¡Á(y‹ \"M} ñ  ¹ ¥ !\\®¶0\n–o]4Ô(P‰·rM Ò¡yıpRË(\0K31 ç J…sˆ&ÁTd+ ŞyÎ¥ª#n‘ƒ».‡öŠ j Nu Ï*ÏÀŸÓü ®]g…ëE’Ü‚ñ%×{dæ“™    êläÎİÈ{ÿÜ-“ lyŸ¡;¨ ÖÎ ÙÌŸ·‘?ï7Ğ^¦ÅÙ\'º$Ààò$äÒøñ…¸bèÌ&\"ad f\"Å÷LY^U\'@t\"@0  +  á»»y ëÌœ‰` ¯NŸ_œ½¬_¢w f“±RêÀ~Ã9ô”)cEÿ§z3îO ŠAdC ©ı¦  +€•…\' îõXX+ÀÔ   ¬nºâî ¹u v­\"¬Ku¨33À\\ ‰LÂv Ê‘(Ô ïuDXA	’ IH³›ï©¤oÕ-öZÌt Ö.xRŞßÆ –Ãş ú  c(N³ÛlW’S÷í/–‹ÄÚ.­ÜYéu°›ä˜iÎ9Ä§ºõ‘¿ŠÂ3:áVùû ','20160521175637')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:ExRNA]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '34126'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

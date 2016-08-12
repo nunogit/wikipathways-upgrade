@@ -1,0 +1,46 @@
+
+
+Start request GET /w/index.php?action=ajax&rs=CurationTagsAjax%3A%3AsaveTag&rsargs[]=Curation%3AProposedDeletion&rsargs[]=1715&rsargs[]=test&rsargs[]=
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+PRAGMA: cache=yes
+CACHE-CONTROL: no-transform
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: */*
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP522
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1467963209.1468228367.130; __utmc=141536308; __utmz=141536308.1467891924.127.28.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); wikipathwaysUserID=9205; wikipathwaysUserName=Nuno; wikipathways_session=p27vd78b25cnd3u35fquc1hjf6
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+[cookie] session_set_cookie_params: "0", "/", "", "", ""
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+AjaxDispatcher::performAction dispatching CurationTagsAjax::saveTag
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+User: cache miss for user 9205
+User: loading options for user 9205 from database.
+User: logged in from session
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP522]] are {edit,move}
+User::getBlockedStatus: checking...
+IP: 137.120.195.133
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+DatabaseBase::query: Writes done: INSERT  INTO `tag` (tag_text,revision,user_mod,time_mod,tag_name,page_id,time_add,user_add) VALUES ('test',NULL,'9205','20160712095150','Curation:ProposedDeletion','1715','20160712095150','9205')
+User: cache miss for user 9205
+User: loading options for user 9205 from database.
+AjaxDispatcher::performAction dispatch complete for CurationTagsAjax::saveTag
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

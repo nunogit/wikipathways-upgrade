@@ -1,0 +1,106 @@
+
+
+Start request GET /wiki/User_talk:StuartCul
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Special:BlockList
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User talk:StuartCul]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 104.223.37.220
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User talk:StuartCul]] are {edit,move}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:32122-0!*!*!*!*!*!* and timestamp 20160516011808
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:32122-0!*!*!*!*!*!*','uTao⁄0 Ìg~ÖõèìËú (5”§âu © $ËˆŸçoâEbG∂”B´J˚	˚ç˚%Û hCË@(Ëﬁ›ÂﬁªgœY ±`¡ç 3Ø\\YπÄ≈=ˆlYü ≈\n6. Y  á,Ë|:ÔvIÁ    íÀB:b†‘∆u ˛it ÷jC §ï  QZ\0It• #ÙcHÎœqj\n\n o\'Go…⁄∫øøˇ¿¶‰J ©íºÚiV> ∂åË’eÿè»˝÷ÅÌ¨†(sﬂãpìV (˜üºâL3∞é‘M≠‘ä (]Üâ=⁄πﬁî‡£ @ Z Ú´Râ√¨&ìN∑˚π≥ìc… \0G;‰\'<…Ä<Jóë5l˝üµ,πÀ ˘÷≤≤ ô  ∑ ã£0ä∫Ù¸√€ó M\' ? /J —p@˚˛ ÜC:$¯R\\FÿÛõπ·*≠x\n7R≠m0‚å≤Á èÖ  { Rm$4 äÎî.á√N√+ ‹·»éÁk∂t 7n\\Â \r ≠∆u˝^„f<jƒß¢Å\\z`Z¯ õŸﬁF≈7ô√ ∏I≤yâ“6q§vΩq` œ€ †!ß c(Í{ºΩ3óPo+ ›3:⁄◊L§Äw $t´øÛ< ≥=äNÄã©É¢— ÁûiQÂ–ûv ]&FñÆâ≈oò€ óı_°ô? -ÖPœ›Aúh›§Ë◊U¸‰FIï∂¢{fmùØÖt{h•◊Ä¯û$äµ0∫ „éLÇU´˘x≤ö›†\rº ¡Ë’:{W  ËÕ ”ADi/\n{1F#oõ≥ÊMrÊ◊%`≥–πL∂çÜ1=I¸í‡ï\0‚ƒ qˇ$◊s“Jp≥˝  ø+≈±!£·I \Z™>ÍXpÃˆ  [õ¢æÔ¬ã¡EÔïÚ O+ÚnPnú«:\Z Ú¸≈!—F∑ EÎèµr\\*;œ≈åß2ŸâˇÚ ','20160517011808')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+Block::isExpired() checking current 20160516011808 vs infinity
+Block::deleteIfExpired() -- not expired
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 8816
+User: loading options for user 8816 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User talk:StuartCul]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+
+
+Start request GET /wiki/User_talk:StuartCul
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Special:BlockList
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '32122'
+Title::getRestrictionTypes: applicable restrictions to [[User talk:StuartCul]] are {edit,move}
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+IP: 104.128.233.227
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User talk:StuartCul]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+Block::isExpired() checking current 20160516011808 vs infinity
+Block::deleteIfExpired() -- not expired
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 8816
+User: loading options for user 8816 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User talk:StuartCul]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '32122'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

@@ -1,0 +1,606 @@
+
+
+Start request GET /w/index.php?title=Report_a_bug&oldid=72727
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.65.156
+Connected to database 0 at localhost
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE keyname = 'wikipathways:messages:en' AND exptime = '2015-03-11 04:21:28'
+MessageCache::load: Loading en... cache is empty, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:33417-0!*!0!!*!*!* and timestamp 20150311042418
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33417'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Report_a_bug&oldid=72727
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-ENCODING: gzip
+ACCEPT-LANGUAGE: en-US
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.163
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Parser cache options found.
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2015-06-16 08:14:37') AND (exptime < '20150616092908') AND keyname IN ('wikipathways:pcache:idhash:34768-0!*!*!!*!*!*','wikipathways:pcache:idoptions:34768','wikipathways:pcache:idhash:4854-0!*!0!!en!2!*','wikipathways:pcache:idoptions:4854','wikipathways:pcache:idhash:12581-0!*!0!!en!*!*','wikipathways:pcache:idoptions:12581') 
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33417'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Report_a_bug&oldid=72727
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.79
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:33417-0!*!0!!*!*!* and timestamp 20150626035236
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:33417-0!*!0!!*!*!*','­VÛnã6 İg £Ç¢¶nv6‘m Eö’´›MĞ¤]ôÉ ¥±EX\"U’Šã. ô úı’ÎH²#;Yì ›\0‰Í¹pfÎÌ ^E~ 9×\\ ĞW•-+ëDá0úh¢Qä ·po±‰ü‘\Z9“,ˆ\'Å:‚TX ‰ J²’/aêü ¥Ò–q6¯– keSÇwâk­æ9 l-lÆl h`³5ß0r¢ôO wßaÌ&¦ä’%97fê ë~ <Í… ‡‰tê´şfäo†şf­¿Yão ¾qbö¹KÙÄ¥Kâ‰‹ õ&eüJ±ªXÆï\0“( Íáwœñ²ÌÁ¶.~dø… `I ÉŠ©J³	g™†ÅÔq×b%ÜsÈËèW©ÖrÖú3 ³ÂæX®G ÛÉâıï —ÇÛBšÁd®™ ÷>@ b.Œ…”­j aL æ1Ø&@ú¨1 ™2LÜ0«˜Q9Úây1`½‰[Æ˜xë˜¾õ¾\ZŞÀ‰»’¯…²±ñ yY×Õ €şDt òÕ-·†|êHµPy®ÖÎö lYĞ’çÌRó2Ëõ ìÔ™Ís.WN‹Qfm ¹n\nw« ´ P‹Ü	#Ô@é¥«ë`\\l`ŠÆj¬@×˜`iM5/ E*aİDû=bY¯×Ï Ñç}¼Ãub ”B ° µ‹E§kå†ı…}P÷  ) ;$ÃFk:Ã¨ l&äòÇÚ†jÉóº3 %-Oì÷+êR«ª4ƒ¥RË  ‰*š“z,ÚA4ıT˜¤2Øöok5V«ÔÙµÍxÔï³Ş{X__c»S¹›jô®ñ¿V	 ƒIR­h ¤Jq U%mÄ]ß«öU— AóCe?xÔVÆş÷Ï¿p_ÒĞ ™ä ê ñ7DÌs ïô¥?\nØ|cÁôn¡(stÆ° U Ò~Bï\\,3Ä„ÕN\r\rT\n¥Í\" ¸C¯÷ú¾ <½#~\"şe‹J6c×FçQp½~?î5õ¸A¤)´­~Âq \Z|W°aİ Ge-ŒDšq“Ea8ô_ö½£ ¼#üƒ¿55XQ`x¼(Yàù#ï88öÂQ  3º³&ş!nw\\.+$‚wB®Œ3æ‘ }|@™²3¬ÂRi ]G«ƒ¨n·?pÇì‘  “ç­G?ú(P«ùÔ\\{Àc”Ÿ†ã‡İ - İ‹ƒÎùEÚ‘¼DÁE9tµOğğÈá ¸N²«²œrİ6ş.Òâ b\0_L! 9æ D_:ê­ÅÈ¾i¦jsJ€Vø…Ä Hí9ôp¾n\Z²vÆóÈ ·6ç\"…gDTõ÷ê-ÏsĞ›½Ós$ö [Ã´õOÅ½Ti•ÃaI›Ó›D‹Òveá£ÌnöÍF;Ñ%Nó Œ zót9Wª›\">YŠ \\Kd½ƒÓ6³ú4 ÖóğÃ	!‹a[•ä ê †Èi¿ãe n=üyÔ‹Œp¥÷Óg  m¿Ëª˜ƒnıøNã[È î»g àB«¢~+ì O»+Ûª Å¨ÅÂ€¥H½æ\n.“LÕWà+îK^Kã Êò›³ÿÄdïe\Z<“iğí™ Cÿ0×§† Û ™¶pßª  æmãÒ\0`ptí }‘ÕíÕÙùíå;ò÷oã@RkùrËH›¡ x¡ŠôéÑi€½è¾§_à bŞ×* É¦ã0ô(şœĞ²‚´CEÁ– ›ŠÒ ªiçy \r±ÕÜâ 6™ÊÓF€Y„£\'î± J¦\\o^qË/Ó}ò N  ùÕk‹ ö ô  ^Í\r5²şàx0ÜUéŒ6 •ªS¥ÎrÙ Öèá  Ä&ïé”húŒŞ#Bš«<½äK‘4x=ü ','20150627035236')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33417'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Report_a_bug&oldid=72727
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.157
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:33417-0!*!0!!*!*!* and timestamp 20150722111624
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:33417-0!*!0!!*!*!*','­VÛnÛF Í³¾bÍÇ\" /’|¡$ …s±Ûø‚ÚmĞ\'aEÄ…È]fwiY\r ô úı’Î”LÉ â ± [Ú¹ìÌœ™3{ úAè\\sm@_•¶(­ ö ág  C\'¿…{ëŒLè ı“Ğ §A4ÎW!$Â\Zˆ­P’ |  çw(”¶Œ³Y¹pX#›8¾ ]k5Ë g+aSfS@ ›®øš‘ ¥ »» #66 —,Î¸1 \'_uSàI&$8L$ §ñ7%Sô7müMk½ş;\'b_»”]º$\Z»˜Qg\\Do [«’¥ü 0‰bßüW~Ç /Š lãâ5Ã/Ü\0‹Sˆ—L•š9K5Ì\'» KáAV„¿Iµ’ÓÆŸq˜ 6Ãr=ÊØV í~ »<Ú ÒôÆ3ÍÜ¨ó ê 3a,$lYY cJ0ÁÖ ÒGÉÈ„aâ†YÅŒÊĞ Ïó ëŒİ\"ÂÄ Çô­óÍğ NÔ–|+”µí”OÉkÄÚ®\0ô ¢ “¯v¹5d Gª¹Ê2µr6÷`Ë‚–<c–š—Y® `\'Ît–q¹t\ZŒRk‹Ğu ¸ƒL  MZäN ¡zJ/\\] ãb S4Vóx	ºÂ KkÊY.(R	«:Ú  Ëjµz6ˆ.ïâ ®    B5¨Ï[]+×ì öAÕ/ ¤ ì  ­î £r°©‹×•\rÕ’gUgÄJZ Û WÔ…Veaz ¥  ôb•×\'ÕX4ƒhº‰0qi°íßWj¬R©²kšñ ÛeKX]_c»S¹ëjt®ñ¿V1 ƒIR­h ¤Jp U)mÈ ]ß«~vU  Aó}e?xÔVÆş÷Ï¿p_ĞĞ  g%ê ñ7„Ìs ïäÈ  l¶¶`:·  :cX‡2 i¿ w& )bÂ*§† *Â¦! Ü×y{_\0Ş ? ÿ²y)ë±k¢ó(¸N· uêzÜ Ò ÚF?æ8 5¾KX³vÃ¢ †\"I¹IÃ~à u½ƒŸ ¼ üƒ¿ 5X‘cx</XàùCï( |ß?  Œî¬ˆ€[à —‹ ‰àƒKãŒxè…Ÿ Pæ£ì «°PZ@[àÑê ªÛî Ü1;$‚g‡äyãÑ ? Ôª?Õ×îqç å\'\'ıÑÃö‚ ƒöÅAëü<iIPpc míc<|\'2¸ ®ãôª¨f§%§Üß6¿´Oñ\r0€ S EùöÃ—zc1ôÃïš©Êœ   ~.1 R{ =œ¯›š¬Ñ,ôFÍ™Hà  UıR½çY z½sz†Ä~n+˜6ş©¸ *)3Ø/i}z kQØ¶¬ÿ(³ë]³áVtÓ¼ #^?]Î”j§ˆO–ü#× Yoï´É¬:\r¨õ<üpLÈbØVÅ º…!tšïxYˆ[ ÿc Õ\"#\\éıô• GÓï²Ìg  ?¾Sû 2ûö  8×*¯Ş\n»ÃÓìÊ¦êD1j>7`)R¯¾‚Ë8UÕ øŠ{Ékiô@Y~wö_˜ìLƒg2\r¾?Ó`àïçúÔğa3ào1Ó î[µ Â¼i\\\Z\0, ®İ¡/²º½:=»½ø@¾ñşM Hj\r_n¸ i³ï ^ß?Aúôè4ÀÀ^µßÓ¯p 1ïk•‰xİrØ÷(ş Ó²‚¤EEÁ† ëŠÒ ªnçY… \r±åÌâ 6©Ê’Z€Yô‡OÜc ”L¸^¿á–ÿQ$»ä  ?1 ò«Ö  ì èO$¼Š *dıŞao°­Ò)m *U«J­å² ¬ÖÃ%(ˆM.é”hú”Ş#Bš«,¹à  ×x=ü ','20150723111624')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33417'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Report_a_bug&oldid=72727
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.29
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:33417-0!*!0!!*!*!* and timestamp 20150919172056
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:33417-0!*!0!!*!*!*','­VÛnÛF Í³¾bÍÇ\" /’|¡$ …s±Ûø‚ÚmĞ\'aEÄ…È]fwiY\r ô úı’Î”LÉ â ± [Ú¹ìÌœ™3{ úAè\\sm@_•¶(­ ö ág  C\'¿…{ëŒLè ı“Ğ §A4ÎW!$Â\Zˆ­P’ |  çw(”¶Œ³Y¹pX#›8¾ ]k5Ë g+aSfS@ ›®øš‘ ¥ »» #66 —,Î¸1 \'_uSàI&$8L$ §ñ7%Sô7müMk½ş;\'b_»”]º$\Z»˜Qg\\Do [«’¥ü 0‰bßüW~Ç /Š lãâ5Ã/Ü\0‹Sˆ—L•š9K5Ì\'» KáAV„¿Iµ’ÓÆŸq˜ 6Ãr=ÊØV í~ »<Ú ÒôÆ3ÍÜ¨ó ê 3a,$lYY cJ0ÁÖ ÒGÉÈ„aâ†YÅŒÊĞ Ïó ëŒİ\"ÂÄ Çô­óÍğ NÔ–|+”µí”OÉkÄÚ®\0ô ¢ “¯v¹5d Gª¹Ê2µr6÷`Ë‚–<c–š—Y® `\'Ît–q¹t\ZŒRk‹Ğu ¸ƒL  MZäN ¡zJ/\\] ãb S4Vóx	ºÂ KkÊY.(R	«:Ú  Ëjµz6ˆ.ïâ ®    B5¨Ï[]+×ì öAÕ/ ¤ ì  ­î £r°©‹×•\rÕ’gUgÄJZ Û WÔ…Veaz ¥  ôb•×\'ÕX4ƒhº‰0qi°íßWj¬R©²kšñ ÛeKX]_c»S¹ëjt®ñ¿V1 ƒIR­h ¤Jp U)mÈ ]ß«~vU  Aó}e?xÔVÆş÷Ï¿p_ĞĞ  g%ê ñ7„Ìs ïäÈ  l¶¶`:·  :cX‡2 i¿ w& )bÂ*§† *Â¦! Ü×y{_\0Ş ? ÿ²y)ë±k¢ó(¸N· uêzÜ Ò ÚF?æ8 5¾KX³vÃ¢ †\"I¹IÃ~à u½ƒŸ ¼ üƒ¿ 5X‘cx</XàùCïÄ?ñ oxÈèÎŠø ¸ >p¹(‘ > ¹4Îˆ‡^øù e>ÊN±\n ¥ ´  ­ ¢ºíşÀ ³C\"xvH7 ığ³@­úS}í wP~rÒ =l/h0h_ ´ÎÏ“–ä  ç9æĞÖ>ÆÃw\"ƒ à:N¯ŠjvZrÊımÓøÛHû ß\0 x1…Pä˜oÿ8|é¨7 C?ü®™ªÌ) Záç   µçĞÃùº©ÉÚ ÍBoÔØœ‰  QÕ/Õ{e ×;§gHìç¶‚iãŸŠ{¡’2ƒı’Ö§7± …mËú2»Ş5 nE 8Í{0 èõÓåL©vŠødÉ?r-‘õöN›ÌªÓ€ZÏÃ Ç„,†mUœ ¨[ B§ù—…¸õğ?æQ-2Â•ŞO_yp4ı.Ë| ºñã;µo! ¸oŸa€s­òê­°;<Í®lªN £æs –\"õê+¸ŒSU]¯¸—¼–F ”åwgÿ…ÉŞÉ4x&Óàû3\r ş~®O\r 6 ş 3mà¾UK Ì›Æ¥ À áèÚ ú\"«Û«Ó³Û‹ ä ïßÄ¤Öğå† ‘6û~àõ‘8‡G§  öªı~…#ˆy_«LÄë–Ã¾÷Dñ—˜– $-*\n6tXW”^Pu;Ï*thhŒ-g 7°IU–Ô Ì¢?|â Ë dÂõú\r·ü\"Ù%Ïàø‰ ‘_µ¶È`·@\"áUÜP!ë÷ {ƒm•NióP©ZUj-—\r`µ .AAlrI§DÓ§ô  Ò\\eÉ _ˆ¸Æëá','20150920172056')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33417'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Report_a_bug&oldid=72727
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.64.100
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33417'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Report_a_bug&oldid=72727
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,mo
+
+Start request GET /w/index.php?title=Report_a_bug&oldid=72727
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.135
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:33417-0!*!0!!*!*!* and timestamp 20151224173057
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:33417-0!*!0!!*!*!*','­VÛnÛF Í³¾bÍÇ\" o–/”Ä¢p.v ÇFí6è“°\"GâBä.³»´¬  ú	ıÆ~IgHJ¦d ¹ 6`K;—™3sf¯\"?ˆœk®\rè«Ê–•u¢ğ0úd¢aä ·po‘‰ü¡\Z9ã,ˆÇÅ*‚TX ‰ J²’/`âü ¥Ò–q6«  ke Çwâk­f9 l%lÆl h`³ _3r¢ôÏcw×aÌÆ¦ä’%97fâ «~ <Í… ‡‰tâ´ş¦äoŠş¦­¿ião ¾qbö¥KÙØ¥Kâ±‹ õÆeüJ±µªXÆï\0“(÷Íåwœñ²ÌÁ¶.^2üÂ\r°$ƒdÉT¥Ù˜³LÃ|â¸+± î9äeô›T+9mı ‡Yas,×£Œmeñî÷±ËãM!Í`<ÓÌ{  	1 ÆBÊ–µ…0¦ ó l  }Ô˜ŒL &n˜UÌ¨ mñ¼ °ŞØ-cL¼uLßzß oàÄ]É·BÙØNù”¼Æ¬ëê	@!:	ùê–[C>q¤š«<W+gs ¶,hÉsf©y™åz vâLg9—K§Å(³¶Œ\\7…;ÈU	Ú ¨Eî„ j ôÂÕu0.60Ec5O– kL°´¦š ‚\"•°j¢ı ±¬V«gƒèó>Şá:1 J! X‹ÚÅ¼ÓµrÍ>b ÔıBAJÀ É°ÑšÎ0ª\0›	¹xYÛP-y^wF¢¤å‰ıqE]hU•f°Pj‘Ã QEsRE;ˆ¦Ÿ\n“T Ûşm­Æj•:»¶  ú}Ö{ «ëklw*wSŞ5ş×* c0Iª M‚T)¢ª¤Ø‘ë{õÏ®ê $h¾¯ì ÚÊØÿşù îK\Z\Z!“¼B=#ş†ˆynà ûÃ€ÍÖ Lï Š2Gg ëP  ígôÎÅ\"CLXíÔĞ@¥PÚ,b{èõ^ß—€§wÄOÄ¿l^ÉfìÚè<\n®×ïÇ½¦ 7ˆ4…¶ÑO8ÎCƒï Ö¬[à¨¬…‘H3n²(  ıã¾wğÓw€ğ·¦ +\n  % <äø @­Ğ  3º³&şCÜ ï¸\\TH ï„\\\ZgÄ#/úô€2 egX……Ò º V QİvàÙ! <;\"Ï ~ôI Vó©¹v;G(?=\rG Û Z º  ó‹´#9FÁE9tµOğğÈá ¸N²«²œrİ6ş6Òâ;Ä\0¾šB(rÌ7<‰¾vÔ[‹¡ }×LÕæ”\0­ğ ‰	Úsèá|İ4díŒf‘7jmÎE\nÏˆ¨êïÕ[ç ×;§çHì ¶†iãŸŠ{©Ò*‡ı’6§7‰ ¥íÊÂG™]ïš\r·¢Kœæ= 	ôæér®T7E|²  ¸–Èz{§mfõi@­çá‡ B Ã¶*É	Ô- ‘Ó~ÇË\"Üzø ó¨  áJï§/<8Ú~—U1 İúñÆ·)ÜwÏ0À¹VEıVØ vW¶U\'ŠQó¹ K‘zÍ \\&™ª¯ÀWÜ×¼–F ”åwgÿ™ÉŞÉ4x&Óàû3E’ÚÏõ©áÃfÀ_c¦-Ü·j	„yÛ¸4\0X  ]»C_du{uv~{ù|ãı›8ÔZ¾Üp#Òfè ^èŸúCÏ£Ó\0 {Ñ}O¿À Ä¼¯U.’uÇaè=Qü%¡e i‡Š‚\r 6 ¥ TÓÎ³\Z \Z\Zc«™Å\rl2•§\0³ ‡OÜc ”L¹^¿â–ÿQ¦»ä œ<1 ò«×  ì èO$¼š jdıÁÑàp[¥3Ú<TªN•:Ëe X£‡KP ›¼§S¢é3z i®òô’/DÒàõğ?','20151225173057')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33417'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Report_a_bug&oldid=72727
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.163
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:33417-0!*!0!!*!*!* and timestamp 20160419014642
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:33417-0!*!0!!*!*!*','­VÛnã6 İg £Ç¢¶.¶³‰l«(²—¤İl‚&í¢O -%Â ©’T w  ŸĞoì—tF’ ÙÉb/Ø HlÎ…3sfÎğ*ôƒĞ¹æÚ€¾ªlYY\' Â& ‡Nq ÷Ö™˜Ğ û§¡3Í‚hZ¬CH„5 [¡$+y\n3ç7(•¶Œ³E•:¬•Í ß‰®µZäP°µ° ³  ÍÖ|ÃÈ‰Ò?Mİ}‡ ›š’K çÜ˜™S¬û ğ$   &’™Óú›“¿9ú›·şæ¿Áğ ±Ï]Ê¦.] M]Ì¨7-£WŠmTÅ2~ ˜Dyhş ¿ãŒ—e ¶uñ#Ã/Ü\0‹3ˆWLUšM9Ë4,g» +áC^†¿Jµ–óÖŸq˜ 6Çr=ÊØN íŸº<Ú Ò ¦ ÍÜ¨÷ š sa,$lU[ c*0Á6 ÒGÉÈ„aâ†YÅŒÊÑ Ï‹ ëMİ2ÂÄ[Çô­÷Õğ NÔ•|-”íœÏÉkÄº®\0ô\'¢ “¯n¹5ä3Gª¥Êsµv¶÷`Ë‚–<g–š—Y®S°3g¾È¹\\9-F™µeèº	ÜA®JĞf@-r\'ŒP ¥SW×Á¸ØÀ Õ<^®1ÁÒšjQ ŠTÂº‰ö{Ä²^¯Ÿ\r¢Ïûx‡ëD (…0`-j ËN×Ê\rû û î \nR vH†Öt†Q ØLÈôÇÚ†jÉóº3b%-í÷+jªUUšAªTšÃ VEsRE;ˆ¦Ÿ  W Ûşm­Æj•:»¶ ú}Ö{ ëëklw*wSŞ5ş×* c0Iª M‚T	¢ª¤\rÙ±ë{õÏ¾j\n 4?TöƒGmeìÿü ÷%\rq^¡ CÈ<7ğN_úã€-6 Lï Š2Gg ëP  í\'ôÎEš!&¬vjh  (m ²À y½×÷%àé ñ ñ/[V² »6:‚ëõûQ¯©Ç\r\"M¡mõcóĞà»‚\rë 8,ka(’Œ›,  GşË¾wôÃ‘w„ğ·¦ +\n  % <ÿØ ù§?:  Œî¬‰„[à —i…DğNÈ•q&<ôÂ (óQv†UH• Ğ x´:ˆêvû wÌ ‰àÙ1yŞzôÃ µšOÍµ Ü9Aùéépò°» Å {qĞ9¿H:’—(¸(0‡®ö	 ¾ 9Ü\0×qvUÖ³Ó‘Sî¯ÛÆßE:¤øF À S Eù OÂ/ õÖbì‡ß4Sµ9%@+üBb ¤ö z8_7\rY;“EèMZ›s‘À3\"ªú{õ–ç9èÍŞé9 û…­aÚú§â^ª¤Êá°¤ÍéM¬Ei»²á£ÌnöÍÆ;Ñ%Nó Œ zót9Wª›\">YŠ \\Kd½ƒÓ6³ú4 ÖóğÃ	!‹a[ ç ê †Ği¿ãe!n=üyÔ‹Œp¥÷Óg  m¿ËªX€nıøNã[È î»g àR«¢~+ì O»+Ûª Å¨åÒ€¥H½æ\n.ãLÕWà+îK^K“ Êò›³ÿÄdïe\Z<“iğí™ #ÿ0×§† Û ™¶pßª  æmãÒ\0`ptí }‘ÕíÕÙùíå;ò÷oã@RkùrËH›C?ğ†ş©?ö<:\r0° İ÷ô  AÌûZå\"Şt  ½\'Š?Ç´¬ éPQ°¥Ã¦¢ô‚jÚyQ£CCclµ°¸M¦ò¤ ` Ãñ ÷X % ®7¯¸å¿—É>y \'O ˆüêµE û ú 	¯æ†\ZYp< íªtF›‡JÕ©Rg¹l kôp	\nb“÷tJ4}Fï !ÍU\\òTÄ\r^ ÿ ','20160420014642')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33417'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Report_a_bug&oldid=72727
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.16
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33417'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Report_a_bug&oldid=72727
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.137
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33417'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Report_a_bug&oldid=72727
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.13
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:33417-0!*!0!!*!*!* and timestamp 20160621224712
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:33417-0!*!0!!*!*!*','­VÛnÛF Í³¾bÍÇ\" /’|¡$ …s±Ûø‚ÚmĞ\'aEÄ…È]fwiY\r ô úı’Î”LÉ â ± [Ú¹ìÌœ™3{ úAè\\sm@_•¶(­ ö ág  C\'¿…{ëŒLè ı“Ğ §A4ÎW!$Â\Zˆ­P’ |  çw(”¶Œ³Y¹pX#›8¾ ]k5Ë g+aSfS@ ›®øš‘ ¥ »» #66 —,Î¸1 \'_uSàI&$8L$ §ñ7%Sô7müMk½ş;\'b_»”]º$\Z»˜Qg\\Do [«’¥ü 0‰bßüW~Ç /Š lãâ5Ã/Ü\0‹Sˆ—L•š9K5Ì\'» KáAV„¿Iµ’ÓÆŸq˜ 6Ãr=ÊØV í~ »<Ú ÒôÆ3ÍÜ¨ó ê 3a,$lYY cJ0ÁÖ ÒGÉÈ„aâ†YÅŒÊĞ Ïó ëŒİ\"ÂÄ Çô­óÍğ NÔ–|+”µí”OÉkÄÚ®\0ô ¢ “¯v¹5d Gª¹Ê2µr6÷`Ë‚–<c–š—Y® `\'Ît–q¹t\ZŒRk‹Ğu ¸ƒL  MZäN ¡zJ/\\] ãb S4Vóx	ºÂ KkÊY.(R	«:Ú  Ëjµz6ˆ.ïâ ®    B5¨Ï[]+×ì öAÕ/ ¤ ì  ­î £r°©‹×•\rÕ’gUgÄJZ Û WÔ…Veaz ¥  ôb•×\'ÕX4ƒhº‰0qi°íßWj¬R©²kšñ ÛeKX]_c»S¹ëjt®ñ¿V1 ƒIR­h ¤Jp U)mÈ ]ß«~vU  Aó}e?xÔVÆş÷Ï¿p_ĞĞ  g%ê ñ7„Ìs ïäÈ  l¶¶`:·  :cX‡2 i¿ w& )bÂ*§† *Â¦! Ü×y{_\0Ş ? ÿ²y)ë±k¢ó(¸N· uêzÜ Ò ÚF?æ8 5¾KX³vÃ¢ †\"I¹IÃ~à u½ƒŸ ¼ üƒ¿ 5X‘cx</Xàù‡Şaà ÁàÈ  İY ÿ\0·À . % Á !—Æ ñĞ ?? ÌGÙ)Va¡´€¶À£ÕAT·İ ¸cvH Ï ÉóÆ£ ~ ¨Uª¯İãÎ ÊONú£‡í \r í‹ƒÖùyÒ’ ¡à<Ç ÚÚÇxøNdp \\ÇéUQÍNKN¹¿m\Z iŸâ `\0/¦ Š óí ‡/ õÆbè‡ß5S•9%@+ü\\b ¤ö z8_75Y;£Yè\Z›3‘À3\"ªú¥zÏ³ ôzçô ‰ıÜV0müSq/TRf°_Òúô&Ö¢°mYÿQf×»fÃ­è §y F ½~ºœ)ÕN Ÿ,ùG®%²ŞŞi“Yu\ZPëyøá˜Å°­Š3 u Cè4ßñ² · şÇ<ªEF¸Òûé+ ¦ße™Ï@7~|§ö-d ÷í3 p®U^½ v‡§Ù•MÕ‰bÔ|nÀR¤^} —qªª+ğ ÷’×Òè²üîì¿0Ù;™ Ïd\Z|¦ÁÀßÏõ©áÃfÀßb¦\rÜ·j	„yÓ¸4\0X  ]»C_du{uzv{ñ|ãı›8Ô\Z¾Üp#Òfß ¼¾â =N  ìUû=ı\nG ó¾V™ˆ×-‡}ï‰â/1-+HZT lè°®(½ êvUèĞĞ [Î,n`“ª,© ˜EøÄ=–AÉ„ëõ nù E²KÁñ  \"¿jm‘ÁnşDÂ«¸¡BÖï ö Û*Òæ¡RµªÔZ. Àj=\\‚‚Øä’N‰¦Oé=\"¤¹Ê’ ¾ q×Ãÿ','20160622224712')
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33417'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Report_a_bug&oldid=72727
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.135
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Report a bug]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33417'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

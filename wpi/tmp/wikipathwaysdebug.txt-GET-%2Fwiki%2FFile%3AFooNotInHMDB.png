@@ -1,0 +1,173 @@
+
+
+Start request GET /wiki/File:FooNotInHMDB.png
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:FooNotInHMDB.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:FooNotInHMDB.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.52
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/07/FooNotInHMDB.png/223px-FooNotInHMDB.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/07/FooNotInHMDB.png/223px-FooNotInHMDB.png does not exist.
+BitmapHandler::doTransform: creating 223x172 thumbnail at /tmp/transform_71e0c1542e76-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:FooNotInHMDB.png from process cache
+RepoGroup::findFile: got File:FooNotInHMDB.png from process cache
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:FooNotInHMDB.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:33262-0!*!*!*!*!*!* and timestamp 20150217033025
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:33262-0!*!*!*!*!*!*','uT]o⁄0 Ì3ø¬Õ„$:\'ÅRÃ4i£Ì@*  l{v„ªƒ\"±#€i°U•˝Ñ˝∆˝í˘ h t\0∫Á¯˙û„cœX ±`Œç 3´\\YπÄ≈ ˆlYó ≈ ÷. X _]±†ıÈº›&≠)<ŒÁ$óÖtƒ@©çkÕ˝Ø—	X´\ryêV: Di $—ïrå–è!≠?á‘   ~Léﬁ»⁄∫øøˇ¿∫‰J ©íºÚ4+ü\0[F¥ﬂ ª πﬂ8∞≠% eÓ{ n“™\0Â˛√ …4 ÎH›‘J≠àÄ“eHÏ–÷Õ∫ _}\0R÷ñê_ïJ ≤öJZÌˆÁ÷÷é \0 mœOxí yî.#+ÿ¯?+Yró=Úçee\r2)2n3 «—e‘¶Á ﬁæ e:Y¯˘xQíàÜ]\ZÖ=\Z«4Í ‹  #Ï¯ìπ„*≠x\nwR≠l0‡å≤Á èÖ  z Rm$4 ä«)] ˚3ç<ıVÊ¿nµûj7V£…ı◊ãR• ^‚ G≠Î ;óõı®Q ã “Û¿∏C6Ÿ>H nª\0nílV¢πM ≈›¨  ≈Û„	0ícÂ1¥ı=Â>õ ®œ+ ‹3:ÿ≠ I Ô@(h™øÒ< ≥9®éÄã±É¢— ÁûhQÂp<Ì∂∫Hå,] ãﬂ0∑9\\÷}Ö&˛& 9Ñ~nØ‚HÎ¶ƒæ ~r£§Jè™;e«>ﬂ Èv–RØ\0ÒùH4knt	∆ ƒ W-g√—rrá1^ É◊Ïrπœ†èg “®G˚›N‹Ø#Âcs÷|KŒ¸q	Xœu.ìM£aLOà_ | @ú$\"ÓûpΩ&≠ 7õkÓ¯˜R  2∫:YÄÅ™/;.8T˚ å≠CQøx·≈ÂEÁUÚ Ô+ÍnHn‹»∫\ZÌy˛Èê £)V1˙C≠ ó Œr1·©L∂Êø¸ ','20150218033025')
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:FooNotInHMDB.png from process cache
+RepoGroup::findFile: got File:FooNotInHMDB.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:FooNotInHMDB.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching; Sat, 14 Feb 2015 19:09:24 GMT **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33262'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:FooNotInHMDB.png
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Googlebot-Image/1.0
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:FooNotInHMDB.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:FooNotInHMDB.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/07/FooNotInHMDB.png/223px-FooNotInHMDB.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/07/FooNotInHMDB.png/223px-FooNotInHMDB.png does not exist.
+BitmapHandler::doTransform: creating 223x172 thumbnail at /tmp/transform_2c74b4c34937-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:FooNotInHMDB.png from process cache
+RepoGroup::findFile: got File:FooNotInHMDB.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:FooNotInHMDB.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:33262-0!*!*!*!*!*!* and timestamp 20160307160400
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:33262-0!*!*!*!*!*!*','uTÌn⁄0 Ìoû¬ÕœItN¬G1”§çv ©|H∞Ì∑ ﬂ% â ŸN ´*Ì ˆå{í˘ h t  tœÒÕ=««û≥0b¡Ç  f^π≤r ã;Ï…≤. ä l\\0¥,ææfAÎ√eªMZ3x\\,H. ÈàÅR ◊Z¯ß—	X´\ryêV: Di $—ïrå–˜!≠?«‘   ~Jé^…⁄∫øøˇ¿¶‰J ©íºÚ4+ ∂åË† v#røu`[+( ‹˜\"‹§U  ˝á7ñi ÷ë∫©ïZ  •Àêÿ°≠€M	æ˙\0§¨-!?+ï8d5ï¥⁄Ìè≠ù K˛\08⁄Åü$ Ú(]F÷∞ı÷≤‰.{‰[À \ZdRd‹f,é£^‘¶óÔ^ø e:Y¯˘xQíàÜ=\Z”æˇÌPJ•∏ a«ÔÃ Wi≈S∏ìjmÉ!gî=={,Ùÿ»€êj#°	P‹NÈr8Ïi‰©_d Ïã÷3Ì&j<Ω˘|U™ ¡ æ‚§u›aÔr≥ 5Í —@˙ ò ~»&€ ©¿◊.Åõ$õóhn Gq∑  FÒ¸t å‰Dy m}KπœÊ Í˝\nÜ˜å ˜k∆R¿  \nöÈØ<œ¡lè™c‡b‚†hÙ«πßZT9úNª´. #K◊ƒ‚WÃmèóu_†©?	\' °üª£8÷∫)q‡Å ‹(©“ìÍ^Ÿ©œ∑B∫=¥“k@|/ ÕZ ]ÇqG1¡U´˘hºöﬁa º ¡%<˚\\ 2Ë„ á4Í”A∑  ÍH˘ÿ\\4Ôí ø] 6 ùÀd€h ”3‚ß /  gâàªg\\ØI+¡ÕˆÜ;˛≠ «ÅåÆœ `†Í√é é’~ cÎP‘7^x’ªÍºH ·yE›\r…ç YW£ œ_  c4√*F§ï„RŸy.¶<ï…Œ¸Á','20160308160400')
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:FooNotInHMDB.png from process cache
+RepoGroup::findFile: got File:FooNotInHMDB.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:FooNotInHMDB.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33262'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:FooNotInHMDB.png
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Help:WikiPathways_Metabolomics
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:FooNotInHMDB.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:FooNotInHMDB.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 216.119.148.38
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/07/FooNotInHMDB.png/223px-FooNotInHMDB.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/07/FooNotInHMDB.png/223px-FooNotInHMDB.png does not exist.
+BitmapHandler::doTransform: creating 223x172 thumbnail at /tmp/transform_31ef9e8f5a1a-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:FooNotInHMDB.png from process cache
+RepoGroup::findFile: got File:FooNotInHMDB.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:FooNotInHMDB.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:33262-0!*!*!*!*!*!* and timestamp 20160514163251
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:33262-0!*!*!*!*!*!*','uT€n\Z1 Ã3_·Ïc%“Ω\0	¶™‘í§ Öã müùıÈÆ≈ÆmŸﬁ  EÍ\'Ù ˚%ıY Y Ö –ôÒÒôÒÿ3\Z≈4ò3c¡Ã*ß+ –§Cü-Ì“†\\¬⁄  Kì´+\Z¥>ù∑€§5Ö«˘ú ¢ é – ∏÷‹ˇ\ZïÇµ ê aÖ N§‚@RUIGI¯1\nÎœ!5 	Ü ì„7≤≤ÓÔÔ?∞÷Lr\"dZTûf≈ `À8Ï_F›ò‹o ÿ÷ J]¯^Ñô¨*A∫ˇF\"À¡:R7µBI¬Aª âù∞u≥÷‡´ @tm	˘U…‘!´©§’nnmÌX∞ ¿—ˆ¸î•9êG·r≤Ççˇ≥ öπ¸ëm,’5H œôÕiíƒΩ∏ ûx˚ îÈDÈÁc•&q ı¬n‘âzI‹ç näá u¸…‹1ôU,É;!W6 0\Z“Á èE  z 2e 4Å èS∏ ˆg\Z{Í≠(Äﬁ*5Un,GìÎØ Zf ˆpã£÷uáùÀÕz‹®èy πÙ¿∏ÙC6Ÿ>H%nª\0f“|¶—‹&é‚n÷ åd≈Ò  …±Ù ⁄˙ûrüÕ ‘Á  Ói8ÿ≠ 	 Ô@(h™æ±¢\0≥9®éÄÒ±É≤— Áû(^ p<Ì∂∫Hç–Æâ%oò€ .ÎæB  é B?∑Wq§TSbﬂ ?ôëBfG’ù≤cüo∏p;h©VÄ¯N$ö57JÉq 1¡UÀŸp¥ú‹a º ¡‡5<ª\\Ó3Ë„ôDa| ˆªù§_G «Ê¨˘ñú˘„‚∞û´B§õF√$<!~IÒQ\0~íà§{¬ıöî‰ÃlÆôcﬂ5? d|u≤\0 U_v\\p®ˆ  [á¢~Ò¢ãﬁEÁUÚ Ô+ÍnHn‹»∫\ZÔy˛È  £)V1˙C%  “Œ\n>aôH∑Êø¸ ','20160515163251')
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:FooNotInHMDB.png from process cache
+RepoGroup::findFile: got File:FooNotInHMDB.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:FooNotInHMDB.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33262'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

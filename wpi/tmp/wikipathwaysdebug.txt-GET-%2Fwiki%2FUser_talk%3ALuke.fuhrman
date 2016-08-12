@@ -1,0 +1,50 @@
+
+
+Start request GET /wiki/User_talk:Luke.fuhrman
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Luke.fuhrman]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Luke.fuhrman]] are {edit,move}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:33338-0!*!*!*!*!*!* and timestamp 20160810005538
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:33338-0!*!*!*!*!*!*','uTÌn⁄0 ÌÔ<ÖõüìËÚ mj¶I Î   $Ëˆ€ço ãƒélßÖUïˆ {∆=…| ¥!tA tœıÕ=ÁûÎ9\r#Í/ò6†Áµ≠jÎ”∏Oü\r Pø\\¡∆˙CC„$°æ˜Èº◊#ﬁ-<- § •∞DC•¥ı ÓW´ åQö<\n#,p\"  í™ZZJÇèa–<«© H–¨õ Ω%+cˇ˛˛ õäINÑLã⁄• Ò ∞d \\_ÖÉà‹o- o eU∏ZÑÈ¨.A⁄ˇ‰çEñÉ±§)jÑíÑCesLÏ ﬁÕ¶  } R5íêáZ¶ ≥⁄Lº^Ô≥∑ìc…  [;‰ß,ÕÅ<	õì5l›üµ®òÕüÿ÷–™ ©‡939ç›ìÙÇÛ o Ç4≠(]¨¨H ÑóAÇb  qB•8å∞Ô&3e2´Y S!◊∆ 2\Z–Á áÖ  9 2• ¥Å\0«)l áôFnÓwÿ≤e≈öNÎ5\\<‘π.ôDÙ ﬂ—©›îÿÀ‹éG≠¯Ñ∑ê+ LJ◊e;€9©¸&\nX ”i>ØP›6éÏn6 ¥dE∑ Ù‰D: u}è∫3Á öÅ˘√{\Z ˜g∆Ç√;  ∫UﬂYQÄﬁ E«¿¯ƒBŸ™è}œ Ø Ëvªã.S-*€∆‚7Ãnèè\r^°ô[ÖéB®Án «Jµ)^;‡\'”R»¨ ›3ÎÍ|√Ö›C+µ ƒ˜$Q¨ÖV h{‰ <µöè∆´Ÿ m‡¥áØÓŸ Û`BÁœ8 ›7	˚˝´∆SŒ6gÌÀ‰Ãçã√f°\nën[ „‡$ÒKä∑  GƒÉì\\«IIŒÙˆ+≥ÏÆ‚«Üåíì h®f€Ò¿1€ †McäÊ  /./˙ØîG∏∞»ªEπµíM4:‰πªC†çn1ä÷ )iôêf^ ÀD∫ ˇÂ ','20160811005538')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 9344
+User: loading options for user 9344 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Luke.fuhrman]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '33338'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

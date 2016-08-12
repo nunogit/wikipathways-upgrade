@@ -1,0 +1,65 @@
+
+
+Start request GET /wiki/File:Analysis.png
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/MediaWiki:PullPageList
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Analysis.png]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+RepoGroup::findFile: got File:Analysis.png from process cache
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 173.234.150.182
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/95/Analysis.png/30px-Analysis.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/9/95/Analysis.png/30px-Analysis.png does not exist.
+BitmapHandler::doTransform: creating 30x25 thumbnail at /tmp/transform_21826a9c5f85-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Analysis.png from process cache
+RepoGroup::findFile: got File:Analysis.png from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Analysis.png]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:14856-0!*!*!*!*!*!* and timestamp 20160513075230
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:14856-0!*!*!*!*!*!*','uTÑnÚ0 İ3_áæq “ \nfšT±n •‚ Ûİø.±HlËvZ²ªÒ>aß¸/™ B    A÷ ßÜsï¹^’0\"ÁŠj zYYUÙ€Ä òdHB‚r ; L ‰G# ô>^ôû¨w « *xÉ-Ò ¤¶½•{k™‚1R£ n¸ †„d€RY	K ş âæ9¦f @ÓSrôJ–Æşıı vŠ\n†¸H‹ÊÑ ÿ >e„ÇWa ¡ûÚ‚ém T…Ë…¨Îª „ı oÆ³ ŒEMRÃ¥@ ”Í=q€{7; .ú\0H5-A?+‘ZÏê*éõûŸzûv¬é øÒ ü”¦9 Gns´…ÚıÙrEmşHkCT  Îrjr  FÉ°/Ş¿ş—iyéê£¥B  ‡8	c|•D1Fş£~ áÀMæ–Š¬¢ Ür±5Á„ L  :lêÚIÍ¡ `?Nn 8Ì4¼\"Á ^\0¹ ´¨\r7—Jd  úô\'i›Óm‡»ñ¨ Ÿ³ â’—óÒ Øe; •ş“k :Í—Ê7¶‹{a7; ÚUtZ·ã\\8Ì·ô-ÕÎ—khf Lî	´gfœÁ  t\'¿Ò¢\0] Eg@ÙÜBÙÉïë^HV pZí>ºN5W¶‹Å¯˜­%/ĞÂmÁI‡|?÷k8“²+qì€ T .²“h«ì´Ï7ŒÛ ÚÈ-x¼ é›µÒR¶G ñ§6Ëél³¸õ6p½ &/Æi=yğŸ³&ÆQ˜` Ã±FÎ6ïº÷È;7. »•,xZw ÆøŒxú  Ø™#âäŒë4IÁ¨®?SK¿)vlÈhtvÀ ªYtàXíwĞ¦1EsÛ…—ÃËÁ‹ä©ßU¯»#¹³M4:ğÜµÁ½îÚ½*§RXÊ…Y lA3î›ÿü ','20160514075230')
+File::transform: Doing stat for mwstore://local-backend/local-thumb/9/95/Analysis.png/30px-Analysis.png
+BitmapHandler::doTransform: creating 30x25 thumbnail at /tmp/transform_70f61cca7a5f-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/archive/9/95//32px-Analysis.png
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/archive/9/95/32px-Analysis.png does not exist.
+BitmapHandler::doTransform: creating 32x25 thumbnail at /tmp/transform_45b6fa7e4912-1.png using scaler im
+BitmapHandler::doTransform: returning unscaled image
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Analysis.png from process cache
+RepoGroup::findFile: got File:Analysis.png from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Analysis.png]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '14856'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

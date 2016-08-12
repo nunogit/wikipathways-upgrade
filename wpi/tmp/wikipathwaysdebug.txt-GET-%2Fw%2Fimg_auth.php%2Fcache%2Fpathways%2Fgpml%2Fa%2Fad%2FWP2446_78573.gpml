@@ -1,0 +1,355 @@
+
+
+Start request GET /w/img_auth.php/cache/pathways/gpml/a/ad/WP2446_78573.gpml
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+File:WP2446 78573.gpml is not a pathway![img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/gpml/a/ad/WP2446_78573.gpml`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/gpml/a/ad/WP2446_78573.gpml
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+REFERER: http://vm1.wikipathways.org/w/index.php?title=Pathway:WP2446&printable=yes
+X-REQUESTED-WITH: XMLHttpRequest
+CONNECTION: Keep-alive
+ACCEPT: */*,application/xml, text/xml, */*; q=0.01
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+File:WP2446 78573.gpml is not a pathway![img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/gpml/a/ad/WP2446_78573.gpml`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/gpml/a/ad/WP2446_78573.gpml
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+REFERER: http://vm1.wikipathways.org/w/index.php?title=Pathway:WP2446&oldid=78573
+X-REQUESTED-WITH: XMLHttpRequest
+CONNECTION: Keep-alive
+ACCEPT: */*,application/xml, text/xml, */*; q=0.01
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+File:WP2446 78573.gpml is not a pathway![img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/gpml/a/ad/WP2446_78573.gpml`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/gpml/a/ad/WP2446_78573.gpml
+HTTP HEADERS:
+X-REQUESTED-WITH: XMLHttpRequest
+ACCEPT: application/xml, text/xml, */*; q=0.01
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP2446
+ACCEPT-LANGUAGE: de-CH
+ACCEPT-ENCODING: gzip, deflate
+USER-AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+HOST: vm1.wikipathways.org
+DNT: 1
+COOKIE: __utma=141536308.1502214597.1417175246.1417520066.1430823529.3; __utmz=141536308.1430823529.3.3.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmb=141536308.1.10.1430823529; __utmc=141536308; __utmt=1
+VIA: 1.1 bombur.unibe.ch (squid)
+X-FORWARDED-FOR: 130.92.152.58
+CACHE-CONTROL: max-age=259200
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[exception] [1f863ce0] /w/img_auth.php/cache/pathways/gpml/a/ad/WP2446_78573.gpml   Exception from line 109 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'File:WP2446 78573.gpml' is not a pathway!
+#0 /var/www/wikipathways/w/extensions/LocalHooks.php(337): Pathway::parseIdentifier(Object(Title))
+#1 [internal function]: LocalHooks::checkPathwayImgAuth(Object(Title), '/cache/pathways...', 'WP2446_78573.gp...', NULL)
+#2 /var/www/wikipathways/w/includes/Hooks.php(255): call_user_func_array('LocalHooks::che...', Array)
+#3 /var/www/wikipathways/w/includes/GlobalFunctions.php(3883): Hooks::run('ImgAuthBeforeSt...', Array)
+#4 /var/www/wikipathways/w/img_auth.php(120): wfRunHooks('ImgAuthBeforeSt...', Array)
+#5 /var/www/wikipathways/w/img_auth.php(55): wfImageAuthMain()
+#6 {main}
+
+
+Start request GET /w/img_auth.php/cache/pathways/gpml/a/ad/WP2446_78573.gpml
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP2446
+X-REQUESTED-WITH: XMLHttpRequest
+CONNECTION: Keep-alive
+ACCEPT: */*,application/xml, text/xml, */*; q=0.01
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/gpml/a/ad/WP2446_78573.gpml`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/gpml/a/ad/WP2446_78573.gpml
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+ACCEPT: application/xml, text/xml, */*; q=0.01
+X-REQUESTED-WITH: XMLHttpRequest
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP2446
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,nl;q=0.6
+COOKIE: __utmt=1; __utma=141536308.118519260.1431956165.1438246278.1439797262.16; __utmb=141536308.3.10.1439797262; __utmc=141536308; __utmz=141536308.1439797262.16.16.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/gpml/a/ad/WP2446_78573.gpml`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/gpml/a/ad/WP2446_78573.gpml
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP2446
+X-REQUESTED-WITH: XMLHttpRequest
+CONNECTION: Keep-alive
+ACCEPT: */*,application/xml, text/xml, */*; q=0.01
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/gpml/a/ad/WP2446_78573.gpml`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/gpml/a/ad/WP2446_78573.gpml
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/gpml/a/ad/WP2446_78573.gpml`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/gpml/a/ad/WP2446_78573.gpml
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP2446
+X-REQUESTED-WITH: XMLHttpRequest
+CONNECTION: Keep-alive
+ACCEPT: */*,application/xml, text/xml, */*; q=0.01
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/gpml/a/ad/WP2446_78573.gpml`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/gpml/a/ad/WP2446_78573.gpml
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP2446
+X-REQUESTED-WITH: XMLHttpRequest
+CONNECTION: Keep-alive
+ACCEPT: */*,application/xml, text/xml, */*; q=0.01
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/gpml/a/ad/WP2446_78573.gpml`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/gpml/a/ad/WP2446_78573.gpml
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP2446
+X-REQUESTED-WITH: XMLHttpRequest
+CONNECTION: Keep-alive
+ACCEPT: */*,application/xml, text/xml, */*; q=0.01
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/gpml/a/ad/WP2446_78573.gpml`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/gpml/a/ad/WP2446_78573.gpml
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/gpml/a/ad/WP2446_78573.gpml`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/gpml/a/ad/WP2446_78573.gpml
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/gpml/a/ad/WP2446_78573.gpml`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/gpml/a/ad/WP2446_78573.gpml
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+ACCEPT-LANGUAGE: en
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP2446
+X-REQUESTED-WITH: XMLHttpRequest
+CONNECTION: Keep-alive
+ACCEPT: */*,application/xml, text/xml, */*; q=0.01
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/gpml/a/ad/WP2446_78573.gpml`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/gpml/a/ad/WP2446_78573.gpml
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+ACCEPT-LANGUAGE: en
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP2446
+X-REQUESTED-WITH: XMLHttpRequest
+CONNECTION: Keep-alive
+ACCEPT: */*,application/xml, text/xml, */*; q=0.01
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/gpml/a/ad/WP2446_78573.gpml`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/gpml/a/ad/WP2446_78573.gpml
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/gpml/a/ad/WP2446_78573.gpml`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info

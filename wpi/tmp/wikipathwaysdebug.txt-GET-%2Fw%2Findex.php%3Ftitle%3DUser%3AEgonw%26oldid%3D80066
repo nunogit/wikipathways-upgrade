@@ -1,0 +1,496 @@
+
+
+Start request GET /w/index.php?title=User:Egonw&oldid=80066
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.79
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1862
+User: loading options for user 1862 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2015-05-22 04:37:17') AND (exptime < '20150522091905') AND keyname IN ('wikipathways:pcache:idhash:5057-0!*!0!!en!*!*','wikipathways:pcache:idoptions:5057','wikipathways:pcache:idhash:5364-0!*!0!*!*!*!*','wikipathways:pcache:idoptions:5364','wikipathways:pcache:idhash:34768-0!*!*!!*!*!*','wikipathways:pcache:idoptions:34768') 
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17354'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User:Egonw&oldid=80066
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-ENCODING: gzip
+ACCEPT-LANGUAGE: en-US
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.145
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ebadcf5ec7fbf8edc2dddbce5842fa94:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ef8935acf5e178aeb8ec3f18a1f5e05e:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ebadcf5ec7fbf8edc2dddbce5842fa94:0)
+Saved in parser cache with key wikipathways:pcache:idhash:17354-0!*!0!!en!*!* and timestamp 20150618053450
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:17354-0!*!0!!en!*!*','í ]oÛ8rŸó+X÷áv u¬oÛ²# qÓM€¤Í5éõŞ Z¢m\"’¨•ä$ŞEû	÷ ï—Ü %Ù’,Û±›‡îá\n4©†ä|sf8d?Ùªf·nhœ°øÓ<æiËÖ\rûÏÄ6íVpÇÓÖ ±{ª¢Ú­¡Ç I’.|vÒšø‚¦6‰ùt– ÈXÄ ‹íDøÜ#o{ ÎF½ D $ ñ”‡vöñÄ½tfkZ >ZÎÑ0¥cŸ  Ëƒcê>Lc1 =ûí¹òáÃ¹2È )ÙÂ xÕ¥Ä0‘ÈŒ!OÅW	 y{jÎõş€¤ V›ú|\ZÚ. S  ÈD„i;á0[g Ğ üıÑ°“z :«ID9îÃ< QÏãá ¨E  Ÿ‡¬]ĞW53Cu7ã	™ƒ‚ÉŒ&$12 ;CJbæŸ´B1 ¾/ZÄõi’œ´€7 ‡Ô—\\¶H\nr³ô¤u?öiøĞ\"³˜MNZ³4ìNGÄ.÷E<í´œOŸG—ï‡ \n¬{  Ÿp°Èp “Î+ĞJ*Ä øÓ†¿j»k\ZZ[ÑzVËi\0\"7ÃÎØÉ4	?büF‡ßàLK àŞI+ î’/ü·ƒV â:t»|FÊSŸÁĞLsF` 3 và£@7÷á‡ÏKx|öÈü¶JàŸ	ƒõ\"l«-ÔH&ÜÛëÅıWşÀoh:{¢‹ †’ˆ†% á< ³¸å¨Ã 8¤>AêÎ¹^2|r¦ Ÿ¿€+­ÆÕh S ØÌ‘¶“£ ÇşÜè5nvëGßÉMƒn6[L+sc”¹¹àI*Bv-<prW\n¸¯ã –Ëñ‘\n¾ i¬Â£Yæñ#\rE*¹+|1]lcn‡ «ˆöçÊ*sõO Š1 )w“ûk [ âu lãn‡QK É\náş\\v+ŞF}\Zsº-c‡¯e öç£Wæã3\r= ÜŸº.K¶ú—¹›  ÉğìÏS¿âWŒyàø1[Ú/e÷—Ëx¿•Mk‡§ j‚¨É\n5)¡^ç¼#÷îËâ‰ª”Å8 ‹y\n\"lfw‡…% `t#Sõ|s„)c <ÙÌãiÎ dï)dõ/™íó© !/æ#\'-µ!¢WW×X  óS K€–ÌVk‰…Ô ’%óÀš „ EÀZh©ó “;· s9õmLw1 ÏetêäìÊtxÒÚ6 ÅpËğ,ì¢²šÈ¡2îSê?ØU  \'%8¢ÅO©Ã ÊLıûéZ«åª½õ¼J•¤„¨¦ßÈ¹$4\0>b Ws  ş‚p,şX’‚çóPVfÁÊ÷ÇÀ ‚Ë6{G`3C- 5ßQƒæìÓĞ‹iEi9È‘¿PQKÈíÍéç¿_  ¨\" <G /H0wgÇd4cîCİ* Ìì2 Åö  „Ş%½µi¤2Í   F~Ÿ³˜3é Ç`µÈ ÕœB ‹:£¾¿xG.¡P}ÄÂ tÅrqÉ« ¬OOOÇ0\\ŸG	; Y\n…ëYñ-‹×‰ˆÉ”… m TİÂ˜1‹Dœ‚  P :úÕø	 ì9 •  êdyû$â 8ß<% ½«¨Ç³4ğQwPÄŸİ^‘Äy” `)XœW Jş¦ ”  ~ H& ìüÛÍõ ¹¢cæ æ3\\‘Àq(‘Ë/7§# Ò€%Rö§  ùÀR ˆ\"} 9İ  ’   ñ±+ P:¸Yp+ ’ëÑíåûÌ öİ¼z­´Û{óV ä†à 9g d\' ´  S.— :f.…  @&xÔCõ ËÍ\rn´ MßG4ccm¸Ÿ \nVÒˆ¼$¸¾9+äj²¿Şhºe- @\rìœÍÓ ì Ö  œ» ¨YN’º ´ÙÎúùB ‚$4â,L~Ù * úÍtû+µ  É6 Ê“Æ^Æ1×kãı¬R/ÑI °· L¥Û¤  KN °  ¥>)lA# ¥\"á[ ³‹b£  ,)f© ×ü§SØ @sŠhF§Ü%.ó}â1Xw0}Uo¤ àMôc6…Ô‹[6dn¼]øC¼ÂÚ|&ÙÏ;6 •H3ú½½Åè«MºC°ó ”&&,¤î’‚[ Æƒm¥7F	 ;#á»uxÈ^“^ón\0°s›lá/Ò×¤g(ô\0ì\0‘  1÷Y³ˆŸišÎ  Šø‘ÁÖ˜ïE·Ñ vnçàO^³ ›IÊêr 1­™˜¶Ø*µšE³ĞE)œ(Ä&}^ƒdÁ<*{ UZÍ&D°s\n5 bú ĞÜGÂ,†DÎ\',¨ˆ Ï§DLò\ZK  6Ÿ\0’À†	°Ñ=Ø ï X§>À‡²#€K!vãça¥E·Ô¤Ø³b*º#$ÿ×Ş¡§¯öšôŒ`ç2 ¡ ÂqÜÄ Šï JR(Ğ“Eˆ‡ . D7 ¨ 8d/`1}å\0Ş[ë—ì§ZÓ†T P[5º$‚   YU9?Ÿb|ğz8¥ŒS Nôr÷7ÌFZ vF4 >{ İ—hÆtÌ= á  8ŸÓ~¯úû/é íYgílY‘]$÷¶[siŠ•iåóÅ¶é6š  Nåó¥øTCkªœ$Ø©~¿ eß0›P\"Ø©~¿¼Â7 ë; ;Õïïl\0aspÕÑÛÏ½V­DR ØÔXãÎg õ7µ‡ îØ ù _aÃò)ÔÄ,,k…;_á ŸÍ;ã¿èİ;ˆ¸ ğbÈ )ù òGğL.ª‹®„›w±pájAuÖM õ]’È† ¹ÌSP’­	J-›êª38—dsv÷ &1c/è	´a \r„Ç€;‰Dš· vN©[ühø¦İ&G ÙÓÍ\rñyÀÓ¼cs y$Š †_H% T†Õ¿ğ qá¬ µ½ªÈ?Õ¹y ¨6»g­f‹$ıÏ¿şÍ#ÌÈ<tı9ÌËîgn¿£)ı®jjd •frtÇ‚HFlĞÉ  0ùL½W›x Ş\0æ  /Ú NI Ş/k C9Â– @ ± —æd2 3 Ï T¿£v»ĞÉ-}ÌŠ‹|¾KA«Yïç- nº¢£aGrĞæŞŒ&3[íê¦ÑVŞüúFyó†…ğûWY{¤<\0şh  MQMÅR{Š©C H ¯ëUÃn W4œÎÁ«¯xø´ ÔVì?¿Á˜\nc#ĞÃT`   T¼î×z¶ÜœÉ=²v/o“ïy)L ä“€lë  ‘‚  0: ¯  RÚß\0±‚¾aÿÉm­  ¸²Îè€ÛF¿¯ ¾q[/\ræ8¸Ô‚‰£êr­ ã›»¡°FÓ\rµ/×(¸H“«€™¼/‚3´Ò ¬€ı héK Ü ¨+ †KÀ~ ì©+ œx ¨ª½ÕL<Ê!Î^×*ÍÔ%u]W@š °[\0Í  ÊŞ ¨÷J@5 \Z%– üÏÆ\nh 3{İ%Ğ*pv•  ë> šš®• ¢d\n1 e%‘™ ÍdÉÌpfšÓ{+PWNSûÊ’G™Ù fXú ŸÌM  XEÙÔ3Ê °ómégùæ-ü -[xCáv™ÏJY ÃÊ k¥Å—ŞË–wû†¥Èå]X} À&*o Ø(Á 8KŞ2\Z»³OQÖÎ[ãæ;ÏãğÒù-I\nğ­¿Ü@ €øz>¸û©E¾\0wÁæ¶z>ÉèÚ{÷º üš½©}\\°¬Û/H&r2* _ Éd‡1¯),Aö¸Í²~k0¶ÑQäš  Ü0„~ñQüF}ŸÅ‹\nô *„Ë X^áG£] oî³º©2è­ìê—ÇôÕ ¾ş) ™Ë¡kHU5÷@Ë^R] Q ±  _i òpZƒæ’eŞ© {¢wöĞe€ïâBµĞ:PÏ¿šİÒğ7 \"K¢\\eµ›Æ< çw«Ù25 è<ôØs   Mb d/m\Z£:B0UŠÉ$a©ÜpVF†îLÄ+.ª7 2 ‡`ª lyÙ× ”Ö ”v¨Pªa®I%YXİ7¢DÚwK´ÍLzƒDú¡ YİM Ul¤oH[—H¯I ™¶Õx­±& l/ı¸É	C¥ëš½ºt%vj·/(§q¸œ 9j   69¤y¨€}MY3_   ™ù  „øÕÜãn–°ÉA­ƒ·œÚ] ±ÆP¹ ¢Z‡‹\n©±è¦5Šf4ˆÖ=X´¶æe @”îwø#0\\iu5Kd6HÔ;X¢¾®¯ùã’¢ ‡‚õ  L ëïj 5Ëj5ÈÚ?TVM)Êı•¬ k[›[(~ÿğ  +Š®FSvXóP`IU  RÓºu!  °Ã’UÔXI{<Í‹–;ñÀ0æå –q7±€\Z3å¬Vİ}\Z]Ü]_Iâ–‰ Ê_÷õïüü÷ {ÿûÿ À{?\0şA_\0ÿE\0ÿ0o€ÈGÀÿ#¯€ÿ Ï€‹Ì Ü MÔ¢Œ–½TS1”¾Ş×eQ¤A&ü©ü_£~\n.1ÑŞàİ³,ø ‘¬ ”µ‰™¡™Wj é² d ) ¯1²VÀXV !ñÿ ù4œ  ¬¦’t>NA_ÉLø^6\0éT7×(B> ¡GãÅ{šÒ/‘WtË²ü‹íİÚ ìQÉş6.¨fêàÕFvÄ Bê±•ÕÂRq#lQ£ö*Š[6¡%T+æ?G ›3  Y÷+À¼My˜|ò½k|†”  ßş ','20150619053450')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1862
+User: loading options for user 1862 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17354'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User:Egonw&oldid=80066
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.139
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ebadcf5ec7fbf8edc2dddbce5842fa94:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ef8935acf5e178aeb8ec3f18a1f5e05e:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ebadcf5ec7fbf8edc2dddbce5842fa94:0)
+Saved in parser cache with key wikipathways:pcache:idhash:17354-0!*!0!!en!*!* and timestamp 20150729215816
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:17354-0!*!0!!en!*!*','í ]oÛ8rŸó+X÷áv u¬oÛ²# qÓM€¤Í5éõŞ Z¢m\"’¨•ä$ŞEû	÷ ï—Ü %Ù’,Û±›‡îá\n4©†ä|sf8d?Ùªf·nhœ°øÓ<æiËÖ\rûÏÄ6íVpÇÓÖ ±{ª¢Ú­¡Ç I’.|vÒšø‚¦6‰ùt– ÈXÄ ‹íDøÜ#o{ ÎF½ D $ ñ”‡vöñÄ½tfkZ >ZÎÑ0¥cŸ  Ëƒcê>Lc1 =ûí¹òáÃ¹2È )ÙÂ xÕ¥Ä0‘ÈŒ!OÅW	 y{jÎõş€¤ V›ú|\ZÚ. S  ÈD„i;á0[g Ğ üıÑ°“z :«ID9îÃ< QÏãá ¨E  Ÿ‡¬]ĞW53Cu7ã	™ƒ‚ÉŒ&$12 ;CJbæŸ´B1 ¾/ZÄõi’œ´€7 ‡Ô—\\¶H\nr³ô¤u?öiøĞ\"³˜MNZ³4ìNGÄ.÷E<í´œOŸG—ï‡ \n¬{  Ÿp°Èp “Î+ĞJ*Ä øÓ†¿j»k\ZZ[ÑzVËi\0\"7ÃÎØÉ4	?büF‡ßàLK àŞI+ î’/ü·ƒV â:t»|FÊSŸÁĞLsF` 3 và£@7÷á‡ÏKx|öÈü¶JàŸ	ƒõ\"l«-ÔH&ÜÛëÅıWşÀoh:{¢‹ †’ˆ†% á< ³¸å¨Ã 8¤>AêÎ¹^2|r¦ Ÿ¿€+­ÆÕh S ØÌ‘¶“£ ÇşÜè5nvëGßÉMƒn6[L+sc”¹¹àI*Bv-<prW\n¸¯ã –Ëñ‘\n¾ i¬Â£Yæñ#\rE*¹+|1]lcn‡ «ˆöçÊ*sõO Š1 )w“ûk [ âu lãn‡QK É\náş\\v+ŞF}\Zsº-c‡¯e öç£Wæã3\r= ÜŸº.K¶ú—¹›  ÉğìÏS¿âWŒyàø1[Ú/e÷—Ëx¿•Mk‡§ j‚¨É\n5)¡^ç¼#÷îËâ‰ª”Å8 ‹y\n\"lfw‡…% `t#Sõ|s„)c <ÙÌãiÎ dï)dõ/™íó© !/æ#\'-µ!¢WW×X  óS K€–ÌVk‰…Ô ’%óÀš „ EÀZh©ó “;· s9õmLw1 ÏetêäìÊtxÒÚ6 ÅpËğ,ì¢²šÈ¡2îSê?ØU  \'%8¢ÅO©Ã ÊLıûéZ«åª½õ¼J•¤„¨¦ßÈ¹$4\0>b Ws  ş‚p,şX’‚çóPVfÁÊ÷ÇÀ ‚Ë6{G`3C- 5ßQƒæìÓĞ‹iEi9È‘¿PQKÈíÍéç¿_  ¨\" <G /H0wgÇd4cîCİ* Ìì2 Åö  „Ş%½µi¤2Í   F~Ÿ³˜3é Ç`µÈ ÕœB ‹:£¾¿xG.¡P}ÄÂ tÅrqÉ« ¬OOOÇ0\\ŸG	; Y\n…ëYñ-‹×‰ˆÉ”… m TİÂ˜1‹Dœ‚  P :úÕø	 ì9 •  êdyû$â 8ß<% ½«¨Ç³4ğQwPÄŸİ^‘Äy” `)XœW Jş¦ ”  ~ H& ìüÛÍõ ¹¢cæ æ3\\‘Àq(‘Ë/7§# Ò€%Rö§  ùÀR ˆ\"} 9İ  ’   ñ±+ P:¸Yp+ ’ëÑíåûÌ öİ¼z­´Û{óV ä†à 9g d\' ´  S.— :f.…  @&xÔCõ ËÍ\rn´ MßG4ccm¸Ÿ \nVÒˆ¼$¸¾9+äj²¿Şhºe- @\rìœÍÓ ì Ö  œ» ¨YN’º ´ÙÎúùB ‚$4â,L~Ù * úÍtû+µ  É6 Ê“Æ^Æ1×kãı¬R/ÑI °· L¥Û¤  KN °  ¥>)lA# ¥\"á[ ³‹b£  ,)f© ×ü§SØ @sŠhF§Ü%.ó}â1Xw0}Uo¤ àMôc6…Ô‹[6dn¼]øC¼ÂÚ|&ÙÏ;6 •H3ú½½Åè«MºC°ó ”&&,¤î’‚[ Æƒm¥7F	 ;#á»uxÈ^“^ón\0°s›lá/Ò×¤g(ô\0ì\0‘  1÷Y³ˆŸišÎ  Šø‘ÁÖ˜ïE·Ñ vnçàO^³ ›IÊêr 1­™˜¶Ø*µšE³ĞE)œ(Ä&}^ƒdÁ<*{ UZÍ&D°s\n5 bú ĞÜGÂ,†DÎ\',¨ˆ Ï§DLò\ZK  6Ÿ\0’À†	°Ñ=Ø ï X§>À‡²#€K!vãça¥E·Ô¤Ø³b*º#$ÿ×Ş¡§¯öšôŒ`ç2 ¡ ÂqÜÄ Šï JR(Ğ“Eˆ‡ . D7 ¨ 8d/`1}å\0Ş[ë—ì§ZÓ†T P[5º$‚   YU9?Ÿb|ğz8¥ŒS Nôr÷7ÌFZ vF4 >{ İ—hÆtÌ= á  8ŸÓ~¯úû/é íYgílY‘]$÷¶[siŠ•iåóÅ¶é6š  Nåó¥øTCkªœ$Ø©~¿ eß0›P\"Ø©~¿¼Â7 ë; ;Õïïl\0aspÕÑÛÏ½V­DR ØÔXãÎg õ7µ‡ îØ ù _aÃò)ÔÄ,,k…;_á ŸÍ;ã¿èİ;ˆ¸ ğbÈ )ù òGğL.ª‹®„›w±pájAuÖM õ]’È† ¹ÌSP’­	J-›êª38—dsv÷ &1c/è	´a \r„Ç€;‰Dš· vN©[ühø¦İ&G ÙÓÍ\rñyÀÓ¼cs y$Š †_H% T†Õ¿ğ qá¬ µ½ªÈ?Õ¹y ¨6»g­f‹$ıÏ¿şÍ#ÌÈ<tı9ÌËîgn¿£)ı®jjd •frtÇ‚HFlĞÉ  0ùL½W›x Ş\0æ  /Ú NI Ş/k C9Â– @ ± —æd2 3 Ï T¿£v»ĞÉ-}ÌŠ‹|¾KA«Yïç- nº¢£aGrĞæŞŒ&3[íê¦ÑVŞüúFyó†…ğûWY{¤<\0şh  MQá|©õ5Õì© A¢x]¯\Zv+¸¢át ^}ÅÃ‡¤5 ¶bÿù\rÆT   ¦ »€8 âu¿Ö³åæLî‘µ{y›|ÏKaz Ÿ d[w€ˆ | €Ñ¡x%€Òş ˆ…| ô\rûOnk =À•uF Ü6ú}uğÛzi0ÇÁ¥ L U—k5 ßÜ\r…5šn¨}¹FÁEš\\ Ìä} œ¡õ”Ş` ìç@K_ ñä @]0\\ ös`O] áÄ‹@Uí­fâQ qöºVi¦.©ëº Ò¬€İ h®€Pöf@½W ª9Ğ(± å 4V@«˜Ùë.V³«¬€X÷!ĞÔt­¤ %Sˆ©(+‰Ì hö$Kf†3ÓœŞ[ºršÚW–<ÊÌ†0ÃÒ—ødnB Àú+Ê¦Q6€oK?Ë7oá¯hÙÂ \n·Ë|VÊb V¾X+-¾ô^¶¼Û7,E.ïÂêË\06Qy ÁF	>ÀYò–ÑØ}Š²vŞj 7ßy ‡—ÎoIR€oıå ª\0Ä×óÁİO-ò ¸ 6·ÕóIF×Ş»×]à×ìMíã‚eİ~A2‘“Q1ø¢H&;ŒyMa	²Çm–õ[ƒ±\"×\\\0á†!ô‹â7êû,^T  P!\\¦Àò\n?\ZíZxsŸÕM•AoeW¿<¦¯ÆğõOyÈ\\ ]Cªª¹ z\\ö’êBˆ²ˆ} øJã‡Ó\Z4—,óN İ ½³‡. |  ª…Özş\rÔì–†¿A Y å*«İ4æ¡8¿[Í–©y@ç¡ÇË0`h ‹ {iÓ Õ ‚©RL&	Kå†³2\n4tg\"^qQ½ • ù; S¥`ËË¾ ¡´ ¡´C…R\rsM*ÉÂê¾ %Ò¾[¢mfÒ $Ò •Èên’¨b#}ƒDÚºDzM\"È´­Æk5Ù`{éÇMNh *]×ìÕ¥+±S»}A9ÃåÄÈQ»@h °É!ÍC ìkÊšù\Zø\0ÉÌï° Ä¯æ w³„M j ¼åÔîšˆ5†Êİx Õ:\\THE7­Q4£A´îÁ¢õ´5÷,3\0¢t¿Ã áJ««Y\"³A¢ŞÁ õu}Í —| -8 ¬w¸`:XW{¨YV«AÖş¡²jJQî¯d-XÛÚÜBñû‡g XQt5š²Ãš‡ Kªr°šÖ­ Y0€ –¬¢ÆJêÜãi^´Ü‰ †ñ4/¿°Œ»‰ Ô˜)gµúëîÓèâîúJ ·L|Pşº¯äç¿?Øûßÿ?\0Şû ğ ú ø/ò ø‡y üC> ş y ü x \\d¾à®h¢ e´ì¥šŠ¡ôõ¾.‹\"\r2áOåÿ\ZõSp‰‰ö ïeÁ ˆd% ¬MÌ Í¼R{H—- £Háx‘µ Æ² € ‰ÿGÈ§á´\0a5•¤óq\núJfÂ÷² H§º¹F ò± =\Z/ŞÓ”~‰¼¢[–å_lïÖ `Jö·qA5Sÿ ¯6²#6 R­¬ –Š a‹\ZµWQÜ²	-¡Z1ïü9âØœù8Èº_ æmÊÃä“ï]ã3¤¬pøö_','20150730215816')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1862
+User: loading options for user 1862 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17354'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User:Egonw&oldid=80066
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.29
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ebadcf5ec7fbf8edc2dddbce5842fa94:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ef8935acf5e178aeb8ec3f18a1f5e05e:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ebadcf5ec7fbf8edc2dddbce5842fa94:0)
+Saved in parser cache with key wikipathways:pcache:idhash:17354-0!*!0!!en!*!* and timestamp 20150905181137
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:17354-0!*!0!!en!*!*','í ]oÛ8rŸó+X÷áv u¬OÈ€ÄM7 ’6×¤×{ h‰¶‰H¢V’“x  î\'Üo¼_r3”dK²lGn º‡+Ğ¤\Z’óÍ™áıd©šÕº¡QÌ¢O‹$\\$-K7¬?cË´Zş {NZÃØê«ŠjµF.$q²ôØIkê	šX$â³y2$  ¹,²báq—¼í8 ÷? 5|  ŸF3 XéÇ w“¹¥i}øhÙG£„N<–c, N¨ó0‹Ä\"p­·çÊ‡ çÊ0C¤¤ #üá–— ÃD\"s†<å_ Läíiw|® †$ ±ÚÔã³ÀrX°hH¦\"HÚ1ÿƒY:ó áïFÄ-ÑYO\"Êñ\0æ‘º. f@- 5x<`íœ¾z¬™)ª»9É  Læ4&Éœ‘ÑÄ Q 1ï¤ ˆ©ğ<ñÔ\"Gãø¤ ¼±( ä²E ›%\'­û‰Gƒ‡ ™GlzÒš\'Ihu:\"r¸{,¢Y§eú<¾|?êP`İ ¡ø”ƒEF“ˆt^V\\\"¦ÀŸ6üUÛ=ÓĞÚŠÖï¶ì\Z r3êLìT“ğ#Â htø\rÎ´r î´ á¬øÂÛhå ®C·Ëf$<ñ  Í5{ Æ\09ãQ >rt  ~x¼€ÇcÌk« ş 3X/‚¶ÚB¤Â½½^Şå ü†&ó\'ºŒa( iP@ ,ü	‹Z¶:êàˆMª ¤îìë%)âÉ&§\Zğø ¸Ò*\\  Åí i{9Êq4çF¯p³_?ú^njt³İbZ‘ £ÈÍ   °ûká‚“;RÀ]| ï±\\†”ğ½Hc% Í\" i  ñÌ á‰Ùr s{ŒXFÔœ«n‘«²@L¸H¸ ß_3Øz ¯c w{ŒZ@HÖ ›sÙ+y õhÄé.¶Œ=¾–bhÎG¿ÈÇg\Z¸Â¿?u  ïô/s77) ’âiÎÓ äWŒ¹àø [Ù/a÷—«x¿“Íî O Ô Q“5jR@½ÉyGîİ—Å U)Šq: ‹ DØÎî  K ÀèV¦ªùæ SÆÈ²˜Ë“Œ)ÈŞ3Èê_ 3[ç3 @^ÌFNZjMD/¯®°æ?Aæ§.–\0-™­6  © $+æ5  A‹€5×Rç	&wnCæpêY˜î\">YÈèÔÉØ•éğ¤µk Šá áiØEeÕ‘CeÜ\'Ô{°Ê$ N\npD‹ŸR‡ ”©ú›éZ«äªÆz^§JR@TÑoh_ ê   „«   oI8 ,NÀóy +3íû ` ÁE›½#°™¡–ƒšï¨FsÖiàF´¤´ dË_¨¨¿Åäöæôóß¯  T¡\0 È#‹–Ä_8óc23ç¡j• æ…V‘|û  BïŠŞÆ4Ršfƒ€1#¿/XÄ™ôƒc°ZhƒjN¡ŒEQÏ[¾#—P¨>ba ºb™¸äU\nÖ§§§cH ÇÃ˜  ,Âõ,ÿ–ÅëTDdÆ †6 ªNnÌˆ…\"JÀ\01¨‰@ ıjüøKö ‚J| u²¼} Ñ œoâŞSÔãyâ{¨;(âÏn¯HìD<L °ä/ÏK %ÿ?Ó Jr ¿@ $S vşíæúŠ\\Ñ	ó ó ®ˆá8”ÌÉå—›Ó1	¨Ïb)ûÓœƒ|`) Ä@‘¾œÎœùq  ƒèØ >( ÜÌ¿•\0Éõøöò}ê M7¯^)í\ZoŞr€Ü  CûŒì„‚VÂ|ÊåÊC\'Ì¡pÀ È z¨>µ¹ÁV¢éMD3¶Ö†Í„ÜR°’Zä ÁõíY!S“õõFÓ»İU\0¨€í³E²„ıÃÚà‚   5ÏHR‡Á‘6İY?_ _˜†œ ñ/»ÓC‰À î`­6¿$ÙVBYÒhd s³6nf•j‰NÊ€Æv0•^> ,9õÁ P”z$· \rE˜ˆ˜ïPÌ>Šµ @°¤˜¦:8^CòŸÍ`/\0ÍE\"Â9q‡8ÌóˆË`İÁôU½–>€·ÑØ R/nÙ€9Ñná ñŠîö3I3ïØvT\"õè {‹1Pët‡`û=(MLY@  \' Œ ÛJ¯  ¶ÇÂs ëğ€½&½úİ\0`û\Z7ÙÒ[&¯IÏPjé Ø \"s\Z.#î±z ?Ó$YÄ$ Ñ#ƒ­±hD·Ö ¶o àOn½ ëIÊêr 1­˜¶›Ø*íÖ‹ÖE ¥p¢ Ûôy\r’ù‹ ªì&ªìÖ› Áö)Ô\\<Œè @³‰„i 	íOXP 7ZÌˆ˜f5–< l? Ä¾  `£»°1ŞA±N=\Z‚ ¥G\0‡BìÆÏÃJ‹^¡IÑ°bÊ»#$ûWãĞ3PûuzF°} ƒP á¸Kn\" Åw %) èñ2ÀÃ — ¢›)Ô  ² °˜¼r\0ïoôKš©§Ò´!%d ÔVµ.‰`ûƒÀDVVÎÏg   ¼ N)“„ƒ ½Üı\r³– ‚í1õ©ÇA÷ Z§ pW„ø  Îã4 ß«şÁKú@\rë¬½-+²dc»Õ—¦X™–>_l›^­i\0j—>_ŠO5´ºÊI‚íò÷‹Q  ³ %‚íò÷Ë+|³¶¾C°]şşÎ  6 × ½fîµn%’ Å¶Æ\Z·?3¨¿ñ¬=êpÛ\"È ù\n –Ï &fAQ+Üş\n‡øtŞ ÿmLïŞAÄ…€ AîHÈ—€?‚gòdY^t%œ¬‹… × Ê³n\"¨ïâX6\\Èe–‚ât_hÙ”WÁ¹$³¿\'0 {AO \r m t< Üq(’¬=°wJÕâG£7í69úÈnnˆÇ}d ›#È#a$0üB*yä 2¬ş…Ëˆ gu¼¨íwTEş)ÏÍº@•Ùıîz¶ˆ“ÿüëßì9ÄŒÌ Ç[À¼ô~Öè\r:š2è©¦F&PiÆGwÌ eÄ ,° “ÍÔû•‰ à\r` \"ñ¢à” âı²Ö1”#lù\0ô û xiN¦‹ uğŒA ù;j·sÜÒÇ´¸Èæ; ´šö~ Ø’à¦Ë;\ZV( -îÎi<·Ôn\ZmåÍ¯o”7oX\0¿•µGÂ}àú!Ñ  N{Š©öUUï $Š×õªaµü+\ZÌ àÕW<xˆ[Cj)ÖŸß`L…±1èa&° ˆ *^÷k}KnÎø Y»—·É÷¼ ¦‡òI@ºu‡ˆHÁ    òW  )ìo€t‘œ¾aıÉ--§ ¸ÒÎè[Æ`  ¿qK/ f8¸Ô‚‰£êj­ ãÛ»¡°FÓ\ru ×(¸H“«€™¬/‚3´¾Ò ®ƒ ØÕW@<¹ PW   €ƒ ØW×@8ñ\"PUûë™x”Cœı^·0S—Ôu] iÖÀ^ 4×@({S Ş/\0Õ h X‚ò? \Zk`7ŸÙï­€İ gOY ±îC ©éZA!Jª SQÖ ™)ĞìK–Ì gª9½¿ õä4u ¬x”™\raFW_á“¹	\0 ¬)›zJÙ\0v¾­ü,Û¼¹¿¢esoÈİ.õY)‹at³ÅZañ¥û²å½ÑUäò ¬¾ôa  7 l ÿ œ%o œù§0mç­Çqógqxåü]I\nğm¾Ü@ €øz6¸ÿ©E¶\0wÁö¶z6ÉèY{İ9~ÍÚÖ>ÎYÖ­ $ 9  ƒ/Šd²Ã˜W – {Ü¦Y¿5œXè(rÍ  ® B¿ø(~£Ç¢e	z  Âe ,¯ñ£Ñ®…»ğXÕT)ôVvõ‹cúz _ÿ ‡ÌÕĞ5¤ªŠ{ Ç¥/©.„(Š8€¯4\nx0«@3ÉRïTĞ=Ñ;ûè2Àw~¡šk ¨gß@Íjiø  ‘%Q¦²ÊMc Š³»Õt™š t ¸ì¹  †¦‘ğÓ—6µQ !˜*Åt\Z³Dn¸nJ Î\\Dk.Ê7 2 ‡`ª luÙW#”V#”v¨PªanH%YXß7¢DÚwK´ËLzDú¡ u{Û$*ÙHß\"‘¶)‘^‘ 2m«öZcC6Ø^úq \Z‡J×3ûUé\nìTn_PNãp91rT. j ¬sHóP  š²a¾\Z>@2ó;, ñ«¾Ç]/aƒv ŞrjoCÄ\nCÅn<ŠÚ=\\THy7­V4£F´ŞÁ¢õµ\r÷,2\0¢ô¾Ã áR««^\"³F¢şÁ \rt}Ã W|ä-8 ¬¸`:X_{¨^Ön¬ƒCeÕ”¼Ü_Ëš³¶³¹…â  Ï °\"ïjÔe‡\r  –Tå`!5­W 2g\0;,iE•Ô¹Ë“¬h¹   ãiV~a w 	¨1 Î*õ×İ§ñÅİõ•$Ş5ñAùë¾şı‘Ÿÿş`ïÿÿ\0¸ñ à ô ğ_ä	ğ ó ø‡| ü?ò\nø/ğ 8Ï|ş]ŞDÍËhÙK5 C è ] E\ZdÂŸŠÿ5ê\'ÿ  í\rŞ=Ë‚  ÉJ@Ù˜˜\Zš¹…ö.[@FÂñ\Z#m Ld%\0  ÿGƒY Âj*N “ ô Ï…ç¦ Nusƒ\"äc ¸4Z¾§	ı ºy·,Í¿ØŞ­,À •ìoã‚r¦ş ^m¤Gl ¤ wÓZX*nŒ-jÔ^Iq«&´„jù¼óçcsæã0í~ù˜·) âO{ÏÒÂáÛ ','20150906181137')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1862
+User: loading options for user 1862 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17354'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User:Egonw&oldid=80066
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.9
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ebadcf5ec7fbf8edc2dddbce5842fa94:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ef8935acf5e178aeb8ec3f18a1f5e05e:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ebadcf5ec7fbf8edc2dddbce5842fa94:0)
+Saved in parser cache with key wikipathways:pcache:idhash:17354-0!*!0!!en!*!* and timestamp 20151011063035
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:17354-0!*!0!!en!*!*','í ]oÛ8rŸó+X÷áv u¬OÈ€ÄM7 ’6×¤×{ h‰¶‰H¢V’“x  î\'Üo¼_r3”dK²lGn º‡+Ğ¤\Z’óÍ™áıd©šÕº¡QÌ¢O‹$\\$-K7¬?cË´Zş {NZÃØê«ŠjµF.$q²ôØIkê	šX$â³y2$  ¹,²báq—¼í8 ÷? 5|  ŸF3 XéÇ w“¹¥i}øhÙG£„N<–c, N¨ó0‹Ä\"p­·çÊ‡ çÊ0C¤¤ #üá–— ÃD\"s†<å_ Läíiw|® †$ ±ÚÔã³ÀrX°hH¦\"HÚ1ÿƒY:ó áïFÄ-ÑYO\"Êñ\0æ‘º. f@- 5x<`íœ¾z¬™)ª»9É  Læ4&Éœ‘ÑÄ Q 1ï¤ ˆ©ğ<ñÔ\"Gãø¤ ¼±( ä²E ›%\'­û‰Gƒ‡ ™GlzÒš\'Ihu:\"r¸{,¢Y§eú<¾|?êP`İ ¡ø”ƒEF“ˆt^V\\\"¦ÀŸ6üUÛ=ÓĞÚŠÖï¶ì\Z r3êLìT“ğ#Â htø\rÎ´r î´ á¬øÂÛhå ®C·Ëf$<ñ  Í5{ Æ\09ãQ >rt  ~x¼€ÇcÌk« ş 3X/‚¶ÚB¤Â½½^Şå ü†&ó\'ºŒa( iP@ ,ü	‹Z¶:êàˆMª ¤îìë%)âÉ&§\Zğø ¸Ò*\\  Åí i{9Êq4çF¯p³_?ú^njt³İbZ‘ £ÈÍ   °ûká‚“;RÀ]| ï±\\†”ğ½Hc% Í\" i  ñÌ á‰Ùr s{ŒXFÔœ«n‘«²@L¸H¸ ß_3Øz ¯c w{ŒZ@HÖ ›sÙ+y õhÄé.¶Œ=¾–bhÎG¿ÈÇg\Z¸Â¿?u  ïô/s77) ’âiÎÓ äWŒ¹àø [Ù/a÷—«x¿“Íî O Ô Q“5jR@½ÉyGîİ—Å U)Šq: ‹ DØÎî  K ÀèV¦ªùæ SÆÈ²˜Ë“Œ)ÈŞ3Èê_ 3[ç3 @^ÌFNZjMD/¯®°æ?Aæ§.–\0-™­6  © $+æ5  A‹€5×Rç	&wnCæpêY˜î\">YÈèÔÉØ•éğ¤µk Šá áiØEeÕ‘CeÜ\'Ô{°Ê$ N\npD‹ŸR‡ ”©ú›éZ«äªÆz^§JR@TÑoh_ ê   „«   oI8 ,NÀóy +3íû ` ÁE›½#°™¡–ƒšï¨FsÖiàF´¤´ dË_¨¨¿Åäöæôóß¯  T¡\0 È#‹–Ä_8óc23ç¡j• æ…V‘|û  BïŠŞÆ4Ršfƒ€1#¿/XÄ™ôƒc°ZhƒjN¡ŒEQÏ[¾#—P¨>ba ºb™¸äU\nÖ§§§cH ÇÃ˜  ,Âõ,ÿ–ÅëTDdÆ †6 ªNnÌˆ…\"JÀ\01¨‰@ ıjüøKö ‚J| u²¼} Ñ œoâŞSÔãyâ{¨;(âÏn¯HìD<L °ä/ÏK %ÿ?Ó Jr ¿@ $S vşíæúŠ\\Ñ	ó ó ®ˆá8”ÌÉå—›Ó1	¨Ïb)ûÓœƒ|`) Ä@‘¾œÎœùq  ƒèØ >( ÜÌ¿•\0Éõøöò}ê M7¯^)í\ZoŞr€Ü  CûŒì„‚VÂ|ÊåÊC\'Ì¡pÀ È z¨>µ¹ÁV¢éMD3¶Ö†Í„ÜR°’Zä ÁõíY!S“õõFÓ»İU\0¨€í³E²„ıÃÚà‚   5ÏHR‡Á‘6İY?_ _˜†œ ñ/»ÓC‰À î`­6¿$ÙVBYÒhd s³6nf•j‰NÊ€Æv0•^> ,9õÁ P”z$· \rE˜ˆ˜ïPÌ>Šµ @°¤˜¦:8^CòŸÍ`/\0ÍE\"Â9q‡8ÌóˆË`İÁôU½–>€·ÑØ R/nÙ€9Ñná ñŠîö3I3ïØvT\"õè {‹1Pët‡`û=(MLY@  \' Œ ÛJ¯  ¶ÇÂs ëğ€½&½úİ\0`û\Z7ÙÒ[&¯IÏPjé Ø \"s\Z.#î±z ?Ó$YÄ$ Ñ#ƒ­±hD·Ö ¶o àOn½ ëIÊêr 1­˜¶›Ø*íÖ‹ÖE ¥p¢ Ûôy\r’ù‹ ªì&ªìÖ› Áö)Ô\\<Œè @³‰„i 	íOXP 7ZÌˆ˜f5–< l? Ä¾  `£»°1ŞA±N=\Z‚ ¥G\0‡BìÆÏÃJ‹^¡IÑ°bÊ»#$ûWãĞ3PûuzF°} ƒP á¸Kn\" Åw %) èñ2ÀÃ — ¢›)Ô  ² °˜¼r\0ïoôKš©§Ò´!%d ÔVµ.‰`ûƒÀDVVÎÏg   ¼ N)“„ƒ ½Üı\r³– ‚í1õ©ÇA÷ Z§ pW„ø  Îã4 ß«şÁKú@\rë¬½-+²dc»Õ—¦X™–>_l›^­i\0j—>_ŠO5´ºÊI‚íò÷‹Q  ³ %‚íò÷Ë+|³¶¾C°]şşÎ  6 × ½fîµn%’ Å¶Æ\Z·?3¨¿ñ¬=êpÛ\"È ù\n –Ï &fAQ+Üş\n‡øtŞ ÿmLïŞAÄ…€ AîHÈ—€?‚gòdY^t%œ¬‹… × Ê³n\"¨ïâX6\\Èe–‚ât_hÙ”WÁ¹$³¿\'0 {AO \r m t< Üq(’¬=°wJÕâG£7í69úÈnnˆÇ}d ›#È#a$0üB*yä 2¬ş…Ëˆ gu¼¨íwTEş)ÏÍº@•Ùıîz¶ˆ“ÿüëßì9ÄŒÌ Ç[À¼ô~Öè\r:š2è©¦F&PiÆGwÌ eÄ ,° “ÍÔû•‰ à\r` \"ñ¢à” âı²Ö1”#lù\0ô û xiN¦‹ uğŒA ù;j·sÜÒÇ´¸Èæ; ´šö~ Ø’à¦Ë;\ZV( -îÎi<·Ôn\ZmåÍ¯o”7oX\0¿•µGÂ}àú!Ñ ÕT UUºº¢› ‰âu½jX-ÿŠ ³ xõ   âÖZŠõç7 Sal z˜	ì â€Š×ıZß’›3¾GÖîåmò=/„é¡| nİ!\"Rğ\0F‡ü•\0B\nû  ]ä#§oXrKËé ®´3:ä–1 ¨ÃoÜÒ ƒ  .µ`â¨ºZ«Áøön(¬ÑtC È5\n.Òä*`&ë‹à ­¯ô‡kà  võ  Oî\0Ô  Ã à  öÕ5 N¼ TÕşz& å g¿×-ÌÔ%u]W@š5°— Í5 ÊŞ ¨÷ @5 \Z – üÏ€Æ\ZØÍgö{+`7ÇÙSÖ@¬û hjºVPˆ’*ÄT”µDf\n4û’%3Å™jNï¯A=9M (+ efC˜ º bnB À kÊ¦R6€o+?Ë6oî¯hÙÜ r·K}VÊb İl±VX|é¾lyo`t ¹¼ «/}ØDÅ\r  Åÿ\0gÉ[F#gş)LÛyëqÜ|çY ^9W’ |›/7P  ¾\rîj‘-À]°½­M2zVã^w_³¶µs–uë ÉDNFÅà‹\"™ì0æÕ…%È ·iÖo\r\' :Š\\s „k†Ğ/>Šß¨ç±hY‚^@…p™\0Ëküh´ká.<V5U\n½•]ıâ˜¾ Ã×?Å!s5t\r©ªâ èqéKª !Š\" `à+  Ì*ĞL²Ô; tOôÎ>º ğ_¨æZ êÙ7P³Z\Zş AdI”©¬rÓ˜…âìn5]¦f  .{.Â€¡i$üô¥MmTG ¦J1Æ,‘ ®›R 3 Ñš‹ò\r¨ Èß!˜* []öÕ ¥Õ ¥ *”j˜ RI Ö÷(‘öİ í2“^#‘~¨DİŞ6‰J6Ò·H¤mJ¤W$‚LÛª½ÖØ\r¶—~\\ç„Æ¡ÒõÌ~Uº ;•Û ”Ó8\\NŒ • „Z ë Ò<TÀ¦l˜¯† Ìü  Büªïq×KXç İƒ·œÚÛ ±ÂP± ¢v   RcŞM« Í¨ ­w°h}mÃ=‹ €(½ïğG`¸Ôêª—È¬‘¨°D ]ßğÇ  y   ë .˜ Öß× ª—µ[#ëàPY5%/÷×²æ¬íln¡øƒÃ3 ¬È»\ZuÙaÃC%U9XHMëU…Ì À KZQc%uîò$+ZîÄ Ãxš•_XÆİD jÌ„³Jıu÷i|qw}%‰wM|Pşº¯äç¿?Øûßÿ?\0nü\0ø } ü y üÃ¼ ş!  ÿ¼ ş < Î3Ÿ—7Qó2\Z{©Š© Ê@ è²(Ò  şTü¯Q?ù—˜hoğîY ü€HV ÊÆÄÔĞÌ-´‡tÙ 2ò × i+`\"+ Èø„<\ZÌr VSq²˜$ ¯x.<7 €tª›  ! ‹À¥Ñò=Mè—ĞÍ»eişÅöne ö¨d  ”3õ?ğj#=b !õ¸›ÖÂRqclQ£öŠŠ[7¡%TËç?‡ ›3 ‡i÷ËÇ¼My òÜk|†”  ßş ','20151012063035')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1862
+User: loading options for user 1862 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17354'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User:Egonw&oldid=80066
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.33
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1862
+User: loading options for user 1862 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17354'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User:Egonw&oldid=80066
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.154
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ebadcf5ec7fbf8edc2dddbce5842fa94:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ef8935acf5e178aeb8ec3f18a1f5e05e:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ebadcf5ec7fbf8edc2dddbce5842fa94:0)
+Saved in parser cache with key wikipathways:pcache:idhash:17354-0!*!0!!en!*!* and timestamp 20160303032850
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:17354-0!*!0!!en!*!*','í ]oÛ8rŸó+X÷áv u¬oÛ²# qÓM€¤Í5éõŞ Z¢m\"’¨•ä$ŞEû	÷ ï—Ü %Ù’,Û±›‡îáºØ¤\Z’óÍ™áıd«šİº¡qÂâOó4š§-[7ì? Û´[Á {N[ƒÄî©Šj·† $IºğÙIkâ šÚ$æÓY: c {,¶ ás¼í}8 õ> 5z €ÆS ÚÙÇ ÷Ò™­i=øh9GÃ”}V`, ©û0Å<ôì·çÊ‡ çÊ G¤d cüáU— ÃD\"3†< _%Läí©5:×û ’‚Xmêóih»,LY<   ¦í„ÿÁl @ƒğ÷GÃNêUè¬& å¸ óHD=‡S  \Z| ²vA_=ÖÌ ÕİŒ\'d \n&3štÆÈpì )‰™Ò\nÅDø¾xj ×§IrÒ ŞX R_rÙ\")ÈÍÒ“ÖıØ§áC‹Ìb69iÍÒ4²;  »Ü; ñ´Ór>} ]¾ v(°îP|ÂÁ\"ÃqL:¯@+© SàO şWÛ]ÓĞÚŠÖ³ZN  ¹ vÆN¦Iø ã 4:ü gZº\0÷NZ©p—|áß ´ò ×¡Ûå3Rú †fš3 c€œÉ°   º¹ ?|^Âã³Gæ·U M ¬ a[m¡F2áŞ^/î¿ò ~CÓÙ ]$0”D4,! çÁ˜Å-G vpÄ!õ	RwÎõ‚”ñä“3\røü \\i5®Fó˜âÀf´  8öçF¯q³[?úNn\Zt³ÙbZ™ £ÌÍ OR ²ûká“»RÀm| ï°\\Tğ½Hc  Í2 i(RñÌ]á‹éb s;ŒXE´?WV™«²PŒ¹H¹›Ü_3Øz ¯“` w;ŒZBHV ÷ç²[ñ6êÓ˜Óml ;|-Ã°? ½2 Ÿiè‰àşÔuY²Õ¿ÌíÜdxH†gú ¿bÌ ÇÙÒ~)»¿\\Æû­lZ;<\rP DMV¨I	õ:ç ¹w_ OT¥,ÆéXÌS a3»;,, \0£ ™ªç›#L ÃàÉf Os¦ {O!«ÌlŸOE y1 9i©\r ½ººÆZğ ™ŸzX ´d¶ZK,¤†,™ Öd  - ÖBK\'˜Ü¹˜Ë©ocº‹ùx.£S\'gW¦Ã“Ö¶9(†[†ga •ÕD •qŸRÿÁ®’@8)Á -~J –PfêßO×Z-Wí­çUª$%D5ıFÎ%¡ ğ C¸šC€ğ „cñÇ’ <Ÿ‡²2 V¾?   \\¶Ù; › j9¨ù\Z4gŸ†^L+JËAü…Šú[BnoN?ÿıŠ0@ 	à<²xA‚¹;;&£ s êV¹`~d—ù(¶¿  ô.é­M#•i  ˜0òûœÅœI?8 «E ¨æ ÊXÔ õıÅ;r	…ê# æ +–‹K^¥`}zz:†„áú<JØqÈR(\\ÏŠoY¼NDL¦,dhC ê ÆŒY$â  €š ÔÑ¯ÆO°`Ï ¨$€P\'ËÛ\' ?Àùæ)éè]E=¥ºƒ\"şìöŠ$nÌ£”\0KÁâ¼²Pòÿ3} ¤Àğ „@2á`çßn®¯È  3Ÿ0ŸáŠ CéŒ\\~¹9 ‘ ,‘²?Í8È –‚@  éëÈéÎXDp0ˆ] €ÒÁÍ‚[	\\n/ßgÎ°ïæÕk¥İŞ›·\Z 7 ÇÈ9c ;¡ •¨˜r¹ôĞ1s) °\02Á£ ª/Xnnp£¥hú>¢  kÃı„ÜP°’Fä%ÁõÍY!W“ıõFÓ-k \0j`çl.`ÿ°6¸àÜ EÍr’Ôep¤ÍvÖÏ \" $¡ gaòËöôP!Ğo¦Û_©-¨H¶‘P4ö2¹^ ïg•z‰Nª€½í`*İ&} Xr\Z€  (õIa \Z‰( 	ß¢˜]  -€`I1Kup¼†ä?Â^\0šóTD3:å.q™ï Áºƒé«z#}\0o¢ ³)¤^Ü²!sãíÂ â Öæ3É~Ş±é¨DšÑïí-F_mÒ ‚÷ 41a!u— Ü\"0 l+½1J Ø 	ß…¬ÃCöšôšw €kÜd ‘¾&=Ci¤ ` ˆÌh´ˆ¹ÏšEüLÓtPÄ ¶Æ|/ºvD°s; òš­ØLRV—ÛˆiÍÄ´íÄ T©Õ,š….JáD!6éó\Z$ æ	TÙû¨Òj6!‚S¨¹x Ó?€æ> f1$r>aAE¼x>%b’×Xò8°ù  6L€îÁÆx Å:õi >”  \\\n± ? +-º¥&Å SÑ !ùßö =}µ×¤g ;—	   {ä&fP|\'P’B,B<<py º™@ıÀ!{ ‹é+ ğŞZ¿d?õÔš6¤‚ì€ÚªÑ% ì| ˜ÈªÊùù  ãƒ×Ã)eœrp¢—»¿a6ÒB°3¢ õÙ3è¾Dë4¦cî‰ ? Àùœ†ô{ÕßI hÏ:kgËŠì\"¹·İšKS¬L+Ÿ/¶M·Ñ4\0u*Ÿ/Å§\ZZSå$ÁNõûÅ(û†Ù„ ÁNõûå ¾ÙXß!Ø©~g  ›ƒ«Ş~îµj%’ Å¦Æ\Zw>3¨¿ñ¬=ìpÇ&È ù\n –O¡&faY+Üù\n‡ølŞ ÿmDïŞAÄ…€ CîHÉ—?‚gòtQ]t%Ü¼‹… W ª³nb¨ï’D6\\Èe‚’lMPjÙTWÁ¹$›³»\'0‰ {AO \r m t< ÜI$Ò¼=°sJİâGÃ7í69úÈnnˆÏ æ ›#È#Q,0üB*yä 2¬ş…Çˆ gu¼¨íuTEş©ÎÍ»@µÙ=k5[$éşõoö aFæ¡ëÏa^v?ktû MéwUS#c¨4“£; D2bƒNæØ€Égê½ÚÄ ğ 0 ‘xÑFpJŠğ~Yë Ê ¶|\0úˆ} ¼4\'“y˜9xÎ ‚ü µÛ…NnécV\\äó]\nZÍz? lApÓ  \r;’ƒ6÷f4™ÙjW7¶òæ×7Ê›7,„ß¿ÊÚ#å ğGƒˆhŠj):ş§õL… Q¼®W\r» \\Ñp: ¯¾âáCÒ\ZP[±ÿü c*Œ@ S]@ Pñº_ëÙrs&÷ÈÚ½¼M¾ç¥0=O ²­;@D\n> ÀèP¼ @Hi ÄB>\nú†ı\'·µ‚ àÊ:£ n ı¾:øÆm½4˜ãàR &ªËµ\ZŒoî†Â\ZM7Ô¾\\£à\"M® fò¾ ÎĞzJo° ös ¥/xr  ®@ . û9°§®€pâE ªöV3ñ(‡8{]«4S—Ôu] iVÀn 4W@({3 Ş+ Õ h”X‚ò? \Z+ UÌìu—@«ÀÙUV@¬û hjºVRˆ’)ÄT”•Df 4{’%3Ã™iNï­@]9Mí+K efC˜aéK|27! `ı eSÏ( ÀÎ·¥Ÿå›·ğW´lá\r…Ûe>+e1 +_¬• _z/[Şí –\"—waõe\0›¨¼`£  à,yËhìÎ>EY;o5›ï<ÃKç·$)À·şr U\0âëùàî§ ù Ü ›Ûêù$£kïİë.ğkö¦öqÁ²n¿ ™ÈÉ¨ |Q$“ Æ¼¦° Ùã6Ëú­ÁØFG‘k.€pÃ úÅGñ õ} /*Ğ ¨ .S`y… v-¼¹Ïê¦Ê ·²«_ ÓWcøú§<d.‡®!UÕÜ =.{Iu!DYÄ> |¥qÈÃi\ršK–y§‚î‰ŞÙC— ¾‹ ÕBë@=ÿ jvKÃß ˆ,‰r•Õn\ZóPœß­fËÔ< óĞcÏe 04‰E½´iŒê ÁT)&“„¥rÃY  \Zº3 ¯¸¨Ş€Ê€ü ‚©R°åe_ƒPZƒPÚ¡B©†¹&•daußˆ iß-Ñ63é\r é‡Jdu7IT±‘¾A\"m]\"½& dÚVãµÆšl°½ôã&\'4 •®köêÒ•Ø©İ¾ œÆárbä¨] 4\nØäæ¡ ö5eÍ|\r|€dæwX âWs»YÂ& µ ŞrjwMÄ\ZCån<Šj .*¤Æ¢›Ö(šÑ Z÷`ÑzÚš{– \0QºßáÀp¥ÕÕ,‘Ù Qï`‰úº¾æK>Š  \nÖ;\\0 ¬¿«=Ô,«Õ kÿPY5¥(÷W² ¬mmn¡øıÃ3 ¬(º\ZMÙaÍC%U9XHMëÖ…, À KVQc%uîñ4/ZîÄ Ãxš—_XÆİÄ jÌ”³Zıu÷itqw}%‰[&>(İ×¿?òóß ìıïÿ \0ïı\0ø } ü y üÃ¼ ş!  ÿ¼ ş < .2_pW4Q‹2ZSTS1 Céë}] E\ZdÂŸÊÿ4ê§à  í\rŞ=Ë‚  ÉJ@Y›˜ šy¥ö.[@F‘Âñ\Z#k Œe%\0  ÿOÃi Âj*Içã ô•Ì„ïe Nus\"äc z4^¼§)ı yE·,Ë¿ØŞ­-À •ìoã‚j¦ş ^mdGl ¤ [Y-, 7Â 5j¯¤¸R ZBµbŞùsÄ±9óqu¿ ÌÛ”‡É\'ß»ÆgHYáğí¿','20160304032850')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1862
+User: loading options for user 1862 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17354'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User:Egonw&oldid=80066
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+Parser cache options found.
+ParserOutput cache found.
+Article::view: showing parser cache contents for current rev permalink
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1862
+User: loading options for user 1862 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17354'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=User:Egonw&oldid=80066
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.30
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ebadcf5ec7fbf8edc2dddbce5842fa94:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ef8935acf5e178aeb8ec3f18a1f5e05e:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:ebadcf5ec7fbf8edc2dddbce5842fa94:0)
+Saved in parser cache with key wikipathways:pcache:idhash:17354-0!*!0!!en!*!* and timestamp 20160525003051
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:17354-0!*!0!!en!*!*','í ]oÛ8rŸó+X÷áv u¬oÛ²# qÓM€¤Í5éõŞ Z¢m\"’¨•ä$ŞEû	÷ ï—Ü %Ù’,Û±›‡îá\n4©†ä|sf8d?Ùªf·nhœ°øÓ<æiËÖ\rûÏÄ6íVpÇÓÖ ±{ª¢Ú­¡Ç I’.|vÒšø‚¦6‰ùt– ÈXÄ ‹íDøÜ#o{ ÎF½ D $ ñ”‡vöñÄ½tfkZ >ZÎÑ0¥cŸ  Ëƒcê>Lc1 =ûí¹òáÃ¹2È )ÙÂ xÕ¥Ä0‘ÈŒ!OÅW	 y{jÎõş€¤ V›ú|\ZÚ. S  ÈD„i;á0[g Ğ üıÑ°“z :«ID9îÃ< QÏãá ¨E  Ÿ‡¬]ĞW53Cu7ã	™ƒ‚ÉŒ&$12 ;CJbæŸ´B1 ¾/ZÄõi’œ´€7 ‡Ô—\\¶H\nr³ô¤u?öiøĞ\"³˜MNZ³4ìNGÄ.÷E<í´œOŸG—ï‡ \n¬{  Ÿp°Èp “Î+ĞJ*Ä øÓ†¿j»k\ZZ[ÑzVËi\0\"7ÃÎØÉ4	?büF‡ßàLK àŞI+ î’/ü·ƒV â:t»|FÊSŸÁĞLsF` 3 và£@7÷á‡ÏKx|öÈü¶JàŸ	ƒõ\"l«-ÔH&ÜÛëÅıWşÀoh:{¢‹ †’ˆ†% á< ³¸å¨Ã 8¤>AêÎ¹^2|r¦ Ÿ¿€+­ÆÕh S ØÌ‘¶“£ ÇşÜè5nvëGßÉMƒn6[L+sc”¹¹àI*Bv-<prW\n¸¯ã –Ëñ‘\n¾ i¬Â£Yæñ#\rE*¹+|1]lcn‡ «ˆöçÊ*sõO Š1 )w“ûk [ âu lãn‡QK É\náş\\v+ŞF}\Zsº-c‡¯e öç£Wæã3\r= ÜŸº.K¶ú—¹›  ÉğìÏS¿âWŒyàø1[Ú/e÷—Ëx¿•Mk‡§ j‚¨É\n5)¡^ç¼#÷îËâ‰ª”Å8 ‹y\n\"lfw‡…% `t#Sõ|s„)c <ÙÌãiÎ dï)dõ/™íó© !/æ#\'-µ!¢WW×X  óS K€–ÌVk‰…Ô ’%óÀš „ EÀZh©ó “;· s9õmLw1 ÏetêäìÊtxÒÚ6 ÅpËğ,ì¢²šÈ¡2îSê?ØU  \'%8¢ÅO©Ã ÊLıûéZ«åª½õ¼J•¤„¨¦ßÈ¹$4\0>b Ws  ş‚p,şX’‚çóPVfÁÊ÷ÇÀ ‚Ë6{G`3C- 5ßQƒæìÓĞ‹iEi9È‘¿PQKÈíÍéç¿_  ¨\" <G /H0wgÇd4cîCİ* Ìì2 Åö  „Ş%½µi¤2Í   F~Ÿ³˜3é Ç`µÈ ÕœB ‹:£¾¿xG.¡P}ÄÂ tÅrqÉ« ¬OOOÇ0\\ŸG	; Y\n…ëYñ-‹×‰ˆÉ”… m TİÂ˜1‹Dœ‚  P :úÕø	 ì9 •  êdyû$â 8ß<% ½«¨Ç³4ğQwPÄŸİ^‘Äy” `)XœW Jş¦ ”  ~ H& ìüÛÍõ ¹¢cæ æ3\\‘Àq(‘Ë/7§# Ò€%Rö§  ùÀR ˆ\"} 9İ  ’   ñ±+ P:¸Yp+ ’ëÑíåûÌ öİ¼z­´Û{óV ä†à 9g d\' ´  S.— :f.…  @&xÔCõ ËÍ\rn´ MßG4ccm¸Ÿ \nVÒˆ¼$¸¾9+äj²¿Şhºe- @\rìœÍÓ ì Ö  œ» ¨YN’º ´ÙÎúùB ‚$4â,L~Ù * úÍtû+µ  É6 Ê“Æ^Æ1×kãı¬R/ÑI °· L¥Û¤  KN °  ¥>)lA# ¥\"á[ ³‹b£  ,)f© ×ü§SØ @sŠhF§Ü%.ó}â1Xw0}Uo¤ àMôc6…Ô‹[6dn¼]øC¼ÂÚ|&ÙÏ;6 •H3ú½½Åè«MºC°ó ”&&,¤î’‚[ Æƒm¥7F	 ;#á»uxÈ^“^ón\0°s›lá/Ò×¤g(ô\0ì\0‘  1÷Y³ˆŸišÎ  Šø‘ÁÖ˜ïE·Ñ vnçàO^³ ›IÊêr 1­™˜¶Ø*µšE³ĞE)œ(Ä&}^ƒdÁ<*{ UZÍ&D°s\n5 bú ĞÜGÂ,†DÎ\',¨ˆ Ï§DLò\ZK  6Ÿ\0’À†	°Ñ=Ø ï X§>À‡²#€K!vãça¥E·Ô¤Ø³b*º#$ÿ×Ş¡§¯öšôŒ`ç2 ¡ ÂqÜÄ Šï JR(Ğ“Eˆ‡ . D7 ¨ 8d/`1}å\0Ş[ë—ì§ZÓ†T P[5º$‚   YU9?Ÿb|ğz8¥ŒS Nôr÷7ÌFZ vF4 >{ İ—hÆtÌ= á  8ŸÓ~¯úû/é íYgílY‘]$÷¶[siŠ•iåóÅ¶é6š  Nåó¥øTCkªœ$Ø©~¿ eß0›P\"Ø©~¿¼Â7 ë; ;Õïïl\0aspÕÑÛÏ½V­DR ØÔXãÎg õ7µ‡ îØ ù _aÃò)ÔÄ,,k…;_á ŸÍ;ã¿èİ;ˆ¸ ğbÈ )ù òGğL.ª‹®„›w±pájAuÖM õ]’È† ¹ÌSP’­	J-›êª38—dsv÷ &1c/è	´a \r„Ç€;‰Dš· vN©[ühø¦İ&G ÙÓÍ\rñyÀÓ¼cs y$Š †_H% T†Õ¿ğ qá¬ µ½ªÈ?Õ¹y ¨6»g­f‹$ıÏ¿şÍ#ÌÈ<tı9ÌËîgn¿£)ı®jjd •frtÇ‚HFlĞÉ  0ùL½W›x Ş\0æ  /Ú NI Ş/k C9Â– @ ± —æd2 3 Ï T¿£v»ĞÉ-}ÌŠ‹|¾KA«Yïç- nº¢£aGrĞæŞŒ&3[íê¦ÑVŞüúFyó†…ğûWY{¤<\0şh  MQ-Å„ Ÿ¢+¦J(^×«†İ\n®h8ƒW_ñğ!i\r¨­Ø~ƒ1 ÆF ‡©À.  ¨xİ¯õl¹9“{dí^Ş&ßóR˜ È\' ÙÖ  \"   `t(^	 ¤´¿ b!  }Ãş“ÛZA peÑ ·~_ |ã¶^\ZÌqp©  GÕåZ\rÆ7wCa¦ j_®Qp‘&W 3y_ gh=¥7X û9ĞÒ—@<¹ PW  —€ı ØSW@8ñ\"PU{«™x”Cœ½®Uš©Kêº®€4+`·\0š+ ”½ Pï•€j 4J,AùŸ  Ğ*föºK Uàì*+ Ö} 45]+)DÉ  ®µ’ÈÌ€fO²df83Íé½ ¨+§©}eÉ£Ìl 3,}‰Oæ&  ¬¿¢lê e Øù¶ô³|ó şŠ–-¼¡p»Ìg¥,†aå‹µÒâKïeË»}ÃRäò.¬¾ ` •7 l”à œ%o İÙ§(kç­Æqóçqxéü–$ øÖ_n \n@|= ÜıÔ\"_€»`s[=Ÿdtí½{İ ~ÍŞÔ>.XÖí $ 9  ƒ/Šd²Ã˜× – {ÜfY¿5 Ûè(rÍ  n B¿ø(~£¾ÏâE z  Âe\n,¯ğ£Ñ®…7÷YİT ôVvõËcúj _ÿ”‡ÌåĞ5¤ªš{ Çe/©.„(‹Ø‡¯4 y8­AsÉ2ïTĞ=Ñ;{è2Àwq¡Zh ¨çß@Íniø  ‘%Q®²ÚMc Šó»Õl™š t zì¹  †&± ²—6Q !˜*Åd’°Tn8+£@Cw&â  Õ P ¿C0U\n¶¼ìk Jk J;T(Õ0×¤’,¬î Q\"í»%Úf&½A\"ıP‰¬î&‰*6Ò7H¤­K¤×$‚LÛj¼ÖX“\r¶—~Üä„Æ¡ÒuÍ^]º ;µÛ ”Ó8\\NŒ µ „F › Ò<TÀ¾¦¬™¯ Ìü  Büjîq7KØä ÖÁ[Ní®‰Xc¨ÜGQ­ÃE…ÔXtÓ\ZE3\ZDë ,ZO[sÏ2  J÷;ü  ®´ºš%2 $ê ,Q_××üqÉGÑ‚CÁz‡ ¦ƒõwµ‡šeµ\Zdí *«¦ åşJÖ‚µ­Í- ¿x†€ EW£);¬y(°¤*  ©iİº  ØaÉ*j¬¤Î=æEËx` Oóò Ë¸›X@™rV«¿î>.î®¯$qËÄ å¯ûú÷G~şûƒ½ÿıÿ à½ \0ÿ /€ÿ\"O€˜7À?ä#àÿ‘WÀgÀEæ îŠ&jQFkŠj*¦b(}½¯Ë¢HƒLøSù¿Fı \\b¢½Á»gYğ \"Y	(k 3C3¯Ô Òe È(R8^cd­€±¬  Câÿ òi8-@XM%é|œ‚¾’™ğ½l\0Ò©n®Q„|,BÆ‹÷4¥_\"¯è–eù Û»µ Ø£’ım\\PÍÔÿÀ«ìˆ\r„Ôc+«…¥âFØ¢Fí• WjBK¨VÌ;86g> ²îW€y›ò0ùä{×ø )+ ¾ı ','20160526003051')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1862
+User: loading options for user 1862 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User:Egonw]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '17354'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

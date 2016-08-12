@@ -1,0 +1,527 @@
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+ACCEPT: image/webp,*/*;q=0.8
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+REFERER: http://vm1.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,fr;q=0.6,zh-CN;q=0.4,zh;q=0.2
+COOKIE: __utma=141536308.795546891.1416096662.1430869278.1430883256.145; __utmc=141536308; __utmz=141536308.1430780886.140.16.utmcsr=developers.pathvisio.org|utmccn=(referral)|utmcmd=referral|utmcct=/ticket/1768
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[exception] [4e503b5c] /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg   Exception from line 109 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'File:WP1531 74057.svg' is not a pathway!
+#0 /var/www/wikipathways/w/extensions/LocalHooks.php(337): Pathway::parseIdentifier(Object(Title))
+#1 [internal function]: LocalHooks::checkPathwayImgAuth(Object(Title), '/cache/pathways...', 'WP1531_74057.sv...', NULL)
+#2 /var/www/wikipathways/w/includes/Hooks.php(255): call_user_func_array('LocalHooks::che...', Array)
+#3 /var/www/wikipathways/w/includes/GlobalFunctions.php(3883): Hooks::run('ImgAuthBeforeSt...', Array)
+#4 /var/www/wikipathways/w/img_auth.php(120): wfRunHooks('ImgAuthBeforeSt...', Array)
+#5 /var/www/wikipathways/w/img_auth.php(55): wfImageAuthMain()
+#6 {main}
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+ACCEPT: image/webp,*/*;q=0.8
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+REFERER: http://vm1.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,fr;q=0.6,zh-CN;q=0.4,zh;q=0.2
+COOKIE: __utma=141536308.795546891.1416096662.1430869278.1430883256.145; __utmc=141536308; __utmz=141536308.1430780886.140.16.utmcsr=developers.pathvisio.org|utmccn=(referral)|utmcmd=referral|utmcct=/ticket/1768
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[exception] [3bd5829d] /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg   Exception from line 109 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'File:WP1531 74057.svg' is not a pathway!
+#0 /var/www/wikipathways/w/extensions/LocalHooks.php(337): Pathway::parseIdentifier(Object(Title))
+#1 [internal function]: LocalHooks::checkPathwayImgAuth(Object(Title), '/cache/pathways...', 'WP1531_74057.sv...', NULL)
+#2 /var/www/wikipathways/w/includes/Hooks.php(255): call_user_func_array('LocalHooks::che...', Array)
+#3 /var/www/wikipathways/w/includes/GlobalFunctions.php(3883): Hooks::run('ImgAuthBeforeSt...', Array)
+#4 /var/www/wikipathways/w/img_auth.php(120): wfRunHooks('ImgAuthBeforeSt...', Array)
+#5 /var/www/wikipathways/w/img_auth.php(55): wfImageAuthMain()
+#6 {main}
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+ACCEPT: image/webp,*/*;q=0.8
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+REFERER: http://vm1.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,fr;q=0.6,zh-CN;q=0.4,zh;q=0.2
+COOKIE: __utma=141536308.795546891.1416096662.1430869278.1430883256.145; __utmc=141536308; __utmz=141536308.1430780886.140.16.utmcsr=developers.pathvisio.org|utmccn=(referral)|utmcmd=referral|utmcct=/ticket/1768
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[exception] [4dfafb1f] /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg   Exception from line 109 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'File:WP1531 74057.svg' is not a pathway!
+#0 /var/www/wikipathways/w/extensions/LocalHooks.php(337): Pathway::parseIdentifier(Object(Title))
+#1 [internal function]: LocalHooks::checkPathwayImgAuth(Object(Title), '/cache/pathways...', 'WP1531_74057.sv...', NULL)
+#2 /var/www/wikipathways/w/includes/Hooks.php(255): call_user_func_array('LocalHooks::che...', Array)
+#3 /var/www/wikipathways/w/includes/GlobalFunctions.php(3883): Hooks::run('ImgAuthBeforeSt...', Array)
+#4 /var/www/wikipathways/w/img_auth.php(120): wfRunHooks('ImgAuthBeforeSt...', Array)
+#5 /var/www/wikipathways/w/img_auth.php(55): wfImageAuthMain()
+#6 {main}
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+ACCEPT: image/webp,*/*;q=0.8
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+REFERER: http://vm1.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,fr;q=0.6,zh-CN;q=0.4,zh;q=0.2
+COOKIE: __utma=141536308.795546891.1416096662.1430869278.1430883256.145; __utmc=141536308; __utmz=141536308.1430780886.140.16.utmcsr=developers.pathvisio.org|utmccn=(referral)|utmcmd=referral|utmcct=/ticket/1768
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[exception] [49e82857] /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg   Exception from line 109 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'File:WP1531 74057.svg' is not a pathway!
+#0 /var/www/wikipathways/w/extensions/LocalHooks.php(337): Pathway::parseIdentifier(Object(Title))
+#1 [internal function]: LocalHooks::checkPathwayImgAuth(Object(Title), '/cache/pathways...', 'WP1531_74057.sv...', NULL)
+#2 /var/www/wikipathways/w/includes/Hooks.php(255): call_user_func_array('LocalHooks::che...', Array)
+#3 /var/www/wikipathways/w/includes/GlobalFunctions.php(3883): Hooks::run('ImgAuthBeforeSt...', Array)
+#4 /var/www/wikipathways/w/img_auth.php(120): wfRunHooks('ImgAuthBeforeSt...', Array)
+#5 /var/www/wikipathways/w/img_auth.php(55): wfImageAuthMain()
+#6 {main}
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+ACCEPT: image/webp,*/*;q=0.8
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+REFERER: http://vm1.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,fr;q=0.6,zh-CN;q=0.4,zh;q=0.2
+COOKIE: __utma=141536308.795546891.1416096662.1430869278.1430883256.145; __utmc=141536308; __utmz=141536308.1430780886.140.16.utmcsr=developers.pathvisio.org|utmccn=(referral)|utmcmd=referral|utmcct=/ticket/1768
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[exception] [6b12a504] /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg   Exception from line 109 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'File:WP1531 74057.svg' is not a pathway!
+#0 /var/www/wikipathways/w/extensions/LocalHooks.php(337): Pathway::parseIdentifier(Object(Title))
+#1 [internal function]: LocalHooks::checkPathwayImgAuth(Object(Title), '/cache/pathways...', 'WP1531_74057.sv...', NULL)
+#2 /var/www/wikipathways/w/includes/Hooks.php(255): call_user_func_array('LocalHooks::che...', Array)
+#3 /var/www/wikipathways/w/includes/GlobalFunctions.php(3883): Hooks::run('ImgAuthBeforeSt...', Array)
+#4 /var/www/wikipathways/w/img_auth.php(120): wfRunHooks('ImgAuthBeforeSt...', Array)
+#5 /var/www/wikipathways/w/img_auth.php(55): wfImageAuthMain()
+#6 {main}
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+ACCEPT: image/webp,*/*;q=0.8
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+REFERER: http://vm1.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,fr;q=0.6,zh-CN;q=0.4,zh;q=0.2
+COOKIE: __utma=141536308.795546891.1416096662.1430869278.1430883256.145; __utmc=141536308; __utmz=141536308.1430780886.140.16.utmcsr=developers.pathvisio.org|utmccn=(referral)|utmcmd=referral|utmcct=/ticket/1768
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[exception] [2e6d349f] /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg   Exception from line 109 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'File:WP1531 74057.svg' is not a pathway!
+#0 /var/www/wikipathways/w/extensions/LocalHooks.php(337): Pathway::parseIdentifier(Object(Title))
+#1 [internal function]: LocalHooks::checkPathwayImgAuth(Object(Title), '/cache/pathways...', 'WP1531_74057.sv...', NULL)
+#2 /var/www/wikipathways/w/includes/Hooks.php(255): call_user_func_array('LocalHooks::che...', Array)
+#3 /var/www/wikipathways/w/includes/GlobalFunctions.php(3883): Hooks::run('ImgAuthBeforeSt...', Array)
+#4 /var/www/wikipathways/w/img_auth.php(120): wfRunHooks('ImgAuthBeforeSt...', Array)
+#5 /var/www/wikipathways/w/img_auth.php(55): wfImageAuthMain()
+#6 {main}
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+ACCEPT: image/webp,*/*;q=0.8
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+REFERER: http://vm1.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,fr;q=0.6,zh-CN;q=0.4,zh;q=0.2
+COOKIE: __utma=141536308.795546891.1416096662.1430869278.1430883256.145; __utmc=141536308; __utmz=141536308.1430780886.140.16.utmcsr=developers.pathvisio.org|utmccn=(referral)|utmcmd=referral|utmcct=/ticket/1768
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[exception] [5ec21be2] /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg   Exception from line 109 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'File:WP1531 74057.svg' is not a pathway!
+#0 /var/www/wikipathways/w/extensions/LocalHooks.php(337): Pathway::parseIdentifier(Object(Title))
+#1 [internal function]: LocalHooks::checkPathwayImgAuth(Object(Title), '/cache/pathways...', 'WP1531_74057.sv...', NULL)
+#2 /var/www/wikipathways/w/includes/Hooks.php(255): call_user_func_array('LocalHooks::che...', Array)
+#3 /var/www/wikipathways/w/includes/GlobalFunctions.php(3883): Hooks::run('ImgAuthBeforeSt...', Array)
+#4 /var/www/wikipathways/w/img_auth.php(120): wfRunHooks('ImgAuthBeforeSt...', Array)
+#5 /var/www/wikipathways/w/img_auth.php(55): wfImageAuthMain()
+#6 {main}
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+ACCEPT: image/webp,*/*;q=0.8
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+REFERER: http://vm1.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,fr;q=0.6,zh-CN;q=0.4,zh;q=0.2
+COOKIE: __utma=141536308.795546891.1416096662.1430869278.1430883256.145; __utmc=141536308; __utmz=141536308.1430780886.140.16.utmcsr=developers.pathvisio.org|utmccn=(referral)|utmcmd=referral|utmcct=/ticket/1768
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[exception] [6060fb2a] /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg   Exception from line 109 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'File:WP1531 74057.svg' is not a pathway!
+#0 /var/www/wikipathways/w/extensions/LocalHooks.php(337): Pathway::parseIdentifier(Object(Title))
+#1 [internal function]: LocalHooks::checkPathwayImgAuth(Object(Title), '/cache/pathways...', 'WP1531_74057.sv...', NULL)
+#2 /var/www/wikipathways/w/includes/Hooks.php(255): call_user_func_array('LocalHooks::che...', Array)
+#3 /var/www/wikipathways/w/includes/GlobalFunctions.php(3883): Hooks::run('ImgAuthBeforeSt...', Array)
+#4 /var/www/wikipathways/w/img_auth.php(120): wfRunHooks('ImgAuthBeforeSt...', Array)
+#5 /var/www/wikipathways/w/img_auth.php(55): wfImageAuthMain()
+#6 {main}
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+ACCEPT: image/webp,*/*;q=0.8
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+REFERER: http://vm1.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,fr;q=0.6,zh-CN;q=0.4,zh;q=0.2
+COOKIE: __utma=141536308.795546891.1416096662.1430869278.1430883256.145; __utmc=141536308; __utmz=141536308.1430780886.140.16.utmcsr=developers.pathvisio.org|utmccn=(referral)|utmcmd=referral|utmcct=/ticket/1768
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[exception] [21b575e0] /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg   Exception from line 109 of /var/www/wikipathways/w/wpi/extensions/Pathways/Pathway.php: 'File:WP1531 74057.svg' is not a pathway!
+#0 /var/www/wikipathways/w/extensions/LocalHooks.php(337): Pathway::parseIdentifier(Object(Title))
+#1 [internal function]: LocalHooks::checkPathwayImgAuth(Object(Title), '/cache/pathways...', 'WP1531_74057.sv...', NULL)
+#2 /var/www/wikipathways/w/includes/Hooks.php(255): call_user_func_array('LocalHooks::che...', Array)
+#3 /var/www/wikipathways/w/includes/GlobalFunctions.php(3883): Hooks::run('ImgAuthBeforeSt...', Array)
+#4 /var/www/wikipathways/w/img_auth.php(120): wfRunHooks('ImgAuthBeforeSt...', Array)
+#5 /var/www/wikipathways/w/img_auth.php(55): wfImageAuthMain()
+#6 {main}
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/svg/3/36/WP1531_74057.svg`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+ACCEPT: image/webp,image/*,*/*;q=0.8
+USER-AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP1531
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utmt=1; __utma=141536308.1514553054.1447101426.1447105386.1447105452.3; __utmb=141536308.1.10.1447105452; __utmc=141536308; __utmz=141536308.1447105452.3.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/svg/3/36/WP1531_74057.svg`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+ACCEPT: image/png,image/*;q=0.8,*/*;q=0.5
+ACCEPT-LANGUAGE: en-US,en;q=0.5
+ACCEPT-ENCODING: gzip, deflate
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP1531
+COOKIE: __utma=141536308.860016919.1447257106.1447425426.1447432514.7; __utmz=141536308.1447432514.7.6.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmc=141536308; __utmb=141536308.4.10.1447432514
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/svg/3/36/WP1531_74057.svg`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/incl
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+REFERER: http://vm1.wikipathways.org/w/index.php?title=Special:BrowsePathways
+CONNECTION: Keep-alive
+ACCEPT: */*
+ACCEPT-ENCODING: gzip,deflate
+X-FORWARDED-FOR: 223.187.247.0
+USER-AGENT: Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko; googleweblight) Chrome/38.0.1025.166 Mobile Safari/535.19
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/svg/3/36/WP1531_74057.svg`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+ACCEPT: image/webp,image/*,*/*;q=0.8
+USER-AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP1531
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utmt=1; __utma=141536308.1346989237.1451076419.1452815163.1452815286.3; __utmb=141536308.1.10.1452815286; __utmc=141536308; __utmz=141536308.1452815286.3.3.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/svg/3/36/WP1531_74057.svg`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+IF-MODIFIED-SINCE: Fri, 25 Sep 2015 03:28:14 UTC
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/svg/3/36/WP1531_74057.svg`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/svg/3/36/WP1531_74057.svg`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+IF-MODIFIED-SINCE: Fri, 05 Feb 2016 10:35:11 UTC
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/svg/3/36/WP1531_74057.svg`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/svg/3/36/WP1531_74057.svg`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP1531
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/svg/3/36/WP1531_74057.svg`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+ACCEPT: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP1531
+ACCEPT-LANGUAGE: nl-NL,nl;q=0.8,zh-Hans-CN;q=0.5,zh-Hans;q=0.3
+USER-AGENT: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+ACCEPT-ENCODING: gzip, deflate
+HOST: vm1.wikipathways.org
+DNT: 1
+CONNECTION: Keep-Alive
+COOKIE: __utmc=141536308; __utma=141536308.1597680024.1466248922.1466248922.1466249120.2; __utmb=141536308.1.10.1466249120; __utmz=141536308.1466249120.2.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmt=1
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/svg/3/36/WP1531_74057.svg`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+ACCEPT: image/png, image/svg+xml, image/*;q=0.8, */*;q=0.5
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP1531
+ACCEPT-LANGUAGE: nl-NL,nl;q=0.8,zh-Hans-CN;q=0.5,zh-Hans;q=0.3
+USER-AGENT: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+ACCEPT-ENCODING: gzip, deflate
+HOST: vm1.wikipathways.org
+DNT: 1
+CONNECTION: Keep-Alive
+COOKIE: __utmc=141536308; __utma=141536308.1597680024.1466248922.1466248922.1466249120.2; __utmb=141536308.1.10.1466249120; __utmz=141536308.1466249120.2.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmt=1
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/svg/3/36/WP1531_74057.svg`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+
+
+Start request GET /w/img_auth.php/cache/pathways/svg/3/36/WP1531_74057.svg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+ACCEPT-ENCODING: gzip, deflate
+CONNECTION: keep-alive
+ACCEPT: */*
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Special:BrowsePathways
+DNT: 1
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/svg/3/36/WP1531_74057.svg`.
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info

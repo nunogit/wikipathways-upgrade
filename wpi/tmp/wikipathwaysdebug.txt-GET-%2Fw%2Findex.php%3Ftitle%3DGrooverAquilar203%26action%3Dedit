@@ -1,0 +1,33 @@
+
+
+Start request GET /w/index.php?title=GrooverAquilar203&action=edit
+HTTP HEADERS:
+USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.14) Gecko/2009082707 Firefox/3.0.14 (.NET CLR 3.5.30729)
+ACCEPT-LANGUAGE: *
+ACCEPT: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, */*
+HOST: vm1.wikipathways.org
+COOKIE: wikipathways_session=6ap5k4na6ubn8i7h8f278t2kk0
+CONNECTION: Close
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+[cookie] session_set_cookie_params: "0", "/", "", "", ""
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 45.35.105.146
+EditPage::edit: enter
+EditPage::importFormData: Not a posted form.
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+User::getBlockedStatus: checking...
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+EditPage::edit: User can't edit
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[GrooverAquilar203]] are {create}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **

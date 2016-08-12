@@ -1,0 +1,458 @@
+
+
+Start request GET /w/index.php?title=Portal:Plants&oldid=49120
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Plants]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.73.163
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Plants]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:0baf1c77577305b4859d5317d29f3bdb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:612edc91e08a476625816838e7016c41:1)
+Parser output marked as uncacheable.
+GETTING PATHWAY OF THE DAY for date: Thursday 30 July 2015
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2199]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2279]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2345]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2344]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1493]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP618]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP622]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2205]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2204]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2209]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2212]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2210]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2339]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2349]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2353]] are {edit,move}
+		Pathway in cache: 'WP622'
+	Did we have WP622 before?  1
+Fetching random pathway...
+		Trying: 'WP622'
+			1 attempt
+	Did we have WP622 before?  1
+Fetching random pathway...
+		Trying: 'WP2349'
+			2 attempt
+	Did we have WP2349 before?  1
+Fetching random pathway...
+		Trying: 'WP622'
+			3 attempt
+	Did we have WP622 before?  1
+Fetching random pathway...
+		Trying: 'WP2199'
+			4 attempt
+	Did we have WP2199 before?  1
+Fetching random pathway...
+		Trying: 'WP2205'
+			5 attempt
+	Did we have WP2205 before?  1
+Fetching random pathway...
+		Trying: 'WP2279'
+			6 attempt
+	Did we have WP2279 before?  1
+Fetching random pathway...
+		Trying: 'WP2199'
+			7 attempt
+	Did we have WP2199 before?  1
+Fetching random pathway...
+		Trying: 'WP2199'
+			8 attempt
+	Did we have WP2199 before?  1
+Fetching random pathway...
+		Trying: 'WP2345'
+			9 attempt
+	Did we have WP2345 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP2345','Portal:Plants/FeaturedPathwaysThursday 30 July 2015')
+END GETTING PATHWAY OF THE DAY for date: Thursday 30 July 2015
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/b/b3/WP2345_49120.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/b/b3/WP2345_49120.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/b3/WP2345_49120.gpml" "/tmp/WP2345_49120.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/b3/WP2345_49120.gpml" "/tmp/WP2345_49120.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/b/b3/WP2345_49120.svg:
+<BR>Status:255
+<BR>Message:[     0.020] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/b/b3/WP2345_49120.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/b3/WP2345_49120.gpml" "/tmp/WP2345_49120.svg" 2>&1<BR>[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:0baf1c77577305b4859d5317d29f3bdb:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Plants]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:Plants&oldid=49120
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: M
+
+Start request GET /w/index.php?title=Portal:Plants&oldid=49120
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Plants]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Plants]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:0baf1c77577305b4859d5317d29f3bdb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:612edc91e08a476625816838e7016c41:1)
+Parser output marked as uncacheable.
+GETTING PATHWAY OF THE DAY for date: Wednesday 30 December 2015
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2199]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2279]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2345]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2344]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1493]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP618]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP622]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2205]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2204]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2209]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2212]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2210]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2339]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2349]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2353]] are {edit,move}
+		Pathway in cache: 'WP2204'
+	Did we have WP2204 before?  1
+Fetching random pathway...
+		Trying: 'WP2204'
+			1 attempt
+	Did we have WP2204 before?  1
+Fetching random pathway...
+		Trying: 'WP2345'
+			2 attempt
+	Did we have WP2345 before?  1
+Fetching random pathway...
+		Trying: 'WP2210'
+			3 attempt
+	Did we have WP2210 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP2210','Portal:Plants/FeaturedPathwaysWednesday 30 December 2015')
+END GETTING PATHWAY OF THE DAY for date: Wednesday 30 December 2015
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/9/9c/WP2210_49120.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/9/9c/WP2210_49120.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/9/9c/WP2210_49120.gpml" "/tmp/WP2210_49120.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/9/9c/WP2210_49120.gpml" "/tmp/WP2210_49120.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/9/9c/WP2210_49120.svg:
+<BR>Status:255
+<BR>Message:[     0.015] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/9/9c/WP2210_49120.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/9/9c/WP2210_49120.gpml" "/tmp/WP2210_49120.svg" 2>&1<BR>[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:0baf1c77577305b4859d5317d29f3bdb:0)
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Plants]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:Plants&oldid=49120
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Plants]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.75.12
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Plants]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:0baf1c77577305b4859d5317d29f3bdb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:612edc91e08a476625816838e7016c41:1)
+Parser output marked as uncacheable.
+GETTING PATHWAY OF THE DAY for date: Tuesday 17 May 2016
+	A brand new day....refreshing pathway of the day
+	Searching for fresh pathway
+Fetching random pathway...
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2199]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2279]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2345]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2344]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP1493]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP618]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP622]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2205]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2204]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2209]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2212]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2210]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2339]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2349]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP2353]] are {edit,move}
+		Pathway in cache: 'WP2344'
+	Did we have WP2344 before?  1
+Fetching random pathway...
+		Trying: 'WP2209'
+			1 attempt
+	Did we have WP2209 before?  
+DatabaseBase::query: Writes done: INSERT  INTO `pathwayOfTheDay` (pathway,day) VALUES ('WP2209','Portal:Plants/FeaturedPathwaysTuesday 17 May 2016')
+END GETTING PATHWAY OF THE DAY for date: Tuesday 17 May 2016
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/b/b6/WP2209_49120.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/b/b6/WP2209_49120.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/b6/WP2209_49120.gpml" "/tmp/WP2209_49120.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/b6/WP2209_49120.gpml" "/tmp/WP2209_49120.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/b/b6/WP2209_49120.svg:
+<BR>Status:255
+<BR>Message:[     0.014] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/b/b6/WP2209_49120.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/b/b6/WP2209_49120.gpml" "/tmp/WP2209_49120.svg" 2>&1<BR>[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:0baf1c77577305b4859d5317d29f3bdb:0)
+[slow-parse] 5.19  Portal:Plants
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Plants]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /w/index.php?title=Portal:Plants&oldid=49120
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Plants]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.65.80
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Plants]] are {edit,move}
+Class SkinWikiPathways not found; skipped loading
+Use of Linker::makeKnownLinkObj was deprecated in MediaWiki 1.21. [Called from call_user_func_array in (internal function)]
+Use of wfMsgExt was deprecated in MediaWiki 1.21. [Called from LocalHooks::subtitleOverride in /var/www/wikipathways/w/extensions/LocalHooks.php at line 298]
+Use of wfMsgGetKey was deprecated in MediaWiki 1.21. [Called from wfMsgExt in /var/www/wikipathways/w/includes/GlobalFunctions.php at line 1704]
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:0baf1c77577305b4859d5317d29f3bdb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:fccdf86bd76db8993cabe6fa78be5c58:1)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:612edc91e08a476625816838e7016c41:1)
+Parser output marked as uncacheable.
+GETTING PATHWAY OF THE DAY for date: Monday 20 June 2016
+END GETTING PATHWAY OF THE DAY for date: Monday 20 June 2016
+updateCache called for filetype svg
+	->Updating cached file for svg
+updateCache called for filetype gpml
+	->Updating cached file for gpml
+Saving /var/www/wikipathways/w/images/cache/pathways/gpml/9/9c/WP2210_49120.gpml to svg in /var/www/wikipathways/w/images/cache/pathways/svg/9/9c/WP2210_49120.svg
+CONVERTER: java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/9/9c/WP2210_49120.gpml" "/tmp/WP2210_49120.svg" 2>&1
+wfJavaExec: '/var/www/wikipathways/w/bin/ulimit4-nomemory.sh' 30 102400 'java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/9/9c/WP2210_49120.gpml" "/tmp/WP2210_49120.svg" 2>&1'
+Unable to convert to /var/www/wikipathways/w/images/cache/pathways/svg/9/9c/WP2210_49120.svg:
+<BR>Status:255
+<BR>Message:[     0.015] Info:  Preferences file /var/www/.PathVisio/.PathVisio doesn't exist, using defaults
+Warn:  BioPAX converter not in classpath, BioPAX conversion not available today.
+Error: Unable to read inputfile: /var/www/wikipathways/w/images/cache/pathways/gpml/9/9c/WP2210_49120.gpml
+GPML Converter
+Usage:
+	java Converter <input filename> [<output filename>]
+
+Converts between GPML format and several other formats:
+	- GPML (.gpml/.xml) <-> GenMAPP (.mapp)
+	- GPML (.gpml/.xml) -> SVG (.svg)
+	- GPML (.gpml/.xml) -> PNG (.png)
+	- GPML (.gpml/.xml) -> TIFF (.tiff)
+	- GPML (.gpml/.xml) -> PDF (.pdf)
+The conversion direction is determined from the extension of the input file.
+Return codes:
+	 0: OK
+	-1: Parameter or file error
+	-2: Conversion error
+
+
+<BR>Command:java -Xmx512M -jar /var/www/wikipathways/w/wpi/bin/pathvisio_core.jar "/var/www/wikipathways/w/images/cache/pathways/gpml/9/9c/WP2210_49120.gpml" "/tmp/WP2210_49120.svg" 2>&1<BR>[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:0baf1c77577305b4859d5317d29f3bdb:0)
+[slow-parse] 5.25  Portal:Plants
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Portal:Plants]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: no caching **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '4680'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

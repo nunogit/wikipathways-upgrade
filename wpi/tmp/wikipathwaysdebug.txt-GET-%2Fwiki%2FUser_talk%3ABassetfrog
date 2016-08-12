@@ -1,0 +1,108 @@
+
+
+Start request GET /wiki/User_talk:Bassetfrog
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Bassetfrog]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.65.152
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Bassetfrog]] are {edit,move}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:15770-0!*!*!*!*!*!* and timestamp 20150407211206
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:15770-0!*!*!*!*!*!*','uT]oÚ0 İ3¿ÂÍã$:\'á£5Ó¤u © $èöìÆ·‰EbG¶Ó’U•ö ö ÷Kæ  \rĞ…‡ {oî9>öœ…   ÜX0óÊ•• XÜcO–õYP¬`ã‚‘eñÅ  : Ïº]Ò¹ÇÅ‚ä² (µq… €µÚ i¥ A” @ ])Ç ı Òæ9¤¦ ÀğcrôJÖÖııı 6%W‚H•ä•§Yù °eD/‡a?\"wµ ÛYAQæ¾ á&­\nPî?¼‰L3°4M­ÔŠ (]†Ä í\\mJğÕ  ec	¹¯TâÕVÒév?u¶v,ù àh{~Â“ È£t YCíÿ¬eÉ]öÈkËÊ dRdÜf,ì ‡´KÏŞ¿ş Êt²ğóñ¢$ \rû´G‡Q Ft@ğ£¸ aÏïÌ5WiÅS¸–jmƒ g”=={,ôØØÛj#¡\rPÜNérØïiä+·8²ãùš}áÖ‚»7:El€_8êÜ4Ø™Ü®G­úT´¡ ¦…Ÿ±Íö9*¾É –ÀM’ÍKô¶£¶« £x~< &rª<†®¾%ÜGs	Ív £;FG»5 )à\r  İèï<ÏÁÔ Õ	p1uP´úãÜ3-ª §İV—‰‘¥kcñ+æêÃeı hæ Â‘Cèçö$N´nK¼ôÀOn”TéQu§ìØç+!İ Zé5 ¾ ‰f-Œ.Á¸ƒ”àªÕ|<YÍ®1 Ş‹`ô’],÷ ôé¤ô2ŠÃ^?  M¢|lŞµ¯’w~» l :—Iİj Ó âç ï  \'‰ˆû\'\\¯I+ÁMı•;~[ŠÃ@F \' 0PÍYÇ ‡j€±M(š /< œ÷^$ñ¸¢î–äÖlªÑço ‰1ºÁ*F¬•ãRÙy.f<•ÉÖüç','20150408211206')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1335
+User: loading options for user 1335 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Bassetfrog]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching; Sat, 14 Feb 2015 19:09:24 GMT **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '15770'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/User_talk:Bassetfrog
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml
+
+Start request GET /wiki/User_talk:Bassetfrog
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/User:Bassetfrog
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Bassetfrog]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 216.189.157.21
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Bassetfrog]] are {edit,move}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:15770-0!*!*!*!*!*!* and timestamp 20160515233619
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:15770-0!*!*!*!*!*!*','uT]oÚ0 í3¿ÂÍã$º| (fš´±n •‚ İİø6±HìÈvZÒªÒ~Â~ã~É| ´ ºğ tÏñÍ=ÇÇÓ ¤Ş‚i z^Ù²² zôÙĞ˜zÅ\n6Ö  \Z]^R¯óé¼Û% x\\,H.\na‰†RiÛY¸·V	 £4y FXàD* $Q•´”ø  ¿y ©)HĞì˜ ¾‘•±ÿMÉ$\'B&yåhF< ¶ ıá ˆCrW[0  eîz ¦Óª\0iÿÃ›ˆ4 cIÓÔ %	‡ÒfHìù«M	®ú\0¤l,!÷•L,²ÚJ:İîçÎÖ%{\0 mÏOX’ y 6#k¨İŸµ(™Í YmhÙ€TğŒ™Œ ñ`àwıó o?‚2­(Ü|¬(Iè }?v£GQ?  ü(nFĞs;sÍdZ± ®…\\ oÄ¨OŸ_  8lìlH• Ğ |ÜNasØïiè*·8²eùš~eÆ€½×*E¬_8êÜ4Ø™Ü®‡­ú”· ¦…›±Ív9*¾‹ –Àt’ÍKô¶£¶« -Y~< &r* †®¾\'ÜEs	Ívy£;êvk&‚Ã; \nºQ?Xƒ® ª `|j¡hõÇ¹gŠW9 O»­. -JÛÆ¢7ÌÖ‡ËâWhæ Â‘Cèçö$N”jK :à ÓRÈô¨ºSvìó  v ­Ô\Z ß‰D³ Z• íAJpÕj>¬f×  ç…7zÍÎ.–û ºtúş0Œ‚^  ı&Q.6gí«äÌm ‡ÍBå\"©[\r#ÿ„ø%Á; øI\"¢ø„ë4)É™®¿1ËnK~ Èğòd  ª9ë¸àPíOĞ¦	Esá  ı‹Ş«ä1 WÔİ’Ü:M5ÜóÜÍ!0F7XÅè•´LH3ÏùŒ¥\"Ùšÿò ','20160516233619')
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+User: cache miss for user 1335
+User: loading options for user 1335 from database.
+SpecialPage::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+Title::getRestrictionTypes: applicable restrictions to [[User talk:Bassetfrog]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '15770'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

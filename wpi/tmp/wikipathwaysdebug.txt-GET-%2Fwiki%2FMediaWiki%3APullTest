@@ -1,0 +1,72 @@
+
+
+Start request GET /wiki/MediaWiki:PullTest
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Special:WhatLinksHere/WikiPathways
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[MediaWiki:PullTest]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 50.2.81.135
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:e136c3c79fef27312b7fa1f2dc55ecc9:0)
+ExifBitmapHandler::isMetadataValid: back-compat version
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0a/Anwesha.jpg/120px-Anwesha.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/0/0a/Anwesha.jpg/120px-Anwesha.jpg does not exist.
+BitmapHandler::doTransform: creating 120x166 thumbnail at /tmp/transform_1826d70e702b-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0a/Anwesha.jpg/120px-Anwesha.jpg
+BitmapHandler::doTransform: creating 120x166 thumbnail at /tmp/transform_5a872de412a7-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/0/0a/Anwesha.jpg/120px-Anwesha.jpg
+BitmapHandler::doTransform: creating 120x166 thumbnail at /tmp/transform_726a854c1aa5-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+ExifBitmapHandler::isMetadataValid: back-compat version
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6e/Anders.jpg/240px-Anders.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/6/6e/Anders.jpg/240px-Anders.jpg does not exist.
+BitmapHandler::doTransform: creating 240x240 thumbnail at /tmp/transform_7b4ffd622c98-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6e/Anders.jpg/240px-Anders.jpg
+BitmapHandler::doTransform: creating 240x240 thumbnail at /tmp/transform_34a1815c6f74-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+File::transform: Doing stat for mwstore://local-backend/local-thumb/6/6e/Anders.jpg/240px-Anders.jpg
+BitmapHandler::doTransform: creating 240x240 thumbnail at /tmp/transform_7b67e96718bd-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:e136c3c79fef27312b7fa1f2dc55ecc9:0)
+Saved in parser cache with key wikipathways:pcache:idhash:32954-0!*!0!*!*!2!* and timestamp 20160513092255
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:32954-0!*!0!*!*!2!*','•YënÛ¸ Þßy\nF? ¤ÖÝ¶’ Èf»MpêÆÛx7?\rZb-6’¨H”/§ p á<ãy’3¤.ÖÅNÔ Šµæ ~3  ‡CæÁÑtG™ã4#éCÎ“œ+Ža:?3Çr”hAv\\¹Ì ÓRMG¹ÊC÷*¤.ºÂ(HÉ÷ke´¥ÏttËbŽ=¾ü;S §<$×J)B r ¿¯FØ=»\Z ÅQš<Åœ²xùiCbÞà*å¨”» ÁÛ¬\r	Y fÍØ”¹w˜Ø6  ö—sÌƒ-Þ <¬ T#nOô6÷ 	 çÆóX óå Ó˜“ Ç ©M4 PSÁ=… 0(V¦ ê¶Ôm} á«Vpž2Î< vˆ«u«a÷¸ü L-ðºë~ q{¢ Ü`ŽW8# âƒØm ¡$!á4^÷s§ 7 è¸|€©?iìŸ¶T¢]C]ñ ;)yÉ!1Âýò&{&þò¯œd\"Ê]‹µ ’zè ç¾£0À‹Ï„Ë¸>rœrâ·M— ª@÷˜tˆ‘œú$¤q7#\Zr·# Àú¯ jÄ2IÙ*$Q‡Yb¨ÆÜ#Â  ¾’íRlß”®rÎRX!ê=gbÚmk ‡\Zz¨¡ç¾£0À‹9 ©G»±«¥nës _J7˜“ 	^¢Ý ïŠ ØùF¶8õ—3â 8¦YÔ¶S è€ºGÅ ì<æIÂD&. Ùw ÃÉrÁXØ™W­…*-Th¹oÂ ì/Ä’RÜ)ÖµÔm} àû‡’íé T¢ÝõéŠ ØyÂÜ N ªà®¥ž|ˆ)øU©/ç gÜ]ž¦ ª4Ü“Ð¯Ú|Lpú .¡N¦½Ôâ/ Q¥xÄƒ¶Æ¯:òDVÐ)nh·5i™h( qà€¾cœm—œ-=\n{½Ip0Ì¶ˆ3$ PKÁ=…¼mpF|Š…ºó e|…ÓÚR q{¢·¹K ž¨¿&‡êÛ–º­Ïwød 9·÷ßf ¶†Ìm| búLâÙÍ|Þ%«Änû{ åŒz)‹s85šÍ÷QÐ=& dä+á\"l]úJì¶¿ QÎCÜlŠÛR·õ9ˆï ë ‹H—±–» Á Ö\'–F¿CûÙe­ånGð6ks›87+– Vì äöe¿@  §ÐâyÙq \rÜ=  ·vÔD›÷m²?iHœ›xK²\0ü‘¬ ä…8Ë® \Zá5„ùŠFk„C~­´”²Ô  #@—8çÁÇ$HFêHÅ£–Ú–ú<¸V4]UP@è:\0 Í¶ 4r ¹å“4{Ï«ƒÎQ§ì‘MFM­Ò\'Ýlø$?Z>òÐ=;»:¿¸@gÐ Îç(¤ å(%¢ 9›ÃÿSæ‘,ƒ†qC3*š“˜ù É«ªƒ´‘¦ÊÿÚªk  ¸®u”Íƒ2Ëøÿþó_²Kpì#\Z{a j ý7q:ÒÕéX³t´Ús’-H”„¢íÃé: 7ü zw0G¸s Iš‰«¨O    MõìÓ.! Ý ”Èw ô==ya-S…sg  U8 ñ† ×*} { ¨ò\0=“= Ë—T)HÐ¡~€³À1ô©e^¨ç ÎÅ¿ çúù $¦Éi þá(AºªÙª¥ êT×- 	£â…F3 %ú‚ãu «ÿ…ÆÏ™r‰ Õùù\n˜ Ø-„aÍdSp\0TñÆ#vGõÐ£MœÆa7ÏÃp v b þŠ×r~Rg ?4ñR4v”êX¼¤Žf æå+uT€Ç  V\ZOD b ¶)ŒYŽÒ}ô  ædl\\ n7_j d˜Ó±€Àdÿ9F(L\rÁ¬C4N¶ ’Ç˜è‚Çp:g°œ€ªZ Ô ¥7PÌÌ„™éå YQ å¨©d„É6Ê—\0Æš> Ã4]Œ“ µ)Œ<òÚSðhÀ3)bVÇÄ\ZÛå¼û,€  ™Iésë  °±1 Ó “‡    ËžV±ì=OH È3¡\0Kß{T(| &u Ÿ~ (¦¤–ËÝ½® 4ã2pû4\0æÄ2ËÌî\\•åBOÒø ·\\I?1‹xÖ7ÎB:)§Ö»NÊ©k–]â½k àÓ©Ì ‘f\'oo‚ÆV§ÓÂx}  S‹‰ yï®T ¤Z—þ § §Ìqµžõ½ TlÍ  ×Ç •Î5 4umj‹¼ÕŽj£‡ 9  Kæ°jWÛ\Zæ.;M¹c-UŒÅ  ý¢\\¿‰Zî±v³\' Ôµr@Õ¨‰ ¶Ì ±&E¯%e’d\"Ö¡ì–d`\r»Ü%u»S¤´ ;´®leõoV<½!¿÷  ¸ Ý‹£SÊŠ]\n ¨yVËý_p7NË¢* ¥3 ‡ò#Á© <$eþŸ\"+å FQÜ«\Z åÝPuÕÖ&ÆØœÊ·wG1šøi\0‡±3Æl¯ øå‡µ%fÀÍÿÃ{Ùo¼çñó†)—¯} ß3eŽMýˆ)2Mã0œ¾¤ÌÜ­½Øæ,ˆØæyeïâª\nS¯åÁóiÇI\Zã°{ðˆ¿!ÜC KÅ‘wìT‚½ûHäYª\\®œªJDwP Ž@bQ¿²Ï8 IºoIï öï¹¬\r ¿XŽ óó°µþf-}ôRšð&f 0¾o ³jh ]J•%œ*þvrÇXsŠPr£\'œÆ°ƒ;ÒrfM áï\'Ÿò Z°g\"ðr’\"XPð ’òÖ .F- nï ³/bÙ  J “EÕ3´ |¬UÝÒM[)ËçoÍ?þü Ëå“,•û ¡¡ö áü‚P ¿›è0= äÑJtZÂ}­¬  ÏW \ZØ,`¡_\0à¿aõˆ!\0,öqº ÇÕß‰ßÞÁú¤7@dŸìÚÄ€vhþ= 3H ÖÚGû£YÇçV4^‹ö†h´VJyœ zÐ R‘s_ËÊ ÉŽ†ÆÙCèÏðšzÅJ½þ ','20160514092255')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[MediaWiki:PullTest]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '32954'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

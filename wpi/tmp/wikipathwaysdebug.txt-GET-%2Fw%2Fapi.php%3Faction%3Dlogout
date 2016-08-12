@@ -1,0 +1,27 @@
+
+
+Start request GET /w/api.php?action=logout
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/w/api.php?action=login&lgname=user&lgpassword=password
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+IP: 23.254.101.116
+[cookie] setcookie: "wikipathwaysUserID", "", "1463253652", "/", "", "", ""
+[cookie] setcookie: "wikipathwaysToken", "", "1463253652", "/", "", "", ""
+[cookie] setcookie: "wikipathwaysforceHTTPS", "", "1463253652", "/", "", "", ""
+[cookie] setcookie: "wikipathwaysLoggedOut", "20160515192052", "1463426452", "/", "", "", ""
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgAuth on call of $wgAuth::getCanonicalName from User::getCanonicalName
+DatabaseBase::query: Writes done: INSERT  INTO `logging` (log_id,log_type,log_action,log_timestamp,log_user,log_user_text,log_namespace,log_title,log_page,log_comment,log_params) VALUES (NULL,'userlogin','logout','20160515192052','0','23.254.101.116','2','23.254.101.116','0','23.254.101.116','')

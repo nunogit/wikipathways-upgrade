@@ -1,0 +1,251 @@
+
+
+Start request POST /w/index.php?title=Special:UserLogin&action=submitlogin&type=login&returnto=Pathway:WP522
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CONTENT-LENGTH: 97
+CACHE-CONTROL: max-age=0
+ORIGIN: http://vm1.wikipathways.org
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+CONTENT-TYPE: application/x-www-form-urlencoded
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://vm1.wikipathways.org/w/index.php?title=Special:UserLogin&returnto=Pathway%3AWP522
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: wikipathwaysUserID=9205; wikipathwaysUserName=Nuno; wikipathways_session=cc5lucaectlsp2v08cjkj123r1; __utma=141536308.1187901129.1425049019.1467963209.1468228367.130; __utmc=141536308; __utmz=141536308.1467891924.127.28.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+[cookie] session_set_cookie_params: "0", "/", "", "", ""
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Unstubbing $wgAuth on call of $wgAuth::validDomain from LoginForm::load
+IP: 137.120.195.133
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+User: cache miss for user 9205
+User: loading options for user 9205 from database.
+Use of wfGetIP was deprecated in MediaWiki 1.19. [Called from wfUserLoginLogError in /var/www/wikipathways/w/wpi/extensions/UserLoginLog/UserLoginLog.php at line 47]
+DatabaseBase::query: Writes done: INSERT  INTO `logging` (log_id,log_type,log_action,log_timestamp,log_user,log_user_text,log_namespace,log_title,log_page,log_comment,log_params) VALUES (NULL,'userlogin','error','20160712094846','1','137.120.195.133','2','137.120.195.133','0','Incorrect password entered.\nPlease try again.','137.120.195.133')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request POST /w/index.php?title=Special:UserLogin&action=submitlogin&type=login&returnto=Pathway:WP522
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CONTENT-LENGTH: 97
+CACHE-CONTROL: max-age=0
+ORIGIN: http://vm1.wikipathways.org
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+CONTENT-TYPE: application/x-www-form-urlencoded
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://vm1.wikipathways.org/w/index.php?title=Special:UserLogin&action=submitlogin&type=login&returnto=Pathway:WP522
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: wikipathwaysUserID=9205; wikipathwaysUserName=Nuno; wikipathways_session=cc5lucaectlsp2v08cjkj123r1; __utma=141536308.1187901129.1425049019.1467963209.1468228367.130; __utmc=141536308; __utmz=141536308.1467891924.127.28.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+[cookie] session_set_cookie_params: "0", "/", "", "", ""
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Unstubbing $wgAuth on call of $wgAuth::validDomain from LoginForm::load
+IP: 137.120.195.133
+Connected to database 0 at localhost
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2016-07-12 07:19:40') AND (exptime < '20160712094936') AND keyname IN ('wikipathways:pcache:idhash:15865-0!*!0!!en!*!*','wikipathways:pcache:idoptions:15865','wikipathways:pcache:idhash:23310-0!*!0!!en!*!*','wikipathways:pcache:idoptions:23310') 
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+User: cache miss for user 9205
+User: loading options for user 9205 from database.
+Use of wfGetIP was deprecated in MediaWiki 1.19. [Called from wfUserLoginLogError in /var/www/wikipathways/w/wpi/extensions/UserLoginLog/UserLoginLog.php at line 47]
+DatabaseBase::query: Writes done: INSERT  INTO `logging` (log_id,log_type,log_action,log_timestamp,log_user,log_user_text,log_namespace,log_title,log_page,log_comment,log_params) VALUES (NULL,'userlogin','error','20160712094936','1','137.120.195.133','2','137.120.195.133','0','Incorrect password entered.\nPlease try again.','137.120.195.133')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request POST /w/index.php?title=Special:UserLogin&action=submitlogin&type=login&returnto=Pathway:WP522
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CONTENT-LENGTH: 99
+CACHE-CONTROL: max-age=0
+ORIGIN: http://vm1.wikipathways.org
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+CONTENT-TYPE: application/x-www-form-urlencoded
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://vm1.wikipathways.org/w/index.php?title=Special:UserLogin&action=submitlogin&type=login&returnto=Pathway:WP522
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: wikipathwaysUserID=9205; wikipathwaysUserName=Nuno; wikipathways_session=cc5lucaectlsp2v08cjkj123r1; __utma=141536308.1187901129.1425049019.1467963209.1468228367.130; __utmc=141536308; __utmz=141536308.1467891924.127.28.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+[cookie] session_set_cookie_params: "0", "/", "", "", ""
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Unstubbing $wgAuth on call of $wgAuth::validDomain from LoginForm::load
+IP: 137.120.195.133
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+User: cache miss for user 9205
+User: loading options for user 9205 from database.
+Use of wfGetIP was deprecated in MediaWiki 1.19. [Called from wfUserLoginLogError in /var/www/wikipathways/w/wpi/extensions/UserLoginLog/UserLoginLog.php at line 47]
+DatabaseBase::query: Writes done: INSERT  INTO `logging` (log_id,log_type,log_action,log_timestamp,log_user,log_user_text,log_namespace,log_title,log_page,log_comment,log_params) VALUES (NULL,'userlogin','error','20160712095125','1','137.120.195.133','2','137.120.195.133','0','Incorrect password entered.\nPlease try again.','137.120.195.133')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request POST /w/index.php?title=Special:UserLogin&action=submitlogin&type=login&returnto=Pathway:WP522
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CONTENT-LENGTH: 97
+CACHE-CONTROL: max-age=0
+ORIGIN: http://vm1.wikipathways.org
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+CONTENT-TYPE: application/x-www-form-urlencoded
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://vm1.wikipathways.org/w/index.php?title=Special:UserLogin&action=submitlogin&type=login&returnto=Pathway:WP522
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: wikipathwaysUserID=9205; wikipathwaysUserName=Nuno; wikipathways_session=cc5lucaectlsp2v08cjkj123r1; __utma=141536308.1187901129.1425049019.1467963209.1468228367.130; __utmc=141536308; __utmz=141536308.1467891924.127.28.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+[cookie] session_set_cookie_params: "0", "/", "", "", ""
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Unstubbing $wgAuth on call of $wgAuth::validDomain from LoginForm::load
+IP: 137.120.195.133
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+User: cache miss for user 9205
+User: loading options for user 9205 from database.
+DatabaseBase::query: Writes done: UPDATE  `user` SET user_touched = '20160712095135' WHERE user_id = '9205' AND (user_touched < '20160712095135')
+[cookie] setcookie: "wikipathwaysUserID", "9205", "1483869090", "/", "", "", ""
+[cookie] setcookie: "wikipathwaysUserName", "Nuno", "1483869090", "/", "", "", ""
+[cookie] setcookie: "wikipathwaysToken", "", "1468230690", "/", "", "", ""
+Use of wfGetIP was deprecated in MediaWiki 1.19. [Called from wfUserLoginLogSuccess in /var/www/wikipathways/w/wpi/extensions/UserLoginLog/UserLoginLog.php at line 37]
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request POST /w/index.php?title=Special:UserLogin&action=submitlogin&type=login&returnto=Pathway:WP522
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CONTENT-LENGTH: 97
+CACHE-CONTROL: max-age=0
+ORIGIN: http://vm1.wikipathways.org
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+CONTENT-TYPE: application/x-www-form-urlencoded
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://vm1.wikipathways.org/w/index.php?title=Special:UserLogin&returnto=Pathway%3AWP522
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: wikipathwaysUserID=9205; wikipathwaysUserName=Nuno; wikipathways_session=p27vd78b25cnd3u35fquc1hjf6; __utma=141536308.1187901129.1425049019.1468228367.1468317283.131; __utmc=141536308; __utmz=141536308.1467891924.127.28.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+[cookie] session_set_cookie_params: "0", "/", "", "", ""
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Unstubbing $wgAuth on call of $wgAuth::validDomain from LoginForm::load
+IP: 137.120.195.133
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+User: cache miss for user 9205
+User: loading options for user 9205 from database.
+DatabaseBase::query: Writes done: UPDATE  `user` SET user_touched = '20160712131710' WHERE user_id = '9205' AND (user_touched < '20160712131710')
+[cookie] setcookie: "wikipathwaysUserID", "9205", "1483881425", "/", "", "", ""
+[cookie] setcookie: "wikipathwaysUserName", "Nuno", "1483881425", "/", "", "", ""
+[cookie] setcookie: "wikipathwaysToken", "", "1468243025", "/", "", "", ""
+Use of wfGetIP was deprecated in MediaWiki 1.19. [Called from wfUserLoginLogSuccess in /var/www/wikipathways/w/wpi/extensions/UserLoginLog/UserLoginLog.php at line 37]
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

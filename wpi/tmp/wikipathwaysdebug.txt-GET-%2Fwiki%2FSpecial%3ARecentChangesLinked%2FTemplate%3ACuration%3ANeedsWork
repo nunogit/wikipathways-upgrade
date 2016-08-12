@@ -1,0 +1,37 @@
+
+
+Start request GET /wiki/Special:RecentChangesLinked/Template:Curation:NeedsWork
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Template:Curation:NeedsWork
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+IP: 23.94.134.209
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+LoadBalancer::getConnection: using server localhost for group recentchangeslinked
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Class PEAR_Error not found; skipped loading
+[exception] [25bc7de3] /wiki/Special:RecentChangesLinked/Template:Curation:NeedsWork   Exception from line 1563 of /var/www/wikipathways/w/includes/Skin.php: Call to undefined method SkinWikiPathways::tooltipAndAccesskey
+#0 /var/www/wikipathways/w/skins/WikiPathways.php(344): Skin->__call('tooltipAndAcces...', Array)
+#1 /var/www/wikipathways/w/skins/WikiPathways.php(344): SkinWikiPathways->tooltipAndAccesskey('feed-atom')
+#2 /var/www/wikipathways/w/skins/WikiPathways.php(248): WikiPathwaysTemplate->toolbox()
+#3 /var/www/wikipathways/w/includes/SkinTemplate.php(492): WikiPathwaysTemplate->execute()
+#4 /var/www/wikipathways/w/includes/OutputPage.php(2034): SkinTemplate->outputPage()
+#5 /var/www/wikipathways/w/includes/Wiki.php(572): OutputPage->output()
+#6 /var/www/wikipathways/w/includes/Wiki.php(458): MediaWiki->main()
+#7 /var/www/wikipathways/w/index.php(59): MediaWiki->run()
+#8 {main}

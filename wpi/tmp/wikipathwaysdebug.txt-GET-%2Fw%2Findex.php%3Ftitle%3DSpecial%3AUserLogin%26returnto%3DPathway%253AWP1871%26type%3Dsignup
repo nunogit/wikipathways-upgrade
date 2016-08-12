@@ -1,0 +1,29 @@
+
+
+Start request GET /w/index.php?title=Special:UserLogin&returnto=Pathway%3AWP1871&type=signup
+HTTP HEADERS:
+USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; da; rv:1.9) Gecko/2008052906 Firefox/3.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: en-US;en;q=0.5
+REFERER: http://vm1.wikipathways.org/wiki/Pathway:WP1871
+CONTENT-TYPE: text/html
+HOST: vm1.wikipathways.org
+ACCEPT-ENCODING: gzip
+PROXY-CONNECTION: Close
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+[cookie] session_set_cookie_params: "0", "/", "", "", ""
+Unstubbing $wgAuth on call of $wgAuth::validDomain from LoginForm::load
+IP: 108.177.231.10
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+User::getBlockedStatus: checking...
+MWCryptRand::realGenerate: Generating cryptographic random bytes for LoginForm::setCreateaccountToken/MWCryptRand::generateHex/MWCryptRand::realGenerateHex/MWCryptRand::generate/MWCryptRand::realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 16 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.

@@ -1,0 +1,829 @@
+
+
+Start request GET /wiki/Bots
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+PRAGMA: no-cache
+CACHE-CONTROL: no-cache
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+REFERER: http://vm1.wikipathways.org/wiki/Development
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,fr;q=0.6,zh-CN;q=0.4,zh;q=0.2
+COOKIE: wikipathwaysLoggedOut=20150217214130; wikipathwaysUserID=5; wikipathwaysUserName=AlexanderPico; wikipathways_session=qhrfiu0e322s548uc4ltn8tm76; __utma=141536308.795546891.1416096662.1424207514.1424209404.87; __utmb=141536308.5.10.1424209404; __utmc=141536308; __utmz=141536308.1423943373.81.11.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=http%3A%2F%2Fwikipathways.org%2Findex.php%2FCuration_Events
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+[cookie] session_set_cookie_params: "0", "/", "", "", ""
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+User: cache miss for user 5
+User: loading options for user 5 from database.
+User: logged in from session
+User: loading options for user 5 from override cache.
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+Saved in parser cache with key wikipathways:pcache:idhash:7401-0!*!0!*!*!*!* and timestamp 20150217215445
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7401-0!*!0!*!*!*!*','ÕWmoÛ6 îgÿ\nV@‡mX¬ Ûu\"; ¶4[ 4‰Ñxë¾\r´t±ˆH¤JRv´¢À~Â~ã~Éî$Ùaœ¬]·O Kâ=<İ=÷<_Åa {s®\rè«Ê–•õâÁ0~oâQì  ¸³ŞÄÄQ4:Œ½i9[dÀŞŠ[1ç6ÛğÚ0œ¶ Ít%é oyÎL¢Ei\rûz©¬ù†ÙŒ[V()¬Òø\0ì]Åsak¦nšÇ²óÕgäİòe l	¹Ú°\\ tC˜¤Ò\Z¤ÍkÆ +Ö @×ŒË 1ò 1Š`  Ri‹>W`ú½©_ÎzÓÖe’sc½Rƒµu;d J7 4}e³ ”ÅixÓ<½‚6 ¡¤3ús™r ©3ò¦ym;€_zç0ıú n:§i;²È„¡ (´ñ<ßqÀn£WÜòK•‚i©Ëøš3Î\naŒ+†\0!×È`ŠÉŞ\0Ò’@—?3µT². †Ç—Ü@Ÿ½Í@º,³DIË ¾ö«•  / ;3ßm)ç”7VdÅ¦b6å,CÌ±çoP\0ş Š2G â“  _´ R¾ ³Âæpì} 5{jtês¤PÌØF 1K`<M!e¼²ª@p‚tÕ}‡Í”‹¼v1N\rù±\'ÕÊQEŞ¶ò¨eĞ õiIÕ˜–^=ö~[æ\\Şz]r™µeìûë\"ìSš;m*½ò7ş¦ ~«0Ó] îpZ?³EîÍ íQ mL{jp õy¢À\n\' $·L´«&½w„ /i®»ÚrY7Y:õ\noÄúØúÿ ÜIéÓuwÁÊï ¿0 8ì~† N””X\n¥?O\n¸åm÷ ®ID–Z• ófy“KH?¹ôG/X%wğÖé Â¥:—È*oTe>\"‚=àì  _Xñ“m Í¿¨½ßœ8³^oúüà€õ.a3Ÿ#ù…°İÙÕ›ãU+Ü‡ñxbka •Gây€ ¬¤ÙØ ƒæï!t   Ü ¢{´2ö¯?ş„»’ N!“¼Bœ ¿CÌ Ç~  ÃQÄ–µ ÓÛ  %¶ª\n<{;`°‡; « ŒeWCªI¡´YÌ\" ôNïJÀÑ5‰Z vƒšëöª&¼€¢ë  l	¹æk Ø¶ø„ã®‡:° »…š¹ ‰ËÆ ‹4ã&‹ÇÃ < ûœş›OÓ XQ`x¼(Y „£ \nÇQ8\Z GŒŞI½M8ÄFç5—«\nËõšº	oÂã ~ÿ m!ÚN…•Ò \\C@İ É|Û\"¡ \\Å†n_’Ã­£0~/ w êª\"œøäY8 ñxp P³5~ q·Í yDÈƒÜ[[-*œ|ØEÛ ÔÍ\"rÆÏSÇ‚! ç 5Q \Z[ÀâG‘Ã5pdWe÷¢ˆ<íVØ>‘ÔM6ñQ Ÿb  Âu{,y“eL<4sÎD\nO˜(¡Kõ n  ë £gÀÓs …ãŸâ¾Pi•Ã~´íèuÛ¯:¶Á½ÍÖ §v¦ \\v{  Ÿm }¦”›â \ZŞr-±”{£]fû<Ÿ¦Âv¦…º ²/ãpÒ‘5o¶{û@’4kqur¶¸xM\"D.¼ÉN¨İ\ZØê=\n‚C\\wGa ¢Ã¦ÃGÑ>s <Ãr¥p7W¹HjÇá x ü>¡  RG !ih4¶ZZÜWM¦ò´Í c Œ 9Ád•L¹®©ûm l\'¹èğÑ RZ³áĞ„‡4ü Ú4ji~Å„ı—ıá‹ Ú3ˆ{.Üm¡ ¶8Ü¾ éë’FiMœtGèU^ğ•HZé}ø ','20150218215445')
+Class SkinWikiPathways not found; skipped loading
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching; Tue, 17 Feb 2015 21:41:47 GMT **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7401'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Bots
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.66
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+Saved in parser cache with key wikipathways:pcache:idhash:7401-0!*!0!*!*!*!* and timestamp 20150530235056
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7401-0!*!0!*!*!*!*','ÕWmoÛ6 îgÿ\nF@‡mX¬ ÇM\"; 67[ 4‰Ñxë¾\r´t±ˆH¤JRv´ À~Â~ã~Éî$Ùaœ¬]·O Kâ=<ñ{x<_Åa {3®\rè«Ê–•õâÁA|oâaì s¸³ŞÈÄQ4<Š½q9™gÀŞ‰[1ã6[óÚ0œ¶ Ít%é oyÎL¢Ei\rûz¡¬ù†ÙŒ[V()¬Òø\0ì}Åsak¦nšÇ²óÕgäİòE l ¹Z³\\ tC˜¤Ò\Z¤ÍkÆ +V @×ŒË 1ò 1Š`   ¥Ò }.Áô{c¿œôÆ­Ë$çÆœx¥ këvÈ ”n< iúÊ&?(‹Óğ¦yz\rm0BIgôç2å RgämóÚv\0¿ôÖa:ùõ-ÜtNÓvd	C  Q iãy¾å€İ G¯¹å—* ÓR—ñ gœ Â !—  B®Á ƒ½ ¤%.~fj©d]0\\ _p }ö. é²Ì %- øÚ¯–vt ¼|êÌ|·¡œSÜ˜‘% ‹É˜³ 1\'¿F øs(Ê Yˆ§ .¾h HñzÌ\n›Ã‰÷qÔä¹Ñ±Ï‘B1akÄ,€ñ4…”ñÊª Á	ÒU÷ 6S.òÚyÆujÈO<©nT*ò6™G-ƒ–¨OKªÆ°ô ì‰÷Û\"çòÖë‚Ë¬-cß_ aŸÂÜjSé¥¿ö×¥ğ[…™îº‡Óú™-roâh‚h×´£ GPŸ\'\nÌp’ArËD»kÒ G¸ñ’æºÍ-—u ¥“ÿçğøFÌ­ÿ_Â>w ü$ıñ SÃîgˆaª¤ÄT(ıyRÀ’·©\r\\ “ˆ,µ*AçÍö&—~rë _²Jná­Óÿ(„Ku.‘UŞ¨Ê|D ;ÀÉ? ¾°ä\'›4š‘{¿9q&½ŞxoŸõ.a=›!ù…°İÙÕ›áU+¬Ãx<±•0‚Ò#ñ<À VÒÆìĞ ƒæï1t	  Ü  £ ´2ö¯?ş„»’ N!“¼Bœ ¿CÌ ı(8> ‡ [Ô Lo“<”Ø²*ğìí€Á îL,30–5^\r©&…Òf1‹üƒ wzW ®H„Ôb° Ô\\W«šå ´ºŞşş†k¾ ZÛ Ÿp¬z¨ ›±[¨™›¸lŒ±H3n²øğ  ÷ƒ½o÷è¿ù4ı  . %‹‚p   A4ÀË+Fï¤Ş&<ÀFç\r—Ë\nÓõ†º	oÄã ¾ÿ€¶ mSda©´\0× PwD2ß´Hè w±¡ÛWäpã(Œï Âñn@]U„ Ÿ= G\">   Ôl >…¸e³E  rà wöV‹\nG ¶«í êF 9ãç©cÁ% ç 5Q \Z[ÀâG‘Ã5pdWe÷¢­ˆ<ívØ.‘ÔM6ë£ >Ç2n„ëöXòF‹˜xhæœ‰ 1Q@—ê\',  ëG£gÀÓs …ãŸÖ}¡Ò*‡İÕ¶£×m¿êØ  6[?6Üš.pÛí0D|¶]ô™RnˆÇhxÇµÄTîŒv‘íò|š\nÛ™æê ÈŞ IdÍšro I’fÍ¯¦gó‹7$BäÂ m…ÚíŞ£ 8Â}w  Ñ0:j:| í ÷gÀ LW\nw3•‹¤v  ‚\'Àï ª@:Š IëD£±ÕÂb]5™ÊSŠ  ‰N†Oœ`°J¦\\×Ôı¶\r¶ \\tôd )­)84á1\r¿€6Zš_1aÿUÿ`ËÅ”j  òÀ…[ šÑhƒÃò%H_—4J{bÚ ¡WyzÁ—\"i³òáo','20150531235056')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7401'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Bots
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)
+ACCEPT: */*
+ACCEPT-LANGUAGE: ru,by;q=0.7,en;q=0.7,kz;q=0.7,ua;q=0.7,*;q=0.1
+ACCEPT-ENCODING: gzip, deflate
+CONNECTION: close
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 217.69.133.253
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+Saved in parser cache with key wikipathways:pcache:idhash:7401-0!*!0!*!*!*!* and timestamp 20150702161041
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7401-0!*!0!*!*!*!*','ÕWmoÛ6 îgÿ\nF@‡mX¬—Äu\"; 67[ 4‰Ñxë¾\r´t±ˆH¤JRv´ À~Â~ã~Éî$Ùaœ¬]·O Kâ=<ñ{x<_Åa {3®\rè«Ê–•õâƒÃøŞÄƒØ+æpg½‘‰£hp {ãr2Ï€½ ·bÆm¶æµa8m šéJÒ=Şòœ™D‹Ò\ZöõBYó\r³ ·¬PRX¥ñ ØûŠçÂÖLİ4eç«ÏÈ»å‹ Ø rµf¹0è†0I¥5H›×Œ\'V¬ €® —)bä-b Á . J¥-ú\\‚é÷Æ~9é[—IÎ9ñJ\rÖÖíA(İx Òô•M~P §áMóô\ZÚ`„’ÎèÏeÊ-¤ÎÈÛæµí\0~é­Ãtòë[¸éœ¦íÈ< † @¢8ÒÆó|Ë »A^sË/U\n¦¥.ã+Î8+„1B.  „\\!ƒ) { HK ]üÌÔRÉº`¸<¾à úì] Òe™%JZ.ğµ_-íè8xùÔ™ùnC9§¸1#K6 “1g bN< ğçP”9² O;\\|Ñ.âõ˜ 6‡ ïã¨És£cŸ#…bÂÖ ‰Y\0ãi\n)ã•U ‚ ¤«î;l¦\\äµóŒëÔŸxRİ¨ Uäm2Z -QŸ–Taé%Ø ï·EÎå­× —Y[Æ¾¿*Â>…¹Õ¦ÒKí¯Ká·\n3İuÿ §õ3[äŞÄÑ  Ñ®iG\r >O ˜á$ƒä–‰v×¤ pã%Íu›[.ë&J\'ÿÏáñ˜ [ÿ¿„;!}:ï.øIú ã ¦ ‡İÏ ÃTI‰©Púó¤€%oS ¸ & YjU‚Î›íM.!ıäÖ ¼d•ÜÂ[§ÿQ —ê\\\"«¼Q•ùˆ v€“0|aÉO6i4ÿ\"÷~sâLz½ñŞş>ë]Âz6Cò a»³«7Ã«VX‡ñxb+a ¥Gây€	¬¤ÙĞ ƒæï1t	  Ü  ¢ ´2ö¯?ş„»’ N!“¼Bœ ¿CÌ†~   ÃAÄ µ ÓÛ$ %¶¬\n<{;`°ƒ; Ë ŒeWCªI¡´YÌ\"ÿ0èŞ•€£+ !µ ì 5×Õªfy ­®·¿¿!äš¯€Ö¶Á\' « êÀfì jæ&$. c,ÒŒ›,   á~°÷í ı7Ÿ¦?°¢Àåñ¢dQ  ‚a …¯Âà0dôNêmÂCltŞp¹¬0]o¨›ğF< âû h Ñ6E –J p\r uG$óM‹„^p  º}E 7Âø^  ï ¨«Špâ³gáHÄÃƒ£€š­áSˆ[6[ä1!  äÎŞjQáèÃvµ]Bİ(\"gü<u,¸„â¼ &ÊAc Xü(r¸ ®“ìªì^´µ ‘§İ Û%’ºÉf}”ÁçXÆpİ KŞh   Íœ3‘Â3&\nèRı„…\0tıhô xzn¡püÓº/TZå°»ÚvôºíW ÛÁƒÍÖ§\r¶¦ Üv;  Ÿm }¦” â1\ZŞq-1•;£]d»<Ÿ¦Âv¦¹º ²wA Y³¦ÜÛG’¤Yó«éÙüâ\r‰ ¹ğF[¡v{`£÷( pß ‡A4ˆš  EûÂı ğ Ó•ÂİLå\"© ‡ Á à÷	U H E„¤u¢ÑØja±®šLå)Å€ŠD\'ƒ\'N0X%S®kê~Û Û	.:z2”Ö  šğ˜†_@›F-Í¯˜°ÿª¸åbJ5ƒ yàÂ- Íh´Áaù ¤¯K\Z¥=1íĞ«<½àK‘´Yùğ7','20150703161041')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7401'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Bots
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.53
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+Saved in parser cache with key wikipathways:pcache:idhash:7401-0!*!0!*!*!*!* and timestamp 20150817152522
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7401-0!*!0!*!*!*!*','ÕWmoÛ6 Şgÿ\nV@‡mX¬—ÄM\"; ¶´[ 4‰Ñxë¾\r´x±ˆH¤FRv´¢À~Â~ã~Éî$Ùaœ¬]·O Kâ=<İ=÷<_¥q’ 3n,˜«ÚUµ ÒıƒôMGiPÎáÎ c›&Éè(\r&Õt {+oåŒ»|Í ËpÚ\n 3µ¢{¼å ³™‘•³ì«…vökærîX©•tÚà °ßj^H×0}Ó>V½¯!#ï/\n` (ôš Ò¢ Âdµ1 \\Ñ09¹B\0ºf\\	Ä¨[Äh‚I  *m ú\\‚  &a5 L:—YÁ­=	* Î5İE(İ  2ô•O¿× §áMûô ºd¤VŞèO•à „7ò¦}m7€_fëPLy 7½SÑÌsi) $Š#m¼(¶ ° äè%wüR ° u9_qÆY)­•jÉ  Õ\n  ˜ì\r - ôù3Û(­š’ax|Á- ÙÛ ”Ï2Ë´r\\âk¿\\ºñqôü±3ûí†rNycE–l\"§ ÎrÄœ á\Z  Î¡¬\nd!=íqéE  å 0\'] \'Á‡QÓ§F\'!G\nå”­% ³\0Æ…\0Áxít‰à éj† ›‚Ë¢ñ1N ÅI ô.PEÁ¦ò¨e0\nõéHÕ˜–Y‚;	~] \\İ }r¹sU\Z†«2 Rš[mj³ ×áº’a§0Û_÷îpÚ0we L=íQ ]L;jğ õi¢À\ng9d·Lv«FÜ;Â…—µ×mm¹jÚ,½ú?…Ç7b}\\óÿ\nî¥ôñºûàGå÷ŒŸ™\n<v?A §Z),…6Ÿ& Üò6{ 7À \"+£+0E»¼É%ˆ.ıÑsV«-¼sú …p©Ï ²Ê[UÙ ˆ` 8ı ÃgVülSFû/j ¶\'Ît0˜<ÛÛcƒKXÏfH~)]v\rfx5\Z÷a<ØJZIåQx ` kåRv ÆQû÷ º … î‚GÉ=Z[÷× Â]E §TYQ#ÎÊß!eG‡a   Æ£„-\Z v°) JlY—xööÀh w&—9XÇZ¯–T# ryÊ’ğ \Z¼º«\0GW$Bj1Ø\rj®ß«Úğ\"Šn°··!äš¯€bÛà3» êÀåì \Zæ $­Zc*EÎm  Dñ^ôì›gôß~ÚşÀÉ ÃãeÅ’( EG1Å>J Fï¤Ş&>ÀFç5WË\ZËõšº‰`ÌÓ(}÷ m1ÚN‘…¥6 |CDİ É|Ó\"¡ \\Å–n_Ã£8}\' wûÔU%8ñÉ³p,ÓÃı£ˆš­ÃÇ ÛìÇ„Ü÷;k«CÅã÷Ûhû‚úY$Şø¹ğ, By^R å¡± , \\ 7Y~Uõ/ÚÚ‰ÈWı\nÛ%’ºÉ6>ªàS,ãB¸î¥`¼H‰‡vÎ™ ğ„‰ ºÔ?âF\0¦y0z \\œ;(=ÿ ÷… u »Ñv£×]¿êÙöïm®y8m´5]à²Ûaˆøìºè3­ı Ñğ– …¥Ü í3Ûåù•®7Íõ-½O’ÈšµÛ½{ Iš5¿:=›_¼& \" Áx+Ô~\rlôD¸ ¢è8p) µ >Šö ÿgÀ X. w3]È¬ñ îG€ße´ ğ  “Ö‰Fëê…Ã}Õæº ” * Œ 9Ádµ Ü4Ôıv\r¶—\\rôh )­İphÂC\Z~ c[µ´¿bâá‹áÁ–‹SÚ3ˆ{.üm¡ M68Ü¾$éë’FiMœöGèU!.øRf]UŞÿ\r','20150818152522')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7401'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Bots
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.64.110
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+Saved in parser cache with key wikipathways:pcache:idhash:7401-0!*!0!*!*!*!* and timestamp 20150908130644
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7401-0!*!0!*!*!*!*','ÕWmoÛ6 îgÿ\nV@‡mX¬ ÛM\"; ¶4[ äÅh¼uß ZºXD$R%);Z `?a¿q¿dw’ì0NÖ®Û§Æˆ%ñ xÏ=<¯â0Š½ × ôUeËÊzñ` 0ñ(öŠ9ÜYolâ(\Z ÄŞ¤œÎ3`ïÄ­˜q›­ym N[fº’t·<g&Ñ¢´†}½PÖ|ÃlÆ-+” Vi|\0ö¾â¹°5S7ÍcÙùê3ònù\" ¶€\\­Y. º!LRi\rÒæ5ã‰ +  kÆeŠ y‹ E0 Ri‹>—`ú½‰_N{“Öe’sc¼Rƒµu;d J7 4}eÓ ”ÅixÓ<½6 ¡¤3ús™r ©3ò¶ym;€_zë0şú n:§i;2Ï„¡\0(´ñ<ßrÀn£7ÜòK•‚i©ËøŠ3Î\naŒK†\0!WÈ`ŠÁŞ\0Ò’@ ?3µT². ./¸>{—tYf‰’– |íWK;> ^=uf¾ÛPÎ)nÌÈ’MÄtÂY†˜#Ï_£\0ü9 e,ÄÇ .¾h HñzÌ\n›Ã‘÷qÔô¹Ñ‰Ï‘B1ekÄ,€ñ4…”ñÊª Á	ÒU÷ 6S.òÚyÆujÈ<©nT*ò6™G-ƒ–¨OKªÆ°ô ì‘÷Û\"çòÖë‚Ë¬-cß_ aŸÂÜjSé¥¿ö×¥ğ[…™îºw‡Óú™-roêh‚h×´£ GPŸ\'\nÌp’ArËD»kÒ G¸ñ’æºÍ-—u ¥“ÿçğøFÌ­ÿ_Â>w ü$ıñ SÃîgˆáXI‰©Púó¤€%oS ¸ & YjU‚Î›íM.!ıäÖ ½b•ÜÂ[§ÿQ —êL\"«¼Q•ùˆ v€Ó0|aÉO6i4ÿ\"÷~sâL{½ÉË½=Ö»„õl†ä ÂvgWo†W­° ãñÄVÂ JÄó\0 XI ³}? š¿ÇĞ%Hdp <Š ĞÊØ¿şø îJ:8…Lò\nqFü 1;Ø÷£àp? ElQ[0½MòPbËªÀ³·  ;¸S±ÌÀXÖx5¤š J›Å,ò‡Aïä®  ]‘ ©Å`7¨¹®V5Ë hu½½½\r!×| ´¶\r>áXõP 6c·P37!qÙ c‘fÜdñş0 ÷‚—ß¾¤ÿæÓô V ¸<^”,\nÂQp  „ƒàõpÈèÔÛ„CltÎ¹\\V˜®sê&¼1ƒøÃ=ÚB´ # K¥ ¸†€º#’ù¦EB/¸‹\rİ¾&‡ GaüA  ï ÔUE8ñÙ³p,âıÁA@ÍÖşSˆ[6[ä!!  rgoµ¨p|¿]m—P7ŠÈ ?K  .¡8+¨‰rĞØ  ?Š ®ë$»*» míDäI·Ãv‰¤n²Y eğ9–q#\\·Ç’7^ÄÄC3çT¤ğŒ‰ ºT?a!\0]?\Z= Y( ÿ´î •V9ì®¶ ½nûUÇ6x°Ùúñ´ÑÖtÛn‡!â³í¢O•rC<DÃ;®%¦rg´‹l—ç“TØÎ4W·@ö.H\"kÖ”{ûH’4k~u|:¿8\' \" Şx+Ôn lô  ¸\r‚à0 ¢QtĞtø(Ú îÏ€ ˜® îf* Ií8  O€ß\'T u  ’Ö‰Fc«…Åºj2•§  * Œ8Á`•L¹®©ûm l\'¸èàÉ RZSphÂc\Z~ m\Zµ4¿bÂşëşpËÅ1Õ \"ä ·,4£Ñ ‡åK¾.i”öÄqw„^åé _Š¤ÍÊıß','20150909130644')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7401'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Bots
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)
+ACCEPT: */*
+ACCEPT-LANGUAGE: ru,by;q=0.7,en;q=0.7,kz;q=0.7,ua;q=0.7,*;q=0.1
+ACCEPT-ENCODING: gzip, deflate
+CONNECTION: close
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 217.69.133.253
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+Saved in parser cache with key wikipathways:pcache:idhash:7401-0!*!0!*!*!*!* and timestamp 20150919151626
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7401-0!*!0!*!*!*!*','ÕWmoÛ6 îgÿ\nV@‡mX¬—ÄI,; 67[ 4‰Ñxë¾\r´t±ˆH¤JRv´ À~Â~ã~Éî$Ùaœ¬]·O Kâ=<ñ{x<_Åa {3®\rè«Ê–•õâıƒøŞÄƒØ+æpg½‘‰£hp {ãr2Ï€½ ·bÆm¶æµa8m šéJÒ=Şòœ™D‹Ò\ZöõBYó\r³ ·¬PRX¥ñ ØûŠçÂÖLİ4eç«ÏÈ»å‹ Ø rµf¹0è†0I¥5H›×Œ\'V¬ €® —)bä-b Á . J¥-ú\\‚é÷Æ~9é[—IÎ9ñJ\rÖÖíA(İx Òô•M~P §áMóô\ZÚ`„’ÎèÏeÊ-¤ÎÈÛæµí\0~é­Ãtòë[¸éœ¦íÈ< † @¢8ÒÆó|Ë »A^sË/U\n¦¥.ã+Î8+„1B.  „\\!ƒ) { HK ]üÌÔRÉº`¸<¾à úì] Òe™%JZ.ğµ_-íh ¼zêÌ|·¡œSÜ˜‘% ‹É˜³ 1\'¿F øs(Ê Yˆ§ .¾h HñzÌ\n›Ã‰÷qÔä¹Ñ±Ï‘B1akÄ,€ñ4…”ñÊª Á	ÒU÷ 6S.òÚyÆujÈO<©nT*ò6™G-ƒ–¨OKªÆ°ô ì‰÷Û\"çòÖë‚Ë¬-cß_ aŸÂÜjSé¥¿ö×¥ğ[…™îºw‡Óú™-roâh‚h×´£ GPŸ\'\nÌp’ArËD»kÒ G¸ñ’æºÍ-—u ¥“ÿçğøFÌ­ÿ_Â>w ü$ıñ SÃîgˆaª¤ÄT(ıyRÀ’·©\r\\ “ˆ,µ*AçÍö&—~rë ^±Jná­Óÿ(„Ku.‘UŞ¨Ê|D ;ÀÉ? ¾°ä\'›4š‘{¿9q&½ŞøåŞ ë]Âz6Cò a»³«7Ã«VX‡ñxb+a ¥Gây€	¬¤Ù‘  Íßcè $2¸  D heì_ü	w% œB&y…8#~‡˜  ùQ0<\n  [Ô Lo“<”Ø²*ğìí€Á îL,30–5^\r©&…Òf1‹üƒ wzW ®H„Ôb° Ô\\W«šå ´ºŞŞŞ†k¾ ZÛ Ÿp¬z¨ ›±[¨™›¸lŒ±H3n²øè  ÷‚—ß¾¤ÿæÓô V ¸<^”,\nÂA0 ‡á <Œ  ½“z›ğ\0 7\\.+L× ê&¼ ƒøş ÚB´M‘…¥Ò \\C@İ É|Ó\"¡ ÜÅ†n ÉáÆQ ß „ãİ>uU N|ö, ‰øhÿ8 fëè)Ä-›-rHÈ} ¹³·ZT8ú°]m—P7ŠÈ ?O  .¡8/¨‰rĞØ  ?Š ®ë$»*» míDäi·Ãv‰¤n²Y eğ9–q#\\·Ç’7ZÄÄC3çL¤ğŒ‰ ºT?a!\0]?\Z= [( ÿ´î •V9ì®¶ ½nûUÇ¶ÿ`³õãiƒ­é ·İ CÄgÛEŸ)å†8DÃ;®%¦rg´‹l—çÓTØÎ4W·@ö.H\"kÖ”{ûH’4k~5=›_¼! \" Şh+Ôn lô  Á1î»a Dƒè¸éğQ´/ÜŸ /0])ÜÍT.’Úq¸ < ~ŸP ‚ÔQDHZ\'\Z­  ëªÉTR ¨Ht2xâ ƒU2åº¦î·m°à¢ã\' HiMÁ¡	iø ´iÔÒüŠ	û‡ıƒ- Sª DÈ  nYhF£\r Ë— }]Ò(í‰iw„^åé _Š¤ÍÊ‡¿ ','20150920151626')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7401'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Bots
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.66.159
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+Saved in parser cache with key wikipathways:pcache:idhash:7401-0!*!0!*!*!*!* and timestamp 20151217082133
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7401-0!*!0!*!*!*!*','ÕWmoÛ6 îgÿ\nV@‡mX¬ Çµ#; ¶4[ 4‰Ñxë¾\r´t±ˆH¤JRv´¢À~Â~ã~Éî$Ùaœ¬]·O Kâ=<ñ{x<_Åa {s®\rè«Ê–•õâÁaüŞÄÃØ+ pg½‰‰£h8½i9[dÀŞŠ[1ç6ÛğÚ0œ¶ Ít%é oyÎL¢Ei\rûz©¬ù†ÙŒ[V()¬Òø\0ì]Åsak¦nšÇ²óÕgäİòe l	¹Ú°\\ tC˜¤Ò\Z¤ÍkÆ +Ö @×ŒË 1ò 1Š`   ¥Ò }®Àô{S¿œõ¦­Ë$çÆ {¥ këvÈ ”n< iúÊf?(‹Óğ¦yz m0BIgôç2å RgäMóÚv\0¿ôÎa:ûõ\rÜtNÓvd‘	C  Q iãy¾ã€İ G¯¸å—* ÓR—ñ5gœ Â !W  B®‘Á ƒ½ ¤%.~fj©d]0\\ _r }ö6 é²Ì %- øÚ¯Vvr ¼xìÌ|·¥œSÜ˜‘ ›ŠÙ”³ 1Ç¿A ø (Ê YˆO:\\|Ñ.âõ˜ 6‡cïã¨ÙS£SŸ#…bÆ6 ‰Y ãi\n)ã•U ‚ ¤«î;l¦\\äµóŒëÔ {Rİ¨ Uäm3Z -QŸ–Taé Øcï·eÎå­× —Y[Æ¾¿.Â>…¹Ó¦Ò+ãoJá·\n3İõà §õ3[äŞÌÑ  Ñ®iO\r >O ˜á$ƒä–‰v×¤÷pã%Íu—[.ë&J\'ÿOáñ˜ [ÿ¿„;!}:ï.øQú ã ¦ ‡İÏ Ã‰’ S¡ôçI KŞ¶6p\rL\"²Ôª 7Û›\\BúÉ­?|Á*¹ƒ·Nÿ£ .Õ¹DVy£*ó  ì gÿ`øÂ’ŸlÓhşEîıæÄ™õzÓç  ¬w	›ù É/„íÎ®Ş ¯Za Æã‰­… ” ‰ç &°’6f#? š¿‡Ğ Hdp <ŒîÑÊØ¿şø îJ:8…Lò\nqFü 1 ü(8\Z…Ãˆ-k ¦·M JlU xövÀ` w&V  Ë\Z¯†T“Bi³˜EşaĞ;½+ G×$Bj1Ø\rj®«UÍò Z]ïà`KÈ5_ ­m‹O8V=ÔÍØ-ÔÌMH\\6ÆX¤ 7Y<: Âƒàù·Ïé¿ù4ı  . %‹‚p Fá( Gá`ÀèÔÛ„‡Øè¼ærUaº^S7áMx Äï? -DÛ	²°RZ€k ¨;\"™o[$ô‚»ØĞíKr¸u Æï Âñn@]U„ Ÿ< \'\" \rÆ 5[£Ç ·l¶È#B  äŞŞjQáäÃnµ]Bİ(\"gü<u,¸„â¼ &ÊAc Xü(r¸ ®“ìªì^´³ ‘§İ Û\'’ºÉf}”Á§XÆpİ KŞd   Íœ3‘Â &\nèRı„…\0tı`ô xzn¡püÓº/TZå°¿ÚvôºíW ÛàŞfë‡Ó†;Ó n»=†ˆÏ¶‹>SÊ\rñ \ro¹–˜Ê½Ñ.²}OSa;ÓBİ Ù» ‰¬ySîí IÒ¬ÅÕÉÙââ5‰ ¹ğ&;¡v{`«÷( Æ¸ïÂ \ZFã¦ÃGÑ>s <Ãt¥p7W¹HjÇá x ü>¡\n ©£ˆ´N4\Z[--ÖU“©<¥ P‘èdøÈ	 «dÊuMİoÛ`;ÁEãG HiMÁ¡	 iø ´iÔÒüŠ	û/û‡;.N¨f !÷\\¸e¡ ¶8,_‚ôuI£´\'Nº#ô*O/øJ$mV>ü\r','20151218082133')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7401'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Bots
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+Saved in parser cache with key wikipathways:pcache:idhash:7401-0!*!0!*!*!*!* and timestamp 20160205120929
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7401-0!*!0!*!*!*!*','ÕWmoÛ6 Şgÿ\nV@‡mX¬—ÄM\"; ¶´[ 4‰Ñxë¾\r´x±ˆH¤FRv´¢À~Â~ã~Éî$Ùaœ¬]·O Kâ=<ñ{x<_¥q’ 3n,˜«ÚUµ ÒıƒôMGiPÎáÎ c›&Éè(\r&Õt {+oåŒ»|Í ËpÚ\n 3µ¢{¼å ³™‘•³ì«…vökærîX©•tÚà °ßj^H×0}Ó>V½¯!#ï/\n` (ôš Ò¢ Âdµ1 \\Ñ09¹B\0ºf\\	Ä¨[Äh‚I\\ TÚ8ô¹ ; LÂj:˜t.³‚[{ T œkº!‹Pº	 dè+Ÿ~¯ NÃ›öé%tÁH­¼ÑŸ*Á  oäMûÚn\0¿ÌÖ¡˜şò nz§¢ ™çÒR\0H GÚxQl9`7ÈÑKîø¥ `;êr¾âŒ³RZ+Õ’!@ª 2(0Ø @Z2èãg¶QZ5%Ãåñ ·0dosP>Ë,ÓÊq‰¯ıréÆÇÑóÇÎì· Ê9Å Y²‰œN8Ë s „k @8‡²*…ô´Ç¥ İ )Ş€9é\n8	>Œš>5:	9R(§l-‘˜ 0.  Æk§K gHW3ôØ \\ ÷Œë4Pœ Jßè U l2Z £PŸTa™%¸“à×EÁÕmĞ —;W¥a¸*ã!…¹Õ¦6Ëp ®+ v\n³ıuï §\rsW ÁÔÓ  Ñ­iG\r >M ˜á,‡ì–Én×ˆ{G¸ñ²öºÍ-WM ¥—ÿ§ğøFÌkş_Â½>w ü(ıñ3SÇî\'ˆáT+…©ĞæÓ¤€%oS ¸ ¦ Y ])ÚíM.A|të³ZmáÓÿ(„K}®UŞªÊ~@ ;Àé? >³äg›4Ú‘û°=q¦ƒÁäÙŞ  \\Âz6CòKéú³k0Ã«ÑX‡ñxb+i%¥Gáy€	¬•KÙa GíßCè  2¸  %÷hmİ_ü	w  œReE8+‡”  †It|  ¶h ØÁ&y(±e]âÙÛ £ Ü™\\æ` k½ZR€Êå)KÂƒhğê®  ]‘ ©Å`7¨¹¾VµË‹huƒ½½\r!×| ´¶\r>ãXõP .g·Ğ0?!iÕ\ZS)rnóôğ Š÷¢gß<£ÿöÓö N–¸<^V,‰â Q b  9fôNêmâ lt^sµ¬1]¯©› Æ<ÒwïÑ £í YXj#Á7DÔ ‘Ì7- zÁ]léö 9Ü8ŠÓw áx·O]U‚ Ÿ< Ç2=Ü?Š¨Ù:| ñËf‡<&ä¾‡ÜÙ[ * ¿ß®¶O¨ EâŸ Ï‚K(ÏKj¢<4¶€å ²€kà&Ë¯ªşE[; ùªßa»DR7Ù®2ø Ë¸ ®»c) /Râ¡s& <a¢€.õX À4 FÏ€‹s ¥çŸÖ}¡E]Àîj»Ñë®_õlû÷6×<œ6Úš.pÛí0D|v]ô™Ö~ˆÇhxËÂTîŒö‘íòüJH×›æú ÈŞ IdÍÚrï H’fÍ¯NÏæ ¯I„ÈE0Ş\nµß  ½\'Qt„ûî8’QrÔvø(Ú/üŸ _`º ÜÍt!³Æs¸ = ~—Q  á)\"&­ ÖÕ ‡uÕæº   * Œ 9Á`µ Ü4Ôıv\r¶ \\rôh )­-84á!\r?ƒ±­ZÚ_1ñğÅğ`ËÅ)Õ \"ä ¿,´£É ‡åK’¾.i”öÄi„^ â‚/eÖeåıß','20160206120929')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7401'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Bots
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+Saved in parser cache with key wikipathways:pcache:idhash:7401-0!*!0!*!*!*!* and timestamp 20160302122036
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7401-0!*!0!*!*!*!*','ÕWmoÛ6 îgÿ\nV@‡mX¬ Çy‘  ››- šÄh¼uß ZºXD$R%);ZP`?a¿q¿dw’ì0NÖ®Û§Æˆ%ñ xÏ=<¯â0Š½ × ôUeËÊzñ`?¾7ñ0öŠ9ÜYodâ(\Z ÅŞ¸œÌ3`ïÄ­˜q›­ym N[fº’t·<g&Ñ¢´†}½PÖ|ÃlÆ-+” Vi|\0ö¾â¹°5S7ÍcÙùê3ònù\" ¶€\\­Y. º!LRi\rÒæ5ã‰ +  kÆeŠ y‹ E0 Ri‹>—`ú½±_NzãÖe’scN¼Rƒµu;d J7 4}e“ ”ÅixÓ<½†6 ¡¤3ús™r ©3ò¶ym;€_zë0üú n:§i;2Ï„¡\0(´ñ<ßrÀn£×ÜòK•‚i©ËøŠ3Î\naŒK†\0!WÈ`ŠÁŞ\0Ò’@ ?3µT². ./¸>{—tYf‰’– |íWK;: ^=uf¾ÛPÎ)nÌÈ’ÅdÌY†˜ Ï_£\0ü9 e,ÄÓ  _´ ¤x=f…ÍáÄû8jòÜèØçH¡˜°µ@b ÀxšBÊxeUà éªû ›) yí<ã:5ä\'T7*G y›Ì£–AKÔ§%UcXz	öÄûm‘syëuÁeÖ–±ï¯Š°Oanµ©ôÒ_ûëRø­ÂLwİ»ÃiıÌ ¹7q´GA´kÚQƒ#¨Ï  f8É ¹e¢İ5éƒ#ÜxIsİæ–Ëº‰ÒÉÿsx|#æÇÖÿ/áNHŸÎ» ~’~Çø…©Àa÷3Ä0URb*”ş<)`ÉÛÔ ®ID–Z• óf{“KH?¹õ‡¯X%·ğÖé Â¥:—È*oTe>\"‚ àä  _Xò“M\ZÍ¿È½ßœ8“^oüroõ.a=›!ù…°İÙÕ›áU+¬Ãx<±•0‚Ò#ñ<À VÒÆìĞ ƒæï1t	  Ü  £ ´2ö¯?ş„»’ N!“¼Bœ ¿CÌ ı(8> ‡ [Ô Lo“<”Ø²*ğìí€Á îL,30–5^\r©&…Òf1‹üı wzW ®H„Ôb° Ô\\W«šå ´ºŞŞŞ†k¾ ZÛ Ÿp¬z¨ ›±[¨™›¸lŒ±H3n²øp? ÷‚—ß¾¤ÿæÓô V ¸<^”,\nÂƒ` Da  ƒ Fï¤Ş&ÜÇFç\r—Ë\nÓõ†º	oÄã ¾ÿ€¶ mSda©´\0× PwD2ß´Hè w±¡Û r¸q Æ÷ áx7 ®*Â‰Ï…#    j¶ ŸBÜ²Ù\"	9p;{«E…£ ÛÕv	u£ˆœñóÔ±à Šó‚š( -`ñ£Èá\Z¸N²«²{ÑÖNDv;l—Hê&›õQ Ÿc 7Âu{,y£EL<4sÎD\nÏ˜( Kõ   Ğõ£Ñ3àé¹…ÂñOë¾Pi•ÃîjÛÑë¶_ulƒ ›­ O nM ¸ív \">Û.úL)7Äc4¼ãZb*wF»Èvy>M…íLsu dï‚$²fM¹·$I³æWÓ³ùÅ  !rá¶BíöÀFïQ  á¾; ƒh  5 >Šö…û3à ¦+…»™ÊER;  Á à÷	U H E„¤u¢ÑØja±®šLå)Å€ŠD\'Ã\'N0X%S®kê~Û Û	.:z2”Ö  šğ˜†_@›F-Í¯˜°Ğßßr1¥šA„<pá–…f4Úà°|	Ò×%Ò˜vGèU^ğ¥HÚ¬|ø ','20160303122036')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7401'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Bots
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-ENCODING: gzip
+ACCEPT-LANGUAGE: en-US
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.14
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+Saved in parser cache with key wikipathways:pcache:idhash:7401-0!*!0!*!*!*!* and timestamp 20160410152131
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7401-0!*!0!*!*!*!*','ÕWmoÛ6 îgÿ\nF@‡mX¬ ÇM\"; 67[ 4‰Ñxë¾\r´t±ˆH¤JRv´ À~Â~ã~Éî$Ùaœ¬]·O Kâ=<İ=÷<_Åa {3®\rè«Ê–•õâÁA|oâaì s¸³ŞÈÄQ4<Š½q9™gÀŞ‰[1ã6[óÚ0œ¶ Ít%é oyÎL¢Ei\rûz¡¬ù†ÙŒ[V()¬Òø\0ì}Åsak¦nšÇ²óÕgäİòE l ¹Z³\\ tC˜¤Ò\Z¤ÍkÆ +V @×ŒË 1ò 1Š`  Ri‹>—`ú½±_NzãÖe’scN¼Rƒµu;d J7 4}e“ ”ÅixÓ<½†6 ¡¤3ús™r ©3ò¶ym;€_zë0üú n:§i;2Ï„¡ (´ñ<ßrÀn£×ÜòK•‚i©ËøŠ3Î\naŒK†\0!WÈ`ŠÉŞ\0Ò’@—?3µT². †Ç Ü@Ÿ½Ë@º,³DIË ¾ö«¥   /Ÿ:3ßm(ç”7VdÉÆb2æ,CÌ‰ç¯Q\0ş Š2G âi‡‹/Ú\0)_Yas8ñ>š<7:ö9R(&l-˜ 0¦2^YU 8Aºê¾ÃfÊE^;Ï §†üÄ“êFå¨\"oSyÔ2h‰ú´¤jLK/Áx¿-r.o½.¹ÌÚ2öıU ö)Í­6•^úk]\n¿U˜é®ûw8­ŸÙ\"÷&ö(‰6¦ 58‚ú<Q`…“ ’[&ÚU“>8Â…—4×mm¹¬›,ú?‡Ç7b}lıÿ\nî¤ôéº»à\'åwŒ_˜\n v?C S%%–BéÏ“ ny›½k` ‘¥V%è¼YŞä ÒO.ıáKVÉ-¼uú …p©Î%²Ê U™ˆ` 8ù Ã VüdSFó/jï7\'Î¤× ïíï³Ş%¬g3$¿ ¶;»z3¼j…û0 Ol%Œ òH< °€•´1;ôÃ ù{ ]‚D wÁÃè ­Œıë?á®¤ƒSÈ$¯ gÄï ³£C?\n ÃaÄ µ ÓÛ  %¶¬\n<{;`°ƒ; Ë ŒeWCªI¡´YÌ\"ÿ èŞ•€£+ !µ ì 5×íUMx E×Ûßß rÍW@±mğ	Ç] u`3v 5s  —1 iÆM    á~°÷í ı7Ÿ¦?°¢ÀğxQ²( _  a€±‡ƒÑ;©·	 °ÑyÃå²Âr½¡nÂ ñ8ˆï? -DÛ YX*-À5 Ô ‘Ì7- zÁUlèö 9Ü8\nã{p¼ PW áÄgÏÂ‘ˆ  G 5[‡O!î¶Ù\"	9p;k«E…£ Ûh»‚ºYDÎøyêX0„â¼ &ÊAc Xü(r¸ ®“ìªì^´µ ‘§İ\nÛ%’ºÉ&>ªàs,ãB¸n%o´ˆ‰‡fÎ™Há  %t©~Â\0tıhô xzn¡püSÜ *­rØ¶ ½nûUÇ6x°Ùúñ´áÖtËn‡!â³í¢Ï”rS<FÃ;®%–rg´Ël—çÓTØÎ4W·@ö.I\"kÖl÷ö‘$iÖüjz6¿xC\"D.¼ÑV¨İ\ZØè=\n‚#\\wÇa \r££¦ÃGÑ¾p ¼Àr¥p7S¹HjÇá x ü>¡  RG !ih4¶ZXÜWM¦ò”r@E¢“á \'˜¬’)×5u¿mƒí$  =™@Jk6 šğ˜†_@›F-Í¯˜°ÿª°åbJ{  òÀ…»-4£Ñ ‡Û— }]Ò(­‰iw„^åé _Š¤­Ê‡¿ ','20160411152131')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7401'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Bots
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Special:WhatLinksHere/Template:Curation:NoInteractions
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 170.75.153.73
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+Saved in parser cache with key wikipathways:pcache:idhash:7401-0!*!0!*!*!*!* and timestamp 20160513103230
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7401-0!*!0!*!*!*!*','ÕWmoÛ6 îgÿ\nF@‡mX¬ ÇM\"; 67[ 4‰Ñxë¾\r´t±ˆH¤JRv´ À~Â~ã~Éî$Ùaœ¬]·O Kâ=<ñ{x<_Åa {3®\rè«Ê–•õâÁA|oâaì s¸³ŞÈÄQ4<Š½q9™gÀŞ‰[1ã6[óÚ0œ¶ Ít%é oyÎL¢Ei\rûz¡¬ù†ÙŒ[V()¬Òø\0ì}Åsak¦nšÇ²óÕgäİòE l ¹Z³\\ tC˜¤Ò\Z¤ÍkÆ +V @×ŒË 1ò 1Š`   ¥Ò }.Áô{c¿œôÆ­Ë$çÆœx¥ këvÈ ”n< iúÊ&?(‹Óğ¦yz\rm0BIgôç2å RgämóÚv\0¿ôÖa:ùõ-ÜtNÓvd	C  Q iãy¾å€İ G¯¹å—* ÓR—ñ gœ Â !—  B®Á ƒ½ ¤%.~fj©d]0\\ _p }ö. é²Ì %- øÚ¯–vt ¼|êÌ|·¡œSÜ˜‘% ‹É˜³ 1\'¿F øs(Ê Yˆ§ .¾h HñzÌ\n›Ã‰÷qÔä¹Ñ±Ï‘B1akÄ,€ñ4…”ñÊª Á	ÒU÷ 6S.òÚyÆujÈO<©nT*ò6™G-ƒ–¨OKªÆ°ô ì‰÷Û\"çòÖë‚Ë¬-cß_ aŸÂÜjSé¥¿ö×¥ğ[…™îº‡Óú™-roâh‚h×´£ GPŸ\'\nÌp’ArËD»kÒ G¸ñ’æºÍ-—u ¥“ÿçğøFÌ­ÿ_Â>w ü$ıñ SÃîgˆaª¤ÄT(ıyRÀ’·©\r\\ “ˆ,µ*AçÍö&—~rë _²Jná­Óÿ(„Ku.‘UŞ¨Ê|D ;ÀÉ? ¾°ä\'›4š‘{¿9q&½ŞxoŸõ.a=›!ù…°İÙÕ›áU+¬Ãx<±•0‚Ò#ñ<À VÒÆìĞ ƒæï1t	  Ü  £ ´2ö¯?ş„»’ N!“¼Bœ ¿CÌ ı(8> ‡ [Ô Lo“<”Ø²*ğìí€Á îL,30–5^\r©&…Òf1‹üƒ wzW ®H„Ôb° Ô\\W«šå ´ºŞşş†k¾ ZÛ Ÿp¬z¨ ›±[¨™›¸lŒ±H3n²øğ  ÷ƒ½o÷è¿ù4ı  . %‹‚ğU0  a0ˆ  £wRo  `£ó†Ëe…ézCİ„7âq ß@[ˆ¶)²°TZ€k ¨;\"™oZ$ô‚»ØĞí+r¸q Æ÷ áx7 ®*Â‰Ï…#    j¶ ŸBÜ²Ù\"	9p;{«E…£ ÛÕv	u£ˆœñóÔ±à Šó‚š( -`ñ£Èá\Z¸N²«²{ÑÖNDv;l—Hê&›õQ Ÿc 7Âu{,y£EL<4sÎD\nÏ˜( Kõ   Ğõ£Ñ3àé¹…ÂñOë¾Pi•ÃîjÛÑë¶_ulƒ ›­ O nM ¸ív \">Û.úL)7Äc4¼ãZb*wF»Èvy>M…íLsu dï‚$²fM¹·$I³æWÓ³ùÅ  !rá¶BíöÀFïQ  á¾; ƒh  5 >Šö…û3à ¦+…»™ÊER;  Á à÷	U H E„¤u¢ÑØja±®šLå)Å€ŠD\'Ã\'N0X%S®kê~Û Û	.:z2”Ö  šğ˜†_@›F-Í¯˜°ÿª°åbJ5ƒ yàÂ- Íh´Áaù ¤¯K\Z¥=1íĞ«<½àK‘´Yùğ7','20160514103230')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7401'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Bots
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+USER-AGENT: Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)
+ACCEPT: */*
+ACCEPT-LANGUAGE: ru,by;q=0.7,en;q=0.7,kz;q=0.7,ua;q=0.7,*;q=0.1
+ACCEPT-ENCODING: gzip, deflate
+CONNECTION: close
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 217.69.133.252
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+Saved in parser cache with key wikipathways:pcache:idhash:7401-0!*!0!*!*!*!* and timestamp 20160518023215
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7401-0!*!0!*!*!*!*','ÕWmoÛ6 îgÿ\nV@‡mX¬ Ç#; ¶4[ äÅh¼uß ZºXD$R%);Z `?a¿q¿dw’ì0NÖ®Û§Æˆ%ñ xÏ=<¯â0Š½ × ôUeËÊzñ`?ş`âaì s¸³ŞØÄQ4 ÅŞ¤œÎ3`ïÄ­˜q›­ym N[fº’t·<g&Ñ¢´†}½PÖ|ÃlÆ-+” Vi|\0ö¾â¹°5S7ÍcÙùê3ònù\" ¶€\\­Y. º!LRi\rÒæ5ã‰ +  kÆeŠ y‹ E0 Ri‹>—`ú½‰_N{“Öe’sc¼Rƒµu;d J7 4}eÓ ”ÅixÓ<½6 ¡¤3ús™r ©3ò¶ym;€_zë0şú n:§i;2Ï„¡\0(´ñ<ßrÀn£7ÜòK•‚i©ËøŠ3Î\naŒK†\0!WÈ`ŠÁŞ\0Ò’@ ?3µT². ./¸>{—tYf‰’– |íWK;> ^=uf¾ÛPÎ)nÌÈ’MÄtÂY†˜#Ï_£\0ü9 e,ÄÇ .¾h HñzÌ\n›Ã‘÷qÔô¹Ñ‰Ï‘B1ekÄ,€ñ4…”ñÊª Á	ÒU÷ 6S.òÚyÆujÈ<©nT*ò6™G-ƒ–¨OKªÆ°ô ì‘÷Û\"çòÖë‚Ë¬-cß_ aŸÂÜjSé¥¿ö×¥ğ[…™îºw‡Óú™-roêh‚h×´£ GPŸ\'\nÌp’ArËD»kÒ G¸ñ’æºÍ-—u ¥“ÿçğøFÌ­ÿ_Â>w ü$ıñ SÃîgˆáXI‰©Púó¤€%oS ¸ & YjU‚Î›íM.!ıäÖ ¾b•ÜÂ[§ÿQ —êL\"«¼Q•ùˆ v€Ó0|aÉO6i4ÿ\"÷~sâL{½ÉË½=Ö»„õl†ä ÂvgWo†W­° ãñÄVÂ JÄó\0 XI ³ ? š¿ÇĞ%Hdp <Œ ĞÊØ¿şø îJ:8…Lò\nqFü 1  øQpx  #¶¨-˜Ş&y(±eUàÙÛ ƒ Ü©Xf`,k¼\ZRM\n¥Íb ùûAïä®  ]‘ ©Å`7¨¹®V5Ë hu½½½\r!×| ´¶\r>áXõP 6c·P37!qÙ c‘fÜdñÁ~ î /¿}IÿÍ§é ¬(py¼(Y „¯ƒa8\n¢A   ½“z›p  s.— ¦ëœº	oÌã şp¶ mÇÈÂRi ®! îˆd¾i‘Ğ îbC·¯ÉáÆQ   Ç» uU N|ö, ‹ø`0\n¨Ù:x\nqËf‹<$äÀAîì­  ï·«í êF 9ãg©cÁ% g 5Q \Z[ÀâG‘Ã5pdWe÷¢­ˆ<évØ.‘ÔM6ë£ >Ç2n„ëöXòÆ‹˜xhæœŠ 1Q@—ê\',  ëG£§ÀÓ3 …ãŸÖ}¡Ò*‡İÕ¶£×m¿êØ  6[?6Üš.pÛí0D|¶]ô©Rnˆ‡hxÇµÄTîŒv‘íò|’\nÛ™æê ÈŞ IdÍšro I’fÍ¯Oç ç$BäÂ o…ÚíŞ£  á¾; ƒh š  EûÂı ğ Ó•ÂİLå\"© ‡ƒà	ğû„* ¤\"BÒ:Ñhlµ°XWM¦ò”b@E¢“á \' ¬’)×5u¿mƒí  L ¥5 ‡&<¦á Ğ¦QKó+&ì¿îïo¹8¦šA„<pá–…f4Úà°|	Ò×%Ò8îĞ«<½àK‘´Y¹ÿ ','20160519023215')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7401'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Bots
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.31
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+Saved in parser cache with key wikipathways:pcache:idhash:7401-0!*!0!*!*!*!* and timestamp 20160520123533
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7401-0!*!0!*!*!*!*','ÕWmoÛ6 îgÿ\nF@‡mX¬ ÇM\"; 67[ 4‰Ñxë¾\r´t±ˆH¤JRv´ À~Â~ã~Éî$Ùaœ¬]·O Yâ=<ñ{x<_Åa {3®\rè«Ê–•õâÁA|oâaì s¸³ŞÈÄQ4<Š½q9™gÀŞ‰[1ã6[óÚ0œ¶ Ít%é oyÎL¢Ei\rûz¡¬ù†ÙŒ[V()¬Òø\0ì}Åsak¦nšÇ²óÕgäİòE l ¹Z³\\ tC˜¤Ò\Z¤ÍkÆ +V @×ŒË 1ò 1Š`   ¥Ò }.Áô{c¿œôÆ­Ë$çÆœx¥ këvÈ ”n< iºd“ ”ÅixÓ<½†6 ¡¤3ús™r ©3ò¶ym;€ ½u˜N~} 7Ó´ ™gÂP\0H GÚxo9`7ÈÑknù¥JÁ´Ôe|Å g…0FÈ%C€+d0Å`o\0iI ‹Ÿ™Z*Y  —Ç Ü@Ÿ½Ë@º,³DIË ¾ö«¥   /Ÿ:3ßm(ç 7fdÉÆb2æ,CÌ‰ç¯Q\0ş Š2G âi‡‹/Ú R¼ ³Âæpâ} 5yntìs¤PLØZ 1 `<M!e¼²ª@p‚tÕ}‡Í”‹¼vq\Zò Oª •£Š¼MæQË %êÓ’ª1,½ {âı¶È¹¼õºà2kËØ÷WEØ§0·ÚTzé¯ıu)üVa¦ûŞ¿ÃiıÌ ¹7q´GA´kÚQƒ#¨Ï  f8É ¹e¢İ5éƒ#ÜxIó½Í-—u ¥“ÿçğøFÌ­ÿ_Â>w ü$ıñ SÃîgˆaª¤ÄT(ıyRÀ’·©\r\\ “ˆ,µ*AçÍö&—~rë _²Jná­Óÿ(„Ku.‘UŞ¨Ê|D ;ÀÉ? ¾°ä\'›4š‘{¿9q&½ŞxoŸõ.a=›!ù…°İÙÕ›á·VX‡ñxb+a ¥Gây€	¬¤Ù¡  Íßcè $2¸  F heì_ü	w% œB&y…8#~‡˜  úQp|  #¶¨-˜Ş&y(±eUàÙÛ ƒ Ü™Xf`,k¼\ZRM\n¥Íb ù Aïô®  ]‘ ©Å`7¨¹®V5Ë hu½ıı\r!×| ´¶\r>áXõP 6c·P37!qÙ c‘fÜdñáA î {ßîÑóiú +\n\\ /J  á«`ˆ×h0   ½“z›ğ\0 7\\.+L× ê&¼ ƒøş ÚB´M‘…¥Ò \\C@İ É|Ó\"¡ ÜÅ†n_‘Ã£0¾  Ç» uU N|ö, ‰øpp P³uø â–Í yLÈƒÜÙ[-* }Ø®¶K¨ EäŒŸ§ —Pœ ÔD9hl ‹ E ×Àu’]•İ‹¶v\"ò´Ûa»DR7Ù¬2ø Ë¸ ®ÛcÉ -bâ¡™s&RxÆD ]ªŸ° €®  OÏ- Z÷…J« vWÛ^·ıªc <ØlıxÚpkºÀm·Ã ñÙvÑgJ¹! £á × S¹3ÚE¶Ëói*lgš«[ { $‘5kÊ½}$Iš5¿šÍ/Ş ‘ o´ j· 6z‚à ÷İq DÃè¨éğQ´/ÜŸ /0])ÜÍT.’Úq8 \0¿O¨ Aê(\"$­ ÆV ‹uÕd*O) T$: >q‚Á*™r]S÷Û6ØNpÑÑ“	¤´¦àĞ„Ç4ü Ú4ji~Å„ıWıƒ- Sª DÈ  nYhF£\r Ë— }]Ò(í‰iw„^åé _Š¤ÍÊ‡¿ ','20160521123533')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7401'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Bots
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Special:WhatLinksHere/Template:Curation:MissingXRef
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 65.181.125.103
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+Saved in parser cache with key wikipathways:pcache:idhash:7401-0!*!0!*!*!*!* and timestamp 20160614112850
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7401-0!*!0!*!*!*!*','ÕWmoÛ6 îgÿ\nV@‡mX¬—Ä‰#; 67[ 4‰Ñxë¾\r´t±ˆH¤JRv´ À~Â~ã~Éî$Ùaœ¬]·O Kâ=<ñ{x<_Åa {3®\rè«Ê–•õâıƒøŞÄƒØ+æpg½‘‰£h0Œ½q9™gÀŞ‰[1ã6[óÚ0œ¶ Ít%é oyÎL¢Ei\rûz¡¬ù†ÙŒ[V()¬Òø\0ì}Åsak¦nšÇ²óÕgäİòE l ¹Z³\\ tC˜¤Ò\Z¤ÍkÆ +V @×ŒË 1ò 1Š`   ¥Ò }.Áô{c¿œôÆ­Ë$çÆœx¥ këvÈ ”n< iúÊ&?(‹Óğ¦yz\rm0BIgôç2å RgämóÚv\0¿ôÖa:ùõ-ÜtNÓvd	C  Q iãy¾å€İ G¯¹å—* ÓR—ñ gœ Â !—  B®Á ƒ½ ¤%.~fj©d]0\\ _p }ö. é²Ì %- øÚ¯–vt ¼zêÌ|·¡œSÜ˜‘% ‹É˜³ 1\'¿F øs(Ê Yˆ§ .¾h HñzÌ\n›Ã‰÷qÔä¹Ñ±Ï‘B1akÄ,€ñ4…”ñÊª Á	ÒU÷ 6S.òÚyÆujÈO<©nT*ò6™G-ƒ–¨OKªÆ°ô ì‰÷Û\"çòÖë‚Ë¬-cß_ aŸÂÜjSé¥¿ö×¥ğ[…™îºw‡Óú™-roâh‚h×´£ GPŸ\'\nÌp’ArËD»kÒ G¸ñ’æºÍ-—u ¥“ÿçğøFÌ­ÿ_Â>w ü$ıñ SÃîgˆaª¤ÄT(ıyRÀ’·©\r\\ “ˆ,µ*AçÍö&—~rë ^±Jná­Óÿ(„Ku.‘UŞ¨Ê|D ;ÀÉ? ¾°ä\'›4š‘{¿9q&½ŞøåŞ ë]Âz6Cò a»³«7Ã«VX‡ñxb+a ¥Gây€	¬¤Ù‘  Íßcè $2¸  D heì_ü	w% œB&y…8#~‡˜\rü(8>\n  [Ô Lo“<”Ø²*ğìí€Á îL,30–5^\r©&…Òf1‹üƒ wzW ®H„Ôb° Ô\\W«šå ´ºŞŞŞ†k¾ ZÛ Ÿp¬z¨ ›±[¨™›¸lŒ±H3n²øè  ÷‚—ß¾¤ÿæÓô V ¸<^”,\nÂÃà0< Ãh8  ½“z›ğ\0 7\\.+L× ê&¼ ƒøş ÚB´M‘…¥Ò \\C@İ É|Ó\"¡ ÜÅ†n ÉáÆQ ß „ãİ>uU N|ö, ‰øh P³uô â–Í yLÈ} ¹³·ZT8ú°]m—P7ŠÈ ?O  .¡8/¨‰rĞØ  ?Š ®ë$»*» míDäi·Ãv‰¤n²Y eğ9–q#\\·Ç’7ZÄÄC3çL¤ğŒ‰ ºT?a!\0]?\Z= [( ÿ´î •V9ì®¶ ½nûUÇ¶ÿ`³õãiƒ­é ·İ CÄgÛEŸ)å†xŒ†w\\KLåÎh Ù.Ï§©°i®nì]DÖ¬)÷ö‘$iÖüjz6¿xC\"D.¼ÑV¨İ Øè=\n‚!î»ã0ˆ Ñ°éğQ´/ÜŸ /0])ÜÍT.’Úq¸ < ~ŸP ‚ÔQDHZ\'\Z­  ëªÉTR ¨Ht2xâ ƒU2åº¦î·m°à¢á“	¤´¦àĞ„Ç4ü Ú4ji~Å„ıÃşÁ–‹)Õ \"ä ·,4£Ñ ‡åK¾.i”öÄ´;B¯òô‚/EÒfåÃß','20160615112850')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7401'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Bots
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.34
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+Saved in parser cache with key wikipathways:pcache:idhash:7401-0!*!0!*!*!*!* and timestamp 20160626044436
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7401-0!*!0!*!*!*!*','ÕWmoÛ6 îgÿ\nF@‡mX¬ Ûy‘  [Ú- šÄh¼uß ZºXD$R%);Z `?a¿q¿dw’ì0NÖ®Û§Æˆ%ñ xÏ=<¯â0Š½ × ôUeËÊzñ` 0ñ(öŠ9ÜYolâ(\Z ÅŞ¤œÎ3`ïÄ­˜q›­ym N[fº’t·<g&Ñ¢´†}½PÖ|ÃlÆ-+” Vi|\0ö¾â¹°5S7ÍcÙùê3ònù\" ¶€\\­Y. º!LRi\rÒæ5ã‰ +  kÆeŠ y‹ E0 Ri‹>—`ú½‰_N{“Öe’scN¼Rƒµu;d J7 4}eÓ ”ÅixÓ<½‚6 ¡¤3ús™r ©3ò¶ym;€_zë0şú n:§i;2Ï„¡\0(´ñ<ßrÀn£WÜòK•‚i©ËøŠ3Î\naŒK†\0!WÈ`ŠÁŞ\0Ò’@ ?3µT². ./¸>{—tYf‰’– |íWK;> ^>uf¾ÛPÎ)nÌÈ’MÄtÂY†˜ Ï_£\0ü9 e,Ä§ .¾h HñzÌ\n›Ã‰÷qÔô¹Ñ‰Ï‘B1ekÄ,€ñ4…”ñÊª Á	ÒU÷ 6S.òÚyÆujÈO<©nT*ò6™G-ƒ–¨OKªÆ°ô ì‰÷Û\"çòÖë‚Ë¬-cß_ aŸÂÜjSé¥¿ö×¥ğ[…™îº‡Óú™-roêh‚h×´£ GPŸ\'\nÌp’ArËD»kÒ G¸ñ’æºÍ-—u ¥“ÿçğøFÌ­ÿ_Â>w ü$ıñ SÃîgˆáTI‰©Púó¤€%oS ¸ & YjU‚Î›íM.!ıäÖ ½d•ÜÂ[§ÿQ —ê\\\"«¼Q•ùˆ v€Ó0|aÉO6i4ÿ\"÷~sâL{½ÉŞş>ë]Âz6Cò a»³«7Ã«VX‡ñxb+a ¥Gây€	¬¤Ù¡  Íßcè $2¸  E heì_ü	w% œB&y…8#~‡˜  úQp| \"¶¨-˜Ş&y(±eUàÙÛ ƒ Ü™Xf`,k¼\ZRM\n¥Íb ùÃ ÷ú®  ]‘ ©Å`7¨¹®V5Ë hu½ıı\r!×| ´¶\r>áXõP 6c·P37!qÙ c‘fÜdñá0 ÷ƒ½o÷è¿ù4ı  . %‹‚ğ 8ˆ ‚áp88`ôNêmÂ!6:o¸\\V˜®7ÔMxc  ñ‡{´…h;E –J p\r uG$óM‹„^p  º= ‡ GaüA  ï ÔUE8ñÙ³p,âÃÁQ@ÍÖáSˆ[6[ä1!  rgoµ¨p|¿]m—P7ŠÈ ?O  .¡8/¨‰rĞØ  ?Š ®ë$»*» míDäën‡í Iİd³>Êàs,ãF¸n%o¼ˆ‰‡fÎ™Há   t©~ÂB\0º~4z <=·P8şiİ *­rØ]m;zİö«mğ`³õãi£­é ·İ CÄgÛEŸ)å†xŒ†w\\KLåÎh Ù.Ï¯Sa;Ó\\İ Ù» ‰¬YSîí#IÒ¬ùÕéÙüâ\r‰ ¹ğÆ[¡v{`£÷( pß ‡A4Šš  EûÂı ğ Ó•ÂİLå\"© ‡ƒà	ğû„* ¤\"BÒ:Ñhlµ°XWM¦ò”b@E¢“Ñ \' ¬’)×5u¿mƒí   =™@Jk\n MxLÃ/ M£–æWLØ?è ·\\œRÍ B ¸pËB3\ZmpX¾ éë’FiOœvGèU^ğ¥HÚ¬Üÿ\r','20160627044436')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7401'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Bots
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.66.147
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+Saved in parser cache with key wikipathways:pcache:idhash:7401-0!*!0!*!*!*!* and timestamp 20160706010129
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7401-0!*!0!*!*!*!*','ÕWmoÛ6 îgÿ\nV@‡mX¬—Äq\"; 67[ 4‰Ñxë¾\r´t±ˆH¤JRv´ À~Â~ã~Éî$Ùaœ¬]·O Kâ=<ñ{x<_Åa {3®\rè«Ê–•õâıƒøŞÄƒØ+æpg½‘‰£hp {ãr2Ï€½ ·bÆm¶æµa8m šéJÒ=Şòœ™D‹Ò\ZöõBYó\r³ ·¬PRX¥ñ ØûŠçÂÖLİ4eç«ÏÈ»å‹ Ø rµf¹0è†0I¥5H›×Œ\'V¬ €® —)bä-b Á . J¥-ú\\‚é÷Æ~9é[—IÎ9ñJ\rÖÖíA(İx Òô•M~P §áMóô\ZÚ`„’ÎèÏeÊ-¤ÎÈÛæµí\0~é­Ãtòë[¸éœ¦íÈ< † @¢8ÒÆó|Ë »A^sË/U\n¦¥.ã+Î8+„1B.  „\\!ƒ) { HK ]üÌÔRÉº`¸<¾à úì] Òe™%JZ.ğµ_-íè8xõÔ™ùnC9§¸1#K6 “1g bN< ğçP”9² O;\\|Ñ.âõ˜ 6‡ ïã¨És£cŸ#…bÂÖ ‰Y\0ãi\n)ã•U ‚ ¤«î;l¦\\äµóŒëÔŸxRİ¨ Uäm2Z -QŸ–Taé%Ø ï·EÎå­× —Y[Æ¾¿*Â>…¹Õ¦ÒKí¯Ká·\n3İuï §õ3[äŞÄÑ  Ñ®iG\r >O ˜á$ƒä–‰v×¤ pã%Íu›[.ë&J\'ÿÏáñ˜ [ÿ¿„;!}:ï.øIú ã ¦ ‡İÏ ÃTI‰©Púó¤€%oS ¸ & YjU‚Î›íM.!ıäÖ ¼b•ÜÂ[§ÿQ —ê\\\"«¼Q•ùˆ v€“0|aÉO6i4ÿ\"÷~sâLz½ñË½=Ö»„õl†ä ÂvgWo†W­° ãñÄVÂ JÄó\0 XI ³¡  Íßcè $2¸  D heì_ü	w% œB&y…8#~‡˜ \rı(8 †ƒˆ-j ¦·I JlY xövÀ` w&–  Ë\Z¯†T“Bi³˜EşAĞ;½+ GW$Bj1Ø\rj®«UÍò Z]oooCÈ5_ ­mƒO8V=ÔÍØ-ÔÌMH\\6ÆX¤ 7Y<< Â½àå·/é¿ù4ı  . %‹‚ğ0  ‡A „Ñ1£wRo  `£ó†Ëe…ézCİ„7âq ß@[ˆ¶)²°TZ€k ¨;\"™oZ$ô‚»ØĞí!9Ü8\nã{p¼Û§®*Â‰Ï…#  ÷ j¶†O!nÙl‘Ç„Üw;{«E…£ ÛÕv	u£ˆœñóÔ±à Šó‚š( -`ñ£Èá\Z¸N²«²{ÑÖNDv;l—Hê&›õQ Ÿc 7Âu{,y£EL<4sÎD\nÏ˜( Kõ   Ğõ£Ñ3àé¹…ÂñOë¾Pi•ÃîjÛÑë¶_ulû 6[?6Øš.pÛí0D|¶]ô™RnˆÇhxÇµÄTîŒv‘íò|š\nÛ™æê ÈŞ IdÍšro I’fÍ¯¦gó‹7$BäÂ m…ÚíŞ£ 8Â}w  Ñ :j:| í ÷gÀ LW\nw3•‹¤v î O€ß\'T u  ’Ö‰Fc«…Åºj2•§  *  8Á`•L¹®©ûm l\'¸èèÉ RZSphÂc\Z~ m\Zµ4¿bÂşaÿ`ËÅ”j  òÀ…[ šÑhƒÃò%H_—4J{bÚ ¡WyzÁ—\"i³òáo','20160707010129')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7401'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/Bots
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.157
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:d4c7a4d025cfe1a4c6812d9ebfd0d7eb:0)
+Saved in parser cache with key wikipathways:pcache:idhash:7401-0!*!0!*!*!*!* and timestamp 20160728050124
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:7401-0!*!0!*!*!*!*','ÕWmoÛ6 îgÿ\nV@‡mX¬—Äµ#; ¶4[ äÅh¼uß ZºXD$R%);Z `?a¿q¿dw’ì0NÖ®Û§Æˆ%ñ xÏ=<¯â0Š½ × ôUeËÊzñşAüÁÄƒØ+æpg½±‰£h0Š½I9gÀŞ‰[1ã6[óÚ0œ¶ Ít%é oyÎL¢Ei\rûz¡¬ù†ÙŒ[V()¬Òø\0ì}Åsak¦nšÇ²óÕgäİòE l ¹Z³\\ tC˜¤Ò\Z¤ÍkÆ +V @×ŒË 1ò 1Š`   ¥Ò }.Áô{ ¿œö&­Ë$çÆ y¥ këvÈ ”n< iúÊ¦?(‹Óğ¦yz m0BIgôç2å RgämóÚv\0¿ôÖa:ıõ-ÜtNÓvd	C  Q iãy¾å€İ Go¸å—* ÓR—ñ gœ Â !—  B®Á ƒ½ ¤%.~fj©d]0\\ _p }ö. é²Ì %- øÚ¯–v| ¼zêÌ|·¡œSÜ˜‘%›ˆé„³ 1G¿F øs(Ê Yˆ;\\|Ñ.âõ˜ 6‡#ïã¨és£ Ÿ#…bÊÖ ‰Y\0ãi\n)ã•U ‚ ¤«î;l¦\\äµóŒëÔ yRİ¨ Uäm2Z -QŸ–Taé%Ø#ï·EÎå­× —Y[Æ¾¿*Â>…¹Õ¦ÒKí¯Ká·\n3İuï §õ3[äŞÔÑ  Ñ®iG\r >O ˜á$ƒä–‰v×¤ pã%Íu›[.ë&J\'ÿÏáñ˜ [ÿ¿„;!}:ï.øIú ã ¦ ‡İÏ Ã±’ S¡ôçI KŞ¦6p\rL\"²Ôª 7Û›\\BúÉ­?xÅ*¹…·Nÿ£ .Õ™DVy£*ó  ì\0§ÿ`øÂ’ŸlÒhşEîıæÄ™öz“—{{¬w	ëÙ É/„íÎ®Ş ¯Za Æã‰­„ ” ‰ç &°’6fC? š¿ÇĞ%Hdp <ˆ ĞÊØ¿şø îJ:8…Lò\nqFü 1 \rı(8 †ƒˆ-j ¦·I JlY xövÀ` w*–  Ë\Z¯†T“Bi³˜EşAĞ;¹+ GW$Bj1Ø\rj®«UÍò Z]oooCÈ5_ ­mƒO8V=ÔÍØ-ÔÌMH\\6ÆX¤ 7Y<< Â½àå·/é¿ù4ı  . %‹‚ğu0ŒFÁ  £ Fï¤Ş&<ÀFçœËe…é:§nÂ ó8ˆ?Ü£-DÛ1²°TZ€k ¨;\"™oZ$ô‚»ØĞíkr¸q Æ  ÂñnŸºª \'>{ E<Ü  Ôl\rŸBÜ²Ù\" 	¹ï wöV‹\nÇ÷ÛÕv	u£ˆœñ³Ô±à Š³‚š( -`ñ£Èá\Z¸N²«²{ÑÖNDt;l—Hê&›õQ Ÿc 7Âu{,yãEL<4sNE\nÏ˜( Kõ   Ğõ£ÑSàé™…ÂñOë¾Pi•ÃîjÛÑë¶_ulû 6[?6Øš.pÛí0D|¶]ô©Rnˆ‡hxÇµÄTîŒv‘íò|’\nÛ™æê ÈŞ IdÍšro I’fÍ¯Oç ç$BäÂ o…ÚíŞ£  á¾; ƒh š  EûÂı ğ Ó•ÂİLå\"© ‡ûÁ à÷	U H E„¤u¢ÑØja±®šLå)Å€ŠD\'ƒ\'N0X%S®kê~Û Û	.\Z=™@Jk\n MxLÃ/ M£–æWLØİ?ØrqL5ƒ yàÂ- Íh´Áaù ¤¯K\Z¥=qÜ ¡WyzÁ—\"i³rÿ7','20160729050124')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[Bots]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '7401'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

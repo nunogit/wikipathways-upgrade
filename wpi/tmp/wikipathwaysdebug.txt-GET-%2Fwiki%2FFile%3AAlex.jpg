@@ -1,0 +1,948 @@
+
+
+Start request GET /wiki/File:Alex.jpg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+ExifBitmapHandler::isMetadataValid: back-compat version
+RepoGroup::findFile: got File:Alex.jpg from process cache
+ExifBitmapHandler::isMetadataValid: back-compat version
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.66
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg does not exist.
+BitmapHandler::doTransform: creating 200x200 thumbnail at /tmp/transform_34bf21dd3706-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+DatabaseBase::query: Writes done: DELETE FROM `objectcache` WHERE (exptime >= '2015-05-30 15:05:42') AND (exptime < '20150530162138') AND keyname IN ('wikipathways:pcache:idhash:33417-0!*!0!!*!*!*','wikipathways:pcache:idoptions:33417','wikipathways:pcache:idhash:7538-0!*!0!!en!*!*','wikipathways:pcache:idoptions:7538','wikipathways:pcache:idhash:7191-0!*!0!*!*!*!*','wikipathways:pcache:idoptions:7191') 
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:18246-0!*!*!*!*!*!* and timestamp 20150530162138
+ExifBitmapHandler::isMetadataValid: back-compat version
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '18246'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Alex.jpg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+ExifBitmapHandler::isMetadataValid: back-compat version
+RepoGroup::findFile: got File:Alex.jpg from process cache
+ExifBitmapHandler::isMetadataValid: back-compat version
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.79
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg does not exist.
+BitmapHandler::doTransform: creating 200x200 thumbnail at /tmp/transform_162950003535-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:18246-0!*!*!*!*!*!* and timestamp 20150712164601
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:18246-0!*!*!*!*!*!*','uTínÚ0 íï<…›Ÿ“èò ”šiRÅºT\n lûíÆw‰Gb[¶ÓÂªJ{„=ãd¾ Ú\0   İsïÍ=ç {Fã„†sf,˜YítíBšvé“¥=\ZVKX»phi: Ğ0øpŞéà  çsRŠJ8b@+ã‚¹\Z•µÊ a… N¤â@2UKGIô>šÏaj   ;NN^“•uÿµf’ !³²öiVü l™DW—q/!÷  6XB¥Kß‹0“× H÷Ÿ¼±È °4M­P’pĞ®ÀÄn Ü¬5øè  İHB~Ô2s˜Õf t: ƒ­  ö\08Ú>?cY äQ¸‚¬`ãÿ¬„f®xd Ku RÁ f \Z ’n¿ ¿{ı ¤éDåçc•&I ÷¢Ë8‰ûİ~  |).#îúÍÜ2™×,‡[!W6 2\ZÑ§gÅ  y re ´ ×)\\	ûÆ)\r?‹ èu	ë‹Ÿ:Ç` [ µl*wê¶ãI+>á-äÒ “Ê ×Îö ªğu `&+f\ZEmãHêfíÀHV O€VœH¡œo1ö\\@³§pxO£á®f,8¼ !¡;õ…•%˜ÍAt ŒO T­ş8÷Tñº„ãi·ÑEf„vm,}ÅÜæ°¬÷ Mı	8R õÜ Á±RmŠW øÎŒ 2?Šî˜ ë|Ã…ÛAKµ Äw$Q¬¹Q\ZŒ;° V-g£ñrz‹6ğZ„Ã Óìü¸÷·%şúQ” Ò+Œ&Ş6gí;äÌ¯‹Ãz®J‘mZ\rÓè$ñ:ÃË\0ø‰#ÒŞI®ç¤$gfó‰9öUóCC&ƒ“ 4TsÈ±àí70¶1EsÓÅ ı‹î å Säİ¢Ü:‰M4Ùçù+C î0ŠÖ )é˜vVò)ËE¶ ÿù ','20150713164601')
+ExifBitmapHandler::isMetadataValid: back-compat version
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '18246'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Alex.jpg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+ExifBitmapHandler::isMetadataValid: back-compat version
+RepoGroup::findFile: got File:Alex.jpg from process cache
+ExifBitmapHandler::isMetadataValid: back-compat version
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.73.179
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg does not exist.
+BitmapHandler::doTransform: creating 200x200 thumbnail at /tmp/transform_6fa13d8950a4-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:18246-0!*!*!*!*!*!* and timestamp 20150722103250
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:18246-0!*!*!*!*!*!*','uTaoÚ0 íg~…›“èœ (5Ó¤Šu © $ØöÙMn‰Gb[¶ÓÂªJû	ûû%ó hCè\0)èŞİåŞ»gÏY ±`Á 3¯œ®\\Àâ {²¬Ï‚r   Œ,‹‡C t>œw»¤s ‹ )D) 1 •q…\Z•€µÊ a…ƒ”H• IT% #ô}HëÏqj   o\'G¯ÉÊº¿¿ÿÀFs™ !“¢òiVü l Ñ«Ë° ‘û­ ÛYA© ß‹p“U%H÷Ÿ¼‰Èr°ÔM­P’¤ ]‰=Ú¹ÙhğÑ  º–„ü¨dâ0«É¤Óí~ììäXò ÀÑ ù	Or Âåd\r[ÿg-4wù#ßZ¦k‰4ç6gá0ê\rºôüİë— M\'J? /5‰hØ§—Q Ò8êS‚/Åe„=¿™[.³Šgp+äÚ #Î({zöXè±±—!SF@  ¸Ná\n8ì4ŒYğY À® Ø\\üÔ   ØºÕ²®Ü«ÛŒGø4m — ˜–~¸f¶7P‰¯[ 7I>×(j GR7  Fò¢= Zq*=†r¾ÅØ{r	õ‚Ñ=££}ÍD¤ğ „„îÔ ^ `¶GÑ	ğtê lôÇ¹g*­\nhO»‹. #´kbñ+æ¶Çeı hæO@K!Ôsw \'J5)^yà;7RÈ¬ İ3kë|“\n·‡Vj\rˆïI¢X £4 wd ¬ZÍÇ“Õì màµ F/¦Ùûñà=oKü\r(†ñ F#o›³æ ræ×•Âf¡\n‘l \rcz’xàe\0é‰#âşI®ç¤dÊÍö wü«N\r \rO\nĞPõ!Ç‚c¶ßÀØÚ õM ^ .z/”ÇxN‘wƒrã$ÖÑèç¯ 6ºÃ(Z¬¤ãBÚy‘Îx&’øÏÿ\0','20150723103250')
+ExifBitmapHandler::isMetadataValid: back-compat version
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '18246'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Alex.jpg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+ExifBitmapHandler::isMetadataValid: back-compat version
+RepoGroup::findFile: got File:Alex.jpg from process cache
+ExifBitmapHandler::isMetadataValid: back-compat version
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.64.100
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg does not exist.
+BitmapHandler::doTransform: creating 200x200 thumbnail at /tmp/transform_7857d6e847b3-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:18246-0!*!*!*!*!*!* and timestamp 20150908130745
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:18246-0!*!*!*!*!*!*','uTaoÚ0 íg~…›“èœ (˜iRÅº  	¶}vã[â‘Ø‘í´°ªÒ~Â~ã~É| Ú\0   İ»»Ü{÷ì9 # ,¸±`æ•++ °¸Ã,ë² XÁÆ CËâ~Ÿ ­ —í6iİÁãbArYHG ”Ú¸ÖÂ?NÀZmÈƒ´Ò J  ‰®”c„¾ iı9NMAá§ÉÑk²¶îïï?°)¹ Dª$¯|š•¿\0[Ftp v#r¿u`[+(ÊÜ÷\"Ü¤U Êı\'o,Ó ¬#uS+µ\" J—ab‡¶n7%øè ²–„ü¨Tâ0«É¤ÕnlíäXò ÀÑ ù	O2 Òed\r[ÿg-Kî²G¾µ¬¬A&EÆmÆÂ~Ôéµéå»×/AšN ~>^”$¢a— h?Œéu§Kğ¥¸Œ°ã73å*­x\nS©Ö6 rFÙÓ³ÇB¼ ©6 š\0ÅuJ—Ãa§aÌ‚Ï2 v“Ãæêg™b°‡­OZÖ•{u›ñ¨ Ÿˆ ríIá‡kf{  øº%p“dó EmâHêvãÀ(ŸN€Vœ(¡œo1ö\\B½§`xÏèp_3– Ş€ĞşÂó Ìö(: .& ŠFœ{¦E•Ãé´»è21²tM,~ÅÜö¸¬û Íü	8Q õÜ Á±ÖMŠ  |çFI•D÷ÌNu¾ Òí¡•^ â{’(ÖÂè Œ;² V­æ£ñj6E x-‚á‹iö~<xÏÛ =J£~<ÀhämsÑ¼C.üº l :—É¶Ñ0¦g‰7	^  Î  wÏr=\'­ 7ÛOÜñ¯¥86dÔ?+@CÕ‡  Ù~ ckSÔ7]xÕ»ê¼P á9EŞ\rÊ“XG£C¿2$Úè £hı‘VKeç¹˜ñT&;ñŸÿ ','20150909130745')
+ExifBitmapHandler::isMetadataValid: back-compat version
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '18246'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Alex.jpg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+ExifBitmapHandler::isMetadataValid: back-compat version
+RepoGroup::findFile: got File:Alex.jpg from process cache
+ExifBitmapHandler::isMetadataValid: back-compat version
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg does not exist.
+BitmapHandler::doTransform: creating 200x200 thumbnail at /tmp/transform_411e1dc06330-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:18246-0!*!*!*!*!*!* and timestamp 20151202052639
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:18246-0!*!*!*!*!*!*','uTÛn\Z1 Í3_áìc%Ò½\0 SUŠhZ  AÛgg=İuÙµ-Û›@£Hı„~c¿¤ ’ R@Z4gfvÎ™cÏi Ó`ÁŒ 3¯œ®\\@“ }²´Kƒr    -Mú}\Z´>\\¶Û¤u ‹ )D) 1 •q­…\Z•‚µÊ a… N¤â@RUIGIø>\nëÏqj   ;M_“•uÿf’ !Ó¢òiVü l ‡ƒë¨ “û­ ÛZA© ß‹0“U%H÷Ÿ¼±Èr°ÔM­P’pĞ.ÇÄNØºİhğÑ  º–„ü¨dê0«É¤ÕnlíäX² ÀÑ ù)Ks Âåd\r[ÿg-4sù#ÛZªk\n3›Ó¨ wzíğòİë— M\'J? +5‰Ã¨ Åa vã^2 øR\\FÔñ›™2™U,ƒ©k   \réÓ³Ç\"¼ ™2 š@ˆë ®€ÃN£„ ŸE ô¦€ÍÕOa°‡­OZÖ•{u›ñ¸ Ÿğ ríIé‡kf{ •øº%0“æs¢6q$u»q`$+N\'@+N¤ÇPÎ· {O.¡ŞS0¼§áp_3  Ş€ĞúÂŠ Ìö(: Æ\' ÊFœ{¦xUÀé´»è25B»&–¼bn{\\Ö}fş œ(„zîàX©&Å ¾3#…ÌN¢{f§:ßráöĞJ­ ñ=I ka” ãìU«ùh¼šMÑ ^‹`øbš½  Şó¶Ä_/ ã~2ÀhìmsÑ¼C.üº8l ª é¶Ñ0	Ï oR¼ €Ÿ9\"éåzNJrf¶Ÿ˜c_5?6dÜ?+@CÕ‡  Ù~ ckSÔ7]tÕ»ê¼P á9EŞ\rÊ“XGãC¿2 Úè £hı‘’	iç Ÿ±L¤;ñŸÿ ','20151203052639')
+ExifBitmapHandler::isMetadataValid: back-compat version
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Alex
+
+Start request GET /wiki/File:Alex.jpg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+ExifBitmapHandler::isMetadataValid: back-compat version
+RepoGroup::findFile: got File:Alex.jpg from process cache
+ExifBitmapHandler::isMetadataValid: back-compat version
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.66.151
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg does not exist.
+BitmapHandler::doTransform: creating 200x200 thumbnail at /tmp/transform_171fb8027d5f-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:18246-0!*!*!*!*!*!* and timestamp 20151217082137
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:18246-0!*!*!*!*!*!*','uTÛn\Z1 Í3_áìc%Ò½p‹©*E4-H  í³³îºìÚ–íM Q¤~B¿±_RÏ É ) -š33;çÌ±ç4Ši°`Æ‚™WNW. I‡>YÚ¥A¹‚ †–&ƒ \rZ .ÛmÒºƒÇÅ‚ ¢  ĞÊ¸ÖÂ?JÁZeÈƒ°Â \'Rq ©ª¤£$| …õç85 	†&Ç¯ÉÊº¿¿ÿÀF3É‰iQù4+~ ¶ŒÃë~ÔÉıÖm­ Ô…ïE˜Éª ¤ûOŞXd9XGê¦V(I8h—cb\'lİn4øè  ]KB~T2u˜ÕdÒj·?¶vr,Ù àh‡ü”¥9Gár²†­ÿ³ š¹ü‘m-Õ5H Ï™Íi4ˆ;½vxùîõK¦ ¥Ÿ•šÄaÔâ¨  â(é |).#êøÍL™Ì*–ÁTÈµ\r†Œ†ôéÙc‘ÇF^†L  M Äu\nWÀa§QBƒÏ¢\0zSÀæê§Î0ØÃÖ\'-ëÊ½ºÍxÜˆOx é{`RúášÙŞ@%¾n	Ì¤ù\\£¨M Iİn  ÉŠÓ	ĞŠ é1”ó-ÆŞ“K¨÷  ïi8Ü×Œ ‡7 $t§¾°¢\0³=Šñ‰ƒ²Ñ ç)^ p:í.ºLĞ®‰%¯˜Û —u_ ™? \'\n¡»#8VªIñÚ ß™‘Bf\'Ñ=³So¹p{h¥Ö€ø$Šµ0JƒqGöÀªÕ|4^Í¦h ¯E0|1ÍŞ ïy[â¯ †ñ ¹ÆhìmsÑ¼C.üº8l ª é¶Ñ0	Ï oR¼ €Ÿ9\"éåzNJrf¶Ÿ˜c_5?6d<8+@CÕ‡  Ù~ ckSÔ7]tÕ»ê¼P á9EŞ\rÊ“XGãC¿2 Úè £hı‘’	iç Ÿ±L¤;ñŸÿ ','20151218082137')
+ExifBitmapHandler::isMetadataValid: back-compat version
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '18246'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Alex.jpg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+IF-MODIFIED-SINCE: Thu, 17 Dec 2015 08:21:39 UTC
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+ExifBitmapHandler::isMetadataValid: back-compat version
+RepoGroup::findFile: got File:Alex.jpg from process cache
+ExifBitmapHandler::isMetadataValid: back-compat version
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg does not exist.
+BitmapHandler::doTransform: creating 200x200 thumbnail at /tmp/transform_158a8db84b47-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:18246-0!*!*!*!*!*!* and timestamp 20160204163558
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:18246-0!*!*!*!*!*!*','uTínÚ0 íoÂÍÏItù\0JÍ4©bİ@* 	¶ıvã»Ä#±-ÛiaU¥=ÂqO2ß\0m    İsïÍ=ç {N£˜  f,˜yåtå šôè“¥}\Z”+Ø¸`di2 Ò óá¼Û%;x\\,H!Jáˆ ­Œë,üÓ¨ ¬U†< + p\"  ’ªJ:JÂ÷QXS3`X;9~MVÖııı 6šIN„L‹Ê§Yñ °e ^]Fı˜Üo ØÎ\nJ]ø^„™¬*AºÿäMD–ƒu¤nj…’„ƒv9&öÂÎÍFƒ>\0Ñµ$äG%S‡YM&n÷cg\'Ç’=\0vÈOYš y .\'kØú?k¡™Ë ÙÖR]ƒTğœÙœFÃ¸7è†çï^¿ i:QúùX©I Fƒ0 {Ñ é÷‡ _ŠËˆz~3·Lf ËàVÈµ\rFŒ†ôéÙc‘ÇÆ^†L  M Äu\nWÀa§QBƒÏ¢\0z]Àæâ§Î08ÀÖ­–uå^İf<nÄ§¼\\z`ZúášÙŞ@%¾n	Ì¤ù\\£¨M Iİl  ÉŠö hÅ©ô Êù cïÉ%Ô{\nF÷4 ík&‚Ã   ºS_XQ€Ù E\'ÀøÔAÙèsÏ ¯\nhO»‹.S#´kbÉ+æ¶Çeı hæO@K!Ôsw \'J5)^yà;3RÈ¬ İ3kë|Ã…ÛC+µ Ä÷$Q¬…Q\ZŒ;² V­æãÉjv‹6ğZ £ Óìıxğ·%ş a  “+ŒÆŞ6gÍ;äÌ¯‹Ãf¡\n‘n \r“ğ$ñ:ÅË\0ø‰#’şI®ç¤$gfû‰9öUócCÆÃ“ 4T}È±à˜í70¶6E}ÓE ƒ‹Ş å1Säİ Ü8‰u4>äù+C î0ŠÖ +é˜v^ğ ËDº ÿù ','20160205163558')
+ExifBitmapHandler::isMetadataValid: back-compat version
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '18246'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Alex.jpg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+IF-MODIFIED-SINCE: Thu, 04 Feb 2016 16:35:59 UTC
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+ExifBitmapHandler::isMetadataValid: back-compat version
+RepoGroup::findFile: got File:Alex.jpg from process cache
+ExifBitmapHandler::isMetadataValid: back-compat version
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg does not exist.
+BitmapHandler::doTransform: creating 200x200 thumbnail at /tmp/transform_52dc109f248d-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:18246-0!*!*!*!*!*!* and timestamp 20160206150311
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:18246-0!*!*!*!*!*!*','uTaoÚ0 íg~…›“èœ (5Ó¤Šu © $ØöÙo‰GbG¶ÓÂªJû	ûû%ó hCè\0)èŞİåŞ»gÏY ±`Á 3¯\\Y¹€Å=ödYŸ Å\n6. Y  ‡,è|8ïvIç    ’ËB:b ÔÆu şit ÖjC ¤•  QZ\0It¥ #ô}HëÏqj\n\n o\'G¯ÉÚº¿¿ÿÀ¦äJ ©’¼òiVş l Ñ«Ë° ‘û­ ÛYAQæ¾ á&­\nPî?y ™f` ©›Z©  Pº  {´s³)ÁG €”µ$äG¥ ‡YM&n÷cg\'Ç’?\0vÈOx’ y”.#kØú?kYr—=ò­ee\r2)2n3  £Ş KÏß½~	Òt²ğóñ¢$ \r 4¢ƒ°Oã0$øR\\FØó›¹å*­x\n·R­m0âŒ²§g…  { Rm$4 Šë”.‡ÃNÃ˜ Ÿe ì:‡ÍÅÏ2Åà\0[·ZÖ•{u›ñ¨ ŸŠ réiá‡kf{  øº%p“dó EmâHêfãÀ(·\'@+N•ÇPÎ· {O.¡ŞS0ºgt´¯™H o@HèNáy f{ \0 S E£?Î=Ó¢Ê¡=í.ºLŒ,] ‹_1·=.ë¿@3 Z\n¡»#8ÑºIñÊ ß¹QR¥­èY[ç !İ Zé5 ¾\'‰b-Œ.Á¸#{`Õj>¬f·h ¯E0z1ÍŞ ïy[âo@i4Œ¯0\ZyÛœ5ï3¿. ›…Îe²m4ŒéIâu‚— ˆ GÄı“\\ÏI+ÁÍö wük)\r \rO\nĞPõ!Ç‚c¶ßÀØÚ õM ^ .z/”ÇxN‘wƒrã$ÖÑèç¯ ‰6ºÃ(Z¬•ãRÙy.f<•ÉNüç','20160207150311')
+ExifBitmapHandler::isMetadataValid: back-compat version
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '18246'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Alex.jpg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+IF-MODIFIED-SINCE: Sat, 06 Feb 2016 15:03:12 UTC
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+ExifBitmapHandler::isMetadataValid: back-compat version
+RepoGroup::findFile: got File:Alex.jpg from process cache
+ExifBitmapHandler::isMetadataValid: back-compat version
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg does not exist.
+BitmapHandler::doTransform: creating 200x200 thumbnail at /tmp/transform_66822f1473de-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:18246-0!*!*!*!*!*!* and timestamp 20160208231329
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:18246-0!*!*!*!*!*!*','uTÛn\Z1 Í3_áìc%Ò½\0 SUŠhZ  AÛgg=İuÙµ-Û›@£Hı„~c¿¤ ’ R@Z4gfvÎ™cÏi Ó`ÁŒ 3¯œ®\\@“ }²´Kƒr    -Mú}\Z´>\\¶Û¤u ‹ )D) 1 •q­…\Z•‚µÊ a… N¤â@RUIGIø>\nëÏqj   ;M_“•uÿf’ !Ó¢òiVü l ‡ƒë¨ “û­ ÛZA© ß‹0“U%H÷Ÿ¼±Èr°ÔM­P’pĞ.ÇÄNØºİhğÑ  º–„ü¨dê0«É¤ÕnlíäX² ÀÑ ù)Ks Âåd\r[ÿg-4sù#ÛZªk\n3›Ó¨ wzíğòİë— M\'J? +5‰Ã¨ Æa?N¢$  |).#êøÍL™Ì*–ÁTÈµ\r†Œ†ôéÙc‘ÇF^†L  M Äu\nWÀa§QBƒÏ¢\0zSÀæê§Î0ØÃÖ\'-ëÊ½ºÍxÜˆOx ¹öÀ¤ôÃ5³½J|İ ˜Ió¹FQ›8’ºİ80’ §   \'Òc(ç[Œ½\'—Pï) ŞÓp¸¯   o@HèN}aE f{   ã  e£?Î=S¼*àtÚ]t™\Z¡] K^1·=.ë¾@3 N B=wGp¬T“âÀ ß™‘Bf\'Ñ=³So¹p{h¥Ö€ø$Šµ0JƒqGöÀªÕ|4^Í¦h ¯E0|1ÍŞ ïy[â¯ †q? `4ö¶¹hŞ! ~] 6 UˆtÛh˜„g‰7)^ ÀÏ ‘tÏr=\'%93ÛOÌ±¯š  2îŸ  ¡êC Çl¿±µ)ê›.ºê]u^(ğœ\"ï åÆI¬£ñ!Ï_  mt‡Q´şHIÇ„´ó‚ÏX&ÒøÏÿ\0','20160209231329')
+ExifBitmapHandler::isMetadataValid: back-compat version
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '18246'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Alex.jpg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+IF-MODIFIED-SINCE: Mon, 08 Feb 2016 23:13:31 UTC
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+ExifBitmapHandler::isMetadataValid: back-compat version
+RepoGroup::findFile: got File:Alex.jpg from process cache
+ExifBitmapHandler::isMetadataValid: back-compat version
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg does not exist.
+BitmapHandler::doTransform: creating 200x200 thumbnail at /tmp/transform_1eeeb0179f12-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:18246-0!*!*!*!*!*!* and timestamp 20160214134701
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:18246-0!*!*!*!*!*!*','uTínÚ0 íoÂÍÏItù\0JÍ4©bİ@* 	¶ıvã»Ä#±-ÛiaU¥=ÂqO2ß\0m    İsïÍ=ç {N£˜  f,˜yåtå šôè“¥}\Z”+Ø¸`di2 Ò óá¼Û%;x\\,H!Jáˆ ­Œë,üÓ¨ ¬U†< + p\"  ’ªJ:JÂ÷QXS3`X;9~MVÖııı 6šIN„L‹Ê§Yñ °e ^]Fı˜Üo ØÎ\nJ]ø^„™¬*AºÿäMD–ƒu¤nj…’„ƒv9&öÂÎÍFƒ>\0Ñµ$äG%S‡YM&n÷cg\'Ç’=\0vÈOYš y .\'kØú?k¡™Ë ÙÖR]ƒTğœÙœFÃ¸7è†çï^¿ i:QúùX©I Fƒ0zQÒ» #‚/ÅeD=¿™[&³Šep+äÚ #FCúôì±Ècc/C¦Œ€& â:…+à°Ó(¡ÁgQ\0½.`sñSg  `ëVËºr¯n3 7âSŞ@.=0-ıpÍlo  _· fÒ|®QÔ&¤n6 ŒdE{ ´âTz å|‹±÷ä ê= £{\Zö5 Áá\r 	İ©/¬(Àl¢ `|ê lôÇ¹gŠW ´§İE—© Ú5±ä sÛã²ş 4ó\' ¥ ê¹;‚ ¥š ¯<ğ )dÖŠî™µu¾áÂí¡•Z â{’(ÖÂ(\rÆ Ù «Vóñd5»E x-‚Ñ‹iö~<xÏÛ ƒ0Œ‡É Fco›³æ ræ×Åa³P…H·†Ix’xâe\0üÄ Iÿ$×sR’3³ıÄ ûªù±!ãáI \Zª>äXpÌö  [›¢¾é¢‹ÁEï…ò Ï)ònPnœÄ:\Z òü•!ĞFw Eë•tLH;/øŒe\"İ‰ÿü ','20160215134701')
+ExifBitmapHandler::isMetadataValid: back-compat version
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '18246'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Alex.jpg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Googlebot-Image/1.0
+IF-MODIFIED-SINCE: Sun, 14 Feb 2016 13:47:02 UTC
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+ExifBitmapHandler::isMetadataValid: back-compat version
+RepoGroup::findFile: got File:Alex.jpg from process cache
+ExifBitmapHandler::isMetadataValid: back-compat version
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.75.37
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg does not exist.
+BitmapHandler::doTransform: creating 200x200 thumbnail at /tmp/transform_4cd9f7fc4e6a-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:18246-0!*!*!*!*!*!* and timestamp 20160217042229
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:18246-0!*!*!*!*!*!*','uTínÚ0 íoÂÍÏIt‰ù(˜iRÅºQ© $ØöÛï Ä¶l§…U•ö {Æ=É| ´ :@\nºçŞ›{Î=öŒ%”Esn ØYåMå#Öé²\'Çz,*—°öÑÈ±Î`À¢Ö‡óv›´îàq>\'…,¥\' Œ¶¾5 O«SpN[ò ô ˆÒ Hª+å ‰ß\'qı9LÍ@åÇÉô5Y;ÿ÷÷ X ® ‘*-ªæä/À–4 ^&=Jî7 \\k	¥)B/ÂmV• üò&2ËÁyR7uR+\"Àø  »qëzm D €˜Z ò£R©Ç¬&“V»ı±µ•cÁ \0GÛç§<Í<JŸ“ lÂŸ•4Üç|ã˜©A&EÎ]Î’ íöÛñù»×/Aš^–a>^\ZBã¤ Óä2îRJ‡ _ŠËHºa3·\\e ÏàVª•‹FœÅìé9`IÀÆA†L[	M ÆuJ_À~§I‡EŸe ìª€õÅO“a°­ZÖ•;u›qÚˆßˆ r €›2 ×Ì  *ñu à6Íg EmâHêzíÁ*^ O€V¼Q C9ßb <¹€zOÑèÅ£]ÍD\nx BBwú /\n°›ƒè ¸¸ñP6úãÜS-ª §İF ©•Æ7±Î+æ7‡e½ h\ZNÀ‘B¨çö N´nR  à;·Jªì(ºcv¬óµ~ -õ\n ß‘D±æV °şÀ Xµœ\'Ëé-Ú h ^L³óãŞ{Á–øëÇ1 t† ¥Á6gÍ;ä,¬KÀz® ™n\Z\r;ñIâUŠ— ˆ Gtz\'¹“V‚ÛÍ\'îùW# \rI \' h¨úcÁ!Ûo`]mŠú¦K.ú İ Êc<§È»A¹q ë(İç…+C¢î0ŠÖ kå¹TnVˆ)Ïdº ÿù ','20160218042229')
+ExifBitmapHandler::isMetadataValid: back-compat version
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '18246'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Alex.jpg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Googlebot-Image/1.0
+ACCEPT-ENCODING: gzip,deflate
+IF-MODIFIED-SINCE: Wed, 17 Feb 2016 04:22:31 UTC
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+ExifBitmapHandler::isMetadataValid: back-compat version
+RepoGroup::findFile: got File:Alex.jpg from process cache
+ExifBitmapHandler::isMetadataValid: back-compat version
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.75.4
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg does not exist.
+BitmapHandler::doTransform: creating 200x200 thumbnail at /tmp/transform_4faffbcf4000-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:18246-0!*!*!*!*!*!* and timestamp 20160219205540
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:18246-0!*!*!*!*!*!*','uTínÚ0 íoÂÍÏItNø(˜iRÅºQ© $ØöÛï Ä¶l§…U•ö {Æ=É| ´ :@\nºçŞ›{Î=öŒÅ	‹æÜ:°³Ê›ÊG¬ÓeOõXT.aí£‘cÁ€E­ çí6iİÁã|N\nYJO, m}k V§àœ¶äA:éA ¥ TWÊ3BßÇ´ş ¦f Àòãää5Y;ÿ÷÷ X ® ‘*-ªæä/À–	 ^Æ½„Üo<¸Ö JS„^„Û¬*AùÿäMd–ƒó¤nê¤VD€ñ9&viëzm D €˜Z ò£R©Ç¬&“V»ı±µ•cÁ \0GÛç§<Í<JŸ“ lÂŸ•4Üç|ã˜©A&EÎ]ÎâAÒí·éù»×/Aš^–a>^\Z’Ğ¸O“x˜Ğ^¯K	¾ — wÃfn¹Ê*Á­T+ 8£ìé9`qÀÆA†L[	M€â:¥/`¿Ó¸Ã¢Ï²\0vUÀúâ§É0ØÇÖG-ëÊºÍxÒˆßˆ r €›2 ×Ì  *ñu à6Íg EmâHêzíÁ*^ O€V¼Q C9ßb <¹€zOÑèÑÑ®f\" ¼ !¡;ı…  ØÍAt \\Üx( ıqî© U ÇÓn£‹ÔJã›Xç ó›Ã²Ş 4\r\'àH!Ôs{ \'Z7)  ğ[%Uv İ1;ÖùZH¿ƒ–z ˆïH¢Xs«\rX` ¬ZÎÆ“åô m ´ˆF/¦Ùùqï½`Küõ)M !F“`›³æ r Ö%`=×…L7† z’x•âe\0âÄ ŞInà¤•àvó‰{şÕˆCC&ƒ“ 4T}È±àí7°®6E}ÓÅ ı‹î å1Säİ Ü8‰u4Ùç…+C¢î0ŠÖ kå¹TnVˆ)Ïdº ÿù ','20160220205540')
+ExifBitmapHandler::isMetadataValid: back-compat version
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '18246'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Alex.jpg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Googlebot-Image/1.0
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+ExifBitmapHandler::isMetadataValid: back-compat version
+RepoGroup::findFile: got File:Alex.jpg from process cache
+ExifBitmapHandler::isMetadataValid: back-compat version
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.64.105
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg does not exist.
+BitmapHandler::doTransform: creating 200x200 thumbnail at /tmp/transform_c0c6a8a6f1fe-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:18246-0!*!*!*!*!*!* and timestamp 20160326020314
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:18246-0!*!*!*!*!*!*','uTaoÚ0 íg~…›“èœ (5Ó¤Šu © $ØöÙo‰GbG¶ÓÂªJû	ûû%ó hCè\0)èŞİåŞ»gÏY ±`Á 3¯\\Y¹€Å=ödYŸ Å\n6. Y  ‡,è|8ïvIç    ’ËB:b ÔÆu şit ÖjC ¤•  QZ\0It¥ #ô}HëÏqj\n\n o\'G¯ÉÚº¿¿ÿÀ¦äJ ©’¼òiVş l Ñ«Ë° ‘û­ ÛYAQæ¾ á&­\nPî?y ™f` ©›Z©  Pº  {´s³)ÁG €”µ$äG¥ ‡YM&n÷cg\'Ç’?\0vÈOx’ y”.#kØú?kYr—=ò­ee\r2)2n3  £Ş KÏß½~	Òt²ğóñ¢$ \r 4 4¢qØ#øR\\FØó›¹å*­x\n·R­m0âŒ²§g…  { Rm$4 Šë”.‡ÃNÃ˜ Ÿe ì:‡ÍÅÏ2Åà\0[·ZÖ•{u›ñ¨ ŸŠ réiá‡kf{  øº%p“dó EmâHêfãÀ(·\'@+N•ÇPÎ· {O.¡ŞS0ºgt´¯™H o@HèNáy f{ \0 S E£?Î=Ó¢Ê¡=í.ºLŒ,] ‹_1·=.ë¿@3 Z\n¡»#8ÑºIñÊ ß¹QR¥­èY[ç !İ Zé5 ¾\'‰b-Œ.Á¸#{`Õj>¬f·h ¯E0z1ÍŞ ïy[âo@i4Œ¯0\ZyÛœ5ï3¿. ›…Îe²m4ŒéIâu‚— ˆ GÄı“\\ÏI+ÁÍö wük)\r \rO\nĞPõ!Ç‚c¶ßÀØÚ õM ^ .z/”ÇxN‘wƒrã$ÖÑèç¯ ‰6ºÃ(Z¬•ãRÙy.f<•ÉNüç','20160327020314')
+ExifBitmapHandler::isMetadataValid: back-compat version
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '18246'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Alex.jpg
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Development#WikiPathways_team
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+ExifBitmapHandler::isMetadataValid: back-compat version
+RepoGroup::findFile: got File:Alex.jpg from process cache
+ExifBitmapHandler::isMetadataValid: back-compat version
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 216.17.105.18
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg does not exist.
+BitmapHandler::doTransform: creating 200x200 thumbnail at /tmp/transform_2f14f6788ae2-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:18246-0!*!*!*!*!*!* and timestamp 20160515052616
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:18246-0!*!*!*!*!*!*','uTínÚ0 íï<…›Ÿ“èò ”šiRÅºT\n lûíÆw‰Gb[¶ÓÂªJ{„=ãd¾ Ú\0   İsïÍ=ç {Fã„†sf,˜YítíBšvé“¥=\ZVKX»phi: Ğ0øpŞéà  çsRŠJ8b@+ã‚¹\Z•µÊ a… N¤â@2UKGIô>šÏaj   ;NN^“•uÿµf’ !³²öiVü l™DW—q/!÷  6XB¥Kß‹0“× H÷Ÿ¼±È °4M­P’pĞ®ÀÄn Ü¬5øè  İHB~Ô2s˜Õf t: ƒ­  ö\08Ú>?cY äQ¸‚¬`ãÿ¬„f®xd Ku RÁ f \Z ’n¿ ¿{ı ¤éDåçc•&I ÷£^Ü‹zI?î |).#îúÍÜ2™×,‡[!W6 2\ZÑ§gÅ  y re ´ ×)\\	ûÆ)\r?‹ èu	ë‹Ÿ:Ç` [ µl*wê¶ãI+>á-äÒ “Ê ×Îö ªğu `&+f\ZEmãHêfíÀHV O€VœH¡œo1ö\\@³§pxO£á®f,8¼ !¡;õ…•%˜ÍAt ŒO T­ş8÷Tñº„ãi·ÑEf„vm,}ÅÜæ°¬÷ Mı	8R õÜ Á±RmŠW øÎŒ 2?Šî˜ ë|Ã…ÛAKµ Äw$Q¬¹Q\ZŒ;° V-g£ñrz‹6ğZ„Ã Óìü¸÷·%şúQ” Ò+Œ&Ş6gí;äÌ¯‹Ãz®J‘mZ\rÓè$ñ:ÃË\0ø‰#ÒŞI®ç¤$gfó‰9öUóCC&ƒ“ 4TsÈ±àí70¶1EsÓÅ ı‹î å Säİ¢Ü:‰M4Ùçù+C î0ŠÖ )é˜vVò)ËE¶ ÿù ','20160516052616')
+ExifBitmapHandler::isMetadataValid: back-compat version
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '18246'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Alex.jpg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Googlebot-Image/1.0
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+ExifBitmapHandler::isMetadataValid: back-compat version
+RepoGroup::findFile: got File:Alex.jpg from process cache
+ExifBitmapHandler::isMetadataValid: back-compat version
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.66.147
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg does not exist.
+BitmapHandler::doTransform: creating 200x200 thumbnail at /tmp/transform_4347950b6817-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:18246-0!*!*!*!*!*!* and timestamp 20160706010231
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:18246-0!*!*!*!*!*!*','uTaoÚ0 íg~…›“èœ (5Ó¤Šu © $ØöÙo‰GbG¶ÓÂªJû	ûû%ó hCè\0)èŞİåŞ»gÏY ±`Á 3¯\\Y¹€Å=ödYŸ Å\n6. Y  ‡,è|8ïvIç    ’ËB:b ÔÆu şit ÖjC ¤•  QZ\0It¥ #ô}HëÏqj\n\n o\'G¯ÉÚº¿¿ÿÀ¦äJ ©’¼òiVş l Ñ«Ë° ‘û­ ÛYAQæ¾ á&­\nPî?y ™f` ©›Z©  Pº  {´s³)ÁG €”µ$äG¥ ‡YM&n÷cg\'Ç’?\0vÈOx’ y”.#kØú?kYr—=ò­ee\r2)2n3  £Ş KÏß½~	Òt²ğóñ¢$ \r ô’ hH£8$øR\\FØó›¹å*­x\n·R­m0âŒ²§g…  { Rm$4 Šë”.‡ÃNÃ˜ Ÿe ì:‡ÍÅÏ2Åà\0[·ZÖ•{u›ñ¨ ŸŠ réiá‡kf{  øº%p“dó EmâHêfãÀ(·\'@+N•ÇPÎ· {O.¡ŞS0ºgt´¯™H o@HèNáy f{ \0 S E£?Î=Ó¢Ê¡=í.ºLŒ,] ‹_1·=.ë¿@3 Z\n¡»#8ÑºIñÊ ß¹QR¥­èY[ç !İ Zé5 ¾\'‰b-Œ.Á¸#{`Õj>¬f·h ¯E0z1ÍŞ ïy[âo@i4Œ¯0\ZyÛœ5ï3¿. ›…Îe²m4ŒéIâu‚— ˆ GÄı“\\ÏI+ÁÍö wük)\r \rO\nĞPõ!Ç‚c¶ßÀØÚ õM ^ .z/”ÇxN‘wƒrã$ÖÑèç¯ ‰6ºÃ(Z¬•ãRÙy.f<•ÉNüç','20160707010231')
+ExifBitmapHandler::isMetadataValid: back-compat version
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '18246'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/File:Alex.jpg
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: */*
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Googlebot-Image/1.0
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+ExifBitmapHandler::isMetadataValid: back-compat version
+RepoGroup::findFile: got File:Alex.jpg from process cache
+ExifBitmapHandler::isMetadataValid: back-compat version
+Unstubbing $wgLang on call of $wgLang::getCode from MessageCache::get
+IP: 66.249.79.131
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
+MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+File::transform: Doing stat for mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg
+FileBackendStore::getFileStat: File mwstore://local-backend/local-thumb/d/d7/Alex.jpg/200px-Alex.jpg does not exist.
+BitmapHandler::doTransform: creating 200x200 thumbnail at /tmp/transform_1b1ba2bc125d-1.jpg using scaler im
+BitmapHandler::doTransform: returning unscaled image
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Article::view: doing uncached parse
+Saved in parser cache with key wikipathways:pcache:idhash:18246-0!*!*!*!*!*!* and timestamp 20160709114602
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:18246-0!*!*!*!*!*!*','uTínÚ0 íoÂÍÏItNø(˜iRÅºQ© $ØöÛï Ä¶l§…U•ö {Æ=É| ´ :@\nºçŞ›{Î=öŒÅ	‹æÜ:°³Ê›ÊG¬ÓeOõXT.aí£‘cÁ€E­ çí6iİÁã|N\nYJO, m}k V§àœ¶äA:éA ¥ TWÊ3BßÇ´ş ¦f Àòãää5Y;ÿ÷÷ X ® ‘*-ªæä/À–	 ^Æ½„Üo<¸Ö JS„^„Û¬*AùÿäMd–ƒó¤nê¤VD€ñ9&viëzm D €˜Z ò£R©Ç¬&“V»ı±µ•cÁ \0GÛç§<Í<JŸ“ lÂŸ•4Üç|ã˜©A&EÎ]ÎâAÒí·éù»×/Aš^–a>^\Z’Ğ¸O/é0»}š |).#î†ÍÜr•U<ƒ[©V.\ZqFÙÓsÀâ€ƒ ™¶ š\0ÅuJ_À~§q‡EŸe ìª€õÅO“a°­ZÖ•;u›ñ¤ ¿ \rä2\07e ®™  Tâë ÀmšÏ ŠÚÄ‘ÔõÚƒU¼8\0­x£ †r¾Å8xr õ¢Ñ=££]ÍD\nx BBwú /\n°›ƒè ¸¸ñP6úãÜS-ª §İF ©•Æ7±Î+æ7‡e½ h\ZNÀ‘B¨çö N´nR  à;·Jªì(ºcv¬óµ~ -õ\n ß‘D±æV °şÀ Xµœ\'Ëé-Ú h ^L³óãŞ{Á–øëSš :CŒ&Á6gÍ;ä,¬KÀz® ™n\Z\r;ô$ñ*ÅË\0Ä‰#:½“ÜÀI+Áíæ ÷ü« ‡†L \' h¨úcÁ!Ûo`]mŠú¦‹/ú İ Êc<§È»A¹q ëh²Ï W†D İa ­?ÖÊs©Ü¬ SÉt+şó?','20160710114602')
+ExifBitmapHandler::isMetadataValid: back-compat version
+Class SkinWikiPathways not found; skipped loading
+RepoGroup::findFile: got File:Alex.jpg from process cache
+RepoGroup::findFile: got File:Alex.jpg from process cache
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[File:Alex.jpg]] are {edit,move,upload}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '18246'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally

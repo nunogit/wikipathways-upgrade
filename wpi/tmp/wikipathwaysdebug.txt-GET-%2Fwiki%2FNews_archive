@@ -1,0 +1,698 @@
+
+
+Start request GET /wiki/News_archive
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+PRAGMA: no-cache
+CACHE-CONTROL: no-cache
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36
+REFERER: http://vm1.wikipathways.org/wiki/Development
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,fr;q=0.6,zh-CN;q=0.4,zh;q=0.2
+COOKIE: wikipathwaysLoggedOut=20150217214130; wikipathwaysUserID=5; wikipathwaysUserName=AlexanderPico; wikipathways_session=qhrfiu0e322s548uc4ltn8tm76; __utma=141536308.795546891.1416096662.1424207514.1424209404.87; __utmb=141536308.5.10.1424209404; __utmc=141536308; __utmz=141536308.1423943373.81.11.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=http%3A%2F%2Fwikipathways.org%2Findex.php%2FCuration_Events
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+[cookie] session_set_cookie_params: "0", "/", "", "", ""
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+User: cache miss for user 5
+User: loading options for user 5 from database.
+User: logged in from session
+User: loading options for user 5 from override cache.
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Did not find alias for special page 'SpecialCurationTags'. Perhaps no aliases are defined for it? [Called from SpecialPageFactory::getLocalNameFor in /var/www/wikipathways/w/includes/SpecialPageFactory.php at line 566]
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Saved in parser cache with key wikipathways:pcache:idhash:6668-0!*!0!!en!*!* and timestamp 20150217215450
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:6668-0!*!0!!en!*!*','Õ[moã6 îçü\nÆ‡ë{¬ ¿+‰‹lv»Éa“ MÚ½o -Ñ67’(ˆT¼iQà~ÂıÆû%7CI6e+ÉÆvt¬m’\Z=3$g JWãz M%K¯2•dªáµÚŞ Òëxè†}VCéõ»½–×8J†73.IB§Œø\"V”Ç’Ğ0$\\±H 5£ŠĞ$a4e á140òÍ%›ïC$ó  1 yë %³”M Öœßqë#ü7¢j6§ ²A W!;nT\Z‡ ÜLßùÈ¢Ã& …ŒJFh  J õg$fsü“\Z Q î XC. “$s †Í½#+ î ):  áÁqC	¿AüJ™  © ş‚áQÀïË \Z tÍÜá)(Íb%,øqdÁ  —…ğ_È\r9!»gá  üBï   ”:ÿã# 1iÓıù:Iy<½um ûeBcCJœEc–6†Î‘…=C²:@áì saV.Š ¨b<\ZêÈ\nù  sMt×Y ± AÙƒrŸ •Ë@4öËÑ´jÑØƒÇÑ´¾ =x9š¶‰æ_4ÎhÊŸÓ~\ZN!dC<  Ï¥¸gxO Ô Pçi@¥ DÔ9¢®‰èÊWây@İ§  B6ÄÓ3ñœdÓLªgàô†“ËØ M¿²~²ğá ,ıg  HØ ÉÀDrAŸ 2x\Z  Ø ‡ö+u[ê	0 ?òüÚ QÅ=_³D-vUï	LÏxæ… DÕ[GeéÈaa¸±0îX:0A  —hî±€«2nbä;n\\b|£©?ã÷¬QÆÔã†S  ª\"VPFóƒ £AÈc„‘®>(‘uÁd¡	àÔá ì;$€m5¬Ÿ±0ñş\r\r#\Z³p ØWš‡€áNd UéLDJ¦,f?’$ ŠAĞ§q@\" ¶ !„vø  EQ#‰  n­oÿ«D|”˜¬$\"U4D*B°DQ sõp ¤`¾ å Óxä‚û©ˆ3•rˆíå5 “~ÊÇ9‘ ½R  7b1 a(æ Ò\0óÌÒ †ë \'Š¦S¦ ·ãÆwÂ 3¥ Ï²æóySj3² Un \"ËÏ … ~\Z8NËí¶[İn×Áğ Œ µò— \r F  *WT s¡R\ZK°_D‹%Stı5ªÄş˜7ã0jÆ|ÖœŠ{+ÉÆ  ,×îÙ}{\0aêmšMÉ[.} /é ¹  }XQagh|FMŸj \'°B²Øg  öÖî¹=t8§ç¿\\€IR ³ è W³ŠıVq‘áŒ‡šUÊ„ù æBf	.  ì“#>ü¶n±¿¥°N˜Êêb_6 %cš2» Şò»#‹ {hgæ@Dåü7E:µx °ÏÍd–ü”ãºFhøÏÖÉ›TÌ%+í0 ?ó5’Ã±n>¾Îä °zÄ„\Z­§T Ÿ„á ğÉ¦ ¶D  Ò É·#>ıî¯šèivñà‹1 Wò,úAeà§ı, ’Ëg4­\\HÌ \r ß¾üúRŸî®è—9ó\n‡\'† Gœ÷U< à˜¼İÌ“ ~\n “nÓŸ†ÍÌ—“& 2 <ÚÅÉh”o—÷BLCv[\0 “ÛS ° pŞWÂ  ‚}\Zş¾Îşv½® X?0z99vÓiõ ë“Èğòf\"bÖ´m»Ûn   } ×äêò L˜âÀ$tÈ‚©¬¸â:Ç` ¸ıÈÆnßsŸUİDEŠ1h ßÉuşC®Y` äÈ–Ú[©ĞañxÂRÌÁË²¿ÕRl­dP .EÌ˜ˆ!è‘¥¸“    Ñ$©®¿\'× ¢{lİÙ ¼ÇıS ‹ùşŠs  ¡€õ¾Œ¸µ±¡ u»Vè0{É²â‘‚ I$R½È¾Ûj Û«IçË¦°šõ STı$^ÖEMo9Ç\') ó@$à3±j r\ZSÃWéÃï”|¢°÷¸O×=*ü½z“wÖÒê—Ù|%³\' aõV¿Î [ç ğ >áÈsM#Û0ÌdŞ5	)‘‹Jÿì&BÏXÈ?K1QÀ ­q(¦ÖOÉ±;X±n¡ÁvFî®–\n^fãj­‚˜¢ê- ¾¶n™f©¦Ü7tº²Ä*=Ãò Øpªı¸§½ö¥€ézĞuÑE’B İÉ”n“\n )x#ZNã YdM µà>^ñY‹ë©1C].Å[İS êÕTB5BÎI¦f°®b\Za‚’2t‰ºĞ\n  • 	ŠĞEÙ °Å¥€S\'p$Ï¤eY .Gó †ÿH $\r à€ xmÙ¸Ø¸Ş™ˆÄ­¤	äoÒ»†”i,>/ô5 ‘µAË¥ ñ’§°n`!È¼·Äƒêï/Ñß\0¿8ŞÏ!Ş ?4Ã\07‰6 ¸WY“Ü¤ ¥9v³e£ ö9 >‹ “fA	õï¤Õ .vCïQ ™‹ôn ÷¦56Ûµ½•ŠÚË6m¥ G Aõ[ö  é/ŸÆ°6§©È’â€‚B~¨“kÉÂü¾¯s½mfá~¥NøÂ`¿,Q’…zÛVÖoÁˆI’Á ÌvXm° €  ‚ãÊlòP&© š! 7c–ib·ÆÙÇ\\\0gïÚN¿]pö7\\@$Úi fåóe–]–\\I)âyúDƒ\0¨ ²ü·4æ Ì™racép8Â\0Ÿ<aTe)Óãi¦ –‚|<«‹ ¢HeõÂÊüÍ \' û# Ö¥-!gbîës6µ[‡ ¹ô\0?-<µc÷x®fÁ4ıBã)»½`L á¶€E½9?%e;0òX ›ÄÌ» ²ı”bÊY­ oLûUzüÈü 6&z„]ô ¢êc‘{Ñ?Äo ¿Vó’ß¸Ì°’É\'  Ê\"Ôl  FBu-·Œ¶àß%VS·³¡³^ï~a¸Ru\'Uq ²z ®W~ÖŒX3d˜·-Èr zW’ûñ ñS!%øoH²Yì£) ›  Š¿( íW·hiïb«¢j¸·á J ¦K¤#ƒ.5	y #—Ô k– ›DÂb]ëÉbÛå2 ® æ­˜Ç¡ Áz&Tö YĞ ª€º eGyèî-›*) E½Ë%ÌOÓ7 * TQ2á!+\n®”`‘ b„  æ®²i÷ö  È Øi4 . â)Ã¼qo Ÿ©ğ™„}Oî¹äH3cLÌ}‘ÅÊ#í6 \0ı¯: O ° U İ±—£…TÿûÏúà¼ñØ 3 \'ùïà?mËµ =§ãÂ„+&÷nX É  ?¤Ó iÒ#ãÎøtÆ€h¡¸­H\0Ëxæ ×jÛ{ï€eAë=®1|â‚L²8ß\\ :\rnïà 4È5°/ H‹ñ>j– ó= ³ ê%ºÓãÁŒÊ™×ívû öş÷ûöş>‹áó{½: p<H(¢ Ëi Ûuz®Óiwl‚÷ÄG=œ¶×ˆ>€¯Í` ?èÔğz¶÷ÇŸĞç@ŸQ\n]vØø° .¨ò‰ |ª¤â* ­‹’K‰-ï îÙğÅÅ‡MpxåyCî9(¦ç5Ö×.v ZíÃ?áÓ    1ğ\ZË3% ÑmÙö¡n_–ß±½Õé  İmUoi²t Öƒ; \0\0½VEĞRœN·Ğ³’Bá¥­^Gc³ œƒà\\0P-kÄá½ ¨²°b±ĞLëºFûy`ô€u¢sÜmæè>4ş ›îš¡í¯ }Tfôã ¿+ Çb: =\r ¸ÓF§UÅtµ[Ş‹ˆÊËª·}î,§\\ Nõn_z2Pãú¿^?íx´ş_Şİ ìúîOœH<‡¦» ³eñ½œ’÷âêxqig‰e£2l!¦Õö¾¤ªTîz_–Ğ– ë{»I/J¥«KøËù­¾ ·%>owgíhŸ:Ç îô:§RÃ±‡®M_sÆ VÓ…¾äR¼‡H\rÄ¢Òz ´ë  Ø[ÊG—q!‚,d«\"o½öS(³¯µìS ÕË:‹®  Ä+Î	]Yşœá™ ¦Š°h¢4Ef³ÒZh–»)§  }ôW€»| c1 ^£ø\rwó\Z.~‚\"šg æŞqı‘†\":  väWêF¦÷±Ù ˜&©ˆòÇ Pwk„:44  1™H¦4¶N\'¿	ı™Ğ7Á PûÔ…  [è mÆ‘_rnrî ÊÙ êV´[¢(  (åîH)ô ëJµj”jm¡TËn?© ¢\0¥Z[( @ÌÓ”:­Ú5Zµ·Ğªİ_[ˆ Œ¥Zí-Ô ïP9¯¨Ó«S£Wg ½ºnwM/ G£bíæË<%¨Ó«[£Ww ½zİõU¸„±T«»İŞ2\n©uZõj´êm®•ëvj †YÜE¥z›+ À åË:ú5\Zõ·Ğ¨Õo­jT@XªÓß\\ ¸¢,\ZÖi3¨Ñf°…6 g°ªM`©Ì`g~o]#èÏ —©Ò¢qCz5V<_®˜³\r¿€ïÕÂU­nkäbÑ¸¡nıŞº—0¡äEµ<ÍD¶‡¥¥‚Xİˆ;†ìj\\dUĞ;J °gUÉññª›«Ó³›‹ Z:¤p^cÇïRü ^¦xeoS¼²×)^İû ¯ğ…ŠW÷FÅ+{¥â ½Sñj^ªx…oUüİ^«(#gtSÖÀË(‰~ŞîÛ §ß \Z§Ã1DÒ¯Ì·\"¿ŠÎ1TDÈı   ‚ğ£e¯\r<ññ\0‚ Fåµ¥kÜí’ àÁW^çÈc. Ò  „4.Â0¤.Rec Æ“3  y ÄáVgí ÈE Ğô  İ¿&Aµ|ìö×.Àò¯>À ª!ş·ü4°à\'N³Ûl/ wŠ  h=ÃpÆ BIWòqï>\' +O—‡y ?:-Ş ½\nƒ :å~^”úóÿ','20150218215450')
+Class SkinWikiPathways not found; skipped loading
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching; Tue, 17 Feb 2015 21:41:47 GMT **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '6668'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/News_archive
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.73.171
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Did not find alias for special page 'SpecialCurationTags'. Perhaps no aliases are defined for it? [Called from SpecialPageFactory::getLocalNameFor in /var/www/wikipathways/w/includes/SpecialPageFactory.php at line 566]
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Saved in parser cache with key wikipathways:pcache:idhash:6668-0!*!0!!en!*!* and timestamp 20150819184056
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:6668-0!*!0!!en!*!*','Õ[moã6 îçü\nÆ‡ë{,Y~W  Ùìv“Ã&1š´{ß Z¢mn$Q ©xİ¢Àı„û÷Kn†’lÊV’õKt¬m’\Z=3 Î< J7nÃqkCšH–Ü¤*NUÍm¶Ü?¤Ûvká û¬jÇÒíuºM·v  î¦\\’˜N ñD¤($¡A@¸b¡$jJ ¡qÌhÂ|Â#h`ä›k6;ü†Hæ).\"\"²Ö J¦	 ŸÖ¬ àÖGøoHÕtFç²F W ;­•\Z !ÜLßùÄ¢ƒ:  ŒJF¨ï J õ¦$b3ü“\Z Q î X . “$3  õƒ +  œ(:\n áşiM	¯F¼€J™} œ¨ şüÁ‰Ï ‹ \Z tMÁ9(Í\"%O,øqbÁ  — ğ_À\r9 {dÁQ @x¹ŞG\r Pèü Ä$uççÛ8áÑäŞ± Ø/c\Z R¢4 ±¤6hœXØ3 «  ÎÎ  fe¢ ŠÊÇ£¡N¬€ :ÇDw›†!K ”ı4(çyP™ Dco¦Y‰Æî?¦ù…hìşæhZ&šÑ(¥	 Nëy8¹-ñ´M<×â‘á= Pïi@íç  R QosD  Ñ§ÄË€:Ï Ê…l‰§kâ9K\'©T/Àé> \'“±%š^ÉÒ`ş –Ş Î  ¶DÒ7‘\\Ñ—€ôŸ   ¶Ä¡ãJÕ’z Ì\"¼¼¦¶AT\nÏ·,V‹UÕ} Ó ‘y! Qu×QY:sX˜n,Ì;–NLĞ„É%œ¹ÌçªÈ›˜ùNk×˜ßhâMù#« 9õ´Ö¨Î e +(ÃÙÑ”Q?à HÂLW”Èº`²Ğ pêô ö  À¶šÖ/X »ÿ††!X°Hì+Í Àğ RÌªt@Æ\"!  ± Iœ Å éÓÈ\'! Ûˆ\0R;üŒ„¢¨‘Ä„ ·Ö·ÿU\">JLÖ@b‘(\Z  ¡@XÂ0¸š ù	˜/BùŸÀ4.¹â^\"¢T% r{qÏ¤—ğQFd@¯„ §µHŒE ˆÙ‚4À<³$‚ázÆ‰¢É„©ÓÚı( ÑC-7ÆT©Øµ¬ÙlV—ÚŒ,A•ë€Èò2Fa ŸúFÓé´šN§+á= Ajå¯ \Z*Œ 2T.©:âB%4’`¿æ.“wı5ªDŞˆ×£ ¬G|ZŸˆG+NG!ó-ÇîÚ=» iêm’NÈ[.=H/ÉœÜ	ŸÎWTØ \Z\'aİ£\ZÈ xH\Zy, ÃŞÛ]§‹ çüò—+0I¢\"–\0 äjZ²ß*® 2œÑ@³J 3Ã\\È4Fç`ş!9áƒo«œı- ? b*ËÎ¾l HÆ4ev\ZxËïN,n¬¡½™   ó_ ÉÄâ‘Ï>×ãiüS†ë u¢Á?›go 1“¬°Ã âÌ×4ŒGºùô6•?€÷ˆ15ZÏ©:= ‚ à“M , ‰   ¤ ’o‡|òİ_5Ñ{Óìjî‰ …Pğ4üA¥ §½4 ’Ë 4-]HÌ \róØ¾üºiLwVHôfÁ¼Äá‰!è‰à} M  &w?ó$…—€Á¤S÷&A=õä¸ÎüÔ‚ˆvu6 fËå½ “€İç@Åøş\\ø, œõ °Å˜`Ÿ†¨wûö+ ü &P»SÃ®7šİ†õI¤xy=  «Û¶İiµ€\n ?ˆ[rsı &Lq` :eÁT–BqU`0 Üd#Øn?r•ÃDIŠ1h\0ßÉmöC®Y` äÈ–:Z©0`ñhÌ Üƒ  åp\'Wl®ì ¶tEÜ1 CĞ ®¸—    Ò8.ûß³~‡èò;»ï’÷¸>pª#1;\\	nC  àïËŒ[™ òQ÷k… ³—,+ 	˜‘„\"ÑNöİN3ØZİtn6…å]/1EUOâuUÖt—s|–Ğ ÷E 1 «F § 5ìy“Ì§ä …µÇ=º QáïÕ›¼½¶­ŞÌæ+;{R VmõÛ¬°ué ïác< Ù4²\rÃLæ]ã€ò ¹¨ÔûŸıdè) øg)Æ\nØ¡5\nÄÄú)>uú+ÖÍ5ØÍÈÕRÁf6.×*ˆ)ªÚÂ k«Üì<M4å¾£“  +õ Š_`Ã‰ã®Ú× ¦k®ë¢‹M\níNªt›Tè¤ h1? d‘ uÔœû¸ùg%®çÆ t¹ oõHy ½©€j¤œ³TMÁ¯\"\Zâ %a  u¡ 2 *\'b ¡‹²9`=‹K ç<ÛÀ‘l\'-‹ªp1š‡0üG¢`ÓÀ  ØW–ó…ë^ˆPÜK\ZÃşMº·°e\Z‰Ï }ÍAdmĞÒ5 _ò ü  Af½  Tÿp‰ş €üÅù~ ù>ÿ¡  „I´±ÀµÊêä.™ æØÏ’\rçìs | wLš ÅÔ{V ¸Ø }DQd&’‡1ÜCšÖØnÕvW*j›-ÚRA ‚ª—ì/ ¶¿| oN ‘Æù  …ı¡Ş\\K d÷}ş¶…{¥:á†É~Y¢$ !Õ¶-ùoÎˆIœ  L÷Xm°€ û‚£gÖy ãDøõ€ê K5±[ãì#.€³wìF¯•sö7\\@&Úƒiûfås3Ë.K®¤ ñ2}¢¾ Ô	Yş[\Zq æL¸À´± H8 a@L 3ªÒ„éñ4U KA ÕE\0Q$²|aişfy †õ \0ëÒ–S1óô9›ÚoÀ‰FÜCz€Ÿ Ú±G<W³`š~¡Ñ„İ_1¦€p[À¢Ş\\“¢  y$MâÎ; ²û”â–³\\?Şš ÷Êôø‰ùÍmşBöş «è dÕ§2÷¢€ß ~-ïK~ã2ÅJ& !)‹@³A` 1ÕµÜ\"ÛB|—XMİÍ†õz÷†ûÄ•ª;)‹{‚U[p½ò³fÄŠ!ƒ¬mA–³Ô»²¹ Í‰— )!~Ã&›E šr±X!¡x‹RÑay‰ öÎ—*ª†k î  aºD:4èRw0rIİ±f‰¹IÄ,Òµîˆ,–]&Ó¸áŠaŞŠY  ê¯ï„Š c ô†* n~ÑQ º»Ë¦Ò–‚¢Ş…K óÓô€Š>U”ŒyÀò‚+%X¤‡ áA„y(-Úƒ“Ã£#r\0v\Z K† xÂpßx0„ÏDxLÂº\'\\r¤™ nÌ=‘FÊ%­ $\0ı¯< O ° U İ¶—£…TÿûÏúà¼ñÈ R \'ùï ?mË±ûİFÛ	WL Ü± 6KxüLR¤IOŒ»à“) B¢…â²\">¸ñÔ%Õ² Ş Ë‚ÖGô1|â‚ŒÓ([\\9:\rîàè¨0È-°/Hóñ j– óÍ‰Y ucİérJåÔít:½#ûğûCûğEğù½öN   6 aŒå´¶İkô!GÚí Á{â£ –[ ?@¬Ma ?è­á1um÷?¡¯ }F)tÙaãÃ\"èPÅ #øTI)T@[ %  ›î Üµá‹ƒ ›àğÒó ÇÜm ˜®[[÷]ìì7[ÇÂ§ \"Ú(¢ïÖ–gJ8¢Ó´ícİ¾,¿c{³İéC»Ó,ßÒdé0¬ w@\0\0z­Š ¥4Ú\\ÏÒ \n/mvÛ\Z›à\Z Î  U²F Şmƒ* +æfZ×1Ú/}£ ¬ ^âj3G÷ ñgXt· m ë£2£ \'ø] 8 ÓÑĞÓĞ†;muZ•OW«éntDT\\V¾íKg9…o4ÊwûÒ“ŠĞÿõúiÇ“õÿâîNßwæDâ%4%˜ ‹ïÅ”tİ«ãù¥í%–­Ê°¹˜fËı’ªR1ºã~Ù†¶0XÏİÏö¢PºìÂ_Îoõõ¸,ñy»K<kGûT ^ §· •ª \\ múš î³Š.Œ%×â=dj  ¥Ö  ]—øÀŞR>†Œ+á§ [\r Yë­—ğX™}ÍeŸš—/k/º®  ¯ \' eÙs† B˜*‚Ó„ i‚Ìf¥5×, S\"mô0^ îâÅD¸µü7ÜÍ­9ø	ŠhyœEÇõG\Zòì”?Ø‘]© Aš^Çf `\Z\'\"Ì  4Rİ½‘êĞĞH Äx,™ÒØÚíì&4ò¦Bß “BåS :yì #´ G~UÊ9 Ê9;(gCª[Ñn‰\" , ”³\'¥0J¬+Õ¬Pª¹ƒRM»õ¬Rˆ ”jî  \01OSª´jUhÕÚA«VoÍ \r KµZ;¨ Ñ¡t^Q¥W»B¯ö zuœÎš^ lwŠµw›/ó” J¯N…^ ôêvÖ½p	c©Vg·µe R«´êVhÕİ^+ÇiW  ³¸‹Ju·W\n€-Ê—U\Zõ*4êí Q³×\\Õ(‡°T§·½:pEQ4¬Ò¦_¡M mÚşª6 ‚¥2ı½Å½u ?K\\¦J‹Æ-uê¶×tZ‰|™b]ø |/ ®*u[# ‹Æ-uëu×£„	%+ªeÛLd{XZÊ‰Õx`È®rŠˆTs˜ `Ïª´ÇÇ«înÎ/î®>hé°…sk{~—âïğ2Å+{›â•½NñêŞ§x…/T¼º7*^Ù+ ¯èŠWóRÅ+|«âïöZE‘9Ã»¢ ^dIŒóvÏn7z- q: C&ıÊ|+ò«ğ SõP Ü›ã  „ M{mà™‡  Ì7*¯M]ãn ,\0 ¾²:ÇHs\nH¤)  h4)špë\"U:R`<9 Ÿu@ n¶×î ‰\\D>MæXèş5öËåc§·v –õé ^PNñ¿e§9?iÔ;õÖÂpçxÀ€Ö3 gœ! t% ÷îsÌ±òt}œ•ñÃóüÑ›À¿¢ îeŒãÏÿ ','20150820184056')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '6668'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/News_archive
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.167
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Did not find alias for special page 'SpecialCurationTags'. Perhaps no aliases are defined for it? [Called from SpecialPageFactory::getLocalNameFor in /var/www/wikipathways/w/includes/SpecialPageFactory.php at line 566]
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Saved in parser cache with key wikipathways:pcache:idhash:6668-0!*!0!!en!*!* and timestamp 20150910004723
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:6668-0!*!0!!en!*!*','Õ[moã6 îçü\nÆ‡ë{,Y~W  Ùìv“Ã&1š´{ß Z¢mn$Q ©xİ¢Àı„û÷Kn†’lÊV’õKt¬m’\Z=3 Î< J7nÃqkCšH–Ü¤*NUÍm¶Ü?¤Ûvká û¬jÇÒíuºM·v  î¦\\’˜N ñD¤($¡A@¸b¡$jJ ¡qÌhÂ|Â#h`ä›k6;ü†Hæ).\"\"²Ö J¦	 ŸÖ¬ àÖGøoHÕtFç²F W ;­•\Z !ÜLßùÄ¢ƒ:  ŒJF¨ï J õ¦$b3ü“\Z Q î X . “$3  õƒ +  œ(:\n áşiM	¯F¼€J™} œ¨ şüÁ‰Ï ‹ \Z tMÁ9(Í\"%O,øqbÁ  — ğ_À\r9 {dÁQ @x¹ŞG\r Pèü Ä$uççÛ8áÑäŞ± Ø/c\Z R¢4 ±¤6hœXØ3 «  ÎÎ  fe¢ ŠÊÇ£¡N¬€ :ÇDw›†!K ”ı4(çyP™ Dco¦Y‰Æî?¦ù…hìşæhZ&šÑ(¥	 Nëy8¹-ñ´M<×â‘á= Pïi@íç  R QosD  Ñ§ÄË€:Ï Ê…l‰§kâ9K\'©T/Àé> \'“±%š^ÉÒ`ş –Ş Î  ¶DÒ7‘\\Ñ—€ôŸ   ¶Ä¡ãJÕ’z Ì\"¼¼¦¶AT\nÏ·,V‹UÕ} Ó ‘y! Qu×QY:sX˜n,Ì;–NLĞ„É%œ¹ÌçªÈ›˜ùNk×˜ßhâMù#« 9õ´Ö¨Î e +(ÃÙÑ”Q?à HÂLW”Èº`²Ğ pêô ö  À¶šÖ/X »ÿ††!X°Hì+Í Àğ RÌªt@Æ\"!  ± Iœ Å éÓÈ\'! Ûˆ\0R;üŒ„¢¨‘Ä„ ·Ö·ÿU\">JLÖ@b‘(\Z  ¡@XÂ0¸š ù	˜/BùŸÀ4.¹â^\"¢T% r{qÏ¤—ğQFd@¯„ §µHŒE ˆÙ‚4À<³$‚ázÆ‰¢É„©ÓÚı( ÑC-7ÆT©Øµ¬ÙlV—ÚŒ,A•ë€Èò2Fa ŸúFÓé´šN§+á= Ajå¯ \Z*Œ 2T.©:âB%4’`¿æ.“wı5ªDŞˆ×£ ¬G|ZŸˆG+NG!ó-ÇîÚ=» iêm’NÈ[.=H/ÉœÜ	ŸÎWTØ \Z\'aİ£\ZÈ xH\Zy, ÃŞÛ]§‹ çüò—+0I¢\"–\0 äjZ²ß*® 2œÑ@³J 3Ã\\È4Fç`ş!9áƒo«œı- ? b*ËÎ¾l HÆ4ev\ZxËïN,n¬¡½™   ó_ ÉÄâ‘Ï>×ãiüS†ë u¢Á?›go 1“¬°Ã âÌ×4ŒGºùô6•?€÷ˆ15ZÏ©:= ‚ à“M , ‰   ¤ ’o‡|òİ_5Ñ{Óìjî‰ …Pğ4üA¥ §½4 ’Ë 4-]HÌ \róØ¾üºiLwVHôfÁ¼Äá‰!è‰à} M  &w?ó$…—€Á¤S÷&A=õä¸ÎüÔ‚ˆvu6 fËå½ “€İç@Åøş\\ø, œõ °Å˜`Ÿ†¨wûö+ ü &P»SÃ®7šİ†õI¤xy=  «Û¶İiµ€\n ?ˆ[rsı &Lq` :eÁT–BqU`0 Üd#Øn?r•ÃDIŠ1h\0ßÉmöC®Y` äÈ–:Z©0`ñhÌ Üƒ  åp\'Wl®ì ¶tEÜ1 CĞ ®¸—    Ò8.ûß³~‡èò;»ï’÷¸>pª#1;\\	nC  àïËŒ[™ òQ÷k… ³—,+ 	˜‘„\"ÑNöİN3ØZİtn6…å]/1EUOâuUÖt—s|–Ğ ÷E 1 «F § 5ìy“Ì§ä …µÇ=º QáïÕ›¼½¶­ŞÌæ+;{R VmõÛ¬°ué ïác< Ù4²\rÃLæ]ã€ò ¹¨ÔûŸıdè) øg)Æ\nØ¡5\nÄÄú)>uú+ÖÍ5ØÍÈÕRÁf6.×*ˆ)ªÚÂ k«Üì<M4å¾£“  +õ Š_`Ã‰ã®Ú× ¦k®ë¢‹M\níNªt›Tè¤ h1? d‘ uÔœû¸ùg%®çÆ t¹ oõHy ½©€j¤œ³TMÁ¯\"\Zâ %a  u¡ 2 *\'b ¡‹²9`=‹K ç<ÛÀ‘l\'-‹ªp1š‡0üG¢`ÓÀ  ØW–ó…ë^ˆPÜK\ZÃşMº·°e\Z‰Ï }ÍAdmĞÒ5 _ò ü  Af½  Tÿp‰ş €üÅù~ ù>ÿ¡  „I´±ÀµÊêä.™ æØÏ’\rçìs | wLš ÅÔ{V ¸Ø }DQd&’‡1ÜCšÖØnÕvW*j›-ÚRA ‚ª—ì/ ¶¿| oN ‘Æù  …ı¡Ş\\K d÷}ş¶…{¥:á†É~Y¢$ !Õ¶-ùoÎˆIœ  L÷Xm°€ û‚£gÖy ãDøõ€ê K5±[ãì#.€³wìF¯•sö7\\@&Úƒiûfås3Ë.K®¤ ñ2}¢¾ Ô	Yş[\Zq æL¸À´± H8 a@L 3ªÒ„éñ4U KA ÕE\0Q$²|aişfy †õ \0ëÒ–S1óô9›ÚoÀ‰FÜCz€Ÿ Ú±G<W³`š~¡Ñ„İ_1¦€p[À¢Ş\\“¢  y$MâÎ; ²û”â–³\\?Şš ÷Êôø‰ùÍmşBöş «è dÕ§2÷¢€ß ~-ïK~ã2ÅJ& !)‹@³A` 1ÕµÜ\"ÛB|—XMİÍ†õz÷†ûÄ•ª;)‹{‚U[p½ò³fÄŠ!ƒ¬mA–³Ô»²¹ Í‰— )!~Ã&›E šr±X!¡x‹RÑay‰ öÎ—*ª†k î  aºD:4èRw0rIİ±f‰¹IÄ,Òµîˆ,–]&Ó¸áŠaŞŠY  ê¯ï„Š c ô†* n~ÑQ º»Ë¦Ò–‚¢Ş…K óÓô€Š>U”ŒyÀò‚+%X¤‡ áA„y(-Úƒ“Ã£#r\0v\Z K† xÂpßx0„ÏDxLÂº\'\\r¤™ nÌ=‘FÊ%­ $\0ı¯< O ° U İ¶—£…TÿûÏúà¼ñÈ R \'ùï ?mË±ûİFÛ	WL Ü± 6KxüLR¤IOŒ»à“) B¢…â²\">¸ñÔ%Õ² Ş Ë‚ÖGô1|â‚ŒÓ([\\9:\rîàè¨0È-°/Hóñ j– óÍ‰Y ucİérJåÔít:½#ûğûCûğEğù½öN   6 aŒå´¶İG[´ºN“à=ñQFË­…  Ö¦0‰ ôÖğ˜º¶ûÇŸĞ×€>£ ºì°ña t¨â‰ |ª¤ * ­ƒ’ ‰M÷ îÚğÅÁ‡Mpxéycî6PL×­­û.vö›­ã?áÓ  m ÑwkË3% ÑiÚö±n_–ß±½Ùîô¡İi–oi²t Ö…; \0\0½VEĞR\ZíN®gi …—6»mÍFp\r ç€*Y# ï¶A•… sG3­ë í—¾Ñ Ö	/qµ™£{Ğø3,º[†¶¿‰õQ™Ñ ü.  ‹éhèihÃ¶:­Ê§«Õt7:\"*.+ßö¥³œÂ7\Zå»}éÉ@Eèÿzı´ãÉúqw§¿ï»?s\"ñ šÎ ÌÅ÷bJºîÆÕñüÒö ËVeØ\\L³å~IU© İq¿lC[ ¬çîg{Q(]vá/ç·úz\\–ø¼İ%µ£}ª /„ÓÛŒJÕG.†6}Í ÷YE Æ’kñ 25 ‹Rë Ğ®K|`o) CÆ•ğÓ€­ Š¬õÖKx¬Ì¾æ²OÍË—µ ]WˆW‚ †²ì9Ã !L ÁiÂ4Af³Òšk–…©F‘6z ¯\0wñ@Çb\"ÜZş îæÖ ü E4Ï<Î¢ãú#\ryvÊ ìÈ®Ô M¯c³\r0  f \Z©îŞHuhh$ b<–Lilívv \ZyS¡o‚I¡ò© <vĞ ÚŒ#¿*åœ\nåœ ”³!Õ­h·D‘  PÊÙ“R %Ö•jV(ÕÜA©¦İzV)D J5wP\n€˜§)UZµ*´jí U«·æˆ Œ¥Z­ Ô‚èP:¯¨Ò«]¡W{ ½:NgM/ G¶;GÅÚ»Í—yJP¥W§B¯Î zu;ë^¸„±T«³ÛÚ2\n©UZu+´ên¯•ã´+ †YÜE¥ºÛ+ À åË*z \ZõvĞ¨Ùk®j”CXªÓÛ^ ¸¢(\ZViÓ¯Ğ¦¿ƒ6íFU› ÁR™şŞâŞºFĞŸ%.S¥Eã–:uÛk:­D¾L±Æ.ü ¾— W•º­‘‹Eã–ºõºëQÂ„’ Õ²m&²=,-åÄêN<0dW9EDª9L °gUÚããUw7ç wW ´tØÂ¹µ=¿Kñwx™â•½MñÊ^§xuïS¼Â *^İ  ¯ì•ŠWôNÅ«y©â ¾Uñw{­¢Èœá]Q /²$Æy»g· ½ Ğ8!“~e¾ ùUx‰©z( îÍq  Â¦½6ğÌÃ  æ •×¦®q·\n € _Yc¤9 $Ò   4š M¸u‘* )0œŠÀÏ:  7Ûkw„D.\"Ÿ&s,tÿ\Zûåò±Ó[»\0Ë¿út /(§øß²ÓÀœŸ4êzka¸s<`@ë †3Î \nº’{÷9æXyº>ÎÊøáyşÆèMà_Ñ	÷2Æñçÿ ','20150911004723')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '6668'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/News_archive
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.75.55
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Did not find alias for special page 'SpecialCurationTags'. Perhaps no aliases are defined for it? [Called from SpecialPageFactory::getLocalNameFor in /var/www/wikipathways/w/includes/SpecialPageFactory.php at line 566]
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Saved in parser cache with key wikipathways:pcache:idhash:6668-0!*!0!!en!*!* and timestamp 20151220231648
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:6668-0!*!0!!en!*!*','Õ[Ûnã8 ç| ãÅÎ=ÖÍW%ñ îédÑIŒIfzß Z¢mv$Q ©¸=ƒ ö ö ÷K¶Š’lÉV’öe€L iÛ$U:U,V  ¥ ×²İÆ&’%7©ŠSÕp–û‡tÛn#¼cŸUãXº½N×q \'ñànÊ%‰é„ ODŠòH \Z „+ J¢¦T \ZÇŒ&Ì\'<‚ F¾¹f³Ãoˆdâ\"\"\"k=¡dš°ñiÃ˜ñ n|„ÿ†TMgt. Dq °ÓF¥q ÂÍôO :h’aÀ¨d„ú>¡„QoJ\"6Ã?©Á %à>€5à 0I2cAĞ<81âÁÁ‰¢£€ îŸ6”ğ\ZÄ ¨”Ù÷Á‰JàÏ œøü± ¡á@×Ô œƒÒ,RòÄ€ \'   qi\0ÿ ¼$\'`,8²\0„—ë}d€Bç|ä &iÚ?ßÆ	&÷¶ia¿ŒiT’ ¥áˆ%ub`Ï€¬ P8;ƒL˜‘‰\"(* †:1 ş èì2ºÛ4 Y‚ Ì§AÙÏƒÊd \Zss4N-\Z³ÿ4\Zç Ñ˜ıÍÑ´ÊhşE£”&ü 8­çáäB¶ÄÓ.ã¹  ï‰€zO j? ¨‚ˆz›#ê” İxJ¼ ¨ó< \\È–xºe<gé$•ê 8İçád2¶DÓ«øO\ZÌ_ÀÒ{Áy@Â–Húe$Wô% ıç€€-qè¸R·¤ ³ˆ#/¯©m UÂó-‹ÕbUuŸÁôBd^ÈATİuT†Î  ¦  ó¡  4ar	g.ó¹*ò&f¾ÓÆ5æ7šxSşÈ\ZEN=mXõY *b e8;š2ê < I˜éê“ Y L š\0NşÀ¾  ØVÓú  b÷ßĞ0¤   ‰}¥y\0  DŠY• ÈX$dÂ\"ö#‰ ¡ $}\Zù$d`  @j‡Ÿ‘P 5’˜ĞáÖúö¿JÄGI™5X$Š HE( –0L#®æG~ æ‹Pş\'0K®¸—ˆ(U	‡Ü^\\ã3é%|”  Ğ+aÁi# c  b¶ \r0Ï,‰`¸q¢h2aê´q?\nhôĞÈ1U*v\rc6›5¥6#KPå& 2¼ŒQ Á§¾e9v§åt:  WÂ{0‚ÔÊ_#4T \rTR¹¢êˆ •ĞH‚ıBš»LŞõ×¨ y#ŞŒ‚° ñis\" 8 …Ì7l³köÌ>¤©·I:!o¹ô ½$sr\'|:_Qaoh<„Mj gà!iä±  {oví. œóË_®À$‰ŠX t«iÅ~«¸FÈpF Í*eÌ< s!Ó ƒù‡ä„ ¾­sö· ü ˆ©¬:û²y  Ó”Ù¶ğ–ß ¼´†öf DTÌS$ ƒG>ûÜŒ§ñO ®[Ô‰ ÿtÎŞ$b&Ya‡!Ä™¯i  tóém*\0ï cZj=§êô, ~€O6 °l$r,0 H¾ òÉwÕDïM³«¹\'F BuÂÓğ •BœöÒ@H._Ğ´r!)_XÒ9íË¯›Æt{…Do Ì+ ” = ¼o¢‰€Àäîg¤ğ 0˜´›Ş$h¦ 7™Ÿ\Z Ñ®Î†Ãl¹¼ b °û ¨ ßŸ Ÿå€³¾ ¶  ìÓğ õîoß~åƒÿÀ jw²Ì¦åt-ã“Hñòf,\"Ö4M³Ój   ~ ·äæú L˜âÀ$tÊ‚©¬„âºÀP pÿ‘`»ıÈ=V\r  )¥A øNn³ rÍ # G¦ÔÑ\nL… ‹Gc–à ¼X(‡;¹¢³²ƒÚÒ qÇDJ‚pÅ½Ì(0ˆÆqÕÿõ;D÷”ß™}—¼ÇõS ‰ÙáJp  ¡\0_fÜÚÜº_+t”{É²â‘€ I( ídßí4ƒ­ÕMçfSXİõ’²¨úI¼®ËšîrÏ :â¾ˆ!fbÕ(à4¢%{Ş$óß)ùDaíq®GTø{õ&o¯m«7³ùÊÎT„Õ[ı6+l]úÀ{ø˜#ÏA6l£d¦ò]ã€ò ¹¨ÔûŸıdè) øg)Æ\nØ¡1\nÄÄø)>µû+ÖÍ5ØÍÈÕRÁf6®Ö*HYT½…!ÖÖ¹ÙyšhÊ}G\'+.Vé  ¿À†  Ç] µ¯ L×\\×E ›  ÛTé6©ĞI!\ZÑb\Z$È\"kê¨9÷qóÏZ\\Ï èr)Şê‘ò@{S µ”rÎR5 ¿Šhˆ ”„aHÔ…VÈ8¨œˆQ„.Êæ€õ,. œól G²´,ªÂÅh Âğ ‰‚M  8` ^[6Î ®{!Bq/i û7éŞÂ–i$>/ô- \"kƒ–® ù’\'à7à 2ë-ğ ú‡Kôw\0ä/Î÷3È÷ù Í0 L¢ ®UÖ$wÉ¼0Ç~–l8gŸcà³¸cÒ,(¦Şƒ4 àbwô E‘™H Æp Y¶Æv«¶»RQÛlÑV\nz¤$¨~ÉşÂ`ûË\' øæ$ iœ PPØ êÍµdAvß×éoÛY¸W© n˜ì—%J² RoÛŠÿæŒ˜Äé bÁtÕ ó  º/8zf“ 2N„ß ø¨ ±T »5Î>â 8{Ç´z­œ³¿á 2Ñ LÛ/W>7³ì²äJ\n /Ó\'êû@å¿¥  `Î„ L Ë€„Ã  Ää1£*M˜ OS%° äáY]  E\"« Væo– aX  °.m	9 3OŸ³©ı œhÄ=¤ øià© {Äs5 ¦é \ZMØı c\n · ,êÍå9)Ú‘G Ø$î¼ó!»O)n9«õã­éq¯JŸ˜ßÜæ/dï°Š>@V}*s/ú øà×ê¾ä7.S¬dòñ ’² 4  † S]Ë-²-Äw‰ÕÔİlh­×»7Ü\'®TİIUÜ „¬Ş‚ë•Ÿ5#Ö  dm ²œ¥Ş•ÍıhN¼DH	ñ 6Ù,òĞ”‹Å\n	Å[”Š «K´°w¾TQ5\\Ûp % Ó%Òa‰.5	y #—Ô k–˜›DÌ\"]ëÈbÙe2K7\\1Ì[1‹ AıõPÑSÚ ½¡\n¨›_t ‡îî²©²¥ ¨wá Èü4}# ¢O %c °¼àJ	 é!Gx a *‹öàäğèˆ €†Cà’!(0Ü7  á3  “°îÉ#— if„ sO¤‘rI« 	@ÿ«ÅS ,CUG·Íåh!Õÿşó_ >8o<ò‚ ÆIş;ÄOÓ°Í~×jÛ0áŠÉƒ; Âf	 ’IŠ4é‰q |2e@H´P\\VÄ 7ºÄ6ZæÁ;`YĞúˆ>†O\\q\Ze‹+G§Á     ¹ ö¥ i>Ş RÍ2c>°9) CİXwºÜŸR9u;NïÈ<üşĞ<<d |~¯½S Çƒ\rE c9­mÙ¶i;V§Õ#xO|ÔÃj¹ğ ÄÚ &ñƒŞ\Z S×tÿø ú,è+•B— &>,‚ U<1‚O•TB ´uPr!Ñqÿà®	_l|Ø ‡W÷8æ®…bºncİw±³ï´ÿ„O D´QDßm,Ï”pDÇ1Ícİ¾,¿c»Óîô¡İvª·,³t Ö…; \0\0½VEĞR¬v\'×³²…ÂKn[c3 œ…àl0P-kÄáİ6¨²°bîheëÚ¥öK¿Ô Ö	/qµ•G÷ ñgXt· m ë£²R?Nğ»<p,¦ÃÒÓĞ†;muZ•OWËq7:\"*.«Şö¥³œÂ7¬êİ¾ôd &ô½~Úñdı¿¸»İß÷İŸ9‘x	Mg	fÇâ{1%]wãêx~i{‰e«2l.Æi¹_RU*FwÜ/ÛĞ  ë¹ûÙ^ JW]øËù­¾ —%>ow‰gíhŸºÀ áô6£Rã‘‹¡M_sÁ}VÓ…±äZ¼‡L\rÄ¢Òz ´ë  Ø[ÊÇq%ü4`«\"k½õ  «rŸ³ìSóêeíE× $â•à„¡,{ÎğBˆ²Šà4áGš ³YiÍ5ËÂ”U¤ Æ+À]<Ğ±˜ ·‘ÿ†»¹\r ?A Í3³è¸şHCò ;²+u#HÓë¸Ü ˜Æ‰ ³Ç K©î¾”êĞĞH Äx,™ÒØÚíì&4ò¦Bß “BíS :yì #´•üê”³k”³wPÎ„T·¢İ E X@){OJa”XWÊ©QÊÙA)Çl=« ¢\0¥œ ”  åÓ”:­Z5ZµvĞªÕ[sÄ Œ¥Z­ Ô‚èP9¯¨Ó«]£W{ ½:vgM¯ lwŠµw›¯ò)A^\Z½:;èÕí¬{á ÆR­Înk«TH­Óª[£Uw{­l»] 0ÊÅ]Tª»½R\0lQ¾¬Ó¨W£Qo œ³ªQ a©No{uàŠ¢hX§M¿F›ş Ú´­şª6 ‚¥2ı½Å½u ?K\\e• [êÔm¯é´ ù2Å¬]ø |¯ ®ju[# ‹Æ-uëu×£D JVTË¶™Èö°´” «;ñÀ]å  ©æ0 ÀUeWİİœ_Ü]}ĞÒa ç6öü.ÅßáeŠWö6Å+{âÕ½Oñ\n_¨xuoT¼²W*^Ñ; ¯æ¥ŠWøVÅßíµŠ\"s†wE\r¼È’ çÍÙ¶z- q: C&ıªüVäWá%¦ê¡ ¸7Ç   ? smà™‡  Ì/U^ ]ãn ,\0 ¾²:ÇHs\nH¤)  h4)špë\"U:R`<9 Ÿu@ vÚkw„D.\"Ÿ&s,tÿ\ZûÕò±İ[»\0Ë¿út /¨¦øß²ÓÀœŸXÍN³µ0Ü9 0 õJ†+! t% ÷îsÌ±òt}œ•ñÃóüÑ›À¿¢ îeŒãÏÿ ','20151221231648')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '6668'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/News_archive
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-ENCODING: gzip
+ACCEPT-LANGUAGE: en-US
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.157
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Did not find alias for special page 'SpecialCurationTags'. Perhaps no aliases are defined for it? [Called from SpecialPageFactory::getLocalNameFor in /var/www/wikipathways/w/includes/SpecialPageFactory.php at line 566]
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Saved in parser cache with key wikipathways:pcache:idhash:6668-0!*!0!!en!*!* and timestamp 20160126195542
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:6668-0!*!0!!en!*!*','Õ[moã6 îçü\nÆ‡ë{,Y~W  Ùìv“Ã&1š´{ß Z¢mn$Q ©xİ¢Àı„û÷Kn†’lÊV’õKt¬m’\Z=3 Î< J7nÃqkCšH–Ü¤*NUÍm¶Ü?¤Ûvká û¬jÇÒíuºM·v  î¦\\’˜N ñD¤($¡A@¸b¡$jJ ¡qÌhÂ|Â#h`ä›k6;ü†Hæ).\"\"²Ö J¦	 ŸÖ¬ àÖGøoHÕtFç²F W ;­•\Z !ÜLßùÄ¢ƒ:  ŒJF¨ï J õ¦$b3ü“\Z Q î X . “$3  õƒ +  œ(:\n áşiM	¯F¼€J™} œ¨ şüÁ‰Ï ‹ \Z tMÁ9(Í\"%O,øqbÁ  — ğ_À\r9 {dÁQ @x¹ŞG\r Pèü Ä$uççÛ8áÑäŞ± Ø/c\Z R¢4 ±¤6hœXØ3 «  ÎÎ  fe¢ ŠÊÇ£¡N¬€ :ÇDw›†!K ”ı4(çyP™ Dco¦Y‰Æî?¦ù…hìşæhZ&šÑ(¥	 Nëy8¹-ñ´M<×â‘á= Pïi@íç  R QosD  Ñ§ÄË€:Ï Ê…l‰§kâ9K\'©T/Àé> \'“±%š^ÉÒ`ş –Ş Î  ¶DÒ7‘\\Ñ—€ôŸ   ¶Ä¡ãJÕ’z Ì\"¼¼¦¶AT\nÏ·,V‹UÕ} Ó ‘y! Qu×QY:sX˜n,Ì;–NLĞ„É%œ¹ÌçªÈ›˜ùNk×˜ßhâMù#« 9õ´Ö¨Î e +(ÃÙÑ”Q?à HÂLW”Èº`²Ğ pêô ö  À¶šÖ/X »ÿ††!X°Hì+Í Àğ RÌªt@Æ\"!  ± Iœ Å éÓÈ\'! Ûˆ\0R;üŒ„¢¨‘Ä„ ·Ö·ÿU\">JLÖ@b‘(\Z  ¡@XÂ0¸š ù	˜/BùŸÀ4.¹â^\"¢T% r{qÏ¤—ğQFd@¯„ §µHŒE ˆÙ‚4À<³$‚ázÆ‰¢É„©ÓÚı( ÑC-7ÆT©Øµ¬ÙlV—ÚŒ,A•ë€Èò2Fa ŸúFÓé´šN§+á= Ajå¯ \Z*Œ 2T.©:âB%4’`¿æ.“wı5ªDŞˆ×£ ¬G|ZŸˆG+NG!ó-ÇîÚ=» iêm’NÈ[.=H/ÉœÜ	ŸÎWTØ \Z\'aİ£\ZÈ xH\Zy, ÃŞÛ]§‹ çüò—+0I¢\"–\0 äjZ²ß*® 2œÑ@³J 3Ã\\È4Fç`ş!9áƒo«œı- ? b*ËÎ¾l HÆ4ev\ZxËïN,n¬¡½™   ó_ ÉÄâ‘Ï>×ãiüS†ë u¢Á?›go 1“¬°Ã âÌ×4ŒGºùô6•?€÷ˆ15ZÏ©:= ‚ à“M , ‰   ¤ ’o‡|òİ_5Ñ{Óìjî‰ …Pğ4üA¥ §½4 ’Ë 4-]HÌ \róØ¾üºiLwVHôfÁ¼Äá‰!è‰à} M  &w?ó$…—€Á¤S÷&A=õä¸ÎüÔ‚ˆvu6 fËå½ “€İç@Åøş\\ø, œõ °Å˜`Ÿ†¨wûö+ ü &P»SÃ®7šİ†õI¤xy=  «Û¶İiµ€\n ?ˆ[rsı &Lq` :eÁT–BqU`0 Üd#Øn?r•ÃDIŠ1h\0ßÉmöC®Y` äÈ–:Z©0`ñhÌ Üƒ  åp\'Wl®ì ¶tEÜ1 CĞ ®¸—    Ò8.ûß³~‡èò;»ï’÷¸>pª#1;\\	nC  àïËŒ[™ òQ÷k… ³—,+ 	˜‘„\"ÑNöİN3ØZİtn6…å]/1EUOâuUÖt—s|–Ğ ÷E 1 «F § 5ìy“Ì§ä …µÇ=º QáïÕ›¼½¶­ŞÌæ+;{R VmõÛ¬°ué ïác< Ù4²\rÃLæ]ã€ò ¹¨ÔûŸıdè) øg)Æ\nØ¡5\nÄÄú)>uú+ÖÍ5ØÍÈÕRÁf6.×*ˆ)ªÚÂ k«Üì<M4å¾£“  +õ Š_`Ã‰ã®Ú× ¦k®ë¢‹M\níNªt›Tè¤ h1? d‘ uÔœû¸ùg%®çÆ t¹ oõHy ½©€j¤œ³TMÁ¯\"\Zâ %a  u¡ 2 *\'b ¡‹²9`=‹K ç<ÛÀ‘l\'-‹ªp1š‡0üG¢`ÓÀ  ØW–ó…ë^ˆPÜK\ZÃşMº·°e\Z‰Ï }ÍAdmĞÒ5 _ò ü  Af½  Tÿp‰ş €üÅù~ ù>ÿ¡  „I´±ÀµÊêä.™ æØÏ’\rçìs | wLš ÅÔ{V ¸Ø }DQd&’‡1ÜCšÖØnÕvW*j›-ÚRA ‚ª—ì/ ¶¿| oN ‘Æù  …ı¡Ş\\K d÷}ş¶…{¥:á†É~Y¢$ !Õ¶-ùoÎˆIœ  L÷Xm°€ û‚£gÖy ãDøõ€ê K5±[ãì#.€³wìF¯•sö7\\@&Úƒiûfås3Ë.K®¤ ñ2}¢¾ Ô	Yş[\Zq æL¸À´± H8 a@L 3ªÒ„éñ4U KA ÕE\0Q$²|aişfy †õ \0ëÒ–S1óô9›ÚoÀ‰FÜCz€Ÿ Ú±G<W³`š~¡Ñ„İ_1¦€p[À¢Ş\\“¢  y$MâÎ; ²û”â–³\\?Şš ÷Êôø‰ùÍmşBöş «è dÕ§2÷¢€ß ~-ïK~ã2ÅJ& !)‹@³A` 1ÕµÜ\"ÛB|—XMİÍ†õz÷†ûÄ•ª;)‹{‚U[p½ò³fÄŠ!ƒ¬mA–³Ô»²¹ Í‰— )!~Ã&›E šr±X!¡x‹RÑay‰ öÎ—*ª†k î  aºD:4èRw0rIİ±f‰¹IÄ,Òµîˆ,–]&Ó¸áŠaŞŠY  ê¯ï„Š c ô†* n~ÑQ º»Ë¦Ò–‚¢Ş…K óÓô€Š>U”ŒyÀò‚+%X¤‡ áA„y(-Úƒ“Ã£#r\0v\Z K† xÂpßx0„ÏDxLÂº\'\\r¤™ nÌ=‘FÊ%­ $\0ı¯< O ° U İ¶—£…TÿûÏúà¼ñÈ R \'ùï ?mË±ûİFÛ	WL Ü± 6KxüLR¤IOŒ»à“) B¢…â²\">¸ñÔ%Õ² Ş Ë‚ÖGô1|â‚ŒÓ([\\9:\rîàè¨0È-°/Hóñ j– óÍ‰Y ucİérJåÔít:½#ûğûCûğEğù½öN   6 aŒå4HN§Ño·[ Á{â£ –[ ?@¬Ma ?è­á1um÷?¡¯ }F)tÙaãÃ\"èPÅ #øTI)T@[ %  ›î Üµá‹ƒ ›àğÒó ÇÜm ˜®[[÷]ìì7[ÇÂ§ \"Ú(¢ïÖ–gJ8¢Ó´ícİ¾,¿c{³İéC»Ó,ßÒdé0¬ w@\0\0z­Š ¥4Ú\\ÏÒ \n/mvÛ\Z›à\Z Î  U²F Şmƒ* +æfZ×1Ú/}£ ¬ ^âj3G÷ ñgXt· m ë£2£ \'ø] 8 ÓÑĞÓĞ†;muZ•OW«éntDT\\V¾íKg9…o4ÊwûÒ“ŠĞÿõúiÇ“õÿâîNßwæDâ%4%˜ ‹ïÅ”tİ«ãù¥í%–­Ê°¹˜fËı’ªR1ºã~Ù†¶0XÏİÏö¢PºìÂ_Îoõõ¸,ñy»K<kGûT ^ §· •ª \\ múš î³Š.Œ%×â=dj  ¥Ö  ]—øÀŞR>†Œ+á§ [\r Yë­—ğX™}ÍeŸš—/k/º®  ¯ \' eÙs† B˜*‚Ó„ i‚Ìf¥5×, S\"mô0^ îâÅD¸µü7ÜÍ­9ø	ŠhyœEÇõG\Zòì”?Ø‘]© Aš^Çf `\Z\'\"Ì  4Rİ½‘êĞĞH Äx,™ÒØÚíì&4ò¦Bß “BåS :yì #´ G~UÊ9 Ê9;(gCª[Ñn‰\" , ”³\'¥0J¬+Õ¬Pª¹ƒRM»õ¬Rˆ ”jî  \01OSª´jUhÕÚA«VoÍ \r KµZ;¨ Ñ¡t^Q¥W»B¯ö zuœÎš^ lwŠµw›/ó” J¯N…^ ôêvÖ½p	c©Vg·µe R«´êVhÕİ^+ÇiW  ³¸‹Ju·W\n€-Ê—U\Zõ*4êí Q³×\\Õ(‡°T§·½:pEQ4¬Ò¦_¡M mÚşª6 ‚¥2ı½Å½u ?K\\¦J‹Æ-uê¶×tZ‰|™b]ø |/ ®*u[# ‹Æ-uëu×£„	%+ªeÛLd{XZÊ‰Õx`È®rŠˆTs˜ `Ïª´ÇÇ«înÎ/î®>hé°…sk{~—âïğ2Å+{›â•½NñêŞ§x…/T¼º7*^Ù+ ¯èŠWóRÅ+|«âïöZE‘9Ã»¢ ^dIŒóvÏn7z- q: C&ıÊ|+ò«ğ SõP Ü›ã  „ M{mà™‡  Ì7*¯M]ãn ,\0 ¾²:ÇHs\nH¤)  h4)špë\"U:R`<9 Ÿu@ n¶×î ‰\\D>MæXèş5öËåc§·v –õé ^PNñ¿e§9?iÔ;õÖÂpçxÀ€Ö3 gœ! t% ÷îsÌ±òt}œ•ñÃóüÑ›À¿¢ îeŒãÏÿ ','20160127195542')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '6668'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/News_archive
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+ACCEPT-ENCODING: gzip,deflate
+USER-AGENT: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Did not find alias for special page 'SpecialCurationTags'. Perhaps no aliases are defined for it? [Called from SpecialPageFactory::getLocalNameFor in /var/www/wikipathways/w/includes/SpecialPageFactory.php at line 566]
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Saved in parser cache with key wikipathways:pcache:idhash:6668-0!*!0!!en!*!* and timestamp 20160206063512
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:6668-0!*!0!!en!*!*','Õ[Ûnã8 ç| ãÅÎ=ÖÍW%ñ îédÑIŒIfzß Z¢mv$Q ©¸=ƒ ö ö ÷K¶Š’lÉV’öe€L iÛ$U:U,V  ¥ ×²İÆ&’%7©ŠSÕp–û‡tÛn#¼cŸUãXº½N×q \'ñànÊ%‰é„ ODŠòH \Z „+ J¢¦T \ZÇŒ&Ì\'<‚ F¾¹f³Ãoˆdâ\"\"\"k=¡dš°ñiÃ˜ñ n|„ÿ†TMgt. Dq °ÓF¥q ÂÍôO :h’aÀ¨d„ú>¡„QoJ\"6Ã?©Á %à>€5à 0I2cAĞ<81âÁÁ‰¢£€ îŸ6”ğ\ZÄ ¨”Ù÷Á‰JàÏ œøü± ¡á@×Ô œƒÒ,RòÄ€ \'   qi\0ÿ ¼$\'`,8²\0„—ë}d€Bç|ä &iÚ?ßÆ	&÷¶ia¿ŒiT’ ¥áˆ%ub`Ï€¬ P8;ƒL˜‘‰\"(* †:1 ş èì2ºÛ4 Y‚ Ì§AÙÏƒÊd \Zss4N-\Z³ÿ4\Zç Ñ˜ıÍÑ´ÊhşE£”&ü 8­çáäB¶ÄÓ.ã¹  ï‰€zO j? ¨‚ˆz›#ê” İxJ¼ ¨ó< \\È–xºe<gé$•ê 8İçád2¶DÓ«øO\ZÌ_ÀÒ{Áy@Â–Húe$Wô% ıç€€-qè¸R·¤ ³ˆ#/¯©m UÂó-‹ÕbUuŸÁôBd^ÈATİuT†Î  ¦  ó¡  4ar	g.ó¹*ò&f¾ÓÆ5æ7šxSşÈ\ZEN=mXõY *b e8;š2ê < I˜éê“ Y L š\0NşÀ¾  ØVÓú  b÷ßĞ0¤   ‰}¥y\0  DŠY• ÈX$dÂ\"ö#‰ ¡ $}\Zù$d`  @j‡Ÿ‘P 5’˜ĞáÖúö¿JÄGI™5X$Š HE( –0L#®æG~ æ‹Pş\'0K®¸—ˆ(U	‡Ü^\\ã3é%|”  Ğ+aÁi# c  b¶ \r0Ï,‰`¸q¢h2aê´q?\nhôĞÈ1U*v\rc6›5¥6#KPå& 2¼ŒQ Á§¾e9v§åt:  WÂ{0‚ÔÊ_#4T \rTR¹¢êˆ •ĞH‚ıBš»LŞõ×¨ y#ŞŒ‚° ñis\" 8 …Ì7l³köÌ>¤©·I:!o¹ô ½$sr\'|:_Qaoh<„Mj gà!iä±  {oví. œóË_®À$‰ŠX t«iÅ~«¸FÈpF Í*eÌ< s!Ó ƒù‡ä„ ¾­sö· ü ˆ©¬:û²y  Ó”Ù¶ğ–ß ¼´†öf DTÌS$ ƒG>ûÜŒ§ñO ®[Ô‰ ÿtÎŞ$b&Ya‡!Ä™¯i  tóém*\0ï cZj=§êô, ~€O6 °l$r,0 H¾ òÉwÕDïM³«¹\'F BuÂÓğ •BœöÒ@H._Ğ´r!)_XÒ9íË¯›Æt{…Do Ì+ ” = ¼o¢‰€Àäîg¤ğ 0˜´›Ş$h¦ 7™Ÿ\Z Ñ®Î†Ãl¹¼ b °û ¨ ßŸ Ÿå€³¾ ¶  ìÓğ õîoß~åƒÿÀ jw²Ì¦åt-ã“Hñòf,\"Ö4M³Ój   ~ ·äæú L˜âÀ$tÊ‚©¬„âºÀP pÿ‘`»ıÈ=V\r  )¥A øNn³ rÍ # G¦ÔÑ\nL… ‹Gc–à ¼X(‡;¹¢³²ƒÚÒ qÇDJ‚pÅ½Ì(0ˆÆqÕÿõ;D÷”ß™}—¼ÇõS ‰ÙáJp  ¡\0_fÜÚÜº_+t”{É²â‘€ I( ídßí4ƒ­ÕMçfSXİõ’²¨úI¼®ËšîrÏ :â¾ˆ!fbÕ(à4¢%{Ş$óß)ùDaíq®GTø{õ&o¯m«7³ùÊÎT„Õ[ı6+l]úÀ{ø˜#ÏA6l£d¦ò]ã€ò ¹¨ÔûŸıdè) øg)Æ\nØ¡1\nÄÄø)>µû+ÖÍ5ØÍÈÕRÁf6®Ö*HYT½…!ÖÖ¹ÙyšhÊ}G\'+.Vé  ¿À†  Ç] µ¯ L×\\×E ›  ÛTé6©ĞI!\ZÑb\Z$È\"kê¨9÷qóÏZ\\Ï èr)Şê‘ò@{S µ”rÎR5 ¿Šhˆ ”„aHÔ…VÈ8¨œˆQ„.Êæ€õ,. œól G²´,ªÂÅh Âğ ‰‚M  8` ^[6Î ®{!Bq/i û7éŞÂ–i$>/ô- \"kƒ–® ù’\'à7à 2ë-ğ ú‡Kôw\0ä/Î÷3È÷ù Í0 L¢ ®UÖ$wÉ¼0Ç~–l8gŸcà³¸cÒ,(¦Şƒ4 àbwô E‘™H Æp Y¶Æv«¶»RQÛlÑV\nz¤$¨~ÉşÂ`ûË\' øæ$ iœ PPØ êÍµdAvß×éoÛY¸W© n˜ì—%J² RoÛŠÿæŒ˜Äé bÁtÕ ó  º/8zf“ 2N„ß ø¨ ±T »5Î>â 8{Ç´z­œ³¿á 2Ñ LÛ/W>7³ì²äJ\n /Ó\'êû@å¿¥  `Î„ L Ë€„Ã  Ää1£*M˜ OS%° äáY]  E\"« Væo– aX  °.m	9 3OŸ³©ı œhÄ=¤ øià© {Äs5 ¦é \ZMØı c\n · ,êÍå9)Ú‘G Ø$î¼ó!»O)n9«õã­éq¯JŸ˜ßÜæ/dï°Š>@V}*s/ú øà×ê¾ä7.S¬dòñ ’² 4  † S]Ë-²-Äw‰ÕÔİlh­×»7Ü\'®TİIUÜ „¬Ş‚ë•Ÿ5#Ö  dm ²œ¥Ş•ÍıhN¼DH	ñ 6Ù,òĞ”‹Å\n	Å[”Š «K´°w¾TQ5\\Ûp % Ó%Òa‰.5	y #—Ô k–˜›DÌ\"]ëÈbÙe2K7\\1Ì[1‹ AıõPÑSÚ ½¡\n¨›_t ‡îî²©²¥ ¨wá Èü4}# ¢O %c °¼àJ	 é!Gx a *‹öàäğèˆ €†Cà’!(0Ü7  á3  “°îÉ#— if„ sO¤‘rI« 	@ÿ«ÅS ,CUG·Íåh!Õÿşó_ >8o<ò‚ ÆIş;ÄOÓ°Í~×jÛ0áŠÉƒ; Âf	 ’IŠ4é‰q |2e@H´P\\VÄ 7ºÄ6ZæÁ;`YĞúˆ>†O\\q\Ze‹+G§Á     ¹ ö¥ i>Ş RÍ2c>°9) CİXwºÜŸR9u;NïÈ<üşĞ<<d |~¯½S Çƒ\rE c9­cÚ$;NÛ²	Ş  õ°Zn#ü\0±6…Iü ·†ÇÔ5İ?ş„> úJ¥Ğe‡‰ ‹ C OŒàS%•P m ”\\HtÜ?¸kÂ   6Áá•ç=¹k¡˜®ÛX÷]ìì;­ã?áÓ  m Ñw Ë3% ÑqLóX·/ËïØî´;}h·ê-Ë, †uá  \0@¯U ´ «İÉõ¬l¡ğR§ÛÖØL g!8  TË\Zqx·\rª,¬˜;ZÙºv©ıÒ/õ€uÂK\\måÑ=hü  İ-CÛßÄú¨¬Ô ü.  ‹é°ô4´áN[VåÓÕrÜˆŠËª·}é,§ğ\r«z·/= ¨	ı_¯Ÿv<Yÿ/în÷÷}÷gN$^BÓY‚Ù±ø^LI×İ¸:_Ú^bÙª ›‹qZî—T•ŠÑ ÷Ë6´…Ázî~¶ …ÒU şr~«¯Çe‰ÏÛ]âY;Ú§.ğB8½Í¨TãxäbhÓ×\\pŸÕta,¹ ï!S ±¨´^\0íºÄ ö–ò1d\\	?\rØj ÈZo½„ÇªÜç,ûÔ¼zY{Ñu ‰x%8a(Ë3¼ ¢¬\"8Mø‘&ÈlVZsÍ²0e i£‡ñ\np  t,&Âmä¿ánnÃÆOPDóÌã,:®?Òg§üÁìJİ Òô:.· ¦q\"Âì±ÀRª»/¥:44  1 K¦4¶v;»	¼©Ğ7Á¤PûÔ…N ;è m¥#¿:åì\Zåì ”3!Õ­h·D‘  PÊŞ“R %Ö•rj”rvPÊ1[Ï*…(@)g ¥\0Hù4¥N«VV­ ´jõÖ ± c©Vk µ :TÎ+êôj×èÕŞA¯İYÓ«„#Û£bíİæ«|JP§W§F¯Î zu;ë^¸„±T«³ÛÚ* Rë´êÖhÕİ^+Ûn× Œrq •ên¯ \0[”/ë4êÕhÔÛA#§ç¬j”CXªÓÛ^ ¸¢(\ZÖiÓ¯Ñ¦¿ƒ6m«¿ªM†`©Loqo]#èÏ WY¥Eã–:uÛk:­D¾L1k ~ ß«…«ZİÖÈÅ¢qKİzİõ(Q†’ Õ²m&²=,-åÄêN<0dW9EDª9L °gUÙããUw7ç wW ´tØÂ¹=¿Kñwx™â•½MñÊ^§xuïS¼Â *^İ  ¯ì•ŠWôNÅ«y©â ¾Uñw{­¢Èœá]Q /²$Æy³g¶­^ hœNÇI¿*¿ ùUx‰©z( îÍq  Â Ç\\ xæá  óK•WG×¸[  Àƒ¯¬Î1Òœ  i\n  \ZMŠ&ÜºH•  ONEàg ‡öÚ !‘‹È§É  İ¿Æ~µ|l÷Ö.Àò¯>À ª)ş·ì40ç\'V³Ól- w  h½’áJg  ]ÉÆ½û s¬<] geüğ<cô&ğ¯è„{ ãøóÿ','20160207063512')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '6668'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/News_archive
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.160
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Did not find alias for special page 'SpecialCurationTags'. Perhaps no aliases are defined for it? [Called from SpecialPageFactory::getLocalNameFor in /var/www/wikipathways/w/includes/SpecialPageFactory.php at line 566]
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Saved in parser cache with key wikipathways:pcache:idhash:6668-0!*!0!!en!*!* and timestamp 20160302122032
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:6668-0!*!0!!en!*!*','Õ[Ûnã8 ç| ãÅÎ=ÖÍW%ñ îédÑIŒIfzß Z¢mv$Q ©¸=ƒ ö ö ÷K¶Š’lÉV’öe€L iÛ$U:U,V  ¥ ×²İÆ&’%7©ŠSÕp–û‡tÛn#¼cŸUãXº½N×q \'ñànÊ%‰é„ ODŠòH \Z „+ J¢¦T \ZÇŒ&Ì\'<‚ F¾¹f³Ãoˆdâ\"\"\"k=¡dš°ñiÃ˜ñ n|„ÿ†TMgt. Dq °ÓF¥q ÂÍôO :h’aÀ¨d„ú>¡„QoJ\"6Ã?©Á %à>€5à 0I2cAĞ<81âÁÁ‰¢£€ îŸ6”ğ\ZÄ ¨”Ù÷Á‰JàÏ œøü± ¡á@×Ô œƒÒ,RòÄ€ \'   qi\0ÿ ¼$\'`,8²\0„—ë}d€Bç|ä &iÚ?ßÆ	&÷¶ia¿ŒiT’ ¥áˆ%ub`Ï€¬ P8;ƒL˜‘‰\"(* †:1 ş èì2ºÛ4 Y‚ Ì§AÙÏƒÊd \Zss4N-\Z³ÿ4\Zç Ñ˜ıÍÑ´ÊhşE£”&ü 8­çáäB¶ÄÓ.ã¹  ï‰€zO j? ¨‚ˆz›#ê” İxJ¼ ¨ó< \\È–xºe<gé$•ê 8İçád2¶DÓ«øO\ZÌ_ÀÒ{Áy@Â–Húe$Wô% ıç€€-qè¸R·¤ ³ˆ#/¯©m UÂó-‹ÕbUuŸÁôBd^ÈATİuT†Î  ¦  ó¡  4ar	g.ó¹*ò&f¾ÓÆ5æ7šxSşÈ\ZEN=mXõY *b e8;š2ê < I˜éê“ Y L š\0NşÀ¾  ØVÓú  b÷ßĞ0¤   ‰}¥y\0  DŠY• ÈX$dÂ\"ö#‰ ¡ $}\Zù$d`  @j‡Ÿ‘P 5’˜ĞáÖúö¿JÄGI™5X$Š HE( –0L#®æG~ æ‹Pş\'0K®¸—ˆ(U	‡Ü^\\ã3é%|”  Ğ+aÁi# c  b¶ \r0Ï,‰`¸q¢h2aê´q?\nhôĞÈ1U*v\rc6›5¥6#KPå& 2¼ŒQ Á§¾e9v§åt:  WÂ{0‚ÔÊ_#4T \rTR¹¢êˆ •ĞH‚ıBš»LŞõ×¨ y#ŞŒ‚° ñis\" 8 …Ì7l³köÌ>¤©·I:!o¹ô ½$sr\'|:_Qaoh<„Mj gà!iä±  {oví. œóË_®À$‰ŠX t«iÅ~«¸FÈpF Í*eÌ< s!Ó ƒù‡ä„ ¾­sö· ü ˆ©¬:û²y  Ó”Ù¶ğ–ß ¼´†öf DTÌS$ ƒG>ûÜŒ§ñO ®[Ô‰ ÿtÎŞ$b&Ya‡!Ä™¯i  tóém*\0ï cZj=§êô, ~€O6 °l$r,0 H¾ òÉwÕDïM³«¹\'F BuÂÓğ •BœöÒ@H._Ğ´r!)_XÒ9íË¯›Æt{…Do Ì+ ” = ¼o¢‰€Àäîg¤ğ 0˜´›Ş$h¦ 7™Ÿ\Z Ñ®Î†Ãl¹¼ b °û ¨ ßŸ Ÿå€³¾ ¶  ìÓğ õîoß~åƒÿÀ jw²Ì¦åt-ã“Hñòf,\"Ö4M³Ój   ~ ·äæú L˜âÀ$tÊ‚©¬„âºÀP pÿ‘`»ıÈ=V\r  )¥A øNn³ rÍ # G¦ÔÑ\nL… ‹Gc–à ¼X(‡;¹¢³²ƒÚÒ qÇDJ‚pÅ½Ì(0ˆÆqÕÿõ;D÷”ß™}—¼ÇõS ‰ÙáJp  ¡\0_fÜÚÜº_+t”{É²â‘€ I( ídßí4ƒ­ÕMçfSXİõ’²¨úI¼®ËšîrÏ :â¾ˆ!fbÕ(à4¢%{Ş$óß)ùDaíq®GTø{õ&o¯m«7³ùÊÎT„Õ[ı6+l]úÀ{ø˜#ÏA6l£d¦ò]ã€ò ¹¨ÔûŸıdè) øg)Æ\nØ¡1\nÄÄø)>µû+ÖÍ5ØÍÈÕRÁf6®Ö*HYT½…!ÖÖ¹ÙyšhÊ}G\'+.Vé  ¿À†  Ç] µ¯ L×\\×E ›  ÛTé6©ĞI!\ZÑb\Z$È\"kê¨9÷qóÏZ\\Ï èr)Şê‘ò@{S µ”rÎR5 ¿Šhˆ ”„aHÔ…VÈ8¨œˆQ„.Êæ€õ,. œól G²´,ªÂÅh Âğ ‰‚M  8` ^[6Î ®{!Bq/i û7éŞÂ–i$>/ô- \"kƒ–® ù’\'à7à 2ë-ğ ú‡Kôw\0ä/Î÷3È÷ù Í0 L¢ ®UÖ$wÉ¼0Ç~–l8gŸcà³¸cÒ,(¦Şƒ4 àbwô E‘™H Æp Y¶Æv«¶»RQÛlÑV\nz¤$¨~ÉşÂ`ûË\' øæ$ iœ PPØ êÍµdAvß×éoÛY¸W© n˜ì—%J² RoÛŠÿæŒ˜Äé bÁtÕ ó  º/8zf“ 2N„ß ø¨ ±T »5Î>â 8{Ç´z­œ³¿á 2Ñ LÛ/W>7³ì²äJ\n /Ó\'êû@å¿¥  `Î„ L Ë€„Ã  Ää1£*M˜ OS%° äáY]  E\"« Væo– aX  °.m	9 3OŸ³©ı œhÄ=¤ øià© {Äs5 ¦é \ZMØı c\n · ,êÍå9)Ú‘G Ø$î¼ó!»O)n9«õã­éq¯JŸ˜ßÜæ/dï°Š>@V}*s/ú øà×ê¾ä7.S¬dòñ ’² 4  † S]Ë-²-Äw‰ÕÔİlh­×»7Ü\'®TİIUÜ „¬Ş‚ë•Ÿ5#Ö  dm ²œ¥Ş•ÍıhN¼DH	ñ 6Ù,òĞ”‹Å\n	Å[”Š «K´°w¾TQ5\\Ûp % Ó%Òa‰.5	y #—Ô k–˜›DÌ\"]ëÈbÙe2K7\\1Ì[1‹ AıõPÑSÚ ½¡\n¨›_t ‡îî²©²¥ ¨wá Èü4}# ¢O %c °¼àJ	 é!Gx a *‹öàäğèˆ €†Cà’!(0Ü7  á3  “°îÉ#— if„ sO¤‘rI« 	@ÿ«ÅS ,CUG·Íåh!Õÿşó_ >8o<ò‚ ÆIş;ÄOÓ°Í~×jÛ0áŠÉƒ; Âf	 ’IŠ4é‰q |2e@H´P\\VÄ 7ºÄ6ZæÁ;`YĞúˆ>†O\\q\Ze‹+G§Á     ¹ ö¥ i>Ş RÍ2c>°9) CİXwºÜŸR9u;NïÈ<üşĞ<<d |~¯½S Çƒ\rE c9­c:¦mÙ¶éØ ï‰zX-· ~€X›Â$~Ğ[Ãcêšî BŸ }¥Rè²ÃÄ‡EĞ¡Š\'Fğ©’J¨€¶ J.$:î Ü5á‹ ›àğÊó ÇÜµPL×m¬û.vöÖñŸğiƒˆ6Šè»å™ è8¦y¬Û—åwlwÚ>´ÛNõ–e– Ãºp  \0 ×ª ZŠÕîäzV¶Px©Ómkl&‚³ œ\r ªe8¼Û U VÌ ­l]»Ô~é—zÀ:á%®¶òè 4ş ‹î–¡íob}TVêÇ	~— ÅtXz\ZÚp§­N«òéj9îFGDÅeÕÛ¾t–Sø†U½Û— Ô„ş¯×O;¬ÿ w·ûû¾û3\' /¡é,ÁìX|/¦¤ën\\ Ï/m/±lU†ÍÅ8-÷KªJÅèûe ÚÂ`=w?Û‹Béª 9¿Õ×ã²Äçí.ñ¬ íS x!œŞfTªq<r1´ék.¸Ïjº0–\\‹÷©XTZ/€v]â {Kù 2®„Ÿ l5Pd­·^ÂcUîs–}j^½¬½èº‚D¼ œ0”eÏ ^ QV œ&üH d6+­¹fY˜²Š´ÑÃx ¸‹ :  á6òßp7·aã\'(¢yæq  × iÈ³Sş`Gv¥n iz —Û\0Ó8 aöX`)Õİ—R \Z\Z	 %S\Z[»İ„FŞTè›`R¨}êB\' t„¶Ò‘_rvrö Ê™êV´[¢È  (eïI)Œ ëJ95J9;(å˜­g•B  ”³ƒR\0¤|šR§U«F«Ö ZµzkX‚±T«µƒZ  *ç uzµkôjï WÇî¬éUÂ‘íÎQ±önóU>%¨Ó«S£Wg ½ºu/\\ÂXªÕÙmm•\n©uZuk´ên¯•m·k F¹¸‹Ju·W\n€-Ê—u\Zõj4êí ‘ÓsV5Ê!,Õém¯ \\Q \rë´é×hÓßA›¶Õ_Õ&C°T¦¿·¸·® ôg‰«¬Ò¢qKºí5V\"_¦˜µ ¿€ïÕÂU­nkäbÑ¸¥n½îz”(CÉŠjÙ6 Ù ––rbu\'  ²«œ\"\"Õ & Ø³ªìññª»›ó‹»« Z:láÜÆß¥ø;¼LñÊŞ¦xe¯S¼º÷)^á  ¯îŠWöJÅ+z§âÕ¼Tñ\nßªø»½VQdÎğ®¨ Y ã¼Ù3ÛV¯ 4N§cÈ¤_•ßŠü*¼ÄT=  ÷æ8  á‡c®\r<óğ\0‚ù¥Ê«£kÜ­‚ àÁWVç iN ‰4   &E n]¤JG\nŒ\'§\"ğ³ ÈÃN{íÈEäÓd…î_c¿Z>¶{k `ùWŸNà Õ ÿ[v\Z˜ó «Ùi¶ †;Ç  ´^Ép¥3„‚®dãŞ}9V®³2~x¿1z øWtÂ½Œqüù','20160303122032')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '6668'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/News_archive
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.9
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Did not find alias for special page 'SpecialCurationTags'. Perhaps no aliases are defined for it? [Called from SpecialPageFactory::getLocalNameFor in /var/www/wikipathways/w/includes/SpecialPageFactory.php at line 566]
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Saved in parser cache with key wikipathways:pcache:idhash:6668-0!*!0!!en!*!* and timestamp 20160317070401
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:6668-0!*!0!!en!*!*','Õ[Ûnã8 ç| ãÅÎ=ÖÍW%ñ îédÑIŒIfzß Z¢mv$Q ¥¸=ƒ ö ö ÷K¶Š’lÊV’öe€L iÛ$U:U,V  ¥ ×²İÆ&’%7Y\ZgiÃuZî Òm»ğ}N ÇÒíuºÛ8‰ wS.IL\'Œx\"J)$¡A@xÊBIÒ)M	cF æ  A #ß\\³Ùá7D2/å\"\"\"o=¡dš°ñiÃ˜ñ n|„ÿ†4Îè\\6HÊÓ€6*ƒ n¦î|bĞA“  F%#Ô÷	%ŒzS ± şI †¤ î X . “$3  Íƒ #  œ¤t 0ÂıÓF*¼ ñ *eş}p’&ğç N|şXPp kj ÎAi ¥òÄ€ \'   qY\0ÿ \\“ °G  Y\0Â+ô>²@@©ó?>r “4íŸoã„G“{Û´°_Æ4Ò¤DY8bIc` Ø3 « RœA.ÌÈE  UŒGC  ÿ t¶î6 C– (óiPöó r ˆÆÜ S‹Æì?ÆùB4fs4- Í¿h”Ñ„¿\0§õ<œBÈ–xÚ:kñÈğ ¨÷4 öó€J)ˆ¨·9¢èÆKÅË€:Ï *„l‰§«ã9Ë&™L_€Ó} N.cK4½ŠÿdÁü ,½ œ $l‰¤¯#¹¢/ é?   l‰CÅ•º%õ ˜E yyMmƒ¨ oYœ.VU÷ L/Dæ… DÕ]Ge¨Ìa`º10ï *1A &—pæ2Ÿ§eŞÄÌwÚ¸ÆüF oÊ Y£Ì©§\r«> TE¬  gGSFı€G 	3]}R\"ë‚ÉB À©Ò Øw@\0ÛjZ¿`Aìş \Z†4bÁ\"±¯4 \0ÃƒÈ0«Ò  ‹„LXÄ~$q\"R IŸF>	 ØF Úág$RŠ\ZILèpkuû_%â£Dg\r$ IJ ¤\"  K f OçG~ æ‹Pş\'0K®¸—ˆ(K  ¹½¼ÆgÒKø(\'2 WÂ‚ÓF$Æ\" ÄlA\Z`Y Áp5ã$¥É„¥§ûQ@£‡FaŒišÆ®aÌf³¦Tfd	ªÜ D†—3\n#øÔ·,Çî´œN§cáJx FJùk„†\n£4•+ª¸H \ZI°_H —)ºş\ZU\"oÄ›Q 6#>mNÄ£ g£ù†mvÍÙ‡4õ6É&ä-— ¤—dNî„Oç+*ì\rÇ“°éQ ä <$‹< ‚aïÍ®İÅ€s~ùË ˜$I#–\0 äé´b¿U\\#d8£b•2f ‡¹YŒÎÁüCrÂ ßÖ9û[\n~\nÄTV}Ù<Œ)Êl[xËïN ®­¡½™  •óß ÉÄà‘Ï>7ãiüSë u¢Á?³7‰˜IVÚa qæk\ZÆÇ#Õ|z›É À{Ä˜j­ç4== ‚ à“M , ‰   ¤ ’o‡|òİ_5Ñ{Óìjî‰ …Pğ,ü!Í N{Y $—/hZ¹è j: ±}ùuÓ˜n¯èÍ‚y…Ã MĞ Áû&š  Lî~æI\n/ ƒI»éM‚fæÉq“ù™  íêl8Ì—Ë{!& »/€Šñı¹ğY 8ï+a‹1Á> ÿPíşöíW>ø L r\'ËlZN×2>‰ /oÆ\"bMÓ4;­ Pá qKn®ßÁ„¥ ˜„JY0••P\\  ô ÷ Ù ¶ÛÜcÕ0Q‘¢\r\ZÀwr›ÿk   92¥ŠV`* X<\Z³ ÷àåB9ÜÉ • Ô–®ˆ;&¢	zÂ ÷2£À B\ZÇUÿ{Öï İS~gö]ò × Nu$f‡+Ám „ ü}™qksC1ê~­Ğ¡÷’eÅ# 3’P$ÊÉ¾Ûi [«›ÎÍ¦°ºë%º¨úI¼®ËšîrÏ :â¾ˆ!fbÕ(à4¢š=o’ùï”|¢°ö¸G×#*ü½z“·×¶Õ›Ù|egO*Âê­~› ¶.}à=|Ì‘ç ›F¶¡™I¿k P ! •jÿ³Ÿ =e ÿ,Å8 vhŒ 11~ŠOíşŠu \rv3rgµT°™«µ\n¢‹ª·0ÄÚ:7;Ï E¹ïèdÅÅ*=ƒò Øp¢â¸«¢öµ€éš«ºèb“B`»“¥ªM¦è¤ h9? d‘5uÔ‚û¸Åg-®çÆ T¹ oõHy ¼©„ª¥œ³,‚_E4Ä\rJÂ0$ªB+d TNÄ(B e Àj — Îy¾#ùNZ–Uár4 aø$…M  8` ^[6. ®{!Bq/i û7éŞÂ–i$>/ôÕ ‘µAK×€|É ğ p ™÷–xPıÃ%ú;\0ò çû äûâ‡b  &ÑÆ ×*k’»d^šc?K6œ³Ï1ğYÜ1)  SïA\Z p±;úˆ¢ÈL$ c¸‡Ô­±İªí®TÔ6[´•‚ Ñ Õ/Ù_ lù$ ßœ$\"‹‹ \n\nûCµ¹–,Èïû:ım; ÷*uÂ\r“ı²DI Bêm[ñß‚ “8 A,˜î±Ú`  A÷ GÏlò@Æ‰ğ›  5#–)b·ÆÙG\\\0gï˜V¯Upö7\\@&Úƒiûzås3Ë.K®¤ ñ2}¢¾ Ô	Yş[\Zq æL¸À´± H8 a@L 3šf	Sãi–\n, yxV  D‘Èê…•ù› A ÖG\0¬KYBNÅÌSçlé~ N4â Ò ü4ğÔ=â¹š Óô &ìşŠ±  · ,êÍå9)Û‘G Ø$î¼‹!»O)n9«õã­éq¯JŸ˜ßÂæ/dï°Š>@V}*s/ú øà×ê¾ä7.3¬dòñ ’²    † SUË-³-Äw‰ÕÔİlh­×»7Ü\'®TİIUÜ „¬Ş‚ë•Ÿ5#Ö  äm ²œ§Ş•ÍıhN¼DH	ñ 6Ù,òĞ”‹Å\n	Å[”Š «K´´w±TQ5\\Ûp‡T ¦J¤C.5	y #—Ô k–˜›DÌ\"UëÈbÙå2µ ® æ­˜E şúN¨ìÑvAoh\nÔÍ/;ÊCwwÙTÙRPÔ»t	d~Š¾ PÑ§)%c °¢àJ	 é!Gx a *‹öàäğèˆ €†Cà’!(0Ü7  á3  “°îÉ#— if„ sOdQê’V  €úW ‹§ X†ªn›ËÑB¦ÿûÏúà¼ñÈ 2 \'ùï ?MÃ6û]«mÃ„§L Ü± 6KxüL2¤IOŒ»à“) B¢„â²\">¸ñÔ%¶Ñ2 Ş Ë‚ÖGô1|â‚Œ³(_\\ : îàè¨4È-°/•H‹ñ j– óÍ‰^ ucÕérJåÔít:½#óğûCóğEğù½òÎ 8 l(Â Ëi Ó±ºf×l™ Á{â£ VËm„  Öf0‰ ÔÖğ˜º¦ûÇŸĞgAŸV\n]v˜ø° :TùÄ >UR	 ĞÖAÉ¥DÇıƒ»&|±ña  ^yŞã˜» ŠéºußÅÎ¾Ó:ş >m ÑF }·±<SÂ  Ç4Uû²üíN»Ó‡vÛ©ŞRgé0¬ w@\0\0z­Š ¤XíN¡ge …—:İ¶Âf\"8 ÁÙ` ZÖˆÃ»mPeaÅÂÑtëÚZû¥¯õ€uÂK\\múè 4ş ‹î–¡íobuT¦õã ¿+ Çb:,5\rm¸ÓV§UÅtµ w£#¢ò²êm_:Ë)}ÃªŞíKO jBÿ×ë§ OÖÿË»Ûı}ßı™ ‰—Ğt–`v,¾—SÒu7® —¶—X¶*Ã bœ–û%U¥rtÇı²\rmi°»ŸíE©tÕ…¿œßªëqYâóv—xÖö© ¼ Nos*Õ8 ¹ ÚÔ5 Üg5] K®Å{ÈÔ@,*­ @».ñ½¥|  WÂÏ ¶\Z(òÖ[/áqª÷9Ë¾t^½¬½èº‚D¼ œ0”åÏ ^ ¡« N ~¤	2›•ÖB³<LYeÚèa¼ Üå  ‹‰p Åo¸›Û°ñ  Q<ó8ë4 Ù©x°#¿R5‚4µõ6À4ND˜? ¨¥º{-Õ¡¡‘ ˆñX²Tak·ó›ĞÈ›\nu L\nµO]¨ä±ƒĞ¦ ùÕ)g×(gï œ	©nE»%Š\"°€Rö”Â(±®”S£”³ƒRÙzV)D J9;( @ôÓ”:­Z5ZµvĞªÕ[sD\rÆR­Ö jAt¨œWÔéÕ®Ñ«½ƒ^ »³¦—†#ß£bíİæK?%¨Ó«S£Wg ½ºu/\\ÂXªÕÙmmi…Ô:­º5Zu·×Ê¶Ûµ C/î¢Rİí• `‹òeF½\Zz;häôœU\n KuzÛ« W”EÃ:mú5ÚôwĞ¦mõWµÉ ,•éï-î­k ıyâÒUZ4n©S·½¦ÓJäË ³vá ğ½Z¸ªÕm\\,\Z·Ô­×] :”¼¨–o3‘íai© Vwâ!»*(\"RÍa\"€=§•=>^uws~qwõAI‡-œÛØó» ‡—)^ÙÛ ¯ìuŠW÷>Å+|¡âÕ½QñÊ^©xEïT¼š—*^á[ ·×*ÊÌ Ş•5ğ2Kbœ7{fÛêµ€Æ©t ™ô+ı­È¯ÂKLÕC po#@ ~8æÚÀ3   ˜¯U^ Uãn•,\0 ¾ò:ÇHq\nH¤   h4)›pë\"Ól”‚ñäT ~Ş yØi¯İ  ¹ˆ|šÌ±ĞıkìWËÇvoí ,ÿªÓ	¼ šâËO  ~b5;ÍÖÂpçxÀ€ÖÓ §!”t% ÷îsÌ±òt}œ—ñÃóâÑ›À¿¢ îåŒãÏÿ ','20160318070401')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '6668'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/News_archive
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.30
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Did not find alias for special page 'SpecialCurationTags'. Perhaps no aliases are defined for it? [Called from SpecialPageFactory::getLocalNameFor in /var/www/wikipathways/w/includes/SpecialPageFactory.php at line 566]
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Saved in parser cache with key wikipathways:pcache:idhash:6668-0!*!0!!en!*!* and timestamp 20160321094011
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:6668-0!*!0!!en!*!*','Õ[Ûnã8 ç| ãÅÎ=ÖÍW%ñ îédÑIŒIfzß Z¢mv$Q ©¸=ƒ ö ö ÷K¶Š’lÉV’öe€L iÛ$U:U,V  ¥ ×²İÆ&’%7©ŠSÕp–û‡tÛn#¼cŸUãXº½N×q \'ñànÊ%‰é„ ODŠòH \Z „+ J¢¦T \ZÇŒ&Ì\'<‚ F¾¹f³Ãoˆdâ\"\"\"k=¡dš°ñiÃ˜ñ n|„ÿ†TMgt. Dq °ÓF¥q ÂÍôO :h’aÀ¨d„ú>¡„QoJ\"6Ã?©Á %à>€5à 0I2cAĞ<81âÁÁ‰¢£€ îŸ6”ğ\ZÄ ¨”Ù÷Á‰JàÏ œøü± ¡á@×Ô œƒÒ,RòÄ€ \'   qi\0ÿ ¼$\'`,8²\0„—ë}d€Bç|ä &iÚ?ßÆ	&÷¶ia¿ŒiT’ ¥áˆ%ub`Ï€¬ P8;ƒL˜‘‰\"(* †:1 ş èì2ºÛ4 Y‚ Ì§AÙÏƒÊd \Zss4N-\Z³ÿ4\Zç Ñ˜ıÍÑ´ÊhşE£”&ü 8­çáäB¶ÄÓ.ã¹  ï‰€zO j? ¨‚ˆz›#ê” İxJ¼ ¨ó< \\È–xºe<gé$•ê 8İçád2¶DÓ«øO\ZÌ_ÀÒ{Áy@Â–Húe$Wô% ıç€€-qè¸R·¤ ³ˆ#/¯©m UÂó-‹ÕbUuŸÁôBd^ÈATİuT†Î  ¦  ó¡  4ar	g.ó¹*ò&f¾ÓÆ5æ7šxSşÈ\ZEN=mXõY *b e8;š2ê < I˜éê“ Y L š\0NşÀ¾  ØVÓú  b÷ßĞ0¤   ‰}¥y\0  DŠY• ÈX$dÂ\"ö#‰ ¡ $}\Zù$d`  @j‡Ÿ‘P 5’˜ĞáÖúö¿JÄGI™5X$Š HE( –0L#®æG~ æ‹Pş\'0K®¸—ˆ(U	‡Ü^\\ã3é%|”  Ğ+aÁi# c  b¶ \r0Ï,‰`¸q¢h2aê´q?\nhôĞÈ1U*v\rc6›5¥6#KPå& 2¼ŒQ Á§¾e9v§åt:  WÂ{0‚ÔÊ_#4T \rTR¹¢êˆ •ĞH‚ıBš»LŞõ×¨ y#ŞŒ‚° ñis\" 8 …Ì7l³köÌ>¤©·I:!o¹ô ½$sr\'|:_Qaoh<„Mj gà!iä±  {oví. œóË_®À$‰ŠX t«iÅ~«¸FÈpF Í*eÌ< s!Ó ƒù‡ä„ ¾­sö· ü ˆ©¬:û²y  Ó”Ù¶ğ–ß ¼´†öf DTÌS$ ƒG>ûÜŒ§ñO ®[Ô‰ ÿtÎŞ$b&Ya‡!Ä™¯i  tóém*\0ï cZj=§êô, ~€O6 °l$r,0 H¾ òÉwÕDïM³«¹\'F BuÂÓğ •BœöÒ@H._Ğ´r!)_XÒ9íË¯›Æt{…Do Ì+ ” = ¼o¢‰€Àäîg¤ğ 0˜´›Ş$h¦ 7™Ÿ\Z Ñ®Î†Ãl¹¼ b °û ¨ ßŸ Ÿå€³¾ ¶  ìÓğ õîoß~åƒÿÀ jw²Ì¦åt-ã“Hñòf,\"Ö4M³Ój   ~ ·äæú L˜âÀ$tÊ‚©¬„âºÀP pÿ‘`»ıÈ=V\r  )¥A øNn³ rÍ # G¦ÔÑ\nL… ‹Gc–à ¼X(‡;¹¢³²ƒÚÒ qÇDJ‚pÅ½Ì(0ˆÆqÕÿõ;D÷”ß™}—¼ÇõS ‰ÙáJp  ¡\0_fÜÚÜº_+t”{É²â‘€ I( ídßí4ƒ­ÕMçfSXİõ’²¨úI¼®ËšîrÏ :â¾ˆ!fbÕ(à4¢%{Ş$óß)ùDaíq®GTø{õ&o¯m«7³ùÊÎT„Õ[ı6+l]úÀ{ø˜#ÏA6l£d¦ò]ã€ò ¹¨ÔûŸıdè) øg)Æ\nØ¡1\nÄÄø)>µû+ÖÍ5ØÍÈÕRÁf6®Ö*HYT½…!ÖÖ¹ÙyšhÊ}G\'+.Vé  ¿À†  Ç] µ¯ L×\\×E ›  ÛTé6©ĞI!\ZÑb\Z$È\"kê¨9÷qóÏZ\\Ï èr)Şê‘ò@{S µ”rÎR5 ¿Šhˆ ”„aHÔ…VÈ8¨œˆQ„.Êæ€õ,. œól G²´,ªÂÅh Âğ ‰‚M  8` ^[6Î ®{!Bq/i û7éŞÂ–i$>/ô- \"kƒ–® ù’\'à7à 2ë-ğ ú‡Kôw\0ä/Î÷3È÷ù Í0 L¢ ®UÖ$wÉ¼0Ç~–l8gŸcà³¸cÒ,(¦Şƒ4 àbwô E‘™H Æp Y¶Æv«¶»RQÛlÑV\nz¤$¨~ÉşÂ`ûË\' øæ$ iœ PPØ êÍµdAvß×éoÛY¸W© n˜ì—%J² RoÛŠÿæŒ˜Äé bÁtÕ ó  º/8zf“ 2N„ß ø¨ ±T »5Î>â 8{Ç´z­œ³¿á 2Ñ LÛ/W>7³ì²äJ\n /Ó\'êû@å¿¥  `Î„ L Ë€„Ã  Ää1£*M˜ OS%° äáY]  E\"« Væo– aX  °.m	9 3OŸ³©ı œhÄ=¤ øià© {Äs5 ¦é \ZMØı c\n · ,êÍå9)Ú‘G Ø$î¼ó!»O)n9«õã­éq¯JŸ˜ßÜæ/dï°Š>@V}*s/ú øà×ê¾ä7.S¬dòñ ’² 4  † S]Ë-²-Äw‰ÕÔİlh­×»7Ü\'®TİIUÜ „¬Ş‚ë•Ÿ5#Ö  dm ²œ¥Ş•ÍıhN¼DH	ñ 6Ù,òĞ”‹Å\n	Å[”Š «K´°w¾TQ5\\Ûp % Ó%Òa‰.5	y #—Ô k–˜›DÌ\"]ëÈbÙe2K7\\1Ì[1‹ AıõPÑSÚ ½¡\n¨›_t ‡îî²©²¥ ¨wá Èü4}# ¢O %c °¼àJ	 é!Gx a *‹öàäğèˆ €†Cà’!(0Ü7  á3  “°îÉ#— if„ sO¤‘rI« 	@ÿ«ÅS ,CUG·Íåh!Õÿşó_ >8o<ò‚ ÆIş;ÄOÓ°Í~×jÛ0áŠÉƒ; Âf	 ’IŠ4é‰q |2e@H´P\\VÄ 7ºÄ6ZæÁ;`YĞúˆ>†O\\q\Ze‹+G§Á     ¹ ö¥ i>Ş RÍ2c>°9) CİXwºÜŸR9u;NïÈ<üşĞ<<d |~¯½S Çƒ\rE c9­c:¶eö[x¨ƒ÷ÄG=¬–Û ?@¬Ma ?è­á1uM÷?¡Ï‚¾R)tÙaâÃ\"èPÅ #øTI%T@[ %   ÷ îšğÅÆ‡MpxåycîZ(¦ë6Ö} ;ûNëøOø´AD EôİÆòL	Gt Ó<ÖíËò;¶;íN Úm§zË2K‡a]¸  \0ĞkU -Åjwr=+[(¼Ôé¶56 ÁY Î  Õ²F Şmƒ* +æV¶®]j¿ôK=`ğ W[yt \Z†EwËĞö7±>*+õã ¿Ë Çb:,=\rm¸ÓV§Uùtµ w£#¢â²êm_:Ë)|ÃªŞíKO jBÿ×ë§ OÖÿ‹»Ûı}ßı™ ‰—Ğt–`v,¾ SÒu7®ç—¶—X¶*Ãæbœ–û%U¥btÇı²\rma°»ŸíE¡tÕ…¿œßêëqYâóv—xÖö© ¼ No3*Õ8 ¹ Úô5 Üg5] K®Å{ÈÔ@,*­ @».ñ½¥|  WÂO ¶\Z(²Ö[/á±*÷9Ë>5¯^Ö^t]A\"^	N Ê²ç /„(« N ~¤	2›•Ö\\³,LYEÚèa¼ ÜÅ  ‹‰p ùo¸›Û°ñ  Ñ<ó8‹ë4äÙ)°#»R7‚4½Ëm€iœˆ0{,°”êîK© \r„@ŒÇ’)­İÎnB#o*ôM0)Ô>u¡“Ç :B[éÈ¯N9»F9{ åLHu+Ú-Qä ”²÷¤ F‰u¥œ\Z¥œ ”rÌÖ³J!\nPÊÙA)\0R>M©ÓªU£Uk ­Z½5G,ÁXªÕÚA-ˆ •óŠ:½Ú5zµwĞ«cwÖô*áÈvç¨X{·ù*Ÿ ÔéÕ©Ñ«³ƒ^İÎº .a,Õêì¶¶J…Ô:­º5Zu·×Ê¶Ûµ £\\ÜE¥ºÛ+ À åË:z5\ZõvĞÈé9«\Zå –êô¶W ®(Š†uÚôk´éï MÛê¯j“!X*Óß[Ü[× ú³ÄUViÑ¸¥NİöšN+‘/SÌÚ…_À÷jáªV·5r±hÜR·^w=J”¡dEµl›‰l KK9±º   ÙUN ‘j   ìYUöøxÕİÍùÅİÕ - ¶pncÏïRü ^¦xeoS¼²×)^İû ¯ğ…ŠW÷FÅ+{¥â ½Sñj^ªx…oUüİ^«(2gxWÔÀ‹,‰qŞì™m«× \Z§Ó1dÒ¯ÊoE~ ^bª Š€{s  ‚ğÃ1× yx\0ÁüRåÕÑ5îVÁ ğà+«sŒ4§€Dš‚€€F“¢	·.R¥# Æ“S øY äa§½vGHä\"òi2ÇB÷¯±_- Û½µ °ü«O\'ğ‚jŠÿ-;\rÌù‰Õì4[ Ãã  Z¯d¸Ò BAW²qï>Ç +O×ÇY ?<Ïß ½	ü+:á^Æ8şü?','20160322094011')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '6668'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/News_archive
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.156
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Did not find alias for special page 'SpecialCurationTags'. Perhaps no aliases are defined for it? [Called from SpecialPageFactory::getLocalNameFor in /var/www/wikipathways/w/includes/SpecialPageFactory.php at line 566]
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Saved in parser cache with key wikipathways:pcache:idhash:6668-0!*!0!!en!*!* and timestamp 20160421223633
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:6668-0!*!0!!en!*!*','Õ[Ûnã8 ç| ãÅÎ=ÖÍW%ñ îédÑIŒIfzß Z¢mv$Q ©¸=ƒ ö ö ÷K¶Š’lÉV’öe€L iÛ$U:U,V  ¥ ×²İÆ&’%7©ŠSÕp–û‡tÛn#¼cŸUãXº½N×q \'ñànÊ%‰é„ ODŠòH \Z „+ J¢¦T \ZÇŒ&Ì\'<‚ F¾¹f³Ãoˆdâ\"\"\"k=¡dš°ñiÃ˜ñ n|„ÿ†TMgt. Dq °ÓF¥q ÂÍôO :h’aÀ¨d„ú>¡„QoJ\"6Ã?©Á %à>€5à 0I2cAĞ<81âÁÁ‰¢£€ îŸ6”ğ\ZÄ ¨”Ù÷Á‰JàÏ œøü± ¡á@×Ô œƒÒ,RòÄ€ \'   qi\0ÿ ¼$\'`,8²\0„—ë}d€Bç|ä &iÚ?ßÆ	&÷¶ia¿ŒiT’ ¥áˆ%ub`Ï€¬ P8;ƒL˜‘‰\"(* †:1 ş èì2ºÛ4 Y‚ Ì§AÙÏƒÊd \Zss4N-\Z³ÿ4\Zç Ñ˜ıÍÑ´ÊhşE£”&ü 8­çáäB¶ÄÓ.ã¹  ï‰€zO j? ¨‚ˆz›#ê” İxJ¼ ¨ó< \\È–xºe<gé$•ê 8İçád2¶DÓ«øO\ZÌ_ÀÒ{Áy@Â–Húe$Wô% ıç€€-qè¸R·¤ ³ˆ#/¯©m UÂó-‹ÕbUuŸÁôBd^ÈATİuT†Î  ¦  ó¡  4ar	g.ó¹*ò&f¾ÓÆ5æ7šxSşÈ\ZEN=mXõY *b e8;š2ê < I˜éê“ Y L š\0NşÀ¾  ØVÓú  b÷ßĞ0¤   ‰}¥y\0  DŠY• ÈX$dÂ\"ö#‰ ¡ $}\Zù$d`  @j‡Ÿ‘P 5’˜ĞáÖúö¿JÄGI™5X$Š HE( –0L#®æG~ æ‹Pş\'0K®¸—ˆ(U	‡Ü^\\ã3é%|”  Ğ+aÁi# c  b¶ \r0Ï,‰`¸q¢h2aê´q?\nhôĞÈ1U*v\rc6›5¥6#KPå& 2¼ŒQ Á§¾e9v§åt:  WÂ{0‚ÔÊ_#4T \rTR¹¢êˆ •ĞH‚ıBš»LŞõ×¨ y#ŞŒ‚° ñis\" 8 …Ì7l³köÌ>¤©·I:!o¹ô ½$sr\'|:_Qaoh<„Mj gà!iä±  {oví. œóË_®À$‰ŠX t«iÅ~«¸FÈpF Í*eÌ< s!Ó ƒù‡ä„ ¾­sö· ü ˆ©¬:û²y  Ó”Ù¶ğ–ß ¼´†öf DTÌS$ ƒG>ûÜŒ§ñO ®[Ô‰ ÿtÎŞ$b&Ya‡!Ä™¯i  tóém*\0ï cZj=§êô, ~€O6 °l$r,0 H¾ òÉwÕDïM³«¹\'F BuÂÓğ •BœöÒ@H._Ğ´r!)_XÒ9íË¯›Æt{…Do Ì+ ” = ¼o¢‰€Àäîg¤ğ 0˜´›Ş$h¦ 7™Ÿ\Z Ñ®Î†Ãl¹¼ b °û ¨ ßŸ Ÿå€³¾ ¶  ìÓğ õîoß~åƒÿÀ jw²Ì¦åt-ã“Hñòf,\"Ö4M³Ój   ~ ·äæú L˜âÀ$tÊ‚©¬„âºÀP pÿ‘`»ıÈ=V\r  )¥A øNn³ rÍ # G¦ÔÑ\nL… ‹Gc–à ¼X(‡;¹¢³²ƒÚÒ qÇDJ‚pÅ½Ì(0ˆÆqÕÿõ;D÷”ß™}—¼ÇõS ‰ÙáJp  ¡\0_fÜÚÜº_+t”{É²â‘€ I( ídßí4ƒ­ÕMçfSXİõ’²¨úI¼®ËšîrÏ :â¾ˆ!fbÕ(à4¢%{Ş$óß)ùDaíq®GTø{õ&o¯m«7³ùÊÎT„Õ[ı6+l]úÀ{ø˜#ÏA6l£d¦ò]ã€ò ¹¨ÔûŸıdè) øg)Æ\nØ¡1\nÄÄø)>µû+ÖÍ5ØÍÈÕRÁf6®Ö*HYT½…!ÖÖ¹ÙyšhÊ}G\'+.Vé  ¿À†  Ç] µ¯ L×\\×E ›  ÛTé6©ĞI!\ZÑb\Z$È\"kê¨9÷qóÏZ\\Ï èr)Şê‘ò@{S µ”rÎR5 ¿Šhˆ ”„aHÔ…VÈ8¨œˆQ„.Êæ€õ,. œól G²´,ªÂÅh Âğ ‰‚M  8` ^[6Î ®{!Bq/i û7éŞÂ–i$>/ô- \"kƒ–® ù’\'à7à 2ë-ğ ú‡Kôw\0ä/Î÷3È÷ù Í0 L¢ ®UÖ$wÉ¼0Ç~–l8gŸcà³¸cÒ,(¦Şƒ4 àbwô E‘™H Æp Y¶Æv«¶»RQÛlÑV\nz¤$¨~ÉşÂ`ûË\' øæ$ iœ PPØ êÍµdAvß×éoÛY¸W© n˜ì—%J² RoÛŠÿæŒ˜Äé bÁtÕ ó  º/8zf“ 2N„ß ø¨ ±T »5Î>â 8{Ç´z­œ³¿á 2Ñ LÛ/W>7³ì²äJ\n /Ó\'êû@å¿¥  `Î„ L Ë€„Ã  Ää1£*M˜ OS%° äáY]  E\"« Væo– aX  °.m	9 3OŸ³©ı œhÄ=¤ øià© {Äs5 ¦é \ZMØı c\n · ,êÍå9)Ú‘G Ø$î¼ó!»O)n9«õã­éq¯JŸ˜ßÜæ/dï°Š>@V}*s/ú øà×ê¾ä7.S¬dòñ ’² 4  † S]Ë-²-Äw‰ÕÔİlh­×»7Ü\'®TİIUÜ „¬Ş‚ë•Ÿ5#Ö  dm ²œ¥Ş•ÍıhN¼DH	ñ 6Ù,òĞ”‹Å\n	Å[”Š «K´°w¾TQ5\\Ûp % Ó%Òa‰.5	y #—Ô k–˜›DÌ\"]ëÈbÙe2K7\\1Ì[1‹ AıõPÑSÚ ½¡\n¨›_t ‡îî²©²¥ ¨wá Èü4}# ¢O %c °¼àJ	 é!Gx a *‹öàäğèˆ €†Cà’!(0Ü7  á3  “°îÉ#— if„ sO¤‘rI« 	@ÿ«ÅS ,CUG·Íåh!Õÿşó_ >8o<ò‚ ÆIş;ÄOÓ°Í~×jÛ0áŠÉƒ; Âf	 ’IŠ4é‰q |2e@H´P\\VÄ 7ºÄ6ZæÁ;`YĞúˆ>†O\\q\Ze‹+G§Á     ¹ ö¥ i>Ş RÍ2c>°9) CİXwºÜŸR9u;NïÈ<üşĞ<<d |~¯½S Çƒ\rE c9­c¶lË¶ã ¼\'>êaµÜFø bm\n“øAo\r©kºü	} ô•J¡Ë    A‡* Á§J*¡ Ú:(¹è¸p×„/6>l‚Ã+Ï{ s×B1]·±î»ØÙwZÇÂ§\r\"Ú(¢ï6–gJ8¢ã˜æ±n_–ß±İiwúĞn;Õ[–Y: ëÂ  \0€^«\"h)V»“ëYÙBá¥N·­±™ ÎBp6 ¨–5âğn TYX1w´²uíRû¥_ê ë„—¸ÚÊ£{Ğø3,º[†¶¿‰õQY© \'ø] 8 ÓaéihÃ¶:­Ê§«å¸    —UoûÒYNá Võn_z2P ú¿^?íx²ş_ÜİîïûîÏœH¼„¦³ ³cñ½˜’®»qu<¿´½Ä²U 6 ã´Ü/©* £;î—mh ƒõÜıl/\n¥«.üåüV_Ë Ÿ·»Ä³v´O]à…pz›Q©ÆñÈÅĞ¦¯¹à>«éÂXr-ŞC¦ bQi½\0Úu‰ ì-åcÈ¸ ~\Z°Õ@‘µŞz	U¹ÏYö©yõ²ö¢ë\n ñJpÂP–=gx!DYEpšğ#MÙ¬´æšeaÊ*ÒF ã à. èXL„ÛÈÃİÜ†Ÿ ˆæ™ÇYt\\¤!ÏNùƒ Ù•º ¤éu\\n LãD„Ùc¥Tw_Juhh$ b<–Lilívv \ZyS¡o‚I¡ö© <vĞ ÚJG~uÊÙ5ÊÙ;(gBª[Ñn‰\" , ”½\'¥0J¬+åÔ(åì ”c¶U\nQ€RÎ J òiJV­\Z­Z;hÕê­9b	ÆR­Ö jAt¨œWÔéÕ®Ñ«½ƒ^ »³¦W	G¶;GÅÚ»ÍWù” N¯N^ ôêvÖ½p	c©Vg·µU*¤ÖiÕ­Ñª»½V¶İ®\r åâ.*Õİ^)\0¶(_ÖiÔ«Ñ¨·ƒFNÏYÕ(‡°T§·½:pEQ4¬Ó¦_£M mÚVU› ÁR™şŞâŞºFĞŸ%®²J‹Æ-uê¶×tZ‰|™bÖ.ü ¾W Wµº­‘‹Eã–ºõºëQ¢ %+ªeÛLd{XZÊ‰Õx`È®rŠˆTs˜ `Ïª²ÇÇ«înÎ/î®>hé°…s {~—âïğ2Å+{›â•½NñêŞ§x…/T¼º7*^Ù+ ¯èŠWóRÅ+|«âïöZE‘9Ã»¢ ^dIŒófÏl[½ Ğ8!“~U~+ò«ğ SõP Ü›ã  „ ¹6ğÌÃ  æ—*¯®q·\n € _Yc¤9 $Ò   4š M¸u‘* )0œŠÀÏ:  ;íµ;B\" ‘O“9 ºıjùØî­]€å_}: TSüoÙi`ÎO¬f§ÙZ î   Ğz%Ã•Î \nº’{÷9æXyº>ÎÊøáyşÆèMà_Ñ	÷2Æñçÿ ','20160422223633')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '6668'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/News_archive
+HTTP HEADERS:
+USER-AGENT: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)
+ACCEPT-LANGUAGE: en-us
+REFERER: http://vm1.wikipathways.org/wiki/Special:WhatLinksHere/Help:Databases
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT: */*
+HOST: vm1.wikipathways.org
+CONNECTION: keep-alive
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 162.253.177.58
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Did not find alias for special page 'SpecialCurationTags'. Perhaps no aliases are defined for it? [Called from SpecialPageFactory::getLocalNameFor in /var/www/wikipathways/w/includes/SpecialPageFactory.php at line 566]
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Saved in parser cache with key wikipathways:pcache:idhash:6668-0!*!0!!en!*!* and timestamp 20160513081658
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:6668-0!*!0!!en!*!*','Õ[Ûnã8 ç| ãÅÎ=ÖÍW%ñ îédÑIŒIfzß Z¢mv$Q ©¸=ƒ ö ö ÷K¶Š’lÉV’öe€L iÛ$U:U,V  ¥ ×²İÆ&’%7©ŠSÕp–û‡tÛn#¼cŸUãXº½N×q \'ñànÊ%‰é„ ODŠòH \Z „+ J¢¦T \ZÇŒ&Ì\'<‚ F¾¹f³Ãoˆdâ\"\"\"k=¡dš°ñiÃ˜ñ n|„ÿ†TMgt. Dq °ÓF¥q ÂÍôO :h’aÀ¨d„ú>¡„QoJ\"6Ã?©Á %à>€5à 0I2cAĞ<81âÁÁ‰¢£€ îŸ6”ğ\ZÄ ¨”Ù÷Á‰JàÏ œøü± ¡á@×Ô œƒÒ,RòÄ€ \'   qi\0ÿ ¼$\'`,8²\0„—ë}d€Bç|ä &iÚ?ßÆ	&÷¶ia¿ŒiT’ ¥áˆ%ub`Ï€¬ P8;ƒL˜‘‰\"(* †:1 ş èì2ºÛ4 Y‚ Ì§AÙÏƒÊd \Zss4N-\Z³ÿ4\Zç Ñ˜ıÍÑ´ÊhşE£”&ü 8­çáäB¶ÄÓ.ã¹  ï‰€zO j? ¨‚ˆz›#ê” İxJ¼ ¨ó< \\È–xºe<gé$•ê 8İçád2¶DÓ«øO\ZÌ_ÀÒ{Áy@Â–Húe$Wô% ıç€€-qè¸R·¤ ³ˆ#/¯©m UÂó-‹ÕbUuŸÁôBd^ÈATİuT†Î  ¦  ó¡  4ar	g.ó¹*ò&f¾ÓÆ5æ7šxSşÈ\ZEN=mXõY *b e8;š2ê < I˜éê“ Y L š\0NşÀ¾  ØVÓú  b÷ßĞ0¤   ‰}¥y\0  DŠY• ÈX$dÂ\"ö#‰ ¡ $}\Zù$d`  @j‡Ÿ‘P 5’˜ĞáÖúö¿JÄGI™5X$Š HE( –0L#®æG~ æ‹Pş\'0K®¸—ˆ(U	‡Ü^\\ã3é%|”  Ğ+aÁi# c  b¶ \r0Ï,‰`¸q¢h2aê´q?\nhôĞÈ1U*v\rc6›5¥6#KPå& 2¼ŒQ Á§¾e9v§åt:  WÂ{0‚ÔÊ_#4T \rTR¹¢êˆ •ĞH‚ıBš»LŞõ×¨ y#ŞŒ‚° ñis\" 8 …Ì7l³köÌ>¤©·I:!o¹ô ½$sr\'|:_Qaoh<„Mj gà!iä±  {oví. œóË_®À$‰ŠX t«iÅ~«¸FÈpF Í*eÌ< s!Ó ƒù‡ä„ ¾­sö· ü ˆ©¬:û²y  Ó”Ù¶ğ–ß ¼´†öf DTÌS$ ƒG>ûÜŒ§ñO ®[Ô‰ ÿtÎŞ$b&Ya‡!Ä™¯i  tóém*\0ï cZj=§êô, ~€O6 °l$r,0 H¾ òÉwÕDïM³«¹\'F BuÂÓğ •BœöÒ@H._Ğ´r!)_XÒ9íË¯›Æt{…Do Ì+ ” = ¼o¢‰€Àäîg¤ğ 0˜´›Ş$h¦ 7™Ÿ\Z Ñ®Î†Ãl¹¼ b °û ¨ ßŸ Ÿå€³¾ ¶  ìÓğ õîoß~åƒÿÀ jw²Ì¦åt-ã“Hñòf,\"Ö4M³Ój   ~ ·äæú L˜âÀ$tÊ‚©¬„âºÀP pÿ‘`»ıÈ=V\r  )¥A øNn³ rÍ # G¦ÔÑ\nL… ‹Gc–à ¼X(‡;¹¢³²ƒÚÒ qÇDJ‚pÅ½Ì(0ˆÆqÕÿõ;D÷”ß™}—¼ÇõS ‰ÙáJp  ¡\0_fÜÚÜº_+t”{É²â‘€ I( ídßí4ƒ­ÕMçfSXİõ’²¨úI¼®ËšîrÏ :â¾ˆ!fbÕ(à4¢%{Ş$óß)ùDaíq®GTø{õ&o¯m«7³ùÊÎT„Õ[ı6+l]úÀ{ø˜#ÏA6l£d¦ò]ã€ò ¹¨ÔûŸıdè) øg)Æ\nØ¡1\nÄÄø)>µû+ÖÍ5ØÍÈÕRÁf6®Ö*HYT½…!ÖÖ¹ÙyšhÊ}G\'+.Vé  ¿À†  Ç] µ¯ L×\\×E ›  ÛTé6©ĞI!\ZÑb\Z$È\"kê¨9÷qóÏZ\\Ï èr)Şê‘ò@{S µ”rÎR5 ¿Šhˆ ”„aHÔ…VÈ8¨œˆQ„.Êæ€õ,. œól G²´,ªÂÅh Âğ ‰‚M  8` ^[6Î ®{!Bq/i û7éŞÂ–i$>/ô- \"kƒ–® ù’\'à7à 2ë-ğ ú‡Kôw\0ä/Î÷3È÷ù Í0 L¢ ®UÖ$wÉ¼0Ç~–l8gŸcà³¸cÒ,(¦Şƒ4 àbwô E‘™H Æp Y¶Æv«¶»RQÛlÑV\nz¤$¨~ÉşÂ`ûË\' øæ$ iœ PPØ êÍµdAvß×éoÛY¸W© n˜ì—%J² RoÛŠÿæŒ˜Äé bÁtÕ ó  º/8zf“ 2N„ß ø¨ ±T »5Î>â 8{Ç´z­œ³¿á 2Ñ LÛ/W>7³ì²äJ\n /Ó\'êû@å¿¥  `Î„ L Ë€„Ã  Ää1£*M˜ OS%° äáY]  E\"« Væo– aX  °.m	9 3OŸ³©ı œhÄ=¤ øià© {Äs5 ¦é \ZMØı c\n · ,êÍå9)Ú‘G Ø$î¼ó!»O)n9«õã­éq¯JŸ˜ßÜæ/dï°Š>@V}*s/ú øà×ê¾ä7.S¬dòñ ’² 4  † S]Ë-²-Äw‰ÕÔİlh­×»7Ü\'®TİIUÜ „¬Ş‚ë•Ÿ5#Ö  dm ²œ¥Ş•ÍıhN¼DH	ñ 6Ù,òĞ”‹Å\n	Å[”Š «K´°w¾TQ5\\Ûp % Ó%Òa‰.5	y #—Ô k–˜›DÌ\"]ëÈbÙe2K7\\1Ì[1‹ AıõPÑSÚ ½¡\n¨›_t ‡îî²©²¥ ¨wá Èü4}# ¢O %c °¼àJ	 é!Gx a *‹öàäğèˆ €†Cà’!(0Ü7  á3  “°îÉ#— if„ sO¤‘rI« 	@ÿ«ÅS ,CUG·Íåh!Õÿşó_ >8o<ò‚ ÆIş;ÄOÓ°Í~×jÛ0áŠÉƒ; Âf	 ’IŠ4é‰q |2e@H´P\\VÄ 7ºÄ6ZæÁ;`YĞúˆ>†O\\q\Ze‹+G§Á     ¹ ö¥ i>Ş RÍ2c>°9) CİXwºÜŸR9u;NïÈ<üşĞ<<d |~¯½S Çƒ\rE c9­c¶-ÇìYvà=ñQ «å6Â  kS˜Ä zkxL]ÓıãOè³ ¯T\n]v˜ø° :TñÄ >UR	 ĞÖAÉ…DÇıƒ»&|±ña  ^yŞã˜» ŠéºußÅÎ¾Ó:ş >m ÑF }·±<SÂ  Ç4uû²üíN»Ó‡vÛ©Ş²ÌÒaX î€\0\0ôZ AK±Ú\\ÏÊ \n/uºmÍDp ‚³Á@µ¬ ‡wÛ ÊÂŠ¹£•­k—Ú/ıR X\'¼ÄÕV İƒÆŸaÑİ2´ıM¬ÊJı8ÁïòÀ±˜ KOC î´ÕiU>]-Çİèˆ¨¸¬zÛ—Îr\nß°ªwûÒ“šĞÿõúiÇ“õÿâîvßwæDâ%4%˜ ‹ïÅ”tİ«ãù¥í%–­Ê°¹ §å~IU© İq¿lC[ ¬çîg{Q(]uá/ç·úz\\–ø¼İ%µ£}ê /„ÓÛŒJ5G.†6}Í ÷YM Æ’kñ 25 ‹Jë Ğ®K|`o) CÆ•ğÓ€­ Š¬õÖKx¬Ê}Î²OÍ«—µ ]WˆW‚ †²ì9Ã !Ê*‚Ó„ i‚Ìf¥5×, SV‘6z ¯\0wñ@Çb\"ÜFş îæ6lü E4Ï<Î¢ãú#\ryvÊ ìÈ®Ô M¯ãr `\Z\'\"Ì  ,¥ºûRªCC#! ã±dJck·³›ĞÈ›\n} L\nµO]èä±ƒĞV:ò«SÎ®QÎŞA9 RİŠvK y` ¥ì=)…Qb])§F)g ¥ ³õ¬Rˆ ”rvP\n€”OSê´jÕhÕÚA«VoÍ K0–jµvP ¢Cå¼¢N¯v^í ôêØ5½J8²İ9*ÖŞm¾Ê§ uzujôêì W·³î…K Kµ:»­­R!µN«nVİíµ²ívmÀ( wQ©îöJ °Eù²N£^F½ 4rzÎªF9„¥:½íÕ+Š¢a6ı\Zmú;hÓ¶ú«Úd –Êô÷ ÷Ö5‚ş,q•UZ4n©S·½¦ÓJäË ³vá ğ½Z¸ªÕm\\,\Z·Ô­×] e(YQ-Ûf\"ÛÃÒRN¬îÄ Cv•SD¤šÃD\0{V•=>^uws~qwõAK‡-œÛØó» ‡—)^ÙÛ ¯ìuŠW÷>Å+|¡âÕ½QñÊ^©xEïT¼š—*^á[ ·×*ŠÌ Ş 5ğ\"Kbœ7{fÛêµ€Æét ™ô«ò[‘_…—˜ª‡\"àŞ G€ üpÌµg  @0¿Tyut»U°\0<øÊê #Í) ‘¦   Ñ¤hÂ­‹TéHñäT ~Ö yØi¯İ  ¹ˆ|šÌ±ĞıkìWËÇvoí ,ÿêÓ	¼ šâËN s~b5;ÍÖÂpçxÀ€Ö+ ®t†PĞ•lÜ»Ï1ÇÊÓõqVÆ Ïó7Fo ÿŠN¸—1?ÿ ','20160514081658')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '6668'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/News_archive
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: Keep-alive
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+FROM: googlebot(at)googlebot.com
+USER-AGENT: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+ACCEPT-ENCODING: gzip,deflate,br
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 66.249.79.146
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Did not find alias for special page 'SpecialCurationTags'. Perhaps no aliases are defined for it? [Called from SpecialPageFactory::getLocalNameFor in /var/www/wikipathways/w/includes/SpecialPageFactory.php at line 566]
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Saved in parser cache with key wikipathways:pcache:idhash:6668-0!*!0!!en!*!* and timestamp 20160525005309
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:6668-0!*!0!!en!*!*','Õ[moã6 îçü\nÆ‡ë{,Y~W  Ùìv“Ã&1š´{ß Z¢mn$Q ©xİ¢Àı„û÷Kn†’lÊV’õKt¬m’\Z=3$g J7nÃqkCšH–Ü¤*NUÍm¶Ü?¤Ûvká û¬jÇÒíuºM·v  î¦\\’˜N ñD¤($¡A@¸b¡$jJ ¡qÌhÂ|Â#h`ä›k6;ü†Hæ).\"\"²Ö J¦	 ŸÖ¬ àÖGøoHÕtFç²F W ;­•\Z !ÜLßùÄ¢ƒ:  ŒJF¨ï J õ¦$b3ü“\Z Q î X . “$3  õƒ +  œ(:\n áşiM	¯F¼€J™} œ¨ şüÁ‰Ï ‹ \Z tMÁ9(Í\"%O,øqbÁ  — ğ_À\r9 {dÁQ @x¹ŞG\r Pèü Ä$uççÛ8áÑäŞ± Ø/c\Z R¢4 ±¤6hœXØ3 «  ÎÎ  fe¢ ŠÊÇ£¡N¬€ :ÇDw›†!K ”ı4(çyP™ Dco¦Y‰Æî?¦ù…hìşæhZ&šÑ(¥	 Nëy8¹-ñ´M<×â‘á= Pïi@íç  R QosD  Ñ§ÄË€:Ï Ê…l‰§kâ9K\'©T/Àé> \'“±%š^iı¤Áü ,½   HØ IßDrE_ Ò   Ø ‡ö+U[ê 0 ?òòÚ QÉ=ß²X-vU÷ L/xæ… DÕ]GeéÈaa¸±0îX:0A  —pæ2Ÿ«\"nbä;­]c|£‰7å¬VÄÔÓZ£:\n”E¬  gGSFı€G 	#]uP\"ë‚ÉB À©Ã Øw@\0ÛjX¿`Aìş \Z†4bÁ\"°¯4 \0ÃƒH1ªÒ  ‹„LXÄ~$q\" ƒ O#Ÿ„ l#  íğ3 Š¢F  :ÜZßşW‰ø(1Y ‰E¢h€T„ a	Ã4âj~ä\'`¾ å Ó¸äŠ{‰ˆR•pˆíÅ5>“^ÂG ‘ ½  œÖ\"1 A f Ò\0óÌ’ †ë \'Š& ¦Nk÷£€F µÜ S¥b×²f³Y]j3² U® \"ËË … |ê7\ZM§Ójv: î„÷` ©•¿Fh¨0\ZÈP¹¤êˆ •ĞH‚ıBš/™¼ë¯Q%òF¼  a=âÓúD<Zq:\n™o9v×îÙ} So“tBŞréAxIæäNøt¾¢ÂŞĞx<	ë Õ@Î`…¤‘ÇB0ì½İuºèpÎ/¹ “$*b	ĞA®¦%û­â\Z!Ã \r4«”1ó8Ì…Lc\\ Ì?$\'|ğmÕbKa 1•åÅ¾l HÆ4ev\ZxËïN,nì¡½™   ó_ ÉÄâ‘Ï>×ãiüS†ë u¢Á?›go 1“¬°Ã üÌ×4ŒGºùô6•?Àê cj´Suz  ?À\'› Ø6 9  H $ß ùä»¿j¢÷¦ÙÕÜ #\n®:áiøƒJÁO{i $—/hZº˜ \Z:ç¾}ùuSŸî¬èÍœy‰Ã CĞ Îû&š pLî~æI\n/ ƒI§îM‚zêÉqù©  íêl8Ì¶Ë{!& »ÏŠñı¹ğY 8ë+`‹1Á>\rÿPgû^W>¬ ˜@½œ\Zv½Ñì6¬O\"ÅËë±ˆXİ¶íN« T`øAÜ’›ëw0aŠ “Ğ! ¦²äŠ« ƒ9àş# AºıÈ=Vv %)Æ  |\'·Ù ¹f #[jo ¦B‡Å£1K0 /6ÊáNK±¹’Am¹ 1c\"† \'–â^f  DHã¸¼ş]wˆî©ug÷]ò ÷ Nu$f‡+Îm „ Öû2âVÆ†|ÔıZ¡Ãì%ËŠG f$¡Hô\"ûn§ l­&›Ma9ë%¦¨êI¼®ŠšîrÏ :â¾ˆÁgbÕ(à4¢†=o’ùï”|¢°÷¸G×=*ü½z“·×ÒêÍl¾’Ù“’°j«ßf…­K x  sä9È¦‘m f2ï\Z ”GÈE¥Îö ¡§,àŸ¥ +`‡Ö(  ë§øÔé¯X7×`7#wVK ›Ù¸\\« ¦¨j ƒ¯­Zfçi¢)÷ ¬,±RÏ ø 6œh?îj¯}-`ºæº.ºHR ¤;©ÒmRá\" oD‹iü‘ ‹¬¨£æÜÇÍ?+q=7f Ë¥x«GÊ ½š\n¨FÈ9KÕ ÖUDCLP †.Q Z!â r\"F º(› Ö³¸ pÎ³ d™´,ªÂÅh Âğ ‰‚¤  ° ¯, ç ×½ ¡¸—4†üMº·2Äç…¾æ ²6h¹4 ^ò Ö\r, ™õ xPıÃ%ú;\0ò Çû Äûü‡f à&ÑÆ ÷*«“»d^˜c?[6œ³Ï1ğYÌ˜4 Š©÷ ­&p±;úˆ¢ÈL$ c¸‡4­±İ®í®TÔ6Û´¥‚ 1 UoÙ_ ¤¿| ÁÚœ$\"ó \n\nù¡N®% ²û¾Îõ¶…{¥:á†Á~Y¢$ !Õ¶-­ßœ “8 /˜î±Ú`  A÷ Ç•YçŒ á× >ªG,ÕÄn³¸\0ÎŞ± ½VÎÙßp ‘h ¦í›•ÏÍ,»,¹’BÄËô‰ú>P\'dùoiÄ ˜3á ÃÆÒ!áp„ >yÌ¨J ¦ÇÓT	, yxV  D‘Èò…¥ù›åN öG\0¬K[BNÅÌÓçlj¿ \'\Zq é ~ZxjÇ ñ\\Í‚iú…F vÅ˜ Âm ‹zsyNŠv`ä‘ 6‰™w>d÷)Å”³\\?Şš ÷Êôø‰ùÍmşBôş »è DÕ§\"÷¢€ß ~-ç%¿q™b%“Ç ”E Ù 0Œ˜êZn mÁ¿K¬¦îfÃÆz½{Ã<q¥êNÊâ dÕ \\¯ü¬ ±bÈ k[å,ô®$÷£9ñ !%øoH²Yä¡) ›  Š·(  –·haï|«¢j¸·á J ¦K¤Cƒ.Õ	y #—Ô k– ›DÌ\"]ëÈbÛe2 ® æ­˜E şz&Tô YĞ ª€ºùEGqèî.›J) E½‹%ÌOÓ7 *úTQ2æ Ë ®”`‘ b„  æ¡´i N È Øi8 . ‚â	Ã¼ñ` Ÿ‰ğ˜„}O ¹äH3#LÌ=‘FÊ%­  \0ı¯< O ° U İ¶—£…TÿûÏúà¼ñÈ R \'ùïà?mË±ûİFÛ	WL Ü± ’%<~H&)Ò¤\'Æ]ğÉ” !ÑBq[  –ñÔ%Õ² Ş Ë‚ÖG\\cøÄ  §Q¶¹rt\ZÜÁÑQa[`_:æã= Õ,3æ › ³ êÆºÓåş”Ê©ÛétzGöá÷‡öá!‹àó{½: p<H(Â Ëi »í´m»İ„< ï‰z4Zn-ü\0¾6…Iü SÃcêÚî B_ úŒRè²ÃÆ‡EpA OŒàS%%W m ”\\Hlºp×†/ >l‚ÃKÏ{ s·bºnm}íbg¿Ù:ş >  ÑF }·¶<SÂ ¦m ëöeù Û›íN Úfù–&K‡a]¸  \0ĞkU -¥Ñîäz–R(¼´Ùmkl6‚k 8  TÉ\Zqx·\rª,¬˜/4ÓºÑ~é =`ğ w›9º ?Ã¦»ehû›X • ı8ÁïrÇ±˜††6Üi«Óª|ºZMw£#¢â²òm_:Ë)ÖF£|·/= ¨pı_¯Ÿv<Yÿ/îîô÷}÷gN$^BÓY‚Ù±ø^LI×İ¸:_Ú^bÙª ›‹i¶Ü/©* £;î—%´…Ázî~Ò‹Béò şr~«¯Çm‰ÏÛ]âY;Ú§Êñ‚;½Í¨Tíxä¢kÓ×\\pŸUt¡/¹ ï!R ±(µ^\0íºÄ ö–òÑe\\	?\rØª£ÈZo½„ÇÊìk.ûÔ¼|Y{Ñu xÅ9¡+Ë3¼ ÂT  Mø‘&ÈlVZsÍ27Õ(ÂF ı à. èXL„[ËÃİÜšƒŸ ˆæ™Ç™w\\¤!Nùƒ Ù•º ¤é}l¶ ¦q\"Âì±@#Ôİ ¡ \r„@ŒÇ’)­İÎnB#o*ôM0(T>u¡ƒÇ :B›qäW¥œS¡œ³ƒr6„º í–(rÇ J9{R\n½ÄºRÍ\n¥š;(Õ´[Ï*…(@©æ J  ó4¥J«V…V­ ´jõÖ ¢ c©Vk µÀ;”Î+ªôjWèÕŞA¯ÓYÓËÀ‘eç¨X{·ù2O	ªôêTèÕÙA¯ng} .a,Õêì¶·ŒBj•Vİ\n­ºÛkå8íJ‡a wQ©îöJ °Eù²J£^…F½ 4jöš«\Zå –êô¶W ®(Š†UÚô+´éï M»Ñ_Õ&C°T¦¿7¿·® ôgËTiÑ¸¥NİöšN+/S¬± ¿€ïåÂU¥nkäbÑ¸¥n½îº—0¡dEµ,ÍD¶‡¥¥œXİ‰ †ì*§ˆH5‡‰\0ö¬J9>^uws~qwõAK‡ Î­íù]Š¿ÃË ¯ìmŠWö:Å«{Ÿâ ¾PñêŞ¨xe¯T¼¢w*^ÍK ¯ğ­Š¿Ûk Eä ïŠ\Zx %ÑÏÛ=»İèµ€Æép ‘ô+ó­È¯ÂK ÕC po#@ ~4íµg  @0ß¨¼6u»U°\0<øÊê #Í) ¦   Ñ¤hÂÔEªt¤Àxr* ?ë€8Ül¯İ  ¹ˆ|šÌ±Ğıkì—ËÇNoí ,ÿêÓ	¼  âËN s~Ò¨wê­…áÎñ€ ­g Î8C(èJ6îİç˜cåéú8+ã‡çù £7E\'ÜË ÇŸÿ ','20160526005309')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '6668'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/News_archive
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.26
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Did not find alias for special page 'SpecialCurationTags'. Perhaps no aliases are defined for it? [Called from SpecialPageFactory::getLocalNameFor in /var/www/wikipathways/w/includes/SpecialPageFactory.php at line 566]
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Saved in parser cache with key wikipathways:pcache:idhash:6668-0!*!0!!en!*!* and timestamp 20160602174233
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:6668-0!*!0!!en!*!*','Õ[Ûnã8 ç| ãÅÎ=ÖÍW%ñ îédÑIŒIfzß Z¢mv$Q ¥¸=ƒ ö ö ÷K¶Š’lÊV’öe€L iÛ$U:U,V  ¥ ×²İÆ&’%7Y\ZgiÃuZî Òm»ğ}N ÇÒíuºÛ8‰ wS.IL\'Œx\"J)$¡A@xÊBIÒ)M	cF æ  A #ß\\³Ùá7D2/å\"\"\"o=¡dš°ñiÃ˜ñ n|„ÿ†4Îè\\6HÊÓ€6*ƒ n¦î|bĞA“  F%#Ô÷	%ŒzS ± şI †¤ î X . “$3  Íƒ #  œ¤t 0ÂıÓF*¼ ñ *eş}p’&ğç N|şXPp kj ÎAi ¥òÄ€ \'   qY\0ÿ \\“ °G  Y\0Â+ô>²@@©ó?>r “4íŸoã„G“{Û´°_Æ4Ò¤DY8bIc` Ø3 « RœA.ÌÈE  UŒGC  ÿ t¶î6 C– (óiPöó r ˆÆÜ S‹Æì?ÆùB4fs4- Í¿h”Ñ„¿\0§õ<œBÈ–xÚ:kñÈğ ¨÷4 öó€J)ˆ¨·9¢èÆKÅË€:Ï *„l‰§«ã9Ë&™L_€Ó} N.cK4½ŠÿdÁü ,½ œ $l‰¤¯#¹¢/ é?   l‰CÅ•º%õ ˜E yyMmƒ¨ oYœ.VU÷ L/Dæ… DÕ]Ge¨Ìa`º10ï *1A &—pæ2Ÿ§eŞÄÌwÚ¸ÆüF oÊ Y£Ì©§\r«> TE¬  gGSFı€G 	3]}R\"ë‚ÉB À©Ò Øw@\0ÛjZ¿`Aìş \Z†4bÁ\"±¯4 \0ÃƒÈ0«Ò  ‹„LXÄ~$q\"R IŸF>	 ØF Úág$RŠ\ZILèpkuû_%â£Dg\r$ IJ ¤\"  K f OçG~ æ‹Pş\'0K®¸—ˆ(K  ¹½¼ÆgÒKø(\'2 WÂ‚ÓF$Æ\" ÄlA\Z`Y Áp5ã$¥É„¥§ûQ@£‡FaŒišÆ®aÌf³¦Tfd	ªÜ D†—3\n#øÔ·,Çî´œN§cáJx FJùk„†\n£4•+ª¸H \ZI°_H —)ºş\ZU\"oÄ›Q 6#>mNÄ£ g£ù†mvÍÙ‡4õ6É&ä-— ¤—dNî„Oç+*ì\rÇ“°éQ ä <$‹< ‚aïÍ®İÅ€s~ùË ˜$I#–\0 äé´b¿U\\#d8£b•2f ‡¹YŒÎÁüCrÂ ßÖ9û[\n~\nÄTV}Ù<Œ)Êl[xËïN ®­¡½™  •óß ÉÄà‘Ï>7ãiüSë u¢Á?³7‰˜IVÚa qæk\ZÆÇ#Õ|z›É À{Ä˜j­ç4== ‚ à“M , ‰   ¤ ’o‡|òİ_5Ñ{Óìjî‰ …Pğ,ü!Í N{Y $—/hZ¹è j: ±}ùuÓ˜n¯èÍ‚y…Ã MĞ Áû&š  Lî~æI\n/ ƒI»éM‚fæÉq“ù™  íêl8Ì—Ë{!& »/€Šñı¹ğY 8ï+a‹1Á> ÿPíşöíW>ø L r\'ËlZN×2>‰ /oÆ\"bMÓ4;­ Pá qKn®ßÁ„¥ ˜„JY0••P\\  ô ÷ Ù ¶ÛÜcÕ0Q‘¢\r\ZÀwr›ÿk   92¥ŠV`* X<\Z³ ÷àåB9ÜÉ • Ô–®ˆ;&¢	zÂ ÷2£À B\ZÇUÿ{Öï İS~gö]ò × Nu$f‡+Ám „ ü}™qksC1ê~­Ğ¡÷’eÅ# 3’P$ÊÉ¾Ûi [«›ÎÍ¦°ºë%º¨úI¼®ËšîrÏ :â¾ˆ!fbÕ(à4¢š=o’ùï”|¢°ö¸G×#*ü½z“·×¶Õ›Ù|egO*Âê­~› ¶.}à=|Ì‘ç ›F¶¡™I¿k P ! •jÿ³Ÿ =e ÿ,Å8 vhŒ 11~ŠOíşŠu \rv3rgµT°™«µ\n¢‹ª·0ÄÚ:7;Ï E¹ïèdÅÅ*=ƒò Øp¢â¸«¢öµ€éš«ºèb“B`»“¥ªM¦è¤ h9? d‘5uÔ‚û¸Åg-®çÆ T¹ oõHy ¼©„ª¥œ³,‚_E4Ä\rJÂ0$ªB+d TNÄ(B e Àj — Îy¾#ùNZ–Uár4 aø$…M  8` ^[6. ®{!Bq/i û7éŞÂ–i$>/ôÕ ‘µAK×€|É ğ p ™÷–xPıÃ%ú;\0ò çû äûâ‡b  &ÑÆ ×*k’»d^šc?K6œ³Ï1ğYÜ1)  SïA\Z p±;úˆ¢ÈL$ c¸‡Ô­±İªí®TÔ6[´•‚ Ñ Õ/Ù_ lù$ ßœ$\"‹‹ \n\nûCµ¹–,Èïû:ım; ÷*uÂ\r“ı²DI Bêm[ñß‚ “8 A,˜î±Ú`  A÷ GÏlò@Æ‰ğ›  5#–)b·ÆÙG\\\0gï˜V¯Upö7\\@&Úƒiûzås3Ë.K®¤ ñ2}¢¾ Ô	Yş[\Zq æL¸À´± H8 a@L 3šf	Sãi–\n, yxV  D‘Èê…•ù› A ÖG\0¬KYBNÅÌSçlé~ N4â Ò ü4ğÔ=â¹š Óô &ìşŠ±  · ,êÍå9)Û‘G Ø$î¼‹!»O)n9«õã­éq¯JŸ˜ßÂæ/dï°Š>@V}*s/ú øà×ê¾ä7.3¬dòñ ’²    † SUË-³-Äw‰ÕÔİlh­×»7Ü\'®TİIUÜ „¬Ş‚ë•Ÿ5#Ö  äm ²œ§Ş•ÍıhN¼DH	ñ 6Ù,òĞ”‹Å\n	Å[”Š «K´´w±TQ5\\Ûp‡T ¦J¤C.5	y #—Ô k–˜›DÌ\"UëÈbÙå2µ ® æ­˜E şúN¨ìÑvAoh\nÔÍ/;ÊCwwÙTÙRPÔ»t	d~Š¾ PÑ§)%c °¢àJ	 é!Gx a *‹öàäğèˆ €†Cà’!(0Ü7  á3  “°îÉ#— if„ sOdQê’V  €úW ‹§ X†ªn›ËÑB¦ÿûÏúà¼ñÈ 2 \'ùï ?MÃ6û]«mÃ„§L Ü± 6KxüL2¤IOŒ»à“) B¢„â²\">¸ñÔ%¶Ñ2 Ş Ë‚ÖGô1|â‚Œ³(_\\ : îàè¨4È-°/•H‹ñ j– óÍ‰^ ucÕérJåÔít:½#óğûCóğEğù½òÎ 8 l(Â Ëi H‘¶ÕmÙCğø¨‡Õr á ˆµ Lâ µ5<¦®éşñ\'ôYĞ§•B— &>,‚ U>1‚O•TB ´uPr)Ñqÿà®	_l|Ø ‡W÷8æ®…bºncİw±³ï´ÿ„O D´QDßm,Ï”pDÇ1ÍcÕ¾,¿c»Óîô¡İvª·ÔY: ëÂ  \0€^«\"()V»SèYÙBá¥N·­°™ ÎBp6 ¨–5âğn TYX±p4İº¶Ö~ék=`ğ W›>º ?Ã¢»ehû›X •iı8ÁïŠÀ±˜ KMC î´ÕiU1]-Çİèˆ¨¼¬zÛ—ÎrJß°ªwûÒ“šĞÿõúiÇ“õÿòîvßwæDâ%4%˜ ‹ïå”tİ«ãÅ¥í%–­Ê°… §å~IU© İq¿lC[\Z¬çîg{Q*]uá/ç·êz\\–ø¼İ%µ£}ê /„ÓÛœJ5G.†6uÍ ÷YM Æ’kñ 25 ‹Jë Ğ®K|`o) CÆ•ğ³€­ Š¼õÖKxœê}Î²/W/k/º®  ¯ \' eùs† Bè*‚Ó„ i‚Ìf¥µĞ, SV™6z ¯\0wù@Çb\"ÜFñ îæ6lü E Ï<Î£ãú#\rEv* ìÈ¯T M­c½\r0  æ j©î^Kuhh$ b<–,UØÚíü&4ò¦Bİ “BíS *yì #´iG~uÊÙ5ÊÙ;(gBª[Ñn‰¢ , ”½\'¥0J¬+åÔ(åì ”c¶U\nQ€RÎ J  ı4¥N«VV­ ´jõÖ Qƒ±T«µƒZ  *ç uzµkôjï WÇî¬é¥áÈwç¨X{·ùÒO	êôêÔèÕÙA¯ngİ —0–juv[[Z!µN«nVİíµ²ívmÀĞ‹»¨Tw{¥\0Ø¢|Y§Q¯F£Ş \Z9=gU£ ÂRŞöêÀ eÑ°N›~6ı ´i[ıUmr Keú{‹{ë\ZA¸t• [êÔm¯é´ ùrÅ¬]ø |¯ ®ju[# ‹Æ-uëu×£„ %/ªåÛLd{XZ*ˆÕx`È®\nŠˆTs˜ `ÏieWİİœ_Ü]}PÒa ç6öü.ÅßáeŠWö6Å+{âÕ½Oñ\n_¨xuoT¼²W*^Ñ; ¯æ¥ŠWøVÅßíµŠ2s†we\r¼Ì’ çÍÙ¶z- q* C&ıJ+ò«ğ SõP Ü›ã  „ ¹6ğÌÃ  æk•WGÕ¸[% Àƒ¯¼Î1Rœ  i   \ZMÊ&ÜºÈ4 ¥`<9 Ÿw@ vÚkw„D.\"Ÿ&s,tÿ\ZûÕò±İ[»\0Ë¿êt /¨¦øßòÓÀ‚ŸXÍN³µ0Ü9 0 õ4Ãig %]ÉÇ½û s¬<] çeüğ¼xcô&ğ¯è„{9ãøóÿ','20160603174233')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '6668'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+
+
+Start request GET /wiki/News_archive
+HTTP HEADERS:
+HOST: vm1.wikipathways.org
+CONNECTION: close
+USER-AGENT: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+ACCEPT-LANGUAGE: en-US
+ACCEPT-ENCODING: gzip
+ACCEPT: */*
+CACHES: EmptyBagOStuff[main] SqlBagOStuff[message] SqlBagOStuff[parser]
+LocalisationCache: using store LCStore_DB
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Profiler::instance called without $wgProfiler['class'] set, falling back to ProfilerStub for safety
+Connected to database 0 at localhost
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 180.76.15.25
+Connected to database 0 at localhost
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::view using parser cache: yes
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Article::view: doing uncached parse
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Did not find alias for special page 'SpecialCurationTags'. Perhaps no aliases are defined for it? [Called from SpecialPageFactory::getLocalNameFor in /var/www/wikipathways/w/includes/SpecialPageFactory.php at line 566]
+[Preprocessor] Saved preprocessor XML to memcached (key wikipathways:preprocess-xml:7e20ed46e681399f26e51701d5cba162:0)
+Saved in parser cache with key wikipathways:pcache:idhash:6668-0!*!0!!en!*!* and timestamp 20160713184311
+DatabaseBase::query: Writes done: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('wikipathways:pcache:idhash:6668-0!*!0!!en!*!*','Õ[Ûnã8 ç| ãÅÎ=ÖÍW%ñ îédÑIŒIfzß Z¢mv$Q ¥¸=ƒ ö ö ÷K¶Š’lÊV’öe€L iÛ$U:U,V  ¥ ×²İÆ&’%7Y\ZgiÃuZî Òm»ğ}N ÇÒíuºÛ8‰ wS.IL\'Œx\"J)$¡A@xÊBIÒ)M	cF æ  A #ß\\³Ùá7D2/å\"\"\"o=¡dš°ñiÃ˜ñ n|„ÿ†4Îè\\6HÊÓ€6*ƒ n¦î|bĞA“  F%#Ô÷	%ŒzS ± şI †¤ î X . “$3  Íƒ #  œ¤t 0ÂıÓF*¼ ñ *eş}p’&ğç N|şXPp kj ÎAi ¥òÄ€ \'   qY\0ÿ \\“ °G  Y\0Â+ô>²@@©ó?>r “4íŸoã„G“{Û´°_Æ4Ò¤DY8bIc` Ø3 « RœA.ÌÈE  UŒGC  ÿ t¶î6 C– (óiPöó r ˆÆÜ S‹Æì?ÆùB4fs4- Í¿h”Ñ„¿\0§õ<œBÈ–xÚ:kñÈğ ¨÷4 öó€J)ˆ¨·9¢èÆKÅË€:Ï *„l‰§«ã9Ë&™L_€Ó} N.cK4½ŠÿdÁü ,½ œ $l‰¤¯#¹¢/ é?   l‰CÅ•º%õ ˜E yyMmƒ¨ oYœ.VU÷ L/Dæ… DÕ]Ge¨Ìa`º10ï *1A &—pæ2Ÿ§eŞÄÌwÚ¸ÆüF oÊ Y£Ì©§\r«> TE¬  gGSFı€G 	3]}R\"ë‚ÉB À©Ò Øw@\0ÛjZ¿`Aìş \Z†4bÁ\"±¯4 \0ÃƒÈ0«Ò  ‹„LXÄ~$q\"R IŸF>	 ØF Úág$RŠ\ZILèpkuû_%â£Dg\r$ IJ ¤\"  K f OçG~ æ‹Pş\'0K®¸—ˆ(K  ¹½¼ÆgÒKø(\'2 WÂ‚ÓF$Æ\" ÄlA\Z`Y Áp5ã$¥É„¥§ûQ@£‡FaŒišÆ®aÌf³¦Tfd	ªÜ D†—3\n#øÔ·,Çî´œN§cáJx FJùk„†\n£4•+ª¸H \ZI°_H —)ºş\ZU\"oÄ›Q 6#>mNÄ£ g£ù†mvÍÙ‡4õ6É&ä-— ¤—dNî„Oç+*ì\rÇ“°éQ ä <$‹< ‚aïÍ®İÅ€s~ùË ˜$I#–\0 äé´b¿U\\#d8£b•2f ‡¹YŒÎÁüCrÂ ßÖ9û[\n~\nÄTV}Ù<Œ)Êl[xËïN ®­¡½™  •óß ÉÄà‘Ï>7ãiüSë u¢Á?³7‰˜IVÚa qæk\ZÆÇ#Õ|z›É À{Ä˜j­ç4== ‚ à“M , ‰   ¤ ’o‡|òİ_5Ñ{Óìjî‰ …Pğ,ü!Í N{Y $—/hZ¹è j: ±}ùuÓ˜n¯èÍ‚y…Ã MĞ Áû&š  Lî~æI\n/ ƒI»éM‚fæÉq“ù™  íêl8Ì—Ë{!& »/€Šñı¹ğY 8ï+a‹1Á> ÿPíşöíW>ø L r\'ËlZN×2>‰ /oÆ\"bMÓ4;­ Pá qKn®ßÁ„¥ ˜„JY0••P\\  ô ÷ Ù ¶ÛÜcÕ0Q‘¢\r\ZÀwr›ÿk   92¥ŠV`* X<\Z³ ÷àåB9ÜÉ • Ô–®ˆ;&¢	zÂ ÷2£À B\ZÇUÿ{Öï İS~gö]ò × Nu$f‡+Ám „ ü}™qksC1ê~­Ğ¡÷’eÅ# 3’P$ÊÉ¾Ûi [«›ÎÍ¦°ºë%º¨úI¼®ËšîrÏ :â¾ˆ!fbÕ(à4¢š=o’ùï”|¢°ö¸G×#*ü½z“·×¶Õ›Ù|egO*Âê­~› ¶.}à=|Ì‘ç ›F¶¡™I¿k P ! •jÿ³Ÿ =e ÿ,Å8 vhŒ 11~ŠOíşŠu \rv3rgµT°™«µ\n¢‹ª·0ÄÚ:7;Ï E¹ïèdÅÅ*=ƒò Øp¢â¸«¢öµ€éš«ºèb“B`»“¥ªM¦è¤ h9? d‘5uÔ‚û¸Åg-®çÆ T¹ oõHy ¼©„ª¥œ³,‚_E4Ä\rJÂ0$ªB+d TNÄ(B e Àj — Îy¾#ùNZ–Uár4 aø$…M  8` ^[6. ®{!Bq/i û7éŞÂ–i$>/ôÕ ‘µAK×€|É ğ p ™÷–xPıÃ%ú;\0ò çû äûâ‡b  &ÑÆ ×*k’»d^šc?K6œ³Ï1ğYÜ1)  SïA\Z p±;úˆ¢ÈL$ c¸‡Ô­±İªí®TÔ6[´•‚ Ñ Õ/Ù_ lù$ ßœ$\"‹‹ \n\nûCµ¹–,Èïû:ım; ÷*uÂ\r“ı²DI Bêm[ñß‚ “8 A,˜î±Ú`  A÷ GÏlò@Æ‰ğ›  5#–)b·ÆÙG\\\0gï˜V¯Upö7\\@&Úƒiûzås3Ë.K®¤ ñ2}¢¾ Ô	Yş[\Zq æL¸À´± H8 a@L 3šf	Sãi–\n, yxV  D‘Èê…•ù› A ÖG\0¬KYBNÅÌSçlé~ N4â Ò ü4ğÔ=â¹š Óô &ìşŠ±  · ,êÍå9)Û‘G Ø$î¼‹!»O)n9«õã­éq¯JŸ˜ßÂæ/dï°Š>@V}*s/ú øà×ê¾ä7.3¬dòñ ’²    † SUË-³-Äw‰ÕÔİlh­×»7Ü\'®TİIUÜ „¬Ş‚ë•Ÿ5#Ö  äm ²œ§Ş•ÍıhN¼DH	ñ 6Ù,òĞ”‹Å\n	Å[”Š «K´´w±TQ5\\Ûp‡T ¦J¤C.5	y #—Ô k–˜›DÌ\"UëÈbÙå2µ ® æ­˜E şúN¨ìÑvAoh\nÔÍ/;ÊCwwÙTÙRPÔ»t	d~Š¾ PÑ§)%c °¢àJ	 é!Gx a *‹öàäğèˆ €†Cà’!(0Ü7  á3  “°îÉ#— if„ sOdQê’V  €úW ‹§ X†ªn›ËÑB¦ÿûÏúà¼ñÈ 2 \'ùï ?MÃ6û]«mÃ„§L Ü± 6KxüL2¤IOŒ»à“) B¢„â²\">¸ñÔ%¶Ñ2 Ş Ë‚ÖGô1|â‚Œ³(_\\ : îàè¨4È-°/•H‹ñ j– óÍ‰^ ucÕérJåÔít:½#óğûCóğEğù½òÎ 8 l(Â Ëi ³k9# Ë\"xO|ÔÃj¹ğ ÄÚ &ñƒÚ\Z S×tÿø ú,èÓJ¡Ë    A‡*Ÿ Á§J*¡ Ú:(¹”è¸p×„/6>l‚Ã+Ï{ s×B1]·±î»ØÙwZÇÂ§\r\"Ú(¢ï6–gJ8¢ã˜æ±j_–ß±İiwúĞn;Õ[ê, †uá  \0@¯U ” «İ)ô¬l¡ğR§ÛVØL g!8  TË\Zqx·\rª,¬X8šn][k¿ôµ °Nx‰«M İƒÆŸaÑİ2´ıM¬Ê´~œàwEàXL‡¥¦¡\rwÚê´ª˜®–ãntDT^V½íKg9¥oXÕ»}éÉ@Mèÿzı´ãÉúyw»¿ï»?s\"ñ šÎ ÌÅ÷rJºîÆÕñâÒö ËVeØBŒÓr¿¤ªTî¸_¶¡-\rÖs÷³½(•®ºğ—ó[u=.K|Şî ÏÚÑ>u ÂémN¥\ZÇ# C›ºæ‚û¬¦ cÉµx ™\ZˆE¥õ h×%>°·”!ãJøYÀV EŞzë%<Nõ>gÙ—Î«—µ ]WˆW‚ †²ü9Ã !t ÁiÂ4Af³ÒZh–‡)«L =ŒW€»| c1 n£ø\rws 6~‚\"Šg çÑqı‘†\";  väWªF¦Ö±Ş ˜Æ‰ óÇ µTw¯¥:44  1 K–*lív~ \ZyS¡n‚I¡ö© •<vĞ Ú´#¿:åì\Zåì ”3!Õ­h·DQ  PÊŞ“R %Ö•rj”rvPÊ1[Ï*…(@)g ¥\0ˆ~šR§U«F«Ö Zµzk¨ÁXªÕÚA-ˆ •óŠ:½Ú5zµwĞ«cwÖôÒpä»sT¬½Û|é§ uzujôêì W·³î…K Kµ:»­-­Z§U·F«îöZÙv»6`èÅ]Tª»½R\0lQ¾¬Ó¨W£Qo œ³ªQ a©No{uàŠ²hX§M¿F›ş Ú´­şª69‚¥2ı½Å½u ?O\\ºJ‹Æ-uê¶×tZ‰|¹bÖ.ü ¾W Wµº­‘‹Eã–ºõºëQB‡’ Õòm&²=,- ÄêN<0dW EDª9L °ç´²ÇÇ«înÎ/î®>(é°…s {~—âïğ2Å+{›â•½NñêŞ§x…/T¼º7*^Ù+ ¯èŠWóRÅ+|«âïöZE™9Ã»² ^fIŒófÏl[½ Ğ8•!“~¥¿ ùUx‰©z( îÍq  Â Ç\\ xæá  óµÊ«£jÜ­’ àÁW^ç )N ‰4   &e n]dšR0œŠÀÏ;  ;íµ;B\" ‘O“9 ºıjùØî­]€å_u: TSüoùi`ÁO¬f§ÙZ î   Ğzšá´3„’®äãŞ}9V®ó2~x^¼1z øWtÂ½œqüù','20160714184311')
+Class SkinWikiPathways not found; skipped loading
+LocalisationCache::isExpired(API): cache missing, need to make one
+Title::getRestrictionTypes: applicable restrictions to [[News archive]] are {edit,move}
+Class PEAR_Error not found; skipped loading
+OutputPage::sendCacheControl: private caching;  **
+DatabaseBase::query: Writes done: UPDATE  `page` SET page_counter = page_counter + 1 WHERE page_id = '6668'
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
