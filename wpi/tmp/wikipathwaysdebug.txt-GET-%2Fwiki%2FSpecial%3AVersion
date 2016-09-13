@@ -747,3 +747,91 @@ LoadBalancer::reuseConnection: this connection was not opened as a foreign conne
 LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
 LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
 Request ended normally
+Start request GET /wiki/Special:Version
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: en-US,en;q=0.5
+ACCEPT-ENCODING: gzip, deflate
+DNT: 1
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+MWCryptRand::realGenerate: Generating cryptographic random bytes for MediaWiki\Session\SessionManager->generateSessionId/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 20 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+IP: 24.229.66.193
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 16182 will be used for SqlBagOStuff
+[session] SessionBackend "vvfh2i47bnb4pi12jhh7t0a9ejlf2f00" is unsaved, marking dirty in constructor
+[session] SessionBackend "vvfh2i47bnb4pi12jhh7t0a9ejlf2f00" save: dataDirty=1 metaDirty=1 forcePersist=0
+[cookie] already deleted setcookie: "wpupgrade127_session", "", "1439743825", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439743825", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439743825", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439743825", "/", "", "", ""
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 892 calls Message->toString()
+SpecialPage.php line 564 calls Message->text()
+SpecialPage.php line 445 calls SpecialPage->getDescription()
+SpecialVersion.php line 52 calls SpecialPage->setHeaders()
+SpecialPage.php line 479 calls SpecialVersion->execute()
+SpecialPageFactory.php line 576 calls SpecialPage->run()
+MediaWiki.php line 282 calls SpecialPageFactory::executePath()
+MediaWiki.php line 745 calls MediaWiki->performRequest()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+wfShellExec: /bin/bash '/var/www/upgrade27.wikipathways.org/w/includes/limit.sh' 'GIT_DIR='\''/var/www/upgrade27.wikipathways.org/w/.git'\'' '\''/usr/bin/git'\'' show -s --format=format:%ct HEAD' 'MW_INCLUDE_STDERR=;MW_CPU_LIMIT=180; MW_CGROUP='\'''\''; MW_MEM_LIMIT=524288; MW_FILE_SIZE_LIMIT=102400; MW_WALL_CLOCK_LIMIT=180; MW_USE_LOG_PIPE=yes'
+[Preprocessor] Cached preprocessor output (key: wpupgrade127:preprocess-xml:44947ad98144250a66279085431c40a0:0)
+[Preprocessor] Cached preprocessor output (key: wpupgrade127:preprocess-xml:44947ad98144250a66279085431c40a0:0)
+Looking up core head id
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+Getting VCS info for extension MonoBook
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/skins/MonoBook/gitinfo.json for /var/www/upgrade27.wikipathways.org/w/skins/MonoBook
+[gitinfo] Loaded git data from cache for /var/www/upgrade27.wikipathways.org/w/skins/MonoBook
+Getting VCS info for extension ParserFunctions
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/wpi/extensions/ParserFunctions/gitinfo.json for /var/www/upgrade27.wikipathways.org/w/wpi/extensions/ParserFunctions
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w/wpi/extensions/ParserFunctions
+Getting VCS info for extension ConfirmEdit
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/extensions/ConfirmEdit/gitinfo.json for /var/www/upgrade27.wikipathways.org/w/extensions/ConfirmEdit
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w/extensions/ConfirmEdit
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[runJobs] Running 1 job(s) via '/w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1471279832&signature=357c49d6af2a86233f354f751af7334ca7bb7cea'
+Request ended normally
+[session] Saving all sessions on shutdown

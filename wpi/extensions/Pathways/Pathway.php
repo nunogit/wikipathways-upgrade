@@ -1123,6 +1123,7 @@ class Pathway {
 	public function updateCache($fileType = null) {
 		wfProfileIn( __METHOD__ );
 		wfDebug( "updateCache called for filetype $fileType\n" );
+		echo "updateCache called for filetype $fileType\n";
 		//Make sure to update GPML cache first
 		if( !$fileType == FILETYPE_GPML ) {
 			$this->updateCache( FILETYPE_GPML );
@@ -1136,8 +1137,10 @@ class Pathway {
 			return;
 		}
 		$obj = $this->getFileObj( $fileType );
+		echo " - path -  " . $obj->getPath();
 		if( !$obj->isCacheGood() ) {
 			wfDebug( "\t->Updating cached file for $fileType\n" );
+			echo  "\t->Updating cached file for $fileType\n";
 			switch( $fileType ) {
 				case FILETYPE_PNG:
 					$this->savePngCache( $obj );

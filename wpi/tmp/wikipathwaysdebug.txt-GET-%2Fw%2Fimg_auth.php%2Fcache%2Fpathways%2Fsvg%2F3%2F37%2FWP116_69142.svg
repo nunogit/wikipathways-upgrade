@@ -18,3 +18,57 @@ Connected to database 0 at localhost
 [img_auth] Streaming `mwstore://local-backend/local-public/cache/pathways/svg/3/37/WP116_69142.svg`.
 MimeMagic::__construct: loading mime types from /var/www/wikipathways/w/includes/mime.types
 MimeMagic::__construct: loading mime info from /var/www/wikipathways/w/includes/mime.info
+Start request GET /w/img_auth.php/cache/pathways/svg/3/37/WP116_69142.svg
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: image/webp,image/*,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/Pathway:WP116
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1470755939.1470908689.135; __utmc=141536308; __utmz=141536308.1469537628.132.29.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); wpupgrade127_session=1nk50hleja4kru8dab5chq3nton9g5f3; wpupgrade127UserID=9205; wpupgrade127UserName=Nuno
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+User: cache miss for user 9205
+IP: 137.120.195.105
+[connect] Connected to database 0 at localhost
+User: loading options for user 9205 from database.
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 19427 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+User: loading options for user 9205 from override cache.
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+[img_auth] wfForbidden Hdr: Access denied Msg: File "mwstore://local-backend/local-public/cache/pathways/svg/3/37/WP116_69142.svg" does not exist.
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /w/img_auth.php/cache/pathways/svg/3/37/WP116_69142.svg
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+PRAGMA: no-cache
+CACHE-CONTROL: no-cache
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: image/webp,image/*,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/Pathway:WP116
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1470755939.1470908689.135; __utmc=141536308; __utmz=141536308.1469537628.132.29.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); wpupgrade127_session=1nk50hleja4kru8dab5chq3nton9g5f3; wpupgrade127UserID=9205; wpupgrade127UserName=Nuno
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+User: cache miss for user 9205
+IP: 137.120.195.105
+[connect] Connected to database 0 at localhost
+User: loading options for user 9205 from database.
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 19441 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+User: loading options for user 9205 from override cache.
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database, could not acquire main lock, using stale cache
+[img_auth] wfForbidden Hdr: Access denied Msg: File "mwstore://local-backend/local-public/cache/pathways/svg/3/37/WP116_69142.svg" does not exist.
+Request ended normally
+[session] Saving all sessions on shutdown

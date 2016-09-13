@@ -133,7 +133,8 @@ class MetaTag {
 
 		$dbr = wfGetDB( DB_SLAVE );
 
-		$name = mysql_real_escape_string($name);
+		//$name = $dbr->mysqlRealEscapeString($name);***
+		//mysqli_real_escape_string($name);
 
 		$where = array('tag_name' => $name);
 		if($text !== false) {
@@ -142,7 +143,7 @@ class MetaTag {
 				$text = strtolower($text);
 				$text_field = "LOWER($text_field)";
 			}
-			$text = mysql_real_escape_string($text);
+			//$text = mysql_real_escape_string($text); // ***
 			$text = " AND $text_field = '$text' ";
 		}
 

@@ -64,3 +64,231 @@ LoadBalancer::reuseConnection: this connection was not opened as a foreign conne
 LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
 LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
 Request ended normally
+Start request GET /wiki/Pathway:WP116
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1470755939.1470908689.135; __utmc=141536308; __utmz=141536308.1469537628.132.29.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); wpupgrade127_session=1nk50hleja4kru8dab5chq3nton9g5f3; wpupgrade127UserID=9205; wpupgrade127UserName=Nuno
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+User: cache miss for user 9205
+IP: 137.120.195.105
+[connect] Connected to database 0 at localhost
+User: loading options for user 9205 from database.
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 19421 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP116]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+User: loading options for user 9205 from override cache.
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 892 calls Message->toString()
+OutputPage.php line 927 calls Message->text()
+OutputPage.php line 975 calls OutputPage->setHTMLTitle()
+Article.php line 504 calls OutputPage->setPageTitle()
+ViewAction.php line 44 calls Article->view()
+MediaWiki.php line 503 calls ViewAction->show()
+MediaWiki.php line 288 calls MediaWiki->performAction()
+MediaWiki.php line 745 calls MediaWiki->performRequest()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP116]] are {edit,move}
+Article::view: doing uncached parse
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP116]] are {edit,move}
+User::getBlockedStatus: checking...
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160816140403, touched '' epoch 20160816103321, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160816140403, touched '' epoch 20160816103321, good 1
+Got thumbUrl: http://upgrade.wikipathways.org/w/img_auth.php/cache/pathways/svg/3/37/WP116_69142.svg
+Parser output marked as uncacheable.
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160816140400, touched '' epoch 20160816103321, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160816140400, touched '' epoch 20160816103321, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160816140400, touched '' epoch 20160816103321, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160816140400, touched '' epoch 20160816103321, good 1
+Parser output marked as uncacheable.
+updateCache called for filetype png
+FileCacheBase::isCacheGood: cachetime 20160620192532, touched '' epoch 20160816103321, good
+->Updating cached file for png
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160816140403, touched '' epoch 20160816103321, good 1
+wfShellExec: /bin/bash '/var/www/upgrade27.wikipathways.org/w/includes/limit.sh' 'inkscape -z -b white -w 1000 -f '\''/var/www/upgrade27.wikipathways.org/w/images/cache/pathways/svg/3/37/WP116_69142.svg'\'' -e '\''/var/www/upgrade27.wikipathways.org/w/images/cache/pathways/png/3/37/WP116_69142.png'\'' 2>&1' 'MW_INCLUDE_STDERR=;MW_CPU_LIMIT=180; MW_CGROUP='\'''\''; MW_MEM_LIMIT=524288; MW_FILE_SIZE_LIMIT=102400; MW_WALL_CLOCK_LIMIT=180; MW_USE_LOG_PIPE=yes'
+PNG CACHE SAVED: /var/www/upgrade27.wikipathways.org/w/images/cache/pathways/png/3/37/WP116_69142.png, 1;
+updateCache called for filetype png
+FileCacheBase::isCacheGood: cachetime 20160816141430, touched '' epoch 20160816103321, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160816140400, touched '' epoch 20160816103321, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160816140400, touched '' epoch 20160816103321, good 1
+[ContentHandler] Accessing pathway content as text!
+Article::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+[slow-parse] 4.19 Pathway:WP116
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+User: got user 9205 from cache
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP116]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP116]] are {edit,move}
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP116]] are {edit,move}
+User: got user 9205 from cache
+User: loading options for user 9205 from override cache.
+User: got user 9205 from cache
+User: got user 9205 from cache
+User: loading options for user 9205 from override cache.
+User: got user 9205 from cache
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: no caching **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Pathway:WP116
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+PRAGMA: no-cache
+CACHE-CONTROL: no-cache
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1470755939.1470908689.135; __utmc=141536308; __utmz=141536308.1469537628.132.29.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); wpupgrade127_session=1nk50hleja4kru8dab5chq3nton9g5f3; wpupgrade127UserID=9205; wpupgrade127UserName=Nuno
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+User: cache miss for user 9205
+IP: 137.120.195.105
+[connect] Connected to database 0 at localhost
+User: loading options for user 9205 from database.
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 19433 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP116]] are {edit,move}
+[ContentHandler] Created handler for pathway: PathwayHandler
+User: loading options for user 9205 from override cache.
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 892 calls Message->toString()
+OutputPage.php line 927 calls Message->text()
+OutputPage.php line 975 calls OutputPage->setHTMLTitle()
+Article.php line 504 calls OutputPage->setPageTitle()
+ViewAction.php line 44 calls Article->view()
+MediaWiki.php line 503 calls ViewAction->show()
+MediaWiki.php line 288 calls MediaWiki->performAction()
+MediaWiki.php line 745 calls MediaWiki->performRequest()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+Article::view using parser cache: no
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP116]] are {edit,move}
+Article::view: doing uncached parse
+[ContentHandler] Accessing pathway content as text!
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP116]] are {edit,move}
+User::getBlockedStatus: checking...
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160816140403, touched '' epoch 20160816103321, good 1
+updateCache called for filetype svg
+FileCacheBase::isCacheGood: cachetime 20160816140403, touched '' epoch 20160816103321, good 1
+Got thumbUrl: http://upgrade.wikipathways.org/w/img_auth.php/cache/pathways/svg/3/37/WP116_69142.svg
+Parser output marked as uncacheable.
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160816140400, touched '' epoch 20160816103321, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160816140400, touched '' epoch 20160816103321, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160816140400, touched '' epoch 20160816103321, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160816140400, touched '' epoch 20160816103321, good 1
+Parser output marked as uncacheable.
+updateCache called for filetype png
+FileCacheBase::isCacheGood: cachetime 20160816141430, touched '' epoch 20160816103321, good 1
+updateCache called for filetype png
+FileCacheBase::isCacheGood: cachetime 20160816141430, touched '' epoch 20160816103321, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160816140400, touched '' epoch 20160816103321, good 1
+updateCache called for filetype gpml
+FileCacheBase::isCacheGood: cachetime 20160816140400, touched '' epoch 20160816103321, good 1
+[ContentHandler] Accessing pathway content as text!
+Article::getContext called and $mContext is null. Return RequestContext::getMain(); for sanity
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+User: got user 9205 from cache
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP116]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP116]] are {edit,move}
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Title::getRestrictionTypes: applicable restrictions to [[Pathway:WP116]] are {edit,move}
+User: got user 9205 from cache
+User: loading options for user 9205 from override cache.
+User: got user 9205 from cache
+User: got user 9205 from cache
+User: loading options for user 9205 from override cache.
+User: got user 9205 from cache
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: no caching **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+[session] Saving all sessions on shutdown

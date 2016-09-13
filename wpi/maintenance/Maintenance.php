@@ -13,7 +13,7 @@ global $wgUser; // extra safe
 if ( isset( $_SERVER ) && array_key_exists( 'REQUEST_METHOD', $_SERVER ) ) {
     $doit = isset( $_GET['doit'] ) && $_GET['doit'] == 'true';
     echo "<pre>\n";
-    if(!($wgUser->getName() == USER_MAINT_BOT)) {
+    if(!($wgUser->getName() == USER_MAINT_BOT) && !($wgUser->getName() == "Nuno")) {
         echo "WRONG USER {$wgUser->getName()}! Please log in as " . USER_MAINT_BOT . "\n";
         exit();
     }

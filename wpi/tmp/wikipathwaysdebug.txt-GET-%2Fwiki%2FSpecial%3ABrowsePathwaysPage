@@ -1281,3 +1281,1746 @@ LoadBalancer::reuseConnection: this connection was not opened as a foreign conne
 [runJobs] Running 1 job(s) via '/w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1470942148&signature=83872f211ff4856b7521b874ec706eb3a4515e64'
 Request ended normally
 [session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1470755939.1470908689.135; __utmc=141536308; __utmz=141536308.1469537628.132.29.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+MWCryptRand::realGenerate: Generating cryptographic random bytes for MediaWiki\Session\SessionManager->generateSessionId/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 20 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+IP: 84.26.62.7
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 15512 will be used for SqlBagOStuff
+[session] SessionBackend "p5rk8gujv23fc9agran9lofq6pcku2vs" is unsaved, marking dirty in constructor
+[session] SessionBackend "p5rk8gujv23fc9agran9lofq6pcku2vs" save: dataDirty=1 metaDirty=1 forcePersist=0
+[cookie] already deleted setcookie: "wpupgrade127_session", "", "1439742265", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439742265", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439742265", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439742265", "/", "", "", ""
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[runJobs] Running 1 job(s) via '/w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1471278270&signature=f5da91ecdb5a3f8de5df9cc9dfd47e1f8e91b3f8'
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:47.0) Gecko/20100101 Firefox/47.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: en-US,en;q=0.5
+ACCEPT-ENCODING: gzip, deflate
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+COOKIE: __utma=141536308.1515812943.1435431304.1471041335.1471109572.382; __utmz=141536308.1470334313.363.22.utmcsr=apps.cytoscape.org|utmccn=(referral)|utmcmd=referral|utmcct=/apps/wikipathways; __utmc=141536308
+CONNECTION: keep-alive
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+MWCryptRand::realGenerate: Generating cryptographic random bytes for MediaWiki\Session\SessionManager->generateSessionId/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 20 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+IP: 169.230.76.4
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 15557 will be used for SqlBagOStuff
+[session] SessionBackend "tua7usvc1hjcspp03bj65edl7vbdlnr5" is unsaved, marking dirty in constructor
+[session] SessionBackend "tua7usvc1hjcspp03bj65edl7vbdlnr5" save: dataDirty=1 metaDirty=1 forcePersist=0
+[cookie] already deleted setcookie: "wpupgrade127_session", "", "1439742276", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439742276", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439742276", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439742276", "/", "", "", ""
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,de;q=0.6,nl;q=0.4
+COOKIE: __utma=141536308.1502858183.1424209605.1442053375.1465327406.9; __utmz=141536308.1465327406.9.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+MWCryptRand::realGenerate: Generating cryptographic random bytes for MediaWiki\Session\SessionManager->generateSessionId/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 20 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+IP: 94.211.191.224
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 15561 will be used for SqlBagOStuff
+[session] SessionBackend "aisk47mqc29l7snjq99prhk267c1r72k" is unsaved, marking dirty in constructor
+[session] SessionBackend "aisk47mqc29l7snjq99prhk267c1r72k" save: dataDirty=1 metaDirty=1 forcePersist=0
+[cookie] already deleted setcookie: "wpupgrade127_session", "", "1439742277", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439742277", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439742277", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439742277", "/", "", "", ""
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,de;q=0.6,nl;q=0.4
+COOKIE: __utma=141536308.1502858183.1424209605.1442053375.1465327406.9; __utmz=141536308.1465327406.9.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+MWCryptRand::realGenerate: Generating cryptographic random bytes for MediaWiki\Session\SessionManager->generateSessionId/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 20 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+IP: 94.211.191.224
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 15659 will be used for SqlBagOStuff
+[session] SessionBackend "tbarp9p8cl1507ntd01th6ar9k8r5fb9" is unsaved, marking dirty in constructor
+[session] SessionBackend "tbarp9p8cl1507ntd01th6ar9k8r5fb9" save: dataDirty=1 metaDirty=1 forcePersist=0
+[cookie] already deleted setcookie: "wpupgrade127_session", "", "1439742306", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439742306", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439742306", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439742306", "/", "", "", ""
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[runJobs] Running 1 job(s) via '/w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1471278311&signature=f31a0202e5d7d79b0fa3a743ed26d988eef9e284'
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1470755939.1470908689.135; __utmc=141536308; __utmz=141536308.1469537628.132.29.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+MWCryptRand::realGenerate: Generating cryptographic random bytes for MediaWiki\Session\SessionManager->generateSessionId/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 20 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+IP: 84.26.62.7
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 15706 will be used for SqlBagOStuff
+[session] SessionBackend "n469fr6im6ofpsn8h7srfrjn30e75jg2" is unsaved, marking dirty in constructor
+[session] SessionBackend "n469fr6im6ofpsn8h7srfrjn30e75jg2" save: dataDirty=1 metaDirty=1 forcePersist=0
+[cookie] already deleted setcookie: "wpupgrade127_session", "", "1439742391", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439742391", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439742391", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439742391", "/", "", "", ""
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[runJobs] Running 1 job(s) via '/w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1471278396&signature=1ec41e26cbfdd07225cb893dc22c047477e01039'
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,de;q=0.6,nl;q=0.4
+COOKIE: __utma=141536308.1502858183.1424209605.1442053375.1465327406.9; __utmz=141536308.1465327406.9.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+MWCryptRand::realGenerate: Generating cryptographic random bytes for MediaWiki\Session\SessionManager->generateSessionId/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 20 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+IP: 94.211.191.224
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 15750 will be used for SqlBagOStuff
+[session] SessionBackend "1b4os0lpca3i3g8oum4qu72rt315ubhb" is unsaved, marking dirty in constructor
+[session] SessionBackend "1b4os0lpca3i3g8oum4qu72rt315ubhb" save: dataDirty=1 metaDirty=1 forcePersist=0
+[cookie] already deleted setcookie: "wpupgrade127_session", "", "1439742398", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439742398", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439742398", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439742398", "/", "", "", ""
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[runJobs] Running 1 job(s) via '/w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1471278403&signature=72793865f683e74e85695860cad96a4543c5e11c'
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,de;q=0.6,nl;q=0.4
+COOKIE: __utma=141536308.1502858183.1424209605.1442053375.1465327406.9; __utmz=141536308.1465327406.9.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); wpupgrade127_session=n49s05ouq9gputpfsnmpk3ri0rn3jvjr; wpupgrade127UserID=1304; wpupgrade127UserName=Mkutmon
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+User: cache miss for user 1304
+IP: 94.211.191.224
+[connect] Connected to database 0 at localhost
+User: loading options for user 1304 from database.
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 15873 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+User: loading options for user 1304 from override cache.
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database, could not acquire main lock, using stale cache
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+User: got user 1304 from cache
+User: got user 1304 from cache
+User: loading options for user 1304 from override cache.
+User: got user 1304 from cache
+User: got user 1304 from cache
+User: loading options for user 1304 from override cache.
+User: got user 1304 from cache
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[runJobs] Running 1 job(s) via '/w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1471278515&signature=5bb5cc9c30a7cd0fc6e4eb9a5ddd2146b75b9b1a'
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1470755939.1470908689.135; __utmc=141536308; __utmz=141536308.1469537628.132.29.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); wpupgrade127_session=sjbj4q1s3qnbqrp3ont874ivdk2edu21
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+[session] Session "sjbj4q1s3qnbqrp3ont874ivdk2edu21" requested without UserID cookie
+IP: 84.26.62.7
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 15925 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[runJobs] Running 1 job(s) via '/w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1471278570&signature=71074e8fb8728c2722cd240f735f7e2c4227847b'
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,de;q=0.6,nl;q=0.4
+COOKIE: __utma=141536308.1502858183.1424209605.1442053375.1465327406.9; __utmz=141536308.1465327406.9.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); wpupgrade127_session=n49s05ouq9gputpfsnmpk3ri0rn3jvjr; wpupgrade127UserID=1304; wpupgrade127UserName=Mkutmon
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+User: cache miss for user 1304
+IP: 94.211.191.224
+[connect] Connected to database 0 at localhost
+User: loading options for user 1304 from database.
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 16033 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+User: loading options for user 1304 from override cache.
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+User: got user 1304 from cache
+User: got user 1304 from cache
+User: loading options for user 1304 from override cache.
+User: got user 1304 from cache
+User: got user 1304 from cache
+User: loading options for user 1304 from override cache.
+User: got user 1304 from cache
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[runJobs] Running 1 job(s) via '/w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1471279393&signature=078bed5733d3e1c27bb5d908ba77907185d42154'
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: en-US,en;q=0.5
+ACCEPT-ENCODING: gzip, deflate
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+DNT: 1
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+MWCryptRand::realGenerate: Generating cryptographic random bytes for MediaWiki\Session\SessionManager->generateSessionId/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 20 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+IP: 24.229.66.193
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 16081 will be used for SqlBagOStuff
+[session] SessionBackend "gafmp1298k3n980u40pcd3d640qpqrvk" is unsaved, marking dirty in constructor
+[session] SessionBackend "gafmp1298k3n980u40pcd3d640qpqrvk" save: dataDirty=1 metaDirty=1 forcePersist=0
+[cookie] already deleted setcookie: "wpupgrade127_session", "", "1439743436", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439743436", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439743436", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439743436", "/", "", "", ""
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[runJobs] Running 1 job(s) via '/w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1471279441&signature=298cfc50f9e2bf51c13a59653edfefa25967da9a'
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: en-US,en;q=0.5
+ACCEPT-ENCODING: gzip, deflate
+REFERER: http://upgrade.wikipathways.org/wiki/Special:Version
+DNT: 1
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+MWCryptRand::realGenerate: Generating cryptographic random bytes for MediaWiki\Session\SessionManager->generateSessionId/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 20 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+IP: 24.229.66.193
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 16192 will be used for SqlBagOStuff
+[session] SessionBackend "78gv8eh74iakgtsu8b82347f6hqoavi0" is unsaved, marking dirty in constructor
+[session] SessionBackend "78gv8eh74iakgtsu8b82347f6hqoavi0" save: dataDirty=1 metaDirty=1 forcePersist=0
+[cookie] already deleted setcookie: "wpupgrade127_session", "", "1439744146", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439744146", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439744146", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439744146", "/", "", "", ""
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:47.0) Gecko/20100101 Firefox/47.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: en-US,en;q=0.5
+ACCEPT-ENCODING: gzip, deflate
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+COOKIE: __utma=141536308.1515812943.1435431304.1471041335.1471109572.382; __utmz=141536308.1470334313.363.22.utmcsr=apps.cytoscape.org|utmccn=(referral)|utmcmd=referral|utmcct=/apps/wikipathways; __utmc=141536308; wpupgrade127_session=viqdir13kr1vma9217323d9uoig2gkas; wpupgrade127UserID=5; wpupgrade127UserName=AlexanderPico
+CONNECTION: keep-alive
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+User: cache miss for user 5
+IP: 169.230.76.4
+[connect] Connected to database 0 at localhost
+User: loading options for user 5 from database.
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 16220 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+User: loading options for user 5 from override cache.
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+User: got user 5 from cache
+User: got user 5 from cache
+User: loading options for user 5 from override cache.
+User: got user 5 from cache
+User: got user 5 from cache
+User: loading options for user 5 from override cache.
+User: got user 5 from cache
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,de;q=0.6,nl;q=0.4
+COOKIE: __utma=141536308.1502858183.1424209605.1442053375.1465327406.9; __utmz=141536308.1465327406.9.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); wpupgrade127_session=n49s05ouq9gputpfsnmpk3ri0rn3jvjr; wpupgrade127UserID=1304; wpupgrade127UserName=Mkutmon
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+User: cache miss for user 1304
+IP: 94.211.191.224
+[connect] Connected to database 0 at localhost
+User: loading options for user 1304 from database.
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 16248 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+User: loading options for user 1304 from override cache.
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+User: got user 1304 from cache
+User: got user 1304 from cache
+User: loading options for user 1304 from override cache.
+User: got user 1304 from cache
+User: got user 1304 from cache
+User: loading options for user 1304 from override cache.
+User: got user 1304 from cache
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:47.0) Gecko/20100101 Firefox/47.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: en-US,en;q=0.5
+ACCEPT-ENCODING: gzip, deflate
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+COOKIE: __utma=141536308.1515812943.1435431304.1471041335.1471109572.382; __utmz=141536308.1470334313.363.22.utmcsr=apps.cytoscape.org|utmccn=(referral)|utmcmd=referral|utmcct=/apps/wikipathways; __utmc=141536308; wpupgrade127_session=viqdir13kr1vma9217323d9uoig2gkas; wpupgrade127UserID=5; wpupgrade127UserName=AlexanderPico
+CONNECTION: keep-alive
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+User: cache miss for user 5
+IP: 169.230.76.4
+[connect] Connected to database 0 at localhost
+User: loading options for user 5 from database.
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 16299 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+User: loading options for user 5 from override cache.
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+User: got user 5 from cache
+User: got user 5 from cache
+User: loading options for user 5 from override cache.
+User: got user 5 from cache
+User: got user 5 from cache
+User: loading options for user 5 from override cache.
+User: got user 5 from cache
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,de;q=0.6,nl;q=0.4
+COOKIE: __utma=141536308.1502858183.1424209605.1442053375.1465327406.9; __utmz=141536308.1465327406.9.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); wpupgrade127_session=n49s05ouq9gputpfsnmpk3ri0rn3jvjr; wpupgrade127UserID=1304; wpupgrade127UserName=Mkutmon
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+User: cache miss for user 1304
+IP: 94.211.191.224
+[connect] Connected to database 0 at localhost
+User: loading options for user 1304 from database.
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 16335 will be used for SqlBagOStuff
+[session] SessionBackend "require/require_once/MediaWiki\Session\Session->renew/MediaWiki\Session\SessionBackend->renew" metadata dirty for renew(): require/require_once/MediaWiki\Session\Session->renew/MediaWiki\Session\SessionBackend->renew
+[session] SessionBackend "n49s05ouq9gputpfsnmpk3ri0rn3jvjr" force-persist for renew(): require/require_once/MediaWiki\Session\Session->renew/MediaWiki\Session\SessionBackend->renew
+[session] SessionBackend "n49s05ouq9gputpfsnmpk3ri0rn3jvjr" save: dataDirty=0 metaDirty=1 forcePersist=1
+[cookie] setcookie: "wpupgrade127_session", "n49s05ouq9gputpfsnmpk3ri0rn3jvjr", "0", "/", "", "", ""
+[cookie] setcookie: "wpupgrade127UserID", "1304", "1486832648", "/", "", "", ""
+[cookie] setcookie: "wpupgrade127UserName", "Mkutmon", "1486832648", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439744648", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439744648", "/", "", "", ""
+[session] SessionBackend "n49s05ouq9gputpfsnmpk3ri0rn3jvjr" Taking over PHP session
+[session] SessionBackend "n49s05ouq9gputpfsnmpk3ri0rn3jvjr" save: dataDirty=0 metaDirty=1 forcePersist=1
+[cookie] already set setcookie: "wpupgrade127_session", "n49s05ouq9gputpfsnmpk3ri0rn3jvjr", "0", "/", "", "", ""
+[cookie] already set setcookie: "wpupgrade127UserID", "1304", "1486832648", "/", "", "", ""
+[cookie] already set setcookie: "wpupgrade127UserName", "Mkutmon", "1486832648", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439744648", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439744648", "/", "", "", ""
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+User: loading options for user 1304 from override cache.
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+User: got user 1304 from cache
+User: got user 1304 from cache
+User: loading options for user 1304 from override cache.
+User: got user 1304 from cache
+User: got user 1304 from cache
+User: loading options for user 1304 from override cache.
+User: got user 1304 from cache
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,de;q=0.6,nl;q=0.4
+COOKIE: __utma=141536308.1502858183.1424209605.1442053375.1465327406.9; __utmz=141536308.1465327406.9.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); wpupgrade127_session=n49s05ouq9gputpfsnmpk3ri0rn3jvjr; wpupgrade127UserID=1304; wpupgrade127UserName=Mkutmon
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+User: cache miss for user 1304
+IP: 94.211.191.224
+[connect] Connected to database 0 at localhost
+User: loading options for user 1304 from database.
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 16403 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+User: loading options for user 1304 from override cache.
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+User: got user 1304 from cache
+User: got user 1304 from cache
+User: loading options for user 1304 from override cache.
+User: got user 1304 from cache
+User: got user 1304 from cache
+User: loading options for user 1304 from override cache.
+User: got user 1304 from cache
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+PRAGMA: no-cache
+CACHE-CONTROL: no-cache
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1470755939.1470908689.135; __utmc=141536308; __utmz=141536308.1469537628.132.29.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); wpupgrade127_session=ul64cd7sk7doh5q7oljueobi5f857b5i
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+[session] Session "ul64cd7sk7doh5q7oljueobi5f857b5i" requested without UserID cookie
+IP: 137.120.195.105
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 17289 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1470755939.1470908689.135; __utmc=141536308; __utmz=141536308.1469537628.132.29.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); wpupgrade127_session=ul64cd7sk7doh5q7oljueobi5f857b5i
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+[session] Session "ul64cd7sk7doh5q7oljueobi5f857b5i" requested without UserID cookie
+IP: 137.120.195.105
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 17830 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[runJobs] Running 1 job(s) via '/w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1471346472&signature=b1c46a93f0a944b46147ccbf16e71760128375b7'
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1470755939.1470908689.135; __utmc=141536308; __utmz=141536308.1469537628.132.29.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); wpupgrade127_session=ul64cd7sk7doh5q7oljueobi5f857b5i
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+[session] Session "ul64cd7sk7doh5q7oljueobi5f857b5i" requested without UserID cookie
+IP: 137.120.195.105
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 17837 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1470755939.1470908689.135; __utmc=141536308; __utmz=141536308.1469537628.132.29.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); wpupgrade127_session=u4h30jja1mb1itd3dd41gdvbm6galm7o; wpupgrade127UserID=10388; wpupgrade127UserName=Nunog
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+User: cache miss for user 10388
+IP: 137.120.195.105
+[connect] Connected to database 0 at localhost
+User: loading options for user 10388 from database.
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 17958 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+User: loading options for user 10388 from override cache.
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+User: got user 10388 from cache
+User: got user 10388 from cache
+User: loading options for user 10388 from override cache.
+User: got user 10388 from cache
+User: got user 10388 from cache
+User: loading options for user 10388 from override cache.
+User: got user 10388 from cache
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1470755939.1470908689.135; __utmc=141536308; __utmz=141536308.1469537628.132.29.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); wpupgrade127_session=u4h30jja1mb1itd3dd41gdvbm6galm7o; wpupgrade127UserID=10388; wpupgrade127UserName=Nunog
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+User: cache miss for user 10388
+IP: 137.120.195.105
+[connect] Connected to database 0 at localhost
+User: loading options for user 10388 from database.
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 18042 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+User: loading options for user 10388 from override cache.
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+User: got user 10388 from cache
+User: got user 10388 from cache
+User: loading options for user 10388 from override cache.
+User: got user 10388 from cache
+User: got user 10388 from cache
+User: loading options for user 10388 from override cache.
+User: got user 10388 from cache
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[runJobs] Running 1 job(s) via '/w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1471347871&signature=f914122f54107e19de033b0ca8f9447f236e945c'
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1470755939.1470908689.135; __utmc=141536308; __utmz=141536308.1469537628.132.29.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); wpupgrade127_session=u4h30jja1mb1itd3dd41gdvbm6galm7o; wpupgrade127UserID=10388; wpupgrade127UserName=Nunog
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+User: cache miss for user 10388
+IP: 137.120.195.105
+[connect] Connected to database 0 at localhost
+User: loading options for user 10388 from database.
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 18118 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+User: loading options for user 10388 from override cache.
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+User: got user 10388 from cache
+User: got user 10388 from cache
+User: loading options for user 10388 from override cache.
+User: got user 10388 from cache
+User: got user 10388 from cache
+User: loading options for user 10388 from override cache.
+User: got user 10388 from cache
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[runJobs] Running 1 job(s) via '/w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1471348380&signature=26c59601a95969b555845008e9c9f14afccaa237'
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1470755939.1470908689.135; __utmc=141536308; __utmz=141536308.1469537628.132.29.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); wpupgrade127_session=1nk50hleja4kru8dab5chq3nton9g5f3; wpupgrade127UserID=9205; wpupgrade127UserName=Nuno
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+User: cache miss for user 9205
+IP: 137.120.195.105
+[connect] Connected to database 0 at localhost
+User: loading options for user 9205 from database.
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 19242 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+User: loading options for user 9205 from override cache.
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+User: got user 9205 from cache
+User: got user 9205 from cache
+User: loading options for user 9205 from override cache.
+User: got user 9205 from cache
+User: got user 9205 from cache
+User: loading options for user 9205 from override cache.
+User: got user 9205 from cache
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[runJobs] Running 1 job(s) via '/w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1471353280&signature=c9ca9248ed7c89cfcf67c1d798fe6fd0297f90ac'
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1470755939.1470908689.135; __utmc=141536308; __utmz=141536308.1469537628.132.29.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); wpupgrade127_session=1nk50hleja4kru8dab5chq3nton9g5f3; wpupgrade127UserID=9205; wpupgrade127UserName=Nuno
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+User: cache miss for user 9205
+IP: 137.120.195.105
+[connect] Connected to database 0 at localhost
+User: loading options for user 9205 from database.
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 19341 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+User: loading options for user 9205 from override cache.
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+User: got user 9205 from cache
+User: got user 9205 from cache
+User: loading options for user 9205 from override cache.
+User: got user 9205 from cache
+User: got user 9205 from cache
+User: loading options for user 9205 from override cache.
+User: got user 9205 from cache
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[runJobs] Running 1 job(s) via '/w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1471355915&signature=f3683da38e29c388a7242e4832046a8e54df0e94'
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1083565919.1412799855.1470678447.1470762797.195; __utmc=141536308; __utmz=141536308.1469210751.186.11.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+MWCryptRand::realGenerate: Generating cryptographic random bytes for MediaWiki\Session\SessionManager->generateSessionId/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 20 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+IP: 169.230.76.4
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 19536 will be used for SqlBagOStuff
+[session] SessionBackend "fhc8l368eap8cl8m4p67aheubrc7makr" is unsaved, marking dirty in constructor
+[session] SessionBackend "fhc8l368eap8cl8m4p67aheubrc7makr" save: dataDirty=1 metaDirty=1 forcePersist=0
+[cookie] already deleted setcookie: "wpupgrade127_session", "", "1439828584", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439828584", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439828584", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439828584", "/", "", "", ""
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[runJobs] Running 1 job(s) via '/w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1471364590&signature=cde6b12a168f75efbe0e01a76afc7941e88e387d'
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /wiki/Special:BrowsePathwaysPage
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1470755939.1470908689.135; __utmc=141536308; __utmz=141536308.1469537628.132.29.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); wpupgrade127UserName=Nuno
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+MWCryptRand::realGenerate: Generating cryptographic random bytes for MediaWiki\Session\SessionManager->generateSessionId/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 20 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+IP: 137.120.195.242
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 23820 will be used for SqlBagOStuff
+[session] SessionBackend "p05qommk5nmr7r460q1j740ruoelea09" is unsaved, marking dirty in constructor
+[session] SessionBackend "p05qommk5nmr7r460q1j740ruoelea09" save: dataDirty=1 metaDirty=1 forcePersist=0
+[cookie] already deleted setcookie: "wpupgrade127_session", "", "1440056418", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1440056418", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1440056418", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1440056418", "/", "", "", ""
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+Skin.php line 866 calls Message->escaped()
+SkinTemplate.php line 396 calls Skin->logoText()
+SkinTemplate.php line 246 calls SkinTemplate->prepareQuickTemplate()
+OutputPage.php line 2324 calls SkinTemplate->outputPage()
+MediaWiki.php line 753 calls OutputPage->output()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+[runJobs] Running 1 job(s) via '/w/index.php?title=Special%3ARunJobs&tasks=jobs&maxjobs=1&sigexpiry=1471592423&signature=4f3195d45c33ed206c2338f6217c32b55499b0d6'
+Request ended normally
+[session] Saving all sessions on shutdown

@@ -28576,3 +28576,69 @@ Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
 #0 [internal function]: MWExceptionHandler::handleFatalError()
 #1 {main}
 [session] Saving all sessions on shutdown
+Start request GET /wiki/Special:SpecialWishList
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/WikiPathways
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8,de;q=0.6,nl;q=0.4
+COOKIE: wpupgrade127_session=n49s05ouq9gputpfsnmpk3ri0rn3jvjr; wpupgrade127UserID=1304; wpupgrade127UserName=Mkutmon; __utmt=1; __utma=141536308.1502858183.1424209605.1465327406.1471285591.10; __utmb=141536308.2.10.1471285591; __utmc=141536308; __utmz=141536308.1465327406.9.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+User: cache miss for user 1304
+IP: 94.211.191.224
+[connect] Connected to database 0 at localhost
+User: loading options for user 1304 from database.
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 16438 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+User: loading options for user 1304 from override cache.
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 892 calls Message->toString()
+SpecialPage.php line 564 calls Message->text()
+SpecialPage.php line 445 calls SpecialPage->getDescription()
+SpecialWishList_body.php line 14 calls SpecialPage->setHeaders()
+SpecialPage.php line 479 calls SpecialWishList->execute()
+SpecialPageFactory.php line 576 calls SpecialPage->run()
+MediaWiki.php line 282 calls SpecialPageFactory::executePath()
+MediaWiki.php line 745 calls MediaWiki->performRequest()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+Title::getRestrictionTypes: applicable restrictions to [[Wishlist:TOR signaling]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Wishlist:Arabidopsis thaliana trichome Development]] are {edit,move}
+Title::getRestrictionTypes: applicable restrictions to [[Wishlist:Axonal guidance]] are {edit,move}
+User: cache miss for user 16
+User: loading options for user 16 from database.
+[fatal] [7cb26c5a] PHP Fatal Error: Call to undefined method Title::userIsWatching()
+#0 [internal function]: MWExceptionHandler::handleFatalError()
+#1 {main}
+[session] Saving all sessions on shutdown

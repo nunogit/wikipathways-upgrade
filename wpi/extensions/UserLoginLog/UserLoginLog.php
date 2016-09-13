@@ -33,18 +33,19 @@ $wgHooks['UserLogout'][]         = 'wfUserLoginLogout';
 $wgHooks['UserLogoutComplete'][] = 'wfUserLoginLogoutComplete';
 
 function wfUserLoginLogSuccess(&$user) {
+	global $wgRequest;
 	$log = new LogPage('userlogin',false);
-	$log->addEntry('success',$user->getUserPage(),wfGetIP());
+	$log->addEntry('success',$user->getUserPage(),$wgRequest->getIP());
 	return true;
 }
 
 function wfUserLoginLogError(&$tmpl) {
-	global $wgUser,$wgServerUser;
+	global $wgUser,$wgServerUser, $wgRequest;
 	if ($tmpl->data['message'] && $tmpl->data['messagetype'] == 'error') {
 		$log = new LogPage('userlogin',false);
 		$tmp = $wgUser->mId;
 		if ($tmp == 0) $wgUser->mId = $wgServerUser;
-		$log->addEntry('error',$wgUser->getUserPage(),$tmpl->data['message'],array(wfGetIP()));
+		$log->addEntry('error',$wgUser->getUserPage(),$tmpl->data['message'],array($wgRequest->getIP()));
 		$wgUser->mId = $tmp;
 	}
 	return true;

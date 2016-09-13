@@ -60,7 +60,8 @@ class PathwayWishList {
 	 */
 	private function loadWishlist() {
 		$this->wishlist = array();
-		$dbr =& wfGetDB( DB_SLAVE );
+#		$dbr =& wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_SLAVE );
 		$res = $dbr->query(
 			"SELECT page_id FROM page WHERE page_namespace = " . NS_WISHLIST
 			);

@@ -54,3 +54,83 @@ LoadBalancer::reuseConnection: this connection was not opened as a foreign conne
 LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
 LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
 Request ended normally
+Start request GET /w/index.php?title=Special:UserLogout&returnto=Pathway%3AWP554
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/Pathway:WP554
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1470755939.1470908689.135; __utmc=141536308; __utmz=141536308.1469537628.132.29.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); wpupgrade127_session=u4h30jja1mb1itd3dd41gdvbm6galm7o; wpupgrade127UserID=10388; wpupgrade127UserName=Nunog
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+User: cache miss for user 10388
+IP: 137.120.195.105
+[connect] Connected to database 0 at localhost
+User: loading options for user 10388 from database.
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 18855 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+User: loading options for user 10388 from override cache.
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 892 calls Message->toString()
+SpecialPage.php line 564 calls Message->text()
+SpecialPage.php line 445 calls SpecialPage->getDescription()
+SpecialUserLogout.php line 48 calls SpecialPage->setHeaders()
+SpecialPage.php line 479 calls SpecialUserLogout->execute()
+SpecialPageFactory.php line 576 calls SpecialPage->run()
+MediaWiki.php line 282 calls SpecialPageFactory::executePath()
+MediaWiki.php line 745 calls MediaWiki->performRequest()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+[session] SessionBackend "u4h30jja1mb1itd3dd41gdvbm6galm7o" Closing PHP session for unpersist
+[session] SessionBackend "u4h30jja1mb1itd3dd41gdvbm6galm7o" metadata dirty due to logged-out-timestamp change
+[session] SessionBackend "u4h30jja1mb1itd3dd41gdvbm6galm7o" metadata dirty due to user change
+[session] SessionBackend "u4h30jja1mb1itd3dd41gdvbm6galm7o" data dirty due to dirty(): SpecialUserLogout->execute/User->logout/User->doLogout/MediaWiki\Session\Session->set/MediaWiki\Session\SessionBackend->dirty
+[session] SessionBackend "u4h30jja1mb1itd3dd41gdvbm6galm7o" data dirty due to dirty(): User->logout/User->doLogout/MediaWiki\Session\Session->resetAllTokens/MediaWiki\Session\Session->remove/MediaWiki\Session\SessionBackend->dirty
+[session] SessionBackend "u4h30jja1mb1itd3dd41gdvbm6galm7o" save: dataDirty=1 metaDirty=1 forcePersist=1
+[cookie] setcookie: "wpupgrade127_session", "", "1439813688", "/", "", "", ""
+[cookie] setcookie: "wpupgrade127UserID", "", "1439813688", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439813688", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439813688", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127_session", "", "1439813688", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439813688", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439813688", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439813688", "/", "", "", ""
+User: got user 10388 from cache
+User: loading options for user 10388 from database.
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[fatal] [9e9c467d] PHP Fatal Error: Call to a member function getOptions() on a non-object
+#0 [internal function]: MWExceptionHandler::handleFatalError()
+#1 {main}
+[session] Saving all sessions on shutdown
+[cache-cookies] Cookies set on /w/index.php?title=Special:UserLogout&returnto=Pathway%3AWP554 with Cache-Control "<not set>"

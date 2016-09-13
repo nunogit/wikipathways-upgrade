@@ -12,7 +12,7 @@ try {
 	putenv( "MW_INSTALL_PATH=$IP" );
 	if ( !defined( 'MEDIAWIKI' ) ) {
 		require_once( "WebStart.php" );
-		require_once( "Wiki.php" );
+		require_once( "MediaWiki.php" );
 		require_once( 'globals.php' );
 	}
 	//Parse HTTP request (only if script is directly called!)

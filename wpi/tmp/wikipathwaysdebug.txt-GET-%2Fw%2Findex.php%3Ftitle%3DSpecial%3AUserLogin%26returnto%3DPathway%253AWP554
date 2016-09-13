@@ -173,3 +173,259 @@ LoadBalancer::reuseConnection: this connection was not opened as a foreign conne
 LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
 LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
 Request ended normally
+Start request GET /w/index.php?title=Special:UserLogin&returnto=Pathway%3AWP554
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:47.0) Gecko/20100101 Firefox/47.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: en-US,en;q=0.5
+ACCEPT-ENCODING: gzip, deflate
+REFERER: http://upgrade.wikipathways.org/wiki/Pathway:WP554
+COOKIE: __utma=141536308.1515812943.1435431304.1471041335.1471109572.382; __utmz=141536308.1470334313.363.22.utmcsr=apps.cytoscape.org|utmccn=(referral)|utmcmd=referral|utmcct=/apps/wikipathways; __utmc=141536308
+CONNECTION: keep-alive
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+MWCryptRand::realGenerate: Generating cryptographic random bytes for MediaWiki\Session\SessionManager->generateSessionId/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 20 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+IP: 169.230.76.4
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 15783 will be used for SqlBagOStuff
+[session] SessionBackend "45je088ppv0s824kes6oap03s9b4f432" is unsaved, marking dirty in constructor
+[session] SessionBackend "45je088ppv0s824kes6oap03s9b4f432" save: dataDirty=1 metaDirty=1 forcePersist=0
+[cookie] already deleted setcookie: "wpupgrade127_session", "", "1439742401", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439742401", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439742401", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439742401", "/", "", "", ""
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+[session] SessionBackend "45je088ppv0s824kes6oap03s9b4f432" force-persist due to persist()
+[session] SessionBackend "45je088ppv0s824kes6oap03s9b4f432" save: dataDirty=0 metaDirty=1 forcePersist=1
+[cookie] setcookie: "wpupgrade127_session", "45je088ppv0s824kes6oap03s9b4f432", "0", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439742401", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439742401", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439742401", "/", "", "", ""
+[session] SessionBackend "45je088ppv0s824kes6oap03s9b4f432" Taking over PHP session
+[session] SessionBackend "45je088ppv0s824kes6oap03s9b4f432" save: dataDirty=0 metaDirty=1 forcePersist=1
+[cookie] already set setcookie: "wpupgrade127_session", "45je088ppv0s824kes6oap03s9b4f432", "0", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439742401", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439742401", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439742401", "/", "", "", ""
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+CachedBagOStuff.php line 61 calls SqlBagOStuff->set()
+SessionBackend.php line 727 calls CachedBagOStuff->set()
+SessionBackend.php line 596 calls MediaWiki\Session\SessionBackend->save()
+- line - calls MediaWiki\Session\SessionBackend->MediaWiki\Session\{closure}()
+ScopedCallback.php line 74 calls call_user_func_array()
+ScopedCallback.php line 54 calls ScopedCallback->__destruct()
+SessionManager.php line 876 calls ScopedCallback::consume()
+SessionManager.php line 205 calls MediaWiki\Session\SessionManager->getSessionFromInfo()
+PHPSessionHandler.php line 209 calls MediaWiki\Session\SessionManager->getSessionById()
+- line - calls MediaWiki\Session\PHPSessionHandler->read()
+- line - calls session_start()
+Functions.php line 72 calls call_user_func_array()
+SessionBackend.php line 755 calls MediaWiki\quietCall()
+SessionBackend.php line 680 calls MediaWiki\Session\SessionBackend->checkPHPSession()
+SessionBackend.php line 606 calls MediaWiki\Session\SessionBackend->save()
+SessionBackend.php line 291 calls MediaWiki\Session\SessionBackend->autosave()
+Session.php line 127 calls MediaWiki\Session\SessionBackend->persist()
+LoginSignupSpecialPage.php line 221 calls MediaWiki\Session\Session->persist()
+SpecialPage.php line 479 calls LoginSignupSpecialPage->execute()
+SpecialPageFactory.php line 576 calls SpecialPage->run()
+MediaWiki.php line 282 calls SpecialPageFactory::executePath()
+MediaWiki.php line 745 calls MediaWiki->performRequest()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+QuickTemplate::__construct was called with no Config instance passed to it
+MWCryptRand::realGenerate: Generating cryptographic random bytes for PasswordFactory::generateRandomPasswordString/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 7 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+MWCryptRand::realGenerate: Generating cryptographic random bytes for MediaWiki\Session\Session->getToken/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 16 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+[session] SessionBackend "45je088ppv0s824kes6oap03s9b4f432" data dirty due to dirty(): LoginSignupSpecialPage->getFakeTemplate/SpecialUserLogin->getToken/MediaWiki\Session\Session->getToken/MediaWiki\Session\Session->set/MediaWiki\Session\SessionBackend->dirty
+[session] SessionBackend "45je088ppv0s824kes6oap03s9b4f432" save: dataDirty=1 metaDirty=0 forcePersist=0
+User::getBlockedStatus: checking...
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /w/index.php?title=Special:UserLogin&returnto=Pathway%3AWP554
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:47.0) Gecko/20100101 Firefox/47.0
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+ACCEPT-LANGUAGE: en-US,en;q=0.5
+ACCEPT-ENCODING: gzip, deflate
+REFERER: http://upgrade.wikipathways.org/wiki/Pathway:WP554
+COOKIE: __utma=141536308.1515812943.1435431304.1471041335.1471109572.382; __utmz=141536308.1470334313.363.22.utmcsr=apps.cytoscape.org|utmccn=(referral)|utmcmd=referral|utmcct=/apps/wikipathways; __utmc=141536308; wpupgrade127_session=45je088ppv0s824kes6oap03s9b4f432
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+[session] Session "45je088ppv0s824kes6oap03s9b4f432" requested without UserID cookie
+IP: 169.230.76.4
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 15799 will be used for SqlBagOStuff
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+BagOStuff.php line 533 calls SqlBagOStuff->set()
+BagOStuff.php line 392 calls BagOStuff->add()
+BagOStuff.php line 460 calls BagOStuff->lock()
+MessageCache.php line 701 calls BagOStuff->getScopedLock()
+MessageCache.php line 398 calls MessageCache->getReentrantScopedLock()
+MessageCache.php line 326 calls MessageCache->loadFromDBWithLock()
+MessageCache.php line 925 calls MessageCache->load()
+MessageCache.php line 859 calls MessageCache->getMsgFromNamespace()
+MessageCache.php line 827 calls MessageCache->getMessageForLang()
+MessageCache.php line 768 calls MessageCache->getMessageFromFallbackChain()
+Message.php line 1178 calls MessageCache->get()
+Message.php line 801 calls Message->fetchMessage()
+Message.php line 929 calls Message->toString()
+LoginSignupSpecialPage.php line 155 calls Message->escaped()
+LoginSignupSpecialPage.php line 223 calls LoginSignupSpecialPage->load()
+SpecialPage.php line 479 calls LoginSignupSpecialPage->execute()
+SpecialPageFactory.php line 576 calls SpecialPage->run()
+MediaWiki.php line 282 calls SpecialPageFactory::executePath()
+MediaWiki.php line 745 calls MediaWiki->performRequest()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+QuickTemplate::__construct was called with no Config instance passed to it
+MWCryptRand::realGenerate: Generating cryptographic random bytes for PasswordFactory::generateRandomPasswordString/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 7 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+User::getBlockedStatus: checking...
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+[session] Saving all sessions on shutdown
+Start request GET /w/index.php?title=Special:UserLogin&returnto=Pathway%3AWP554
+HTTP HEADERS:
+HOST: upgrade.wikipathways.org
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+REFERER: http://upgrade.wikipathways.org/wiki/Pathway:WP554
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: __utma=141536308.1187901129.1425049019.1470755939.1470908689.135; __utmc=141536308; __utmz=141536308.1469537628.132.29.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); wpupgrade127UserName=Nunog
+[caches] cluster: EmptyBagOStuff, WAN: mediawiki-main-default, stash: db-replicated, message: SqlBagOStuff, parser: SqlBagOStuff, session: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreCDB
+MWCryptRand::realGenerate: Generating cryptographic random bytes for MediaWiki\Session\SessionManager->generateSessionId/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 20 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+IP: 137.120.195.105
+[connect] Connected to database 0 at localhost
+[connect] Connected to database 0 at localhost
+[SQLBagOStuff] Connection 18864 will be used for SqlBagOStuff
+[session] SessionBackend "2ji529pvvjgnbsch9gahth79ee3mvs5f" is unsaved, marking dirty in constructor
+[session] SessionBackend "2ji529pvvjgnbsch9gahth79ee3mvs5f" save: dataDirty=1 metaDirty=1 forcePersist=0
+[cookie] already deleted setcookie: "wpupgrade127_session", "", "1439813702", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439813702", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439813702", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439813702", "/", "", "", ""
+Unstubbing $wgParser on call of $wgParser::setHook from registerInputboxExtension
+Parser: using preprocessor: Preprocessor_DOM
+Fully initialised
+[session] SessionBackend "2ji529pvvjgnbsch9gahth79ee3mvs5f" force-persist due to persist()
+[session] SessionBackend "2ji529pvvjgnbsch9gahth79ee3mvs5f" save: dataDirty=0 metaDirty=1 forcePersist=1
+[cookie] setcookie: "wpupgrade127_session", "2ji529pvvjgnbsch9gahth79ee3mvs5f", "0", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439813702", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439813702", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439813702", "/", "", "", ""
+[session] SessionBackend "2ji529pvvjgnbsch9gahth79ee3mvs5f" Taking over PHP session
+[session] SessionBackend "2ji529pvvjgnbsch9gahth79ee3mvs5f" save: dataDirty=0 metaDirty=1 forcePersist=1
+[cookie] already set setcookie: "wpupgrade127_session", "2ji529pvvjgnbsch9gahth79ee3mvs5f", "0", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127UserID", "", "1439813702", "/", "", "", ""
+[cookie] already deleted setcookie: "wpupgrade127Token", "", "1439813702", "/", "", "", ""
+[cookie] already deleted setcookie: "forceHTTPS", "", "1439813702", "/", "", "", ""
+[DBPerformance] Expectation (writes <= 0) by MediaWiki::main not met:
+query-m: REPLACE INTO `objectcache` (keyname,value,exptime) VALUES ('X')
+TransactionProfiler.php line 311 calls wfBacktrace()
+TransactionProfiler.php line 200 calls TransactionProfiler->reportExpectationViolated()
+Database.php line 856 calls TransactionProfiler->recordQueryCompletion()
+Database.php line 2129 calls DatabaseBase->query()
+DatabaseMysqlBase.php line 464 calls DatabaseBase->nativeReplace()
+SqlBagOStuff.php line 340 calls DatabaseMysqlBase->replace()
+SqlBagOStuff.php line 354 calls SqlBagOStuff->setMulti()
+CachedBagOStuff.php line 61 calls SqlBagOStuff->set()
+SessionBackend.php line 727 calls CachedBagOStuff->set()
+SessionBackend.php line 596 calls MediaWiki\Session\SessionBackend->save()
+- line - calls MediaWiki\Session\SessionBackend->MediaWiki\Session\{closure}()
+ScopedCallback.php line 74 calls call_user_func_array()
+ScopedCallback.php line 54 calls ScopedCallback->__destruct()
+SessionManager.php line 876 calls ScopedCallback::consume()
+SessionManager.php line 205 calls MediaWiki\Session\SessionManager->getSessionFromInfo()
+PHPSessionHandler.php line 209 calls MediaWiki\Session\SessionManager->getSessionById()
+- line - calls MediaWiki\Session\PHPSessionHandler->read()
+- line - calls session_start()
+Functions.php line 72 calls call_user_func_array()
+SessionBackend.php line 755 calls MediaWiki\quietCall()
+SessionBackend.php line 680 calls MediaWiki\Session\SessionBackend->checkPHPSession()
+SessionBackend.php line 606 calls MediaWiki\Session\SessionBackend->save()
+SessionBackend.php line 291 calls MediaWiki\Session\SessionBackend->autosave()
+Session.php line 127 calls MediaWiki\Session\SessionBackend->persist()
+LoginSignupSpecialPage.php line 221 calls MediaWiki\Session\Session->persist()
+SpecialPage.php line 479 calls LoginSignupSpecialPage->execute()
+SpecialPageFactory.php line 576 calls SpecialPage->run()
+MediaWiki.php line 282 calls SpecialPageFactory::executePath()
+MediaWiki.php line 745 calls MediaWiki->performRequest()
+MediaWiki.php line 519 calls MediaWiki->main()
+index.php line 43 calls MediaWiki->run()
+
+[MessageCache] MessageCache::load: Loading en... local cache is empty, global cache is expired/volatile, loading from database
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions->__construct
+QuickTemplate::__construct was called with no Config instance passed to it
+MWCryptRand::realGenerate: Generating cryptographic random bytes for PasswordFactory::generateRandomPasswordString/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 7 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+MWCryptRand::realGenerate: Generating cryptographic random bytes for MediaWiki\Session\Session->getToken/MWCryptRand::generateHex/MWCryptRand->realGenerateHex/MWCryptRand::generate/MWCryptRand->realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 16 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+[session] SessionBackend "2ji529pvvjgnbsch9gahth79ee3mvs5f" data dirty due to dirty(): LoginSignupSpecialPage->getFakeTemplate/SpecialUserLogin->getToken/MediaWiki\Session\Session->getToken/MediaWiki\Session\Session->set/MediaWiki\Session\SessionBackend->dirty
+[session] SessionBackend "2ji529pvvjgnbsch9gahth79ee3mvs5f" save: dataDirty=1 metaDirty=0 forcePersist=0
+User::getBlockedStatus: checking...
+MediaWiki::preOutputCommit: all transactions committed
+MediaWiki::preOutputCommit: pre-send deferred updates completed
+[gitinfo] Computed cacheFile=/var/www/upgrade27.wikipathways.org/w/gitinfo.json for /var/www/upgrade27.wikipathways.org/w
+[gitinfo] Cache incomplete for /var/www/upgrade27.wikipathways.org/w
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+[session] Saving all sessions on shutdown
