@@ -193,7 +193,11 @@ class Wish {
 	}
 
 	function userIsWatching() {
-		return $this->title->userIsWatching();
+		//improve
+		global $wgUser;
+		return $wgUser->isWatched( $this->title );
+
+		//return $this->title->userIsWatching(); ***
 	}
 
 	function watch() {
@@ -219,7 +223,8 @@ class Wish {
 		if(!$this->isResolved()) {
 			return false;
 		}
-		$title = Title::newFromRedirect($this->article->getContent());
+		//$title = Title::newFromRedirect($this->article->getContent());
+		$title = ContentHandler::makeContent( $this->article->getContent(), null, CONTENT_MODEL_WIKITEXT )->getRedirectTarget();
 		return Pathway::newFromTitle($title);
 	}
 

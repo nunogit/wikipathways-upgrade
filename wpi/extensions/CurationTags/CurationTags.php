@@ -40,6 +40,10 @@ function displayCurationTags($input, $argv, $parser) {
 	}
 	$helpLink = Title::newFromText("CurationTags", NS_HELP)->getFullURL();
 
+	//force jQuery first
+	global $jsJQuery;
+	$wgOut->addScriptFile($jsJQuery);
+
 	//Add javascript
 	$wgOut->addScriptFile( "../wikipathways/CurationTags.js"  );
 	$wgOut->addScript(
@@ -53,9 +57,16 @@ function displayCurationTags($input, $argv, $parser) {
 
 	$pageId = $parser->mTitle->getArticleID();
 	$elementId = 'curationTagDiv';
-	return Html::element( "div", array( "id" => $elementId ) ).
-		Html::rawElement( "script", array( "type" => $wgJsMimeType ),
-			'$(document).' . "ready( function() { CurationTags.insertDiv('$elementId', '$pageId'); } );" );
+
+
+	$wgOut->addScriptFile("../wikipathways/CurationTagsLoad.js");
+	$wgOut->addScriptFile("../wikipathways/CurationTagsRun.js");
+
+	return Html::element( "div", array( "id" => $elementId ) );
+		//Html::rawElement( "script", array( "type" => $wgJsMimeType ),
+			/*'$(document).' . "ready( function() { CurationTags.insertDiv('$elementId', '$pageId'); } );" );*/
+			/*'jQuery(document).' . "ready( function() { alert('aa'); } );" );*/
+			
 }
 
 /**

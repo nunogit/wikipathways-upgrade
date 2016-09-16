@@ -88,7 +88,8 @@ if( !isset( $jsJQuery ) ) $jsJQuery = "$wgScriptPath/skins/wikipathways/jquery-1
 if( !isset( $jsJQueryUI ) ) $jsJQueryUI = "$wgScriptPath/wpi/js/jquery-ui/jquery-ui-1.8.10.custom.min.js";
 if( !isset( $cssJQueryUI ) ) $cssJQueryUI = "$wgScriptPath/wpi/js/jquery-ui/jquery-ui-1.8.10.custom.css";
 if( !isset( $jsSvgWeb ) ) $jsSvgWeb = "$wgScriptPath/wpi/js/svgweb/svg-uncompressed.js\" data-path=\"$wgScriptPath/wpi/js/svgweb";
-$jsRequireJQuery = false; //Only load jquery when required by extension
+$jsRequireJQuery = true; //Only load jquery when required by extension
+
 
 # Schemas for Postgres
 $wgDBmwschema       = "mediawiki";
@@ -339,7 +340,8 @@ require_once("$IP/extensions/LocalHooks.php");
 #require_once('extensions/SocialRewarding/SocialRewarding.php');
 require_once('extensions/UserMerge/UserMerge.php');
 require_once('extensions/parseViewRedirect.php');
-require_once( "$IP/wpi/autoload-setup.php" );
+//loads after javascript
+//require_once( "$IP/wpi/autoload-setup.php" );
 
 $contribScoreIgnoreBots = true;  //Set to true if you want to exclude Bots from the reporting - Can be omitted.
 
@@ -385,6 +387,9 @@ $wgJsMimeType = "text/javascript";
 
 //Lastly, include javascripts (that may have been added by other extensions)
 require_once('wpi/Javascript.php');
+// autoload needs to be loaded after javascript
+require_once( "$IP/wpi/autoload-setup.php" );
+
 
 /* Users have to have a confirmed email address to edit.  This also
  * requires a valid email at account creation time. */
@@ -426,6 +431,8 @@ $wgPathwayRecentSinceDays = 30;
 /* For UserMailer mod in older WikiPathways */
 $wgPasswordSenderName = "WikiPathways";
 
+
+$wgWhitelistRead = false;
 // Non-intutive name https://www.mediawiki.org/wiki/Manual:$wgImgAuthPublicTest
 // needed to protect pathways here.
 $wgImgAuthPublicTest = false;

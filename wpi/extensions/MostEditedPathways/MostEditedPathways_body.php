@@ -64,7 +64,8 @@ class MostEditedPathways extends QueryPage {
 			$text = $wgContLang->convert("$result->value revisions");
 			$plink = $skin->linkKnown( $id, $wgContLang->convert( $title->getBaseText() ) );
 
-			return wfSpecialList($plink, $text);
+			return $wgLang->specialList( $plink, $text); 
+			//return wfSpecialList($plink, $text);
 		}
 		return null;
 	}
