@@ -391,16 +391,16 @@ HTML;
 				</div>";
 
 		$html .= "
-					<table id='tissueTable' class='wikitable sortable' style='display:inline-block;width:100%'>
-					<tr class='table-blue-tableheadings' id='tr_header'>
-					<td class='table-blue-headercell' style='width:44%'>Pathways</td>
-					<td class='table-blue-headercell' align='center' style='width:10%'>Linkout</td>
-					<td class='table-blue-headercell' align='center'style='width:10%'>Median</td>
-					<td class='table-blue-headercell' style='width:1%'></td>
-					<td class='table-blue-headercell' align='center' style='width:10%'>Active genes</td>
-					<td class='table-blue-headercell' align='center' style='width:10%'>Measured genes</td>
-					<td class='table-blue-headercell' align='center'style='width:10%' >Active/Measured %</td>
-					<td class='table-blue-headercell' align='center'style='width:30%' >Average expression over all tissues</td>";	
+					<table id='tissueTable' class='wikitable sortable jquery-tablesorter' style='display:inline-block;width:100%'>
+					<tr id='tr_header'>
+					<th class='headerSort' style='width:44%'>Pathways</td>
+					<th class='headerSort' align='center' style='width:10%'>Linkout</td>
+					<th class='headerSort' align='center'style='width:10%'>Median</td>
+					<th class='headerSort' style='width:1%'></td>
+					<th class='headerSort' align='center' style='width:10%'>Active genes</td>
+					<th class='headerSort' align='center' style='width:10%'>Measured genes</td>
+					<th class='headerSort' align='center'style='width:10%' >Active/Measured %</td>
+					<th class='headerSort' align='center'style='width:30%' >Average expression over all tissues</td>";	
 
 		for($i = 0; $i < count ( $mean ); ++ $i) {
 			$filename = "wpi/data/TissueAnalyzer/$collection/$dataset/$cutoff/Hs_$nami[$i]_$path_id[$i]_$path_rev[$i].txt";
