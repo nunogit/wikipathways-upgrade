@@ -1,18 +1,34 @@
 <?php
 
+class LegacyBrowsePathways extends LegacySpecialPage {
+	function __construct() {
+		parent::__construct( "TissueAnalyzerPage", "TissueAnalyzer" );
+	}
+}
+/*
+function wfPathwayViewer() {
+	global $wgParser;
+	$wgParser->setFunctionHook( "TissueAnalyzer", "TissueAnalyzer::enable" );
+}*/
+
 class TissueAnalyzer extends SpecialPage {
 	protected $name = 'TissueAnalyzer';
 
-	function TissueAnalyzer() {
-		SpecialPage::SpecialPage ( $this->name  );
-		self::loadMessages();
+	function __construct() {
+		parent::__construct( __CLASS__ );
 	}
-
+	
 	function execute($par) {
-		global $wgOut, $wgUser, $wgLang;
+		global $wgOut, $wgUser, $wgLang, $jsRequireJQuery ;
+		//global $wgParser;
+		//$wgParser->setFunctionHook( "TissueAnalyzer", "TissueAnalyzer::enable" );
+		global $jsJQuery;
+		$wgOut->addScriptFile($jsJQuery);
+
 		$this->setHeaders ();
 		$wgOut->setPagetitle ("TissueAnalyzer");
-
+		
+	//$jsRequireJQuery = true;
 		$species = (isset ( $_GET ["species"] )) ? $_GET ["species"] : "Human";
 		$cutoff = (isset ( $_GET ["cutoff"] )) ? $_GET ["cutoff"] : "5";
 		$dataset = (isset ( $_GET ["dataset"] )) ? $_GET ["dataset"] : "E-MTAB-2836";
@@ -22,7 +38,7 @@ class TissueAnalyzer extends SpecialPage {
 				
 		$datasetSelect = "<SELECT name='dataset' id='dataSelect' size='1'>";
 		$path = "wpi/bin/TissueAnalyzer/datasets/datasets.config";
-		$datasetFile = fopen($path, r);
+		$datasetFile = fopen($path, "r");
 		$hashArray = array ();
 		$speciesArray = array();
 		while ( ! feof ( $datasetFile ) ) {
@@ -42,7 +58,7 @@ class TissueAnalyzer extends SpecialPage {
 		$datasetSelect .="</SELECT>";
 		$speciesArray = array_unique($speciesArray);
 
-		$topTenFile = fopen("wpi/bin/TissueAnalyzer/datasets/".$dataset."_generic.txt", r);
+		$topTenFile = fopen("wpi/bin/TissueAnalyzer/datasets/".$dataset."_generic.txt", "r");
 		$topTen = array ();
 		while (!feof($topTenFile)) {
 			array_push ( $topTen, trim (fgets($topTenFile)) );
@@ -64,22 +80,31 @@ class TissueAnalyzer extends SpecialPage {
 	}
 
 	function addJs($topTen,$hashArray){
-		global $wgOut;
+		global $wgOut, $wpiJavascriptSources,$wgScriptPath;
 		$top = json_encode($topTen);
 		$hash = json_encode($hashArray);
+		
 		
 		//Add CSS
 		//Hack to add a css that's not in the skins directory
 		global $wgStylePath;
 		$oldStylePath = $wgStylePath;
-		$wgStylePath = "/wpi/lib/tissueanalyzer/";
-		$wgOut->addStyle("/fancybox/jquery.fancybox-1.3.4.css");
+		//$wgStylePath = "/wpi/lib/tissueanalyzer/";
+		//$wgStylePath = "/wpi/bin/TissueAnalyzer/js/";
+		$wgOut->addStyle("$wgStylePath/../wpi/bin/TissueAnalyzer/js/fancybox/jquery.fancybox-1.3.4.css");
 		$wgStylePath = $oldStylePath;
 
-		$wgOut->addScriptFile('/wpi/lib/tissueanalyzer/fancybox/jquery.fancybox-1.3.4.js');		
+		//$wgOut->addScriptFile('/wpi/lib/tissueanalyzer/fancybox/jquery.fancybox-1.3.4.js');
+		//$wgOut->addScriptFile("$wgScriptPath/wpi/bin/TissueAnalyzer/js/fancybox/jquery.fancybox-1.3.4.js");
 		$wgOut->addScript('<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>');
-		$wgOut->addScriptFile("/wpi/lib/tissueanalyzer/ChartFancy.js");
-
+		//$wgOut->addScriptFile("/wpi/lib/tissueanalyzer/ChartFancy.js");
+		//$wgOut->addScriptFile("$wgScriptPath/wpi/bin/TissueAnalyzer/js/ChartFancy.js");
+		
+		//$wgOut->addStyle("wpi/TissueAnalyzer/js/fancybox/jquery.fancybox-1.3.4.css");
+		$scripts = array("$wgScriptPath/wpi/bin/TissueAnalyzer/js/fancybox/jquery.fancybox-1.3.4.js",
+											"$wgScriptPath/wpi/bin/TissueAnalyzer/js/ChartFancy.js");
+		$wpiJavascriptSources = array_merge($wpiJavascriptSources,$scripts);
+	
 		$wgOut->addScript('
 				<script language="JavaScript">
 					function doToggleTA( elId, msg, expand, collapse ) {
@@ -90,7 +115,7 @@ class TissueAnalyzer extends SpecialPage {
 									checkGeneric();	
 							} else {
 									msg.innerHTML = expand;
-									$("#check").prop("checked", false);check();
+									$("#check").prop("checked", false);
 							}
 					}
 					function checkGeneric() {
@@ -127,9 +152,10 @@ class TissueAnalyzer extends SpecialPage {
     			  document.getElementById("cutoff_label").innerHTML=val; 
 					}				
 				$(function() {
-					checkGeneric();
+					checkGeneric();console.log("data");
 					$("#dataSelect").change(function() {
-						$("#tissueSelect").load("/wpi/bin/TissueAnalyzer/datasets/"+$(this).val()+"_tissues_opt.txt");
+						console.log("data");
+						$("#tissueSelect").load("/w/wpi/bin/TissueAnalyzer/datasets/"+$(this).val()+"_tissues_opt.txt");
 					});
 				
 					$("#speciesSelect").change(function() {
@@ -149,7 +175,7 @@ class TissueAnalyzer extends SpecialPage {
 								i++;						
 							}
 						});
-						$("#tissueSelect").load("/wpi/bin/TissueAnalyzer/datasets/"+id+"_tissues_opt.txt"); //update the tissue drop down with the new first id;
+						$("#tissueSelect").load("/w/wpi/bin/TissueAnalyzer/datasets/"+id+"_tissues_opt.txt"); //update the tissue drop down with the new first id;
 					});
 				});
 				</script>');
@@ -166,7 +192,7 @@ class TissueAnalyzer extends SpecialPage {
 
 		$tissueSelect = "<SELECT name='select' id='tissueSelect' size='1'>";
 		$path = "wpi/bin/TissueAnalyzer/datasets/".$dataset."_tissues_opt.txt";
-		$tissuesFile = fopen ($path , r );
+		$tissuesFile = fopen ($path , "r" );
 		while ( ! feof ( $tissuesFile ) ) {
 			$line = fgets ( $tissuesFile );
 			$tissue = str_replace("</option>",'',$line);
@@ -280,9 +306,12 @@ HTML;
 		$average = 0;
 		$date = '';
 		$collection = "Curated";
-		$tissue = fopen ( "wpi/data/TissueAnalyzer/$collection/$dataset/$cutoff/Tissue/$select.txt", r );
+		$tissue = fopen ( "wpi/bin/TissueAnalyzer/data/$collection/$dataset/$cutoff/Tissue/$select.txt", "r" );
 		while ( ! feof ( $tissue ) ) {
 			$line = fgets ( $tissue );
+			if ($line == null){
+			break;
+			}
 			if (strpos($line, '#') !== false && strpos($line, 'PDT') !== false   ) {
 				$dateTmp = explode ( "\t", $line );
 				$date = $dateTmp[1]." PDT";
@@ -292,6 +321,7 @@ HTML;
 				$date = $dateTmp[1]." PST";
 			}
 			$pieces = explode ( "\t", $line );
+			echo($pieces);
 			$name = $pieces [0];
 			$id = strstr ( $name, 'WP' );
 			$id = explode ( "_", $id );
@@ -300,11 +330,12 @@ HTML;
 			$path_name = str_replace ( "Mm_", '', $path_name );
 			$path_name = str_replace ( "Bt_", '', $path_name );
 			$title = Title::newFromText ( ( string ) $id [0], NS_PATHWAY );
-			$pp = explode ( ".",$pieces[2]);
+			$percent = round($pieces[2]);
+			$pp = explode ( ".",$percent);
 			if (isset ( $title )) {
 				array_push ( $url, '<a target="_blank" href="' . $title->getFullURL () . '">' . $id[0] . '</a>' );
 				array_push ( $mean, $pieces[1] );
-				array_push ( $perc, $pp[0] );
+				array_push ( $perc, $percent );
 				array_push ( $median, $pieces[3] );
 				array_push ( $nami, $path_name);
 				array_push ( $path_id, $id[0]);
@@ -390,15 +421,15 @@ HTML;
 					<td class='table-blue-headercell' align='center'style='width:30%' >Average expression over all tissues</td>";	
 
 		for($i = 0; $i < count ( $mean ); ++ $i) {
-			$filename = "wpi/data/TissueAnalyzer/$collection/$dataset/$cutoff/Hs_$nami[$i]_$path_id[$i]_$path_rev[$i].txt";
-			$filename2 = "wpi/data/TissueAnalyzer/$collection/$dataset/$cutoff/$nami[$i]_$path_id[$i]_$path_rev[$i].txt";
+			$filename = "wpi/bin/TissueAnalyzer/data/$collection/$dataset/$cutoff/Hs_$nami[$i]_$path_id[$i]_$path_rev[$i].txt";
+			$filename2 = "wpi/bin/TissueAnalyzer/data/$collection/$dataset/$cutoff/$nami[$i]_$path_id[$i]_$path_rev[$i].txt";
 			$filename = (file_exists ( $filename )) ? $filename : $filename2;
 			$list_genes = "";
 			$active_index = 0;
 			$measure_index = 0;
 			$name = "";
 			if (file_exists ( $filename )) {
-				$file = fopen ( $filename, r );
+				$file = fopen ( $filename, "r" );
 				while ( ! feof ( $file ) ) {
 					$line = fgets ( $file );
 					if ($line == false)
