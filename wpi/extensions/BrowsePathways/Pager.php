@@ -309,7 +309,8 @@ class ListPathwaysPager extends BasePathwaysPager {
 	}
 
 	function preprocessResults( $result ) {
-		$rows = $result->db->numRows( $result );
+		//$rows = $result->db->numRows( $result );
+		$rows = $result->numRows( $result );
 
 		if ( $rows < $this->mLimit ) {
 			$this->columnSize = (int)( $rows / self::COLUMNCOUNT );
