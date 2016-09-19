@@ -37,6 +37,7 @@ class Pathway {
 	 */
 	function __construct($id = null, $updateCache = false) {
 		global $wgTitle;
+
 		if( !$id ) {
 			throw new Exception("Invalid title passed in!");
 		}
@@ -859,7 +860,9 @@ class Pathway {
 		$gpmlArticle = new Article($gpmlTitle, 0);
 		if(!$gpmlTitle->exists()) {
 			//This is a new pathway, add the author to the watch list
-			$gpmlArticle->doWatch();
+			$watchAction = new WatchAction($gpmlArticle); 
+                        $watchAction->doWatch($gpmlTitle, $wgUser);
+			/*$gpmlArticle->doWatch();*/
 		}
 
 		$succ = true;

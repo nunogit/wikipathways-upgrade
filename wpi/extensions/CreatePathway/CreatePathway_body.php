@@ -100,7 +100,7 @@ class CreatePathway extends SpecialPage {
 				}
 				$file = $_FILES['gpml']['name'];
 				//Check for gpml extension
-				if(!eregi(".gpml$", $file)){
+				if(!preg_match("/.gpml$/i", $file)){
 					$wgOut->addWikiText("== Warning ==\n<font color='red'>Not a GPML file!</font>\n'''Please select a GPML file for upload.'''\n----\n");
 					$wgOut->addWikiText("----\n");
 					$this->showForm('','',false,'', $uploading, $private2);
