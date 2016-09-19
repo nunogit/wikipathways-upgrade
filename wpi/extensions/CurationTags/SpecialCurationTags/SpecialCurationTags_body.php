@@ -125,7 +125,8 @@ class SpecialCurationTags extends SpecialPage {
 
 		if( $tagName = $wgRequest->getVal( 'showPathwaysFor' ) ) {
 			$disp = htmlentities( CurationTag::getDisplayName($tagName) );
-			$wgOut->setPageTitle( wfMsgExt( 'curation-tag-show', array( 'parsemsg' ), $disp ) );
+			//$wgOut->setPageTitle( wfMsgExt( 'curation-tag-show', array( 'parsemsg' ), $disp ) );
+			$wgOut->setPageTitle( wfMessage( 'curation-tag-show', $disp )->parse() );
 			$wgOut->addScriptFile( "../wikipathways/CurationTags.js"  );
 			$def = CurationTag::getTagDefinition();
 			// Don't you just love how php does things?
