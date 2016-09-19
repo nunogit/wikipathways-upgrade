@@ -52,4 +52,18 @@ class PathwayHandler extends ContentHandler {
 		return new PathwayContent();
 	}
 
+
+	/**
+         * Returns true since a Pathway can be directly edited 
+	 * in the mediawiki edit button
+         *
+         * @since 1.27
+         *
+         * @return boolean
+         */
+	public function supportsDirectEditing(){
+		return true;
+	}
+
+
 }
