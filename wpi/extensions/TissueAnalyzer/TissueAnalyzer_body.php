@@ -5,11 +5,6 @@ class LegacyBrowsePathways extends LegacySpecialPage {
 		parent::__construct( "TissueAnalyzerPage", "TissueAnalyzer" );
 	}
 }
-/*
-function wfPathwayViewer() {
-	global $wgParser;
-	$wgParser->setFunctionHook( "TissueAnalyzer", "TissueAnalyzer::enable" );
-}*/
 
 class TissueAnalyzer extends SpecialPage {
 	protected $name = 'TissueAnalyzer';
@@ -19,16 +14,12 @@ class TissueAnalyzer extends SpecialPage {
 	}
 	
 	function execute($par) {
-		global $wgOut, $wgUser, $wgLang, $jsRequireJQuery ;
-		//global $wgParser;
-		//$wgParser->setFunctionHook( "TissueAnalyzer", "TissueAnalyzer::enable" );
-		global $jsJQuery;
+		global $wgOut, $wgUser, $wgLang, $jsRequireJQuery,$jsJQuery ;
 		$wgOut->addScriptFile($jsJQuery);
 
 		$this->setHeaders ();
 		$wgOut->setPagetitle ("TissueAnalyzer");
 		
-	//$jsRequireJQuery = true;
 		$species = (isset ( $_GET ["species"] )) ? $_GET ["species"] : "Human";
 		$cutoff = (isset ( $_GET ["cutoff"] )) ? $_GET ["cutoff"] : "5";
 		$dataset = (isset ( $_GET ["dataset"] )) ? $_GET ["dataset"] : "E-MTAB-2836";
@@ -89,21 +80,12 @@ class TissueAnalyzer extends SpecialPage {
 		//Hack to add a css that's not in the skins directory
 		global $wgStylePath;
 		$oldStylePath = $wgStylePath;
-		//$wgStylePath = "/wpi/lib/tissueanalyzer/";
-		//$wgStylePath = "/wpi/bin/TissueAnalyzer/js/";
-		$wgOut->addStyle("$wgStylePath/../wpi/bin/TissueAnalyzer/js/fancybox/jquery.fancybox-1.3.4.css");
+		$wgOut->addStyle("$wgStylePath/../wpi/js/TissueAnalyzer/fancybox/jquery.fancybox-1.3.4.css");
 		$wgStylePath = $oldStylePath;
 
-		//$wgOut->addScriptFile('/wpi/lib/tissueanalyzer/fancybox/jquery.fancybox-1.3.4.js');
-		//$wgOut->addScriptFile("$wgScriptPath/wpi/bin/TissueAnalyzer/js/fancybox/jquery.fancybox-1.3.4.js");
+		$wgOut->addScriptFile("../../wpi/js/TissueAnalyzer/fancybox/jquery.fancybox-1.3.4.js");
 		$wgOut->addScript('<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>');
-		//$wgOut->addScriptFile("/wpi/lib/tissueanalyzer/ChartFancy.js");
-		//$wgOut->addScriptFile("$wgScriptPath/wpi/bin/TissueAnalyzer/js/ChartFancy.js");
-		
-		//$wgOut->addStyle("wpi/TissueAnalyzer/js/fancybox/jquery.fancybox-1.3.4.css");
-		$scripts = array("$wgScriptPath/wpi/bin/TissueAnalyzer/js/fancybox/jquery.fancybox-1.3.4.js",
-											"$wgScriptPath/wpi/bin/TissueAnalyzer/js/ChartFancy.js");
-		$wpiJavascriptSources = array_merge($wpiJavascriptSources,$scripts);
+		$wgOut->addScriptFile("../../wpi/js/TissueAnalyzer/ChartFancy.js");
 	
 		$wgOut->addScript('
 				<script language="JavaScript">
@@ -306,10 +288,11 @@ HTML;
 		$average = 0;
 		$date = '';
 		$collection = "Curated";
-		$tissue = fopen ( "wpi/bin/TissueAnalyzer/data/$collection/$dataset/$cutoff/Tissue/$select.txt", "r" );
+		$tissue = fopen ( "wpi/data/TissueAnalyzer/$collection/$dataset/$cutoff/Tissue/$select.txt", "r" );
 		while ( ! feof ( $tissue ) ) {
 			$line = fgets ( $tissue );
 			if ($line == null){
+			echo($line);
 			break;
 			}
 			if (strpos($line, '#') !== false && strpos($line, 'PDT') !== false   ) {
@@ -321,7 +304,6 @@ HTML;
 				$date = $dateTmp[1]." PST";
 			}
 			$pieces = explode ( "\t", $line );
-			echo($pieces);
 			$name = $pieces [0];
 			$id = strstr ( $name, 'WP' );
 			$id = explode ( "_", $id );
@@ -421,8 +403,8 @@ HTML;
 					<td class='table-blue-headercell' align='center'style='width:30%' >Average expression over all tissues</td>";	
 
 		for($i = 0; $i < count ( $mean ); ++ $i) {
-			$filename = "wpi/bin/TissueAnalyzer/data/$collection/$dataset/$cutoff/Hs_$nami[$i]_$path_id[$i]_$path_rev[$i].txt";
-			$filename2 = "wpi/bin/TissueAnalyzer/data/$collection/$dataset/$cutoff/$nami[$i]_$path_id[$i]_$path_rev[$i].txt";
+			$filename = "wpi/data/TissueAnalyzer/$collection/$dataset/$cutoff/Hs_$nami[$i]_$path_id[$i]_$path_rev[$i].txt";
+			$filename2 = "wpi/data/TissueAnalyzer/$collection/$dataset/$cutoff/$nami[$i]_$path_id[$i]_$path_rev[$i].txt";
 			$filename = (file_exists ( $filename )) ? $filename : $filename2;
 			$list_genes = "";
 			$active_index = 0;
@@ -555,7 +537,7 @@ HTML;
 				<td align='center' >$number[1]</td>	
 				<td align='center' >$perc[$i]</td>		
 				<td align='center' >
-						<a  id="inline" file="$jsonPath" pathway="$pathway_name" measured="$number[1]" tissue="$select" href="#data">$average</a></td>			
+						<a  id="inline" file="/w$jsonPath" pathway="$pathway_name" measured="$number[1]" tissue="$select" href="#data">$average</a></td>			
 HTML;
 		}
 		fclose($tissue);
