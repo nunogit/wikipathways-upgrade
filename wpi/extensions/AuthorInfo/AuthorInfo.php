@@ -28,10 +28,14 @@ function renderAuthorInfo($input, $argv, $parser) {
 		global $wgOut;
 		$wgOut->addStyle("$wgAuthorInfoPath/AuthorInfo.css");
 
-		$html = "<script type=\"text/javascript\" src=\"$wgAuthorInfoPath/AuthorInfo.js\"></script>\n";
+		$wgOut->addScriptFile("/w/skins/wikipathways/jquery-1.8.3.min.js");
+		$wgOut->addScriptFile("$wgAuthorInfoPath/AuthorInfo.js");
+		$wgOut->addScriptFile("$wgAuthorInfoPath/AuthorInfoRun.js");
+
+		//$html = "<script type=\"text/javascript\" src=\"$wgAuthorInfoPath/AuthorInfo.js\"></script>\n";
 		$id = $parser->getTitle()->getArticleId();
-		$html .= "<div id='authorInfoContainer'></div><script type=\"text/javascript\">" .
-			"AuthorInfo.init('authorInfoContainer', '$id', '$limit', '$bots');</script>";
+		$html .= "<div id='authorInfoContainer'></div>";
+			//<script type=\"text/javascript\">" . "AuthorInfo.init('authorInfoContainer', '$id', '$limit', '$bots');</script>";
 	}
 	return $html;
 }

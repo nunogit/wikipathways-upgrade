@@ -33,11 +33,23 @@ AuthorInfo.loadAuthors = function(limit) {
 	AuthorInfo.lastLimit = limit;
 	if(limit == 0) limit = -1;
 
-	sajax_do_call(
+        $.get(
+                mw.util.wikiScript(), {
+                action: 'ajax',
+                        rs: 'jsGetAuthors',
+			rsargs:  [AuthorInfo.pageId, parseInt(limit) + 1, false]
+                },
+                function( obj , status, answer) {
+			AuthorInfo.loadAuthorsCallback(answer);
+                        //CurationTags.loadAvailableTagsCallback(obj);
+                }
+        );
+
+	/*sajax_do_call(
 		"jsGetAuthors",
 		[AuthorInfo.pageId, parseInt(limit) + 1, false],
 		AuthorInfo.loadAuthorsCallback
-	);
+	);*/
 }
 
 AuthorInfo.loadAuthorsCallback = function(xhr) {
