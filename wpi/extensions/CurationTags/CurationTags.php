@@ -30,7 +30,8 @@ function displayCurationTags($input, $argv, $parser) {
 	global $wgOut, $wfCurationTagsPath, $wgJsMimeType;
 
 	//Add CSS
-	$wgOut->addStyle("wikipathways/CurationTags.css");
+	//move file to a proper place
+	$wgOut->addStyle("WikiPathways/CurationTags.css");
 
 	$title = $parser->getTitle();
 	$mayEdit = $title->userCan('edit') ? true : false;
@@ -40,12 +41,23 @@ function displayCurationTags($input, $argv, $parser) {
 	}
 	$helpLink = Title::newFromText("CurationTags", NS_HELP)->getFullURL();
 
-	//force jQuery first
+	//force jQuery first //
 	global $jsJQuery;
 	$wgOut->addScriptFile($jsJQuery);
 
 	//Add javascript
-	$wgOut->addScriptFile( "../wikipathways/CurationTags.js"  );
+	//move file to a proper place
+	$wgOut->addScriptFile( "../WikiPathways/CurationTags.js"  );
+
+	/*possible future replacement for the addScriptFile*/
+	/*$wgResourceModules['ext.CurationTags'] = array(
+	    'scripts' => 'CurationTags.js',
+	    'position' => 'bottom',
+	    'localBasePath' => '$IP/skin/wikipathways/CurationTags.js',
+	    'remoteExtPath' => '../wikipathways/CurationTags.js'
+	);
+	$wgOut->addModules( 'ext.CurationTags' );*/
+
 	$wgOut->addScript(
 		"<script type=\"{$wgJsMimeType}\">" .
 		"CurationTags.extensionPath=\"$wfCurationTagsPath\";" .
