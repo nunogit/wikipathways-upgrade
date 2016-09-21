@@ -34,26 +34,20 @@ class OntologyFunctions
 		$comment = "Ontology Term : '$tag' added !";
 		$pathway = Pathway::newFromTitle($pwTitle);
 		$ontology = self::getOntologyName($tagId);
-		$path = self::getOntologyTagPath($tagId);
+		//$path = self::getOntologyTagPath($tagId);
+		$path='';
 		$gpml = $pathway->getGpml();
-		$xml = simplexml_load_string($gpml);
+		//$resultJSON = json_encode($gpml);
+		return (string) $gpml->mText;
+		/*$stringGpml = (string) $gpml->mText;
+		$xml = simplexml_load_string( $stringGpml);
+		//$xml = simplexml_load_string( $gpml);
 
 		if(!isset($xml->Biopax[0]))
 			$xml->addChild("Biopax");
-
+		
 		$entry = $xml->Biopax[0];
-		$namespaces = $entry->getNameSpaces(true);
-		$bp = $entry->children($namespaces['bp']);
-
 		$ns = "http://www.biopax.org/release/biopax-level3.owl#";
-
-		$gpmlVersion = $xml->getNamespaces(false);
-		$gpmlVersion = $gpmlVersion[''];
-		if(preg_match("@http://genmapp.org/GPML/([0-9]{4})@", $gpmlVersion, $res)) {
-			if($res[1] < 2010) {
-				$ns = "http://www.biopax.org/release/biopax-level2.owl#";
-			}
-		}
 		$node = $xml->Biopax->addChild("bp:openControlledVocabulary","",$ns);
 
 		$node->addChild("TERM",$tag);
@@ -75,11 +69,11 @@ class OntologyFunctions
 				$fname,
 				'IGNORE' );
 			$dbw->commit();
-			return "SUCCESS";
+			return "SUCCESS".$xml;
 		}
 		catch(Exception $e) {
 			return "ERROR";
-		}
+		}*/
 	}
 
 	public static function getOntologyTags($pwId) {

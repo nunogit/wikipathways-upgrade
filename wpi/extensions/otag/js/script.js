@@ -278,8 +278,8 @@ function addTag(concept, conceptId)
 	}
 
 	var handleSuccess = function(o){
-		enableSave();
 		console.log(o.responseText);
+		enableSave();
 		if(o.responseText != "SUCCESS"){
 			alert("Sorry the tag cannot be added! Please try again!");
 		}
@@ -292,7 +292,7 @@ function addTag(concept, conceptId)
 	};
 
 	var handleFailure = function(o){
-		console.log(o.responseText);
+		//console.log(o.responseText);
 		alert("Sorry the tag cannot be added! Please try again!");
 	};
 
@@ -308,16 +308,17 @@ function addTag(concept, conceptId)
 }
 
 function fetchTags()
-{console.log("fech");
+{
+//console.log("fech");
 	var rand = Math.random();
 	var tags = new Array();
 	var handleSuccess = function(o){
 		if(o.responseText != "ERROR"){
 
-console.log("fech2");
-console.log(o.responseText);
+//console.log("fech2");
+//console.log(o.responseText);
 			var tagsJSON = YAHOO.lang.JSON.parse(o.responseText);
-console.log("fech3");
+//console.log("fech3");
 			var totalTagsCount = 0;
 			if(o.responseText != "[]")
 			{
@@ -355,7 +356,6 @@ console.log("fech3");
 			failure:handleFailure,
 			argument:['foo','bar']
 		};
-	console.log(wgTitle);
 	var postData = "action=fetch" + "&title=" + wgTitle +"&rand=" + rand  ;
 	var request = YAHOO.util.Connect.asyncRequest('POST', opath + "/otags.php", callback, postData);
 	//    makeRequest("Deleted tag : " + tags[index][0] + " (" + ontology_name + ")");
