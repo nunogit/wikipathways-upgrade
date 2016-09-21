@@ -9,6 +9,8 @@
 ** All you guys rock :)
 */
 
+/* WikiPathways-specific mods at very bottom */
+
 div#column-content {
 	width: 100%;
 	float: right;
@@ -724,3 +726,99 @@ div.mw-lag-warn-high {
 .skin-wikipathways .mw-notification {
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.125);
 }
+
+
+/* WikiPathways-specific mods here */
+div.thumb {
+        margin-bottom: .5em;
+        border: none;
+        width: auto;
+}
+div.thumbinner {
+        border: 1px solid #ccc;
+        padding: 3px !important;
+        background-color: #f9f9f9;
+        font-size: 94%;
+        text-align: center;
+        overflow: hidden;
+}
+html .thumbimage {
+        border: 1px solid #ccc;
+}
+html .thumbcaption {
+        border: none;
+        text-align: left;
+        line-height: 1.4em;
+        padding: 3px !important;
+        font-size: 94%;
+}
+div.magnify {
+        float: right;
+        border: none !important;
+        background: none !important;
+}
+div.magnify a, div.magnify img {
+        display: block;
+        border: none !important;
+        background: none !important;
+}
+div.tright {
+        clear: right;
+        float: right;
+        border-width: .5em 0 .8em 1.4em;
+}
+div.tleft {
+        float: left;
+        clear: left;
+        margin-right: .5em;
+        border-width: .5em 1.4em .8em 0;
+}
+img.thumbborder {
+        border: 1px solid #dddddd;
+}
+.hiddenStructure {
+        display: none;
+}
+input#wpSummary {
+        width: 80%;
+}
+/* @bug 1714 */
+input#wpSave, input#wpDiff {
+        margin-right: 0.33em;
+}
+
+#wpSave {
+        font-weight: bold;
+}
+.os-suggest {
+        font-size: 127%;
+}
+
+.path-dbref {
+   min-width: 200px;
+   text-align: center;
+}
+
+.path-type {
+   min-width: 150px;
+   text-align: center;
+}
+#dnTable img {
+   margin: 0 8px;
+}
+#dnTable .path-comment {
+   padding-left: 1em;
+   padding-right: 1em;
+}
+
+.browsePathways {
+   float: left;
+   padding: 1em;
+}
+.infinite-container {
+   overflow:hidden;
+}
+.infinite-more-link {
+   float: right;
+}
+

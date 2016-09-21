@@ -107,6 +107,51 @@ class WikiPathwaysTemplate extends BaseTemplate {
                         @import "<?php $this->text('stylepath') ?>/common/shared.css?<?php echo $GLOBALS['wgStyleVersion'] ?>";
                         @import "<?php echo $thisStylePath ?>/main.css?<?php echo $GLOBALS['wgStyleVersion'] ?>";
                 /*]]>*/</style>
+		
+                <!-- TK: Import custom style -->
+                <style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "<?php echo $thisStylePath ?>/wikipathways-custom.css?<?php echo $GLOBALS['wgStyleVersion'] ?>"; /*]]>*/</style>
+                <script src="<?php echo $thisStylePath ?>/jquery-1.8.3.min.js"></script>
+                <script src="<?php echo $thisStylePath ?>/waypoints.js"></script>
+                <script src="<?php echo $thisStylePath ?>/waypoints-infinite.js"></script>
+                <link rel="stylesheet" type="text/css" <?php if(empty($this->data['printable']) ) { ?>media="print"<?php } ?> href="<?php $this->text('printcss') ?>?<?php echo $GLOBALS['wgStyleVersion'] ?>" />
+                <?php if( in_array( 'IE50', $skin->cssfiles ) ) { ?><!--[if lt IE 5.5000]><style type="text/css">@import "<?php echo $thisStylePath ?>/IE50Fixes.css?<?php echo $GLOBALS['wgStyleVersion'] ?>";</style><![endif]-->
+                <?php } if( in_array( 'IE55', $skin->cssfiles ) ) { ?><!--[if IE 5.5000]><style type="text/css">@import "<?php echo $thisStylePath ?>/IE55Fixes.css?<?php echo $GLOBALS['wgStyleVersion'] ?>";</style><![endif]-->
+                <?php } if( in_array( 'IE60', $skin->cssfiles ) ) { ?><!--[if IE 6]><style type="text/css">@import "<?php echo $thisStylePath ?>/IE60Fixes.css?<?php echo $GLOBALS['wgStyleVersion'] ?>";</style><![endif]-->
+                <?php } if( in_array( 'IE70', $skin->cssfiles ) ) { ?><!--[if IE 7]><style type="text/css">@import "<?php echo $thisStylePath ?>/IE70Fixes.css?<?php echo $GLOBALS['wgStyleVersion'] ?>";</style><![endif]-->
+                <?php } ?><!--[if lt IE 7]><?php if( in_array( 'IE', $skin->cssfiles ) ) { ?><script type="<?php $this->text('jsmimetype') ?>" src="<?php $this->text('stylepath') ?>/common/IEFixes.js?<?php echo $GLOBALS['wgStyleVersion'] ?>"></script>
+                <?php } ?><meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+
+<!-- **** BROKEN: Skin method call FROM OLD WP SKIN 
+               //PHP//  print Skin::makeGlobalVariablesScript( $this->data ); //PHP//
+-->
+
+                <!-- TK: Import custom script -->
+                <script type="<?php $this->text('jsmimetype') ?>" src="<?php echo $thisStylePath ?>/wikipathways-custom.js"></script>
+                <script type="<?php $this->text('jsmimetype') ?>" src="<?php $this->text('stylepath' ) ?>/common/wikibits.js?<?php echo $GLOBALS['wgStyleVersion'] ?>"><!-- wikibits js --></script>
+                <!-- Head Scripts -->
+<?php $this->html('headscripts') ?>
+<?php   if($this->data['jsvarurl']) { ?>
+                <script type="<?php $this->text('jsmimetype') ?>" src="<?php $this->text('jsvarurl') ?>"><!-- site js --></script>
+<?php   } ?>
+<?php   if($this->data['pagecss']) { ?>
+                <style type="text/css"><?php $this->html('pagecss') ?></style>
+<?php   }
+                if($this->data['usercss']) { ?>
+                <style type="text/css"><?php $this->html('usercss') ?></style>
+<?php   }
+                if($this->data['userjs']) { ?>
+                <script type="<?php $this->text('jsmimetype') ?>" src="<?php $this->text('userjs' ) ?>"></script>
+<?php   }
+                if($this->data['userjsprev']) { ?>
+                <script type="<?php $this->text('jsmimetype') ?>"><?php $this->html('userjsprev') ?></script>
+<?php   }
+                if($this->data['trackbackhtml']) print $this->data['trackbackhtml']; ?>
+        </head>
+
+<body<?php if($this->data['body_ondblclick']) { ?> ondblclick="<?php $this->text('body_ondblclick') ?>"<?php } ?>
+<?php if($this->data['body_onload']) { ?> onload="<?php $this->text('body_onload') ?>"<?php } ?>
+ class="mediawiki <?php $this->text('nsclass') ?> <?php $this->text('dir') ?> <?php $this->text('pageclass') ?>">
+
 
 <!-- ^^^^ PASTED FROM OLD WP SKIN ^^^^ -->
 
@@ -225,7 +270,7 @@ class WikiPathwaysTemplate extends BaseTemplate {
 
 			</div>
 			<div id="p-search" class="portlet">
-                        	<h5><label for="searchInput">search</label></h5>
+                        	<h3><label for="searchInput">search</label></h3>
                                 <div id="googleSearch" class="pBody">
                 			<form id="searchbox_cref" action="<?php $siteURL?>/index.php/Special:SearchPathways">
                 			<table  BORDER=0 CELLSPACING=0 CELLPADDING=0>

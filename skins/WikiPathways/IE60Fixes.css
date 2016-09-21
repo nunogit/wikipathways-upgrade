@@ -1,55 +1,25 @@
 /* 6.0 - only fixes */
-/* content area */
+/* content area */ 
 /* workaround for various ie float bugs */
-div#column-content {
-	float: none;
+#column-content { 
+	float: none; 
 	margin-left: 0;
 	height: 1%;
 }
-
-div#column-content .mw-body {
+#column-content #content {
 	margin-left: 12.2em;
 	margin-top: 3em;
 	height: 1%;
 }
-
-.rtl div#column-content .mw-body {
-	margin-right: 12.2em;
-	margin-left: 0;
-}
-
-div#column-one {
+#column-one {
 	position: absolute;
 	top: 0;
 	left: 0;
 	z-index: 4;
 }
-
-.rtl div#column-one {
-	left: auto;
-	right: 0;
-}
-
-div#footer {
+#footer {
 	margin-left: 13.6em;
 	border-left: 1px solid #fabd23;
-}
-
-.rtl div#footer {
-	margin-left: 0;
-	margin-right: 13.6em;
-	border-left: none;
-	border-right: 1px solid #fabd23;
-}
-
-/* float/negative margin brokenness */
-* html div#footer {
-	margin-top: 0;
-}
-
-* html div#column-content {
-	display: inline;
-	margin-bottom: 0;
 }
 
 /* the tabs */
@@ -65,7 +35,6 @@ div#footer {
 	cursor: default;
 	float: none !important;
 }
-
 #p-cactions li a {
 	display: inline-block !important;
 	vertical-align: top;
@@ -73,29 +42,23 @@ div#footer {
 	border: solid #aaa;
 	border-width: 1px 1px 0;
 }
-
 #p-cactions li.selected a {
 	border-color: #fabd23;
 	padding-bottom: 0.17em;
 }
-
 #p-cactions li a:hover {
 	padding-bottom: 0.17em;
 }
-
 #p-navigation a {
 	display: inline-block;
 	width: 100%;
 }
-
 #portal-personaltools {
 	padding-bottom: 0.1em;
 }
-
-.rtl a.feedlink {
-	background-position: right;
-	padding-right: 0;
-	padding-left: 16px;
+#bodyContent a.external {
+	background: url(external.png) center right no-repeat;
+	padding-right: 13px;
 }
 
 /* show the hand */
@@ -103,16 +66,15 @@ div#footer {
 #p-logo a:hover {
 	cursor: pointer;
 }
-
 div.visualClear {
-	width: 100%;
+	width:100%;
 	line-height: 0;
 }
-
 textarea {
 	width: 96%;
 }
 
+div.editsection,
 #catlinks,
 div.tright,
 div.tleft {
