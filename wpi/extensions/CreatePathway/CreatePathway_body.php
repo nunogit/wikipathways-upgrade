@@ -163,7 +163,7 @@ class CreatePathway extends SpecialPage {
 		}
 		if($private2) $private2 = 'CHECKED';
 		$html_upload = "<FORM action='$this->this_url' method='post' enctype='multipart/form-data'>
-				<table style='margin-left: 20px;'><td>
+				<table style='margin-left: 0px;'><td>
 					<INPUT type='file' name='gpml' size='40'>
 					<tr><td>
 					<INPUT type='checkbox' name='private2' value='1' $private2> $this->create_priv_msg
@@ -194,7 +194,7 @@ class CreatePathway extends SpecialPage {
 				<tr><td><input type='submit' value='Create pathway'> </table></FORM><BR>";
 
 					$wgOut->addHTML("
-			<P><B>This interface lets you upload a pathway in gpml format. Gpml files can be created in PathVisio.<B><P>
+			<P><B>This interface lets you upload a pathway in gpml format. Gpml files can be created in PathVisio.</B><P>
 			<P>Learn about the Pathvisio interface here: http://www.pathvisio.org/documentation/.
 			Learn about editing pathways in PathVisio here: http://www.pathvisio.org/documentation/editing-and-viewing-pathways/<P>
 			<P>Another option is to upload the pathway directly from PathVisio using the [http://plugins.pathvisio.org/wp-client WikiPathways client plugin].
