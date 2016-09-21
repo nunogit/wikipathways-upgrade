@@ -1,0 +1,51 @@
+{
+	"name": "WikiPathways",
+	"author": [
+		"Gabriel Wicke",
+		"Alexander Pico",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:MonoBook",
+	"descriptionmsg": "wikipathways-desc",
+	"namemsg": "skinname-wikipathways",
+	"license-name": "GPL-2.0+",
+	"type": "skin",
+	"requires": {
+		"MediaWiki": ">= 1.25.0"
+	},
+	"ValidSkinNames": {
+		"wikipathways": "WikiPathways"
+	},
+	"SkinOOUIThemes": {
+		"wikipathways": "Apex"
+	},
+	"MessagesDirs": {
+		"WikiPathways": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"skins.wikipathways.styles": {
+			"position": "top",
+			"styles": {
+				"main.css": {
+					"media": "screen"
+				}
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "WikiPathways"
+	},
+	"ResourceModuleSkinStyles": {
+		"wikipathways": {
+			"+mediawiki.special.preferences.styles": "skinStyles/mediawiki.special.preferences.styles.less"
+		}
+	},
+	"AutoloadClasses": {
+		"SkinWikiPathways": "SkinWikiPathways.php",
+		"WikiPathwaysTemplate": "WikiPathwaysTemplate.php"
+	},
+	"manifest_version": 1
+}

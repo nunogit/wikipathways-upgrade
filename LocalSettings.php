@@ -136,9 +136,10 @@ $wgProxyKey = "b748562511ea57982358c30cec614e30b52b75119e3df78ac554eec5f69343cf"
 
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, ie 'standard', 'nostalgia', 'cologneblue', 'monobook':
-#$wgDefaultSkin = 'wikipathways';
-$wgDefaultSkin = 'monobook';
-wfLoadSkin( 'MonoBook' );
+$wgDefaultSkin = 'wikipathways';
+wfLoadSkin( 'WikiPathways' );
+#$wgDefaultSkin = 'monobook';
+#wfLoadSkin( 'MonoBook' );
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
