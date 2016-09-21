@@ -37,7 +37,7 @@ AuthorInfo.loadAuthors = function(limit) {
                 mw.util.wikiScript(), {
                 action: 'ajax',
                         rs: 'jsGetAuthors',
-			rsargs:  [AuthorInfo.pageId, parseInt(limit) + 1, false]
+			rsargs:  [AuthorInfo.pageId, parseInt(limit) + 1, true]  //true=includeBots (for accuracy with original author tooltip)
                 },
                 function( obj , status, answer) {
 			AuthorInfo.loadAuthorsCallback(answer);
