@@ -45,6 +45,6 @@ function efContributionScores() {
 function efContributionScores_addHeadScripts(&$out) {
 	global $wgScriptPath;
 
-	$out->addScript( "<link rel=\"stylesheet\" type=\"text/css\" href=\"$wgScriptPath/skins/wikipathways/TableColor.css\" /> \n" );
+	$out->addScript( "<link rel=\"stylesheet\" type=\"text/css\" href=\"$wgScriptPath/skins/WikiPathways/TableColor.css\" /> \n" );
 	return true;
 }

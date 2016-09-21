@@ -28,7 +28,7 @@ function renderAuthorInfo($input, $argv, $parser) {
 		global $wgOut;
 		$wgOut->addStyle("$wgAuthorInfoPath/AuthorInfo.css");
 
-		$wgOut->addScriptFile("/w/skins/wikipathways/jquery-1.8.3.min.js");
+		$wgOut->addScriptFile("/w/skins/WikiPathways/jquery-1.8.3.min.js");
 		$wgOut->addScriptFile("$wgAuthorInfoPath/AuthorInfo.js");
 		$wgOut->addScriptFile("$wgAuthorInfoPath/AuthorInfoRun.js");
 

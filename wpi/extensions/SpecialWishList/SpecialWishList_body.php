@@ -270,7 +270,7 @@ HTML;
 	}
 </script>
 <link rel="stylesheet" type="text/css"
-      href="$wgScriptPath/skins/wikipathways/TableColor.css" />
+      href="$wgScriptPath/skins/WikiPathways/TableColor.css" />
 JS;
 		$wgOut->addScript( $jsToggle );
 	}
