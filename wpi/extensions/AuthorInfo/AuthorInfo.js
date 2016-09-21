@@ -66,8 +66,15 @@ AuthorInfo.loadAuthorsCallback = function(xhr) {
 			var elm = elements[i];
 			var nm = elm.getAttribute("Name");
 			var title = nm + " edited this page " + elm.getAttribute("EditCount") + " times";
+			if(i==0){
+                                title += " and is the original author";
+                        }
+                        if(nm.indexOf("Maintenance bot") != -1){continue;} //skip listing bot, in any position
 			html += "<A href='" + elm.getAttribute("Url") + "' title='" + title + "'>" + nm + "</A>";
 			if(i != end - 1) {
+				if (i == end - 2){
+                                        if (elements[i+1].getAttribute("Name").indexOf("Maintenance bot") != -1) { continue;} //skip comma of last author is bot
+                                }
 				html += ", ";
 			}
 		}
