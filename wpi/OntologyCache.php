@@ -38,7 +38,7 @@ public static function fetchCache($function,$params, $timeOut = 0)
 	else
 		$time = time() - $timeOut;
 
-	$dbr =& wfGetDB(DB_SLAVE);
+	$dbr = wfGetDB(DB_SLAVE);
 	$query = "SELECT * FROM `ontologycache` where function = '$function' AND params = '$params' ORDER BY timestamp DESC ";
 	$res = $dbr->query($query);
 	//$res = $dbr->select( 'ontology', array('term','term_id','ontology'), array( 'pw_id' => $title ), $fname = 'Database::select', $options = array('Group by' => 'ontology' ));

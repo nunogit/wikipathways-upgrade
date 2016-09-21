@@ -8,7 +8,7 @@ class OntologyFunctions
 {
 	public static function removeOntologyTag($tagId, $pwTitle)
 	{
-		$dbw =& wfGetDB( DB_MASTER );
+		$dbw = wfGetDB( DB_MASTER );
 		$comment = "Ontology Term : '$tagId' removed !";
 		$pathway = Pathway::newFromTitle($pwTitle);
 		$gpml = $pathway->getGpml();
@@ -64,7 +64,7 @@ class OntologyFunctions
 
 		try {
 			$pathway->updatePathway($gpml,$comment);
-			$dbw =& wfGetDB( DB_MASTER );
+			$dbw = wfGetDB( DB_MASTER );
 			$dbw->begin();
 			$dbw->insert( 'ontology', array(
 					'term_id' => $tagId,
@@ -86,7 +86,7 @@ class OntologyFunctions
 		$count = 0;
 		$title = $pwId;
 		$resultArray = array();
-		$dbr =& wfGetDB(DB_SLAVE);
+		$dbr = wfGetDB(DB_SLAVE);
 		#$query = "SELECT * FROM `ontology` " . "WHERE `pw_id` = '$title' ORDER BY `ontology`";
 		#$res = $dbr->query($query);
 		## Replacing with parameterized SQL to resolve critical security issue
@@ -102,7 +102,7 @@ class OntologyFunctions
 		$resultJSON = json_encode($resultArray);
 		return $resultJSON ;
 	}
-
+	
 	public static function getOntologyTagPath($id) {
 
 		global $wgOntologiesBioPortalURL;
@@ -195,7 +195,7 @@ class OntologyFunctions
 		return $resultJSON ;
 
 	}
-
+/*
 	public static function getBioPortalTreeResults($termId) {
 		$ontologyId = self::getOntologyVersion($termId);
 		$url = self::getBioPortalURL("tree", array("ontologyId" => $ontologyId, "conceptId" => $termId));
@@ -214,6 +214,42 @@ class OntologyFunctions
 		sort($resultArray);
 		$resultArr["ResultSet"]["Result"]=$resultArray;
 		$resultJSON = json_encode($resultArr);
+		return $resultJSON ;
+	}*/
+	public static function getBioPortalTreeResults($termId) {
+		global $wpiBioportalKey;
+
+		$ontologyId  = str_replace (":","_",$termId);
+		$pos = strpos($ontologyId,"_");
+		if ( $pos > 2 ) {
+		$ontologyAcronym = substr($termId, 0, 4);
+		}
+		else {
+		$ontologyAcronym = substr($termId, 0, 2);
+		}
+
+		$url = "http://data.bioontology.org/ontologies/$ontologyAcronym/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2F$ontologyId/children?apikey=$wpiBioportalKey&format=xml";
+		$xml = simplexml_load_file($url);
+		if ( $xml->pageCount == 0) {
+			$temp_var .="||";
+			$resultArray[] = $temp_var;
+		}
+		else{
+			foreach($xml->collection as $colect ) {
+				foreach($colect->class as $entry ) {
+					$label = str_replace ("http://purl.obolibrary.org/obo/PW_",'PW:',$entry->id);
+					$label = str_replace ("http://purl.obolibrary.org/obo/DOID_",'DOID:',$entry->id);
+					$label = str_replace ("http://purl.obolibrary.org/obo/CL_",'CL:',$entry->id);
+					$temp_var = $entry->prefLabel. " - " . $label;
+					$resultArray[] = $temp_var;			
+				}
+			}
+		}
+		sort($resultArray);
+		$resultArr["ResultSet"]["Result"]=$resultArray;
+		$resultJSON = json_encode($resultArr);
+
+
 		return $resultJSON ;
 	}
 }

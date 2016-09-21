@@ -25,15 +25,21 @@ function oheader(&$parser, &$text) {
 }
 
 function ofunction( $input, $argv, $parser ) {
-	global $wgTitle, $wgOut,  $wgOpath, $wgOntologiesJSON, $wgStylePath, $wgJsMimeType;
+	global $wgTitle, $wgOut,  $wgOpath, $wgOntologiesJSON, $wgStylePath, $wgJsMimeType, $jsJQuery, $jsRequireJQuery;
+	$wgOut->addScriptFile($jsJQuery);
 	$title = $parser->getTitle();
 	$loggedIn = $title->userCan('edit') ? 1 : 0;
 
 	if($loggedIn) {
-		$wgOut->addScript('<script type="text/javascript" src="' . $wgOpath . '/js/yui2.7.0.allcomponents.js"></script>');
+		$wgOut->addScriptFile("$wgOpath/js/yui2.7.0.allcomponents.js");
+		$wgOut->addScriptFile("$wgOpath/js/script.js");
+		//$wgOut->addScriptFile("../../wpi/extensions/otag/js/yui2.7.0.allcomponents.js");
+		//$wgOut->addScript('<script type="text/javascript" src="' . $wgOpath . '/js/yui2.7.0.allcomponents.js"></script>');
 		$wgOut->addStyle("$wgOpath/css/yui2.7.0.css");
+		//$wgOut->addScript("<script type='text/javascript'>YAHOO.util.Event.onDOMReady(ontologytree.init, ontologytree,true);</script>");
 	} else {
-		$wgOut->addScript('<script type="text/javascript" src="' . $wgOpath . '/js/yui2.7.0.mincomponents.js"></script>');
+		$wgOut->addScriptFile("../../wpi/extensions/otag/js/yui2.7.0.mincomponents.js");
+		//$wgOut->addScript('<script type="text/javascript" src="' . $wgOpath . '/js/yui2.7.0.mincomponents.js"></script>');
 	}
 
 	$wgOut->addStyle("$wgOpath/css/otag.css");
@@ -45,7 +51,7 @@ function ofunction( $input, $argv, $parser ) {
 		"var ontologiesJSON = '$wgOntologiesJSON';" .
 		"</script>\n"
 	);
-
+	//$wgOut->addScript("<script type='text/javascript'>YAHOO.util.Event.onDOMReady(ontologytree.init, ontologytree,true);</script>");
 	if($loggedIn) {
 		$output = <<<HTML
 <div id="otagprogress" style="display:none" align='center'><span><img src='$wgStylePath/common/images/progress.gif'> Saving...</span></div>
@@ -65,7 +71,7 @@ function ofunction( $input, $argv, $parser ) {
 	</div>
 </div>
 <div style="clear:both;"></div>
-<script type="text/javascript" src="$wgOpath/js/script.js"></script>
+<!--script type="text/javascript" src="$wgOpath/js/script.js"></script-->
 HTML;
 	} else {
 		$output = <<<HTML
@@ -75,7 +81,7 @@ HTML;
 <div id="ontologyTags" style="display:none;"> </div>
 <div id="ontologyTagDisplay">&nbsp;</div>
 </div>
-<script type="text/javascript" src="$wgOpath/js/script.js"></script>
+<!--script type="text/javascript" src="$wgOpath/js/script.js"></script-->
 HTML;
 	}
 	return   '<!-- ENCODED_CONTENT '.base64_encode($output).' -->' ;
