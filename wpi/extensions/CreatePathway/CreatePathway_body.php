@@ -194,18 +194,15 @@ class CreatePathway extends SpecialPage {
 				<tr><td><input type='submit' value='Create pathway'> </table></FORM><BR>";
 
 					$wgOut->addHTML("
-			<P>This interface lets you upload a pathway in gpml format. Gpml files are created in [http://www.pathvisio.org PathVisio].<P>
-			<P>Learn about the Pathvisio interface here [http://www.pathvisio.org/documentation/].<P>
-			<P>Learn about editing pathways in PathVisio here [http://www.pathvisio.org/documentation/editing-and-viewing-pathways/]<P>
+			<P>This interface lets you upload a pathway in gpml format. Gpml files are created in PathVisio.<P>
+			<P>Learn about the Pathvisio interface here: http://www.pathvisio.org/documentation/.<P>
+			<P>Learn about editing pathways in PathVisio here: http://www.pathvisio.org/documentation/editing-and-viewing-pathways/<P>
 			<P>Another option is to upload the pathway directly from PathVisio using the [http://plugins.pathvisio.org/wp-client WikiPathways client plugin].<P>
 			<P>To do this, first install the plugin in the PathVisio Plugin Manager. Then, go to “Plugins > WikiPathways > Upload New”.<P>
-			<P>Learn more about the WikiPathways plugin here [http://plugins.pathvisio.org/wp-client/documentation/]<P>
+			<P>Learn more about the WikiPathways plugin here: http://plugins.pathvisio.org/wp-client/documentation/<P>
 						<FORM>
 						<TABLE width='100%'><TBODY>
-						<!--<TR><TD><INPUT onclick='showEditor()' type='radio' name='visibility' value='editor' $editor_check><B>Use Editor</B>
-						<DIV id='editor' $editor_vis>
-			$html_editor
-			</DIV> -->
+					
 						<TR><TD><INPUT onclick='showUpload()' type='radio' name='visibility' value='upload' $upload_check><B>Upload File</B>
 						<DIV id='upload' $upload_vis>
 			$html_upload
