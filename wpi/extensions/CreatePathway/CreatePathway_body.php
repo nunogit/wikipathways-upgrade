@@ -202,10 +202,10 @@ class CreatePathway extends SpecialPage {
 			<P>Learn more about the WikiPathways plugin here [http://plugins.pathvisio.org/wp-client/documentation/]<P>
 						<FORM>
 						<TABLE width='100%'><TBODY>
-						/*<TR><TD><INPUT onclick='showEditor()' type='radio' name='visibility' value='editor' $editor_check><B>Use Editor</B>
+						<!--<TR><TD><INPUT onclick='showEditor()' type='radio' name='visibility' value='editor' $editor_check><B>Use Editor</B>
 						<DIV id='editor' $editor_vis>
 			$html_editor
-			</DIV> */
+			</DIV> -->
 						<TR><TD><INPUT onclick='showUpload()' type='radio' name='visibility' value='upload' $upload_check><B>Upload File</B>
 						<DIV id='upload' $upload_vis>
 			$html_upload
