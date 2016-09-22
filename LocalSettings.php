@@ -340,6 +340,10 @@ require_once("$IP/extensions/LocalHooks.php");
 #require_once('extensions/SocialRewarding/SocialRewarding.php');
 require_once('extensions/UserMerge/UserMerge.php');
 require_once('extensions/parseViewRedirect.php');
+$wgExtensionDirectory = dirname(__FILE__) . '/extensions';
+wfLoadExtensions( array( 'jquery.mousewheel', 'jquery.layout', 'd3', 'mithril' ) );
+$wgExtensionDirectory = dirname(__FILE__) . '/wpi/extensions';
+wfLoadExtensions( array( 'deployJava', 'PathwayViewer', 'CurationTags' ) );
 //loads after javascript
 //require_once( "$IP/wpi/autoload-setup.php" );
 

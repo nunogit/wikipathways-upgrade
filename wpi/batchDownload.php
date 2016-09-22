@@ -51,6 +51,12 @@ class BatchDownloader {
 		$this->stats = $displayStats;
 	}
 
+
+
+	/*static function createDownloadLinks($input, $argv, $parser) {
+		return "html";
+	}*/
+
 	static function createDownloadLinks($input, $argv, $parser) {
 		$fileType     = isset( $argv['filetype'] ) ? $argv['filetype'] : "";
 		$listPage     = isset( $argv['listpage'] ) ? $argv['listpage'] : "";

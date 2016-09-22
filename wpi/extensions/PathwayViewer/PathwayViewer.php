@@ -9,6 +9,43 @@ require_once('DetectBrowserOS.php');
 $wgExtensionFunctions[] = 'wfPathwayViewer';
 $wgHooks['LanguageGetMagic'][]  = 'wfPathwayViewer_Magic';
 
+$wgResourceModules['PathwayViewer'] = array(
+	'position' => 'bottom',
+	'scripts' => array(
+		// TODO shouldn't the following three belong in "dependencies"?
+		'./modules/d3.js',
+		'./modules/mithril.js',
+		'./modules/deployJava.js',
+		// TODO remove the polyfill bundle below once the autopolyfill
+		// work is complete. Until then, leave it as-is.
+		'./modules/polyfills.bundle.min.js',
+		'./modules/pvjs.core.min.js',
+		'./modules/pvjs.custom-element.min.js',
+		'./modules/PathwayviewerJavaWebStartLauncher.js',
+		'./modules/PathwayViewer.js',
+	),
+	//'styles' => array( 'modules/ext.PathwayViewer.css' ),
+/*
+	'messages' => array(
+		'myextension-foo-label',
+	),
+//*/
+	'dependencies' => array(
+		// TODO how does this work? I tried creating these as modules, but they aren't recognized.
+		/*
+		'jquery.mousewheel',
+		'jquery.layout',
+		'd3',
+		'mithril',
+		// JS to trigger Java webstart for currently visited pathway
+		'deployJava',
+		//*/
+	),
+
+	'localBasePath' => __DIR__,
+	'remoteExtPath' => 'wpi/extensions/PathwayViewer',
+);
+
 function wfPathwayViewer() {
 	global $wgParser;
 	$wgParser->setFunctionHook( "PathwayViewer", "PathwayViewer::enable" );
@@ -20,46 +57,12 @@ function wfPathwayViewer_Magic( &$magicWords, $langCode ) {
 }
 
 class PathwayViewer {
-	static function getJsDependencies() {
-		global $wgScriptPath;
-
-		if(preg_match('/(?i)msie [6-8]/',$_SERVER['HTTP_USER_AGENT'])) {
-			// if IE<=8
-			$scripts = array(
-			);
-		}
-		else {
-			// if IE>8
-			$scripts = array(
-				// What are these for?
-				"$wgScriptPath/wpi/js/jquery/plugins/jquery.mousewheel.js",
-				"$wgScriptPath/wpi/js/jquery/plugins/jquery.layout.min-1.3.0.js",
-				// pvjs and dependencies
-				"//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js",
-				"//mithril.js.org/archive/v0.2.2-rc.1/mithril.min.js",
-				// TODO remove the polyfill bundle below once the autopolyfill
-				// work is complete. Until then, leave it as-is.
-				"$wgScriptPath/wpi/lib/pvjs/release/polyfills.bundle.min.js",
-				"$wgScriptPath/wpi/lib/pvjs/release/pvjs.core.min.js",
-				"$wgScriptPath/wpi/lib/pvjs/release/pvjs.custom-element.min.js",
-				// JS to trigger Java webstart for currently visited pathway
-				"https://www.java.com/js/deployJava.js",
-				"$wgScriptPath/wpi/extensions/PathwayViewer/pathwayviewerJavaWebStartLauncher.js",
-			);
-		}
-
-		return $scripts;
-	}
-
 	static function enable(&$parser, $pwId, $imgId) {
 		global $wgOut, $wgStylePath, $wpiJavascriptSources, $wgScriptPath,
 			$wpiJavascriptSnippets, $jsRequireJQuery, $wgRequest, $wgJsMimeType;
 
-		$jsRequireJQuery = true;
-
+		$wgOut->addModules( 'PathwayViewer' );
 		try {
-			$wpiJavascriptSources = array_merge($wpiJavascriptSources, PathwayViewer::getJsDependencies());
-
 			$revision = $wgRequest->getval('oldid');
 
 			$pathway = Pathway::newFromTitle($pwId);

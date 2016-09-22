@@ -458,6 +458,7 @@ class EditPage {
 	 * @throws MWException If $modelId has no known handler
 	 */
 	public function isSupportedContentModel( $modelId ) {
+		var_dump($modelId);
 		return $this->enableApiEditOverride === true ||
 			ContentHandler::getForModelID( $modelId )->supportsDirectEditing();
 	}

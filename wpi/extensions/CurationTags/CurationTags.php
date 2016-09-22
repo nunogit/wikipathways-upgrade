@@ -3,6 +3,13 @@
 require_once(WPI_SCRIPT_PATH . "/MetaTag.php");
 require_once("CurationTagsMailer.php");
 
+$wgResourceModules['CurationTags'] = array(
+    'scripts' => array( 'CurationTags.js', 'CurationTagsLoad.js', 'CurationTagsRun.js' ),
+    'position' => 'bottom',
+    'localBasePath' => __DIR__,
+    'remoteExtPath' => 'CurationTags'
+);
+
 $wgExtensionMessagesFiles['CurationTags'] = dirname( __FILE__ ) . '/CurationTags.i18n.php';
 $wfCurationTagsPath = WPI_URL . "/extensions/CurationTags";
 
@@ -41,38 +48,17 @@ function displayCurationTags($input, $argv, $parser) {
 	}
 	$helpLink = Title::newFromText("CurationTags", NS_HELP)->getFullURL();
 
-	//force jQuery first //
-	global $jsJQuery;
-	$wgOut->addScriptFile($jsJQuery);
-
-	//Add javascript
-	//move file to a proper place
-	$wgOut->addScriptFile( "../WikiPathways/CurationTags.js"  );
-
-	/*possible future replacement for the addScriptFile*/
-	/*$wgResourceModules['ext.CurationTags'] = array(
-	    'scripts' => 'CurationTags.js',
-	    'position' => 'bottom',
-	    'localBasePath' => '$IP/skin/wikipathways/CurationTags.js',
-	    'remoteExtPath' => '../wikipathways/CurationTags.js'
-	);
-	$wgOut->addModules( 'ext.CurationTags' );*/
-
-	$wgOut->addScript(
-		"<script type=\"{$wgJsMimeType}\">" .
-		"CurationTags.extensionPath=\"$wfCurationTagsPath\";" .
-		"CurationTags.mayEdit=\"$mayEdit\";" .
-		"CurationTags.pageRevision=\"$revision\";" .
-		"CurationTags.helpLink=\"$helpLink\";" .
-		"</script>\n"
-	);
+	//* TODO Fix this: https://www.mediawiki.org/wiki/ResourceLoader/Migration_guide_for_extension_developers#Configuration_variables
+        $wgOut->addJsConfigVars(array(
+		'extensionPath' => $wfCurationTagsPath,
+		'mayEdit' => $mayEdit,
+		'pageRevision' => $revision,
+		'helpLink' => $helpLink,
+	));
+	$wgOut->addModules( 'CurationTags' );
 
 	$pageId = $parser->mTitle->getArticleID();
 	$elementId = 'curationTagDiv';
-
-
-	$wgOut->addScriptFile("../wikipathways/CurationTagsLoad.js");
-	$wgOut->addScriptFile("../wikipathways/CurationTagsRun.js");
 
 	return Html::element( "div", array( "id" => $elementId ) );
 		//Html::rawElement( "script", array( "type" => $wgJsMimeType ),
