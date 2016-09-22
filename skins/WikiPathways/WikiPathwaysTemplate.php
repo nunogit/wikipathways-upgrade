@@ -121,9 +121,8 @@ class WikiPathwaysTemplate extends BaseTemplate {
                 <?php } ?><!--[if lt IE 7]><?php if( in_array( 'IE', $skin->cssfiles ) ) { ?><script type="<?php $this->text('jsmimetype') ?>" src="<?php $this->text('stylepath') ?>/common/IEFixes.js?<?php echo $GLOBALS['wgStyleVersion'] ?>"></script>
                 <?php } ?><meta http-equiv="imagetoolbar" content="no" /><![endif]-->
 
-<!-- **** BROKEN: Skin method call FROM OLD WP SKIN 
-               //PHP//  print Skin::makeGlobalVariablesScript( $this->data ); //PHP//
--->
+<!-- **** UPGRADE: Skin method changed from makeGlobalVariablesScript WHICH IS NO LONGER AVAILABLE -->
+               <?php  print Skin::makeVariablesScript( $this->data ); ?>
 
                 <!-- TK: Import custom script -->
                 <script type="<?php $this->text('jsmimetype') ?>" src="<?php echo $thisStylePath ?>/wikipathways-custom.js"></script>
