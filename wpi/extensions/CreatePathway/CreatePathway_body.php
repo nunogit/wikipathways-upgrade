@@ -195,7 +195,7 @@ class CreatePathway extends SpecialPage {
 
 					$wgOut->addHTML("
 			<P><B>This interface lets you upload a pathway in gpml format. Gpml files can be created in PathVisio.</B><P>
-			<P>Learn about the Pathvisio interface here: http://www.pathvisio.org/documentation/.
+			<P>Learn about the Pathvisio interface <a href='http://www.pathvisio.org/documentation/'>here</a>.
 			Learn about editing pathways in PathVisio here: http://www.pathvisio.org/documentation/editing-and-viewing-pathways/<P>
 			<P>Another option is to upload the pathway directly from PathVisio using the [http://plugins.pathvisio.org/wp-client WikiPathways client plugin].
 			To do this, first install the plugin in the PathVisio Plugin Manager. Then, go to “Plugins > WikiPathways > Upload New”.
