@@ -20,12 +20,9 @@ $(document).ready(function() {
                       save_img = document.getElementById('save_img');
                       save_link = document.getElementById('save_link');
                       title = wgPageName;
-//console.log(wgPageName);
-//console.log(wgArticleId);
                       ontologies = YAHOO.lang.JSON.parse(ontologiesJSON);
                       oTagsCount = new Array();
-											//console.log("JSON"+ontologiesJSON);
-											//console.log(ontologies);
+
                       for(var i=0;i<ontologies.length;i++) {
                           document.getElementById('ontologyTags').innerHTML +=
                           "<div id='" + ontologies[i][0] + "'><b>"
@@ -80,21 +77,18 @@ $(document).ready(function() {
                               //on which we'll search for related words:
                               // encodeURI(node.label);
                               var sUrl = opath + "/otags.php?action=tree&tagId=" + encodeURI(node.c_id);
-//console.log(sUrl);
                               var callback = {
                                   success: function(oResponse) {
                                       var oResults = YAHOO.lang.JSON.parse(oResponse.responseText);
-//console.log(oResults);
                                       if((oResults.ResultSet.Result) && (oResults.ResultSet.Result.length)) {
                                           if(YAHOO.lang.isArray(oResults.ResultSet.Result)) {
                                               for (var i=0, j=oResults.ResultSet.Result.length; i<j; i++) {
-//console.log(oResults.ResultSet.Result[i]);							
                                                   var tempNode = new YAHOO.widget.MenuNode(oResults.ResultSet.Result[i], node, false);
                                                   tempNode.c_id=tempNode.label.substring(tempNode.label.lastIndexOf(" - ")+3,tempNode.label.length);
-tempNode.c_id= tempNode.c_id.replace("http://purl.obolibrary.org/obo/PW_", "PW:");
-tempNode.c_id= tempNode.c_id.replace("http://purl.obolibrary.org/obo/DOID_", "DOID:"); 
-tempNode.c_id= tempNode.c_id.replace("http://purl.obolibrary.org/obo/CL_", "CL:"); 
-//console.log(tempNode.c_id);
+																									tempNode.c_id= tempNode.c_id.replace("http://purl.obolibrary.org/obo/PW_", "PW:");
+																									tempNode.c_id= tempNode.c_id.replace("http://purl.obolibrary.org/obo/DOID_", "DOID:"); 
+																									tempNode.c_id= tempNode.c_id.replace("http://purl.obolibrary.org/obo/CL_", "CL:"); 
+
                                                   if(tempNode.label.lastIndexOf("||")>0)
                                                   {
                                                       tempNode.isLeaf = true;
@@ -151,7 +145,6 @@ tempNode.c_id= tempNode.c_id.replace("http://purl.obolibrary.org/obo/CL_", "CL:"
                               oAC.resultTypeList = false;
                               // Customize formatter to show thumbnail images
                               oAC.formatResult = function(oResultData, sQuery, sResultMatch) {
-
                                   if(oResultData.label == "No results !")
                                       return  "<em>" + oResultData.label + "</em>";
                                   else
@@ -160,6 +153,8 @@ tempNode.c_id= tempNode.c_id.replace("http://purl.obolibrary.org/obo/CL_", "CL:"
 
                               var itemSelectHandler = function(sType, aArgs) {
                                   var oData = aArgs[2]; // object literal of data for the result
+																	oData.id = oData.id.replace("http://purl.obolibrary.org/obo/","");
+																	oData.id = oData.id.replace("_",":");
                                   if(oData.label != "No results !")
                                   {
                                       displayTag(oData.label,oData.id,"true");
@@ -186,6 +181,7 @@ tempNode.c_id= tempNode.c_id.replace("http://purl.obolibrary.org/obo/CL_", "CL:"
                           };
                       };
 									YAHOO.util.Event.onDOMReady(ontologytree.init, ontologytree,true);
+									ontologySearch();
                   });
 
 function getOntologyName(tag_id)
@@ -278,7 +274,6 @@ function addTag(concept, conceptId)
 	}
 
 	var handleSuccess = function(o){
-		console.log(o.responseText);
 		enableSave();
 		if(o.responseText != "SUCCESS"){
 			alert("Sorry the tag cannot be added! Please try again!");
@@ -292,7 +287,6 @@ function addTag(concept, conceptId)
 	};
 
 	var handleFailure = function(o){
-		//console.log(o.responseText);
 		alert("Sorry the tag cannot be added! Please try again!");
 	};
 
@@ -309,16 +303,13 @@ function addTag(concept, conceptId)
 
 function fetchTags()
 {
-//console.log("fech");
+
 	var rand = Math.random();
 	var tags = new Array();
 	var handleSuccess = function(o){
 		if(o.responseText != "ERROR"){
 
-//console.log("fech2");
-//console.log(o.responseText);
 			var tagsJSON = YAHOO.lang.JSON.parse(o.responseText);
-//console.log("fech3");
 			var totalTagsCount = 0;
 			if(o.responseText != "[]")
 			{
@@ -362,7 +353,7 @@ function fetchTags()
 }
 
 function displayTag(concept, conceptId, newTag)
-{console.log("display");
+{
 
 	if(opentag_id != conceptId)
 	{

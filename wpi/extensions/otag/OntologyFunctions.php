@@ -9,7 +9,7 @@ class OntologyFunctions
 	public static function removeOntologyTag($tagId, $pwTitle)
 	{
 		$dbw = wfGetDB( DB_MASTER );
-		$comment = "Ontology Term : '$tagId' removed !";
+		/*$comment = "Ontology Term : '$tagId' removed !";
 		$pathway = Pathway::newFromTitle($pwTitle);
 		$gpml = $pathway->getGpml();
 		$xml = simplexml_load_string($gpml);
@@ -22,11 +22,14 @@ class OntologyFunctions
 			if($bp->openControlledVocabulary[$i]->ID == $tagId)
 				unset($bp->openControlledVocabulary[$i]);
 			$i++;
-		}
-		$dbw->delete( 'ontology', array( 'pw_id' => $pwTitle,'term_id' => $tagId ), $fname );
-		$gpml = $xml->asXML();
+		}*/
+		//$dbw->delete( 'ontology', array( 'pw_id' => $pwTitle,'term_id' => $tagId ), $fname );
+		$result = $dbw->delete( 'ontology', array( 'pw_id' => $pwTitle,'term_id' => $tagId ), "fnameTest");
+		$dbw->commit();
+		/*$gpml = $xml->asXML();
 		$pathway->updatePathway($gpml,$comment);
-		echo "SUCCESS";
+		echo "SUCCESS";*/
+		return $result ;		
 	}
 
 	public static function addOntologyTag($tagId, $tag, $pwTitle)
@@ -36,18 +39,25 @@ class OntologyFunctions
 		$ontology = self::getOntologyName($tagId);
 		//$path = self::getOntologyTagPath($tagId);
 		$path='';
-		$gpml = $pathway->getGpml();
-		//$resultJSON = json_encode($gpml);
-		return (string) $gpml->mText;
-		/*$stringGpml = (string) $gpml->mText;
-		$xml = simplexml_load_string( $stringGpml);
-		//$xml = simplexml_load_string( $gpml);
+		$gpml = $pathway->getGpml()->mText;
+		$xml = new SimpleXMLElement($gpml);
 
 		if(!isset($xml->Biopax[0]))
 			$xml->addChild("Biopax");
 		
 		$entry = $xml->Biopax[0];
+		$namespaces = $entry->getNameSpaces(true);
+		$bp = $entry->children($namespaces['bp']);
+
 		$ns = "http://www.biopax.org/release/biopax-level3.owl#";
+
+		$gpmlVersion = $xml->getNamespaces(false);
+		$gpmlVersion = $gpmlVersion[''];
+		if(preg_match("@http://genmapp.org/GPML/([0-9]{4})@", $gpmlVersion, $res)) {
+			if($res[1] < 2010) {
+				$ns = "http://www.biopax.org/release/biopax-level2.owl#";
+			}
+		}
 		$node = $xml->Biopax->addChild("bp:openControlledVocabulary","",$ns);
 
 		$node->addChild("TERM",$tag);
@@ -57,7 +67,7 @@ class OntologyFunctions
 		$gpml = $xml->asXML();
 
 		try {
-			$pathway->updatePathway($gpml,$comment);
+			//$pathway->updatePathway($gpml,$comment);
 			$dbw = wfGetDB( DB_MASTER );
 			$dbw->begin();
 			$dbw->insert( 'ontology', array(
@@ -66,14 +76,15 @@ class OntologyFunctions
 					'ontology'=> $ontology,
 					'pw_id'   => $pwTitle,
 					'term_path'  => $path ),
-				$fname,
+				//$fname,
+				"fnameTest",
 				'IGNORE' );
 			$dbw->commit();
-			return "SUCCESS".$xml;
+			return "SUCCESS";
 		}
 		catch(Exception $e) {
 			return "ERROR";
-		}*/
+		}
 	}
 
 	public static function getOntologyTags($pwId) {
@@ -155,28 +166,24 @@ class OntologyFunctions
 	}
 
 	public static function getBioPortalSearchResults($searchTerm) {
-		global $wgOntologiesArray;
+		global $wgOntologiesBioPortalSearchHits, $wpiBioportalKey;
 		$count = 0;
+		$resultArray = array();		
+		$url = "http://data.bioontology.org/search?q=$searchTerm&ontologies=DOID,PW,CL&pagesize=$wgOntologiesBioPortalSearchHits&apikey=$wpiBioportalKey&format=xml";
+		$xml = simplexml_load_file($url);
 
-		foreach($wgOntologiesArray as $ontology)
-			$ontologyIdArray[] = $ontology[2];
+		foreach($xml->collection as $colect ) {
 
-		$ontologyId = implode(",", $ontologyIdArray);
-
-		$url = self::getBioPortalURL("search", array("ontologyId" => $ontologyId, "searchTerm" => $searchTerm));
-		$xml = simplexml_load_string(OntologyCache::fetchCache("search", $url));
-
-		if(isset($xml->data->page->contents->searchResultList->searchBean)) {
-
-			$resultArray = array();
-			foreach($xml->data->page->contents->searchResultList->searchBean as $search_result ) {
-				$id = str_replace('"','',(string)$search_result->conceptId);
-
-				$resultArray[$count]['label'] = str_replace('"','',(string)$search_result->contents);
-				$resultArray[$count]['id'] = (string) $search_result->conceptIdShort;
-				$resultArray[$count]['ontology'] = (string)$search_result->ontologyDisplayLabel;
-				$count++;
-			}
+				foreach($colect->class as $entry ) {						
+					if (strpos((string)$entry->id, 'DOID_') !== FALSE  
+							|| strpos((string)$entry->id, 'PW_') !== FALSE 
+							|| strpos((string)$entry->id, 'CL_') !== FALSE  ){
+						$resultArray[$count]['label'] = (string)$entry->prefLabel;
+						$resultArray[$count]['id'] = (string)$entry->id;
+						$resultArray[$count]['ontology'] = (string)$entry->id;
+						$count++;	
+					}
+				}
 		}
 		if ($count == 0) {
 			$resultArray[$count]['label'] = "No results !";
@@ -189,37 +196,17 @@ class OntologyFunctions
 		return $resultJSON ;
 
 	}
-/*
-	public static function getBioPortalTreeResults($termId) {
-		$ontologyId = self::getOntologyVersion($termId);
-		$url = self::getBioPortalURL("tree", array("ontologyId" => $ontologyId, "conceptId" => $termId));
-		$xml = simplexml_load_string(OntologyCache::fetchCache("tree",$url));
-		foreach($xml->data->classBean->relations->entry as $entry ) {
-			if($entry->string == "SubClass") {
-				foreach($entry->list->classBean as $sub_concepts) {
-					$temp_var = $sub_concepts->label . " - " . $sub_concepts->id;
-					if($sub_concepts->relations->entry->int == "0")
-						$temp_var .="||";
-					$resultArray[] = $temp_var;
-				}
-			}
-		}
 
-		sort($resultArray);
-		$resultArr["ResultSet"]["Result"]=$resultArray;
-		$resultJSON = json_encode($resultArr);
-		return $resultJSON ;
-	}*/
 	public static function getBioPortalTreeResults($termId) {
 		global $wpiBioportalKey;
 
 		$ontologyId  = str_replace (":","_",$termId);
 		$pos = strpos($ontologyId,"_");
 		if ( $pos > 2 ) {
-		$ontologyAcronym = substr($termId, 0, 4);
+			$ontologyAcronym = substr($termId, 0, 4);
 		}
 		else {
-		$ontologyAcronym = substr($termId, 0, 2);
+			$ontologyAcronym = substr($termId, 0, 2);
 		}
 
 		$url = "http://data.bioontology.org/ontologies/$ontologyAcronym/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2F$ontologyId/children?apikey=$wpiBioportalKey&format=xml";
@@ -242,7 +229,6 @@ class OntologyFunctions
 		sort($resultArray);
 		$resultArr["ResultSet"]["Result"]=$resultArray;
 		$resultJSON = json_encode($resultArr);
-
 
 		return $resultJSON ;
 	}
