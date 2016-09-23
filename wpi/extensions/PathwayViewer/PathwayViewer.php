@@ -22,7 +22,7 @@ $wgResourceModules['PathwayViewer'] = array(
 		'./modules/polyfills.bundle.min.js',
 		'./modules/pvjs.core.min.js',
 		'./modules/pvjs.custom-element.min.js',
-		'./modules/PathwayviewerJavaWebStartLauncher.js',
+		'./modules/PathwayViewerJavaWebStartLauncher.js',
 		'./modules/PathwayViewer.js',
 	),
 	//'styles' => array( 'modules/ext.PathwayViewer.css' ),
