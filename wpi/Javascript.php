@@ -7,6 +7,10 @@ $wgHooks['OutputPageParserOutput'][] = 'wpiAddJavascript';
 function wpiAddJavascript(&$out, $parseroutput) {
 	global $wgJsMimeType, $wpiJavascriptSnippets, $wpiJavascriptSources, $jsRequireJQuery, $jsJQuery, $wgRequest, $wgOut;
 
+return true;
+
+///vvvvv ALL OF THIS IS IGNORED vvvvvvv///
+
 	//First add JQuery if required
 	if($jsRequireJQuery) {
 		$wgOut->addScriptFile($jsJQuery);

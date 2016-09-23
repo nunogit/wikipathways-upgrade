@@ -32,6 +32,7 @@ $wgResourceModules['PathwayViewer'] = array(
 //*/
 	'dependencies' => array(
 		// TODO how does this work? I tried creating these as modules, but they aren't recognized.
+		'mediawiki.legacy.wikibits'
 		/*
 		'jquery.mousewheel',
 		'jquery.layout',

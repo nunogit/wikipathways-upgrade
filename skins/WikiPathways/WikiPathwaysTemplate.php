@@ -124,9 +124,14 @@ class WikiPathwaysTemplate extends BaseTemplate {
 <!-- **** UPGRADE: Skin method changed from makeGlobalVariablesScript WHICH IS NO LONGER AVAILABLE -->
                <?php  print Skin::makeVariablesScript( $this->data ); ?>
 
-                <!-- TK: Import custom script -->
+                <!-- TK: Import custom script --> 
                 <script type="<?php $this->text('jsmimetype') ?>" src="<?php echo $thisStylePath ?>/wikipathways-custom.js"></script>
-                <script type="<?php $this->text('jsmimetype') ?>" src="<?php $this->text('stylepath' ) ?>/common/wikibits.js?<?php echo $GLOBALS['wgStyleVersion'] ?>"><!-- wikibits js --></script>
+<!--
+                <script type="<?php $this->text('jsmimetype') ?>" src="<?php $this->text('stylepath' ) ?>/common/wikibits.js?<?php echo $GLOBALS['wgStyleVersion'] ?>"> 
+</script>
+-->
+
+
                 <!-- Head Scripts -->
 <?php $this->html('headscripts') ?>
 <?php   if($this->data['jsvarurl']) { ?>
