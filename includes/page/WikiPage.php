@@ -1600,6 +1600,7 @@ class WikiPage implements Page, IDBAccessObject {
 			);
 		}
 
+
 		// Load the data from the master database if needed.
 		// The caller may already loaded it from the master or even loaded it using
 		// SELECT FOR UPDATE, so do not override that using clear().
@@ -1611,6 +1612,8 @@ class WikiPage implements Page, IDBAccessObject {
 		// Trigger pre-save hook (using provided edit summary)
 		$hookStatus = Status::newGood( [] );
 		$hook_args = [ &$this, &$user, &$content, &$summary,
+
+
 							$flags & EDIT_MINOR, null, null, &$flags, &$hookStatus ];
 		// Check if the hook rejected the attempted save
 		if ( !Hooks::run( 'PageContentSave', $hook_args )
@@ -1624,6 +1627,8 @@ class WikiPage implements Page, IDBAccessObject {
 			return $hookStatus;
 		}
 
+
+
 		$old_revision = $this->getRevision(); // current revision
 		$old_content = $this->getContent( Revision::RAW ); // current revision's content
 
@@ -1633,8 +1638,13 @@ class WikiPage implements Page, IDBAccessObject {
 			$summary = $handler->getAutosummary( $old_content, $content, $flags );
 		}
 
+
+
 		// Get the pre-save transform content and final parser output
 		$editInfo = $this->prepareContentForEdit( $content, null, $user, $serialFormat );
+
+
+
 		$pstContent = $editInfo->pstContent; // Content object
 		$meta = [
 			'bot' => ( $flags & EDIT_FORCE_BOT ),
@@ -1650,9 +1660,11 @@ class WikiPage implements Page, IDBAccessObject {
 			'tags' => ( $tags !== null ) ? (array)$tags : []
 		];
 
+
+
 		// Actually create the revision and create/update the page
 		if ( $flags & EDIT_UPDATE ) {
-			$status = $this->doModify( $pstContent, $flags, $user, $summary, $meta );
+			$status = $this->doModify( $pstContent, $flags, $user, $summary, $meta );			
 		} else {
 			$status = $this->doCreate( $pstContent, $flags, $user, $summary, $meta );
 		}
@@ -2020,18 +2032,23 @@ class WikiPage implements Page, IDBAccessObject {
 	) {
 		global $wgContLang, $wgUser, $wgAjaxEditStash;
 
+
+
 		if ( is_object( $revision ) ) {
 			$revid = $revision->getId();
 		} else {
+
 			$revid = $revision;
 			// This code path is deprecated, and nothing is known to
 			// use it, so performance here shouldn't be a worry.
 			if ( $revid !== null ) {
 				$revision = Revision::newFromId( $revid, Revision::READ_LATEST );
 			} else {
+
 				$revision = null;
 			}
 		}
+
 
 		$user = is_null( $user ) ? $wgUser : $user;
 		// XXX: check $user->getId() here???
@@ -2052,6 +2069,7 @@ class WikiPage implements Page, IDBAccessObject {
 			return $this->mPreparedEdit;
 		}
 
+
 		// The edit may have already been prepared via api.php?action=stashedit
 		$cachedEdit = $useCache && $wgAjaxEditStash
 			? ApiStashEdit::checkCache( $this->getTitle(), $content, $user )
@@ -2069,6 +2087,8 @@ class WikiPage implements Page, IDBAccessObject {
 		// @note: $cachedEdit is not used if the rev ID was referenced in the text
 		$edit->revid = $revid;
 
+		//if(is_null($revid)) echo "NULL"; else echo "GB";
+
 		if ( $cachedEdit ) {
 			$edit->pstContent = $cachedEdit->pstContent;
 		} else {
@@ -2079,6 +2099,10 @@ class WikiPage implements Page, IDBAccessObject {
 
 		$edit->format = $serialFormat;
 		$edit->popts = $this->makeParserOptions( 'canonical' );
+
+
+
+
 		if ( $cachedEdit ) {
 			$edit->output = $cachedEdit->output;
 		} else {
@@ -2098,10 +2122,26 @@ class WikiPage implements Page, IDBAccessObject {
 					}
 				);
 			}
+
+			echo "xpto1 ".$this->mTitle." ".$revid." ";
+			//var_dump($edit->popts);
+			try{
+			echo "<pre>";
+			echo get_class($edit->pstContent);
+			echo "</pre>";
+			echo $edit->pstContent->getParserOutput( $this->mTitle, $revid, $edit->popts );
+			}catch(Exception $e){
+				echo "excepcao " . $e . " <-" ;
+			}
+			echo "xpto2";
 			$edit->output = $edit->pstContent
 				? $edit->pstContent->getParserOutput( $this->mTitle, $revid, $edit->popts )
 				: null;
+
+			echo "xpto";
+
 		}
+
 
 		$edit->newContent = $content;
 		$edit->oldContent = $this->getContent( Revision::RAW );
@@ -2118,6 +2158,7 @@ class WikiPage implements Page, IDBAccessObject {
 		if ( $edit->output ) {
 			$edit->output->setCacheTime( wfTimestampNow() );
 		}
+
 
 		// Process cache the result
 		$this->mPreparedEdit = $edit;
