@@ -8,6 +8,18 @@ Provide an information and cross-reference panel for xrefs on a wiki page.
 
 $wgExtensionFunctions[] = "XrefPanel::xref";
 
+$wgResourceModules['PathwayViewer'] = array(
+	'position' => 'bottom',
+	'scripts' => array(
+		'../js/xrefpanel.js',
+		//This should be in deps
+		'../js/jquery-ui/jquery-ui-1.8.10.custom.min.js',
+	),
+	'dependencies' => array(
+		'jquery.ui.core', //or something like this... need to specify which parts of ui are actually needed Resources.php
+	),
+	'localBasePath' => __DIR__,
+);
 
 
 class XrefPanel {
@@ -32,7 +44,7 @@ class XrefPanel {
 		$html = $text . " <img title='Show additional info and linkouts' style='cursor:pointer;' onload='$fun' src='$url'/>";
 		return $html;
 	}
-
+/*
 	static function getJsDependencies() {
 		global $jsJQueryUI, $wgScriptPath;
 
@@ -43,7 +55,7 @@ class XrefPanel {
 
 		return $js;
 	}
-
+*/
 	static function getJsSnippets() {
 		global $wpiXrefPanelDisableAttributes, $wpiBridgeUrl,
 			$wpiBridgeUseProxy;
@@ -71,7 +83,7 @@ class XrefPanel {
 	}
 
 	static function addXrefPanelScripts() {
-		global $wpiJavascriptSources, $wpiJavascriptSnippets, $cssJQueryUI, $wgScriptPath, $wgStylePath, $wgOut, $jsRequireJQuery;
+		global  $wpiJavascriptSnippets, $cssJQueryUI, $wgScriptPath, $wgStylePath, $wgOut, $jsRequireJQuery;
 
 		$jsRequireJQuery = true;
 
@@ -82,7 +94,6 @@ class XrefPanel {
 		$wgOut->addStyle(basename($cssJQueryUI));
 		$wgStylePath = $oldStylePath;
 
-		$wpiJavascriptSources = array_merge($wpiJavascriptSources, self::getJsDependencies());
 		$wpiJavascriptSnippets = array_merge($wpiJavascriptSnippets, self::getJsSnippets());
 	}
 }
