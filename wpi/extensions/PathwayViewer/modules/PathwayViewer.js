@@ -7,10 +7,10 @@
  */
 
 // mater variable for height of pvjs viewer container divs
-var viewer_height = '500px';
-var viewer_width = '100%';
-var viewer_min_width = '700px';
-var viewer_max_width = '900px';
+var viewerHeight = '500px';
+var viewerWidth = '100%';
+var viewerMinWidth = '700px';
+var viewerMaxWidth = '900px';
 
 /**
  *  When page is ready:
@@ -34,10 +34,10 @@ $(window).ready(function() {
 	}
 	var container = $('<div />')
 		.attr('id', 'pwImage_container')
-		.css({	width: viewer_width,
-			'min-width': viewer_min_width,
-			'max-width': viewer_max_width,
-			height: viewer_height,
+		.css({	width: viewerWidth,
+			'min-width': viewerMinWidth,
+			'max-width': viewerMaxWidth,
+			height: viewerHeight,
 			margin:'0 0 0 0'
 		});
 	var parent = img.parent();
@@ -51,18 +51,18 @@ $(window).ready(function() {
 
 	if (ie) { //Animate gives problems in IE, just change style directly
 		parent.css({
-			width: viewer_width,
-			'min-width': viewer_min_width,
-			'max-width': viewer_max_width,
-			height: viewer_height
+			width: viewerWidth,
+			'min-width': viewerMinWidth,
+			'max-width': viewerMaxWidth,
+			height: viewerHeight
 		});
 		afterAnimate(container);
 	} else { //Animate for smooth transition
 		parent.animate({
-			width: viewer_width,
-			'min-width': viewer_min_width,
-			'max-width': viewer_max_width,
-			height: viewer_height
+			width: viewerWidth,
+			'min-width': viewerMinWidth,
+			'max-width': viewerMaxWidth,
+			height: viewerHeight
 		}, 300, afterAnimate(container));
 	}
 
@@ -212,10 +212,10 @@ if (Modernizr.inlinesvg) {
 var afterAnimate = function(c) {
 	var pvjs = $('<div/>')
 		.attr('id','pwImage_pvjs')
-		.css({	width: viewer_width,
-			'min-width': viewer_min_width,
-			'max-width': viewer_max_width,
-			height: viewer_height
+		.css({	width: viewerWidth,
+			'min-width': viewerMinWidth,
+			'max-width': viewerMaxWidth,
+			height: viewerHeight
 		});
 	c.append(pvjs);
 };

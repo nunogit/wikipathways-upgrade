@@ -2295,4 +2295,30 @@ return [
 	// WARNING: OOjs-UI is NOT TESTED with older browsers and is likely to break
 	// if loaded in browsers that don't support ES5
 	// @see ResourcesOOUI.php
+
+
+	/* d3.js */
+	'd3' => [
+		'scripts' => [
+			'resources/lib/d3/d3.js',
+		],
+		'targets' => [ 'desktop', 'mobile' ],
+		'dependencies' => [
+			'es5-shim',
+			'json',
+		],
+	],
+
+	/* mithril.js */
+	'mithril' => [
+		'scripts' => [
+			'resources/lib/mithril/mithril.js',
+			'resources/lib/mithril/mithril.binding.js',
+		],
+		'targets' => [ 'desktop', 'mobile' ],
+		'dependencies' => [
+			'es5-shim',
+			'json',
+		],
+	],
 ];

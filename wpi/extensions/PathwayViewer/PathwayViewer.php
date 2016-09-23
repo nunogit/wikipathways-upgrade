@@ -12,18 +12,15 @@ $wgHooks['LanguageGetMagic'][]  = 'wfPathwayViewer_Magic';
 $wgResourceModules['PathwayViewer'] = array(
 	'position' => 'bottom',
 	'scripts' => array(
-		// TODO shouldn't the following three belong in "dependencies"?
-		'./modules/d3.js',
-		'./modules/mithril.js',
-		// JS to trigger Java webstart for currently visited pathway
-		'./modules/deployJava.js',
 		// TODO remove the polyfill bundle below once the autopolyfill
 		// work is complete. Until then, leave it as-is.
 		'./modules/polyfills.bundle.min.js',
 		'./modules/pvjs.core.min.js',
 		'./modules/pvjs.custom-element.min.js',
-		'./modules/PathwayViewerJavaWebStartLauncher.js',
 		'./modules/PathwayViewer.js',
+		// JS related to Java webstart for currently visited pathway
+		'./modules/PathwayViewerJavaWebStartLauncher.js',
+		'./modules/deployJava.js',
 	),
 	//'styles' => array( 'modules/ext.PathwayViewer.css' ),
 /*
@@ -34,12 +31,12 @@ $wgResourceModules['PathwayViewer'] = array(
 	'dependencies' => array(
 		// This wikibits dependency is actually WORKING; TODO reuse this pattern 
 		// Refer to /resources/Resources.php for other deps to include here!
-		'mediawiki.legacy.wikibits'
+		'mediawiki.legacy.wikibits',
+		'd3',
+		'mithril',
 		/*
 		'jquery.mousewheel',
 		'jquery.layout',
-		'd3',
-		'mithril',
 		//*/
 	),
 

@@ -1,0 +1,1 @@
+window.mithril = module.exports;
