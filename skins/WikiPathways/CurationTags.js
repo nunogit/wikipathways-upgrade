@@ -138,11 +138,11 @@ CurationTags.loadAvailableTagsCallback = function(xhr) {
 CurationTags.createToolDivContent = function() {
 	var helpTag = "<TD><A title='Show help page' " +
 		"href='" + CurationTags.helpLink + "' target='_blank'>" +
-		"<IMG src='" + stylepath + "/wikipathways/help.png'/></A>";
+		"<IMG src='" + stylepath + "/WikiPathways/help.png'/></A>";
 
 	var histTag = "<TD><A title='Show history' id='showHistBtn'" +
 		"href='javascript:CurationTags.showHistory()'>" +
-		"<IMG src='" + stylepath + "/wikipathways/history.png'/></A>";
+		"<IMG src='" + stylepath + "/WikiPathways/history.png'/></A>";
 
 	var newTag = "";
 	var newRevisionTag = "";
@@ -150,7 +150,7 @@ CurationTags.createToolDivContent = function() {
 	if(CurationTags.mayEdit) {
 		newTag = "<TD><A title='New tag' " +
 		"href='javascript:CurationTags.newTag()'>" +
-		"<IMG src='" + stylepath + "/wikipathways/new.png'/></A>";
+		"<IMG src='" + stylepath + "/WikiPathways/new.png'/></A>";
 	}
 	CurationTags.toolDiv.innerHTML =
 	"<TABLE><TR>" + newTag + helpTag + histTag +
@@ -447,9 +447,9 @@ CurationTags.showEditDiv = function(tagName) {
 
 	var buttons = "<TR align='right'><TD colspan='2'>" +
 		"<A href='javascript:CurationTags.applyNewTag()' title='Apply'>" +
-		"<IMG src='" + stylepath + "/wikipathways/apply.png'/></A>" +
+		"<IMG src='" + stylepath + "/WikiPathways/apply.png'/></A>" +
 		"<A href='javascript:CurationTags.cancelNewTag(\"" + tagName + "\")' title='Cancel'>" +
-		"<IMG src='" + stylepath + "/wikipathways/cancel.png'/></A>";
+		"<IMG src='" + stylepath + "/WikiPathways/cancel.png'/></A>";
 	var html = "<TABLE>" + nameBox + textBox + buttons +"</TABLE>";
 	CurationTags.editDiv.innerHTML = html;
 	CurationTags.editDiv.style.display = "";
@@ -601,10 +601,10 @@ CurationTags.parseTagXml = function(tagElm) {
 			btns.className = "tagbuttons transparent";
 			remove = "<A title='Remove' " +
 				"href='javascript:CurationTags.removeTag(\"" + tagName + "\")'>" +
-				"<IMG src='" + stylepath + "/wikipathways/cancel.png'/></A>";
+				"<IMG src='" + stylepath + "/WikiPathways/cancel.png'/></A>";
 			edit = "<A title='Edit' " +
 				"href='javascript:CurationTags.showEditDiv(\"" + tagName + "\")'>" +
-				"<IMG src='" + stylepath + "/wikipathways/edit.png'/></A>";
+				"<IMG src='" + stylepath + "/WikiPathways/edit.png'/></A>";
 			btns.innerHTML = remove + edit;
 			newElm.appendChild(btns);
 		}

@@ -88,7 +88,7 @@ class deleteRow extends tableRow {
 		if( $wgUser->isLoggedIn() ) {
 			return "<A title='". wfmsg( "wpict-delete" ) . "' ".
 				"href='javascript:CurationTags.removeTagFromPathway(\"Curation:ProposedDeletion\", $pageId, \"$row\" )'>" .
-				"<IMG class='center-button' src='$wgStylePath/wikipathways/cancel.png'/></A>";
+				"<IMG class='center-button' src='$wgStylePath/WikiPathways/cancel.png'/></A>";
 		} else {
 			return "";
 		}
@@ -127,7 +127,7 @@ class SpecialCurationTags extends SpecialPage {
 			$disp = htmlentities( CurationTag::getDisplayName($tagName) );
 			//$wgOut->setPageTitle( wfMsgExt( 'curation-tag-show', array( 'parsemsg' ), $disp ) );
 			$wgOut->setPageTitle( wfMessage( 'curation-tag-show', $disp )->parse() );
-			$wgOut->addScriptFile( "../wikipathways/CurationTags.js"  );
+			$wgOut->addScriptFile( "../WikiPathways/CurationTags.js"  );
 			$def = CurationTag::getTagDefinition();
 			// Don't you just love how php does things?
 			$useRev  = CurationTag::useRevision( $tagName );

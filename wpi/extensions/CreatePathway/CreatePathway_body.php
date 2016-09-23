@@ -1,31 +1,23 @@
 <?php
-
 class LegacyCreatePathway extends LegacySpecialPage {
 	function __construct() {
 		parent::__construct( "CreatePathwayPage", "CreatePathway" );
 	}
 }
-
-
 class CreatePathway extends SpecialPage {
 	private $this_url;
 	private $create_priv_msg;
-
 	function __construct(  ) {
 		parent::__construct( __CLASS__ );
 	}
-
 	function execute( $par ) {
 		global $wgRequest, $wgOut, $wpiScriptURL, $wgUser, $wgParser;
 		$this->setHeaders();
 		$this->this_url = SITE_URL . '/index.php';
-
 		$this->create_priv_msg = wfMessage( 'create_private')->parse();
-
 		if(wfReadOnly()) {
 			$wgOut->readOnlyPage( "" );
 		}
-
 		if( !$wgUser->isAllowed( 'createpathway' ) ) {
 			if( !$wgUser->isLoggedIn() ) { /* Two different messages so we can keep the old error */
 				$wgOut->showPermissionsErrorPage( array( array( 'wpi-createpage-not-logged-in' ) ) );
@@ -34,7 +26,6 @@ class CreatePathway extends SpecialPage {
 			}
 			return;
 		}
-
 		$pwName = $wgRequest->getVal('pwName');
 		$pwNameLen = strlen($pwName);
 		$pwSpecies = $wgRequest->getVal('pwSpecies');
@@ -42,8 +33,6 @@ class CreatePathway extends SpecialPage {
 		$private = $wgRequest->getVal('private');
 		$uploading = $wgRequest->getVal('upload');
 		$private2 = $wgRequest->getVal('private2');
-
-
 		if($wgRequest->getVal('create') == '1') { //Submit button pressed
 			//Check for pathways with the same name and species
 			$exist = Pathway::getPathwaysByName($pwName, $pwSpecies);
@@ -82,11 +71,8 @@ class CreatePathway extends SpecialPage {
 			$this->showForm();
 		}
 	}
-
 	function doUpload($uploading, $private2) {
 		global $wgRequest, $wgOut, $wpiScriptURL, $wgUser;
-
-
 		try {
 			//Check for something... anything
 			if ( count( $_FILES ) && isset( $_FILES["gpml"] ) ) {
@@ -126,7 +112,6 @@ class CreatePathway extends SpecialPage {
 			$this->showForm('','',false,'', $uploading, $private2);
 		}
 	}
-
 	function startEditor($pwName, $pwSpecies, $private) {
 		global $wgRequest, $wgOut, $wpiScriptURL;
 		$backlink = '<a href="javascript:history.back(-1)">Back</a>';
@@ -140,10 +125,8 @@ class CreatePathway extends SpecialPage {
 			return;
 		}
 	}
-
-	function showForm($pwName = '', $pwSpecies = '', $override = '', $private = '', $uploading = 0, $private2 = '') {
+	function showForm($pwName = '', $pwSpecies = '', $override = '', $private = '', $uploading = 1, $private2 = '') {
 		global $wgRequest, $wgOut, $wpiScriptURL;
-
 		$form_method = null;
 		$form_extra = null;
 		$upload_check = null;
@@ -163,7 +146,7 @@ class CreatePathway extends SpecialPage {
 		}
 		if($private2) $private2 = 'CHECKED';
 		$html_upload = "<FORM action='$this->this_url' method='post' enctype='multipart/form-data'>
-				<table style='margin-left: 0px;'><td>
+				<table style='margin-left: 20px;'><td>
 					<INPUT type='file' name='gpml' size='40'>
 					<tr><td>
 					<INPUT type='checkbox' name='private2' value='1' $private2> $this->create_priv_msg
@@ -186,27 +169,27 @@ class CreatePathway extends SpecialPage {
 				if($override) {
 					$html_editor .= "<input type='hidden' name='override' value='1'>";
 				}
-
 				if($private) $private = 'CHECKED'; //private is array? array to string conversion notice
 				$html_editor .= "<tr><td colspan='2'><input type='checkbox' name='private' value='1' $private> $this->create_priv_msg
 				<input type='hidden' name='create' value='1'>
 				<input type='hidden' name='title' value='Special:CreatePathway'>
 				<tr><td><input type='submit' value='Create pathway'> </table></FORM><BR>";
-
 					$wgOut->addHTML("
-			<P><B>This interface lets you upload a pathway in gpml format. If you have a gpml file already, use the interface below.</B><P>
-			<P>Here's how to use PathVisio to create a pathway: <OL>
-			<LI>Install <a href='http://www.pathvisio.org'>PathVisio</a></LI>
-			<LI>Create your pathway. More about editing in PathVisio <a href='http://www.pathvisio.org/documentation/editing-and-viewing-pathways/'>here</a>.</LI>
-			<LI>Upload your pathway through the interface below</LI>
-			</OL>
-			<P><B>Alternative:</B> Upload your pathway directly from PathVisio using the <a href ='http://plugins.pathvisio.org/wp-client'>WikiPathways client plugin</a>.
-			<BR>To do this, first install the plugin in the PathVisio Plugin Manager. Then, to upload your pathway, go to “Plugins > WikiPathways > Upload New”.
-						<HR>
+						<P><B>This interface lets you upload a pathway in gpml format. If you have a gpml file already, use the interface below.</B><P>
+						<P>Here's how to use PathVisio to create a pathway: 
+						<OL>
+							<LI>Install <a href='http://www.pathvisio.org'>PathVisio</a></LI>
+							<LI>Create your pathway. More about editing in PathVisio <a href='http://www.pathvisio.org/documentation/editing-and-viewing-pathways/'>here</a>.</LI>
+							<LI>Upload your pathway through the interface below</LI>
+						</OL>
+						<P><B>Alternative:</B> Upload your pathway directly from PathVisio using the <a href ='http://plugins.pathvisio.org/wp-client'>WikiPathways client plugin</a>.
+						<BR>To do this, first install the plugin in the PathVisio Plugin Manager. Then, to upload your pathway, go to “Plugins > WikiPathways > Upload New”.
+						<HR><HR>
+
 						<FORM>
 						<TABLE width='100%'><TBODY>
-						
-						
+						<TR><TD><INPUT onclick='showEditor()' type='radio' name='visibility' value='editor' $editor_check><B>Use Editor</B><DIV id='editor' $editor_vis>$html_editor</DIV></DIV>
+						<TR><TD><INPUT onclick='showUpload()' type='radio' name='visibility' value='upload' $upload_check><B>Upload File</B>
 						<DIV id='upload' $upload_vis>
 			$html_upload
 						</DIV>
@@ -214,8 +197,6 @@ class CreatePathway extends SpecialPage {
 						</FORM>
 						"
 					);
-
-
 					$wgOut->addScript("
 <script type='text/javascript'>
 				function showEditor() {
@@ -230,8 +211,6 @@ class CreatePathway extends SpecialPage {
 						var elm = document.getElementById('editor');
 						elm.style.display = 'none';
 				}
-
 </script>");
 	}
-
 }

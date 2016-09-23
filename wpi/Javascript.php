@@ -15,9 +15,9 @@ function wpiAddJavascript(&$out, $parseroutput) {
 
 	//Array containing javascript source files to add
 	if(!isset($wpiJavascriptSources)) $wpiJavascriptSources = array();
-	$wpiJavascriptSources[] = "/w/skins/wikipathways/waypoints.js";
-	$wpiJavascriptSources[] = "/w/skins/wikipathways/waypoints-infinite.js";
-	$wpiJavascriptSources[] = "/w/skins/wikipathways/wikipathways-custom.js";
+	$wpiJavascriptSources[] = "/w/skins/WikiPathways/waypoints.js";
+	$wpiJavascriptSources[] = "/w/skins/WikiPathways/waypoints-infinite.js";
+	$wpiJavascriptSources[] = "/w/skins/WikiPathways/wikipathways-custom.js";
 	$wpiJavascriptSources[] = "/w/skins/common/wikibits.js";
 	$wpiJavascriptSources = array_unique($wpiJavascriptSources);
 
